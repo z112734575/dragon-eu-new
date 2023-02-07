@@ -22,6 +22,14 @@
 }
 {%- endstyle -%}
 
+<style>
+    @media (max-width: 767px) {
+        #Overview.t4s-tab-wrapper iframe {
+            height: 300px;
+        }
+    }
+</style>
+
 {%- liquid
 assign pid              = product.id
 assign typeBlocks       = seBlocks | map:'type'
@@ -148,7 +156,7 @@ assign listTyCurent2 = ''  -%}
           endunless -%}
 
           {%- case block.type -%}
-            {%- when 'tab_des' 
+            {%- when 'tab_des'  -%}
             {%- assign diff_images = product.metafields.custom.diff_product_image | split: '***IMAGE***' -%}
             {%- assign diff_image_pc = diff_images[0] -%}
             {%- assign diff_image_pe = diff_images[1] -%}
