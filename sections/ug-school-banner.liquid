@@ -1,0 +1,111 @@
+{{ 'ug-school.css' | asset_url | stylesheet_tag }}
+<div class="ug-school">
+  <div class="ug-school-banner">
+    <div class="ug-school-banner-box">
+      <div class="ug-school-banner-off">Special <b>BOGO</b> Event</div>
+      <div class="ug-school-banner-title">
+        <img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Back-To-School_Sale.png?v=1659426142"/>
+      </div>
+      <div class="ug-school-banner-desc">Get fully equipped for the school year</div>
+      <div class="ug-school-banner-time">
+        <span>TIME</span>Aug 10 - Sep 15
+      </div>
+    </div>
+  </div>
+  <div class="ug-school-discount-box">
+    <div class="item">
+      {% comment %}<div class="badge">For All Site</div>{% endcomment %}
+      <div class="left">
+        <span class="save">Save </span>
+        <span class="off">$15</span>
+        <span class="desc">On purchases over $99</span>
+      </div>
+      <div class="right">
+        <div class="code"> Code: BTS15</div>
+        <button data-clipboard-text="BTS15">COPY</button>
+      </div>
+    </div>
+    <div class="item">
+      {% comment %}<div class="badge">For All Site</div>{% endcomment %}
+      <div class="left">
+        <span class="save">Save </span>
+        <span class="off">$29</span>
+        <span class="desc">On purchases over $199</span>
+      </div>
+      <div class="right">
+        <div class="code"> Code: BTS29</div>
+        <button data-clipboard-text="BTS29">COPY</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="ug-school-discount-box ug-school-discount-off">
+    <div class="item">
+      <div class="left">
+        <span class="save">12%</span>
+        <span class="off">OFF</span>
+        <span class="desc">Applied to Chargers Category</span>
+      </div>
+      <div class="right">
+        <div class="code"> Code: BTS12</div>
+        <button data-clipboard-text="BTS15">COPY</button>
+      </div>
+    </div>
+    <div class="item">
+      <div class="left">
+        <span class="save">15%</span>
+        <span class="off">OFF</span>
+        <span class="desc">Applied to Hubs & Adapters Category</span>
+      </div>
+      <div class="right">
+        <div class="code"> Code: BTS15H</div>
+        <button data-clipboard-text="BTS15H">COPY</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="ug-school-tabs-box">
+    <div class="ug-school-tabs">
+      <a href="#ug-scroll-2" class="active">BOGO Event</a>
+      <a href="#ug-scroll-1">Essentials for you</a>
+      <a href="#ug-scroll-3">Less than 12.99 USD </a>
+    </div>
+  </div>
+  {% comment %}<div  id="ug-scroll-1" class="ug-scroll ug-school-title">Essentials for you</div>{% endcomment %}
+</div>
+<script>
+  $(function () {
+      $(window).on('scroll', function() {
+        if($(window).scrollTop()+1 >= $('.ug-school-tabs-box').offset().top) {
+          $('.ug-school-tabs').addClass('ug-school-fixed')
+        }else {
+          $('.ug-school-tabs').removeClass('ug-school-fixed')
+        }
+        $('.ug-scroll').each(function() {
+          if($(window).scrollTop()+1 >= $(this).offset().top) {
+            var id = $(this).attr('id');
+            $('.ug-school-tabs a').removeClass('active');
+            $('.ug-school-tabs a[href="#'+ id +'"]').addClass('active');
+          }
+        });
+      });
+  })
+</script>
+{% schema %}
+  {
+    "name": "ugreen school banner",
+    "settings": [],
+    "presets": [
+      {
+        "name": "ugreen school banner"
+      }
+    ],
+    "templates": ["page"]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

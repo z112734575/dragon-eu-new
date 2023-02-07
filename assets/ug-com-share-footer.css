@@ -1,0 +1,112 @@
+@media (min-width: 768px) {
+    .ug-com-share-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F8F8F8;
+    margin-top: 65px;
+    margin-bottom: 100px;
+  }
+  .ug-com-share-footer-title {
+    font-size: 24px;
+    font-family: Poppins-SemiBold, Poppins;
+    font-weight: 600;
+    color: #000000;
+    line-height: 28px;
+    margin-bottom: 6px;
+  }
+  .ug-com-share-footer-share {
+    font-size: 16px;
+    font-family: Poppins-Medium, Poppins;
+    font-weight: 500;
+    color: #131414;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .ug-com-share-footer ul {
+    width: 192px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .ug-com-share-footer ul li img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 767px) {
+    .ug-com-share-footer {
+    width: 100%;
+    margin-top: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #F8F8F8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+  .ug-com-share-footer-title {
+    font-size: 20px;
+    font-family: Poppins-SemiBold, Poppins;
+    font-weight: 600;
+    color: #000000;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .ug-com-share-footer-share {
+    font-size: 16px;
+    font-family: Poppins-Medium, Poppins;
+    font-weight: 500;
+    color: #131414;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .ug-com-share-footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0;
+  }
+  .ug-com-share-footer ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

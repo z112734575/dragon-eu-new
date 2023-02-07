@@ -1,0 +1,268 @@
+<style>
+    /*ug-featured*/
+    .ug-featured {
+        /*height: 620px;*/
+        background: linear-gradient(180deg, #1C1C1E 0%, #747A81 100%);
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .ug-featured .title {
+        font-size: 36px;
+        font-weight: bold;
+        color: inherit;
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 60px;
+    }
+    .ug-featured-box {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .ug-featured-box .content {
+        width: 50%;
+        padding-top: 100px;
+    }
+    .ug-featured-box .content .text {
+        font-size: 32px;
+        font-weight: 500;
+        color: inherit;
+        line-height: 1.5;
+        margin-bottom: 68px;
+    }
+    .ug-featured-box .content .person-name {
+        font-size: 20px;
+        font-weight: 500;
+        color: inherit;
+        line-height: 1.2;
+    }
+    .ug-featured-box .person {
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .ug-featured-box .person img {
+        width: 100%;
+        display: block;
+    }
+    .ug-featured-main {
+        width: 1200px;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+        align-items: flex-end;
+    }
+    .ug-featured .cursor-btns {
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        width: 116px;
+    }
+    .cursor-btn {
+        display: inline-block;
+    }
+    .cursor-btns .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+        background: white;
+        border-radius: 50%;
+    }
+    .cursor-btns .cursor-btn {
+        cursor: pointer;
+        pointer-events: auto;
+        padding: 2px;
+    }
+
+    .cursor-btns .swiper-slide-thumb-active {
+        opacity: 1;
+    }
+
+    .cursor-btn img {
+        width: 32px;
+        display: block;
+    }
+    .ug-featured .ug-featured-main .swiper-slide {
+        opacity: 0 !important;
+    }
+    .ug-featured .ug-featured-main .swiper-slide.swiper-slide-active {
+        opacity: 1 !important;;
+    }
+    .ug-featured .swiper {
+        overflow: initial;
+    }
+    .ug-featured .swiper-button-next {
+        right: -80px;
+        color: white;
+        top: 38%;
+        opacity: .5;
+    }
+    .ug-featured .swiper-button-next::after {
+        font-size: 32px;
+    }
+    .ug-featured .swiper-button-prev {
+        left: -80px;
+        color: white;
+        top: 38%;
+        opacity: .5;
+    }
+    .ug-featured .swiper-button-prev::after {
+        font-size: 32px;
+    }
+    .ug-featured .swiper-button-next.hover,
+    .ug-featured .swiper-button-prev.hover{
+        opacity: 1;
+    }
+    @media(max-width: 767px) {
+        .ug-featured {
+            height: auto;
+        }
+        .ug-featured .title {
+            font-size: 24px;
+            line-height: 1.2;
+            margin-bottom: 40px;
+        }
+        .ug-featured-box {
+            flex-wrap: wrap;
+        }
+        .ug-featured-box .content {
+            width: 100%;
+            padding: 0 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 135px;
+        }
+        .ug-featured-box .content .text {
+            font-size: 14px !important;
+            line-height: 1.2;
+            margin-bottom: 40px;
+            color: inherit;
+            order: 2;
+        }
+        .ug-featured-box .content .person-name {
+            font-size: 20px;
+            line-height: 1.2;
+            margin-bottom: 4px;
+        }
+        .ug-featured-box .person {
+            width: 100%;
+        }
+        .ug-featured-box .person img {
+            width: 100%;
+            display: block;
+        }
+        .ug-featured-main {
+            width: 100%;
+            height: auto;
+            align-items: flex-start;
+        }
+        .ug-featured .cursor-btns {
+            top: 22%;
+            bottom: auto;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .ug-featured .swiper-thumbs .swiper-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    /*ug-featured*/
+</style>
+
+<section class="ug-featured">
+    <div class="title">Featured On</div>
+    <div class="ug-featured-swiper swiper">
+        <div class="ug-featured-main swiper-wrapper">
+            {% comment %}<div class="ug-featured-box swiper-slide">{% endcomment %}
+                {% comment %}<div class="content">{% endcomment %}
+                    {% comment %}<div class="text">" Ugreen's Taking Your Charging to the Next Level with Their New Nexode 100w{% endcomment %}
+                        {% comment %}Charger. "{% endcomment %}
+                    {% comment %}</div>{% endcomment %}
+                    {% comment %}<div class="person-name"># Unbox Therapy111</div>{% endcomment %}
+                {% comment %}</div>{% endcomment %}
+                {% comment %}<div class="person">{% endcomment %}
+                    {% comment %}<img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/featured1.png?v=1670312426"{% endcomment %}
+                         {% comment %}alt="man">{% endcomment %}
+                {% comment %}</div>{% endcomment %}
+            {% comment %}</div>{% endcomment %}
+            <div class="ug-featured-box swiper-slide">
+                <div class="content">
+                    <div class="text">" UGREEN's taking your charging to the next level with their new Nexode 100w
+                        charger. "
+                    </div>
+                    <div class="person-name"># Linus Tech Tips</div>
+                </div>
+                <div class="person">
+                    <img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/kol_1_75fbf2ca-eb46-4758-9a5e-fb8b0aa57885.png?v=1672918785"
+                         alt="man">
+                </div>
+            </div>
+            <div class="ug-featured-box swiper-slide">
+                <div class="content">
+                    <div class="text" style="font-size: 24px">" One decision that I can make very easy for you is to ditch all of your old
+                        charging bricks and get one that can do absolutely everything so this the Nexode 100W. "
+                    </div>
+                    <div class="person-name"># Jon Rettinger</div>
+                </div>
+                <div class="person">
+                    <img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/kol_2_5d351fda-603c-4d56-a6ba-d0fef830b1e9.png?v=1672918785"
+                         alt="man">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="cursor-btns swiper" thumbsSlider="">
+            <div class="swiper-wrapper">
+                {% comment %}<span class="cursor-btn swiper-slide"><img{% endcomment %}
+                            {% comment %}src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/featured-icon1.png?v=1670312422"{% endcomment %}
+                            {% comment %}alt=""></span>{% endcomment %}
+                <span class="cursor-btn swiper-slide"><img
+                            src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/featured-icon2.png?v=1670312422"
+                            alt=""></span>
+                <span class="cursor-btn swiper-slide"><img
+                            src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/featured-icon3.png?v=1670312422"
+                            alt=""></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $('.ug-featured').mouseover(function () {
+        $('.ug-featured .swiper-button-next,.ug-featured .swiper-button-prev').addClass('hover');
+    });
+
+    $('.ug-featured').mouseleave(function () {
+        $('.ug-featured .swiper-button-next,.ug-featured .swiper-button-prev').removeClass('hover');
+    });
+    const cursorBtns = new Swiper(".cursor-btns", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        watchSlidesVisibility: true //防止不可点击
+    });
+
+    const featuredSwiper = new Swiper('.ug-featured-swiper', {
+        spaceBetween: 30,
+        effect: "fade", // 需要注意缩略图样式影响
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 5000,
+        },
+        thumbs: {
+            swiper: cursorBtns,
+        },
+    })
+</script>

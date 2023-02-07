@@ -1,0 +1,115 @@
+<div class="ug-apple">
+    <div class="ug-apple-product-title-line">
+      <h2 class="ug-apple-product-title">
+        {{ section.settings.title }}
+      </h2>
+      <div class="ug-apple-product-sub-title">{{ section.settings.sub_title }}</div>
+    </div>
+    <ul class="ug-apple-product-list">
+        {% for product in section.settings.product_list %}
+            <li>
+                <a href="{{ product.url }}" target="_blank">
+                    <div class="ug-apple-product-img-wrap">
+                        <img class="ug-apple-product-main" src="{{ product.featured_media | img_url: "400x" }}"/>
+                    </div>
+                </a>
+                <div class="is-pc">
+                    <div class="ug-apple-product-options">
+                        {% for variant in product.variants %}
+                            <div class="variant-border {% if forloop.index == 1 %} active {% endif %}">
+                                <span style="background-color: {{ variant.options }}"></span>
+                                <img alt="" style="display: none" src="{{ variant.featured_media | img_url: "400x" }}"/>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <a href="{{ product.url }}" target="_blank">
+                        <h3>{{ product.title }}</h3>
+                    </a>
+                    <div class="variant-box">
+                      {% if product.compare_at_price %}
+                        <del class="compare-price">{{ product.compare_at_price | money }}</del>
+                       {% endif %}      
+                        <p class="{% if product.compare_at_price %}has-compare{% endif %}">{{ product.price | money }}</p>
+                        <a href="{{ product.url }}" target="_blank">
+                            Buy
+                        </a>
+                    </div>
+                </div>
+                <div class="is-pe">
+                    <a href="{{ product.url }}" target="_blank">
+                        <h3>{{ product.title }}</h3>
+                    </a>
+                    <div class="price-line">
+                        {% if product.compare_at_price %}
+                        <del class="compare-price">{{ product.compare_at_price | money }}</del>
+                       {% endif %}      
+                        <p class="{% if product.compare_at_price %}has-compare{% endif %}">{{ product.price | money }}</p>
+                    </div>
+                    <div class="variant-box">
+                        <div class="ug-apple-product-options">
+                            {% for variant in product.variants %}
+                                <div class="variant-border {% if forloop.index == 1 %} active {% endif %}">
+                                    <span style="background-color: {{ variant.options }}"></span>
+                                    <img alt="" style="display: none"
+                                         src="{{ variant.featured_media | img_url: "400x" }}"/>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <a href="{{ product.url }}" target="_blank">
+                            <div class="ug-apple-product-buy-btn">Buy</div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+        <!--         <div class="ug-apple-more">
+            <a href="{{ section.settings.button_link }}" target="_blank">{{ section.settings.button_text }}</a></div> -->
+    </ul>
+</div>
+<script>
+    $(function () {
+        $('.variant-border').click(function () {
+            var variantImg = $(this).children('img').attr('src')
+            $(this).parents('li').find('.ug-apple-product-main').attr('src', variantImg)
+            $(this).siblings().removeClass('active')
+            $(this).addClass('active')
+        })
+    })
+</script>
+{% schema %}
+{
+  "name": "ugreen apple products",
+  "settings": [
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Products",
+      "limit": 6
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ugreen apple products"
+    }
+  ],
+  "templates": [
+    "page"
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

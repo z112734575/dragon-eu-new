@@ -1,0 +1,403 @@
+<style type="text/css">
+    .s-1455074946 .cs-form-wrap input:not([type="radio"]):not([type="checkbox"]), .s-1455074946 .cs-form-wrap select, .s-1455074946 .cs-form-wrap textarea {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        outline: none;
+        -webkit-outline: none;
+        -moz-outline: none;
+        -o-outline: none;
+        box-shadow: none;
+        background-color: #fff;
+        color: #222;
+        border: 1px solid #ced4da;
+        width: 100%;
+        font-family: arial;
+        font-size: 14px;
+        line-height: 1.3;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        border-radius: 3px;
+    }
+    .s-1455074946 .cs-form-wrap::-webkit-input-placeholder {
+        color: #222;
+        font-family: arial;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .s-1455074946 .cs-form-wrap:-ms-input-placeholder {
+        color: #222;
+        font-family: arial;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .s-1455074946 .cs-form-wrap::placeholder {
+        color: #222;
+        font-family: arial;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .s-1455074946 .cs-form-wrap select {
+        background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+        background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px, 5px 5px, 1px 1.5em;
+        background-repeat: no-repeat;
+    }
+    .s-1455074946 .cs-form-wrap textarea {
+        max-width: 100%;
+        min-height: 100px;
+    }
+    .s-1455074946 .cs-form-wrap label.required::after {
+        content: "*";
+        font-size: 14px;
+        line-height: 1;
+        margin-left: 2px;
+        color: red;
+        display: inline-block;
+    }
+    .s-1455074946 .cs-form-wrap .radio-group {
+        overflow: hidden;
+        clear: both;
+    }
+    .s-1455074946 .cs-form-wrap .radio-group > div {
+        margin-bottom: 6px;
+        float: left;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .s-1455074946 .cs-form-wrap .radio-group > div input {
+        margin-top: 0px;
+        margin-right: 5px;
+    }
+    .s-1455074946 .cs-form-wrap .radio-group > div label {
+        margin: 0px;
+        cursor: pointer;
+    }
+    .s-1455074946 .cs-form-wrap label {
+        font-weight: 600;
+        font-size: 14px;
+        display: inline-block;
+        margin-bottom: 2px;
+    }
+    .s-1455074946 .cs-form-wrap div.radio-group div > label {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .s-1455074946 .cs-form-wrap .form-submit-btn-wrap button {
+        padding: 10px 30px;
+        background: #fff;
+        border: 1px solid #969a9c;
+    }
+    .s-1455074946 .has-error input, .s-1455074946 .has-error textarea {
+        border: 1px solid #d82c0d !important;
+    }
+    .s-1455074946 .has-error .help-block {
+        color: #d82c0d;
+    }
+    .s-1455074946 .radio-group {
+        overflow: hidden;
+        clear: both;
+    }
+    .s-1455074946 .radio-group > div {
+        margin-bottom: 6px;
+        float: left;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .s-1455074946 .radio-group > div input {
+        margin-top: 0px;
+        margin-right: 5px;
+    }
+    .s-1455074946 .radio-group > div input label {
+        margin: 0px;
+        cursor: pointer;
+    }
+    .s-1455074946 .contact-form .sortable {
+        margin-bottom: 10px;
+    }
+    .s-1455074946 .contact-form input:not([type="checkbox"], .s-1455074946  [type="radio"]), .s-1455074946 .contact-form select, .s-1455074946 .contact-form textarea {
+        width: 100%;
+    }
+    .s-1455074946 .contact-form select {
+        margin: 0 0 10px;
+    }
+    .s-1455074946 .contact-form input[type="checkbox"], .s-1455074946 .contact-form input[type="radio"] {
+        margin-right: 5px;
+    }
+    .s-1455074946 .simple-rating i {
+        color: #f5ba00;
+        display: inline-block;
+        padding: 1px 2px;
+        cursor: pointer;
+    }
+    .s-1455074946 .element-group {
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .s-1455074946 .element-group.cs-width-100 {
+        width: 100%;
+        padding: 0 10px;
+        vertical-align: top;
+    }
+    .s-1455074946 .element-group.cs-width-50 {
+        width: 50%;
+        padding: 0 10px;
+        vertical-align: top;
+    }
+    .s-1455074946 .element-group.cs-width-33 {
+        width: 33.33%;
+        padding: 0 10px;
+        vertical-align: top;
+    }
+    .s-1455074946 .xdsoft_datetimepicker .xdsoft_datepicker.active + .xdsoft_timepicker {
+        width: max-content;
+    }
+    @media (max-width: 767px) {
+        .s-1455074946 .element-group.cs-width-50 {
+            width: 100% !important;
+        }
+        .s-1455074946 .element-group.cs-width-33 {
+            width: 100% !important;
+        }
+    }
+    .s-1455074946 .element-group .form-submit-btn-wrap {
+        width: 100%;
+    }
+    .s-1455074946 .cs-form-wrap .Polaris-DisplayText.Polaris-DisplayText--sizeMedium span {
+        padding: 0 10px;
+    }
+    .s-1455074946 .drop-area-warp {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .s-1455074946 .element-group .cs-image img {
+        max-width: 100%;
+    }
+    .s-1455074946 .recaptcha_wrap {
+        padding: 10px;
+    }</style>
+<style>
+    .ug-footer-subscribe {
+        padding-bottom: 50px;
+        border-bottom: 1px solid #727273;
+        max-width: 1200px;
+        margin: 0 auto 40px;
+    }
+    .s-1455074946 .element-group {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .s-1455074946 .element-group.cs-width-100 {
+        padding: 0 20px 0 0;
+    }
+    .ug-footer-subscribe .alert.alert-success, .ug-footer-subscribe .alert.alert-error {
+        display: none;
+    }
+    .ug-footer-subscribe .ug-input-main {
+        display: flex;
+        align-items: center;
+    }
+    .ug-footer-subscribe-title {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .ug-footer-subscribe-title h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        color: inherit;
+    }
+    .ug-footer-subscribe-title h6 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: inherit;
+    }
+    .ug-input-main .Polaris-FormLayout .element-group input {
+        background: #F5F5F7 !important;
+    }
+    .ug-input-main > .element-group {
+        align-self: flex-start;
+    }
+    .ug-footer-subscribe .Polaris-FormLayout {
+        flex: 1;
+    }
+    .ug-footer-subscribe .s-1455074946 .cs-form-wrap .form-submit-btn-wrap .submit-btn {
+        background: #03F2A6;
+        color: black;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        height: 40px;
+        border-radius: 4px;
+    }
+    .ug-footer-subscribe .s-1455074946 .cs-form-wrap .form-submit-btn-wrap .submit-btn:hover {
+        background: #00CC88;
+    }
+    .ug-footer-subscribe-steps {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    .ug-footer-subscribe-steps .ug-footer-subscribe-step {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #BEBEBF;
+        margin-right: 80px;
+        font-size: 16px;
+    }
+    .ug-footer-subscribe-steps .ug-footer-subscribe-step .ug-footer-subscribe-step-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #F0F0F2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: black;
+        margin-right: 16px;
+    }
+    .ug-footer-subscribe-step-description p {
+        margin-bottom: 0;
+    }
+    @media (max-width: 767px) {
+        .ug-footer-subscribe {
+            width: 100%;
+            padding: 0 20px 30px;
+            margin-bottom: 24px;
+        }
+        .s-1455074946 .element-group {
+            margin-bottom: 0;
+        }
+        .s-1455074946 .element-group.cs-width-100 {
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        .ug-footer-subscribe-title {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .ug-footer-subscribe-title h1 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .ug-footer-subscribe-title h6 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        .ug-footer-subscribe .ug-input-main {
+            flex-direction: column;
+            align-items: inherit;
+        }
+        .ug-input-main > .element-group {
+            align-self: inherit;
+        }
+        .ug-footer-subscribe .submit-btn {
+            width: 100%;
+        }
+        .ug-footer-subscribe-steps {
+            justify-content: space-around;
+            margin-top: 32px;
+            margin-bottom: 0;
+        }
+        .ug-footer-subscribe-steps .ug-footer-subscribe-step {
+            flex-direction: column;
+            font-size: 12px;
+            line-height: 1.2;
+            margin-right: 0;
+            text-align: center;
+        }
+        .ug-footer-subscribe-steps .ug-footer-subscribe-step .ug-footer-subscribe-step-icon {
+            margin-right: 0;
+            margin-bottom: 10px;
+            width: 26px;
+            height: 26px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+</style>
+
+<!-- csform -->
+<div class="ug-footer-subscribe">
+    <div class="ug-footer-subscribe-title">
+        <h1>Get 10% Off You First Purchase</h1>
+        <h6>Just Three Easy Steps to Savings</h6>
+    </div>
+    <div class="center-col cs-custom-form s-1455074946">
+        <div class="form-col-wrap">
+            <form method="post" action="https://ecf.cirkleinc.com/api/form-submit" class="cs-form-wrap"
+                  id="548a7a05-0d7e-4cd5-99e2-f1f97a698130">
+                <div class="ug-input-main">
+                    <div class="Polaris-FormLayout">
+                        <div class="Polaris-FormLayout__Item">
+                            <div class="sc-jJEKmz">
+                                <div class="sc-citxvW sc-iUuxjF gYTLuO iidRym drop-area-warp">
+                                    <div class="element-group  cs-width-100"><input
+                                                type="email" id="email" name="email" placeholder="Enter Email" class="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element-group">
+                        <div class="form-submit-btn-wrap" style="justify-content: left; display: flex;">
+                            <button type="submit" class="submit-btn" style="font-weight: 600">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="ug-footer-subscribe-steps">
+        <div class="ug-footer-subscribe-step">
+            <div class="ug-footer-subscribe-step-icon">
+                1
+            </div>
+            <div class="ug-footer-subscribe-step-description">
+                <p>Enter Your Email Below</p>
+            </div>
+        </div>
+        <div class="ug-footer-subscribe-step">
+            <div class="ug-footer-subscribe-step-icon">
+                2
+            </div>
+            <div class="ug-footer-subscribe-step-description">
+                <p>Create a My UGREEN Account</p>
+            </div>
+        </div>
+        <div class="ug-footer-subscribe-step">
+            <div class="ug-footer-subscribe-step-icon">
+                3
+            </div>
+            <div class="ug-footer-subscribe-step-description">
+                <p>Get Your 10% off Voucher</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- csform -->
+<script src="https://ecf.cirkleinc.com/public/frontend/js/form-builder-helper-v2.js" defer></script>
+<script>
+    function beforeSubmit(form) {
+        return true;
+    }
+
+    function afterSubmit(form) {
+        return true;
+    }
+</script>

@@ -1,0 +1,90 @@
+<div class="ug-school">
+    <ul class="ug-school-product-list">
+        <li class="ug-school-product-ads">
+            <img class="is-pc" src="{{ section.settings.pc_image | img_url: "400x" }}"/>
+            <img class="is-pe" src="{{ section.settings.mobile_image | img_url: "400x" }}">
+        </li>
+        {% for product in section.settings.product_list %}
+        <li>
+            <a href="{{ product.url }}">
+                <img class="ug-school-product-main" src="{{ product.featured_media | img_url: "400x" }}"/>
+                {% if product.metafields.custom.school_off %}
+                    <div class="ug-school-product-discount">{{ product.metafields.custom.school_off }}</div>
+                {% endif %}
+                <h3>{{ product.title }}</h3>
+            </a>
+            <p>{{ product.price | money }}</p>
+            <div class="variant-box">
+                {% for variant in product.variants %}
+                <div class="variant-border {% if forloop.index == 1 %} active {% endif %}">
+                    <span style="background-color: {{ variant.options }}"></span>
+                    <img alt="" style="display: none" src="{{ variant.featured_media | img_url: "400x" }}"/>
+                </div>
+                {% endfor %}
+                <a href="{{ product.url }}">
+                    <img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Group_408.png?v=1659594829"/>
+                </a>
+            </div>
+        </li>
+        {% endfor %}
+        <div class="ug-school-more">
+            <a href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a></div>
+    </ul>
+</div>
+<script>
+    $(function () {
+        $('.variant-border').click(function () {
+            var variantImg = $(this).children('img').attr('src')
+            $(this).parents('li').find('.ug-school-product-main').attr('src', variantImg)
+            $(this).siblings().removeClass('active')
+            $(this).addClass('active')
+        })
+    })
+</script>
+{% schema %}
+{
+  "name": "ugreen school products",
+  "settings": [
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Products",
+      "limit": 7
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "button text"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "mobile image"
+    },
+    {
+      "type": "image_picker",
+      "id": "pc_image",
+      "label": "pc image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ugreen school products"
+    }
+  ],
+  "templates": [
+    "page"
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

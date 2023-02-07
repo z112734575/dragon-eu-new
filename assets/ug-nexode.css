@@ -1,0 +1,88 @@
+@media (min-width: 768px) {
+  .ug-nexode-box {
+    width: 100%;
+    height: 36.458vw;
+    position: relative;
+    display: block; }
+    .ug-nexode-box img {
+      width: 100%;
+      height: 36.458vw; }
+  .ug-nexode-info {
+    position: absolute;
+    width: 35.417vw;
+    top: 12.03125vw;
+    left: 12.8125vw; }
+  .ug-nexode-title {
+    font-size: 3.125vw;
+    font-family: Poppins-Bold;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 4.167vw;
+    margin-bottom: 1.042vw; }
+  .ug-nexode-desc {
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 3.28125vw; }
+  .ug-nexode-btn {
+    font-size: 0.9375vw;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #1D1D1F;
+    width: 8.385vw;
+    height: 2.96875vw;
+    line-height: 2.96875vw;
+    background-color: #FFFFFF;
+    border-radius: 5.208vw;
+    text-align: center; } }
+@media (max-width: 767px) {
+  .ug-nexode-box {
+    width: 100%;
+    height: 154.67vw;
+    position: relative; }
+    .ug-nexode-box img {
+      width: 100%;
+      height: 154.67vw; }
+  .ug-nexode-info {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .ug-nexode-title {
+    font-size: 6.93vw;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #000000;
+    line-height: 9.6vw;
+    text-align: center;
+    margin-top: 36.27vw;
+    margin-bottom: 2.4vw; }
+  .ug-nexode-desc {
+    font-size: 3.73vw;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 58.13vw; }
+  .ug-nexode-btn {
+    font-size: 4.8vw;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #1D1D1F;
+    width: 42.93vw;
+    height: 12vw;
+    background-color: #FFFFFF;
+    border-radius: 26.67vw;
+    line-height: 12vw;
+    text-align: center; } }

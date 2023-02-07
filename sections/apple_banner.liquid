@@ -1,0 +1,279 @@
+{{ 'ug-apple-activity.css' | asset_url | stylesheet_tag }}
+
+<div class="ug-apple">
+    <div class="ug-apple-banner is-pc" style="background-image: url({{ section.settings.pc_image | img_url: '3840x' }})">
+  
+    </div>
+      <div class="ug-apple-banner is-pe" style="background-image: url({{ section.settings.mobile_image | img_url: '750x' }})">
+  
+    </div>
+    <div class="ug-apple-window">
+        <div class="buttons" id="buttonWrap">
+            <button class="clickBtn active">
+                <div class="image-wrap">
+                    <img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/banner-icon1.png?v=1663206601"
+                         alt="iPhone">
+                </div>
+                <div class="button-text">For New iPhones</div>
+            </button>
+            <button class="clickBtn">
+                <div class="image-wrap">
+                    <img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/banner-icon2.png?v=1663206602"
+                         alt="iPad">
+                </div>
+
+                <div class="button-text">For New iPads</div>
+            </button>
+            <button class="clickBtn">
+                <div class="image-wrap">
+                    <img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/banner-icon3.png?v=1663206602"
+                         alt="Apple Watch">
+                </div>
+                <div class="button-text">For New Watches</div>
+            </button>
+        </div>
+        <div class="content">
+            <div class="item item1">
+              <a href="https://www.ugreen.com/products/ugreen-nexode-45w-dual-c-port-wall-charger" target="_blank">
+                <div class="ug-apple-product-banner">
+                    <div class="ug-apple-product-banner-content">
+                      <div class="ug-apple-product-banner-title">
+                          PD 45W GaN Charger
+                      </div>
+                      <div class="ug-apple-product-banner-sub">The iDEAL iPhone Charger</div>
+                      <div class="ug-apple-product-banner-btn">Learn More</div>
+                    </div>
+                    <div class="ug-apple-product-banner-img-wrap">
+                        <img class="is-pc" src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/apple-banner-product-45w.png?v=1663223960"/>
+                        <img class="is-pe" src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/apple-banner-product-45w-pe.png?v=1663223960"/>
+                    </div>
+                </div>
+              </a>
+                <ul class="item-total">
+                  {% for product in section.settings.product_list1 %}
+                      <li>
+                        <div class="item-left">
+                          <div class="item-title">{{ product.title  }}</div>
+                          <a href="{{ product.url }}" target="_blank">
+                            <div class="item-learn-btn"> Shop Now</div>
+                          </a>
+                        </div>
+                        <div class="item-right">
+                            <img src="{{ product.featured_media | img_url: "400x" }}" />
+                        </div>
+                      </li>
+                   {% endfor %} 
+                </ul>
+            </div>
+            <div class="item item2">
+              <a href="https://www.ugreen.com/products/65w-3-ports-gan-fast-charger" target="_blank">
+                <div class="ug-apple-product-banner">
+                    <div class="ug-apple-product-banner-content">
+                      <div class="ug-apple-product-banner-title">
+                          PD 65W GaN Charger
+                      </div>
+                      <div class="ug-apple-product-banner-sub">More Ports, More Choice</div>
+                      <div class="ug-apple-product-banner-btn">Learn More</div>
+                    </div>
+                    <div class="ug-apple-product-banner-img-wrap">
+                        <img class="is-pc" src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/apple-banner-product-65w.png?v=1663223961"/>
+                        <img class="is-pe" src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/apple-banner-product-65w-pe.png?v=1663223960"/>
+                    </div>
+                </div>
+              </a>
+                <ul class="item-total">
+                  {% for product in section.settings.product_list2 %}
+                      <li>
+                        <div class="item-left">
+                          <div class="item-title">{{ product.title  }}</div>
+                          <a href="{{ product.url }}" target="_blank">
+                            <div class="item-learn-btn"> Shop Now</div>
+                          </a>
+                        </div>
+                        <div class="item-right">
+                            <img src="{{ product.featured_media | img_url: "400x" }}" />
+                        </div>
+                      </li>
+                   {% endfor %} 
+                </ul>
+            </div>
+            <div class="item item3">
+              <a href="https://www.ugreen.com/products/ugreen-3-in-1-magsafe-wireless-charging-station"  target="_blank">
+                <div class="ug-apple-product-banner">
+                    <div class="ug-apple-product-banner-content">
+                      <div class="ug-apple-product-banner-title">
+                          3-in-1 MagSafe Wireless Charging Station
+                      </div>
+                      <div class="ug-apple-product-banner-sub">Charging Made Easier & Faster</div>
+                      <div class="ug-apple-product-banner-btn">Learn More</div>
+                    </div>
+                    <div class="ug-apple-product-banner-img-wrap">
+                         <img class="is-pc" src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/apple-banner-product-all.png?v=1663223960"/>
+                        <img class="is-pe" src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/apple-banner-product-all-pe.png?v=1663223960"/>
+                    </div>
+                </div>
+              </a>
+<!--                 <ul class="item-total">
+                  {% for product in section.settings.product_list3 %}
+                      <li>
+                        <div class="item-left">
+                          <div class="item-title">{{ product.title  }}</div>
+                          <a href="{{ product.url }}" target="_blank">
+                            <div class="item-learn-btn"> Learn More</div>
+                          </a>
+                        </div>
+                        <div class="item-right">
+                            <img src="{{ product.featured_media | img_url: "400x" }}" />
+                        </div>
+                      </li>
+                   {% endfor %} 
+                </ul> -->
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        let content = $('.content')
+        let allBtn = $('.clickBtn')
+        let imgLength = 3
+        let currentIndex = 0;
+        const mobileWidth = window.innerWidth
+        let bannerWidth = isMobile() ?  mobileWidth : 1200;
+
+        init()
+        
+        function init() {
+            makeFakeImg()
+            defaultAdded()
+            clickListen()
+        }
+
+        function defaultAdded() {
+            content.css({
+                transition: 'none',
+                'transform': 'translateX(' + -bannerWidth + 'px' + ')'
+            }).offset()
+
+            content.css({
+                transition: 'all,0.5s',
+            })
+            allBtn.eq(0).addClass('active').siblings().removeClass('active')
+        }
+
+        function makeFakeImg() {
+            content.children().eq(0).clone(true).appendTo('.content')
+            content.children().eq(imgLength - 1).clone(true).prependTo('.content')
+        }
+
+        function goToSlide(index) {
+            if (index >= imgLength) {
+                index = 0
+            } else if (index < 0) {
+                index = imgLength - 1
+            }
+
+            if (index === 0 && currentIndex === imgLength - 1) {
+                content.css({
+                    'transform': 'translateX(' + -(imgLength + 1) * bannerWidth + 'px' + ')'
+                }).one('transitionend', function () {
+                    content.css({
+                        transition: 'none',
+                        'transform': 'translateX(' + -(index + 1) * bannerWidth + 'px' + ')'
+                    }).offset()
+                    content.css({
+                        transition: 'all,0.5s',
+                    })
+                })
+            } else if (index === imgLength - 1 && currentIndex === 0) {
+                content.css({
+                    'transform': 'translateX(' + 0 + 'px' + ')'
+                }).one('transitionend', function () {
+                    content.css({
+                        transition: 'none',
+                        'transform': 'translateX(' + -(index + 1) * bannerWidth + 'px' + ')'
+                    }).offset()
+                    content.css({
+                        transition: 'all,0.5s',
+                    })
+                })
+            } else {
+                content.css({
+                    'transform': 'translateX(' + -(index + 1) * bannerWidth + 'px' + ')'
+                })
+            }
+            allBtn.eq(index).addClass('active').siblings().removeClass('active')
+            currentIndex = index;
+        }
+
+        function buttonLock(btn) {
+            btn.attr('disabled', true)
+            setTimeout(function () {
+                btn.attr('disabled', false)
+            }, 200)
+        }
+
+        function clickListen() {
+            $('#buttonWrap').on('click', '.clickBtn', function (e) {
+                let index = $(e.currentTarget).index()
+                if(index === 2) {
+                  $('.ug-apple-window .content').addClass('small-height')
+                } else {
+                  $('.ug-apple-window .content').removeClass('small-height')
+                }
+                buttonLock(allBtn)
+                goToSlide(index)
+            })
+        }
+      function isMobile() {
+        return window.innerWidth <= 767;
+      }
+    })
+</script>
+{% schema %}
+{
+  "name": "ugreen apple banner",
+  "settings": [
+     {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "mobile banner"
+    },
+    {
+      "type": "image_picker",
+      "id": "pc_image",
+      "label": "pc banner"
+    },
+    {
+      "type": "product_list",
+      "id": "product_list1",
+      "label": "Products iPhone",
+      "limit": 3
+    },
+    {
+      "type": "product_list",
+      "id": "product_list2",
+      "label": "Products iPad",
+      "limit": 3
+    },
+    {
+      "type": "product_list",
+      "id": "product_list3",
+      "label": "Products iWatch",
+      "limit": 3
+    }
+  ],
+  "presets": [
+    {
+      "name": "ugreen apple banner"
+    }
+  ],
+  "templates": ["page"]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

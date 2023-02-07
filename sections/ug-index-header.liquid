@@ -1,0 +1,118 @@
+<link rel="stylesheet"
+      href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790">
+<style>
+    .header__wrapper {
+        transition: all .3s;
+    }
+    .header-thirdly-type .t4s-header__wrapper {
+        --h-text-color: #000000;
+        --h-text-color-rgb: 0, 0, 0;
+        --h-text-color-hover: #000000;
+    }
+    .header-hover .t4s-header__wrapper {
+        --h-text-color: #000000;
+        --h-text-color-rgb: 0, 0, 0;
+        --h-text-color-hover: #000000;
+        --h-bg-color: #ffffff;
+    }
+    .header-second-type .t4s-header__wrapper {
+        --h-text-color: #000000;
+        --h-text-color-rgb: 0, 0, 0;
+        --h-text-color-hover: #000000;
+        --h-bg-color: #ffffff;
+    }
+    #shopify-section-header-inline.t4s-section-header {
+        position: sticky;
+        top: 30px;
+        transform: translateY(-30px);
+        z-index: 460;
+    }
+    .t4s-nav__ul li > a {
+        position: relative;
+    }
+    .t4s-nav__ul>li:hover > a::before {
+        content: '';
+        position: absolute;
+        bottom: -16px !important;
+        left: 17.5px !important;
+        top: auto !important;
+        width: calc(100% - 35px);
+        height: 30px;
+        background: transparent;
+        border-bottom: 2px solid black;
+    }
+    .t4s-nav__ul>li>a::before{
+        bottom: 0!important;
+    }
+</style>
+
+<script>
+    $(function () {
+        const normalLogo = 'https://cdn.shopify.com/s/files/1/0257/5246/9566/files/95.svg?v=1663919287';
+        const colorLogo = 'https://cdn.shopify.com/s/files/1/0257/5246/9566/files/logo_color__2X_5a5b583f-27a2-43db-8ec5-413265a5d565.png?v=1673246856';
+        const blackLogo = 'https://cdn.shopify.com/s/files/1/0257/5246/9566/files/logo_black__2X_4afba75b-1447-44bc-bb0c-f7b962309404.png?v=1673246859';
+        const header = $('.t4s-section-header')
+        const logo = $('.header__normal-logo')
+        const mobileLogo = $('.header__mobile-logo')
+        const invertClass = {
+            'header-second-type': 'header-hover',
+            'header-hover': 'header-second-type'
+        }
+
+        function addStatusType(type) {
+            if(header.hasClass(type)) return;
+            header.addClass(type);
+            logo.attr('src', colorLogo);
+            mobileLogo.attr('src', colorLogo)
+        }
+
+        function removeStatusType(type) {
+            header.removeClass(type);
+            if (header.hasClass(invertClass[type])){
+                logo.attr('src', colorLogo);
+                mobileLogo.attr('src', colorLogo)
+            } else if (header.hasClass('header-thirdly-type')) {
+                logo.attr('src', blackLogo);
+                mobileLogo.attr('src', blackLogo)
+            } else {
+                logo.attr('src', normalLogo);
+                mobileLogo.attr('src', normalLogo)
+            }
+        }
+
+        function hoverInit() {
+            // hover on header 展示效果
+            header.on('mouseover', function () {
+                addStatusType('header-hover')
+            })
+            header.on('mouseout', function () {
+                removeStatusType('header-hover')
+            })
+        }
+
+        function customStickyInit() {
+            // scroll on header 展示效果
+            const headerLine = $('#t4s-hsticky__sentinel')[0]; // header 中轴线，通过是否超过中轴线来判断是否展示效果
+            const io = new IntersectionObserver(function (entries) {
+                const {isIntersecting} = entries[0];
+                // 不完全展示时，添加效果
+                if (isIntersecting < 1) {
+                    addStatusType('header-second-type')
+                } else {
+                    removeStatusType('header-second-type')
+                }
+            }, {
+                threshold: [0, 1]
+            });
+            io.observe(headerLine);
+        }
+
+        if (window.innerWidth > 768) {
+            hoverInit()
+        }
+        customStickyInit()
+
+    })
+</script>
+
+<script src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_23a60c44-0efc-4129-bf9f-c046f688609a.js?v=1655275790"></script>
