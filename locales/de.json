@@ -636,7 +636,16 @@
       "sold_out_status": "Ausverkauft",
       "product_size_guide": "Größentabelle",
       "delivery_return": "Lieferung &amp; Rücksendung",
-      "ask_question": "Stelle eine Frage"
+      "ask_question": "Stelle eine Frage",
+      "include_taxes": "Steuern inklusive.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">Versand<\/a> wird an der Kasse berechnet.",
+      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\">Ab<\/span> {{price_min}}",
+      "Please_choose_pr_options": "Bitte wählen Sie einige Produktoptionen aus, bevor Sie dieses Produkt in Ihren Warenkorb legen.",
+      "choose_an_option": "Wähle eine Option",
+      "add_to_cart": "In den Warenkorb legen",
+      "pre_order": "Vorbestellen",
+      "unavailable": "Nicht verfügbar",
+      "sold_out": "Ausverkauft"
     },
     "product_card": {
       "read_more": "Weiterlesen",
@@ -709,6 +718,25 @@
         "other": "<span class=\"cp\">{{count}}<\/span> Produkte gefunden"
       },
       "clear_filter": "Filter löschen"
+    },
+    "aria_label": {
+      "select_option": "Optionen für „ {{product_title}} “ auswählen",
+      "add_to_cart": "Fügen Sie „ {{product_title}} “ zu Ihrem Einkaufswagen hinzu",
+      "read_more": "Lesen Sie mehr über „ {{product_title}} “"
+    },
+    "breadcrumb": {
+      "home": "Heim",
+      "back_to": "Zurück zu {{title}}"
+    },
+    "badge": {
+      "new": "Neu",
+      "sold_out": "Ausverkauft",
+      "on_sale": "Verkauf",
+      "pre_order": "Vorbestellen",
+      "save_amoun_html": "- {{ saved_amount }} %",
+      "save_amount_fixed_html": "- {{ saved_amount }}",
+      "save_amount_2_html": "{{ saved_amount }} %",
+      "save_amount_fixed_2_html": "{{ saved_amount }}"
     }
   },
   "search": {
@@ -753,6 +781,114 @@
     "general": {
       "cookies_required": "Aktivieren Sie Cookies, um den Warenkorb zu verwenden",
       "taxes_and_shipping_at_checkout": "Steuern und Versandkosten werden an der Kasse berechnet"
+    }
+  },
+  "socials": {
+    "share_pr": "Auf Pinterest teilen",
+    "share_tu": "Auf Tumblr teilen",
+    "share_tl": "Auf Telegramm teilen",
+    "share_wa": "Auf WhatsApp teilen",
+    "follow_fb": "Folgen Sie auf Facebook",
+    "follow_tw": "Auf Twitter folgen",
+    "follow_it": "Folgen Sie auf Instagram",
+    "follow_dr": "Folgen Sie Dribbble",
+    "follow_ld": "Folgen Sie Linkedin",
+    "follow_pr": "Folgen Sie auf Pinterest",
+    "follow_tu": "Auf Tumblr folgen",
+    "follow_yt": "Folgen Sie auf YouTube",
+    "follow_vm": "Folgen Sie auf Vimeo",
+    "follow_bh": "Folgen Sie Behance",
+    "follow_sc": "Folgen Sie auf Soundcloud",
+    "follow_tt": "Folgen Sie Tiktok",
+    "follow_sp": "Folgen Sie Snapchat"
+  },
+  "accessibility": {
+    "skip_to_text": "Zum Inhalt springen",
+    "skip_to_product_info": "Zu den Produktinformationen springen",
+    "close": "Schließen",
+    "unit_price_separator": "pro",
+    "error": "Fehler",
+    "refresh_page": "Die Auswahl einer Auswahl führt zu einer vollständigen Seitenaktualisierung.",
+    "link_messages": {
+      "new_window": "Öffnet in einem neuen Fenster.",
+      "external": "Öffnet externe Website."
+    },
+    "of": "von",
+    "next_slide": "Nach rechts schieben",
+    "previous_slide": "Nach links schieben",
+    "loading": "Wird geladen...",
+    "total_reviews": "Gesamtbewertungen",
+    "star_reviews_info": "{{ rating_value }} von {{ rating_max }} Sternen"
+  },
+  "blogs": {
+    "filter_all": "Alle",
+    "pagination": {
+      "view_all": "Alle ansehen",
+      "load_more": "Mehr Beiträge laden",
+      "load_prev": "Vorherige laden",
+      "bar_with_count_html": "Sie haben <span data-current-bar>{{current_count}}<\/span> von {{total_count}} Beiträgen angesehen"
+    },
+    "article": {
+      "by": "Von",
+      "on": "An",
+      "read_more": "Weiterlesen",
+      "back_to": "Zurück zu {{title}}",
+      "view_all": "Mehr sehen",
+      "by_author": "Von {{ author }}"
+    },
+    "portfolio": {
+      "filter_all": "Alle"
+    },
+    "comments": {
+      "title": "Hinterlasse einen Kommentar",
+      "comments_note_html": "Deine Email-Adresse wird nicht veröffentlicht. Pflichtfelder sind markiert <span class=\"required\">*<\/span>",
+      "message": "Kommentar",
+      "post": "Kommentar hinzufügen",
+      "moderated": "Bitte beachte, dass Kommentare vor der Veröffentlichung genehmigt werden müssen",
+      "success_moderated": "Ihr Kommentar wurde erfolgreich veröffentlicht. Wir werden es in Kürze veröffentlichen, da unser Blog moderiert wird.",
+      "success": "Ihr Kommentar wurde erfolgreich veröffentlicht! Danke schön!",
+      "unapproved": "Die angegebene E-Mail-Adresse ist nicht zum Posten von Kommentaren zugelassen.",
+      "error_heading": "Bitte passen Sie Folgendes an:",
+      "with_count": {
+        "zero": "0 Kommentar",
+        "one": "1 Kommentar",
+        "other": "{{ count }} Kommentare"
+      },
+      "with_count_2": {
+        "zero": "Hinterlasse einen Kommentar",
+        "one": "1 Kommentar",
+        "other": "{{ count }} Kommentare"
+      },
+      "with_count_html": {
+        "zero": "0 <span>Kommentar<\/span>",
+        "one": "1 <span>Kommentar<\/span>",
+        "other": "{{ count }} <span>Kommentare<\/span>"
+      },
+      "comments_title_html": {
+        "zero": "0 Gedanken zu „ <span>{{title}}<\/span> “",
+        "one": "1 Gedanke zu „ <span>{{title}}<\/span> “",
+        "other": "{{ count }} Gedanken zu „ <span>{{title}}<\/span> “"
+      }
+    }
+  },
+  "list_collections": {
+    "pagination": {
+      "load_more": "Mehr laden",
+      "load_prev": "Vorherige laden",
+      "bar_with_count_html": "Sie haben <span data-current-bar>{{current_count}}<\/span> von {{total_count}} Sammlungen angesehen"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Es wurden keine Produkte gefunden, die Ihrer Auswahl entsprechen.",
+      "sort_by_label": "Sortiere nach:",
+      "sort_button": "Sortieren"
+    },
+    "pagination": {
+      "view_all": "Alle ansehen",
+      "load_more": "Mehr laden",
+      "load_prev": "Vorherige laden",
+      "bar_with_count_html": "Sie haben <span data-current-bar>{{current_count}}<\/span> von {{total_count}} Produkten angesehen"
     }
   }
 }
