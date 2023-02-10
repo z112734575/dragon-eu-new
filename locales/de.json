@@ -1447,7 +1447,10 @@
     "follow_bh": "Folgen Sie Behance",
     "follow_sc": "Folgen Sie auf Soundcloud",
     "follow_tt": "Folgen Sie Tiktok",
-    "follow_sp": "Folgen Sie Snapchat"
+    "follow_sp": "Folgen Sie Snapchat",
+    "share_fb": "Auf Facebook teilen",
+    "share_tw": "Auf Twitter teilen",
+    "share_em": "Per E-Mail teilen"
   },
   "accessibility": {
     "skip_to_text": "Zum Inhalt springen",
@@ -1941,7 +1944,28 @@
       },
       "payment_delete": {
         "title": "Zahlungsmethode löschen",
-        "description_without_replacement": "Diese Zahlungsmethode wird für zukünftige Einkäufe nicht mehr verfügbar sein."
+        "description_without_replacement": "Diese Zahlungsmethode wird für zukünftige Einkäufe nicht mehr verfügbar sein.",
+        "description_with_replacement": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorautorisierte Zahlungen aus. Sie können es optional durch eine andere Zahlungsmethode ersetzen, um anstehende Bestellungen weiterhin zu erhalten.",
+        "payment_method_selector_placeholder": "Wählen Sie eine Ersatzzahlungsmethode (optional)",
+        "payment_method_selector_no_alternative_payment": "Keine Ersatzmethode",
+        "replace_method_with_new_method_description": "Ihr {{currentPaymentMethodName}} wird gelöscht und durch Ihren {{newPaymentMethodName}} ersetzt.",
+        "error_when_deleting": "Wir entschuldigen uns, aber etwas ist schief gelaufen und wir konnten diese Zahlungsmethode nicht löschen. Bitte versuchen Sie es später erneut oder aktualisieren Sie die Seite.",
+        "delete_and_replace_button": "Löschen und ersetzen",
+        "delete_and_replace_button_accessibility_label": "Löschen {{currentPaymentMethodName}} und ersetzen Sie es durch {{newPaymentMethodName}} .",
+        "deleted_successfully": "Zahlungsmethode erfolgreich gelöscht.",
+        "loading_available_payment_methods_accessibility_label": "Verfügbare Zahlungsmethoden werden geladen"
+      },
+      "add_payment_method": {
+        "title": "Zahlungsmethode hinzufügen",
+        "payment_method_added_confirmation": "Zahlungsmethode hinzugefügt",
+        "billing_address": {
+          "title": "Rechnungsadresse",
+          "add_billing_address_button": "Neue hinzufügen",
+          "add_billing_address_button_accessibility_label": "Neue Rechnungsadresse hinzufügen",
+          "choose_billing_address_from_list_button": "Wählen Sie aus der Liste",
+          "choose_billing_address_from_list_button_accessibility_label": "Wählen Sie eine Rechnungsadresse aus der Liste aus",
+          "missing_billing_address_error_message": "Bitte geben Sie eine Rechnungsadresse an"
+        }
       }
     },
     "orders": {
@@ -2287,6 +2311,22 @@
           "loading_accessibility_label": "Leute laden"
         }
       }
+    },
+    "payment_method_brands": {
+      "discover": "Entdecken",
+      "dankort": "Dankeort",
+      "shoppay": "Laden bezahlen",
+      "applepay": "ApplePay",
+      "googlepay": "GooglePay"
+    },
+    "shop_policies": {
+      "legal_notice": "Impressum",
+      "privacy_policy": "Datenschutz-Bestimmungen",
+      "refund_policy": "Rückgaberecht",
+      "shipping_policy": "Versandbedingungen",
+      "subscription_policy": "Abonnementrichtlinie",
+      "terms_of_sale": "Verkaufsbedingungen",
+      "terms_of_service": "Nutzungsbedingungen"
     }
   },
   "password_page": {
@@ -2397,6 +2437,91 @@
       "login_form_submit": "Eingeben",
       "signup_form_success": "Wir senden Ihnen kurz vor der Eröffnung eine E-Mail!",
       "password_link": "Mit Passwort eingeben"
+    }
+  },
+  "sections": {
+    "announcement": {
+      "label": "Bekanntmachung",
+      "close": "schließen"
+    },
+    "lookbook": {
+      "title": {
+        "product": "Produkt"
+      }
+    },
+    "countdown_text": {
+      "day": "Tag",
+      "day_plural": "Tage",
+      "hr": "Stunde",
+      "hr_plural": "Std.",
+      "min": "Mindest",
+      "min_plural": "Min",
+      "sec": "Sek",
+      "sec_plural": "Sek"
+    },
+    "newsletter_form": {
+      "submit": "Abonnieren",
+      "subscribing": "Abonnieren...",
+      "confirmation": "Danke fürs Abonnieren",
+      "error_exist": "E-Mail bereits für ein anderes Konto verwendet"
+    },
+    "agree_mail": {
+      "conditions": "Sie müssen den Bedingungen zustimmen, um sich anzumelden.",
+      "link_conditions_html": "Ich stimme den <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" class=\"t4s-text__link\">AGB zu<\/a> .",
+      "link_conditions_emty": "Ich stimme den Nutzungsbedingungen zu."
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "Getaggt \" {{ tags }} \"",
+      "page": "Seite {{ page }}"
+    },
+    "aria": {
+      "close": "Schließen",
+      "back_to_top": "Zurück an die Spitze"
+    },
+    "popup": {
+      "close": "Schließen",
+      "close_esc": "Schließen (Esc)",
+      "loading": "Wird geladen...",
+      "pswp_share": "Aktie",
+      "pswp_fs": "Vollbild umschalten",
+      "pswp_zoom": "Rein \/ rauszoomen",
+      "pswp_facebook": "Auf Facebook teilen",
+      "pswp_twitter": "Twittern",
+      "pswp_pinterest": "Pin es",
+      "pswp_prev": "Zurück (Pfeil links)",
+      "pswp_next": "Weiter (Pfeil rechts)"
+    },
+    "newsletter_popup": {
+      "email_placeholder": "Ihre E-Mail-Adresse",
+      "submit": "Abonnieren",
+      "subscribing": "Abonnieren...",
+      "confirmation": "Danke fürs Abonnieren"
+    },
+    "pagination": {
+      "label": "Seitennummerierung",
+      "page": "Seite {{ number }}",
+      "next": "Nächste",
+      "previous": "Vorher"
+    },
+    "breadcrumb": {
+      "home": "Heim"
+    },
+    "mobile_menu": {
+      "menu": "Speisekarte",
+      "close": "Menü schließen, Kategorien",
+      "categories": "Kategorien",
+      "wishlist": "Wunschzettel",
+      "compare": "vergleichen",
+      "search": "Suchen",
+      "login_register": "Anmeldung Registrieren",
+      "my_account": "Mein Konto"
+    },
+    "sidebar": {
+      "open": "Seitenleiste öffnen",
+      "close": "Seitenleiste schließen",
+      "title": "Seitenleiste"
     }
   }
 }
