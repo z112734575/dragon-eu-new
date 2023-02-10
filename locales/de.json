@@ -1174,7 +1174,74 @@
       "delete_confirm": "Möchten Sie diese Adresse wirklich löschen?"
     },
     "login": {
-      "title": "ANMELDUNG"
+      "title": "ANMELDUNG",
+      "create_account": "Neukunde? Erstelle deinen Account",
+      "password": "Passwort",
+      "forgot_password": "Haben Sie Ihr Passwort vergessen?",
+      "submit": "Anmelden",
+      "sign_in": "anmelden",
+      "guest_title": "Als Gast fortfahren",
+      "guest_continue": "Weitermachen"
+    },
+    "orders": {
+      "title": "Bestellverlauf:",
+      "order_number": "Befehl",
+      "order_number_link": "Bestellnummer {{ number }}",
+      "date": "Datum",
+      "payment_status": "Zahlungsstatus",
+      "fulfillment_status": "Erfüllungsstatus",
+      "total": "Gesamt",
+      "none": "Sie haben noch keine Bestellungen aufgegeben."
+    },
+    "order": {
+      "title": "Bestellen {{ name }}",
+      "date_html": "Platziert am {{ date }}",
+      "cancelled_html": "Bestellung storniert am {{ date }}",
+      "cancelled_reason": "Grund: {{ reason }}",
+      "billing_address": "Rechnungsadresse",
+      "payment_status": "Zahlungsstatus",
+      "shipping_address": "Lieferanschrift",
+      "fulfillment_status": "Erfüllungsstatus",
+      "discount": "Rabatt",
+      "shipping": "Versand",
+      "tax": "Steuer",
+      "product": "Produkt",
+      "sku": "Artikelnummer",
+      "price": "Preis",
+      "quantity": "Menge",
+      "total": "Gesamt",
+      "fulfilled_at_html": "Erfüllt am {{ date }}",
+      "subtotal": "Zwischensumme",
+      "track_shipment": "Sendung verfolgen",
+      "gift_note": "Geschenknachricht",
+      "note": "Besondere Anweisungen für den Verkäufer"
+    },
+    "recover_password": {
+      "title": "Setze dein Passwort zurück",
+      "email": "E-Mail-Addresse",
+      "submit": "Passwort zurücksetzen",
+      "save": "Speichern",
+      "cancel": "Stornieren",
+      "subtext": "Passwort vergessen? Geben Sie bitte Ihre Email-Adresse ein. Sie erhalten einen Link zum Erstellen eines neuen Passworts per E-Mail.",
+      "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren Ihres Passworts gesendet.",
+      "content_success": "Eine E-Mail zum Zurücksetzen des Passworts wurde an die für Ihr Konto hinterlegte E-Mail-Adresse gesendet, es kann jedoch einige Minuten dauern, bis sie in Ihrem Posteingang angezeigt wird. Bitte warten Sie mindestens 10 Minuten, bevor Sie einen weiteren Reset versuchen."
+    },
+    "reset_password": {
+      "title": "Kontokennwort zurücksetzen",
+      "subtext": "Geben Sie ein neues Passwort für {{ email }} ein",
+      "password": "Passwort",
+      "password_confirm": "Bestätige das Passwort",
+      "submit": "Passwort zurücksetzen"
+    },
+    "register": {
+      "login_here": "Sie haben bereits ein Konto? Hier anmelden",
+      "title": "Registrieren",
+      "first_name": "Vorname",
+      "last_name": "Familienname, Nachname",
+      "password": "Passwort",
+      "submit": "Registrieren",
+      "privacy_policy": "Ihre personenbezogenen Daten werden verwendet, um Ihr Erlebnis auf dieser Website zu unterstützen, den Zugriff auf Ihr Konto zu verwalten und für andere in unserer Datenschutzrichtlinie beschriebene Zwecke.",
+      "privacy_policy_html": "Ihre personenbezogenen Daten werden verwendet, um Ihre Erfahrung auf dieser Website zu unterstützen, den Zugriff auf Ihr Konto zu verwalten und für andere Zwecke, die in unserer <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">Datenschutzrichtlinie<\/a> beschrieben sind."
     }
   },
   "customer_accounts": {
@@ -1597,6 +1664,116 @@
       "save_new_address_accessibility_label": "Adresse speichern",
       "title": "Adressen",
       "billing_address_dropdown_placeholder": "Rechnungsadresse"
+    }
+  },
+  "password_page": {
+    "opening_soon": "Öffnet bald",
+    "drawer_heading": "Passwort eingeben",
+    "login_form_password_label": "Passwort",
+    "login_form_password_placeholder": "Ihr Passwort",
+    "login_form_submit": "Eingeben",
+    "signup_form_success": "Wir senden Ihnen kurz vor der Eröffnung eine E-Mail!",
+    "admin_link_html": "Sind Sie der Ladenbesitzer? <a href=\"\/admin\" class=\"text-link\">Hier anmelden<\/a>",
+    "password_link": "Mit Passwort eingeben"
+  },
+  "wishlist_page": {
+    "meta": "Meine Wunschliste",
+    "title": "Wunschzettel",
+    "empty": "Wunschliste ist leer.",
+    "empty_html": "Sie haben noch keine Produkte auf der Wunschliste.<br> Auf unserer Seite \"Shop\" finden Sie viele interessante Produkte."
+  },
+  "compare_page": {
+    "meta": "Meine Vergleichsseite",
+    "title": "Vergleichen",
+    "empty": "VERGLEICHSLISTE IST LEER.",
+    "empty_html": "Keine Produkte zur Vergleichsliste hinzugefügt. Sie müssen einige Produkte hinzufügen, um sie zu vergleichen.<br> Auf unserer Seite \"Shop\" finden Sie viele interessante Produkte.",
+    "remove": "Entfernen",
+    "in_stock": "Auf Lager",
+    "outofstock": "Ausverkauft"
+  },
+  "compare_popup": {
+    "title": "Produkte vergleichen",
+    "close": "Schließen",
+    "remove": "entferne diesen Gegenstand",
+    "clear": "Alles löschen",
+    "button": "Vergleichen"
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Ladeninformationen anzeigen",
+      "check_other_stores": "Überprüfen Sie die Verfügbarkeit in anderen Geschäften",
+      "pick_up_available": "Abholung möglich",
+      "pick_up_currently_unavailable": "Abholung derzeit nicht möglich",
+      "pick_up_available_at_html": "Abholung möglich bei <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Abholung derzeit nicht verfügbar bei <strong>{{ location_name }}<\/strong>",
+      "check_map": "Überprüfen Sie dies auf Google Map"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Ihre Geschenkkarte",
+      "gift_card_code": "Gutscheincode",
+      "disabled": "Behinderte",
+      "expired": "Abgelaufen am {{ expiry }}",
+      "active": "Läuft am {{ expiry }} ab",
+      "redeem_html": "Verwenden Sie diesen Code an der Kasse, um Ihre {{ value }} -Geschenkkarte einzulösen",
+      "shop_link": "Beginn mit dem Einkauf",
+      "print": "Drucken Sie diesen Geschenkgutschein aus",
+      "remaining_html": "{{ balance }} übrig",
+      "add_to_apple_wallet": "Zu Apple Wallet hinzufügen",
+      "qr_image_alt": "QR-Code – zum Einlösen der Geschenkkarte scannen",
+      "copy_code": "Code kopieren",
+      "copy_code_success": "Code erfolgreich kopiert"
+    }
+  },
+  "onboarding": {
+    "product_title": "Der Name Ihres Produkts",
+    "product_description": "Dieser Bereich wird verwendet, um die Details Ihres Produkts zu beschreiben. Informieren Sie Kunden über das Aussehen, die Haptik und den Stil Ihres Produkts. Fügen Sie Details zu Farbe, verwendeten Materialien, Größe und Herstellungsort hinzu.",
+    "collection_title": "Der Name Ihrer Sammlung",
+    "blog_title": "Der Titel Ihres Beitrags",
+    "blog_excerpt": "Ihr Shop hat noch keine Blogbeiträge veröffentlicht. Ein Blog kann verwendet werden, um über neue Produkteinführungen, Tipps oder andere Neuigkeiten zu sprechen, die Sie mit Ihren Kunden teilen möchten. Im E-Commerce-Blog von Shopify finden Sie Inspiration und Ratschläge für Ihren eigenen Shop und Blog.",
+    "blog_author": "Autorenname",
+    "no_content": "Dieser Abschnitt enthält derzeit keine Inhalte. Fügen Sie diesem Abschnitt mithilfe der Seitenleiste Inhalte hinzu."
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regulärer Preis",
+        "sold_out": "Ausverkauft",
+        "unavailable": "Nicht verfügbar",
+        "on_sale": "Verkauf",
+        "quantity": "Menge",
+        "add_to_cart": "In den Warenkorb legen",
+        "back_to_collection": "Zurück zu {{ title }}",
+        "view_details": "Einzelheiten anzeigen"
+      }
+    },
+    "article": {
+      "all_topics": "Alle Themen",
+      "by_author": "von {{ author }}",
+      "posted_in": "Veröffentlicht in",
+      "read_more": "Weiterlesen",
+      "back_to_blog": "Zurück zu {{ title }}"
+    },
+    "comments": {
+      "title": "Hinterlasse einen Kommentar",
+      "message": "Nachricht",
+      "post": "Kommentar hinzufügen",
+      "moderated": "Bitte beachte, dass Kommentare vor der Veröffentlichung genehmigt werden müssen",
+      "success_moderated": "Ihr Kommentar wurde erfolgreich veröffentlicht. Wir werden es in Kürze veröffentlichen, da unser Blog moderiert wird.",
+      "success": "Ihr Kommentar wurde erfolgreich veröffentlicht! Danke schön!",
+      "comments_with_count": {
+        "one": "{{ count }} Kommentar",
+        "other": "{{ count }} Kommentare"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Geben Sie den Store mit dem Passwort ein:",
+      "login_form_password_label": "Passwort",
+      "login_form_password_placeholder": "Ihr Passwort",
+      "login_form_submit": "Eingeben",
+      "signup_form_success": "Wir senden Ihnen kurz vor der Eröffnung eine E-Mail!",
+      "password_link": "Mit Passwort eingeben"
     }
   }
 }
