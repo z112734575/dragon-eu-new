@@ -780,7 +780,68 @@
   "cart": {
     "general": {
       "cookies_required": "Aktivieren Sie Cookies, um den Warenkorb zu verwenden",
-      "taxes_and_shipping_at_checkout": "Steuern und Versandkosten werden an der Kasse berechnet"
+      "taxes_and_shipping_at_checkout": "Steuern und Versandkosten werden an der Kasse berechnet",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\" target=\"_blank\">Versandkosten<\/a> werden an der Kasse berechnet",
+      "taxes_included_but_shipping_at_checkout": "Inklusive MwSt. und Versandkosten werden an der Kasse berechnet",
+      "taxes_included_and_shipping_policy_html": "Steuern inklusive. <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\" target=\"_blank\">Versand<\/a> wird an der Kasse berechnet.",
+      "taxes_discounts_and_shipping_at_checkout": "Steuern, Versand und Rabattcodes werden an der Kasse berechnet",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Steuern, <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\" target=\"_blank\">Versand<\/a> und Rabattcodes werden an der Kasse berechnet",
+      "taxes_included_discounts_but_shipping_at_checkout": "Steuern inklusive. Versand- und Rabattcodes werden an der Kasse berechnet",
+      "taxes_included_discounts_and_shipping_policy_html": "Steuern inklusive. <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\" target=\"_blank\">Versand-<\/a> und Rabattcodes werden an der Kasse berechnet.",
+      "terms_and_conditions_html": "Ich stimme den <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" target=\"_blank\">AGB zu<\/a> .",
+      "terms_and_conditions": "Ich stimme den Nutzungsbedingungen zu.",
+      "edit_item": "Bearbeiten Sie dieses Element",
+      "remove_item": "entferne diesen Gegenstand",
+      "recurring_mess": "Wiederkehrende Lieferung alle {{frequency}} {{frequency_unit}} . Jederzeit ändern oder kündigen",
+      "agree_checkout": "Sie müssen den Verkaufsbedingungen zustimmen, um zur Kasse zu gehen."
+    },
+    "tool": {
+      "save": "Speichern",
+      "cancel": "Stornieren",
+      "note": "Bestellhinweis hinzufügen",
+      "edit_note": "Bestellnotiz bearbeiten",
+      "placeholder_note": "Wie können wir Ihnen helfen?",
+      "gift_wrap_html": "<span class=\"cd\">Möchten Sie eine Geschenkverpackung?<\/span> Nur {{ money }}",
+      "add_gift_wrap": "Fügen Sie eine Geschenkverpackung hinzu",
+      "add_coupon": "Fügen Sie einen Gutschein hinzu",
+      "info_coupon": "Der Gutscheincode funktioniert auf der Checkout-Seite",
+      "placeholder_coupon": "Gutscheincode"
+    },
+    "shipping_estimator": {
+      "title": "Versand schätzen",
+      "country": "Land",
+      "province": "Provinz",
+      "zip_code": "PLZ",
+      "estimate": "Schätzen",
+      "multiple_rates": "Wir haben [number_of_rates] verfügbare Versandkosten für [Adresse] gefunden, beginnend bei [Preis].",
+      "one_rate": "Wir haben einen verfügbaren Versandtarif für [Adresse] gefunden.",
+      "no_rates": "Entschuldigung, wir versenden nicht an dieses Ziel.",
+      "errors": "Es gibt einige Fehler:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Kostenloser Versand für alle Bestellungen über <span class=\"t4s-cr\">{{ money }}<\/span>",
+      "text_2_html": "Fast geschafft, fügen Sie <span class=\"t4s-cr\">{{ money }}<\/span> mehr hinzu, um <span class=\"t4s-ch\">KOSTENLOSEN VERSAND zu erhalten!<\/span>",
+      "text_3": "[Herzlichen Glückwunsch!] Sie erhalten kostenlosen Versand!"
+    },
+    "mini_cart": {
+      "title": "Einkaufswagen",
+      "close_cart": "Warenkorb schließen",
+      "empty": "Ihr Warenkorb ist leer.",
+      "checkout": "Kasse",
+      "view": "Warenkorb ansehen"
+    },
+    "cart_page": {
+      "title": "Einkaufswagen",
+      "label": {
+        "product": "Produkt",
+        "price": "Preis",
+        "quantity": "Menge",
+        "total": "Gesamt"
+      },
+      "empty": "Ihr Warenkorb ist leer.",
+      "empty_html": "Bevor Sie zur Kasse gehen, müssen Sie einige Produkte in Ihren Warenkorb legen.<br> Auf unserer Seite \"Shop\" finden Sie viele interessante Produkte.",
+      "update": "Warenkorb aktualisieren",
+      "checkout": "Kasse"
     }
   },
   "socials": {
@@ -889,6 +950,79 @@
       "load_more": "Mehr laden",
       "load_prev": "Vorherige laden",
       "bar_with_count_html": "Sie haben <span data-current-bar>{{current_count}}<\/span> von {{total_count}} Produkten angesehen"
+    }
+  },
+  "templates": {
+    "404": {
+      "subtext": "Verzeihung! Seite, die Sie suchen, kann nicht gefunden werden.",
+      "link_html": "Gehen Sie zurück zur <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" rel=\"home\">Startseite<\/a>"
+    },
+    "contact": {
+      "form": {
+        "name": "Dein Name (erforderlich)",
+        "email": "Ihre E-Mailadresse (erforderlich)",
+        "phone": "Deine Telefonnummer",
+        "message": "Ihre Nachricht",
+        "submit": "Schicken",
+        "post_success": "Danke, dass sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "error_heading": "Bitte passen Sie Folgendes an:"
+      }
+    }
+  },
+  "customer": {
+    "form": {
+      "error_heading": "Bitte passen Sie Folgendes an:"
+    },
+    "account": {
+      "title": "MEIN KONTO",
+      "make_order": "Machen Sie Ihre erste Bestellung",
+      "none": "Sie haben noch keine Bestellungen aufgegeben.",
+      "hello_html": "Hallo <strong>{{name}}<\/strong> (nicht <strong>{{name}}<\/strong> ? <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\">Abmelden<\/a> )",
+      "manage_subs": "Abonnements verwalten",
+      "dashboard": "Armaturenbrett",
+      "wishlist": "Wunschzettel",
+      "details": "Kontodetails :",
+      "log_out": "Ausloggen",
+      "address_2": "Adresse 2:"
+    },
+    "menu": {
+      "dashboard": "Armaturenbrett",
+      "addresses": "Adressen",
+      "logout": "Ausloggen"
+    },
+    "activate_account": {
+      "title": "Konto aktivieren",
+      "subtext": "Erstellen Sie Ihr Passwort, um Ihr Konto zu aktivieren.",
+      "password": "Passwort",
+      "password_confirm": "Bestätige das Passwort",
+      "submit": "Konto aktivieren",
+      "cancel": "Einladung ablehnen"
+    },
+    "addresses": {
+      "title": "Adressen",
+      "default": "Standard",
+      "add_new": "Füge eine neue Adresse hinzu",
+      "edit_address": "Adresse bearbeiten",
+      "first_name": "Vorname",
+      "last_name": "Familienname, Nachname",
+      "company": "Unternehmen",
+      "address1": "Adresse",
+      "address2": "Wohnung, Suite usw.",
+      "city": "Stadt",
+      "country": "Land\/Region",
+      "province": "Provinz",
+      "zip": "Postleitzahl",
+      "phone": "Telefon",
+      "set_default": "Als Standardadresse festlegen",
+      "add": "Adresse hinzufügen",
+      "update": "Adresse aktualisieren",
+      "cancel": "Stornieren",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "delete_confirm": "Möchten Sie diese Adresse wirklich löschen?"
+    },
+    "login": {
+      "title": "ANMELDUNG"
     }
   }
 }
