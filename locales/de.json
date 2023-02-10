@@ -1341,6 +1341,132 @@
         "title": "Zahlungsmethode löschen",
         "description_without_replacement": "Diese Zahlungsmethode wird für zukünftige Einkäufe nicht mehr verfügbar sein."
       }
+    },
+    "orders": {
+      "order_status": {
+        "no_tracking_number": "Für diese Sendung gibt es keine Sendungsverfolgungsnummer.",
+        "on_its_way_label": "Auf dem Weg",
+        "on_its_way_title": "Ihre Sendung ist unterwegs",
+        "out_for_delivery_label": "raus zur Lieferung",
+        "out_for_delivery_title": "Ihre Sendung ist zur Zustellung bereit",
+        "resume_tracking": "Tracking fortsetzen",
+        "submitted_label": "Eingereicht",
+        "submitted_description": "Überprüfen Sie die Bestell- und Zahlungsdetails.",
+        "track_shipment": "Sendung verfolgen",
+        "request_return": "Rückgabe anfordern",
+        "view_order_for_details": "Siehe Bestellung für Details"
+      },
+      "status_mark_as_delivered": "Als zugestellt markieren",
+      "status_title": "Bestellstatus",
+      "buy_again": "Noch einmal kaufen",
+      "buy_again_accessibility_label": "Erneut kaufen für Bestellung {{orderId}}",
+      "manage": "Verwalten",
+      "manage_accessiblity_label": "Bestellung {{orderId}} verwalten",
+      "group_title_label": "Teil von: {{groupTitle}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Zeige Details",
+        "expand_events_accessibility_label": "Sendungsdetails der Bestellung anzeigen",
+        "hide_events_label": "Details ausblenden",
+        "hide_events_accessibility_label": "Versanddetails der Bestellung ausblenden"
+      },
+      "addresses_section_title": "Rechnung und Versand",
+      "billing_address": "Rechnungsadresse",
+      "card_ending_with": "endet mit {{lastDigits}}",
+      "contact": "Kontakt",
+      "fully_refunded_label": "ERSTATTET",
+      "discount": "Rabatt",
+      "hide_items": "Elemente ausblenden",
+      "loading": "Bestelldetails werden geladen",
+      "loading_finished_accessibility_message": "Bestelldetails wurden geladen",
+      "location": "Standort",
+      "mobile_summary_toggle_button": {
+        "open": "Bestellübersicht anzeigen",
+        "closed": "Bestellzusammenfassung ausblenden"
+      },
+      "no_data": "Keiner",
+      "not_applicable": "N \/ A",
+      "partially_refunded_label": "TEILWEISE ERSTATTET",
+      "payment": {
+        "status_in_review": "Zahlung nach Prüfung fällig",
+        "status_unpaid": "Zahlung fällig am {{date}}",
+        "title": "Zahlung"
+      },
+      "refunded_amount": "Erstattet",
+      "request_return_failed": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuche es erneut.",
+      "returns": {
+        "expand_events_label": "Zeige Details",
+        "hide_events_label": "Details ausblenden",
+        "ineligible_return_with_policy_message": "Keine Artikel in dieser Bestellung können zurückgegeben werden. Lesen Sie unsere {{returnAndRefundPolicyLinkText}} , um mehr zu erfahren.",
+        "ineligible_return_without_policy_message": "Keine Artikel in dieser Bestellung können zurückgegeben werden.",
+        "print_shipping_label": "Versandetikett drucken",
+        "return_and_refund_link_text": "Rückgabe- und Rückerstattungsrichtlinie",
+        "return_and_refund_modal_header": "Rückgabe- und Rückerstattungsrichtlinie",
+        "tracking_number": "Auftragsnummer, Frachtnummer, Sendungscode:"
+      },
+      "shipping": {
+        "address": "Lieferanschrift",
+        "address_map_marker": "Lieferanschrift",
+        "method": "Versandart",
+        "summary": "Versand"
+      },
+      "show_items": "Artikel anzeigen",
+      "show_order_summary": "Bestellübersicht anzeigen",
+      "hide_order_summary": "Bestellzusammenfassung ausblenden",
+      "subtitle": "Bestätigt am {{date}}",
+      "subtotal": "Zwischensumme",
+      "summary_list_title_accessibility_label": "Auftragspositionen",
+      "summary_title": "Bestellübersicht",
+      "summary_totals_title_accessibility_label": "Bestellsummen",
+      "taxes": "Steuern",
+      "title": "Bestelle {{name}}",
+      "total": "Gesamt",
+      "unit_price": "( {{price}} \/ea)",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Laden Sie mehr Artikel",
+        "loading_accessibility_label": "Artikel laden"
+      }
+    },
+    "addresses": {
+      "add_button": "Adresse hinzufügen",
+      "add_address_banner": "Fügen Sie Adressen hinzu, die an der Kasse verwendet werden sollen",
+      "address_deleted_notification": "Adresse gelöscht",
+      "cancel_adding_address_accessibility_label": "Hinzufügen einer Adresse abbrechen",
+      "cancel_deletion_button": "Stornieren",
+      "cancel_deletion_button_accessibility_label": "Löschen von {{address}}",
+      "default_address": {
+        "title": "Standardadresse",
+        "title_accessibility_label": "Standardadresse: {{address}}"
+      },
+      "delete_button": "Löschen",
+      "delete_button_accessibility_label": "{{address}}",
+      "delete_confirmation_button": "Adresse löschen",
+      "delete_confirmation_button_accessibility_label": "{{address}}",
+      "delete_confirmation_message": "Adresse löschen? Bestehende Bestellungen sind davon nicht betroffen.",
+      "delete_confirmation_title": "Adresse löschen?",
+      "delete_confirmation_description": "Bestehende Bestellungen sind davon nicht betroffen.",
+      "edit_button": "Bearbeiten",
+      "edit_button_accessibility_label": "{{address}} bearbeiten",
+      "edit_section_accessibility_label": "{{address}} bearbeiten",
+      "edit_modal_title": {
+        "default": "Adresse bearbeiten",
+        "billing": "Rechnungsadresse bearbeiten",
+        "shipping": "Versandadresse bearbeiten"
+      },
+      "loading_accessibility_message": "Adresse wird geladen",
+      "loading_addresses_accessibility_message": "Adressen werden geladen",
+      "loading_billing_accessibility_message": "Rechnungsadresse wird geladen",
+      "loading_finished_accessibility_message": "Neue Seite mit Adressen wurde geladen",
+      "loading_shipping_accessibility_message": "Versandadresse wird geladen",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Laden Sie weitere Adressen"
+      },
+      "save_new_address_accessibility_label": "Adresse speichern",
+      "title": "Adressen",
+      "billing_address_dropdown_placeholder": "Rechnungsadresse"
     }
   }
 }
