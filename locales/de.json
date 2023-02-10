@@ -130,7 +130,16 @@
             "find_nearest_atm": "Finden Sie den nächsten Geldautomaten"
           }
         },
-        "update_payment_method": "Zahlungsmethode aktualisieren"
+        "update_payment_method": "Zahlungsmethode aktualisieren",
+        "amazon_payments_label": "AmazonPay",
+        "amazon_payments_login_hint": "Sie werden aufgefordert, sich bei Amazon anzumelden.",
+        "amazon_payments_logout": "Melden Sie sich von Amazon Pay ab",
+        "amazon_payments_failed_mfa_challenge": "Die ausgewählte Zahlungsmethode konnte nicht verwendet werden. Wählen Sie eine andere Methode oder wenden Sie sich an Ihre Bank oder Ihren Kartenaussteller.",
+        "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Probieren Sie eine andere Zahlungsmethode aus oder wenden Sie sich an Ihre Bank oder Ihren Kartenaussteller.",
+        "amazon_payments_could_not_enqueue_authorize": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "title": "Zahlung",
+        "amount_left_to_pay_label": "Zahlung fällig:",
+        "discount_button_action_label": "Rabattcode anwenden"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktueller Kontostand %{amount}",
@@ -224,7 +233,281 @@
         "rejected_transaction": "Ihre Bezahlung wurde abgelehnt. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
         "credit_card_processing": "Ihre Zahlung kann aus technischen Gründen nicht verarbeitet werden. Versuchen Sie es in ein paar Minuten erneut oder verwenden Sie eine andere Zahlungsmethode.",
         "checkout_amount_changed": "Ihre Zahlung konnte nicht verarbeitet werden, da sich der an der Kasse fällige Betrag geändert hat. Bitte überprüfen Sie Ihre Bestellung und versuchen Sie es erneut."
+      },
+      "order_payment_collection": {
+        "checkout_review_and_pay": "Ihre Bestellung %{order_name} wurde aktualisiert. Überprüfen Sie diese Änderungen und bezahlen Sie dann, um Ihre Bestellung zu bestätigen.",
+        "order_updated_on": "Ihre Bestellung wurde am %{last_edited_at} aktualisiert.",
+        "order_review_and_pay": "Ihre Bestellung wurde aktualisiert. Überprüfen und bezahlen Sie, um Ihre Bestellung zu bestätigen.",
+        "pay_now": "Zahlen Sie jetzt"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Ihre Kreditkarte wird mit %{amount} belastet",
+        "payment_total_label": "Gesamtzahlung",
+        "change_currency_link": "Wechseln zu %{currency_name}",
+        "card_provider_fx_charges_warning": "Ihr Kartenanbieter erhebt möglicherweise Gebühren für %{currency_code}-Transaktionen.",
+        "currency_not_supported_by_shop": "Die ausgewählte Währung ist nicht mehr verfügbar. Alle Preise sind jetzt in %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Ihr Warenkorb wurde basierend auf Ihrem Lieferland aktualisiert."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Ihr Land\/Ihre Region wurde aktualisiert. Geben Sie Ihre Lieferadresse ein, um mit der Kasse fortzufahren."
+      },
+      "tips": {
+        "title": "Tipp hinzufügen",
+        "description": "Zeigen Sie Ihre Unterstützung für das Team von %{shop_name}",
+        "presets_description": "Wählen Sie einen Trinkgeldprozentsatz aus",
+        "custom_label": "Benutzerdefinierte Spitze",
+        "add_tip": "Tipp hinzufügen",
+        "update_tip": "Update-Tipp",
+        "message": "Vielen Dank, wir wissen das zu schätzen",
+        "no_tip_label": "Keiner"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Kaufen Sie %{product_name}",
+          "one": "Kaufe %{product_name} und %{count} andere Artikel",
+          "other": "Kaufen Sie %{product_name} und %{count} andere Artikel"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "Tag",
+            "other": "%{count} Tage"
+          },
+          "week": {
+            "one": "Woche",
+            "other": "%{count} Wochen"
+          },
+          "month": {
+            "one": "Monat",
+            "other": "%{count} Monate"
+          },
+          "year": {
+            "one": "Jahr",
+            "other": "%{count} Jahre"
+          }
+        },
+        "recurring_totals": "%{total_price} alle %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Erste Zahlung %{total_price_with_discount}, dann %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Erste Zahlung %{total_price}",
+            "other": "Die ersten %{count} Zahlungen jeweils %{total_price}"
+          },
+          "following_cycles": ", dann %{total_price} alle %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", dann %{count} Zahlung zu %{total_price}",
+            "other": ", dann %{count} Zahlungen zu jeweils %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Zahlungsarten",
+        "title": "Zahlungsarten",
+        "update_card_button_label": "Karte aktualisieren",
+        "delete_customer_mandate": {
+          "generic_error": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten.",
+          "success_message": "Ihre Zahlungsmethode wurde erfolgreich gelöscht"
+        }
+      },
+      "order_summary": {
+        "total_already_paid_label": "Bereits bezahlt",
+        "unit_price": {
+          "accessible_separator": "pro"
+        },
+        "gift_card_ending": "Geschenkkarte endet mit %{last_characters}",
+        "estimated_tax_label": "Geschätzte Steuer",
+        "multiple_shipping_lines_label": "Versand insgesamt",
+        "recurring_subtotal_label": "Wiederkehrende Zwischensumme",
+        "recurring_total_label": "Wiederkehrende Summe",
+        "recurring_total_tooltip": "Enthält keine Versandkosten, Steuern, Zölle oder anwendbare Rabatte.",
+        "confirmation_number_label": "Bestätigung #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> konnte nicht mit Ihren bestehenden Rabatten verwendet werden. Sie haben bereits eine bessere Kombination.",
+        "percent_off_shipping": "%{percent}% Rabatt auf den Versand",
+        "amount_off_shipping": "%{amount} Rabatt auf den Versand",
+        "deferred_payment_info": {
+          "title": "Die Zahlung von %{amount_due} ist am %{due_at} fällig",
+          "description_html": "Bei Fragen zu Ihrer Bestellung, %{contact_us}.",
+          "paid_today": "Heute insgesamt bezahlt",
+          "due_on_fulfillment_title": "Die Zahlung von %{amount_due} ist bei Erfüllung fällig"
+        },
+        "payment_terms_totals": {
+          "due_today": "Insgesamt heute fällig",
+          "due_later": "Gesamt fällig %{due_at}",
+          "due_on_fulfillment": "Gesamtbetrag bei Erfüllung fällig",
+          "due_later_checkout_to_draft": "Gesamtbetrag später fällig"
+        },
+        "maximum_discount_code_limit_reached": "Sie haben die maximale Anzahl an Rabattcodes erreicht. Entfernen Sie einen vorhandenen Code, um <strong style=\"text-transform:uppercase\">%{code}<\/strong> zu verwenden.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> funktioniert gerade nicht. Kontaktieren Sie uns für Hilfe."
+      },
+      "shipping": {
+        "title": "Versand",
+        "shipping_method_title": "Versandart",
+        "shipping_method_one_time_purchase_group_title": "Einmaliger kauf",
+        "shipping_method_subscription_group_title": "Abonnement",
+        "subscription_shipping": "Abo-Versand",
+        "subscription_local_delivery": "Abonnement lokale Lieferung",
+        "subscription_pickup": "Abholung des Abonnements",
+        "waiting_on_rate_notice": "Abrufen verfügbarer Versandkosten…",
+        "waiting_on_pickup_location_notice": "Abrufen verfügbarer Abholorte…",
+        "no_rates_for_cart_or_destination_notice": "Für Ihren Warenkorb oder Ihre Adresse sind keine Versandarten verfügbar",
+        "no_pickup_location_notice": "Mindestens eines Ihrer Produkte ist nicht zur Abholung verfügbar",
+        "no_rates_for_country_notice": "Für diese Adresse wurden keine Versandkosten gefunden.",
+        "no_rates_contact_notice": "Kontaktieren Sie uns für weitere Informationen",
+        "free_rate_label": "Frei",
+        "cheapest_rate_label": "Am billigsten",
+        "please_enter_your_shipping_information_notice": "Bitte geben Sie Ihre Versandinformationen ein.",
+        "estimated_delivery_date": {
+          "one": "%{count} Werktag",
+          "other": "%{count} Werktage"
+        },
+        "estimated_delivery_date_range": "%{minimum} bis %{maximum} Werktage",
+        "estimated_delivery_time": "Voraussichtliche Lieferzeit}",
+        "estimated_delivery_time_range": "Geschätzte Lieferung %{min_time}–%{max_time}",
+        "delivery_today": "Lieferung am selben Tag %{time}",
+        "delivery_tomorrow": "Lieferung am nächsten Tag %{time}",
+        "two_day_delivery": "2-tägige Lieferung %{time}",
+        "delivery": "Lieferzeit}",
+        "arrives_time": "Kommt %{time} an",
+        "arrives_time_range": "Kommt %{min_time}–%{max_time} an",
+        "estimated_time": "Geschätzte Zeit}",
+        "estimated_time_range": "Geschätzte %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "Handynummer (erforderlich)",
+        "shipping_line_phone": "Ihr Kurier kann diese Nummer verwenden, um Sie zu kontaktieren.",
+        "shipping_line_delivery_phone_label": "Handynummer",
+        "shipping_line_delivery_phone": "Sie werden möglicherweise mit Aktualisierungen zu Ihrer Lieferung kontaktiert.",
+        "optional_shipping_line_delivery_instructions_label": "Lieferanweisungen (optional)",
+        "shipping_line_delivery_instructions": "Geben Sie notwendige Informationen wie Türcodes oder Abgabeanweisungen ein.",
+        "other_method": {
+          "zero": "Keine anderen Methoden verfügbar",
+          "one": "%{count} andere Methode verfügbar unter",
+          "other": "%{count} andere Methoden ab verfügbar"
+        },
+        "shipping_rate_discounted_amount": "War: %{original_amount}. Jetzt: %{amount}",
+        "local_delivery": "Lieferung vor Ort",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "für %{count} Lieferung",
+            "other": "für %{count} Lieferungen"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "täglich",
+              "other": "alle %{count} Tage"
+            },
+            "week": {
+              "one": "jede Woche",
+              "other": "alle %{count} Wochen"
+            },
+            "month": {
+              "one": "jeden Monat",
+              "other": "alle %{count} Monate"
+            },
+            "year": {
+              "one": "jedes Jahr",
+              "other": "alle %{count} Jahre"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} pro Lieferung",
+          "prepaid_shipping_price_label": "%{shipping_price} pro Lieferung x %{delivery_interval_count}",
+          "initial_order_discounted": "Zuerst Versandkosten %{discounted_shipping_cost}, dann %{frequency_description}",
+          "prepaid_initial_order_discounted": "Erste Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Erste Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Zuerst Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency}, dann %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Zuerst Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), dann %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inbegriffen",
+          "recurring_order_shipping_price": "gefolgt von %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Erste Bestellung inbegriffen, gefolgt von %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} pro Lieferung), gefolgt von %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Erstbestellung kostenlos",
+            "other": "Die ersten %{count} Bestellungen sind kostenlos"
+          },
+          "free_for_first_n_order": {
+            "one": "Für Erstbestellung",
+            "other": "Für die ersten %{count} Bestellungen"
+          }
+        },
+        "one_time_purchase_shipping": "Einmaliger Versand"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Weitere Informationen"
+        }
       }
+    },
+    "pagination": {
+      "previous": "Vorherige",
+      "next": "Nächste"
+    },
+    "links": {
+      "powered_by_shopify": "Unterstützt von Shopify",
+      "learn_more": "Erfahren Sie mehr"
+    },
+    "feed": {
+      "more": "Mehr"
+    },
+    "attributes": {
+      "password": "Passwort",
+      "password_confirmation": "Die Passwortbestätigung",
+      "first_name": "Vorname",
+      "last_name": "Familienname, Nachname",
+      "body": "Körper",
+      "signature": "Adresse"
+    },
+    "addresses": {
+      "zip_code": "PLZ",
+      "postal_code": "Postleitzahl",
+      "postcode": "Postleitzahl",
+      "pincode": "Geheimzahl",
+      "prefecture": "Präfektur",
+      "province": "Provinz",
+      "state": "Zustand",
+      "state_and_territory": "Staat\/Territorium",
+      "county": "Bezirk",
+      "emirate": "Emirat",
+      "governorate": "Gouvernement",
+      "confirm": "Möchten Sie diese Adresse wirklich löschen?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Hervorgehoben",
+        "best_selling": "Meistverkauft",
+        "az": "Alphabetisch, AZ",
+        "za": "Alphabetisch ZA",
+        "price_ascending": "Preis niedrig bis hoch",
+        "price_descending": "Preis, hoch bis niedrig",
+        "date_ascending": "Datum, alt zu neu",
+        "date_descending": "Datum, neu zu alt"
+      }
+    },
+    "errors": {
+      "blank": "darf nicht leer sein",
+      "blocked_address": "Dieser Standort wird nicht unterstützt.",
+      "credit_card_session_expired": "Die Kreditkartenautorisierung ist abgelaufen, bitte geben Sie Ihre Zahlungsinformationen erneut ein. Ihre Karte wurde nicht belastet.",
+      "empty": "kann nicht leer sein",
+      "invalid_email": "muss eine gültige E-Mail-Adresse sein",
+      "discount_disabled": "Dieser Rabatt wurde deaktiviert",
+      "discount_expired": "Dieser Rabatt ist nicht mehr gültig",
+      "discount_limit_reached": "Dieser Rabatt hat sein Verwendungslimit erreicht",
+      "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der dem eingegebenen Code entspricht",
+      "customer_already_used_once_per_customer_discount_notice": "Dieser Rabatt hat sein Verwendungslimit erreicht",
+      "gift_card_already_applied": "Der Code wurde bereits auf Ihren Checkout angewendet",
+      "gift_card_code_invalid": "Code ist ungültig",
+      "gift_card_currency_mismatch": "Ihre Geschenkkarte ist in %{gift_card_currency}. Kontaktieren Sie uns, um es in %{checkout_currency} neu ausstellen zu lassen.",
+      "gift_card_depleted": "Auf dieser Geschenkkarte ist kein Guthaben mehr vorhanden",
+      "gift_card_disabled": "Geschenkkarte ist deaktiviert",
+      "gift_card_expired": "Geschenkkarte ist abgelaufen",
+      "invalid": "ist ungültig",
+      "bad_domain": "enthält einen ungültigen Domänennamen",
+      "taken": "wurde bereits übernommen",
+      "contains_html_tags": "darf keine HTML-Tags enthalten",
+      "too_short": "ist zu kurz (mindestens %{count} Zeichen)",
+      "too_long": "ist zu lang (maximal %{count} Zeichen)"
     }
   }
 }
