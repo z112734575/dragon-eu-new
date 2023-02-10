@@ -1250,7 +1250,23 @@
         "payment_status": {
           "pending": {
             "description_due_on_receipt": "Bei Fälligkeit erhalten Sie eine Rechnung.",
-            "description_due_on_fulfillment": "Die Zahlung ist fällig, sobald alle Artikel dieser Bestellung erfüllt sind."
+            "description_due_on_fulfillment": "Die Zahlung ist fällig, sobald alle Artikel dieser Bestellung erfüllt sind.",
+            "banner_overdue": {
+              "one": "Ihre Zahlung ist {{count}} Tag überfällig",
+              "other": "Ihre Zahlung ist {{count}} Tage überfällig"
+            },
+            "banner_due": {
+              "one": "Ihre Zahlung ist in {{count}} Tag fällig",
+              "other": "Ihre Zahlung ist in {{count}} Tagen fällig"
+            },
+            "banner_due_today": "Ihre Zahlung ist heute fällig",
+            "title": "Zahlung fällig",
+            "title_with_date": "Zahlung fällig am {{date}}",
+            "title_due_on_receipt": "Zahlung noch nicht fällig",
+            "title_due_on_fulfillment": "Zahlung fällig bei Erfüllung",
+            "description_overdue": "Ihre Zahlung ist verspätet.",
+            "description_partially_paid": "Diese Bestellung wurde teilweise bezahlt. Sie haben ein Restguthaben.",
+            "description_authorized": "Ihre Zahlungsmethode wird am Fälligkeitsdatum belastet, oder Sie können jetzt bezahlen."
           },
           "draft": {
             "description": "Zahlungsdetails werden entschieden, wenn die Bestellung bestätigt wird.",
@@ -1291,13 +1307,98 @@
           "hide_events_accessibility_label": "Bestelldetails ausblenden"
         },
         "subtitle": "Eingereicht am {{date}}",
-        "title": "Bestelle {{name}}"
+        "title": "Bestelle {{name}}",
+        "draft_order_subtitle": "Bestätigt am {{date}} von Bestellung {{draftOrderName}}",
+        "loading": "Bestelldetails werden geladen",
+        "loading_finished_accessibility_message": "Bestelldetails wurden geladen"
       },
       "payment_methods": {
         "payment_delete": {
           "description_without_replacement": "Diese Zahlungsmethode wird für zukünftige Einkäufe an diesem Standort nicht mehr verfügbar sein.",
           "description_with_replacement": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorautorisierte Zahlungen für diesen Standort aus. Ersetzen Sie es durch eine alternative Zahlungsmethode, um weiterhin anstehende Bestellungen zu erhalten."
         }
+      },
+      "account_information": {
+        "company_card_name_label": "Name der Firma",
+        "company_card_section_accessibility_label": "Unternehmen"
+      },
+      "locations": {
+        "contact_list_title": "Menschen",
+        "contact_permissions": "Berechtigungen",
+        "contact_phone_number": "Telefonnummer",
+        "location_picker_label": "Standortnamen",
+        "net_payment_terms_description": "{{name}} : Zahlungen fällig innerhalb von {{numberOfDays}} Tagen",
+        "pagination": {
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Laden Sie mehr Standorte"
+        },
+        "payment_details_title": "Zahlungsdetails",
+        "payment_terms": "Zahlungsbedingungen",
+        "permissions_label": "Ihre Berechtigungen",
+        "permissions_title": "Berechtigungen",
+        "section_title": "Standort",
+        "shipping_address_required": "Fügen Sie diesem Standort eine Lieferadresse hinzu, um Bestellungen aufzugeben.",
+        "tax_details_title": "Steuerdetails",
+        "tax_id": "Steuer ID",
+        "tax_exemptions": "Steuerbefreiungen",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} mehr",
+        "multiple_tax_exemptions_and": "Und",
+        "tax_exemptions_modal_close": "Schließen",
+        "taxes_none": "Keiner",
+        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemptions_modal_button_accessibility_label": "Alle Steuerbefreiungen anzeigen"
+      },
+      "location_selection": {
+        "continue_to_store": "Weiter speichern",
+        "description": "Wenn Sie bereits Artikel in Ihrem Einkaufswagen haben, kann sich ein Standortwechsel auf Preise und Mengen im Einkaufswagen auswirken.",
+        "list_accessibility_label": "Standortliste",
+        "list_item_without_address_accessibility_label": "{{name}} : Keine Adresse",
+        "list_loading_accessibility_message": "Liste der Standorte wird geladen",
+        "list_loading_address_accessibility_message": "Ladeadresse für {{locationName}}",
+        "list_loading_finished_accessibility_message": "Liste der Standorte wurde geladen",
+        "loading_store_accessibility_message": "Zum Laden gehen",
+        "no_location_title": "Nur persönliche Bestellungen",
+        "no_location_description": "Sie sind nicht mehr berechtigt, Bestellungen für {{company}} . Sie können weiterhin persönliche Bestellungen aufgeben.",
+        "no_locations_found": "Keine Standorte gefunden",
+        "search": "Suchen Sie nach einem Ort",
+        "selection_cancel_button": "Stornieren",
+        "selection_confirmation_button": "Ort wählen",
+        "title": "Für welchen Standort kaufen Sie ein?",
+        "clear_search": "Saubere Suche",
+        "try_new_search": "Versuchen Sie eine neue Suche"
+      },
+      "addresses": {
+        "add_billing_address_button": "Rechnungsadresse hinzufügen",
+        "add_billing_address_section_accessibility_label": "Rechnungsadresse hinzufügen",
+        "add_shipping_address_button": "Lieferadresse hinzufügen",
+        "add_shipping_address_section_accessibility_label": "Lieferadresse hinzufügen",
+        "billing_address_card_title": "Rechnungsadresse",
+        "cancel_adding_billing_address_accessibility_label": "Brechen Sie das Hinzufügen der Rechnungsadresse ab",
+        "cancel_adding_shipping_address_accessibility_label": "Hinzufügen der Lieferadresse abbrechen",
+        "save_new_billing_address_accessibility_label": "Rechnungsadresse speichern",
+        "save_new_shipping_address_accessibility_label": "Lieferadresse speichern",
+        "shipping_address_card_title": "Lieferanschrift"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Versteck alles",
+          "show_all": "Zeige alles",
+          "hide_all_accessibility_label": "Alle Bestellungen in der Überprüfung ausblenden",
+          "show_all_accessibility_label": "Alle Bestellungen im Überblick anzeigen",
+          "show_all_orders_in_review": "Alle Bestellungen im Überblick anzeigen",
+          "show_less_orders_in_review": "Weniger Bestellungen in der Überprüfung anzeigen",
+          "title": "Ausstehend",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Sie haben keine ausstehenden Bestellungen",
+            "pending_orders": "Sie haben ausstehende Bestellungen"
+          },
+          "pagination": {
+            "nav_accessibility_label": "Bestellungen in Navigationsschaltflächen überprüfen"
+          }
+        },
+        "order_list_column_headers_location": "Standort",
+        "order_list_column_headers_contact": "Kontakt",
+        "removed_company_contact_tooltip": "Aus Unternehmen entfernt"
       }
     },
     "errors": {
@@ -1664,6 +1765,27 @@
       "save_new_address_accessibility_label": "Adresse speichern",
       "title": "Adressen",
       "billing_address_dropdown_placeholder": "Rechnungsadresse"
+    },
+    "address_form": {
+      "attention": "Aufmerksamkeit",
+      "attention_help_text": "Der Name einer Person oder Abteilung",
+      "auto_complete_close_accessibility_label": "Vorschläge schließen",
+      "auto_complete_title": "Vorschläge",
+      "billing_address": "Als Rechnungsadresse verwenden",
+      "cancel": "Stornieren",
+      "cancel_accessibility_label": "Bearbeiten der Adresse {{address}}",
+      "creation_success_notification": "Adresse hinzugefügt",
+      "default_address": "Dies ist meine Standardadresse",
+      "default_address_creation_success_notification": "Standardadresse hinzugefügt",
+      "default_address_update_success_notification": "Standardadresse aktualisiert",
+      "loading_add_form_accessibility_message": "Neues Adressformular wird geladen",
+      "loading_edit_form_accessibility_message": "Formular zum Bearbeiten der Adresse wird geladen",
+      "loading_form_accessibility_message": "Adressformular wird geladen",
+      "loading_finished_accessibility_message": "Adressformular wurde geladen",
+      "save": "Speichern",
+      "save_accessibility_label": "Adresse speichern {{address}}",
+      "section_title_accessibility_label": "Adresse hinzufügen",
+      "update_success_notification": "Adresse aktualisiert"
     }
   },
   "password_page": {
