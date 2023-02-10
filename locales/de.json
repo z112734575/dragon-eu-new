@@ -869,7 +869,143 @@
       "taken": "wurde bereits übernommen",
       "contains_html_tags": "darf keine HTML-Tags enthalten",
       "too_short": "ist zu kurz (mindestens %{count} Zeichen)",
-      "too_long": "ist zu lang (maximal %{count} Zeichen)"
+      "too_long": "ist zu lang (maximal %{count} Zeichen)",
+      "password_mismatch": "muss mit dem angegebenen Passwort übereinstimmen",
+      "contains_spaces": "beginnt oder endet mit Leerzeichen.",
+      "email_domain_invalid": "Anbieter wird nicht unterstützt",
+      "invalid_for_country": "ist nicht gültig für %{country}",
+      "invalid_for_country_and_province": "ist nicht gültig für %{province} und %{country}",
+      "invalid_province_in_country": "ist keine gültige Provinz in %{country}",
+      "invalid_state_in_country": "ist kein gültiger Staat in %{country}",
+      "invalid_region_in_country": "ist keine gültige Region in %{country}",
+      "less_than_or_equal_to": "muss kleiner oder gleich %{count} sein",
+      "not_supported": "wird nicht unterstützt",
+      "full_name_required": "Geben Sie einen Vornamen und Nachnamen ein",
+      "invalid_for_card_type": "ist ungültig",
+      "invalid_type": "Entschuldigung, wir akzeptieren keine Karten dieser Art",
+      "invalid_format": "Format ist nicht gültig",
+      "expired": "abgelaufen",
+      "invalid_start_date_or_issue_number_for_debit": "ein gültiges Startdatum oder eine Ausgabenummer ist erforderlich",
+      "invalid_expiry_year": "ist kein gültiges Ablaufjahr",
+      "reset_password_html": "Diese E-Mail-Adresse ist bereits mit einem Konto verknüpft. Wenn dieses Konto Ihnen gehört, können Sie <a href=\"\/account\/login#recover\">Ihr Passwort zurücksetzen<\/a>",
+      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet, bitte klicken Sie auf den darin enthaltenen Link, um Ihre E-Mail-Adresse zu bestätigen.",
+      "product_not_available": "Produkt ist für diesen Kunden nicht veröffentlicht."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Fehler beim Zurücksetzen des Passworts",
+        "no_account_found": "Kein Konto mit dieser E-Mail gefunden.",
+        "invalid_credentials": "Falsche Email oder Passwort.",
+        "denylisted_reset_password": "Auf Ihr Konto konnte nicht zugegriffen werden, da das aktuelle Passwort nicht sicher ist. Sie erhalten eine E-Mail, um Ihr Passwort zu aktualisieren."
+      },
+      "address": {
+        "updated": "Adresse erfolgreich aktualisiert.",
+        "error_updating": "Fehler beim Aktualisieren der Adresse",
+        "created": "Adresse erfolgreich erstellt",
+        "error_creating": "Fehler beim Erstellen der Adresse.",
+        "deleted": "Adresse erfolgreich gelöscht",
+        "error_deleting": "Fehler beim Löschen der Adresse."
+      },
+      "order": {
+        "not_available": "Diese Bestellung ist nicht verfügbar",
+        "financial_status": {
+          "authorized": "Autorisiert",
+          "pending": "Ausstehend",
+          "paid": "Bezahlt",
+          "unpaid": "Unbezahlt",
+          "voided": "Entwertet",
+          "partially_paid": "Teilweise bezahlt",
+          "partially_refunded": "Teilweise erstattet",
+          "refunded": "Erstattet",
+          "expired": "Abgelaufen"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Erfüllt",
+          "complete": "Vollständig",
+          "partial": "Teilweise",
+          "unfulfilled": "Unerfüllt",
+          "restocked": "Aufgefüllt"
+        },
+        "transaction_status": {
+          "success": "Erfolg",
+          "pending": "Ausstehend",
+          "failure": "Versagen",
+          "error": "Fehler"
+        },
+        "cancel_reason": {
+          "declined": "Zahlung abgelehnt",
+          "inventory": "Artikel nicht verfügbar",
+          "fraud": "Betrügerische Bestellung",
+          "customer": "Kunde hat Bestellung geändert\/storniert",
+          "other": "Andere"
+        },
+        "cash_on_delivery": "Nachnahme (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Sie können dem Einkaufswagen nur %{count} %{name} hinzufügen.",
+        "too_many_items_in_cart": "Sie können dem Einkaufswagen keine weiteren %{name} hinzufügen.",
+        "less_than_minimum": "Dieses Element hat mindestens %{min}.",
+        "more_than_maximum": "Dieser Artikel hat ein Maximum von %{max}.",
+        "not_respect_step": "Sie können dieses Element nur in Vielfachen von %{step} hinzufügen.",
+        "all_items_in_cart": "Alle %{count} %{name} befinden sich in Ihrem Einkaufswagen.",
+        "empty_update": "leeren Einkaufswagen kann nicht aktualisiert werden",
+        "missing_parameters": "keine gültige ID oder Zeilenparameter",
+        "generic_error": "Warenkorb-Fehler",
+        "product_not_available": "Produkt ist nicht verfügbar",
+        "too_many_line_items_error": "Ihr Einkaufswagen darf nicht mehr als %{max} Artikel enthalten.",
+        "link_expired": "Link abgelaufen",
+        "link_no_longer_exists": "Verbindung existiert nicht mehr.",
+        "stock_problems_html": "Ein oder mehrere Artikel sind nicht mehr verfügbar. Wir haben einen <a href=\"%%7Blink%7D\">aktualisierten Einkaufswagen<\/a> bereitgestellt.",
+        "changed": "Warenkorb geändert",
+        "items_changed": "Ein oder mehrere Elemente haben sich geändert.",
+        "product_sold_out": "Das Produkt '%{name}' ist bereits ausverkauft.",
+        "variant_not_found": "Variante nicht gefunden",
+        "variant_requires_selling_plan": "Variante kann nur mit einem Verkaufsplan erworben werden.",
+        "selling_plan_not_available_for_company_locations": "Für B2B-Bestellungen ist nur ein einmaliger Kauf möglich",
+        "digital_product_not_available_for_company_locations": "Dieser Artikel kann keiner B2B-Bestellung hinzugefügt werden",
+        "selling_plan_not_applicable": "Der Verkaufsplan kann nicht auf die Variante angewendet werden",
+        "shipping_address_not_required": "Dieser Einkaufswagen erfordert keinen Versand",
+        "shipping_address_invalid": "Bei der Berechnung Ihrer Versandkosten ist ein Problem aufgetreten. Gehen Sie weiter zur Kasse, um einen Versandtarif auszuwählen, bevor Sie Ihre Bestellung abschließen."
+      },
+      "storefront": {
+        "invalid_password": "Passwort falsch, bitte versuchen Sie es erneut."
+      },
+      "tags": {
+        "add_articles": "Suche auf Artikel einschränken, die auch das Tag %{tag} haben",
+        "add_products": "Auswahl auf Produkte einschränken, die mit Tag %{tag} übereinstimmen",
+        "remove_articles": "Erweitern Sie die Suche auf Artikel, die nicht mit %{tag} getaggt sind",
+        "remove_products": "Tag %{tag} entfernen"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Vielen Dank, dass Sie unsere Mailingliste abonniert haben.",
+        "disclaimer": "Sie können sich jederzeit abmelden.",
+        "unsubscribe": "Abbestellen"
+      },
+      "unsubscribed": {
+        "confirmation": "Sie haben sich von unserer Mailingliste abgemeldet.",
+        "disclaimer": "Sie erhalten von uns keine Marketing-Updates mehr. Sie können sich jederzeit wieder anmelden.",
+        "preview": "Sie zeigen eine Vorschau dessen an, was Kunden sehen, wenn sie sich abmelden."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Sie haben sich für die Nachverfolgung von E-Mail-Öffnungen entschieden.<\/b>",
+          "visibility": "E-Mail-Öffnungsraten werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail als Teil einer aggregierten E-Mail-Öffnungsrate geöffnet haben.",
+          "opt_out_html": "Sie können <a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">sich von<\/a> der Nachverfolgung geöffneter E-Mails abmelden, wenn Sie diese Informationen nicht teilen möchten.",
+          "preview_bar": "Sie zeigen eine Vorschau dessen an, was Kunden sehen, wenn sie sich für die Verfolgung offener E-Mails entscheiden."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Sie haben die Nachverfolgung geöffneter E-Mails deaktiviert.<\/b>",
+          "visibility": "Wir werden nicht sehen, ob Sie unsere E-Mails geöffnet haben.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">Melden Sie sich<\/a> für die E-Mail-Nachverfolgung offener E-Mails an.",
+          "preview_bar": "Sie zeigen eine Vorschau dessen an, was Kunden sehen, wenn sie sich von der Verfolgung offener E-Mails abmelden."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Wir verfolgen keine geöffneten E-Mails mehr.<\/b>",
+          "privacy_policy": "Nachdem diese E-Mail gesendet wurde, haben wir unsere Datenschutzrichtlinie aktualisiert und verfolgen keine Öffnungen mehr."
+        }
+      }
     }
   },
   "products": {
