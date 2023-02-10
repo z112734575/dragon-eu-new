@@ -77,6 +77,12 @@
             "custom_liquid": "<div class=\"discount_information\">\n    {% assign discountbar = product.metafields.custom.discountbar.value %}\n    {% assign discount_sum = discountbar[0] %}\n    {% assign discount_code = discountbar[1] %}\n    {% assign discount_text = discountbar[2] %}\n    {% if product.metafields.custom.discountbar and discount_text == 'Weekly Sale' %}\n        {{ 'ug-discount.css' | asset_url | stylesheet_tag }}\n\n        <div class=\"ug-product-discount\">\n            <div class=\"ug-product-discount-box\">\n                <div class=\"ug-product-discount-sum\">\n                    <span class=\"percent\">{{ discount_sum }}%<\/span>\n                    <span class=\"off\">OFF<\/span>\n                    <div class=\"desc\">{{ discount_text }}<\/div>\n                <\/div>\n                <div class=\"ug-product-discount-code\">\n                    <span>Code: {{ discount_code }}  <\/span>\n                    <button data-clipboard-text=\"{{ discount_code }}\" class=\"ug-product-discount-btn\">COPY<\/button>\n                    <button data-clipboard-text=\"{{ discount_code }}\" class=\"ug-product-discount-btned\">COPIED<\/button>\n                <\/div>\n            <\/div>\n        <\/div>\n    {% endif %}\n    {% if product.metafields.custom.discount_information %}\n        {% assign discount_information = product.metafields.custom.discount_information.value %}\n        {% assign discount_text_1 = discount_information[0] %}\n        {% assign discount_text_2 = discount_information[1] %}\n        {% assign discount_text_3 = discount_information[2] %}\n        <ul>\n            <li style=\"color:#F28B00;\">UGREEN bundles :<\/li>\n            <li>{{ discount_text_1 }}<\/li>\n            <li>{{ discount_text_2 }}<\/li>\n            <li>{{ discount_text_3 }}<\/li>\n        <\/ul>\n    {% endif %}\n<\/div>"
           }
         },
+        "5a775e0e-55ab-4c99-9b65-f9427525eccc": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display: flex;align-items: center;\">\n    <div style=\"width: 16px;height: 16px;background: black;color: white;display: flex;align-items: center;justify-content: center;margin-right: 12px;\">✔<\/div>\n    <div style=\"width: 40px\"><img\n            src=\"https:\/\/cdn.shopifycdn.net\/s\/files\/1\/0573\/0979\/0291\/products\/70429_350x350.png?v=1665219997\" alt=\"\"\n            style=\"width: 100%\"><\/div>\n    <div style=\"margin-left: 12px\">\n        <div>Ugreen 100W USB C to USB C Cable<\/div>\n        <div>€10.99<\/div>\n    <\/div>\n<\/div>"
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -279,6 +285,7 @@
         "price_review",
         "short_description",
         "499dbc35-5fcc-4406-a16a-539fb4222185",
+        "5a775e0e-55ab-4c99-9b65-f9427525eccc",
         "description",
         "form",
         "size_delivery_ask",
