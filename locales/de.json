@@ -1354,7 +1354,34 @@
         "submitted_description": "Überprüfen Sie die Bestell- und Zahlungsdetails.",
         "track_shipment": "Sendung verfolgen",
         "request_return": "Rückgabe anfordern",
-        "view_order_for_details": "Siehe Bestellung für Details"
+        "view_order_for_details": "Siehe Bestellung für Details",
+        "attempted_delivery_label": "Versuchte Lieferung",
+        "attempted_delivery_description": "Der Zustellversuch war erfolglos.",
+        "confirmed_description": "Wir haben Ihre Bestellung erhalten.",
+        "on_its_way_description": "Diese Sendung ist unterwegs.",
+        "out_for_delivery_description": "Diese Sendung ist zur Zustellung bereit.",
+        "preparing_for_shipping_label": "Versand vorbereiten",
+        "preparing_for_shipping_description": "Diese Artikel werden für den Versand vorbereitet.",
+        "ready_for_pickup_label": "Abholbereit",
+        "ready_for_pickup_description": "Diese Artikel stehen zur Abholung bereit.",
+        "picked_up_label": "Abgeholt",
+        "picked_up_description": "Diese Artikel wurden abgeholt.",
+        "canceled_description": "Ihre Bestellung wurde am {{date}} storniert.",
+        "canceled_label": "Abgesagt",
+        "canceled_title": "Ihre Bestellung wurde storniert",
+        "come_back": "Kehren Sie zu dieser Seite zurück, um Updates zu Ihrem Sendungsstatus zu erhalten.",
+        "company_tracking_number": "{{company}} Tracking-Nummer:",
+        "confirmed_label": "Bestätigt",
+        "confirmed_title": "Ihre Bestellung wird bestätigt",
+        "delivered_description": "Diese Sendung wurde zugestellt.",
+        "delivered_label": "Geliefert",
+        "delivered_title": "Ihre Sendung wurde zugestellt",
+        "estimated_delivery": "Voraussichtliche Lieferung {{date}}",
+        "in_review_description": "Wir lassen Sie wissen, wenn wir weitere Informationen benötigen oder wenn Ihre Bestellung bestätigt ist.",
+        "in_review_label": "Im Rückblick",
+        "in_review_title": "Ihre Bestellung wird überprüft",
+        "last_updated": "Zuletzt aktualisiert am {{date}}",
+        "multiple_shipments_label": "Mehrere Sendungen"
       },
       "status_mark_as_delivered": "Als zugestellt markieren",
       "status_title": "Bestellstatus",
@@ -1362,7 +1389,110 @@
       "buy_again_accessibility_label": "Erneut kaufen für Bestellung {{orderId}}",
       "manage": "Verwalten",
       "manage_accessiblity_label": "Bestellung {{orderId}} verwalten",
-      "group_title_label": "Teil von: {{groupTitle}}"
+      "group_title_label": "Teil von: {{groupTitle}}",
+      "order_list": {
+        "empty_state_order_source_description": "Hier werden nur Bestellungen angezeigt, die von {{email}} aufgegeben wurden.",
+        "empty_state_subtitle": "Gehen Sie zum Geschäft, um eine Bestellung aufzugeben.",
+        "empty_state_title": "Noch keine Bestellungen",
+        "empty_state_title_for_pending_orders": "Keine ausstehenden Bestellungen",
+        "estimated": "Voraussichtlich {{date}}",
+        "estimated_shortform": "Europäische Sommerzeit. {{date}}",
+        "estimated_delivery": "Voraussichtliche Lieferung {{date}}",
+        "one_images_accessibility_label": "Bestellung enthält {{lineItemName1}}",
+        "two_images_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_four_products_accessibility_label": "Die Bestellung umfasst {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} und {{numberOfAdditionalProducts}} weitere Produkte",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} Produkte",
+        "carousel": {
+          "one_products_accessibility_label": "Bestellung enthält {{lineItemName1}} Menge {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}} , {{lineItemName4}} Menge {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}} , {{lineItemName4}} Menge {{lineItemQuantity4}} , {{lineItemName5}} Menge {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}} , {{lineItemName4}} Menge {{lineItemQuantity4}} , {{lineItemName5}} Menge {{lineItemQuantity5}} , {{lineItemName6}} Menge {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}} , {{lineItemName4}} Menge {{lineItemQuantity4}} , {{lineItemName5}} Menge {{lineItemQuantity5}} , {{lineItemName6}} Menge {{lineItemQuantity6}} und mehr",
+          "view_order_details": "Bestell Details ansehen",
+          "previous": "Vorherige",
+          "next": "Nächste"
+        },
+        "items": {
+          "one": "{{count}} Artikel",
+          "other": "{{count}} Artikel"
+        },
+        "list_view": "Listenansicht anzeigen",
+        "multiple_shipments": "Mehrere Sendungen",
+        "no_filtered_results_description": "Filter entfernen oder anpassen, um Ihre Bestellungen anzuzeigen",
+        "no_filtered_results_title": "Keine gefilterten Ergebnisse",
+        "order_link": "Bestellung {{name}}",
+        "order_number": "Bestelle {{name}}",
+        "orders_title": "Bestätigt",
+        "pagination": {
+          "nav_accessibility_label": "Navigationsschaltflächen für Bestellungen",
+          "next": "Nächste",
+          "next_accessibility_label": "Nächste Bestellungen",
+          "previous": "Vorher",
+          "previous_accessibility_label": "Vorherige Bestellungen",
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Laden Sie mehr Bestellungen"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Siehe Bestellung für Details",
+            "estimated_delivery": "Voraussichtliche Lieferung {{date}}",
+            "last_updated": "Zuletzt aktualisiert am {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Europäische Sommerzeit. Lieferung {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Zahlung überfällig",
+            "due": "Zahlung fällig am {{date}}",
+            "due_today": "Zahlung heute fällig",
+            "due_without_date": "Zahlung fällig",
+            "due_on_fulfillment": "Zahlung fällig bei Erfüllung",
+            "pay_to_confirm": "Bezahlen Sie, um zu bestätigen",
+            "payment_not_due": "Zahlung noch nicht fällig"
+          },
+          "table_view": {
+            "overdue": "Überfällig",
+            "due": "Fällig {{date}}",
+            "due_today": "Heute fällig",
+            "paid": "Bezahlt",
+            "due_without_date": "Fällig",
+            "due_on_fulfillment": "Fällig bei Erfüllung",
+            "pay_to_confirm": "Bezahlen Sie, um zu bestätigen",
+            "payment_not_due": "Noch nicht fällig"
+          }
+        },
+        "sort_by": "Sortieren nach: {{option}}",
+        "sort_hide_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen ausblenden.",
+        "sort_show_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen anzeigen.",
+        "sort_currently_sorted_by_accessibility_label": "Derzeit sortiert nach: {{option}}",
+        "sort_title": "Sortieren",
+        "sort": {
+          "date": {
+            "newest": "Vom Neusten zum Ältesten",
+            "oldest": "Vom Ältesten zum Neuesten"
+          },
+          "location": {
+            "ascending": "Standort (AZ)",
+            "descending": "Standort (ZA)"
+          },
+          "order_number": {
+            "ascending": "Bestellnummer (niedrig bis hoch)",
+            "descending": "Bestellnummer (hoch bis niedrig)"
+          },
+          "order_total": {
+            "ascending": "Bestellsumme (niedrig bis hoch)",
+            "descending": "Bestellsumme (hoch bis niedrig)"
+          }
+        },
+        "table_view": "Tabellenansicht anzeigen",
+        "show_order_actions_accessibility_label": "Bestellaktionen für Bestellung {{name}}"
+      }
     },
     "order_details": {
       "shipment_timeline": {
