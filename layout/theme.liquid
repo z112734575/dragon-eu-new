@@ -16,6 +16,15 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
 {%- endcapture -%}
 <html class="{{class_html}} no-js" lang="{{ request.locale.iso_code }}"{% if isRTL %} dir="rtl"{% endif %}>
   <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MPWLL45');</script>
+<!-- End Google Tag Manager -->
+
+    
     <!--   ip 跳转前置判断 -->
   {{shop.metafields.CCR.shopat_script}} 
     <meta name="facebook-domain-verification" content="26do7lxt0zgmvthg0s8lf2tcflqhi8" />
@@ -60,13 +69,6 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     {% comment %}ug-custom{% endcomment %}
     <meta name="msvalidate.01" content="8C951A20A1CA87A31DD4746536CC0DC6" />
     <meta name="google-site-verification" content="lNo0b_U4wWcfYtXUosdmY7LPKRMId9bwNKm9nfxhvQo" />
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-5RGDJKT');</script>
-    <!-- End Google Tag Manager -->
 
     <!-- Hotjar Tracking Code for www.ugreen.com -->
     <script>
@@ -205,5 +207,11 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
 
 {% include 'gtranslate', float: 'yes' %}
 {% render 'enimoh' %} 
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPWLL45"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
  </body>
 </html>
