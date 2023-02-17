@@ -10,7 +10,7 @@
     "db04c5c4-2a99-424c-8194-64f9592caf41": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<span style=\"margin: 0 auto;text-align: center;\">Priority delivery to Germany, France, Spain, Italy<\/span>",
+        "custom_liquid": "<span style=\"margin: 0 auto;text-align: center;display: block;\">Priority delivery to Germany, France, Spain, Italy<\/span>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f5f5f7",
         "cl_bg_gradient": "",
