@@ -561,13 +561,15 @@ display: none;
                                                 More</a><span class="foldBtn-arrow"></span></div>
                                     {% endif %}
 
-                                    {% if product.id != 7050071670846 and product.id != 6928711811155 %}
+                                {% assign showBundlessArray = '7050071670846,6928711811155,6893296451667,6928711319635' | split: ',' %}
+                                {% assign p_id = product.id | json %}
+                                    {% unless showBundlessArray contains p_id %}
                                         <style>
                                             .t4s-liquid_4e85739a-0cb1-4fda-9fe8-441ed6ed155c {
                                                 display: none;
                                             }
                                         </style>
-                                    {% endif %}
+                                    {% endunless %}
                                     {% comment %}ugreen{% endcomment %}
 
                                 {%- when 'price_review' -%}
