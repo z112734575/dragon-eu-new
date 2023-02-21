@@ -52,10 +52,12 @@
               </div>
             </a>
           </div>
-          <div class="product_code">
-            <p>Code: {{ discount_code }}</p>
-            <button data-ug-copy-data="{{ discount_code }}" class="copy-btn">Copy</button>
-          </div>
+          <!--
+            <div class="product_code">
+              <p>Code: {{ discount_code }}</p>
+              <button data-ug-copy-data="{{ discount_code }}" class="copy-btn">Copy</button>
+            </div>
+          -->
           <div class="product_buy">
             <a
               href="{{ product.url }}"
@@ -453,6 +455,7 @@
 <script>
   
   
+  
     $(function () {
       if($(window).width() > 768) {
             $(window).scroll(function() {
@@ -515,6 +518,7 @@
                 document.body.removeChild(input);
         },200);});
     })
+
 
 
 </script>
