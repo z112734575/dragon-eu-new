@@ -16,7 +16,7 @@
             "title": "Superior GaN* Tech Bolder, Faster Charger.",
             "subtitle": "",
             "button_text": "Shop Now",
-            "link": "\/collections\/gan-charger",
+            "link": "\/collections\/gan-chargers",
             "className": ""
           }
         },
@@ -28,7 +28,7 @@
             "title": "Get More Versatility From One Hub.",
             "subtitle": "",
             "button_text": "Shop Now",
-            "link": "\/collections\/hubs-and-adapters",
+            "link": "\/collections\/hubs",
             "className": ""
           }
         },
@@ -40,7 +40,7 @@
             "title": "Hard Drive Enclosure, File Transfers in Flash.",
             "subtitle": "",
             "button_text": "Shop Now",
-            "link": "\/collections\/hard-drive-enclosure",
+            "link": "\/collections\/hard-drive-enclosures",
             "className": ""
           }
         },
@@ -65,7 +65,7 @@
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
-        "banner_index": "0"
+        "banner_index": ""
       }
     },
     "ug-index-image": {
