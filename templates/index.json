@@ -8,18 +8,6 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
-        "2c956ca6-e2d2-460c-bb47-a7b39bbbe182": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/1_Banner-_Web.png?v=1677659100",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/1.1_Banner-_Mobile.png?v=1677659092",
-            "title": "Superior GaN* Tech Bolder, Faster Charger.",
-            "subtitle": "",
-            "button_text": "Shop Now",
-            "link": "\/collections\/gan-chargers",
-            "className": ""
-          }
-        },
         "ug-index-carousel-1": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -58,7 +46,6 @@
         }
       },
       "block_order": [
-        "2c956ca6-e2d2-460c-bb47-a7b39bbbe182",
         "ug-index-carousel-1",
         "ug-index-carousel-11",
         "86777b6a-bde9-4981-9d0b-274743aba41c"
