@@ -20,18 +20,6 @@
             "className": ""
           }
         },
-        "ug-index-carousel-11": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_100w_charger_pc__2x-2.jpg?v=1673702929",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pe-banner-2.png?v=166554269",
-            "title": "Nexode 100W Charger",
-            "subtitle": "4-in-1 Multiport Charger",
-            "button_text": "Shop Now",
-            "link": "\/products\/ugreen-nexode-100w-usb-c-wall-charger",
-            "className": "nexode-100w"
-          }
-        },
         "86777b6a-bde9-4981-9d0b-274743aba41c": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -43,12 +31,24 @@
             "link": "\/collections\/hard-drive-enclosures",
             "className": ""
           }
+        },
+        "ug-index-carousel-11": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_100w_charger_pc__2x-2.jpg?v=1673702929",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pe-banner-2.png?v=166554269",
+            "title": "Nexode 100W Charger",
+            "subtitle": "4-in-1 Multiport Charger",
+            "button_text": "Shop Now",
+            "link": "\/products\/ugreen-nexode-100w-usb-c-wall-charger",
+            "className": "nexode-100w"
+          }
         }
       },
       "block_order": [
         "ug-index-carousel-1",
-        "ug-index-carousel-11",
-        "86777b6a-bde9-4981-9d0b-274743aba41c"
+        "86777b6a-bde9-4981-9d0b-274743aba41c",
+        "ug-index-carousel-11"
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
