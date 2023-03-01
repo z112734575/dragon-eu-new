@@ -33,7 +33,8 @@
     "use_new_badge": false,
     "use_custom_badge": true,
     "within_cat": true,
-    "enable_quickview": false,
+    "enable_quickview": true,
+    "enable_quickshop": true,
     "enable_rating": true,
     "enable_atc": true,
     "show_qty": false,
@@ -43,6 +44,7 @@
     "enable_pr_size": false,
     "show_img": "1",
     "pr_img_effect": "2",
+    "enable_shadow_round_img": false,
     "pr_curent": "3",
     "use_group_media": true,
     "use_change_variant_by_img": true,
@@ -2006,6 +2008,7 @@
           },
           "main-qv-2": {
             "type": "description",
+            "disabled": true,
             "settings": {
               "des": "2",
               "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.<\/p>",
@@ -2026,14 +2029,14 @@
               "enable_compare": true,
               "btn_atc_full": false,
               "pr_btn_round": 40,
-              "ani": "t4s-ani-tada",
+              "ani": "none",
               "time": 6,
-              "btn_txt": "3",
+              "btn_txt": "0",
               "btn_icon": false,
               "button_style": "default",
               "button_color": "primary",
               "button_effect": "sweep-to-bottom",
-              "show_dynamic_checkout": true,
+              "show_dynamic_checkout": false,
               "btn_txt2": "3",
               "button_color_payment": "dark",
               "product_list": [
@@ -2047,8 +2050,14 @@
               ]
             }
           },
+          "main-qv-7": {
+            "type": "short_description",
+            "settings": {
+            }
+          },
           "main-qv-4": {
             "type": "size_delivery_ask",
+            "disabled": true,
             "settings": {
               "size_chart": "3",
               "pos_sizeg": "1",
@@ -2063,6 +2072,7 @@
           },
           "main-qv-5": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_options": true,
               "show_vendor": false,
@@ -2077,6 +2087,7 @@
           },
           "main-qv-6": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "socials_align": "start",
               "social_mode": "1",
@@ -2098,22 +2109,26 @@
           "main-qv-1",
           "main-qv-2",
           "main-qv-3",
+          "main-qv-7",
           "main-qv-4",
           "main-qv-5",
           "main-qv-6"
         ],
         "settings": {
           "demo_pr": "",
+          "media_layout": "without_thumbnails",
+          "media_size": "medium",
+          "thumb_lr_size": "medium",
           "image_ratio": "ratioadapt",
           "image_size": "cover",
           "image_position": "8",
           "nav_btn": true,
-          "btn_vi": "always",
-          "btn_owl": "outline",
+          "btn_vi": "hover",
+          "btn_owl": "default",
           "btn_shape": "round",
           "btn_cl": "dark",
           "btn_size": "small",
-          "btn_hidden_mobile": false
+          "btn_hidden_mobile": true
         }
       },
       "slider_config": {

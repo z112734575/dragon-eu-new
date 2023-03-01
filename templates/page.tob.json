@@ -1,66 +1,191 @@
 {
   "sections": {
-    "heading": {
-      "type": "heading-template",
+    "319fa563-e958-41d7-a0b0-0a090f6339cb": {
+      "type": "toB_banner",
       "settings": {
-        "use_specify_image": true,
-        "parallax": false,
-        "color": "#000000",
-        "overlay": 54,
-        "padding": 50,
-        "paddingmb": 50,
-        "mg_b": 50,
-        "mg_bmb": 50,
-        "content_align": "t4s-text-center",
-        "bg_pos": "center center",
-        "bg_repeat": "no-repeat",
-        "bg_size": "cover",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mobile_1c3cc926-ef2d-45c7-87ca-15990028b532.png?v=1675931778",
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc.png?v=1675931768",
+        "banner_title": "Special Corporate Purchase Offers",
+        "banner_sub_text": "For Any Situation ,Ugreen Has Something for You",
+        "banner_sub_text2": "Get Bigger Saving on Best When You Buy in Bulk",
+        "banner_button_text": "Buy Now >",
+        "banner_button_url": "https:\/\/www.ugreen.com\/"
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "60px,,60px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
-    },
-    "sidebar-page": {
-      "type": "sidebar-page",
-      "disabled": true,
+    "0b0f2269-0924-4824-9a91-8ffcfc9fcd0a": {
+      "type": "toB_products_list",
       "blocks": {
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
-          "type": "blog_cate",
+        "toB_products_list1": {
+          "type": "product_list_section",
           "settings": {
-            "title": "Blog categories",
-            "cat_link_list": "",
-            "count": true
+            "section_title": "For Businesses",
+            "section_subtitle": "Tech to kit out your office",
+            "product_list": [
+              "wholesale-ugreen-nexode-200w-usb-c-desktop-charger",
+              "wholesale-ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-ssd-caddy",
+              "wholesale-ugreen-nexode-140w-usb-c-wall-charger",
+              "wholesale-ugreen-m2-nvme-10-gbps-ssd-enclosure",
+              "wholesale-wholesale-product-m2-gehause1",
+              "wholesale-ugreen-usb-c-triple-display-docking-station",
+              "wholesale-ugreen-usb-c-to-lightning-audio-adapter"
+            ],
+            "section_img": "shopify:\/\/shop_images\/Businesses_pic_pc.png",
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Businesses_normal_icon_70aa4f25-c303-46b8-bb8c-350416b5537d.svg?v=1676015525",
+            "hover_icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Businesses_selected_icon_d7c833d8-ebdc-4a4e-8975-d1f3a1280e84.svg?v=1676015525"
+          }
+        },
+        "toB_products_list2": {
+          "type": "product_list_section",
+          "settings": {
+            "section_title": "For Gift",
+            "section_subtitle": "Gifts for your employees, partners, or visiting guests",
+            "product_list": [
+              "wholesale-ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "wholesale-ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger",
+              "wholesale-ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "wholesale-ugreen-superior-suction-cup-car-phone-holder",
+              "wholesale-ugreen-aluminum-adjustable-tablet-stand"
+            ],
+            "section_img": "shopify:\/\/shop_images\/Gift_pic_pc.png",
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Gift_normal_icon_4a93c4a8-17cf-4528-86de-8fcccd5af63d.svg?v=1676015524",
+            "hover_icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Gift_selected_icon_9cc1435a-80c2-4fcb-b765-e707b13a926f.svg?v=1676015524"
+          }
+        },
+        "toB_products_list3": {
+          "type": "product_list_section",
+          "settings": {
+            "section_title": "For School",
+            "section_subtitle": "We offer competitive pricing for schools & universities",
+            "product_list": [
+              "wholesale-ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "wholesale-ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger",
+              "wholesale-ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "wholesale-ugreen-superior-suction-cup-car-phone-holder",
+              "wholesale-ugreen-aluminum-adjustable-tablet-stand"
+            ],
+            "section_img": "shopify:\/\/shop_images\/School_pic_pc.png",
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/School_normal_icon_92e22eb1-0a04-4784-a0c1-f3a86497db10.svg?v=1676011014",
+            "hover_icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/School_selected_icon_b691fbaa-4c78-4d27-99ec-3753fa91032c.svg?v=1676015525"
           }
         }
       },
       "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+        "toB_products_list1",
+        "toB_products_list2",
+        "toB_products_list3"
       ],
       "settings": {
-        "enable_drawer": false,
-        "space": 50,
-        "size": "medium",
-        "br_style": "none",
-        "brcolor": "#222222",
-        "sidebar_bdr": 5,
-        "sidebar_pd": 10
+        "faq_title": "Customized Offers",
+        "faq_subtitle": "we’ve got competitive pricing on bulk orders. Let’s connect today and discuss which options are best for you. We will offer you exclusive wholesale prices."
+      }
+    },
+    "77ce73be-f362-4274-96e7-5d19509d6525": {
+      "type": "accordion",
+      "blocks": {
+        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Q: How do I place an order?",
+            "content": "<p>If the products you want are available on the Anker Corporate Purchase Program page, you can order them directly from the page.<br\/>If the products you want are not available on this page, please submit an application form for the Corporate Purchase Program. Our specialists will get in touch with you within 24 hours, excluding weekends and local holidays.<\/p>"
+          }
+        },
+        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Q: How do I get a corporate purchase price?",
+            "content": "<p>The corporate purchase price is exclusively available on the Corporate Purchase Program page.<br\/>Products available on the Anker Corporate Purchase Program page can be directly ordered, and rest assured that this is our best price yet!<br\/>For other products not featured in the program, we will send you a corporate purchase code or coupon or set the lowest price directly in our system after we reach an agreement.<\/p>"
+          }
+        },
+        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Q: Which businesses can apply for the Ugreen Corporate Purchase Program discount?",
+            "content": "<p>The Ugreen Corporate Purchase Program is open to all businesses. Ugreen reserves the right to review all orders and enterprise qualifications, and decline those who do not meet Ugreen's criteria.<\/p>"
+          }
+        },
+        "d39786dc-9831-4ab1-b5c6-784733992be1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Q: In which countries is the Ugreen Corporate Purchase Program available?",
+            "content": "<p>Currently, the Ugreen Corporate Purchase Program ships orders to the US, the CA, the EU and Germany.<br\/><\/p>"
+          }
+        },
+        "5c884525-3be9-478a-aefd-d4c01b263134": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Q: Does it support direct pick-up at the warehouse?",
+            "content": "<p>As products are stocked in multiple warehouses, we do not encourage warehouse pick-up.<\/p>"
+          }
+        },
+        "337c33e0-e2da-4e47-9430-5abdf79bff76": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Q: Can I get a price match if the product price on the Ugreen website has changed?",
+            "content": "<p>Discounts offered for Corporate Purchase Program orders are customized based on product quantity. Orders placed via this program cannot be refunded for any difference in price.<\/p>"
+          }
+        },
+        "95a5a8ce-01db-48ed-a167-c0d268f61f2b": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "We are a tax-exempt organization. How do we make tax-exempted orders?",
+            "content": "<p>Our website does not support applying for tax exemptions on the checkout page or setting up tax-exempted accounts. However, we can issue you a refund on the tax after the purchase. Please contact service@ugreen.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-0",
+        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-1",
+        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-2",
+        "d39786dc-9831-4ab1-b5c6-784733992be1",
+        "5c884525-3be9-478a-aefd-d4c01b263134",
+        "337c33e0-e2da-4e47-9430-5abdf79bff76",
+        "95a5a8ce-01db-48ed-a167-c0d268f61f2b"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "FAQ",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 0,
+        "accor_des": "1",
+        "title_cl": "#333333",
+        "bg_title_cl": "#ffffff",
+        "title_active_cl": "#333333",
+        "bg_title_active_cl": "#ffffff",
+        "content_cl": "#939393",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "whatsApp": {
+      "type": "whatsapp-connect",
+      "settings": {
+        "whatsApp_id": "+8615735929431"
       }
     }
   },
   "order": [
-    "heading",
-    "main",
-    "sidebar-page"
+    "319fa563-e958-41d7-a0b0-0a090f6339cb",
+    "0b0f2269-0924-4824-9a91-8ffcfc9fcd0a",
+    "77ce73be-f362-4274-96e7-5d19509d6525",
+    "whatsApp"
   ]
 }

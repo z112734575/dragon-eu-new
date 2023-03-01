@@ -485,12 +485,6 @@
   .t4s-flicky-slider .flickityt4s-button {
     background-color: #cfcfcf !important; }
 
-  .t4s-product__media-wrapper .t4s-flicky-slider .flickityt4s-prev-next-button.next {
-    right: -60px !important; }
-
-  .t4s-product__media-wrapper .t4s-flicky-slider .flickityt4s-prev-next-button.previous {
-    left: -60px !important; }
-
   .t4s-section-main-product .t4s-product__policies {
     display: none; }
   .t4s-section-main-product .t4s-product-form__buttons .t4s-product-form__submit {
@@ -964,3 +958,10 @@
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; } }
+/*iconfont 初始化*/
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

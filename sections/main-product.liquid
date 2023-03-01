@@ -495,71 +495,9 @@ display: none;
                                         style="--title-family:var(--font-family-{{ bk_stts.fnt_df_pr }});--title-style:{{ bk_stts.txt_tr_pr }};--title-size:{{ bk_stts.size_pr }}px;--title-weight:{{ bk_stts.fw_pr }};--title-line-height:{{ lh_pr }};--title-spacing:{{ bk_stts.ls_pr }}px;--title-color:{{ bk_stts.pr_title_color }};--title-color-hover:{{ bk_stts.pr_title_color }};" {{ block.shopify_attributes }}>{{ product.title }}</h1>
                                     {% comment %}ugreen{% endcomment %}
                                 {%- when 'short_description' -%}
-                                    {% if product.metafields.custom.short_description %}
-                                        <style>
-                                            .ug-product-short-desc {
-                                                position: relative;
-                                                overflow: hidden;
-                                                transition: height 0.3s;
-                                            }
-                                            .ug-product-short-desc ul {
-                                                list-style: disc;
-                                            }
-                                            .fold-product-short-desc:after {
-                                                position: absolute;
-                                                height: 30%;
-                                                bottom: 0;
-                                                left: 0;
-                                                right: 0;
-                                                background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .75) 54%, #fff);
-                                                clear: both;
-                                                content: " ";
-                                                display: block;
-                                                font-size: 0;
-                                            }
-                                            .ug-product-short-desc ul li:first-child {
-                                                color: #131414;
-                                            }
-                                            .foldBtn-wrap {
-                                                display: flex;
-                                                align-items: center;
-                                            }
-                                            #foldBtn {
-                                                color: #00CC88;
-                                                font-size: 16px;
-                                            }
-                                            .foldBtn-arrow {
-                                                width: 6px;
-                                                height: 6px;
-                                                border: 1px solid #00CC88;
-                                                border-left: none;
-                                                border-top: none;
-                                                transform: rotate(45deg);
-                                                margin-left: 6px;
-                                            }
-                                            @media (max-width: 767px) {
-                                                .ug-product-short-desc {
-                                                    padding-top: 12px;
-                                                    border-top: 1px solid #DEDEDE;
-                                                }
-                                            }
-                                        </style>
-                                        <div class="ug-product-short-desc">
-                                            {% if product.id == 7037641162814 %}
-                                                {%- assign description = product.metafields.custom.short_description | newline_to_br -%}
-                                                {% assign descArr = description | split: '<br />' %}
-                                                <ul>
-                                                    {% for item in descArr %}
-                                                        <li>{{ item }}</li>
-                                                    {% endfor %}
-                                                </ul>
-                                            {% else %}
-                                                {{ product.metafields.custom.short_description }}
-                                            {% endif %}
-                                        </div>
-                                        <div class="foldBtn-wrap"><a href="javascript:void(0)" id="foldBtn">Learn
-                                                More</a><span class="foldBtn-arrow"></span></div>
-                                    {% endif %}
+                                {% if product.metafields.custom.short_description %}
+                                    {% render "ug-short-description", product: product %}
+                                {% endif %}
 
                                 {% assign showBundlessArray = '7050071670846,6928711811155,6893296451667,6928711319635' | split: ',' %}
                                 {% assign p_id = product.id | json %}
