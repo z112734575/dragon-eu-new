@@ -32,18 +32,6 @@
             "className": ""
           }
         },
-        "86777b6a-bde9-4981-9d0b-274743aba41c": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/2_Banner-_Web.png?v=1677659094",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/2.1_Banner-_Mobile.png?v=1677659089",
-            "title": "Hard Drive Enclosure, File Transfers in Flash.",
-            "subtitle": "",
-            "button_text": "Shop Now",
-            "link": "\/collections\/hard-drive-enclosures",
-            "className": ""
-          }
-        },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -55,13 +43,25 @@
             "link": "\/products\/ugreen-nexode-100w-usb-c-wall-charger",
             "className": "nexode-100w"
           }
+        },
+        "86777b6a-bde9-4981-9d0b-274743aba41c": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/2_Banner-_Web.png?v=1677659094",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/2.1_Banner-_Mobile.png?v=1677659089",
+            "title": "Hard Drive Enclosure, File Transfers in Flash.",
+            "subtitle": "",
+            "button_text": "Shop Now",
+            "link": "\/collections\/hard-drive-enclosures",
+            "className": ""
+          }
         }
       },
       "block_order": [
         "2c956ca6-e2d2-460c-bb47-a7b39bbbe182",
         "ug-index-carousel-1",
-        "86777b6a-bde9-4981-9d0b-274743aba41c",
-        "ug-index-carousel-11"
+        "ug-index-carousel-11",
+        "86777b6a-bde9-4981-9d0b-274743aba41c"
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
