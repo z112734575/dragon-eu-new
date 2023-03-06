@@ -106,14 +106,6 @@
             "content": "<p>The Ugreen Corporate Purchase Program is open to all businesses. Ugreen reserves the right to review all orders and enterprise qualifications, and decline those who do not meet Ugreen's criteria.<\/p>"
           }
         },
-        "d39786dc-9831-4ab1-b5c6-784733992be1": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "Q: In which countries is the Ugreen Corporate Purchase Program available?",
-            "content": "<p>Currently, the Ugreen Corporate Purchase Program ships orders to the US, the CA, the EU and Germany.<br\/><\/p>"
-          }
-        },
         "5c884525-3be9-478a-aefd-d4c01b263134": {
           "type": "accor_item",
           "settings": {
@@ -143,7 +135,6 @@
         "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-0",
         "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-1",
         "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-2",
-        "d39786dc-9831-4ab1-b5c6-784733992be1",
         "5c884525-3be9-478a-aefd-d4c01b263134",
         "337c33e0-e2da-4e47-9430-5abdf79bff76",
         "95a5a8ce-01db-48ed-a167-c0d268f61f2b"
