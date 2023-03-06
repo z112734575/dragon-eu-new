@@ -81,6 +81,7 @@
     },
     "77ce73be-f362-4274-96e7-5d19509d6525": {
       "type": "accordion",
+      "disabled": true,
       "blocks": {
         "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-0": {
           "type": "accor_item",
