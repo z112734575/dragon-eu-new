@@ -396,6 +396,7 @@
   padding: 0;
   margin: 0;
   z-index: 10;
+  position: absolute;
 }
 .limited_off_rights li {
   text-align: center;
@@ -645,6 +646,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0 2.133vw 4.133vw 2.133vw;
+    position: initial;
   }
   .limited_off_rights li {
     width: calc(33.33% - 2.133vw);
