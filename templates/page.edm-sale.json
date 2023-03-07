@@ -56,7 +56,7 @@
     "3f6a7717-f3c7-4aa0-a5fb-39d653cacfd7": {
       "type": "ug_edmsale_products",
       "settings": {
-        "limited_products_title": "",
+        "limited_products_title": "sp80628",
         "product_list": [
           "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi-1",
           "weekly-sale-ugreen-nexode-200w-usb-c-wall-charger-6-ports",
@@ -74,7 +74,8 @@
           "snap-deal-ugreen-4-in-1-usb-c-hub",
           "weekly-sale-product-2pack-cable-1",
           "snap-deal-ugreen-usb-2-0-switch-2-in-4-output-usb-kvm-switch",
-          "snap-deal-ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray"
+          "snap-deal-ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+          "snap-deal-ugreen-phone-stand-for-desk-adjustable-mobile-desktop-holder"
         ]
       }
     }
