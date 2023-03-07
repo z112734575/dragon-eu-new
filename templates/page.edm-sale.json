@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "87a50766-3bfb-422d-bf0d-5c050a08a430": {
+      "type": "ug_WeeklySale_banner",
+      "settings": {
+        "mobile_image": "shopify:\/\/shop_images\/750-1160.png",
+        "pc_image": "shopify:\/\/shop_images\/1920-700.png"
+      }
+    },
+    "db04c5c4-2a99-424c-8194-64f9592caf41": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<span style=\"margin: 0 auto;text-align: center;display: block;\">Priority delivery to Germany, France, Spain, Italy<\/span>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f5f5f7",
+        "cl_bg_gradient": "",
+        "mg": ",,0px,",
+        "pd": "",
+        "mg_mb": ",,0px,",
+        "pd_mb": ""
+      }
+    },
+    "57eeaa86-f63e-43f4-8ffb-5e4aa361f6c0": {
+      "type": "countdown",
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Limited-Time Offers",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 0,
+        "date": "2023\/01\/13",
+        "cdt_des": "1",
+        "cdt_size": "small",
+        "box_bdr": 0,
+        "bd_width": 0,
+        "space_item": 28,
+        "number_cl": "#ffffff",
+        "text_cl": "#000000",
+        "border_cl": "#000000",
+        "bg_cl": "#000000",
+        "content_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f5f5f7",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "3f6a7717-f3c7-4aa0-a5fb-39d653cacfd7": {
+      "type": "ug_edmsale_products",
+      "settings": {
+        "limited_products_title": "",
+        "product_list": [
+          "ugreen-nexode-200w-usb-c-desktop-charger",
+          "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+          "ugreen-6-in-1-usb-c-hub",
+          "ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger",
+          "ugreen-nexode-140w-usb-c-wall-charger",
+          "ugreen-m2-nvme-10-gbps-ssd-enclosure",
+          "weekly-sale-product-m2-gehause1",
+          "ugreen-2-pack-usb-c-to-usb-c-charger-cable-100w-65w-power-delivery",
+          "power-supply-pd-3-0"
+        ],
+        "box_title": "",
+        "product_list1": [
+
+        ]
+      }
+    }
+  },
+  "order": [
+    "87a50766-3bfb-422d-bf0d-5c050a08a430",
+    "db04c5c4-2a99-424c-8194-64f9592caf41",
+    "57eeaa86-f63e-43f4-8ffb-5e4aa361f6c0",
+    "3f6a7717-f3c7-4aa0-a5fb-39d653cacfd7"
+  ]
+}
