@@ -73,27 +73,25 @@
   })
 
   function showAndHideShortDesc() {
-      var foldEl = document.querySelector('.foldBtn-wrap')
-      var descWrapEl = document.querySelector('.ug-product-short-desc');
-      var descHeight = descWrapEl?.getBoundingClientRect().height;
-
-      if (!descHeight) return;
-      if (descHeight >= 120) {
-          descWrapEl.css.height = '120px'
-          descWrapEl.classList.add('fold-product-short-desc')
-      } else {
-          foldEl.parentNode.removeChild(foldEl)
-      }
-      foldEl.addEventListener('click', function () {
-          let flag = descWrapEl.classList.contains('fold-product-short-desc')
-          if (flag) {
-              $('.foldBtn-arrow').css({transform: "rotate(225deg)"})
-          } else {
-              $('.foldBtn-arrow').css({transform: "rotate(45deg)"})
-          }
-          $('#foldBtn').innerHTML = flag ? 'Learn Less' : 'Learn More'
-          descWrapEl.css.height = flag ? descHeight + 'px' : '120px'
-          descWrapEl.toggle('fold-product-short-desc')
-      })
-  }
+            var foldEl = document.querySelector('.foldBtn-wrap')
+            var descWrapEl = document.querySelector('.ug-product-short-desc');
+            var descHeight = descWrapEl.offsetHeight;
+            if (descHeight >= 120) {
+                descWrapEl.style.height = '120px'
+                descWrapEl.classList.add('fold-product-short-desc')
+            } else {
+                foldEl.parentNode.removeChild(foldEl)
+            }
+            foldEl.addEventListener('click', function () {
+                let flag = descWrapEl.classList.contains('fold-product-short-desc')
+                if (flag) {
+                    $('.foldBtn-arrow').css({transform: "rotate(225deg)"})
+                } else {
+                    $('.foldBtn-arrow').css({transform: "rotate(45deg)"})
+                }
+                $('#foldBtn').innerHTML = flag ? 'Learn Less' : 'Learn More'
+                descWrapEl.style.height = flag ? descHeight + 'px' : '120px'
+                descWrapEl.classList.toggle('fold-product-short-desc')
+            })
+        }
 </script>
