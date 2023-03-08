@@ -1,99 +1,99 @@
 <style>
-    .ug-product-short-desc {
-        position: relative;
-        overflow: hidden;
-        transition: height 0.3s;
-    }
-    .ug-product-short-desc ul {
-        list-style: disc;
-    }
-    .fold-product-short-desc:after {
-        position: absolute;
-        height: 30%;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .75) 54%, #fff);
-        clear: both;
-        content: " ";
-        display: block;
-        font-size: 0;
-    }
-    .ug-product-short-desc ul li:first-child {
-        color: #131414;
-    }
-    .foldBtn-wrap {
-        display: flex;
-        align-items: center;
-    }
-    #foldBtn {
-        color: #00CC88;
-        font-size: 16px;
-    }
-    .foldBtn-arrow {
-        width: 6px;
-        height: 6px;
-        border: 1px solid #00CC88;
-        border-left: none;
-        border-top: none;
-        transform: rotate(45deg);
-        margin-left: 6px;
-    }
-    @media (max-width: 767px) {
-        .ug-product-short-desc {
-            padding-top: 12px;
-            border-top: 1px solid #DEDEDE;
-        }
-    }
+  .ug-product-short-desc {
+      position: relative;
+      overflow: hidden;
+      transition: height 0.3s;
+  }
+  .ug-product-short-desc ul {
+      list-style: disc;
+  }
+  .fold-product-short-desc:after {
+      position: absolute;
+      height: 30%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .75) 54%, #fff);
+      clear: both;
+      content: " ";
+      display: block;
+      font-size: 0;
+  }
+  .ug-product-short-desc ul li:first-child {
+      color: #131414;
+  }
+  .foldBtn-wrap {
+      display: flex;
+      align-items: center;
+  }
+  #foldBtn {
+      color: #00CC88;
+      font-size: 16px;
+  }
+  .foldBtn-arrow {
+      width: 6px;
+      height: 6px;
+      border: 1px solid #00CC88;
+      border-left: none;
+      border-top: none;
+      transform: rotate(45deg);
+      margin-left: 6px;
+  }
+  @media (max-width: 767px) {
+      .ug-product-short-desc {
+          padding-top: 12px;
+          border-top: 1px solid #DEDEDE;
+      }
+  }
 </style>
 {% liquid
-    assign hide_id = product.id
-    assign description = product.description
+  assign hide_id = product.id
+  assign description = product.description
 %}
 <div class="ug-product-short-desc">
-    {% if product.id == 7037641162814 %}
-        {%- assign description = product.metafields.custom.short_description | newline_to_br -%}
-        {% assign descArr = description | split: '<br />' %}
-        <ul>
-            {% for item in descArr %}
-                <li>{{ item }}</li>
-            {% endfor %}
-        </ul>
-    {% else %}
-        {{ product.metafields.custom.short_description }}
-    {% endif %}
+  {% if product.id == 7037641162814 %}
+    {%- assign description = product.metafields.custom.short_description | newline_to_br -%}
+    {% assign descArr = description | split: '<br />' %}
+    <ul>
+      {% for item in descArr %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {{ product.metafields.custom.short_description }}
+  {% endif %}
 </div>
-<div class="foldBtn-wrap"><a href="javascript:void(0)" id="foldBtn">Learn More</a><span class="foldBtn-arrow"></span>
+<div class="foldBtn-wrap">
+  <a href="javascript:void(0)" id="foldBtn">Learn More</a><span class="foldBtn-arrow"></span>
 </div>
-
 
 <script>
-    setTimeout(() => {
-        showAndHideShortDesc();
-    })
+  setTimeout(() => {
+      showAndHideShortDesc();
+  })
 
-    function showAndHideShortDesc() {
-        var foldEl = document.querySelector('.foldBtn-wrap')
-        var descWrapEl = document.querySelector('.ug-product-short-desc');
-        var descHeight = descWrapEl?.getBoundingClientRect().height;
+  function showAndHideShortDesc() {
+      var foldEl = document.querySelector('.foldBtn-wrap')
+      var descWrapEl = document.querySelector('.ug-product-short-desc');
+      var descHeight = descWrapEl?.getBoundingClientRect().height;
 
-        if (!descHeight) return;
-        if (descHeight >= 120) {
-            descWrapEl.style.height = '120px'
-            descWrapEl.classList.add('fold-product-short-desc')
-        } else {
-            foldEl.parentNode.removeChild(foldEl)
-        }
-        foldEl.addEventListener('click', function () {
-            let flag = descWrapEl.classList.contains('fold-product-short-desc')
-            if (flag) {
-                $('.foldBtn-arrow').css({transform: "rotate(225deg)"})
-            } else {
-                $('.foldBtn-arrow').css({transform: "rotate(45deg)"})
-            }
-            $('#foldBtn').innerHTML = flag ? 'Learn Less' : 'Learn More'
-            descWrapEl.style.height = flag ? descHeight + 'px' : '120px'
-            descWrapEl.classList.toggle('fold-product-short-desc')
-        })
-    }
+      if (!descHeight) return;
+      if (descHeight >= 120) {
+          descWrapEl.style.height = '120px'
+          // descWrapEl.classList.add('fold-product-short-desc')
+      } else {
+          foldEl.parentNode.removeChild(foldEl)
+      }
+      foldEl.addEventListener('click', function () {
+          let flag = descWrapEl.classList.contains('fold-product-short-desc')
+          if (flag) {
+              $('.foldBtn-arrow').css({transform: "rotate(225deg)"})
+          } else {
+              $('.foldBtn-arrow').css({transform: "rotate(45deg)"})
+          }
+          $('#foldBtn').innerHTML = flag ? 'Learn Less' : 'Learn More'
+          descWrapEl.style.height = flag ? descHeight + 'px' : '120px'
+          descWrapEl.classList.toggle('fold-product-short-desc')
+      })
+  }
 </script>
