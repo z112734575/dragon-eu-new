@@ -81,19 +81,25 @@
       if (descHeight >= 120) {
           descWrapEl.style.height = '120px'
           descWrapEl.classList.add('fold-product-short-desc')
+        console.log(111)
       } else {
           foldEl.parentNode.removeChild(foldEl)
+        console.log(222)
       }
       foldEl.addEventListener('click', function () {
           let flag = descWrapEl.classList.contains('fold-product-short-desc')
+        console.log(333)
           if (flag) {
+            console.log(444)
               $('.foldBtn-arrow').css({transform: "rotate(225deg)"})
           } else {
+            console.log(555)
               $('.foldBtn-arrow').css({transform: "rotate(45deg)"})
           }
           $('#foldBtn').innerHTML = flag ? 'Learn Less' : 'Learn More'
           descWrapEl.style.height = flag ? descHeight + 'px' : '120px'
           descWrapEl.classList.toggle('fold-product-short-desc')
+        console.log(666)
       })
   }
 </script>
