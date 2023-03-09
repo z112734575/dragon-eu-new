@@ -23,7 +23,10 @@ section {
 .img_mobile {
   display: none;
 }
-
+/* 隐藏footer form */
+.ug-footer-subscribe {
+  display: none;
+}
 /*Page banner style*/
 .page_banner {
   position: relative;
