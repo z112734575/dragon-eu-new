@@ -67,6 +67,7 @@
     },
     "ug-index-benefit": {
       "type": "ug-index-benefit",
+      "disabled": true,
       "settings": {
       }
     },
