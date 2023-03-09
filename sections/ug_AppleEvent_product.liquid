@@ -1,8 +1,121 @@
+<section class="product_section">
+  <div class="content">
+    <div class="title_img">
+      <img
+        src="{{ section.settings.pc_image }}"
+        alt=""
+        class="img_pc"
+      >
+      <img
+        src="{{ section.settings.mobile_image }}"
+        alt=""
+        class="img_mobile"
+      >
+      <div class="title">
+        <h2>{{ section.settings.title }}</h2>
+        <p>{{ section.settings.desc }}</p>
+      </div>
+    </div>
+    <div class="product_list product_swiper">
+      <div class="swiper-wrapper ">
+        {% for product in section.settings.product_list %}
+          <div class="item swiper-slide">
+            <div style="overflow: hidden;">
+              <div class="product_img">
+                <a href="{{ product.url }}">
+                  <img src="{{ product.featured_media | img_url: "400x" }}" alt="">
+                </a>
+              </div>
+              <div class="product_details">
+                <h3>{{ product.title }}</h3>
+                {% assign compare_at_price = product.compare_at_price %}
+                {% assign price = product.price %}
+                {% assign showDiscountBar = compare_at_price | minus: price %}
+                {% if showDiscountBar > 1 %}
+                  <p>
+                    {{ product.price | money -}}
+                    <span>{{ product.compare_at_price | money }}</span>
+                  </p>
+                  <div class="product_sale">
+                    <p>
+                      -{{ compare_at_price | minus: price | times: 100 | divided_by: compare_at_price }}
+                      <span>%</span>
+                    </p>
+                  </div>
+                {% else %}
+                  <p>{{ product.price | money }}</p>
+                {% endif %}
+                <a
+                  href="{{ product.url }}"
+                  class="t4s-pr-item-btn t4s-pr-addtocart buy_now"
+                  data-variant-id="{{product.variants.first.id}}"
+                  data-action-atc
+                  rel="nofollow"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+            {% assign apple_product_text = product.metafields.custom.apple_short_desc.value %}
+            {% assign apple_product_text_1 = apple_product_text[0] %}
+            {% assign apple_product_text_2 = apple_product_text[1] %}
+            {% assign apple_product_text_3 = apple_product_text[2] %}
+            {% if apple_product_text %}
+              <div class="product_message">
+                <a href="{{ product.url }}">
+                  <ul>
+                    <li>{{ apple_product_text_1 }}</li>
+                    <li>{{ apple_product_text_2 }}</li>
+                    <li>{{ apple_product_text_3 }}</li>
+                  </ul>
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
 {% schema %}
+{
+  "name": "AppleEvent Products",
+  "settings": [
+    {
+      "type": "url",
+      "id": "pc_image",
+      "label": "PC Product Banner URL"
+    },
+    {
+      "type": "url",
+      "id": "mobile_image",
+      "label": "Mobile Product Banner URL"
+    },
+    {
+    "type": "text",
+    "id": "title",
+    "label": "Banner Title"
+  },
+    {
+    "type": "text",
+    "id": "desc",
+    "label": "Banner desc"
+  },
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Product List",
+      "limit": 6
+    }
+  ],
+  "presets": [
   {
-    "name": "Section name",
-    "settings": []
+    "name": "AppleEvent Products"
   }
+],
+"templates": ["page"]
+}
 {% endschema %}
 
 {% stylesheet %}

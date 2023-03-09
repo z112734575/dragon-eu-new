@@ -1,0 +1,649 @@
+p,
+h1,
+h2,
+h3 {
+  font-family: "Poppins";
+}
+
+/* Global style */
+.content {
+  width: 100%;
+  max-width: 66.667vw;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #000;
+}
+
+.img_pc {
+  display: block;
+}
+
+.img_mobile {
+  display: none;
+}
+
+/*Page banner style*/
+.page_banner {
+  position: relative;
+}
+
+.page_banner img {
+  width: 100%;
+}
+
+.page_banner .banner_mol {
+  display: none;
+}
+
+.page_banner .banner_box {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  max-width: 36.979vw;
+  transform: translateX(-50%);
+}
+
+.page_banner .banner_box h1 {
+  font-size: 1.458vw;
+  color: #ffffff;
+}
+
+.page_banner .banner_box p {
+  font-size: 2vw;
+  color: #ffffff;
+  margin: 0.521vw 0 0 0;
+  font-weight: 700;
+}
+
+.page_banner .banner_box a {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.833vw;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.3s;
+  margin-top: 1.823vw;
+  border: 0.104vw solid #ffffff;
+  border-radius: 5.208vw;
+  width: 8.542vw;
+  height: 2.5vw;
+  line-height: 2.5vw;
+  border-radius: 5.208vw;
+  padding: 0;
+}
+.page_banner .banner_box a:hover {
+  background: #03f2a6;
+  border: 0.104vw solid #03f2a6;
+  color: #000;
+}
+
+/* section 1 Style */
+.apple_section_1 {
+  padding: 6.25vw 0;
+}
+
+.apple_section_1 .section_1_box {
+  background: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Apple_pc.png?v=1678088809")
+    center right no-repeat;
+  background-size: 18.75vw;
+}
+
+.apple_section_1 .section_1_box h2 {
+  font-weight: 600;
+  font-size: 4.167vw;
+  line-height: 5.208vw;
+  color: #ffffff;
+  max-width: 39.583vw;
+}
+
+.apple_section_1 .section_1_box h2:nth-child(1) {
+  background: linear-gradient(0deg, #03f2a6, #03f2a6),
+    linear-gradient(0deg, #002113 0%, #03f2a6 58.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.apple_section_1 .section_1_box .box_text {
+  max-width: 57.292vw;
+  margin-top: 3.125vw;
+  position: relative;
+}
+
+.apple_section_1 .section_1_box .box_text div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(360deg, #000000 27.08%, rgba(0, 0, 0, 0) 98.96%);
+}
+
+.apple_section_1 .section_1_box .box_text p {
+  font-size: 1.25vw;
+  line-height: 2.292vw;
+  color: #727273;
+}
+
+.apple_section_1 .section_1_box button {
+  font-weight: 600;
+  font-size: 1.042vw;
+  color: #03f2a6;
+  background: rgba(0, 0, 0, 0);
+  padding: 0;
+}
+.apple_section_1 .section_1_box button span {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+/* product section Style */
+.product_section {
+  padding-bottom: 6.25vw;
+}
+
+.product_section .title_img {
+  position: relative;
+  border-radius: 0.625vw;
+  overflow: hidden;
+}
+
+.product_section .title_img img {
+  width: 100%;
+}
+
+.product_section .title_img .title {
+  position: absolute;
+  top: 50%;
+  left: 4.167vw;
+  transform: translateY(-50%);
+  max-width: 22vw;
+}
+
+.product_section .title_img .title h2 {
+  font-weight: 600;
+  font-size: 2.083vw;
+  line-height: 2.604vw;
+  color: #ffffff;
+  margin-bottom: 0.521vw;
+}
+
+.product_section .title_img .title P {
+  font-size: 1.25vw;
+  line-height: 1.458vw;
+  color: #ffffff;
+  margin: 0;
+}
+
+.product_list {
+  padding: 1.042vw 0.417vw 3.125vw 0.417vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.product_list .item {
+  background: #141416;
+  border-radius: 0.625vw;
+  padding: 2.083vw 1.5625vw 1.5625vw 1.5625vw;
+  position: relative;
+}
+
+.product_list .item .product_img {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 12.5vw;
+  height: 12.5vw;
+}
+
+.product_list .item .product_img img {
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.product_list .item .product_details {
+  margin: 1.823vw 0 1.5625vw 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product_list .item .product_details h3 {
+  font-weight: 600;
+  font-size: 1.042vw;
+  line-height: 1.5625vw;
+  color: #ffffff;
+  opacity: 0.8;
+  width: 100%;
+  height: 2.865vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom: 1.042vw;
+}
+
+.product_list .item .product_details p {
+  font-family: "Lato-Bold, Lato";
+  font-weight: 700;
+  font-size: 1.354vw;
+  line-height: 1.302vw;
+  color: #03f2a6;
+  margin: 0;
+}
+
+.product_list .item .product_details p span {
+  font-weight: 600;
+  font-size: 0.833vw;
+  line-height: 0.99vw;
+  text-decoration-line: line-through;
+  color: #929292;
+  padding-left: 0.521vw;
+}
+
+.product_list .item .product_details .product_sale {
+  position: absolute;
+  top: -0.677vw;
+  left: -0.417vw;
+  background: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Tag_pc_2e3aa691-afcd-43de-b2e5-0e5113158c03.png?v=1678093651")
+    center center no-repeat;
+  background-size: 100% 100%;
+  width: 4.167vw;
+  height: 6.042vw;
+}
+
+.product_list .item .product_details .product_sale p {
+  font-weight: 700;
+  font-size: 1.25vw;
+  line-height: 1.51vw;
+  color: #000000;
+  transform: matrix(0.71, -0.7, 0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 2.083vw;
+  left: -0.15625vw;
+}
+
+.product_list .item .product_details .product_sale p span {
+  font-weight: 600;
+  font-size: 0.833vw;
+  line-height: 0.99vw;
+  color: #000000;
+  padding: 0;
+  text-decoration-line: blink;
+  margin-left: -5px;
+}
+
+.product_list .item .product_details a {
+  width: 7.708vw;
+  height: 2.083vw;
+  line-height: 2.083vw;
+  padding: 0;
+  border: 0.052vw solid #ffffff;
+  border-radius: 3.125vw;
+  font-weight: 600;
+  font-size: 0.833vw;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.product_list .item .product_details a:hover {
+  background: #03f2a6;
+  border: 0.052vw solid #03f2a6;
+  color: #000;
+}
+
+.product_list .item .product_message {
+  position: relative;
+  width: 120%;
+  left: -10%;
+  background: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/selling_point_bg_pc.png?v=1678092972")
+    center no-repeat;
+  background-size: 100% 100%;
+  padding: 1.354vw 1.5625vw 1.042vw 1.5625vw;
+}
+
+.product_list .item .product_message ul {
+  margin: 0;
+  padding-left: 1.042vw;
+}
+
+.product_list .item .product_message ul li {
+  font-size: 0.833vw;
+  line-height: 1.354vw;
+  color: #ffffff;
+  list-style-type: disc;
+}
+
+.product_swiper .swiper-pagination-bullet {
+  width: 3.229vw;
+  height: 0.208vw;
+  border-radius: inherit;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.product_swiper .swiper-pagination-bullet-active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.apple_footer_form {
+  position: relative;
+}
+
+.apple_footer_form .apple_footer_box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 27.083vw;
+}
+
+.apple_footer_form .apple_footer_box h3 {
+  font-weight: 600;
+  font-size: 1.25vw;
+  line-height: 1.771vw;
+  color: #ffffff;
+  margin-bottom: 0.521vw;
+}
+
+.apple_footer_form .apple_footer_box p {
+  font-size: 0.729vw;
+  line-height: 1.458vw;
+  color: #929292;
+  margin: 0;
+}
+
+.apple_footer_form .apple_footer_box .apple_form {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2.083vw;
+  padding-bottom: 3.125vw;
+}
+
+.apple_form .Polaris-FormLayout {
+  width: 13.542vw;
+}
+
+.apple_form .Polaris-FormLayout input {
+  width: 100%;
+  font-weight: 400;
+  font-size: 0.833vw;
+  color: #727273;
+  height: 2.083vw;
+  border: none;
+  border-radius: 0.208vw 0 0 0.208vw;
+}
+
+.apple_form .form-submit-btn-wrap button {
+  width: 7.292vw;
+  height: 2.083vw;
+  font-weight: 700;
+  font-size: 0.833vw;
+  color: #000000;
+  background: #03f2a6;
+  border-radius: 0.208vw;
+  margin-left: -0.26vw;
+  padding: 0;
+}
+.apple_form .form-submit-btn-wrap button:hover {
+  background: #00cc88;
+}
+.apple_form .alert-success {
+  color: green;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .content {
+    max-width: 100%;
+  }
+
+  .img_pc {
+    display: none;
+  }
+
+  .img_mobile {
+    display: block;
+  }
+
+  /*Page banner  mol style*/
+  .page_banner .banner_pc {
+    display: none;
+  }
+
+  .page_banner .banner_mol {
+    display: block;
+  }
+
+  .page_banner .banner_box {
+    left: 0;
+    max-width: 100%;
+    top: 10%;
+    padding: 0 4vw;
+    transform: inherit;
+    text-align: center;
+  }
+
+  .page_banner .banner_box h1 {
+    font-weight: 400;
+    font-size: 5.333vw;
+    line-height: 7.467vw;
+    padding: 0 5.333vw;
+  }
+
+  .page_banner .banner_box p {
+    font-weight: 700;
+    font-size: 7.467vw;
+    line-height: 10.133vw;
+    padding: 0 10%;
+    margin: 2.667vw 0 0 0;
+  }
+
+  .page_banner .banner_box a {
+    width: 36.8vw;
+    height: 10.667vw;
+    line-height: 10.667vw;
+    border: 0.4vw solid #ffffff;
+    border-radius: 16vw;
+    font-size: 4.267vw;
+    padding: 0;
+    margin-top: 8vw;
+  }
+
+  .apple_section_1 {
+    padding: 21.333vw 5.333vw;
+  }
+
+  .apple_section_1 .section_1_box {
+    background-size: 45.333vw;
+  }
+
+  .apple_section_1 .section_1_box h2 {
+    font-size: 12.267vw;
+    line-height: 13.333vw;
+    max-width: 100%;
+  }
+
+  .apple_section_1 .section_1_box .box_text {
+    margin-top: 10.667vw;
+    max-width: 100%;
+  }
+
+  .apple_section_1 .section_1_box .box_text p {
+    font-size: 4.267vw;
+    line-height: 6.4vw;
+  }
+
+  .apple_section_1 .section_1_box .box_text div {
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 98.96%);
+  }
+
+  .apple_section_1 .section_1_box button {
+    font-size: 4.267vw;
+  }
+
+  .product_section {
+    padding: 0 0 21.333vw 0;
+  }
+
+  .product_section .title_img {
+    margin: 0 4vw;
+    border-radius: 2.133vw;
+  }
+
+  .product_section .title_img .title {
+    top: 80%;
+    left: 3.2vw;
+    max-width: 66.667vw;
+  }
+
+  .product_section .title_img .title h2 {
+    font-size: 5.333vw;
+    line-height: 6.4vw;
+    margin-bottom: 1.333vw;
+  }
+
+  .product_section .title_img .title P {
+    font-size: 3.2vw;
+    line-height: 4.8vw;
+  }
+
+  .product_list {
+    margin: 0 1.867vw;
+    padding: 5.333vw 2.133vw 10.667vw 2.133vw;
+  }
+
+  .product_list .item {
+    padding: 5.333vw 4vw 4vw 8vw;
+    border-radius: 2.133vw;
+  }
+
+  .product_list .item .product_img {
+    width: 31vw;
+    height: 31vw;
+    padding: 1.6vw;
+    margin: 0;
+    float: left;
+  }
+
+  .product_list .item .product_details {
+    width: 48vw;
+    margin: 0 0 4vw 0;
+    float: right;
+  }
+
+  .product_list .item .product_details h3 {
+    font-size: 3.733vw;
+    line-height: 5.333vw;
+    height: 10.667vw;
+    margin-bottom: 4vw;
+  }
+
+  .product_list .item .product_details p {
+    font-size: 5.333vw;
+    line-height: 6.667vw;
+    margin-bottom: 4vw;
+  }
+
+  .product_list .item .product_details p span {
+    font-size: 3.2vw;
+    line-height: 3.733vw;
+    padding-left: 1.333vw;
+  }
+
+  .product_list .item .product_details .product_sale {
+    width: 15.467vw;
+    height: 21.333vw;
+    top: -1.6vw;
+    left: -1.067vw;
+  }
+
+  .product_list .item .product_details .product_sale p {
+    font-size: 4.267vw;
+    line-height: 5.067vw;
+    transform: rotate(-43.87deg);
+    top: 7.2vw;
+    left: -0.267vw;
+  }
+
+  .product_list .item .product_details .product_sale p span {
+    font-size: 3.2vw;
+    line-height: 3.733vw;
+  }
+
+  .product_list .item .product_details a {
+    width: 100%;
+    height: 9.6vw;
+    line-height: 9.6vw;
+    font-size: 3.733vw;
+    border: 0.267vw solid #ffffff;
+    border-radius: 16vw;
+  }
+
+  .product_list .item .product_message {
+    width: 117%;
+    left: -11%;
+    padding: 4vw 5.333vw 2.667vw 5.333vw;
+  }
+
+  .product_list .item .product_message ul {
+    padding-left: 5.333vw;
+  }
+
+  .product_list .item .product_message ul li {
+    font-size: 3.2vw;
+    line-height: 4.8vw;
+  }
+
+  .product_swiper .swiper-pagination-bullet {
+    width: 16.267vw;
+    height: 1.067vw;
+  }
+  .apple_footer_form .apple_footer_box {
+    padding: 0 5.333vw;
+    text-align: center;
+    top: 35%;
+    max-width: 100%;
+  }
+  .apple_footer_form .apple_footer_box h3 {
+    font-size: 4.8vw;
+    line-height: 6.4vw;
+  }
+  .apple_footer_form .apple_footer_box p {
+    font-size: 4.267vw;
+    line-height: 5.867vw;
+  }
+  .apple_footer_form .apple_footer_box .apple_form {
+    margin-top: 6.667vw;
+    padding-bottom: 10.667vw;
+  }
+  .apple_form .Polaris-FormLayout {
+    width: 100%;
+  }
+  .apple_form .Polaris-FormLayout input {
+    border-radius: 1.067vw;
+    font-size: 4.267vw;
+    margin-bottom: 5.333vw;
+    text-align: center;
+    height: 11.733vw;
+  }
+  .apple_form .element-group {
+    width: 100%;
+  }
+  .apple_form .form-submit-btn-wrap button {
+    width: 100%;
+    margin: 0;
+    border-radius: 1.067vw;
+    height: 11.733vw;
+    font-size: 4.267vw;
+  }
+  .apple_form .alert-success {
+    font-size: 3.2vw;
+    padding: 0 5.333vw;
+  }
+}
