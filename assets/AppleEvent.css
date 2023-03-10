@@ -127,7 +127,8 @@ section {
 .apple_section_1 .section_1_box .box_text p {
   font-size: 1.25vw;
   line-height: 2.292vw;
-  color: #727273;
+  color: #cccccc;
+  margin: 0;
 }
 
 .apple_section_1 .section_1_box button {
@@ -229,7 +230,7 @@ section {
 }
 
 .product_list .item .product_details p {
-  font-family: "Lato-Bold, Lato";
+  font-family: "Lato-Bold, Lato", sans-serif;
   font-weight: 700;
   font-size: 1.354vw;
   line-height: 1.302vw;
@@ -266,6 +267,7 @@ section {
   position: absolute;
   top: 2.083vw;
   left: -0.15625vw;
+  margin: 0;
 }
 
 .product_list .item .product_details .product_sale p span {
@@ -571,7 +573,7 @@ section {
     line-height: 5.067vw;
     transform: rotate(-43.87deg);
     top: 7.2vw;
-    left: -0.267vw;
+    left: 0.733vw;
   }
 
   .product_list .item .product_details .product_sale p span {
