@@ -5,8 +5,8 @@
       "settings": {
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_8b046f76-0060-4426-b97c-741a6a86388a.png?v=1678088706",
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mobile_d5b671f4-8dc6-44b8-86ef-0ab1b0b64edb.png?v=1678096000",
-        "title": "Making the MacBook & iPhone Even Better!",
-        "desc": "Ugreen Has You Covered!"
+        "title": "Ugreen iOS Spring Special",
+        "desc": "Making the MacBook & iPhone Even Better!"
       }
     },
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2": {
@@ -15,6 +15,7 @@
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_1_banner_pc.png?v=1678088586",
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_mobile.png?v=1678096000",
         "title": "Portable, Powerful, Perfect for You",
+        "title1": "",
         "desc": "Keep Your iPhone Charged, Faster",
         "product_list": [
           "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
@@ -30,6 +31,7 @@
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_pc.png?v=1678159469",
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_mobile.png?v=1678096000",
         "title": "More Ports. Ultimate Connectivity",
+        "title1": "",
         "desc": "Stay Connected, No Choosing Needed",
         "product_list": [
           "ugreen-usb-c-triple-display-docking-station",
@@ -45,6 +47,7 @@
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_3_banner_pc.png?v=1678159419",
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_3_banner_mobile.png?v=1678159403",
         "title": "Expand More, Transfer Faster",
+        "title1": "",
         "desc": "Broaden Your Device Capabilities",
         "product_list": [
           "snap-deal-ugreen-usb-c-to-ethernet-adapter",
@@ -59,6 +62,7 @@
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_pc.png?v=1678159418",
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_mobile.png?v=1678159403",
         "title": "Smart Device Holders",
+        "title1": "",
         "desc": "Adjustable & Designed for Optimum Viewing",
         "product_list": [
           "snap-deal-ugreen-aluminum-adjustable-tablet-stand",
