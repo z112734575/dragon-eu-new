@@ -1597,19 +1597,6 @@
               "lb_cl": ""
             }
           },
-          "74abf930-8362-4e67-a9df-d02be16b9c4e": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "X-mas",
-              "url": "shopify:\/\/pages\/new-year",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "HOT",
-              "lb_cl": "#ff7e00"
-            }
-          },
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58": {
             "type": "menu",
             "settings": {
@@ -1620,6 +1607,18 @@
               "icon": "",
               "lb": "",
               "lb_cl": ""
+            }
+          },
+          "74abf930-8362-4e67-a9df-d02be16b9c4e": {
+            "type": "menu",
+            "settings": {
+              "title": "Ugreen iOS Spring Special",
+              "url": "shopify:\/\/pages\/apple-event",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "HOT",
+              "lb_cl": "#de4156"
             }
           },
           "a6508826-0ecb-4412-a5d8-a7547aa8d015": {
@@ -1753,8 +1752,8 @@
           "25fa7ecf-2db0-4747-b093-a1299099917e",
           "58800ed8-befe-449a-b8f8-ea86620bef6f",
           "mb_nav-3",
-          "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
+          "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "a6508826-0ecb-4412-a5d8-a7547aa8d015",
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
           "6f549481-942e-4bc2-82b1-22f3208c3997",
