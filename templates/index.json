@@ -72,6 +72,9 @@
     },
     "ug-index-featured": {
       "type": "ug-index-featured",
+      "custom_css": [
+        ".ug-featured {overflow: hidden;}"
+      ],
       "settings": {
       }
     },
