@@ -647,24 +647,6 @@
               "lb_cl": ""
             }
           },
-          "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
-            "type": "drop",
-            "disabled": true,
-            "settings": {
-              "title": "X-mas",
-              "url": "shopify:\/\/pages\/new-year",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "HOT",
-              "lb_cl": "#ff7e00",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2": {
             "type": "mega",
             "settings": {
@@ -685,18 +667,21 @@
               "r_s_v_item": "30"
             }
           },
-          "0ba2084a-39e0-4b8a-8fed-3447abf7523b": {
-            "type": "base",
-            "disabled": true,
+          "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
+            "type": "drop",
             "settings": {
-              "title": "NEXODE SERIES",
-              "url": "https:\/\/www.ugreen.com\/pages\/nexode-chargers",
+              "title": "Ugreen iOS Spring Special",
+              "url": "shopify:\/\/pages\/apple-event",
               "open_link": "_self",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
+              "lb": "HOT",
+              "lb_cl": "#de4156",
+              "lazy_mn": true,
+              "pos_sub": "bottom",
+              "pos": "left"
             }
           },
           "16e2ef48-b04b-46f0-bf5f-d12823645624": {
@@ -788,9 +773,8 @@
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "7b6b268c-25a0-4c97-960d-7e81c56a2676",
-          "bb3f48dc-4006-47c4-b5c3-9897849e11d7",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
-          "0ba2084a-39e0-4b8a-8fed-3447abf7523b",
+          "bb3f48dc-4006-47c4-b5c3-9897849e11d7",
           "16e2ef48-b04b-46f0-bf5f-d12823645624",
           "6141bf58-9316-4ce8-bd6d-16b03ed3fc8c",
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
