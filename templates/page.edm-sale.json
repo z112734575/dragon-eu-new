@@ -2,6 +2,10 @@
   "sections": {
     "87a50766-3bfb-422d-bf0d-5c050a08a430": {
       "type": "ug_WeeklySale_banner",
+      "custom_css": [
+        ".ug_WeeklySale_banner {height: 40vh; overflow: hidden;}",
+        ".ug_WeeklySale_banner > img {width: 100%; height: 100%; object-fit: cover;}"
+      ],
       "settings": {
         "mobile_image": "shopify:\/\/shop_images\/750-1160.png",
         "pc_image": "shopify:\/\/shop_images\/1920-700.png"
