@@ -1,0 +1,627 @@
+.aplus-v2 .premium-aplus-module-2 .premium-background-wrapper {
+  position: relative;
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-wrapper {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-wrapper.right {
+  left: 50%;
+}
+html[dir="rtl"] .aplus-v2 .premium-aplus-module-2 .premium-intro-wrapper.right {
+  left: auto;
+  right: 50%;
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-wrapper.secondary-color {
+  color: #fff;
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-background {
+  padding: 20px;
+}
+.aplus-v2 .premium-aplus-module-2 .aplus-module-2-topic {
+  padding-bottom: 10px;
+}
+.aplus-v2 .premium-aplus-module-2 .aplus-module-2-heading {
+  padding-bottom: 20px;
+}
+.aplus-v2 .premium-aplus-module-2 .aplus-module-2-description {
+  line-height: 1.5em;
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-background.white-background {
+  background: rgba(255, 255, 255, 0.5);
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-background.black-background {
+  background: rgba(0, 0, 0, 0.5);
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-background.black-background,
+.aplus-v2 .premium-aplus-module-2 .premium-intro-background.black-background h1,
+.aplus-v2 .premium-aplus-module-2 .premium-intro-background.black-background h5,
+.aplus-v2 .premium-aplus-module-2 .premium-intro-background.black-background ol,
+.aplus-v2 .premium-aplus-module-2 .premium-intro-background.black-background ul,
+.aplus-v2
+  .premium-aplus-module-2
+  .premium-intro-background.black-background
+  ol
+  .a-list-item,
+.aplus-v2
+  .premium-aplus-module-2
+  .premium-intro-background.black-background
+  ul
+  .a-list-item {
+  color: #fff;
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-content-container {
+  display: table;
+  height: 100%;
+}
+.aplus-v2
+  .premium-aplus-module-2
+  .premium-intro-wrapper.left
+  .premium-intro-content-container {
+  padding-left: 40px;
+}
+html[dir="rtl"]
+  .aplus-v2
+  .premium-aplus-module-2
+  .premium-intro-wrapper.left
+  .premium-intro-content-container {
+  padding-left: 0px;
+  padding-right: 40px;
+}
+.aplus-v2
+  .premium-aplus-module-2
+  .premium-intro-wrapper.right
+  .premium-intro-content-container {
+  padding-right: 40px;
+}
+html[dir="rtl"]
+  .aplus-v2
+  .premium-aplus-module-2
+  .premium-intro-wrapper.right
+  .premium-intro-content-container {
+  padding-right: 0px;
+  padding-left: 40px;
+}
+.aplus-v2 .premium-aplus-module-2 .premium-intro-content-column {
+  display: table-cell;
+  vertical-align: middle;
+}
+/**
+ * Premium-module 5: Comparision table - scroller
+ */
+.aplus-v2 .premium-aplus-module-5 h1 {
+  padding-bottom: 30px;
+}
+/* position column-headers relative to this table */
+.aplus-v2 .premium-aplus-module-5 .table-container {
+  position: relative;
+  opacity: 1;
+}
+.aplus-v2 .premium-aplus-module-5 .table-container.loading {
+  opacity: 0;
+}
+.aplus-v2 .premium-aplus-module-5 .table-slider {
+  overflow-x: scroll;
+  overflow-y: visible;
+  width: 100%;
+}
+/* left column headers are absolute positioned */
+.aplus-v2 .premium-aplus-module-5 td.attribute {
+  position: absolute;
+  width: 300px;
+  top: auto;
+  left: 0;
+}
+html[dir="rtl"] .aplus-v2 .premium-aplus-module-5 td.attribute {
+  right: 0px;
+  left: auto;
+}
+.aplus-v2 .premium-aplus-module-5 td.active-item {
+  position: absolute;
+  top: auto;
+  left: 300px;
+}
+html[dir="rtl"] .premium-aplus-module-5 td.active-item {
+  left: auto;
+  right: 300px;
+}
+.aplus-v2 .premium-aplus-module-5 .attribute,
+.aplus-v2 .premium-aplus-module-5 .active-item,
+.aplus-v2 .premium-aplus-module-5 .description {
+  font-size: 16px;
+  font-family: arial;
+  line-height: 2.5em;
+  white-space: nowrap;
+  color: #000;
+}
+.aplus-v2 .premium-aplus-module-5 .attribute,
+.aplus-v2 .premium-aplus-module-5 .active-item,
+.aplus-v2 .premium-aplus-module-5 .description {
+  font-family: inherit;
+}
+.aplus-v2 .premium-aplus-module-5 table.a-bordered td.attribute,
+.aplus-v2 .premium-aplus-module-5 table.a-bordered td.active-item {
+  background-color: #fff;
+}
+.aplus-v2
+  .premium-aplus-module-5
+  table.a-bordered
+  tr:nth-child(even)
+  td.attribute,
+.aplus-v2
+  .premium-aplus-module-5
+  table.a-bordered
+  tr:nth-child(even)
+  td.active-item {
+  background-color: #f6f6f6;
+}
+.aplus-v2
+  .premium-aplus-module-5
+  table.a-bordered
+  tr:nth-child(even):last-child
+  td.attribute {
+  border-bottom: #f6f6f6 solid 1px;
+}
+.aplus-v2
+  .premium-aplus-module-5
+  table.a-bordered
+  td.attribute
+  .comparison-metric-name {
+  outline-style: none;
+}
+.aplus-v2
+  .premium-aplus-module-5
+  table.a-bordered
+  td.attribute
+  .aplus-popover-trigger::after {
+  content: "?";
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  bottom: 5px;
+}
+.aplus-v2 .premium-aplus-module-5 td.attribute.empty {
+  height: 280px;
+}
+.aplus-v2 .premium-aplus-module-5 .header-img {
+  padding-top: 10px;
+}
+/* Prevent table borders from overlapping */
+.aplus-v2 .premium-aplus-module-5 table {
+  border-collapse: separate;
+}
+/* Override default AUI .a-bordered table borders */
+.aplus-v2 .premium-aplus-module-5 table.a-bordered td,
+.aplus-v2 .premium-aplus-module-5 table.a-bordered th,
+.aplus-v2 .premium-aplus-module-5 table.a-bordered {
+  border-width: 0;
+  border-color: #eaeaea;
+  border-style: solid;
+}
+.aplus-v2 .premium-aplus-module-5 table.a-bordered td {
+  border-right-width: 1px;
+}
+.aplus-v2 .premium-aplus-module-5 table.a-bordered td:last-child {
+  border-right-width: 0;
+}
+html[dir="rtl"]
+  .aplus-v2
+  .premium-aplus-module-5
+  table.a-bordered
+  td:last-child {
+  border-right-width: 1px;
+}
+/* Active column should be surrounded in darker border. */
+.aplus-v2 .premium-aplus-module-5 table.a-bordered td.active {
+  border-color: #767676;
+  border-right-width: 1px;
+  border-left-width: 1px;
+}
+/* Top Active column needs border-top */
+.aplus-v2 .premium-aplus-module-5 table.a-bordered tr:first-child td.active {
+  border-top-width: 1px;
+}
+/* Bottom column column needs border-bottom */
+.aplus-v2 .premium-aplus-module-5 table.a-bordered tr:last-child td.active {
+  border-bottom-width: 1px;
+}
+/* Size the top scroller */
+.aplus-v2 .premium-aplus-module-5 .scroll-wrapper-top {
+  width: 100%;
+  height: 20px;
+  overflow-x: scroll;
+  overflow-y: visible;
+}
+.aplus-v2 .premium-aplus-module-5 .scroll-bar {
+  height: 1px;
+}
+/**
+ * Premium modules global styles
+ */
+.aplus-v2.desktop {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+/* Undo this for tech-specs because it breaks table layout */
+.aplus-v2.desktop .premium-aplus .aplus-tech-spec-table {
+  word-break: initial;
+}
+.aplus-v2 .premium-aplus,
+.aplus-v2 .premium-aplus .aplus-h1,
+.aplus-v2 .premium-aplus .aplus-h2,
+.aplus-v2 .premium-aplus .aplus-p1,
+.aplus-v2 .premium-aplus .aplus-p2,
+.aplus-v2 .premium-aplus .aplus-p3,
+.aplus-v2 .premium-aplus .aplus-accent1,
+.aplus-v2 .premium-aplus .aplus-accent2 {
+  font-family: Arial, sans-serif;
+}
+.aplus-v2 .premium-aplus,
+.aplus-v2 .premium-aplus .aplus-h1,
+.aplus-v2 .premium-aplus .aplus-h2,
+.aplus-v2 .premium-aplus .aplus-p1,
+.aplus-v2 .premium-aplus .aplus-p2,
+.aplus-v2 .premium-aplus .aplus-p3,
+.aplus-v2 .premium-aplus .aplus-accent1,
+.aplus-v2 .premium-aplus .aplus-accent2 {
+  font-family: inherit;
+}
+/* type */
+.aplus-v2 .premium-aplus .aplus-h1 {
+  font-size: 32px;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+.aplus-v2 .premium-aplus .aplus-h2 {
+  font-size: 26px;
+  line-height: 1.25em;
+  font-weight: 500;
+}
+.aplus-v2 .premium-aplus .aplus-h3 {
+  font-size: 18px;
+  line-height: 1.25em;
+  font-weight: 500;
+}
+.aplus-v2 .premium-aplus .aplus-p1 {
+  font-size: 20px;
+  line-height: 1.3em;
+  font-weight: 300;
+}
+.aplus-v2 .premium-aplus .aplus-p2 {
+  font-size: 16px;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+.aplus-v2 .premium-aplus .aplus-p3 {
+  font-size: 14px;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+.aplus-v2 .premium-aplus .aplus-accent1 {
+  font-size: 16px;
+  line-height: 1.4em;
+  font-weight: 600;
+}
+.aplus-v2 .premium-aplus .aplus-accent2 {
+  font-size: 14px;
+  line-height: 1.4em;
+  font-weight: 600;
+}
+/* spacing */
+.aplus-v2 .aplus-container-1 {
+  padding: 40px;
+}
+.aplus-v2 .aplus-container-1-2 {
+  padding: 40px 80px;
+}
+.aplus-v2 .aplus-container-2 {
+  padding: 80px;
+}
+.aplus-v2 .aplus-container-3 {
+  padding: 40px 0;
+}
+/* Display */
+.aplus-v2 .premium-aplus .aplus-display-table {
+  display: table;
+}
+.aplus-v2 .premium-aplus .aplus-display-table-cell {
+  display: table-cell;
+}
+.aplus-v2 .premium-aplus .aplus-display-inline-block {
+  display: inline-block;
+}
+/* Aplus display table with min-width 1000px and fill remaining space inside parent */
+.aplus-v2.desktop .premium-aplus .aplus-display-table-width {
+  min-width: 1000px;
+  width: 100%;
+}
+/**
+* Padding and margin for element should be 10, 20, 40, or 80 px. Considering mini 10, small 20, medium 40, large 80.
+*/
+.aplus-tech-spec-hide-loading {
+  visibility: hidden;
+}
+.aplus-tech-spec-hide-loading:only-child {
+  visibility: visible !important;
+}
+.aplus-tech-spec-hide-loading {
+  visibility: visible !important;
+}
+/**
+ * Premium-module 14: Carousel
+ */
+.aplus-v2 .premium-aplus-module-14 .aplus-carousel-container {
+  position: relative;
+}
+.aplus-v2 .premium-aplus-module-14 .aplus-carousel-element {
+  position: relative;
+  width: 100%;
+}
+.aplus-v2 .premium-aplus-module-14 .aplus-pagination-wrapper {
+  position: absolute;
+  top: 92%;
+  width: 100%;
+}
+.aplus-v2 .premium-aplus-module-14 .text-panel-container {
+  vertical-align: middle;
+  text-align: left;
+  width: 50%;
+}
+html[dir="rtl"] .aplus-v2 .premium-aplus-module-14 .text-panel-container {
+  text-align: right;
+}
+.aplus-v2 .premium-aplus-module-14 .media-placeholder {
+  padding-bottom: 75%; /* Aspect ratio 4:3 for video and image */
+}
+.aplus-v2 .premium-aplus-module-14 .media-container {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  padding-bottom: 5%;
+}
+.aplus-v2 .premium-aplus.premium-aplus-module-14 .title {
+  padding-bottom: 20px;
+}
+.aplus-v2 .premium-aplus-module-14 .a-carousel-left {
+  margin-top: 17%;
+}
+.aplus-v2 .premium-aplus-module-14 .a-carousel-right {
+  margin-top: 17%;
+}
+.aplus-v2 .premium-aplus-module-14 .a-carousel-col {
+  height: 10%;
+}
+/**
+ * Premium-module 8: Hero Video module
+ */
+.aplus-v2 .premium-aplus-module-8 .premium-aplus-module-8-video {
+  position: relative;
+  width: 100%;
+}
+.aplus-v2 .premium-aplus-module-8 .video-placeholder {
+  padding-bottom: 40.984%; /* Video or image required size 1464 : 600 = 40.9836 */
+}
+.aplus-v2 .premium-aplus-module-8 .video-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.aplus-mantle.aplus-module .aplus-pagination-dots {
+  margin: 0;
+}
+.aplus-mantle.aplus-module .aplus-pagination-dot {
+  display: inline-block;
+  list-style: none;
+}
+.aplus-mantle.aplus-module .aplus-carousel-nav {
+  text-align: center;
+}
+.aplus-mantle.aplus-module .carousel-slider-circle {
+  display: inline-block;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px;
+}
+.aplus-mantle.aplus-module .carousel-slider-circle.aplus-carousel-active {
+  background-color: #ffa500;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-carousel-card {
+  position: relative;
+  width: 100%;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-carousel-container {
+  position: relative;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-card-details-wrapper {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-card-detail {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.aplus-v2 .premium-aplus-module-12 .card-description {
+  text-align: left;
+}
+html[dir="rtl"] .aplus-v2 .premium-aplus-module-12 .card-description {
+  text-align: right;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-text-background {
+  padding: 20px;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-text-background-color {
+  background: rgba(0, 0, 0, 0.5);
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-text-background-color,
+.aplus-v2 .premium-aplus-module-12 .aplus-text-background-color h1,
+.aplus-v2 .premium-aplus-module-12 .aplus-text-background-color h5,
+.aplus-v2 .premium-aplus-module-12 .aplus-text-background-color ol,
+.aplus-v2 .premium-aplus-module-12 .aplus-text-background-color ul,
+.aplus-v2 .premium-aplus-module-12 .aplus-text-background-color ol .a-list-item,
+.aplus-v2
+  .premium-aplus-module-12
+  .aplus-text-background-color
+  ul
+  .a-list-item {
+  color: #fff;
+}
+.aplus-v2 .premium-aplus-module-12 .description {
+  padding-top: 20px;
+}
+/* nav */
+.aplus-v2 .premium-aplus-module-12 .aplus-carousel-actions {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-goto-btn {
+  display: inline-block;
+  margin: 7px 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid #000;
+  line-height: 2.5em;
+  min-width: 200px;
+  background-color: #fff;
+  white-space: nowrap;
+  color: #000;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-carousel-index {
+  display: none;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-goto-btn.aplus-active {
+  border-color: #fff;
+  background-color: #000;
+  color: #fff;
+}
+/*
+            * Regimen template specific css
+            */
+.aplus-v2 .premium-aplus-module-12 .aplus-goto-btn.regimen {
+  text-align: left;
+}
+html[dir="rtl"] .aplus-v2 .premium-aplus-module-12 .aplus-goto-btn.regimen {
+  text-align: right;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-carousel-actions.regimen {
+  text-align: right;
+  top: 50%;
+  width: 250px;
+  right: 75px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+html[dir="rtl"]
+  .aplus-v2
+  .premium-aplus-module-12
+  .aplus-carousel-actions.regimen {
+  text-align: left;
+  top: 50%;
+  left: 75px;
+  right: auto;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-goto-btn.regimen {
+  display: inline-block;
+  margin: 10px 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid #000;
+  line-height: 2.5em;
+  width: 220px;
+  background-color: #fff;
+  white-space: nowrap;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-goto-btn.regimen.aplus-active {
+  border-color: #fff;
+  background-color: #000;
+  color: #fff;
+}
+.aplus-v2
+  .premium-aplus-module-12
+  .aplus-carousel-actions
+  .regimen
+  .aplus-carousel-index {
+  display: inline-block;
+  margin-left: 6px;
+  width: 16px;
+  line-height: 26px;
+  color: #000;
+  text-align: center;
+}
+html[dir="rtl"]
+  .aplus-v2
+  .premium-aplus-module-12
+  .aplus-carousel-actions
+  .regimen
+  .aplus-carousel-index {
+  margin-left: 0px;
+  margin-right: 6px;
+}
+.aplus-v2
+  .premium-aplus-module-12
+  .aplus-goto-btn.regimen.aplus-active
+  .aplus-carousel-index {
+  color: #fff;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-headline-top.regimen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  text-align: center;
+}
+.aplus-v2 .premium-aplus-module-12 .aplus-headline-top.regimen .aplus-headline {
+  color: #fff;
+  line-height: 2em;
+}
+
+.aplus-carousel-actions {
+  z-index: 100;
+}
+.a-carousel-left,
+.a-carousel-right {
+  visibility: visible;
+  z-index: 101;
+}
+#aplus ol ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .aplus-v2 .aplus-carousel-actions {
+    position: initial !important;
+    transform: none !important;
+  }
+}
