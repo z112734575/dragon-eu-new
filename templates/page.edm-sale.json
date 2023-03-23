@@ -7,8 +7,8 @@
         ".ug_WeeklySale_banner > img {width: 100%; height: 100%; object-fit: cover;}"
       ],
       "settings": {
-        "mobile_image": "shopify:\/\/shop_images\/750-1160.png",
-        "pc_image": "shopify:\/\/shop_images\/1920-700.png"
+        "mobile_image": "shopify:\/\/shop_images\/750_1160_1.5x.jpg",
+        "pc_image": "shopify:\/\/shop_images\/1920_920_1.5x_77d2e62d-00d5-40fb-9eb0-49c7f7abe2e8.jpg"
       }
     },
     "db04c5c4-2a99-424c-8194-64f9592caf41": {
