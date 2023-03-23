@@ -21,18 +21,8 @@
                 {% assign discount_sum = discountbar[0] %}
                 {% assign discount_code = discountbar[1] %}
                 {% assign discount_sumM = 100 | minus: discount_sum %}
-                {% if discount_sum %}
-                  <p class="product_prie">
-                    {{ price | times: discount_sumM | divided_by: 100 | money }}
-                    <span>{{ product.price | money }}</span>
-                  </p>
-                  <div class="product_sale">
-                    <p>
-                      -{{ discount_sum -}}
-                      <span>%</span>
-                    </p>
-                  </div>
-                {% elsif showDiscountBar > 1 %}
+
+                {% if showDiscountBar > 1 %}
                   <p class="product_prie">
                     {{ product.price | money }}
                     <span>{{ product.compare_at_price | money }}</span>
