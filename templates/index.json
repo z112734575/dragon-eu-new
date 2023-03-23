@@ -55,13 +55,26 @@
             "link": "\/products\/ugreen-nexode-100w-usb-c-wall-charger",
             "className": "nexode-100w"
           }
+        },
+        "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Nexode_200W_PC_98a652d8-9d73-4ad8-8a20-6ad7f743ba01.jpg?v=1677726529",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Nexode_200W.jpg?v=1677726527",
+            "title": "Desktop Charging for 6 Devices",
+            "subtitle": "6 Ports, Fast Charging",
+            "button_text": "Shop Now",
+            "link": "\/products\/ugreen-nexode-200w-usb-c-desktop-charger",
+            "className": ""
+          }
         }
       },
       "block_order": [
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-1",
         "86777b6a-bde9-4981-9d0b-274743aba41c",
-        "ug-index-carousel-11"
+        "ug-index-carousel-11",
+        "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
