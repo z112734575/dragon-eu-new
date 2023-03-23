@@ -8,6 +8,18 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Web.png?v=1679535962",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Mobile.png?v=1679535957",
+            "title": "Ugreen PowerRoam",
+            "subtitle": "Tragbare Power Station",
+            "button_text": "Shop Now",
+            "link": "\/collections\/power-station",
+            "className": ""
+          }
+        },
         "ug-index-carousel-1": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -46,13 +58,14 @@
         }
       },
       "block_order": [
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-1",
         "86777b6a-bde9-4981-9d0b-274743aba41c",
         "ug-index-carousel-11"
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
-        "banner_index": "2"
+        "banner_index": "3"
       }
     },
     "ug-index-image": {
