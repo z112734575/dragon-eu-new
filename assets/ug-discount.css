@@ -9,31 +9,35 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 12px 20px; }
-    .ug-product-discount-box span.percent {
-      font-size: 32px;
-      font-weight: 500;
-      color: #FFFFFF;
-      line-height: 40px; }
-    .ug-product-discount-box span.off {
-      font-size: 18px;
-      font-weight: 400;
-      color: #FFFFFF;
-      line-height: 21px; }
-    .ug-product-discount-box div.desc {
-      font-size: 12px;
-      font-weight: 400;
-      color: #fff;
-      line-height: 14px;
-      padding:5px 0;
-    }
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px 20px;
+  }
+  .ug-product-discount-box span.percent {
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 40px;
+  }
+  .ug-product-discount-box span.off {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 21px;
+  }
+  .ug-product-discount-box div.desc {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 14px;
+    padding: 5px 0;
+  }
   .ug-product-discount-sum {
-    width: 180px;
+    width: 190px;
     padding-right: 12px;
     border-right: 1px dashed #fff;
-    margin-right: 12px; }
+    margin-right: 12px;
+  }
   .ug-product-discount-code {
     font-size: 13px;
     font-weight: 400;
@@ -43,25 +47,27 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 237px; }
-    .ug-product-discount-btn {
-    background:linear-gradient(344deg,#F6D898 2%,#F6DDB2 100%);
+    -ms-flex-align: center;
+    align-items: center;
+    width: 237px;
+  }
+  .ug-product-discount-btn {
+    background: linear-gradient(344deg, #f6d898 2%, #f6ddb2 100%);
     border-radius: 22px;
-    font-size:16px;
+    font-size: 16px;
     font-weight: 700;
-    color: #27231E;
+    color: #27231e;
     height: 40px;
     width: 120px;
     text-align: center;
     line-height: 19px;
-    padding: 0; }
+    padding: 0;
+  }
   .ug-product-discount-btned {
-    background:linear-gradient(344deg,#F6D898 2%,#F6DDB2 100%);
+    background: linear-gradient(344deg, #f6d898 2%, #f6ddb2 100%);
     border-radius: 22px;
     font-size: 16px;
     font-weight: 700;
@@ -71,7 +77,9 @@
     text-align: center;
     line-height: 19px;
     display: none;
-    padding: 0; } }
+    padding: 0;
+  }
+}
 @media (max-width: 767px) {
   .ug-product-discount-box {
     margin: 0 auto;
@@ -84,73 +92,83 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding-left: 18px;
-    padding-right: 18px; }
+    padding-right: 18px;
+  }
   .ug-product-discount-sum {
     float: left;
-    border-right:1px dashed #fff;
-    width: 170px; }
-    .ug-product-discount-sum .percent {
-      font-size: 28px;
-      font-weight: 500;
-      color: #fff;
-      line-height: 40px; }
-    .ug-product-discount-sum .off {
-      font-size: 15px;
-      font-weight: 400;
-      color: #fff;
-      line-height: 19px; }
-    .ug-product-discount-sum .desc {
-      font-size: 12px;
-      font-weight: 400;
-      color: #fff;
-      line-height: 14px; }
+    border-right: 1px dashed #fff;
+    width: 170px;
+  }
+  .ug-product-discount-sum .percent {
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 40px;
+  }
+  .ug-product-discount-sum .off {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 19px;
+  }
+  .ug-product-discount-sum .desc {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 14px;
+  }
   .ug-product-discount-code {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    margin-left: 22px; }
-    .ug-product-discount-code span {
-      font-size: 12px;
-      font-weight: 400;
-      color: #fff;
-      line-height: 14px;
-      margin-top: 5px; }
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    margin-left: 22px;
+  }
+  .ug-product-discount-code span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 14px;
+    margin-top: 5px;
+  }
   .ug-product-discount-btn {
     width: 102px;
     height: 32px;
-    background:linear-gradient(344deg,#F6D898 2%,#F6DDB2 100%);
+    background: linear-gradient(344deg, #f6d898 2%, #f6ddb2 100%);
     border-radius: 22px;
     font-size: 16px;
     font-weight: 700;
     color: #27231e;
     text-align: center;
     line-height: 19px;
-    padding: 0; }
+    padding: 0;
+  }
   .ug-product-discount-btned {
     display: none;
     width: 104px;
     height: 32px;
     line-height: 32px;
-    background:linear-gradient(344deg,#F6D898 2%,#F6DDB2 100%);
+    background: linear-gradient(344deg, #f6d898 2%, #f6ddb2 100%);
     border-radius: 22px 22px 22px 22px;
     opacity: 1;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    padding: 0; } }
+    padding: 0;
+  }
+}
