@@ -1602,6 +1602,9 @@
   <div id="ugreen-top-tips">{{ se_stts.top_tips_text }}</div>
 {%- endif -%}
 
+
+{% render '600w-share-pop' %}
+
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant | default: product.variants.first
   if product.selected_or_first_available_variant.featured_media
