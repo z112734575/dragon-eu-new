@@ -217,6 +217,8 @@
     }</script>
 <script>
     $(function () {
+        const showIds = ['8343530668380']
+        if(!showIds.includes('{{ product_id }}')) return
         if (localStorage.getItem('600w-share-pop') === 'true') {
             $('.share-pop-wrap').remove()
             return
