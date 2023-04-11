@@ -669,6 +669,7 @@
           },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "Ugreen iOS Spring Special",
               "url": "shopify:\/\/pages\/apple-event",
@@ -1611,6 +1612,7 @@
           },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Ugreen iOS Spring Special",
               "url": "shopify:\/\/pages\/apple-event",
