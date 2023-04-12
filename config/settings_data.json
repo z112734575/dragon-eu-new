@@ -669,17 +669,16 @@
           },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
             "type": "drop",
-            "disabled": true,
             "settings": {
-              "title": "Ugreen iOS Spring Special",
-              "url": "shopify:\/\/pages\/apple-event",
+              "title": "Power Station",
+              "url": "shopify:\/\/collections\/power-station",
               "open_link": "_self",
               "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "HOT",
-              "lb_cl": "#de4156",
+              "lb_cl": "#ec0101",
               "lazy_mn": true,
               "pos_sub": "bottom",
               "pos": "left"
