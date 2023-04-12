@@ -1609,12 +1609,62 @@
               "lb_cl": ""
             }
           },
+          "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf": {
+            "type": "menu",
+            "settings": {
+              "title": "CHARGERS",
+              "url": "#",
+              "open_link": "_self",
+              "menu": "product-chargers",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "a0d1607c-521f-49bd-8ed4-1c384cca180e": {
+            "type": "menu",
+            "settings": {
+              "title": "HUB & ADAPTER",
+              "url": "#",
+              "open_link": "_self",
+              "menu": "product-hub",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "06092e7b-58cd-4790-9721-e86ddd55d4a0": {
+            "type": "menu",
+            "settings": {
+              "title": "TO OUR CLIENTS",
+              "url": "",
+              "open_link": "_self",
+              "menu": "about",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "mb_nav-4": {
+            "type": "wis",
+            "settings": {
+            }
+          },
+          "mb_nav-5": {
+            "type": "sea",
+            "settings": {
+            }
+          },
+          "mb_nav-6": {
+            "type": "acc",
+            "settings": {
+            }
+          },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
-            "disabled": true,
             "settings": {
-              "title": "Ugreen iOS Spring Special",
-              "url": "shopify:\/\/pages\/apple-event",
+              "title": "POWER STATION",
+              "url": "shopify:\/\/collections\/power-station",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1661,30 +1711,6 @@
               "lb_cl": ""
             }
           },
-          "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf": {
-            "type": "menu",
-            "settings": {
-              "title": "CHARGERS",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "product-chargers",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "a0d1607c-521f-49bd-8ed4-1c384cca180e": {
-            "type": "menu",
-            "settings": {
-              "title": "HUB & ADAPTER",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "product-hub",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "8d7adc9a-6e6f-4c96-849e-005240cb0084": {
             "type": "menu",
             "disabled": true,
@@ -1696,33 +1722,6 @@
               "icon": "",
               "lb": "",
               "lb_cl": ""
-            }
-          },
-          "06092e7b-58cd-4790-9721-e86ddd55d4a0": {
-            "type": "menu",
-            "settings": {
-              "title": "TO OUR CLIENTS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "about",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "mb_nav-4": {
-            "type": "wis",
-            "settings": {
-            }
-          },
-          "mb_nav-5": {
-            "type": "sea",
-            "settings": {
-            }
-          },
-          "mb_nav-6": {
-            "type": "acc",
-            "settings": {
             }
           },
           "mb_nav-7": {
@@ -1754,17 +1753,17 @@
           "58800ed8-befe-449a-b8f8-ea86620bef6f",
           "mb_nav-3",
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
-          "74abf930-8362-4e67-a9df-d02be16b9c4e",
-          "a6508826-0ecb-4412-a5d8-a7547aa8d015",
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
-          "6f549481-942e-4bc2-82b1-22f3208c3997",
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf",
           "a0d1607c-521f-49bd-8ed4-1c384cca180e",
-          "8d7adc9a-6e6f-4c96-849e-005240cb0084",
           "06092e7b-58cd-4790-9721-e86ddd55d4a0",
           "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
+          "74abf930-8362-4e67-a9df-d02be16b9c4e",
+          "a6508826-0ecb-4412-a5d8-a7547aa8d015",
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
+          "6f549481-942e-4bc2-82b1-22f3208c3997",
+          "8d7adc9a-6e6f-4c96-849e-005240cb0084",
           "mb_nav-7",
           "mb_nav-8",
           "mb_nav-9"
