@@ -170,13 +170,12 @@
     },
     "ug-product-list": {
       "type": "ug-product-list",
-      "disabled": true,
       "settings": {
         "product_list": [
-          "100w-3c1a-gan-fast-charger",
+          "ugreen-nexode-100w-usb-c-wall-charger",
           "ugreen-nexode-200w-usb-c-desktop-charger",
-          "ugreen-nexode-45w-dual-c-port-wall-charger",
-          "ugreen-m-2-nvme-sata-ssd-enclosure-adapter"
+          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+          "ugreen-usb-c-triple-display-docking-station"
         ],
         "title": "Hot Sale",
         "subtitle": "",
