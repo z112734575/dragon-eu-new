@@ -1,0 +1,162 @@
+{% liquid
+    assign settings = section.settings
+    assign title = section.settings.title
+    assign items = section.blocks
+    assign pc_icon_size = section.settings.pc_icon_size
+    assign mobile_icon_size = section.settings.mobile_icon_size
+%}
+
+<style>
+    .ug-index-category {
+        padding-top: 100px;
+        background-color: #fff;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    .ug-index-category-title {
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 60px;
+        color: black;
+    }
+    .ug-index-category-items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ug-index-category-item-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        color: black;
+    }
+    .category-next {
+        display: none;
+    }
+    .ug-index-category-item {
+        text-align: center;
+        font-size: 46px;
+        color: black;
+        line-height: 1;
+        transition: all 0.3s;
+    }
+    .ug-index-category-item:hover {
+        transform: scale(1.1);
+    }
+    .ug-index-category-item-name {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 12px;
+    }
+    .ug-index-category-item-title {
+        font-size: {{ section.settings.pc_icon_size |  default: "inherit" }};
+    }
+    @media screen and (max-width: 768px) {
+        .ug-index-category {
+            padding: 80px 16px 0;
+        }
+        .category-next{
+            display: block;
+        }
+        .ug-index-category-title {
+            font-size: 24px;
+            margin-bottom: 60px;
+        }
+        .ug-index-category-items {
+            padding: 0 16px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .ug-index-category-items > a {
+            width: 100%;
+            padding: 20px 0;
+            border-bottom: 1px solid #F2F2F2;
+        }
+        .ug-index-category-item {
+            font-size: 36px;
+            display: flex;
+            align-items: center;
+        }
+        .ug-index-category-item-title {
+            font-size: {{ mobile_icon_size |  default: "inherit" }};
+            width: 40px;
+        }
+        .ug-index-category-item-name {
+            margin-top: 0;
+        }
+    }
+</style>
+
+<div class="ug-index-category">
+    <div class="ug-index-category-title">{{ title }}</div>
+    <div class="ug-index-category-items">
+        {% for item in items %}
+            {% assign name = item.settings.name %}
+            {% assign icon_name = item.settings.icon_name %}
+            {% assign link = item.settings.link %}
+            <a href="{{ link }}" class="ug-index-category-item-wrap">
+                <div class="ug-index-category-item">
+                    <div class="ug-index-category-item-title">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#{{ icon_name }}"></use>
+                        </svg>
+                    </div>
+                    <div class="ug-index-category-item-name">{{ name }}</div>
+                </div>
+                <svg class="icon category-next" aria-hidden="true">
+                    <use xlink:href="#icon-xiayiye"></use>
+                </svg>
+            </a>
+        {% endfor %}
+
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Index Category",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Category Title",
+      "default": "Shop By Category"
+    },
+    {
+      "type": "text",
+      "id": "pc_icon_size",
+      "label": "PC Icon Size"
+    },
+    {
+      "type": "text",
+      "id": "mobile_icon_size",
+      "label": "Mobile Icon Size"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Index Category Item",
+      "type": "ug-index-category-item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Item name"
+        },
+        {
+          "type": "text",
+          "id": "icon_name",
+          "label": "Item icon name"
+        },
+        {
+          "type": "text",
+          "id": "link",
+          "label": "Item link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
