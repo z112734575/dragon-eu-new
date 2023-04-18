@@ -213,6 +213,7 @@
       "blocks": {
         "825b9746-c7d0-4d97-a9ef-ba573b1ebc66": {
           "type": "ug-index-blog-item",
+          "disabled": true,
           "settings": {
             "title": "How to select between USB-C Hub and Docking Station?",
             "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic1_pc.jpg?v=1681805831",
