@@ -838,3 +838,4 @@
 			Q || (Q = 1, (usf.isMobile = document.body.clientWidth < s.mobileBreakpoint) && (document.body.classList.add("usf-mobile"), usf.isMobileFilter = !s.filters.desktopLikeMobile))
 		}
 	}();
+ 
