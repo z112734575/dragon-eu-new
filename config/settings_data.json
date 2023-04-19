@@ -418,7 +418,7 @@
             "type": "payments",
             "settings": {
               "svg": "visa,amazon_payments,american_express,apple_pay,diners_club,discover,jcb,master,shopify_pay,paypal",
-              "height": 40,
+              "height": 35,
               "hidden_mobile": false,
               "mgb": 20,
               "mgb_mb": 10
