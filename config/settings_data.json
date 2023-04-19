@@ -414,6 +414,27 @@
               "hidden_mobile": false
             }
           },
+          "21b0e380-fab0-4004-a820-72779a36f699": {
+            "type": "custom_text",
+            "settings": {
+              "text": "We Accept",
+              "remove_br_tag": false,
+              "fontf": "inherit",
+              "text_cl": "#fff",
+              "text_fs": 16,
+              "text_lh": 40,
+              "text_fw": 500,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 0,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 0
+            }
+          },
           "a3aa1034-5bf9-460f-a184-4f18fc2a76f4": {
             "type": "payments",
             "settings": {
@@ -442,6 +463,7 @@
           "33eb929e-a001-4d96-82a0-5aab1aaabaea",
           "ec9669aa-76bd-4be0-b476-6117b5d55a6f",
           "09d3b654-6021-4be4-a2e2-aaacbc36e17e",
+          "21b0e380-fab0-4004-a820-72779a36f699",
           "a3aa1034-5bf9-460f-a184-4f18fc2a76f4"
         ],
         "settings": {
