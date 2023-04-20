@@ -1,0 +1,291 @@
+<style>
+    .ug-day-point-product-wrap {
+        max-width: 1280px;
+        margin: 120px auto 0;
+    }
+    .ug-day-point-product-title {
+        font-weight: 700;
+        font-size: 1.875vw;
+        text-align: center;
+        margin-bottom: 1.04vw;
+    }
+    .ug-day-point-product-link {
+        font-size: 1.04vw;
+        font-weight: 600;
+        color: #00CC88;
+        text-align: center;
+        text-decoration: underline;
+        display: block;
+    }
+    .ug-day-point-product-main {
+        position: relative;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2.08vw 0;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1vw;
+    }
+    .ug-day-point-product-item {
+        background: white;
+        border-radius: 12px;
+        padding: min(2.08vw, 40px);
+        display: flex;
+        align-items: center;
+    }
+    .ug-day-point-product-item:hover .ug-day-point-product-item-img > img {
+        opacity: .7;
+        transform: scale(1.1);
+    }
+    .ug-day-point-product-item-img {
+        width: min(10.42vw, 200px);
+        height: min(10.42vw, 200px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    .ug-day-point-product-item-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .5s;
+    }
+    .ug-day-point-product-item-info {
+        margin-left: min(2.08vw, 40px);
+        width: 100%;
+    }
+    .ug-day-point-product-item-info-title {
+        font-weight: 600;
+        font-size: min(1.04vw, 20px);
+        line-height: 1.5;
+        margin-bottom: min(1.04vw, 20px);
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        /*! autoprefixer: off */
+        -webkit-box-orient: vertical;
+        color: #666666;
+    }
+    .ug-day-point-product-item-info-price-block {
+        display: flex;
+        margin-bottom: min(2.08vw, 40px);
+        flex-direction: column;
+    }
+    .ug-day-point-product-item-info-price-block-top {
+        display: flex;
+        align-items: end;
+    }
+    .ug-day-point-product-item-info-price-block .ug-day-point-product-item-info-price-points {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+        color: #06CE8B;
+        font-weight: 700;
+        font-size: min(24px, 1.25vw) ;
+    }
+    .ug-day-point-product-item-info-price-text {
+        margin-left:  min(10px, .52vw);
+    }
+    .ug-day-point-product-item-info-price-block .ug-day-point-product-item-info-price-points .icon-add {
+        color: black;
+        font-weight: 400;
+    }
+    .ug-day-point-product-item-info-price-block .ug-day-point-product-item-info-price {
+        font-size: min(1.25vw, 24px);
+        font-weight: 700;
+        color: black;
+    }
+    .ug-day-point-product-item-info-price-block del {
+        font-size: min(12px, .73vw);
+        font-weight: 400;
+        color: #A4A4A6;
+        margin-left: 4px;
+        line-height: 2;
+    }
+    .ug-day-point-product-item-info-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: min(40px, 2.08vw);
+        background: black;
+        color: white;
+        border-radius: min(2.08vw, 40px);
+        font-size: min(16px, .833vw);
+        line-height: 1;
+        padding: min(12px, .625vw) 0;
+        font-weight: 600;
+    }
+    .ug-day-point-product-item-info-btn:hover {
+        background: #00CC88;
+        color: white;
+    }
+    @media screen and (min-width: 769px) and (max-width: 1200px) {
+        .ug-day-point-product-main {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .ug-day-point-product-wrap {
+            margin-top: 60px;
+        }
+        .ug-day-point-product-title {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .ug-day-point-product-main {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            gap: 12px;
+            padding: 40px 16px;
+        }
+        .ug-day-point-product-item {
+            padding: 20px 12px;
+        }
+        .ug-day-point-product-item-img {
+            width: 110px;
+            height: 110px;
+        }
+        .ug-day-point-product-item-info {
+            margin-left: 12px;
+        }
+        .ug-day-point-product-item-info-title {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .ug-day-point-product-item-info-price-block .ug-day-point-product-item-info-price-points {
+            font-size: 20px;
+            margin-right: 4px
+        }
+        .ug-day-point-product-item-info-price-text {
+            margin-left: 4px;
+        }
+        .ug-day-point-product-item-info-price-block {
+            margin-bottom: 8px;
+        }
+        .ug-day-point-product-item-info-price-block .ug-day-point-product-item-info-price {
+            font-size: 20px;
+        }
+        .ug-day-point-product-link {
+            font-size: 14px;
+        }
+        .ug-day-point-product-item-info-btn {
+            font-size: 14px;
+            height: 36px;
+            border-radius: 18px;
+            padding: 8px 0;
+        }
+    }
+</style>
+{% liquid
+    assign section_title = section.settings.section_title
+    assign jump_text = section.settings.jump_text
+    assign jump_link = section.settings.jump_link
+    assign blocks = section.blocks
+%}
+
+<div class="ug-day-point-product-wrap">
+    <h2 class="ug-day-point-product-title">{{ section_title }}</h2>
+    <a href="{{ jump_link }}" class="ug-day-point-product-link">{{ jump_text }}
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-xiayiye"></use>
+        </svg>
+    </a>
+    <div class="ug-day-point-product-main">
+        {% for block in blocks %}
+            {% assign product = block.settings.product %}
+            {% assign points = block.settings.points %}
+          {% assign custom_price = block.settings.custom_price %}
+            {% if product != blank %}
+                <div class="ug-day-point-product-item">
+                    <a href="{{ product.url }}">
+                        <div class="ug-day-point-product-item-img">
+                            <img src="{{ product.featured_image | img_url: 'medium' }}" alt="">
+                        </div>
+                    </a>
+                    <div class="ug-day-point-product-item-info">
+                        <a href="{{ product.url }}">
+                            <div class="ug-day-point-product-item-info-title">{{ product.title }}</div>
+                        </a>
+                        <div class="ug-day-point-product-item-info-price-block">
+                            <div class="ug-day-point-product-item-info-price-block-top font-lato">
+                                <div class="ug-day-point-product-item-info-price-points">
+                                    <span>{{ points }}</span>
+                                    <span class="ug-day-point-product-item-info-price-text">Points <span
+                                                class="icon-add">+</span></span>
+                                </div>
+                                <div class="ug-day-point-product-item-info-price">
+                                    <span class="ug-day-point-product-item-info-price-amount">
+                                        {{ custom_price | money }}
+                                    </span>
+                                </div>
+                                <del>{{ product.price | money }}</del>
+                            </div>
+<!--                             {% if product.compare_at_price > 0 %}
+                                <del>{{ product.compare_at_price | money }}</del>
+                            {% endif %} -->
+                        </div>
+                        <a href="{{ product.url }}"
+                           class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-day-point-product-item-info-btn"
+                           data-variant-id="{{ product.variants.first.id }}" data-action-atc rel="nofollow">Buy
+                            Now</a>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Points Products",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Points Products 设置"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "区域标题",
+      "default": "Redeem Points for Exclusive Discounts at Checkout"
+    },
+    {
+      "type": "text",
+      "id": "jump_text",
+      "label": "跳转文案",
+      "default": "Earn Points Now"
+    },
+    {
+      "type": "text",
+      "id": "jump_link",
+      "label": "跳转链接",
+      "default": "/"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Points Product",
+      "type": "points_product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "text",
+          "id": "points",
+          "label": "分数"
+        },
+        {
+          "type": "text",
+          "id": "custom_price",
+          "label": "自定义价格"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

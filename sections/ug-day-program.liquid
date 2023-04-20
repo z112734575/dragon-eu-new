@@ -1,0 +1,474 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790"
+>
+<style>
+  #MainContent {
+      background: rgb(245, 244, 247);
+      font-family: Poppins-Regular, Poppins;
+      position: relative;
+      z-index: 2;
+  }
+  .t4s-footer {
+      position: relative;
+      z-index: 3;
+  }
+  .ug-day-program-main.visible {
+      opacity: 1;
+  }
+  .ug-day-program-main.visible .ug-day-program-inner {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  .ug-day-program-wrap {
+      margin-top: 120px;
+      padding-left: 16.67vw;
+  }
+  .ug-day-program-main {
+      position: relative;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+  }
+  .ug-day-program-img {
+      width: 100%;
+      overflow: hidden;
+      border-radius: 12px 0 0 12px;
+  }
+  .ug-day-program-inner {
+      width: 31.25vw;
+      position: absolute;
+      right: 17vw;
+      top: -12px;
+      transform: translateY(50px);
+      opacity: 0;
+      transition: all 1s ease-in-out 0.5s;
+  }
+  .ug-day-program-inner::before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-right: 6px solid #A7A7A7;
+      border-bottom: 6px solid #A7A7A7;
+      border-left: 6px solid transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+  }
+  .ug-day-program-inner-top {
+      padding: 3.125vw 2.604vw;
+      background: white;
+      color: black;
+  }
+  .ug-day-program-title {
+      font-weight: 700;
+      font-size: 1.875vw;
+      line-height: 1.2;
+  }
+  .ug-day-program-desc {
+      font-weight: 400;
+      font-size: 1vw;
+      line-height: 1.5;
+      margin-top: 0.625vw;
+      color: #727273;
+  }
+  .ug-day-program-btn {
+      display: inline-block;
+      height: 2.5vw;
+      line-height: 2.5vw;
+      text-align: center;
+      padding: 0 1.67vw;
+      border-radius: 60px;
+      font-size: 0.83vw;
+      cursor: pointer;
+      font-weight: 600;
+      color: black;
+      border: 1px solid black;
+      margin-top: 1vw;
+  }
+  .ug-day-program-btn:hover {
+      background: #00CC88;
+      color: white !important;
+      border-color: #00CC88;
+  }
+  .ug-day-program-inner-bottom {
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(3px);
+      padding: 2.08vw 1.875vw;
+  }
+  .ug-day-program-inner-bottom-top {
+      display: flex;
+      align-items: center;
+      font-size: 1.46vw;
+      color: black;
+      justify-content: center;
+      padding-bottom: 1.56vw;
+      border-bottom: 1px solid white;
+      margin-bottom: 1.56vw;
+      font-weight: 600;
+  }
+  .formula-icon {
+      font-size: 2.08vw;
+      line-height: 1;
+      margin-right: 4px;
+  }
+  .ug-day-program-inner-bottom-bottom {
+      display: flex;
+      justify-content: space-around;
+  }
+  .ug-day-program-inner-bottom-bottom-money-wrap {
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.04vw;
+      flex-direction: column;
+      font-weight: 600;
+  }
+  .ug-day-program-inner-bottom-bottom-money {
+      font-size: 2.6vw;
+      line-height: 1;
+      color: #309A6A;
+      display: flex;
+      justify-content: center;
+  }
+  .ug-day-program-inner-bottom-bottom-money .currency {
+      font-size: 1.65vw;
+      font-weight: 400;
+  }
+  .ug-day-program-inner-bottom-bottom-integral {
+      color: #666;
+      font-weight: 400;
+  }
+  @media (max-width: 767px) {
+      .ug-day-program-main.visible .ug-day-program-inner {
+          opacity: 1;
+          transform: translate(50%, 0);
+      }
+      .ug-day-program-wrap {
+          margin-top: 80px;
+          padding-left: 0;
+      }
+      .ug-day-program-main {
+          position: relative;
+      }
+      .ug-day-program-img {
+          width: 100%;
+          border-radius: initial;
+          overflow: hidden;
+      }
+      .ug-day-program-inner {
+          width: 90%;
+          position: absolute;
+          right: 50%;
+          top: -12px;
+          transform: translate(50%, 50px);
+      }
+      .ug-day-program-inner-top {
+          padding:40px 20px;
+          background: white;
+          color: black;
+      }
+      .ug-day-program-title {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 1.2;
+      }
+      .ug-day-program-desc {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.5;
+          margin-top: 12px;
+          color: #727273;
+      }
+      .ug-day-program-btn {
+          display: inline-block;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          padding: 0 20px;
+          border-radius: 40px;
+          font-size: 16px;
+          cursor: pointer;
+          font-weight: 400;
+          color: black;
+          border: 1px solid black;
+          margin-top: 12px;
+      }
+      .ug-day-program-btn:hover {
+          background: #00CC88;
+          color: white !important;
+          border-color: #00CC88;
+      }
+      .ug-day-program-inner-bottom {
+          background: rgba(255, 255, 255, 0.4);
+          backdrop-filter: blur(3px);
+          padding: 30px 16px;
+      }
+      .ug-day-program-inner-bottom-top {
+          font-size: 20px;
+          padding-bottom: 12px;
+          margin-bottom: 12px;
+      }
+      .ug-day-program-inner-bottom-top .formula-icon {
+          font-size: 24px;
+      }
+      .ug-day-program-inner-bottom-bottom-money-wrap {
+          font-size: 16px;
+      }
+      .ug-day-program-inner-bottom-bottom-money {
+          font-size: 36px;
+      }
+      .ug-day-program-inner-bottom-bottom-money .currency {
+          font-size: 20px;
+      }
+  }
+</style>
+<style>
+  /*    why buy*/
+  .green-home-whybar-wrap {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+  }
+  .green-home-whybar {
+      height: 3.125vw;
+      max-width: 100%;
+      width: 100%;
+  }
+  .green-home-whybar-ship {
+      font-size: .833vw;
+      font-weight: 400;
+      color: #858585;
+      line-height: 2.292vw;
+      margin-bottom: 0 !important;
+      margin-left: 0;
+      padding: 0;
+  }
+  .green-home-whybar-ship li {
+      display: -webkit-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+  }
+  .green-home-whybar-ship .swiper-icon {
+      margin-right: .625vw;
+      font-size: 1.67vw;
+  }
+  @media (max-width: 767px) {
+      .green-home-whybar {
+          height: 60px;
+      }
+      .green-home-whybar-ship {
+          font-size: 14px;
+          line-height: 1.2;
+          color: #00CC88;
+      }
+      .green-home-whybar-ship li {
+          white-space: nowrap;
+          font-size: 16px;
+          margin-bottom: 0;
+          line-height: 1;
+      }
+      .green-home-whybar-ship .swiper-icon {
+          margin-right: 5px;
+          font-size: 32px;
+      }
+  }
+  /*    why buy*/
+</style>
+{% liquid
+  assign settings = section.settings
+  assign pc_image_url = settings.pc_image_url
+  assign mobile_image_url = settings.mobile_image_url
+  assign title = settings.title
+  assign description = settings.description
+  assign btn_text = settings.btn_text
+  assign formula_text = settings.formula_text
+  assign money_text = settings.money_text
+  assign integral_text = settings.integral_text
+  assign money_text_array = money_text | split: ','
+  assign integral_text_array = integral_text | split: ','
+  assign currencySymbol = cart.currency.symbol
+  assign button_link = settings.button_link
+%}
+
+<div class="ug-day-program-wrap">
+  <div class="ug-day-program-main ug-day-program-main-target">
+    <div class="ug-day-program-img">
+      {% render 'ug-picture', pc_image_url: pc_image_url, mobile_image_url: mobile_image_url, alt: title %}
+    </div>
+    <div class="ug-day-program-inner">
+      <div class="ug-day-program-inner-top">
+        <div class="ug-day-program-title">{{ title }}</div>
+        <div class="ug-day-program-desc">{{ description }}</div>
+        <a href="{{ button_link }}">
+          <div class="ug-day-program-btn">
+            <span>{{ btn_text }}</span>
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-xiayiye"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+      <div class="ug-day-program-inner-bottom">
+        <div class="ug-day-program-inner-bottom-top">
+          <span class="formula-icon">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-redeem"></use>
+            </svg>
+          </span>
+          <div class="ug-day-program-inner-bottom-top-formula">{{ formula_text }} Points = {{ currencySymbol }}1</div>
+        </div>
+        <div class="ug-day-program-inner-bottom-bottom">
+          {% for i in (0..2) %}
+            <div class="ug-day-program-inner-bottom-bottom-money-wrap">
+              <div class="ug-day-program-inner-bottom-bottom-money">
+                <span class="currency">{{ currencySymbol }}</span>
+                {{ money_text_array[i] }}
+              </div>
+              <div class="ug-day-program-inner-bottom-bottom-integral">
+                {{ integral_text_array[i] }}
+                Points
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <section class="green-home-whybar-wrap">
+      <div class="green-home-whybar swiper">
+        <ul class="green-home-whybar-ship swiper-wrapper">
+          <li class="swiper-slide">
+            <span class="swiper-icon">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-Discounts"></use>
+              </svg>
+            </span>
+            Redeem Points For Extra Discounts
+          </li>
+          <li class="swiper-slide">
+            <span class="swiper-icon">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-bell"></use>
+              </svg>
+            </span>
+            Early Promotion Alerts
+          </li>
+          <li class="swiper-slide">
+            <span class="swiper-icon">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-shield"></use>
+              </svg>
+            </span>
+            30-Day Price Guarantee
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script
+  src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_23a60c44-0efc-4129-bf9f-c046f688609a.js?v=1655275790"
+></script>
+
+<script>
+  $(function() {
+      if (isMobile()) {
+          const whybarSwiper = new Swiper('.green-home-whybar', {
+              slidesPerView: 1,
+              loop: true,
+              autoplay: {
+                  delay: 5000,
+              },
+          })
+      } else {
+          const whybarSwiper = new Swiper('.green-home-whybar', {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+              }
+          })
+      }
+      const targetElement = document.getElementsByClassName('ug-day-program-main')[0];
+      const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+      const screenPosition = window.innerHeight;
+
+      function scrollHandler() {
+          if (window.pageYOffset + screenPosition > targetPosition) {
+              targetElement.classList.add('visible');
+          }
+      }
+
+      window.addEventListener('scroll', scrollHandler);
+  })
+</script>
+
+{% schema %}
+{
+  "name": "UGREEN Day Program",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Program 设置"
+    },
+    {
+      "type": "text",
+      "id": "pc_image_url",
+      "label": "PC 端图片链接"
+    },
+    {
+      "type": "text",
+      "id": "mobile_image_url",
+      "label": "手机端图片链接"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题",
+      "default": "Ugreen Loyalty Program"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "描述",
+      "default": "We have prepared a massive amount of Ugreen Points in our member-loyalty program, which can be redeemed as a discount coupon for your next purchase. "
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "按钮文案",
+      "default": "Learn More"
+    },
+    {
+      "type": "text",
+      "id": "formula_text",
+      "label": "公式数值",
+      "default": "10"
+    },
+    {
+      "type": "text",
+      "id": "money_text",
+      "label": "金额数值",
+      "info": "逗号分割",
+      "default": "5,50,100"
+    },
+    {
+      "type": "text",
+      "id": "integral_text",
+      "label": "积分数值",
+      "info": "逗号分割",
+      "default": "50,500,1000"
+    },
+    {
+  "type": "url",
+  "id": "button_link",
+  "label": "按钮跳转链接"
+}
+  ]
+}
+{% endschema %}
