@@ -1603,7 +1603,7 @@
 {%- endif -%}
 
 
-{% render '600w-share-pop', product_id: product.id %}
+{% comment %}{% render '600w-share-pop', product_id: product.id %}{% endcomment %}
 
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant | default: product.variants.first
