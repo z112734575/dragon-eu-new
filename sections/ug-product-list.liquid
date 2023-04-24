@@ -1,103 +1,122 @@
 {% liquid
-    assign settings = section.settings
-    assign product_list = settings.product_list
-    assign title = settings.title
-    assign subtitle = settings.subtitle
-    assign pc_row = settings.pc_row
-    assign mobile_row = settings.mobile_row
-    assign bg_color = settings.product_item_bg_color
-    assign sale_flag = settings.product_sale_flag
-    assign pc_padding = settings.pc_padding
-    assign mobile_padding = settings.mobile_padding
-    assign need_load_more = settings.need_load_more
-    assign pc_product_sale_width = settings.pc_product_sale_width
-    assign mobile_product_sale_width = settings.mobile_product_sale_width
-    assign show_sale_flag = settings.show_sale_flag
-    assign show_compare = settings.show_compare
-    assign show_rating = settings.show_rating
-    assign show_learn_btn = settings.show_learn_btn
-    assign pc_product_item_img_size = settings.pc_product_item_img_size
-    assign mobile_product_item_img_size = settings.mobile_product_item_img_size
-    assign mobile_product_type = settings.mobile_product_type
+  assign settings = section.settings
+  assign product_list = settings.product_list
+  assign title = settings.title
+  assign subtitle = settings.subtitle
+  assign pc_row = settings.pc_row
+  assign mobile_row = settings.mobile_row
+  assign bg_color = settings.product_item_bg_color
+  assign sale_flag = settings.product_sale_flag
+  assign pc_padding = settings.pc_padding
+  assign mobile_padding = settings.mobile_padding
+  assign need_load_more = settings.need_load_more
+  assign load_more_default_count = settings.load_more_default_count
+  assign pc_product_sale_width = settings.pc_product_sale_width
+  assign mobile_product_sale_width = settings.mobile_product_sale_width
+  assign show_sale_flag = settings.show_sale_flag
+  assign show_compare = settings.show_compare
+  assign show_rating = settings.show_rating
+  assign show_learn_btn = settings.show_learn_btn
+  assign pc_product_item_img_size = settings.pc_product_item_img_size
+  assign mobile_product_item_img_size = settings.mobile_product_item_img_size
+  assign mobile_product_type = settings.mobile_product_type
+  assign section_id = settings.section_id
 %}
 <style>
-    .ug-product-list {
-        margin: 0 auto;
-        max-width: 1280px;
-        width: 100%;
-        padding: {{ pc_padding }};
-    }
-    .ug-product-list-title {
-        font-weight: 700;
-        font-size: 1.875vw;
-        color: #000;
-        margin-bottom: 2.08vw;
-        text-align: center;
-        line-height: 1.2;
-    }
-    .ug-product-list-main {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
-        gap: 1vw;
-        position: relative;
-    }
-    .load-more__btn {
-        color: #00CC88;
-        font-size: 1.04vw;
-    }
-    .load-more__btn-wrap {
-        position: absolute;
-        bottom: -40px;
-        left: 50%;
-        transform: translate(-50%, 100%);
-    }
-    @media (max-width: 768px) {
-        .ug-product-list {
-            padding: {{ mobile_padding }};
-        }
-        .ug-product-list-title {
-            font-size: 24px;
-            margin-bottom: 40px;
-        }
-        .ug-product-list-main {
-            grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
-            gap: 12px;
-            padding: 0 12px;
-        }
-        .load-more__btn {
-            color: #00CC88;
-            font-size: 16px;
-        }
-    }
+  .ug-product-list {
+      margin: 0 auto;
+      max-width: 1280px;
+      width: 100%;
+      padding: {{ pc_padding }};
+  }
+  .ug-product-list-title {
+      font-weight: 700;
+      font-size: 1.875vw;
+      color: #000;
+      margin-bottom: 2.08vw;
+      text-align: center;
+      line-height: 1.2;
+  }
+  .ug-product-list-main {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
+      gap: 1vw;
+      position: relative;
+  }
+  .load-more__btn {
+      color: #00CC88;
+      font-size: 1.04vw;
+  }
+  .load-more__btn-wrap {
+      position: absolute;
+      bottom: -40px;
+      left: 50%;
+      transform: translate(-50%, 100%);
+  }
+  @media (max-width: 768px) {
+      .ug-product-list {
+          padding: {{ mobile_padding }};
+      }
+      .ug-product-list-title {
+          font-size: 24px;
+          margin-bottom: 40px;
+      }
+      .ug-product-list-main {
+          grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
+          gap: 12px;
+          padding: 0 12px;
+      }
+      .load-more__btn {
+          color: #00CC88;
+          font-size: 16px;
+      }
+  }
 </style>
 
-<div class="ug-product-list">
-    {% if title != blank %}
-        <div class="ug-product-list-title">{{ title }}</div>
-    {% endif %}
-    {% if subtitle != blank %}
-        <div class="ug-product-list-sub-title">{{ subtitle }}</div>
-    {% endif %}
-    <div class="ug-product-list-main load-more_list">
-        {% render 'ug-product', product_list: product_list, bg_color: bg_color, sale_flag: sale_flag, pc_product_sale_width: pc_product_sale_width, mobile_product_sale_width: mobile_product_sale_width, show_sale_flag: show_sale_flag, show_compare:show_compare, show_rating: show_rating, show_learn_btn: show_learn_btn, pc_product_item_img_size: pc_product_item_img_size, mobile_product_item_img_size:mobile_product_item_img_size, mobile_product_type: mobile_product_type %}
-    </div>
+<div class="ug-product-list" id="{{ section_id }}">
+  {% if title != blank %}
+    <div class="ug-product-list-title">{{ title }}</div>
+  {% endif %}
+  {% if subtitle != blank %}
+    <div class="ug-product-list-sub-title">{{ subtitle }}</div>
+  {% endif %}
+  <div class="ug-product-list-main load-more_list">
+    {% render 'ug-product',
+      product_list: product_list,
+      bg_color: bg_color,
+      sale_flag: sale_flag,
+      pc_product_sale_width: pc_product_sale_width,
+      mobile_product_sale_width: mobile_product_sale_width,
+      show_sale_flag: show_sale_flag,
+      show_compare: show_compare,
+      show_rating: show_rating,
+      show_learn_btn: show_learn_btn,
+      pc_product_item_img_size: pc_product_item_img_size,
+      mobile_product_item_img_size: mobile_product_item_img_size,
+      mobile_product_type: mobile_product_type
+    %}
+  </div>
 </div>
 {% if need_load_more %}
-    <script src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
-            defer></script>
-    <script>
+  <script
+    src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
+    defer
+  ></script>
+  <script>
+    
         $(function () {
-            $('.load-more_list').simpleLoadMore({
-                item: 'div.ug-product-item',
-                count: 6,
+            $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
+                item: `div.ug-product-item`,
+                count: {{ load_more_default_count }},
                 itemsToLoad: -1,
                 btnHTML: `<a href="#" class="load-more__btn">View More <svg class="icon" aria-hidden="true" style="transform: rotate(90deg)">
             <use xlink:href="#icon-xiayiye"></use>
         </svg></a>`
             });
         })
-    </script>
+
+  </script>
 {% endif %}
 
 {% schema %}
@@ -118,6 +137,13 @@
       "type": "text",
       "id": "subtitle",
       "label": "Subtitle"
+    },
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "当前模块Id",
+      "info": "用于标识多个 product list 模块，不可重复",
+      "default": "ug-product-list"
     },
     {
       "type": "select",
@@ -200,6 +226,12 @@
       "id": "need_load_more",
       "label": "是否需要加载更多",
       "default": false
+    },
+    {
+      "type": "number",
+      "id": "load_more_default_count",
+      "label": "初始展示数量",
+      "default": 6
     },
     {
       "type": "checkbox",
