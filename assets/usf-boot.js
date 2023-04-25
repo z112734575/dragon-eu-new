@@ -608,7 +608,7 @@
 		function D(e, t, r, n, i) {
 			for(var s = 0, a = 0, o = 0; o < t.length; o++) {
 				var l, u = t[o];
-				n ? (0, l = j) : l = M, u.startsWith("http") || u.startsWith("//") || (u = e + u), l(u, function() {
+				n ? (0, l = j) : l = M, u.startsWith("http") || u.startsWith("/") || (u = e + u), l(u, function() {
 					++s === a && r()
 				}, null, i) && a++
 			}
