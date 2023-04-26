@@ -270,8 +270,12 @@ t4s_group_btns_split
    </div>
    {%- endif -%}
 	{%- if shop.customer_accounts_enabled and se_stts.show_acc -%}
-   <div class="t4s-site-nav__icon t4s-site-nav__account t4s-d-none t4s-d-md-inline-block">
+   <div class="t4s-site-nav__icon t4s-site-nav__account t4s-d-md-inline-block">
+<!--      弹窗形式（但不支持手机端）
 		<a class="t4s-pr" href="{{ routes.account_url }}"{% unless customer or settings.login_side == false %} data-drawer-delay data-drawer-options='{ "id":"#t4s-login-sidebar" }' {% endunless %}>
+			<svg class="t4s-icon t4s-icon--account" aria-hidden="true" focusable="false" role="presentation"><use href="#icon-h-account"></use></svg>
+      </a> -->
+     <a class="t4s-pr" href="{{ routes.account_url }}">
 			<svg class="t4s-icon t4s-icon--account" aria-hidden="true" focusable="false" role="presentation"><use href="#icon-h-account"></use></svg>
       </a>
    </div>
