@@ -85,6 +85,9 @@
     },
     "ug-index-image": {
       "type": "ug-index-image",
+      "custom_css": [
+        ".topImage {margin-top: 10px;}"
+      ],
       "settings": {
       }
     },
@@ -179,6 +182,7 @@
         ],
         "title": "Hot Sale",
         "subtitle": "",
+        "section_id": "ug-product-list",
         "mobile_product_type": "column",
         "product_item_bg_color": "#f8f8f9",
         "pc_product_item_img_size": "100%",
@@ -191,6 +195,7 @@
         "pc_padding": "100px 0",
         "mobile_padding": "40px 0",
         "need_load_more": false,
+        "load_more_default_count": 6,
         "show_sale_flag": false,
         "show_compare": true,
         "show_rating": false,
