@@ -228,6 +228,7 @@
     },
     "sidebar": {
       "type": "sidebar-collection",
+      "disabled": true,
       "blocks": {
         "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
           "type": "category",
