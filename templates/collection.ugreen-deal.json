@@ -186,8 +186,8 @@
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
       "settings": {
-        "title_array": "Power Station,GaN Chargers,Hubs,Hard Drive Enclosures,USB-C Cables,Docking Station,Fast Chargers,Tablets Stands,iPhone Cables,Ethernet Adapters,USB & HDMI Switch,Car Chargers,Car Mounts,Audio Cables,Bluetooth Adapters,Power Strip",
-        "product_type_array": "Power Station,GaN Chargers,Hubs,Hard Drive Enclosures,USB-C Cables,Docking Station,Fast Chargers,Tablets Stands,iPhone Cables,Ethernet Adapters,USB & HDMI Switch,Car Chargers,Car Mounts,Audio Cables,Bluetooth Adapters,Power Strip",
+        "title_array": "Power Station,GaN Chargers,Hubs,Hard Drive Enclosures,USB-C Cables,Docking Station,Fast Chargers,Tablets Stands,USB & HDMI Switch,Car Chargers,Car Mounts,Audio Cables,iPhone Cables,Ethernet Adapters,Bluetooth Adapters,Power Strip",
+        "product_type_array": "Power Station,GaN Chargers,Hubs,Hard Drive Enclosures,USB-C Cables,Docking Station,Fast Chargers,Tablets Stands,USB & HDMI Switch,Car Chargers,Car Mounts,Audio Cables,iPhone Cables,Ethernet Adapters,Bluetooth Adapters,Power Strip",
         "show_desc": false,
         "position_desc": "2",
         "product_des": "4",
