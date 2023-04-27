@@ -704,7 +704,7 @@
             "type": "drop",
             "settings": {
               "title": "POWER STATION",
-              "url": "shopify:\/\/collections\/power-station",
+              "url": "shopify:\/\/pages\/powerroam-power-stations",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1658,7 +1658,7 @@
             "type": "menu",
             "settings": {
               "title": "POWER STATION",
-              "url": "shopify:\/\/collections\/power-station",
+              "url": "shopify:\/\/pages\/powerroam-power-stations",
               "open_link": "_self",
               "menu": "",
               "icon": "",
