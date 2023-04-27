@@ -186,8 +186,8 @@
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
       "settings": {
-        "title_array": "GaN Chargers,SATA Adapter,USB Switch,Ethernet Adapters,Docking Station,Video Cables,Ethernet Cable,Hard Drive Cable",
-        "product_type_array": "GaN Chargers,SATA Adapter,USB Switch,Ethernet Adapters,Docking Station,Video Cables,Ethernet Cable,Hard Drive Cable",
+        "title_array": "Power Station,GaN Chargers,Hubs,Hard Drive Enclosures,Docking Station,Fast Chargers,Tablets Stands,iPhone Cables,USB-C Cables,Ethernet Adapters,USB & HDMI Switch,Car Chargers,Car Mounts,Video Cables,Audio Cables,Power Strip,Bluetooth Adapters,EARBUDS",
+        "product_type_array": "Power Station,GaN Chargers,Hubs,Hard Drive Enclosures,Docking Station,Fast Chargers,Tablets Stands,iPhone Cables,USB-C Cables,Ethernet Adapters,USB & HDMI Switch,Car Chargers,Car Mounts,Video Cables,Audio Cables,Power Strip,Bluetooth Adapters,EARBUDS",
         "show_desc": false,
         "position_desc": "2",
         "product_des": "4",
@@ -228,6 +228,7 @@
     },
     "sidebar": {
       "type": "sidebar-collection",
+      "disabled": true,
       "blocks": {
         "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
           "type": "category",
