@@ -147,7 +147,7 @@
           "settings": {
             "name": "Audio & Video",
             "icon_name": "icon-Video_icon",
-            "link": "\/collections\/audio-video-1"
+            "link": "shopify:\/\/collections\/audio-video-1"
           }
         }
       },
