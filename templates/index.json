@@ -93,31 +93,37 @@
     },
     "ug-index-category": {
       "type": "ug-index-category",
-      "disabled": true,
       "blocks": {
+        "914a7dc5-0679-4c54-abf9-6721e9d89ebb": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Power Stations",
+            "icon_name": "icon-a-Powerstation_icon",
+            "link": "shopify:\/\/collections\/power-station"
+          }
+        },
         "d5958c0a-44f1-4805-aadb-46db4665b95d": {
           "type": "ug-index-category-item",
           "settings": {
             "name": "Chargers",
             "icon_name": "icon-chargers_icon-01",
-            "link": "\/collections\/charger"
+            "link": "shopify:\/\/collections\/chargers"
+          }
+        },
+        "77d137aa-8558-4dc3-8217-0865c779f65b": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Docking Station",
+            "icon_name": "icon-a-DockingStation_icon1",
+            "link": "\/collections\/docking-station"
           }
         },
         "7d79ed76-8557-4331-aa4a-68979f326f13": {
           "type": "ug-index-category-item",
           "settings": {
             "name": "Hubs\/Adapters",
-            "icon_name": "icon-hub_icon",
-            "link": "\/collections\/hubs-and-adapters"
-          }
-        },
-        "77d137aa-8558-4dc3-8217-0865c779f65b": {
-          "type": "ug-index-category-item",
-          "disabled": true,
-          "settings": {
-            "name": "Docking Station",
-            "icon_name": "icon-Stands_icon",
-            "link": "\/collections\/docking-station"
+            "icon_name": "icon-hub_icon1",
+            "link": "shopify:\/\/collections\/hubs-adapters"
           }
         },
         "1123f8d8-d3e7-42d0-86eb-bb6af9faec50": {
@@ -125,45 +131,34 @@
           "settings": {
             "name": "Cables",
             "icon_name": "icon-Cables_icon",
-            "link": "\/collections\/cable"
+            "link": "shopify:\/\/collections\/cables"
           }
         },
         "5253ea49-300b-4a16-9f67-419106408da3": {
           "type": "ug-index-category-item",
-          "disabled": true,
           "settings": {
-            "name": "Stands & Protectors",
-            "icon_name": "icon-Earbuds_icon",
-            "link": "\/collections\/holder-protectors"
+            "name": "Stands & Mounts",
+            "icon_name": "icon-Stands_icon1",
+            "link": "shopify:\/\/collections\/stands-mounts"
           }
         },
         "bae355b2-fbec-48ce-82fe-a15893600ff8": {
           "type": "ug-index-category-item",
-          "disabled": true,
           "settings": {
-            "name": "Mouse\/Keyboard",
-            "icon_name": "icon-mouse_icon",
-            "link": ""
-          }
-        },
-        "914a7dc5-0679-4c54-abf9-6721e9d89ebb": {
-          "type": "ug-index-category-item",
-          "disabled": true,
-          "settings": {
-            "name": "AC Power",
-            "icon_name": "icon-a-ACPower_icon",
-            "link": ""
+            "name": "AUDIO\/VIDEO",
+            "icon_name": "icon-Video_icon",
+            "link": "\/collections\/audio-video-1"
           }
         }
       },
       "block_order": [
+        "914a7dc5-0679-4c54-abf9-6721e9d89ebb",
         "d5958c0a-44f1-4805-aadb-46db4665b95d",
-        "7d79ed76-8557-4331-aa4a-68979f326f13",
         "77d137aa-8558-4dc3-8217-0865c779f65b",
+        "7d79ed76-8557-4331-aa4a-68979f326f13",
         "1123f8d8-d3e7-42d0-86eb-bb6af9faec50",
         "5253ea49-300b-4a16-9f67-419106408da3",
-        "bae355b2-fbec-48ce-82fe-a15893600ff8",
-        "914a7dc5-0679-4c54-abf9-6721e9d89ebb"
+        "bae355b2-fbec-48ce-82fe-a15893600ff8"
       ],
       "settings": {
         "title": "Shop by Category",
