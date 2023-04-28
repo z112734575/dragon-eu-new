@@ -1789,7 +1789,8 @@
             const mySwiper = new Swiper('.a-carousel-viewport', {
                 loop: true,
             });
-            mySwiper.forEach(function (swiper) {
+            
+            [].concat(mySwiper).forEach(function (swiper) {
                 const  swiperWrap = $('.aplus-carousel-container').has($(swiper.el)) // 找到父级
                 swiperWrap.find('.a-carousel-left').click(function () {
                     swiper.slidePrev()
@@ -1802,10 +1803,17 @@
                     swiper.slideTo(index + 1, 500, false);//切换到第一个slide，速度为500ms
                 })
 
+               swiperWrap.find('.aplus-pagination-dot').click(function () {
+                    const index = $(this).index()
+                    swiper.slideTo(index + 1, 500, false);//切换到第一个slide，速度为500ms
+                })
+
                 swiper.on('slideChange', function (event) {
                     let index = event.realIndex
                     swiperWrap.find(`.aplus-goto-btn`).removeClass('aplus-active')
                     swiperWrap.find(`.aplus-goto-btn:eq(${index})`).addClass('aplus-active')
+                    swiperWrap.find(`.aplus-pagination-dot > .carousel-slider-circle`).removeClass('aplus-carousel-active')
+                    swiperWrap.find(`.aplus-pagination-dot:eq(${index})`).find('.carousel-slider-circle').addClass('aplus-carousel-active')
                 });
             })
         }
