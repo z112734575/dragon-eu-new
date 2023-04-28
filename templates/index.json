@@ -121,7 +121,7 @@
         "7d79ed76-8557-4331-aa4a-68979f326f13": {
           "type": "ug-index-category-item",
           "settings": {
-            "name": "Hubs\/Adapters",
+            "name": "Hubs & Adapters",
             "icon_name": "icon-hub_icon1",
             "link": "shopify:\/\/collections\/hubs-adapters"
           }
@@ -145,7 +145,7 @@
         "bae355b2-fbec-48ce-82fe-a15893600ff8": {
           "type": "ug-index-category-item",
           "settings": {
-            "name": "AUDIO\/VIDEO",
+            "name": "Audio & Video",
             "icon_name": "icon-Video_icon",
             "link": "\/collections\/audio-video-1"
           }
