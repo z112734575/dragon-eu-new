@@ -2352,7 +2352,25 @@
       "text_3": "[Félicitations !] Vous bénéficiez de la livraison gratuite !"
     },
     "mini_cart": {
-      "title": "Panier"
+      "title": "Panier",
+      "close_cart": "Fermer le panier",
+      "empty": "Votre panier est vide.",
+      "subtotal": "Total:",
+      "checkout": "Vérifier",
+      "view": "Voir le panier"
+    },
+    "cart_page": {
+      "title": "Panier",
+      "label": {
+        "product": "Produit",
+        "price": "Prix",
+        "quantity": "Quantité"
+      },
+      "empty": "Votre panier est vide.",
+      "empty_html": "Avant de passer à la caisse, vous devez ajouter certains produits à votre panier.<br> Vous trouverez de nombreux produits intéressants sur notre page \"Boutique\".",
+      "update": "Mise à jour panier",
+      "subtotal": "Total:",
+      "checkout": "Vérifier"
     }
   },
   "customer": {
@@ -2365,7 +2383,18 @@
       "subtotal": "Total",
       "track_shipment": "Suivi de livraison",
       "gift_note": "Message de cadeau",
-      "note": "Instructions spéciales pour le vendeur"
+      "note": "Instructions spéciales pour le vendeur",
+      "title": "Commandez {{ name }}",
+      "date_html": "Placé le {{ date }}",
+      "cancelled_html": "Commande annulée le {{ date }}",
+      "cancelled_reason": "Raison : {{ reason }}",
+      "billing_address": "adresse de facturation",
+      "payment_status": "Statut de paiement",
+      "shipping_address": "adresse de livraison",
+      "fulfillment_status": "Statut d'exécution",
+      "discount": "Rabais",
+      "shipping": "Expédition",
+      "tax": "Impôt"
     },
     "recover_password": {
       "title": "réinitialisez votre mot de passe",
@@ -2394,6 +2423,81 @@
       "submit": "Enregistrer",
       "privacy_policy": "Vos données personnelles seront utilisées pour soutenir votre expérience sur ce site Web, pour gérer l'accès à votre compte et à d'autres fins décrites dans notre politique de confidentialité.",
       "privacy_policy_html": "Vos données personnelles seront utilisées pour soutenir votre expérience sur ce site Web, pour gérer l'accès à votre compte et à d'autres fins décrites dans notre <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">politique de confidentialité<\/a> ."
+    },
+    "form": {
+      "error_heading": "Veuillez ajuster les éléments suivants :"
+    },
+    "account": {
+      "title": "MON COMPTE",
+      "make_order": "Passez votre première commande",
+      "none": "Vous n'avez pas encore passé de commande.",
+      "hello_html": "Bonjour <strong>{{name}}<\/strong> (pas <strong>{{name}}<\/strong> ? <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\">Déconnectez-vous<\/a> )",
+      "manage_subs": "Gérer les abonnements",
+      "dashboard": "Tableau de bord",
+      "wishlist": "Liste de souhaits",
+      "details": "Détails du compte :",
+      "log_out": "Se déconnecter",
+      "name": "Nom:",
+      "address": "Adresse:",
+      "address_2": "Adresse 2:",
+      "country": "Pays:",
+      "zip": "Zipper:",
+      "phone": "Téléphone:",
+      "company": "Entreprise:"
+    },
+    "menu": {
+      "dashboard": "Tableau de bord",
+      "addresses": "Adresses",
+      "logout": "Se déconnecter"
+    },
+    "activate_account": {
+      "title": "Activer le compte",
+      "subtext": "Créez votre mot de passe pour activer votre compte.",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "Activer le compte",
+      "cancel": "Refuser l'invitation"
+    },
+    "addresses": {
+      "title": "Adresses",
+      "default": "Défaut",
+      "add_new": "Ajouter une nouvelle adresse",
+      "edit_address": "Modifier l'adresse",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "company": "Entreprise",
+      "address1": "Adresse",
+      "address2": "Appartement, suite, etc.",
+      "city": "Ville",
+      "country": "Pays\/région",
+      "zip": "Code postal",
+      "phone": "Téléphone",
+      "set_default": "Définir comme adresse par défaut",
+      "add": "Ajoutez l'adresse",
+      "update": "Mettre à jour l'adresse",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+    },
+    "login": {
+      "title": "CONNEXION",
+      "create_account": "Nouveau client? Créez votre compte",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe oublié?",
+      "submit": "S'identifier",
+      "sign_in": "S'identifier",
+      "guest_title": "Continuer en tant qu'invité",
+      "guest_continue": "Continuer"
+    },
+    "orders": {
+      "title": "Historique des commandes:",
+      "order_number": "Commande",
+      "order_number_link": "Numéro de commande {{ number }}",
+      "payment_status": "Statut de paiement",
+      "fulfillment_status": "Statut d'exécution",
+      "none": "Vous n'avez pas encore passé de commande."
     }
   },
   "password_page": {
@@ -2464,5 +2568,22 @@
     "blog_excerpt": "Votre boutique n'a pas encore publié d'articles de blog. Un blog peut être utilisé pour parler des lancements de nouveaux produits, des conseils ou d'autres nouvelles que vous souhaitez partager avec vos clients. Vous pouvez consulter le blog de commerce électronique de Shopify pour trouver de l'inspiration et des conseils pour votre propre boutique et blog.",
     "blog_author": "Nom de l'auteur",
     "no_content": "Cette section n'inclut actuellement aucun contenu. Ajoutez du contenu à cette section à l'aide de la barre latérale."
+  },
+  "templates": {
+    "404": {
+      "subtext": "Désolé! La page que vous recherchez est introuvable.",
+      "link_html": "Retour à la <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" rel=\"home\">page d'accueil<\/a>"
+    },
+    "contact": {
+      "form": {
+        "name": "Votre Nom (requis)",
+        "email": "Votre Email (requis)",
+        "phone": "Votre numéro de téléphone",
+        "message": "Votre message",
+        "submit": "Envoyer",
+        "post_success": "Merci de nous avoir contacté. Nous vous répondrons dès que possible.",
+        "error_heading": "Veuillez ajuster les éléments suivants :"
+      }
+    }
   }
 }
