@@ -1588,10 +1588,85 @@
               "other": "Votre paiement est en retard de {{count}} jours"
             },
             "banner_due": {
-              "one": "Votre paiement est dû dans {{count}} jour"
+              "one": "Votre paiement est dû dans {{count}} jour",
+              "other": "Votre paiement est dû dans {{count}} jours"
+            },
+            "banner_due_today": "Votre paiement est dû aujourd'hui",
+            "title": "Paiement dû",
+            "title_with_date": "Paiement dû le {{date}}",
+            "title_due_on_receipt": "Le paiement n'est pas encore dû",
+            "title_due_on_fulfillment": "Paiement dû à l'exécution",
+            "description_overdue": "Votre paiement est en retard.",
+            "description_partially_paid": "Cette commande a été partiellement payée. Vous avez un solde restant.",
+            "description_authorized": "Votre mode de paiement sera débité à la date d'échéance, ou vous pouvez payer maintenant.",
+            "description_due_on_receipt": "Vous recevrez une facture lorsque le paiement est dû.",
+            "description_due_on_fulfillment": "Le paiement est dû une fois que tous les articles de cette commande sont remplis."
+          },
+          "draft": {
+            "description": "Les modalités de paiement sont décidées lors de la confirmation de la commande.",
+            "title": "Paiement pas encore dû",
+            "in_review": {
+              "description": "Les modalités de paiement sont décidées lors de la confirmation de la commande.",
+              "title": "Paiement pas encore dû"
+            },
+            "submitted": {
+              "description": "Soumettez le paiement pour confirmer cette commande.",
+              "title": "Payer pour confirmer"
             }
-          }
+          },
+          "paid": {
+            "title": "Payé",
+            "title_with_date": "Payé le {{date}}",
+            "description": "Votre commande est entièrement payée."
+          },
+          "refund": {
+            "title": "Remboursé",
+            "title_with_date": "Remboursé le {{date}}",
+            "description_full_refund": "Vous avez reçu un remboursement complet pour cette commande.",
+            "description_single_refund": "Vous avez reçu un remboursement partiel pour cette commande.",
+            "description_multiple_refunds": "Vous avez reçu des remboursements partiels pour cette commande."
+          },
+          "canceled": {
+            "title": "Paiement annulé",
+            "description": "Vous ne serez pas débité."
+          },
+          "pay_now": "Payez maintenant",
+          "pay_now_accessibility_label": "Payez maintenant pour la commande {{orderName}}",
+          "title": "Statut de paiement"
+        },
+        "order_timeline": {
+          "expand_events_label": "Afficher les détails",
+          "expand_events_accessibility_label": "Afficher les détails de la commande préliminaire",
+          "hide_events_label": "Cacher les détails",
+          "hide_events_accessibility_label": "Masquer les détails de la commande préliminaire"
+        },
+        "subtitle": "Soumis le {{date}}",
+        "title": "Commandez {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Ce mode de paiement ne sera plus disponible pour les futurs achats à partir de cet emplacement.",
+          "description_with_replacement": "La suppression de ce mode de paiement affectera les paiements préautorisés pour cet emplacement. Remplacez-le par un autre mode de paiement pour continuer à recevoir les commandes à venir."
+        },
+        "payment_details": {
+          "order_label": "Commandez {{name}}",
+          "draft_label": "Brouillon de commande {{name}}"
         }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Ajouter un numéro de bon de commande",
+        "add_modal_title": "Ajouter un numéro de bon de commande",
+        "cancel": "Annuler",
+        "close_modal_accessibility_label": "Fermer le numéro de bon de commande modal",
+        "discard": "Jeter",
+        "discard_changes_modal_title": "Annuler les modifications?",
+        "edit_accessibility_label": "Modifier le numéro de bon de commande",
+        "edit_modal_title": "Modifier le numéro de bon de commande",
+        "empty_state": "Pas de numéro de bon de commande",
+        "modal_po_number_input_label": "Numéro de bon de commande",
+        "modal_po_number_input_max_length_error": "Les numéros de bon de commande ont un maximum de {{maxLength}} caractères.",
+        "save": "Sauvegarder",
+        "title": "Numéro de bon de commande # {{poNumber}}"
       }
     },
     "payment_methods": {
@@ -1612,7 +1687,11 @@
         "loading_shop_pay": "Chargement de la boutique Payer",
         "invalid_payment_method": "Mode de paiement invalide",
         "invalid_payment_method_message": "Utilisez une nouvelle carte de crédit pour continuer à recevoir les commandes à venir.",
-        "replace_payment_method": "Remplacer le mode de paiement"
+        "replace_payment_method": "Remplacer le mode de paiement",
+        "title": "Détails du mode de paiement",
+        "credit_card_details_accessibility_label": "se terminant par {{lastDigits}}",
+        "billing_title": "Adresse de facturation",
+        "card_info_title": "Informations sur la carte"
       },
       "edit_payment_method": {
         "title": "Modifier le mode de paiement",
@@ -1683,6 +1762,37 @@
           "choose_billing_address_from_list_button_accessibility_label": "Choisissez une adresse de facturation dans la liste",
           "missing_billing_address_error_message": "Veuillez indiquer une adresse de facturation"
         }
+      },
+      "title": "Méthodes de payement",
+      "add_payment_method_button": "Ajouter un mode de paiement",
+      "add_payment_method_banner": "Ajoutez un mode de paiement pour un paiement plus rapide ou des services préautorisés",
+      "edit_payment_method_button_accessibility_label": "Modifier {{paymentMethodName}} se terminant par {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Modifier {{paymentMethodName}}",
+      "delete_payment_method_button": "Supprimer",
+      "delete_payment_method_button_accessibility_label": "Supprimer {{paymentMethodName}}",
+      "back_button": "Dos",
+      "back_button_accessibility_label": "Retour à {{paymentMethodStepTitle}}",
+      "generic_card": "Carte",
+      "expiration_warning_button_accessibility_label": "Afficher l'avertissement d'expiration pour {{paymentMethodName}} se terminant par {{lastDigits}}",
+      "expires_soon": "Cette carte expire bientôt",
+      "expired": "Cette carte est arrivée à expiration",
+      "card_update_consent": "Ce mode de paiement sera enregistré pour de futurs achats.",
+      "digital_wallet_title": "Portefeuille numérique",
+      "credit_or_debit_card_title": "carte de crédit ou de débit",
+      "google_pay": {
+        "loading": "Chargement de Google Pay",
+        "errors": {
+          "generic": "Il y a eu un problème avec Google Pay. Réessayez ou utilisez un autre mode de paiement.",
+          "missing_billing_address": "Google Pay nécessite une adresse de facturation. Veuillez en ajouter un à votre compte."
+        }
+      },
+      "apple_pay": {
+        "loading": "Chargement d'Apple Pay",
+        "errors": {
+          "generic": "Il y a eu un problème avec Apple Pay. Réessayez ou utilisez un autre mode de paiement.",
+          "not_available": "Apple Pay n'est pas disponible sur cet appareil.",
+          "missing_billing_address": "Apple Pay nécessite une adresse de facturation. Veuillez en ajouter un à votre compte."
+        }
       }
     },
     "payment_method_brands": {
@@ -1737,6 +1847,52 @@
         }
       },
       "add_button": "Ajouter"
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Un problème est survenu lors de la suppression de cette adresse. Réessayez ou actualisez la page."
+      },
+      "addresses_loading_issue": {
+        "description": "Erreur de connexion. Vérifiez votre connexion Internet et réessayez."
+      },
+      "banner_title": {
+        "one": "Il y a {{count}} erreur",
+        "other": "Il y a {{count}} erreurs"
+      },
+      "failed_address_creation": {
+        "description": "Un problème est survenu lors de la création de votre adresse. Essayez d'actualiser cette page ou vérifiez votre connexion Internet."
+      },
+      "failed_address_update": {
+        "description": "Un problème est survenu lors de la mise à jour de votre adresse. Essayez d'actualiser cette page ou vérifiez votre connexion Internet."
+      },
+      "load_orders_error": {
+        "title": "Impossible de charger les commandes",
+        "description": "Réessayez ou revenez plus tard.",
+        "retry_button": "Recommencez"
+      },
+      "load_paypal_error": {
+        "description": "Il y a un problème lors du chargement de PayPal. Veuillez réessayer."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Connectez-vous à un autre compte",
+        "description": "Vous n'êtes pas enregistré en tant que client B2B avec {{shopName}}",
+        "title": "Pas d'accès"
+      },
+      "no_access_to_locations": {
+        "description": "Vous n'avez accès à aucun lieu"
+      },
+      "not_found": {
+        "description": "Vérifiez l'URL ou réessayez dans quelques minutes.",
+        "title": "Il y a un problème lors du chargement de cette page"
+      },
+      "order_not_found": {
+        "description": "Cette commande n'existe pas ou vous n'êtes pas autorisé à la consulter.",
+        "title": "Commande introuvable"
+      },
+      "profile_update_error": {
+        "description": "Un problème est survenu lors de la mise à jour de votre profil. Essayez d'actualiser cette page ou vérifiez votre connexion Internet."
+      },
+      "retry_action_label": "Recommencez"
     }
   },
   "sections": {
