@@ -1112,10 +1112,103 @@
           "order_total": {
             "ascending": "Total de la commande (de bas en haut)",
             "descending": "Total de la commande (décroissant)"
+          },
+          "date": {
+            "newest": "Du plus récent au plus ancien",
+            "oldest": "Du plus ancien au plus récent"
+          },
+          "location": {
+            "ascending": "Emplacement (AZ)",
+            "descending": "Emplacement (ZA)"
           }
         },
         "table_view": "Afficher le tableau",
-        "show_order_actions_accessibility_label": "Afficher les actions de commande pour la commande {{name}}"
+        "show_order_actions_accessibility_label": "Afficher les actions de commande pour la commande {{name}}",
+        "column_headers": {
+          "order": "Commande",
+          "items": "Articles"
+        },
+        "delivered": "Livré le {{date}}",
+        "empty_state_order_source_description": "Seules les commandes passées par {{email}} s'afficheront ici.",
+        "empty_state_subtitle": "Rendez-vous en magasin pour passer une commande.",
+        "empty_state_title": "Pas encore de commandes",
+        "empty_state_title_for_pending_orders": "Aucune commande en attente",
+        "estimated_delivery": "Livraison estimée {{date}}",
+        "one_images_accessibility_label": "La commande comprend {{lineItemName1}}",
+        "two_images_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}} et {{numberOfAdditionalProducts}} autres produits",
+        "more_than_four_products_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} et {{numberOfAdditionalProducts}} autres produits",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produits",
+        "carousel": {
+          "one_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}} , {{lineItemName2}} quantité {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}} , {{lineItemName2}} quantité {{lineItemQuantity2}} , {{lineItemName3}} quantité {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}} , {{lineItemName2}} quantité {{lineItemQuantity2}} , {{lineItemName3}} quantité {{lineItemQuantity3}} , {{lineItemName4}} quantité {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}} , {{lineItemName2}} quantité {{lineItemQuantity2}} , {{lineItemName3}} quantité {{lineItemQuantity3}} , {{lineItemName4}} quantité {{lineItemQuantity4}} , {{lineItemName5}} quantité {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}} , {{lineItemName2}} quantité {{lineItemQuantity2}} , {{lineItemName3}} quantité {{lineItemQuantity3}} , {{lineItemName4}} quantité {{lineItemQuantity4}} , {{lineItemName5}} quantité {{lineItemQuantity5}} , {{lineItemName6}} quantité {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}} , {{lineItemName2}} quantité {{lineItemQuantity2}} , {{lineItemName3}} quantité {{lineItemQuantity3}} , {{lineItemName4}} quantité {{lineItemQuantity4}} , {{lineItemName5}} quantité {{lineItemQuantity5}} , {{lineItemName6}} quantité {{lineItemQuantity6}} et plus",
+          "view_order_details": "Voir d'autres détails",
+          "previous": "Précédent",
+          "next": "Suivant"
+        },
+        "items": {
+          "one": "{{count}} élément",
+          "other": "{{count}} éléments"
+        },
+        "list_view": "Afficher la vue en liste",
+        "no_filtered_results_description": "Supprimez ou ajustez les filtres pour voir vos commandes",
+        "no_filtered_results_title": "Aucun résultat filtré",
+        "order_link": "Afficher la commande {{name}}",
+        "order_number": "Commandez {{name}}",
+        "orders_title": "Confirmé",
+        "pagination": {
+          "nav_accessibility_label": "Boutons de navigation des commandes",
+          "next": "Suivant",
+          "next_accessibility_label": "Prochaines commandes",
+          "previous": "Précédent",
+          "previous_accessibility_label": "Commandes précédentes",
+          "load_more": "Charger plus",
+          "load_more_accessibility_label": "Charger plus de commandes"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Voir la commande pour plus de détails",
+            "estimated_delivery": "Livraison estimée {{date}}",
+            "last_updated": "Dernière mise à jour {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Est. livraison {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Retard de paiement",
+            "due": "Paiement dû le {{date}}",
+            "due_today": "Paiement dû aujourd'hui",
+            "due_without_date": "Paiement dû",
+            "due_on_fulfillment": "Paiement dû à l'exécution",
+            "pay_to_confirm": "Payer pour confirmer",
+            "payment_not_due": "Paiement pas encore dû"
+          },
+          "table_view": {
+            "overdue": "En retard",
+            "due": "Échéance {{date}}",
+            "due_today": "Dû aujourd'hui",
+            "paid": "Payé",
+            "due_without_date": "Exigible",
+            "due_on_fulfillment": "Dû à l'exécution",
+            "pay_to_confirm": "Payer pour confirmer",
+            "payment_not_due": "Pas encore dû"
+          }
+        },
+        "sort_by": "Trier par : {{option}}",
+        "sort_hide_options_accessibility_label": "Masquer les options de tri pour les commandes confirmées.",
+        "sort_show_options_accessibility_label": "Afficher les options de tri pour les commandes confirmées.",
+        "sort_currently_sorted_by_accessibility_label": "Actuellement trié par : {{option}}",
+        "sort_title": "Trier"
       },
       "order_status": {
         "attempted_delivery_label": "Tentative de livraison",
@@ -1209,7 +1302,9 @@
       "didnt_pick_up_order": "Vous n'avez pas récupéré votre commande ?",
       "if_you_didnt_receive_this": "Si vous ne l'avez pas reçu,",
       "let_us_know": "Faites le nous savoir",
-      "contact_us": "Contactez-nous."
+      "contact_us": "Contactez-nous.",
+      "list_layout_accessibility_label": "Options de mise en page",
+      "list_title": "Ordres"
     },
     "order_details": {
       "shipment_timeline": {
@@ -1605,6 +1700,43 @@
       "subscription_policy": "Politique d'abonnement",
       "terms_of_sale": "Conditions de vente",
       "terms_of_service": "Conditions d'utilisation"
+    },
+    "navigation_and_structure": {
+      "log_out_link": "Se déconnecter",
+      "logout_overlay_label": "Vous déconnecter...",
+      "nav_label_accessibility_label": "Navigation principale",
+      "navigation_accessibility_message": "Vous avez navigué vers {{sectionName}}",
+      "open_menu_accessibility_label": "Ouvrir la navigation principale",
+      "orders_link_label": "Ordres",
+      "shop_logo_accessibility_label": "Logo {{shopName}}",
+      "subscriptions_link_label": "Abonnements"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Chargement des informations de compte",
+      "loading_finished_accessibility_message": "Les informations de compte ont été chargées",
+      "profile_card": {
+        "cancel": "Annuler",
+        "cancel_accessibility_label": "Annuler la modification du profil",
+        "edit": "Modifier",
+        "edit_accessibility_label": "Editer le profil",
+        "email_help_text": "L'e-mail utilisé pour la connexion ne peut pas être modifié",
+        "first_name": "Prénom",
+        "last_name": "Nom de famille",
+        "phone_number_help_text": "Le numéro de téléphone utilisé pour la connexion ne peut pas être modifié",
+        "save": "Sauvegarder",
+        "save_accessibility_label": "Enregistrer le profil",
+        "title": "Profil"
+      },
+      "profile_update_confirmation_message": "Profil mis à jour",
+      "title": "Information sur le compte",
+      "people": {
+        "pagination": {
+          "load_more": "Charger plus",
+          "load_more_accessibility_label": "Charger plus de personnes",
+          "loading_accessibility_label": "Chargement des personnes"
+        }
+      },
+      "add_button": "Ajouter"
     }
   },
   "sections": {
