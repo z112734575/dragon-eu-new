@@ -1,66 +1,18 @@
 {
   "sections": {
-    "heading": {
-      "type": "heading-template",
+    "ce21d704-cac6-4a10-8364-732e86533503": {
+      "type": "BuyingGuide",
       "settings": {
-        "use_specify_image": true,
-        "parallax": false,
-        "color": "#000000",
-        "overlay": 54,
-        "padding": 50,
-        "paddingmb": 50,
-        "mg_b": 50,
-        "mg_bmb": 50,
-        "content_align": "t4s-text-center",
-        "bg_pos": "center center",
-        "bg_repeat": "no-repeat",
-        "bg_size": "cover",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "60px,,60px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
-    },
-    "sidebar-page": {
-      "type": "sidebar-page",
-      "disabled": true,
-      "blocks": {
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
-          "type": "blog_cate",
-          "settings": {
-            "title": "Blog categories",
-            "cat_link_list": "",
-            "count": true
-          }
-        }
-      },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
-      "settings": {
-        "enable_drawer": false,
-        "space": 50,
-        "size": "medium",
-        "br_style": "none",
-        "brcolor": "#222222",
-        "sidebar_bdr": 5,
-        "sidebar_pd": 10
+        "product_list": [
+          "ugreen-usb-c-triple-display-docking-station",
+          "ugreen-9-in-1-usb-c-docking-station",
+          "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
+          "copy-of-snap-deal-ugreen-docking-station-for-steam-deck"
+        ]
       }
     }
   },
   "order": [
-    "heading",
-    "main",
-    "sidebar-page"
+    "ce21d704-cac6-4a10-8364-732e86533503"
   ]
 }
