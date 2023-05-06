@@ -572,6 +572,150 @@
         "manual_payment_gateway_label": "Manuel",
         "billing_address_title": "Adresse de facturation",
         "free_label": "Gratuit"
+      },
+      "remember_me": {
+        "label": "Enregistrer mes informations pour un paiement plus rapide",
+        "description_html": "La prochaine fois que vous vérifierez ici ou sur d'autres magasins alimentés par Shopify, vous recevrez un code par SMS pour acheter en toute sécurité avec Shop Pay.",
+        "mobile_phone_icon_alt": "Téléphone mobile",
+        "mobile_phone_number": "numéro de téléphone portable",
+        "terms_and_privacy_html": "En continuant, vous acceptez les %{privacy_href} et %{terms_href} de Shop Pay.",
+        "external_acessibility_label": "(ouvre une nouvelle fenêtre)",
+        "privacy_policy": "politique de confidentialité",
+        "terms_of_service": "Conditions d'utilisation",
+        "errors": {
+          "optin": "Shop Pay n'est pas disponible"
+        },
+        "installments": {
+          "paid_in_installments": "Paiement en plusieurs fois avec Shop Pay.",
+          "view_schedule": "Voir le calendrier"
+        }
+      },
+      "notifications": {
+        "title": "Avis"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Montant à payer pour la commande %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Ajoutée",
+            "other": "%{count} ajouté"
+          },
+          "removed": "Supprimé",
+          "subtracted": "%{count} supprimé"
+        },
+        "additional_payment_requested": "Le paiement de %{total_outstanding} est nécessaire",
+        "checkout_review_and_pay": "Votre commande %{order_name} a été mise à jour. Passez en revue ces modifications, puis payez pour confirmer votre commande.",
+        "order_updated_on": "Votre commande a été mise à jour le %{last_edited_at}.",
+        "order_review_and_pay": "Votre commande a été mise à jour. Passez en revue et payez pour confirmer votre commande.",
+        "pay_now": "Payez maintenant"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Votre carte de crédit sera débitée %{amount}",
+        "payment_total_label": "Paiement total",
+        "change_currency_link": "Passer à %{currency_name}",
+        "card_provider_fx_charges_warning": "Votre fournisseur de carte peut facturer des frais sur les transactions %{currency_code}.",
+        "currency_not_supported_by_shop": "La devise que vous avez sélectionnée n'est plus disponible. Tous les prix sont maintenant en %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Votre panier a été mis à jour en fonction de votre pays de livraison."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Votre pays\/région a été mis à jour. Entrez votre adresse de livraison pour continuer le paiement."
+      },
+      "tips": {
+        "title": "Ajouter un pourboire",
+        "description": "Montrez votre soutien à l'équipe de %{shop_name}",
+        "presets_description": "Sélectionnez un pourcentage de pourboire",
+        "custom_label": "Conseil personnalisé",
+        "add_tip": "Ajouter un pourboire",
+        "update_tip": "Conseil de mise à jour",
+        "message": "Merci, nous apprécions",
+        "preset_label": "%{tip_percent} %",
+        "no_tip_label": "Aucun"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Achetez %{product_name}",
+          "one": "Achetez %{product_name} et %{count} autre article",
+          "other": "Achetez %{product_name} et %{count} autres articles"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "jour",
+            "other": "%{count} jours"
+          },
+          "week": {
+            "one": "semaine",
+            "other": "%{count} semaines"
+          },
+          "month": {
+            "one": "mois",
+            "other": "%{count} mois"
+          },
+          "year": {
+            "one": "année",
+            "other": "%{count} ans"
+          }
+        },
+        "recurring_totals": "%{total_price} tous les %{intervalle}",
+        "recurring_totals_with_initial_order_shipping_discount": "Premier paiement %{total_price_with_discount}, puis %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Premier paiement %{total_price}",
+            "other": "%{count} premiers paiements %{total_price} chacun"
+          },
+          "following_cycles": ", puis %{total_price} tous les %{intervalle}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", puis %{count} paiement à %{total_price}",
+            "other": ", puis %{count} paiements à %{total_price} chacun"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Méthodes de payement",
+        "title": "Méthodes de payement",
+        "update_card_button_label": "Mettre à jour la carte",
+        "delete_customer_mandate": {
+          "generic_error": "Il y avait un problème de traitement de votre demande.",
+          "success_message": "Votre mode de paiement a été supprimé avec succès"
+        }
+      },
+      "throttle": {
+        "line_to_check_out": "Vous êtes en ligne pour vérifier",
+        "cart_summary_heading": "Votre panier",
+        "merchandise": {
+          "available": "Disponible",
+          "sold_out": "Solder"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Une partie de votre panier est épuisée et ne sera pas disponible à l'achat lors du paiement.",
+          "sold_out": {
+            "heading": "Votre panier est épuisé",
+            "storefront_body": "Retournez au magasin pour continuer vos achats",
+            "no_storefront_body": "Malheureusement, l'article que vous souhaitez acheter n'est plus disponible.",
+            "link": "Retour au magasin"
+          }
+        },
+        "title": "File d'attente",
+        "time_to_checkout_title": "Il est temps de vérifier - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Calcul du temps d'attente estimé",
+          "less_than_one": "Temps d'attente estimé : moins d'une minute",
+          "one": "Temps d'attente estimé : {{count}} minute",
+          "other": "Temps d'attente estimé : {{count}} minutes"
+        },
+        "last_checked": "(Dernière vérification : {{time}} )",
+        "footer": {
+          "heading": "Ne rafraîchissez pas la page ou vous perdrez votre place.",
+          "body": "En raison du trafic élevé, vous devrez attendre quelques minutes. Lorsque ce sera votre tour, le paiement se chargera automatiquement."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Un problème est survenu lors du traitement de votre demande, veuillez contacter le propriétaire du magasin."
       }
     },
     "addresses": {
@@ -580,7 +724,11 @@
       "county": "Comté",
       "emirate": "Émirat",
       "governorate": "Gouvernorat",
-      "confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+      "confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?",
+      "zip_code": "Code postal",
+      "postal_code": "Code Postal",
+      "postcode": "Code postal",
+      "pincode": "Code PIN"
     },
     "collections": {
       "sorting": {
@@ -698,6 +846,26 @@
         "empty_update": "impossible de mettre à jour le panier vide",
         "missing_parameters": "aucun identifiant ou paramètre de ligne valide"
       }
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "links": {
+      "powered_by_shopify": "Propulsé par Shopify",
+      "learn_more": "Apprendre encore plus"
+    },
+    "feed": {
+      "more": "Plus"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password": "mot de passe",
+      "password_confirmation": "La validation du mot de passe",
+      "first_name": "prénom",
+      "last_name": "nom de famille",
+      "body": "corps",
+      "signature": "Adresse"
     }
   },
   "customer_accounts": {
