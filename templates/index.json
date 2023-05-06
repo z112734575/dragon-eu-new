@@ -223,9 +223,10 @@
         },
         "fe469495-d8cb-424c-af61-09b08c7155ab": {
           "type": "ug-index-blog-item",
+          "disabled": true,
           "settings": {
             "title": "How to choose a USB-C hub or a docking station?",
-            "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/10001ll.jpg?v=1683343431",
+            "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1000154.png?v=1683337434",
             "date": "Mar  5, 2023",
             "description": "",
             "link": "https:\/\/www.ugreen.com\/pages\/usb-c-hub-vs-docking-station-how-to-choose",
@@ -248,6 +249,9 @@
         "825b9746-c7d0-4d97-a9ef-ba573b1ebc66",
         "fe469495-d8cb-424c-af61-09b08c7155ab",
         "2f682d42-1614-4781-ba3e-ff7d3fb6f30b"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "title": "Learn More About All the Latest Tech"
