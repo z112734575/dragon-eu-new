@@ -972,6 +972,113 @@
           }
         }
       }
+    },
+    "payment_methods": {
+      "payment_details": {
+        "payment_method_expiring_on": "Expire le {{expiryDate}}",
+        "payment_method_expired_on": "Expiré le {{expiryDate}}",
+        "preauthorized_payments": "Paiements préautorisés",
+        "close_payment_modal": "Fermer",
+        "close_payment_modal_accessibility_label": "Fermer les détails du mode de paiement modal",
+        "payment_method_not_found_error": "Impossible de trouver le mode de paiement",
+        "payment_details_loading": "Chargement des détails du mode de paiement",
+        "pre_authorized_payments": "Paiements préautorisés",
+        "total_amount_of_subscription_line_items_left": "et {{total}} de plus",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} éléments au total, affichant {{totalItemsToDisplay}} éléments.",
+        "next_payment_due": "Prochain paiement dû {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Modifier",
+        "edit_payment_method_button_accessibility_label": "Modifier le mode de paiement se terminant par {{lastDigits}}",
+        "loading_shop_pay": "Chargement de la boutique Payer",
+        "invalid_payment_method": "Mode de paiement invalide",
+        "invalid_payment_method_message": "Utilisez une nouvelle carte de crédit pour continuer à recevoir les commandes à venir.",
+        "replace_payment_method": "Remplacer le mode de paiement"
+      },
+      "edit_payment_method": {
+        "title": "Modifier le mode de paiement",
+        "save_payment_method_button": "Sauvegarder",
+        "cancel_edit_payment_method_button": "Annuler",
+        "payment_method_updated_toast": "Mode de paiement mis à jour",
+        "billing_address": "Adresse de facturation",
+        "billing_address_add_new": "Ajouter nouveau",
+        "billing_address_choose_from_list": "Choisissez dans la liste",
+        "future_purchases_notice": "Ce mode de paiement sera enregistré pour de futurs achats."
+      },
+      "card_fields": {
+        "card_number_label": "Numéro de carte",
+        "card_number_placeholder": "Numéro de carte",
+        "name_on_card_label": "Nom sur la carte",
+        "name_on_card_placeholder": "Nom sur la carte",
+        "card_expiry_label": "Date d'expiration (MM \/ AA)",
+        "card_expiry_placeholder": "Date d'expiration (MM \/ AA)",
+        "card_verification_value_label": "Code de sécurité",
+        "card_verification_value_placeholder": "Code de sécurité",
+        "card_start_label": "Date d'émission (MM \/ AA)",
+        "card_start_placeholder": "Date d'émission (MM \/ AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Plus d'information",
+          "card_verification_value_explanation_amex": "Code de sécurité à 4 chiffres au recto de votre carte",
+          "card_verification_value_explanation_other": "Code de sécurité à 3 chiffres au dos de votre carte",
+          "card_verification_value_explanation": "Code de sécurité à 3 chiffres qui se trouve généralement au dos de votre carte. Les cartes American Express ont un code à 4 chiffres situé sur le devant.",
+          "card_security_notice": "Toutes les transactions sont sécurisées et cryptées."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Entrez votre nom exactement comme il est écrit sur votre carte",
+          "credit_card_number_invalid": "Entrez un numéro de carte valide",
+          "credit_card_expiry_invalid": "Entrez une date d'expiration de carte valide",
+          "credit_card_verification_value_blank": "Entrez le CVV ou le code de sécurité sur votre carte"
+        }
+      },
+      "payment_delete": {
+        "title": "Supprimer le mode de paiement",
+        "description_without_replacement": "Ce mode de paiement ne sera plus disponible pour les achats futurs.",
+        "description_with_replacement": "La suppression de ce mode de paiement affectera les paiements préautorisés. Vous pouvez éventuellement le remplacer par un autre mode de paiement pour continuer à recevoir les commandes à venir.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "La suppression de ce mode de paiement affectera les paiements préautorisés. À moins que vous ne sélectionniez un autre mode de paiement, ce mode de paiement sera toujours facturé pour tout solde impayé sur les commandes existantes. La sélection d'un mode de paiement alternatif vous permettra de recevoir les commandes d'abonnement à venir sans interruption.",
+          "with_pending_orders": "La suppression de ce mode de paiement le supprimera de votre compte et ne sera plus disponible pour de futurs achats. À moins que vous ne sélectionniez un autre mode de paiement, il sera toujours facturé pour tout solde impayé sur les commandes existantes.",
+          "with_subscriptions": "La suppression de ce mode de paiement affectera les paiements préautorisés. Remplacez-le par un autre mode de paiement pour continuer à recevoir les commandes à venir."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "La suppression de ce mode de paiement affectera les paiements préautorisés. Ce mode de paiement sera toujours facturé pour tout solde impayé sur les commandes existantes, mais vous ne recevrez pas les commandes d'abonnement à venir. Ajoutez un mode de paiement alternatif pour continuer à recevoir des commandes d'abonnement.",
+          "with_pending_orders": "La suppression de ce mode de paiement le supprimera de votre compte et ne sera plus disponible pour de futurs achats. Il sera toujours facturé pour tout solde impayé sur les commandes existantes.",
+          "with_subscriptions": "La suppression de ce mode de paiement affectera les paiements préautorisés. Ajoutez un mode de paiement alternatif pour continuer à recevoir les commandes à venir."
+        },
+        "payment_method_selector_placeholder": "Sélectionnez un mode de paiement de remplacement (facultatif)",
+        "payment_method_selector_no_alternative_payment": "Pas de méthode de remplacement",
+        "replace_method_with_new_method_description": "Votre {{currentPaymentMethodName}} sera supprimé et remplacé par votre {{newPaymentMethodName}} .",
+        "error_when_deleting": "Nous nous excusons, mais quelque chose s'est mal passé et nous n'avons pas pu supprimer ce mode de paiement. S'il vous plaît réessayer plus tard ou actualisez la page.",
+        "delete_and_replace_button": "Supprimer et remplacer",
+        "delete_and_replace_button_accessibility_label": "Supprimez {{currentPaymentMethodName}} et remplacez-le par {{newPaymentMethodName}} .",
+        "deleted_successfully": "Mode de paiement supprimé avec succès.",
+        "loading_available_payment_methods_accessibility_label": "Chargement des modes de paiement disponibles"
+      },
+      "add_payment_method": {
+        "title": "Ajouter un mode de paiement",
+        "payment_method_added_confirmation": "Mode de paiement ajouté",
+        "billing_address": {
+          "title": "Adresse de facturation",
+          "add_billing_address_button": "Ajouter nouveau",
+          "add_billing_address_button_accessibility_label": "Ajouter une nouvelle adresse de facturation",
+          "choose_billing_address_from_list_button": "Choisissez dans la liste",
+          "choose_billing_address_from_list_button_accessibility_label": "Choisissez une adresse de facturation dans la liste",
+          "missing_billing_address_error_message": "Veuillez indiquer une adresse de facturation"
+        }
+      }
+    },
+    "payment_method_brands": {
+      "discover": "Découvrir",
+      "unionpay": "Union Pay",
+      "shoppay": "Boutique Payer",
+      "applepay": "Payer Apple",
+      "paypal": "Pay Pal"
+    },
+    "shop_policies": {
+      "legal_notice": "Mention légale",
+      "privacy_policy": "Politique de confidentialité",
+      "refund_policy": "Politique de remboursement",
+      "shipping_policy": "Politique d'expédition",
+      "subscription_policy": "Politique d'abonnement",
+      "terms_of_sale": "Conditions de vente",
+      "terms_of_service": "Conditions d'utilisation"
     }
   },
   "sections": {
@@ -980,7 +1087,9 @@
       "hr_plural": "heures",
       "min_plural": "minutes",
       "sec": "seconde",
-      "sec_plural": "secondes"
+      "sec_plural": "secondes",
+      "day": "Jour",
+      "day_plural": "Jours"
     },
     "newsletter_form": {
       "email_placeholder": "E-mail*",
@@ -993,6 +1102,16 @@
       "conditions": "Vous devez accepter les termes et conditions pour vous inscrire.",
       "link_conditions_html": "Je suis d'accord avec les <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" class=\"t4s-text__link\">termes et conditions<\/a> .",
       "link_conditions_emty": "Je suis d'accord avec les termes et conditions."
+    },
+    "announcement": {
+      "label": "Annonce",
+      "close": "fermer"
+    },
+    "lookbook": {
+      "title": {
+        "product": "Produit",
+        "text": "Texte"
+      }
     }
   },
   "general": {
@@ -1106,6 +1225,39 @@
       "category": "Catégorie:",
       "author": "Auteur:",
       "tags": "Mots clés:"
+    },
+    "comments": {
+      "title": "laissez un commentaire",
+      "comments_note_html": "Votre adresse email ne sera pas publiée. Les champs obligatoires sont marqués <span class=\"required\">*<\/span>",
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Commentaire",
+      "post": "Poster un commentaire",
+      "moderated": "Veuillez noter que les commentaires doivent être approuvés avant d'être publiés",
+      "success_moderated": "Votre commentaire a été posté avec succès. Nous le publierons dans quelques instants, car notre blog est modéré.",
+      "success": "Votre commentaire a été posté avec succès ! Merci!",
+      "unapproved": "L'adresse e-mail fournie n'est pas approuvée pour publier des commentaires.",
+      "error_heading": "Veuillez ajuster les éléments suivants :",
+      "with_count": {
+        "zero": "0 commentaire",
+        "one": "1 commentaire",
+        "other": "{{ count }} commentaires"
+      },
+      "with_count_2": {
+        "zero": "laissez un commentaire",
+        "one": "1 commentaire",
+        "other": "{{ count }} commentaires"
+      },
+      "with_count_html": {
+        "zero": "0 <span>commentaire<\/span>",
+        "one": "1 <span>commentaire<\/span>",
+        "other": "{{ count }} <span>commentaires<\/span>"
+      },
+      "comments_title_html": {
+        "zero": "0 réflexion sur « <span>{{title}}<\/span> »",
+        "one": "1 réflexion sur « <span>{{title}}<\/span> »",
+        "other": "{{ count }} réflexions sur \" <span>{{title}}<\/span> \""
+      }
     }
   },
   "pagefly": {
@@ -1127,6 +1279,111 @@
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Nous vous enverrons un e-mail juste avant l'ouverture !",
       "password_link": "Entrez en utilisant le mot de passe"
+    }
+  },
+  "list_collections": {
+    "pagination": {
+      "load_more": "Charger plus",
+      "load_prev": "Charger le précédent",
+      "bar_with_count_html": "Vous avez consulté <span data-current-bar>{{current_count}}<\/span> collections sur {{total_count}}"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Aucun produit n'a été trouvé correspondant à votre sélection.",
+      "sort_by_label": "Trier par:",
+      "sort_button": "Trier",
+      "filter_button": "Filtre"
+    },
+    "pagination": {
+      "view_all": "Voir tout",
+      "load_more": "Charger plus",
+      "load_prev": "Charger le précédent",
+      "bar_with_count_html": "Vous avez consulté <span data-current-bar>{{current_count}}<\/span> produits sur {{total_count}}"
+    }
+  },
+  "products": {
+    "aria_label": {
+      "select_option": "Sélectionnez les options pour « {{product_title}} »",
+      "add_to_cart": "Ajoutez « {{product_title}} » à votre panier",
+      "read_more": "En savoir plus sur « {{product_title}} »"
+    },
+    "breadcrumb": {
+      "home": "Maison",
+      "back_to": "Retour à {{title}}"
+    },
+    "badge": {
+      "new": "Nouveau",
+      "sold_out": "Solder",
+      "on_sale": "Vente",
+      "pre_order": "Pré-commander",
+      "save_amoun_html": "- {{ saved_amount }} %",
+      "save_amount_fixed_html": "- {{ saved_amount }}",
+      "save_amount_2_html": "ÉCONOMISEZ {{ saved_amount }} %",
+      "save_amount_fixed_2_html": "ÉCONOMISEZ {{ saved_amount }}"
+    },
+    "product": {
+      "include_taxes": "Taxe inclu.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">Frais de port<\/a> calculés à la caisse.",
+      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\">À partir de<\/span> {{price_min}}",
+      "Please_choose_pr_options": "Veuillez sélectionner certaines options de produit avant d'ajouter ce produit à votre panier.",
+      "choose_an_option": "Choisis une option",
+      "add_to_cart": "Ajouter au panier",
+      "pre_order": "Pré-commander",
+      "unavailable": "Indisponible",
+      "sold_out": "Rupture de stock",
+      "notice_only_stock": "Pas assez d'articles disponibles. Il ne reste plus que {{max}} .",
+      "login_to_wishlist": "Connectez-vous pour utiliser la liste de souhaits",
+      "add_to_wishlist": "Ajouter à la liste de souhaits",
+      "remove_wishlist": "Supprimer la liste de souhaits",
+      "browse_wishlist": "Parcourir la liste de souhaits",
+      "compare": "Comparer",
+      "added_text_compare": "Comparer les produits",
+      "product_vendor": "Fournisseur:",
+      "product_type": "Taper:",
+      "product_sku": "UGS :",
+      "product_barcode": "Code à barre:",
+      "na": "N \/ A",
+      "available": "Disponibilité :",
+      "in_stock_status": "En stock",
+      "pre_oder_status": "En stock",
+      "sold_out_status": "Rupture de stock",
+      "product_category": "Catégories :",
+      "product_tag": "Mots clés:",
+      "product_size_guide": "Guide des tailles",
+      "delivery_return": "Livraison &amp; Retour",
+      "ask_question": "Poser une question"
+    },
+    "product_card": {
+      "read_more": "En savoir plus",
+      "view": "Voir les produits",
+      "quick_view": "Aperçu rapide",
+      "quick_shop": "Acheter maintenant",
+      "quick_shop_text": {
+        "replace_item_atc": "Remplacer l'article",
+        "replace_item_pre": "Remplacer l'article"
+      },
+      "select_option": "Sélectionnez les options",
+      "swatch_limit": "Afficher plus de couleurs",
+      "swatch_limit_less": "Afficher moins de couleurs",
+      "offer_end_in": "L'offre se termine dans :",
+      "countdown_text": {
+        "day": "Jour",
+        "day_plural": "Jours",
+        "hr": "heure",
+        "hr_plural": "heures",
+        "min_plural": "minutes",
+        "sec": "seconde",
+        "sec_plural": "secondes"
+      }
+    },
+    "product_single": {
+      "countdown_text": {
+        "day": "Jour",
+        "day_plural": "Jours",
+        "hr": "heure",
+        "hr_plural": "heures"
+      }
     }
   }
 }
