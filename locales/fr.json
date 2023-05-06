@@ -573,6 +573,131 @@
         "billing_address_title": "Adresse de facturation",
         "free_label": "Gratuit"
       }
+    },
+    "addresses": {
+      "state": "État",
+      "state_and_territory": "État\/territoire",
+      "county": "Comté",
+      "emirate": "Émirat",
+      "governorate": "Gouvernorat",
+      "confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Mis en exergue",
+        "best_selling": "Meilleure vente",
+        "az": "Par ordre alphabétique, AZ",
+        "za": "Par ordre alphabétique, ZA",
+        "price_ascending": "Prix croissant",
+        "price_descending": "Prix, décroissant",
+        "date_ascending": "Date, ancienne à nouvelle",
+        "date_descending": "Date, nouveau à ancien"
+      }
+    },
+    "errors": {
+      "blank": "ne peut pas être vide",
+      "blocked_address": "Cet emplacement n'est pas pris en charge.",
+      "credit_card_session_expired": "L'autorisation de carte de crédit a expiré, veuillez saisir à nouveau vos informations de paiement. Votre carte n'a pas été débitée.",
+      "empty": "ne peut pas être vide",
+      "invalid_email": "Doit être une adresse e-mail valide",
+      "discount_disabled": "Cette réduction a été désactivée",
+      "discount_expired": "Cette réduction n'est plus valable",
+      "discount_limit_reached": "Cette réduction a atteint sa limite d'utilisation",
+      "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
+      "customer_already_used_once_per_customer_discount_notice": "Cette réduction a atteint sa limite d'utilisation",
+      "gift_card_already_applied": "Le code a déjà été appliqué à votre paiement",
+      "gift_card_code_invalid": "Le code est invalide",
+      "gift_card_currency_mismatch": "Votre carte-cadeau est en %{gift_card_currency}. Contactez-nous pour le faire réémettre en %{checkout_currency}.",
+      "gift_card_depleted": "Il n'y a plus de fonds sur cette carte-cadeau",
+      "gift_card_disabled": "La carte-cadeau est désactivée",
+      "gift_card_expired": "La carte-cadeau est expirée",
+      "invalid": "est invalide",
+      "bad_domain": "contient un nom de domaine invalide",
+      "taken": "a déjà été pris",
+      "contains_html_tags": "ne peut pas contenir de balises HTML",
+      "too_short": "est trop court (le minimum est de %{count} caractères)",
+      "too_long": "est trop long (le maximum est de %{count} caractères)",
+      "password_mismatch": "doit correspondre au mot de passe fourni",
+      "contains_spaces": "commence ou se termine par des espaces.",
+      "email_domain_invalid": "le fournisseur n'est pas pris en charge",
+      "invalid_for_country": "n'est pas valide pour %{country}",
+      "invalid_for_country_and_province": "n'est pas valide pour %{province} et %{country}",
+      "invalid_province_in_country": "n'est pas une province valide dans %{country}",
+      "invalid_state_in_country": "n'est pas un état valide dans %{country}",
+      "invalid_region_in_country": "n'est pas une région valide dans %{country}",
+      "less_than_or_equal_to": "doit être inférieur ou égal à %{count}",
+      "not_supported": "n'est pas pris en charge",
+      "full_name_required": "Saisissez un prénom et un nom de famille",
+      "invalid_for_card_type": "n'est pas valide",
+      "invalid_type": "désolé, nous n'acceptons pas les cartes de ce type",
+      "invalid_format": "le format n'est pas valide",
+      "expired": "a expiré",
+      "invalid_start_date_or_issue_number_for_debit": "une date de début ou un numéro d'émission valide est requis",
+      "invalid_expiry_year": "n'est pas une année d'expiration valide",
+      "reset_password_html": "Cette adresse e-mail est déjà associée à un compte. Si ce compte vous appartient, vous pouvez <a href=\"\/account\/login#recover\">réinitialiser votre mot de passe<\/a>",
+      "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien inclus pour vérifier votre adresse e-mail.",
+      "product_not_available": "le produit n'est pas publié pour ce client."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Erreur de réinitialisation du mot de passe",
+        "no_account_found": "Aucun compte trouvé avec cet e-mail.",
+        "invalid_credentials": "Email ou mot de passe incorrect.",
+        "denylisted_reset_password": "Impossible d'accéder à votre compte car le mot de passe actuel n'est pas sécurisé. Vous recevrez un e-mail pour mettre à jour votre mot de passe."
+      },
+      "address": {
+        "updated": "Adresse mise à jour avec succès.",
+        "error_updating": "Erreur lors de la mise à jour de l'adresse",
+        "created": "Adresse créée avec succès",
+        "error_creating": "Erreur lors de la création de l'adresse.",
+        "deleted": "Adresse supprimée avec succès",
+        "error_deleting": "Erreur lors de la suppression de l'adresse."
+      },
+      "order": {
+        "not_available": "Cette commande n'est pas disponible",
+        "financial_status": {
+          "authorized": "Autorisé",
+          "pending": "En attente",
+          "paid": "Payé",
+          "unpaid": "Non payé",
+          "voided": "Annulé",
+          "partially_paid": "Partiellement payé",
+          "partially_refunded": "Partiellement remboursé",
+          "refunded": "Remboursé",
+          "expired": "Expiré"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Rempli",
+          "complete": "Complet",
+          "partial": "Partiel",
+          "unfulfilled": "Insatisfait",
+          "restocked": "Réapprovisionné"
+        },
+        "transaction_status": {
+          "success": "Succès",
+          "pending": "En attente",
+          "failure": "Échec",
+          "error": "Erreur"
+        },
+        "cancel_reason": {
+          "declined": "Paiement refusé",
+          "inventory": "Articles indisponibles",
+          "fraud": "Commande frauduleuse",
+          "customer": "Le client a modifié\/annulé la commande",
+          "other": "Autre"
+        },
+        "cash_on_delivery": "Paiement à la livraison (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Vous ne pouvez ajouter que %{count} %{name} au panier.",
+        "too_many_items_in_cart": "Vous ne pouvez pas ajouter plus de %{name} au panier.",
+        "less_than_minimum": "Cet élément a un minimum de %{min}.",
+        "more_than_maximum": "Cet élément a un maximum de %{max}.",
+        "not_respect_step": "Vous ne pouvez ajouter cet élément que par multiples de %{step}.",
+        "all_items_in_cart": "Tous les %{count} %{name} sont dans votre panier.",
+        "empty_update": "impossible de mettre à jour le panier vide",
+        "missing_parameters": "aucun identifiant ou paramètre de ligne valide"
+      }
     }
   },
   "customer_accounts": {
@@ -1269,7 +1394,10 @@
       "comments_with_count": {
         "one": "{{ count }} commentaire",
         "other": "{{ count }} commentaires"
-      }
+      },
+      "title": "laissez un commentaire",
+      "name": "Nom",
+      "email": "E-mail"
     },
     "password_page": {
       "login_form_message": "Entrez dans le magasin en utilisant le mot de passe :",
@@ -1279,6 +1407,26 @@
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Nous vous enverrons un e-mail juste avant l'ouverture !",
       "password_link": "Entrez en utilisant le mot de passe"
+    },
+    "products": {
+      "product": {
+        "regular_price": "Prix habituel",
+        "sold_out": "Solder",
+        "unavailable": "Indisponible",
+        "on_sale": "Vente",
+        "quantity": "Quantité",
+        "add_to_cart": "Ajouter au panier",
+        "back_to_collection": "Retour à {{ title }}",
+        "view_details": "Voir les détails"
+      }
+    },
+    "article": {
+      "tags": "Mots clés:",
+      "all_topics": "Tous les sujets",
+      "by_author": "par {{ author }}",
+      "posted_in": "Publié dans",
+      "read_more": "En savoir plus",
+      "back_to_blog": "Retour à {{ title }}"
     }
   },
   "list_collections": {
@@ -1517,5 +1665,115 @@
     "mini_cart": {
       "title": "Panier"
     }
+  },
+  "customer": {
+    "order": {
+      "product": "Produit",
+      "sku": "UGS",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "fulfilled_at_html": "Rempli le {{ date }}",
+      "subtotal": "Total",
+      "track_shipment": "Suivi de livraison",
+      "gift_note": "Message de cadeau",
+      "note": "Instructions spéciales pour le vendeur"
+    },
+    "recover_password": {
+      "title": "réinitialisez votre mot de passe",
+      "email": "Adresse e-mail",
+      "submit": "réinitialiser le mot de passe",
+      "save": "Sauvegarder",
+      "cancel": "Annuler",
+      "subtext": "Mot de passe perdu? Veuillez saisir votre adresse e-mail. Vous recevrez un lien pour créer un nouveau mot de passe par e-mail.",
+      "success": "Nous vous avons envoyé un e-mail avec un lien pour mettre à jour votre mot de passe.",
+      "content_success": "Un e-mail de réinitialisation de mot de passe a été envoyé à l'adresse e-mail enregistrée pour votre compte, mais peut prendre plusieurs minutes avant d'apparaître dans votre boîte de réception. Veuillez attendre au moins 10 minutes avant de tenter une autre réinitialisation."
+    },
+    "reset_password": {
+      "title": "Réinitialiser le mot de passe du compte",
+      "subtext": "Entrez un nouveau mot de passe pour {{ email }}",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "réinitialiser le mot de passe"
+    },
+    "register": {
+      "login_here": "Vous avez déjà un compte? Connectez-vous ici",
+      "title": "Enregistrer",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "submit": "Enregistrer",
+      "privacy_policy": "Vos données personnelles seront utilisées pour soutenir votre expérience sur ce site Web, pour gérer l'accès à votre compte et à d'autres fins décrites dans notre politique de confidentialité.",
+      "privacy_policy_html": "Vos données personnelles seront utilisées pour soutenir votre expérience sur ce site Web, pour gérer l'accès à votre compte et à d'autres fins décrites dans notre <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">politique de confidentialité<\/a> ."
+    }
+  },
+  "password_page": {
+    "opening_soon": "Ouverture prochaine",
+    "drawer_heading": "Entrer le mot de passe",
+    "login_form_password_label": "Mot de passe",
+    "login_form_password_placeholder": "Votre mot de passe",
+    "login_form_submit": "Entrer",
+    "signup_form_success": "Nous vous enverrons un e-mail juste avant l'ouverture !",
+    "admin_link_html": "Êtes-vous le propriétaire du magasin ? <a href=\"\/admin\" class=\"text-link\">Connectez-vous ici<\/a>",
+    "password_link": "Entrez en utilisant le mot de passe"
+  },
+  "wishlist_page": {
+    "meta": "Page Ma liste de souhaits",
+    "title": "Liste de souhaits",
+    "empty": "La liste de souhaits est vide.",
+    "empty_html": "Vous n'avez pas encore de produits dans la liste de souhaits.<br> Vous trouverez de nombreux produits intéressants sur notre page \"Boutique\"."
+  },
+  "compare_page": {
+    "meta": "Ma page de comparaison",
+    "title": "Comparer",
+    "empty": "LA LISTE DE COMPARAISON EST VIDE.",
+    "empty_html": "Aucun produit ajouté dans la liste de comparaison. Vous devez ajouter quelques produits pour les comparer.<br> Vous trouverez de nombreux produits intéressants sur notre page \"Boutique\".",
+    "remove": "Retirer",
+    "in_stock": "En stock",
+    "outofstock": "Rupture de stock"
+  },
+  "compare_popup": {
+    "title": "comparer les produits",
+    "close": "Fermer",
+    "remove": "enlever cet article",
+    "clear": "Tout effacer",
+    "button": "Comparer"
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Afficher les informations du magasin",
+      "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",
+      "pick_up_available": "Ramassage disponible",
+      "pick_up_currently_unavailable": "Ramassage actuellement indisponible",
+      "pick_up_available_at_html": "Prise en charge disponible à <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Ramassage actuellement indisponible à <strong>{{ location_name }}<\/strong>",
+      "check_map": "Vérifiez ceci sur google map"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Votre carte cadeau",
+      "gift_card_code": "Code carte cadeau",
+      "disabled": "Désactivé",
+      "expired": "Expiré le {{ expiry }}",
+      "active": "Expire le {{ expiry }}",
+      "redeem_html": "Utilisez ce code lors du paiement pour utiliser votre carte-cadeau {{ value }}",
+      "shop_link": "Commencer à magasiner",
+      "print": "Imprimez cette carte cadeau",
+      "remaining_html": "{{ balance }} restant",
+      "add_to_apple_wallet": "Ajouter au portefeuille Apple",
+      "qr_image_alt": "Code QR - scannez pour utiliser la carte-cadeau",
+      "copy_code": "Copier le code",
+      "copy_code_success": "Code copié avec succès"
+    }
+  },
+  "onboarding": {
+    "product_title": "Le nom de votre produit",
+    "product_description": "Cette zone est utilisée pour décrire les détails de votre produit. Informez les clients de l'apparence, de la convivialité et du style de votre produit. Ajoutez des détails sur la couleur, les matériaux utilisés, la taille et l'endroit où il a été fabriqué.",
+    "collection_title": "Nom de votre collection",
+    "blog_title": "Titre de votre message",
+    "blog_excerpt": "Votre boutique n'a pas encore publié d'articles de blog. Un blog peut être utilisé pour parler des lancements de nouveaux produits, des conseils ou d'autres nouvelles que vous souhaitez partager avec vos clients. Vous pouvez consulter le blog de commerce électronique de Shopify pour trouver de l'inspiration et des conseils pour votre propre boutique et blog.",
+    "blog_author": "Nom de l'auteur",
+    "no_content": "Cette section n'inclut actuellement aucun contenu. Ajoutez du contenu à cette section à l'aide de la barre latérale."
   }
 }
