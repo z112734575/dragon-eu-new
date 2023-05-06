@@ -221,17 +221,6 @@
             "tag": "Buying Guides"
           }
         },
-        "2f682d42-1614-4781-ba3e-ff7d3fb6f30b": {
-          "type": "ug-index-blog-item",
-          "settings": {
-            "title": "USB-C vs A vs B: Which One Do You Need for Your Product?",
-            "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic2_pc.jpg?v=1681805832",
-            "date": "Feb  18, 2023",
-            "description": "",
-            "link": "https:\/\/blog.ugreen.com\/usb-c-a-b-difference\/",
-            "tag": "Buying Guides"
-          }
-        },
         "fe469495-d8cb-424c-af61-09b08c7155ab": {
           "type": "ug-index-blog-item",
           "settings": {
@@ -242,12 +231,23 @@
             "link": "https:\/\/www.ugreen.com\/pages\/usb-c-hub-vs-docking-station-how-to-choose",
             "tag": "Tips & Tutorials"
           }
+        },
+        "2f682d42-1614-4781-ba3e-ff7d3fb6f30b": {
+          "type": "ug-index-blog-item",
+          "settings": {
+            "title": "USB-C vs A vs B: Which One Do You Need for Your Product?",
+            "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic2_pc.jpg?v=1681805832",
+            "date": "Feb  18, 2023",
+            "description": "",
+            "link": "https:\/\/blog.ugreen.com\/usb-c-a-b-difference\/",
+            "tag": "Buying Guides"
+          }
         }
       },
       "block_order": [
         "825b9746-c7d0-4d97-a9ef-ba573b1ebc66",
-        "2f682d42-1614-4781-ba3e-ff7d3fb6f30b",
-        "fe469495-d8cb-424c-af61-09b08c7155ab"
+        "fe469495-d8cb-424c-af61-09b08c7155ab",
+        "2f682d42-1614-4781-ba3e-ff7d3fb6f30b"
       ],
       "settings": {
         "title": "Learn More About All the Latest Tech"
