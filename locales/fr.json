@@ -224,6 +224,142 @@
         "product_image_label": "Image du produit",
         "scroll_order_summary": "Faites défiler pour plus d'articles",
         "expand_order_summary": "Afficher le récapitulatif de la commande"
+      },
+      "field_errors": {
+        "payment_gateway_unsupported_for_subscriptions": "Ce mode de paiement n'est pas disponible pour les commandes d'abonnement.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "Ce mode de paiement n'est pas disponible pour les options d'achat différé.",
+        "payment_gateway_unsupported_for_country": "Ce mode de paiement n'est pas disponible pour votre pays de livraison.",
+        "payment_gateway_unsupported_for_development_store_html": "Pour passer une commande test, vous devrez utiliser une passerelle de paiement test. En savoir plus sur <a href=\"%%7Bdocs_link%7D\">le test des commandes dans les magasins de développement<\/a> .",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Vous avez atteint la limite des commandes de la boutique de développement avec ce processeur de paiement. Pour passer une autre commande, vous devrez utiliser une passerelle de paiement test. En savoir plus sur <a href=\"%%7Bdocs_link%7D\">le test des commandes dans les magasins de développement<\/a> .",
+        "purchase_options_agreement_blank": "Pour poursuivre votre achat, acceptez les conditions d'achat différé ou récurrent.",
+        "physical_gift_card_invalid_quantity": "Les éléments de ligne de carte-cadeau physique doivent avoir une quantité qui correspond au nombre de codes de carte-cadeau.",
+        "physical_gift_card_duplicate_code": "L'élément de campagne de la carte-cadeau physique contient un code en double.",
+        "physical_gift_card_invalid_code": "Le code physique de la carte-cadeau n'est pas valide."
+      },
+      "payment_errors": {
+        "generic_error": "Un problème est survenu lors du traitement de votre paiement. Réessayez ou utilisez un autre mode de paiement.",
+        "rejected_transaction": "Votre paiement a été refusé. Réessayez ou utilisez un autre mode de paiement.",
+        "credit_card_processing": "Votre paiement ne peut pas être traité pour des raisons techniques. Réessayez dans quelques minutes ou utilisez un autre mode de paiement.",
+        "checkout_amount_changed": "Votre paiement n'a pas pu être traité car le montant dû à la caisse a changé. Veuillez vérifier votre commande et réessayer.",
+        "deferred_payment_not_allowed": "Les paiements différés ne sont pas autorisés. Veuillez vérifier votre commande et réessayer.",
+        "deferred_payment_required": "Cette commande nécessite un paiement différé. Veuillez vérifier votre commande et réessayer.",
+        "deferred_amount_changed": "Votre paiement n'a pas pu être traité car le montant du paiement différé a changé. Veuillez vérifier votre commande et réessayer.",
+        "deferred_date_changed": "Votre paiement n'a pas pu être traité car la date de paiement différé a changé. Veuillez vérifier votre commande et réessayer.",
+        "order_total_changed": "Votre paiement n'a pas pu être traité car le total de votre commande a changé. Vérifiez le total de votre commande et réessayez.",
+        "payment_processing": "Votre paiement ne peut pas être traité pour des raisons techniques. Réessayez ou utilisez un autre mode de paiement.",
+        "payment_processing_no_retry": "Votre paiement ne peut pas être traité pour des raisons techniques. Veuillez essayer un autre mode de paiement.",
+        "paypal_zero_amount": "Vous ne pouvez pas utiliser PayPal pour les commandes %{amount}. Confirmez que votre commande est correcte et payez sans PayPal.",
+        "paypal_invalid_token": "PayPal n'était pas disponible. Réessayez ou utilisez une autre option de paiement.",
+        "pay_later_failed": "Une erreur s'est produite lors du traitement de votre paiement avec Payer plus tard. Choisissez un autre mode de paiement et réessayez.",
+        "three_d_secure_failed": "Votre paiement n'a pas pu être vérifié. Réessayez ou utilisez un autre mode de paiement.",
+        "three_d_secure_failed_duplicate": "L'authentification 3D Secure de la carte bancaire a échoué car une autre est déjà en cours.",
+        "three_d_secure_throttled": "Trop d'essais; veuillez patienter avant de réessayer",
+        "subscription_agreement_blank": "Pour acheter un abonnement, vos informations de paiement doivent être enregistrées. Pour continuer, confirmez que vous acceptez ou supprimez les articles d'abonnement de votre commande.",
+        "insufficient_funds": "Votre paiement a été refusé en raison de fonds insuffisants. Réessayez ou utilisez un autre mode de paiement.",
+        "multiple_deferred_payment_not_allowed": "Un seul paiement différé autorisé par demande. Veuillez vérifier votre demande et réessayer.",
+        "shipping_must_match_billing": "L'adresse de facturation doit correspondre à l'adresse de livraison. Veuillez utiliser un autre mode de paiement.",
+        "fraud_payment_errors": {
+          "transaction_declined": "cette transaction a été refusée",
+          "address_mismatch": "L'adresse municipale et le code postal ne correspondent pas.",
+          "cannot_process": "Cette transaction ne peut pas être traitée.",
+          "no_match": "Aucune concordance",
+          "card_declined": "Votre carte a été refusée"
+        },
+        "decision_rule_block": "Un problème est survenu lors du traitement de votre paiement. Veuillez contacter le propriétaire du magasin."
+      },
+      "shipping_errors": {
+        "shipping_method": "Votre panier a été mis à jour et le tarif d'expédition précédent n'est pas valide. Sélectionnez un nouveau tarif.",
+        "shipping_method_not_available": "Votre panier a été mis à jour et les articles que vous avez ajoutés ne peuvent pas être expédiés à votre adresse. Retirez les articles pour terminer votre commande.",
+        "shipping_method_not_available_generic": {
+          "one": "Cette commande ne peut pas être expédiée à l'adresse que vous avez saisie. Vérifiez votre adresse pour vous assurer que tous les champs ont été saisis correctement et réessayez.",
+          "other": "Certains articles de votre panier ne peuvent pas être expédiés à l'adresse que vous avez saisie. Vérifiez votre adresse pour vous assurer que tous les champs ont été saisis correctement et réessayez."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "L'article que vous avez ajouté n'est pas livré à votre emplacement. Retirez-le pour vérifier ou contactez le magasin.",
+          "other": "Un ou plusieurs articles que vous avez ajoutés ne sont pas livrés à votre emplacement. Retirez-les pour vérifier ou contactez le magasin."
+        },
+        "payment_method_not_supported": "Vous ne pouvez pas utiliser ce mode de paiement pour %{country}. Veuillez utiliser un autre mode de paiement pour expédier dans ce pays."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Paiement express",
+        "or": "OU"
+      },
+      "alternative_payment_method": {
+        "button_html": "Commander avec : %{method}",
+        "button_label": "Commander avec : %{method}"
+      },
+      "paypal": {
+        "button_html": "Commander avec %{logo}"
+      },
+      "apple_pay": {
+        "button_html": "Achetez avec %{logo}"
+      },
+      "post_purchase": {
+        "page_title": "Après l'achat",
+        "title": "Après l'achat",
+        "escape_confirmation": "Vous avez payé votre commande.",
+        "escape_action": "Afficher la confirmation de commande ›",
+        "components": {
+          "close": "Fermer",
+          "expand": "Voir plus",
+          "processing": "Traitement…",
+          "submit": "Soumettre"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Redirection…",
+        "redirecting_title": "Redirection…",
+        "redirecting_notice": "Patientez pendant que nous vous redirigeons.",
+        "complete_your_purchase_title": "Finalisez votre achat",
+        "continue_to_payment_gateway_notice": "Passez au paiement pour ajouter vos informations de paiement.",
+        "continue_to_payment_gateway_button_label": "Continuer vers le paiement",
+        "complete_your_purchase_title_error": "Corrigez vos informations de paiement",
+        "continue_to_payment_gateway_notice_error": "Vos informations de paiement n'ont pas pu être vérifiées.",
+        "continue_to_payment_gateway_button_label_error": "Mettre à jour les informations de paiement",
+        "page_title": "Commande en traitement",
+        "title": "Commande en traitement",
+        "your_order_has_been_received_title": "Merci pour votre commande",
+        "you_will_receive_confirmation": "Nous recevons beaucoup de commandes en ce moment. Vous devriez bientôt recevoir une confirmation par e-mail ou SMS. Si vous ne le recevez pas dans l'heure qui suit, faites-le nous savoir.",
+        "you_will_not_be_charged": "Vous ne serez pas encore débité",
+        "wait": {
+          "short": "Votre commande est en cours de traitement.",
+          "medium": {
+            "one": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minute.",
+            "other": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minutes."
+          },
+          "long": "Vous recevrez un e-mail dès que votre commande sera traitée. Il y a actuellement un volume élevé de commandes.",
+          "no_auto_refresh_html": "Si vous n'êtes pas automatiquement redirigé, %{link}.",
+          "refresh_this_page": "actualiser cette page"
+        }
+      },
+      "failed_payment": {
+        "page_title": "Le paiement n'a pas pu être traité",
+        "title": "Le paiement n'a pas pu être traité",
+        "payment_not_processed_title": "Votre paiement n'a pas pu être traité",
+        "payment_not_processed_text": "Vous n'avez pas été débité. Retournez dans votre panier pour finaliser votre achat.",
+        "return_to_cart_button_label": "Retour au panier"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Carte de crédit",
+        "bank_deposit_label": "Dépôt bancaire",
+        "cash_on_delivery_label": "Paiement à la livraison (COD)",
+        "money_order_label": "Mandat postal"
+      },
+      "thank_you": {
+        "title": "Merci pour votre achat!",
+        "confirmation_email_sent_text": "Un e-mail de confirmation a été envoyé à %{email}",
+        "return_to_store_link_label": "Continuer vos achats",
+        "print_link_label": "Imprimer le reçu",
+        "payment_information_title": "Informations de paiement",
+        "shipping_information_title": "Informations sur la livraison",
+        "page_title": "Merci %{display_name} !",
+        "page_title_no_name": "Merci!",
+        "purchase_order_number_title": "Numéro de bon de commande # %{purchase_order_number}",
+        "cancelled_page_title": "Commande annulée",
+        "customer_information_title": "Informations client",
+        "contact_information_title": "Coordonnées",
+        "billing_address_title": "Adresse de facturation",
+        "company_location_title": "Emplacement"
       }
     }
   },
@@ -363,7 +499,136 @@
       "mobile_summary_toggle_button": {
         "open": "Afficher le récapitulatif de la commande",
         "closed": "Masquer le récapitulatif de la commande"
-      }
+      },
+      "no_data": "Aucun",
+      "no_data_provided_accessibility_label": "{{fieldName}} est vide",
+      "not_applicable": "N \/ A",
+      "paid_amount": "Payé",
+      "partially_refunded_label": "PARTIELLEMENT REMBOURSÉ",
+      "payment": {
+        "status_in_review": "Paiement dû après examen",
+        "status_unpaid": "Paiement dû le {{date}}",
+        "title": "Paiement",
+        "card_payment_details": "se terminant par {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "se terminant par {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Paiement en plusieurs fois avec Shop Pay.",
+          "view_schedule": "Voir le calendrier"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Payé avec des versements de paiement en magasin",
+        "description": "Restez au courant de votre calendrier de paiement avec des rappels dans l'application Shop.",
+        "payment_reminders_button": "Recevez des rappels de paiement",
+        "desktop_qr_code_content": {
+          "title": "Rechercher des rappels",
+          "description": "Recevez des rappels de vos versements avec Shop."
+        }
+      },
+      "refunded_amount": "Remboursé",
+      "request_return_failed": "Il y avait un problème de traitement de votre demande. Veuillez réessayer.",
+      "remaining_amount": "Restant",
+      "marketing_section_title": "Actualités et offres",
+      "marketing_description": "Vous recevrez des e-mails marketing. Vous pouvez vous désabonner à tout moment.",
+      "marketing_checkbox_label": "Envoyez-moi des nouvelles et des offres",
+      "marketing_checkmark_label": "Vous êtes abonné pour recevoir des actualités et des offres par e-mail",
+      "returns": {
+        "expand_events_label": "Afficher les détails",
+        "hide_events_label": "Cacher les détails",
+        "ineligible_return_with_policy_message": "Aucun article de cette commande ne peut être retourné. Consultez notre {{returnAndRefundPolicyLinkText}} pour en savoir plus.",
+        "ineligible_return_without_policy_message": "Aucun article de cette commande ne peut être retourné.",
+        "print_shipping_label": "Imprimer l'étiquette d'expédition",
+        "return_and_refund_link_text": "politique de retour et de remboursement",
+        "return_and_refund_modal_header": "Politique de retour et de remboursement",
+        "tracking_number": "Numéro de suivi:"
+      },
+      "shipping": {
+        "address": "Adresse de livraison",
+        "address_map_marker": "Adresse de livraison",
+        "method": "Mode de livraison",
+        "summary": "Expédition",
+        "free": "Gratuit"
+      },
+      "pickup": {
+        "pickup": "Ramasser",
+        "pickup_location": "Lieu de ramassage"
+      },
+      "show_items": "Afficher les éléments",
+      "show_order_summary": "Afficher le récapitulatif de la commande",
+      "hide_order_summary": "Masquer le récapitulatif de la commande",
+      "subtitle": "Confirmé le {{date}}",
+      "subtotal": "Total",
+      "summary_list_title_accessibility_label": "Items commandés",
+      "summary_title": "Récapitulatif de la commande",
+      "summary_totals_title_accessibility_label": "Totaux de la commande",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Télécharger Shop pour suivre le colis",
+        "track_order_with_shop": "Suivre la commande avec la boutique",
+        "title_header": "Scannez avec votre téléphone",
+        "real_time_delivery_updates": "Shop vous enverra des mises à jour de livraison en temps réel une fois votre commande expédiée."
+      },
+      "edit_summary": {
+        "added": "Ajoutée",
+        "added_with_quantity": "{{quantity}} ajouté",
+        "removed": "Supprimé",
+        "removed_with_quantity": "{{quantity}} supprimé",
+        "updated_at": "Votre commande a été mise à jour le {{date}}"
+      },
+      "shop_pay": {
+        "order_completed_with": "Commande complétée avec",
+        "learn_more": "Apprendre encore plus"
+      },
+      "taxes": "Impôts",
+      "title": "Commandez {{name}}",
+      "unit_price": "( {{price}} \/ch)",
+      "pagination": {
+        "load_more": "Charger plus",
+        "load_more_accessibility_label": "Charger plus d'articles",
+        "loading_accessibility_label": "Chargement des éléments"
+      },
+      "login_to_view_all_order_details": "Connectez-vous pour voir tous les détails de la commande.",
+      "log_in": "Connexion"
+    },
+    "addresses": {
+      "add_button": "Ajoutez l'adresse",
+      "add_button_text": "Ajouter",
+      "add_button_accessibility_label": "Ajoutez l'adresse",
+      "back_button": "Dos",
+      "back_button_accessibility_label": "Retour à l'édition de l'adresse {{address}}",
+      "add_address_banner": "Ajouter des adresses à utiliser lors du paiement",
+      "address_deleted_notification": "Adresse supprimée",
+      "cancel_adding_address_accessibility_label": "Annuler l'ajout d'adresse",
+      "cancel_deletion_button": "Annuler",
+      "cancel_deletion_button_accessibility_label": "Annuler la suppression {{address}}",
+      "default_address": {
+        "title": "Adresse par défaut",
+        "title_accessibility_label": "Adresse par défaut : {{address}}"
+      },
+      "delete_button": "Supprimer",
+      "delete_button_accessibility_label": "Supprimer {{address}}",
+      "delete_confirmation_button": "Supprimer l'adresse",
+      "delete_confirmation_button_accessibility_label": "Supprimer {{address}}",
+      "delete_confirmation_message": "Supprimer l'adresse ? Les commandes existantes ne sont pas affectées.",
+      "delete_confirmation_title": "Supprimer l'adresse ?",
+      "delete_confirmation_description": "Les commandes existantes ne sont pas affectées.",
+      "edit_button": "Modifier",
+      "edit_button_accessibility_label": "Modifier {{address}}",
+      "edit_section_accessibility_label": "Modifier {{address}}",
+      "edit_modal_title": {
+        "default": "Modifier l'adresse",
+        "billing": "Modifier l'adresse de facturation",
+        "shipping": "Modifier l'adresse de livraison"
+      },
+      "loading_accessibility_message": "Adresse de chargement",
+      "loading_addresses_accessibility_message": "Chargement des adresses",
+      "loading_billing_accessibility_message": "Chargement de l'adresse de facturation",
+      "loading_finished_accessibility_message": "Une nouvelle page d'adresses a été chargée",
+      "loading_shipping_accessibility_message": "Chargement de l'adresse de livraison",
+      "pagination": {
+        "load_more": "Charger plus",
+        "load_more_accessibility_label": "Charger plus d'adresses"
+      },
+      "save_new_address_accessibility_label": "Enregistrer l'adresse"
     }
   }
 }
