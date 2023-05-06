@@ -104,7 +104,265 @@
         "pick_up": "Ramasser",
         "pick_up_locations": "Lieux de prise en charge",
         "pick_up_in_one_hour": "Généralement prêt en 1 heure",
-        "pick_up_in_two_hours": "Généralement prêt en 2 heures"
+        "pick_up_in_two_hours": "Généralement prêt en 2 heures",
+        "pick_up_in_four_hours": "Généralement prêt en 4 heures",
+        "pick_up_in_twenty_four_hours": "Généralement prêt en 24 heures",
+        "pick_up_in_two_to_four_days": "Généralement prêt en 2 à 4 jours",
+        "pick_up_in_five_or_more_days": "Habituellement prêt en 5+ jours",
+        "pick_up_in_zero_to_two_hours": "Prêt pour le ramassage en 2 heures",
+        "pick_up_in_two_to_four_hours": "Prêt pour le ramassage en 4 heures",
+        "pick_up_immediately": "Prêt pour le ramassage maintenant",
+        "pick_up_next_day": "Prêt pour le ramassage le lendemain"
+      },
+      "customer_account": {
+        "not_user_label": "Pas %{first_name} ?",
+        "have_an_account_label": "Vous avez déjà un compte?",
+        "sign_in_link_label": "Connexion",
+        "sign_out_link_label": "Se déconnecter",
+        "save_my_information_label": "Conservez ces informations pour la prochaine fois"
+      },
+      "stock": {
+        "page_title": "Problèmes d'inventaire",
+        "title": "Rupture de stock",
+        "items_unavailable_notice": "Certains articles ne sont plus disponibles. Votre panier a été mis à jour.",
+        "product_column_header": "Des produits",
+        "quantity_column_header": "Quantité",
+        "price_column_header": "Prix",
+        "status_column_header": "Statut",
+        "removed_from_cart_notice": "Supprimé du panier",
+        "sold_out_label": "Solder",
+        "reduced_label": "Réduit",
+        "reduced_with_quantity_label": "Il ne reste que %{quantity_available}",
+        "remove_from_cart_button_label": "Retirer du panier",
+        "continue_shopping_button_label": "Continuer",
+        "go_back_to_cart_button_label": "Revenir à mon panier"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Produit indisponible",
+          "other": "Produits indisponibles"
+        },
+        "products_not_available": {
+          "one": "Ce produit sera supprimé de votre panier car il n'est pas disponible dans votre pays\/région.",
+          "other": "Ces produits seront supprimés de votre panier car ils ne sont pas disponibles dans votre pays\/région."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Ce produit n'est pas disponible dans votre pays\/région.",
+          "other": "Ces produits ne sont pas disponibles dans votre pays\/région."
+        },
+        "unavailable_label": "Indisponible"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Aucune livraison disponible pour %{count} article",
+            "other": "Aucune livraison disponible pour %{count} articles"
+          },
+          "message": {
+            "one": "Cet article sera supprimé de votre panier car aucun mode de livraison n'est disponible pour votre adresse.",
+            "other": "Ces articles seront supprimés de votre panier car aucun mode de livraison n'est disponible pour votre adresse."
+          },
+          "label": "Pas de livraison"
+        }
+      },
+      "order_summary": {
+        "title": "Récapitulatif de la commande",
+        "order_name_label": "Commande %{nom}",
+        "shopping_cart_label": "Panier",
+        "discount_title": "Rabais",
+        "discount_label": "Code de réduction",
+        "discount_placeholder": "Code de réduction",
+        "gift_card_title": "Carte cadeau",
+        "gift_card_label": "Carte cadeau",
+        "gift_card_placeholder": "Carte cadeau",
+        "gift_card_and_discount_title": "Chèque cadeau ou code de réduction",
+        "gift_card_and_discount_label": "Chèque cadeau ou code de réduction",
+        "gift_card_and_discount_placeholder": "Chèque cadeau ou code de réduction",
+        "remove_gift_card_label": "Carte-cadeau transparente",
+        "remove_discount_label": "Supprimer la remise",
+        "free_shipping_discount_label": "Livraison gratuite",
+        "applied_free_shipping_discount_label": "Appliqué",
+        "apply_discount_button_label": "Appliquer",
+        "applied_discount_message": "%{amount} sur le prix total de la commande",
+        "discount_has_been_applied": "La réduction a été appliquée",
+        "discount_has_been_removed": "La remise a été supprimée",
+        "gift_card_has_been_applied": "La carte-cadeau a été appliquée",
+        "gift_card_has_been_removed": "La carte-cadeau a été supprimée",
+        "gift_card_subscriptions_notice": "Les cartes-cadeaux ne s'appliqueront qu'à votre premier paiement",
+        "discount_already_applied": "Une remise a été appliquée à cette commande. Vous ne pouvez pas ajouter une autre remise.",
+        "cart_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas valable pour les articles de votre panier",
+        "discount_requires_customer_notice": "Entrez vos informations d'expédition pour appliquer le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas disponible pour vous en ce moment",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> n'est pas disponible pour votre adresse de livraison",
+        "customer_already_used_once_per_customer_discount_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}<\/strong> a déjà été utilisé",
+        "subtotal_label": "Total",
+        "shipping_label": "Expédition",
+        "pickup_label": "Ramasser",
+        "no_pickup_location": "Votre commande n'est pas disponible pour le ramassage. Saisissez une adresse de livraison.",
+        "tip_label": "Conseil",
+        "calculating_shipping": "Calculateur…",
+        "shipping_default_value": "Calculé à l'étape suivante",
+        "shipping_pending_message": "Pas encore disponible",
+        "shipping_policy_link": "Les frais de livraison",
+        "taxes_label": "Impôts",
+        "estimated_taxes_label": "Impôts estimés",
+        "information_estimated_taxes_label": "Taxes (estimées)",
+        "estimated_taxes_finalization_tooltip_content": "La taxe finale et le total seront confirmés par e-mail ou SMS après avoir passé votre commande.",
+        "order_total_label": "Total de la commande",
+        "total_outstanding_label": "Montant à payer",
+        "free_total_label": "Gratuit",
+        "paid_label": "Payé",
+        "payment_due_label": "Paiement dû",
+        "vat_label_html": "Dont %{amount} de taxes",
+        "discount_and_gift_card_savings_notice": "Après %{discount_amount} de réductions et %{gift_card_amount} de cartes-cadeaux",
+        "discount_savings_notice": "Après %{discount_amount} de remises",
+        "gift_card_savings_notice": "Après %{gift_card_amount} en cartes-cadeaux",
+        "cost_table_title": "Résumé des coûts",
+        "price_label": "Prix",
+        "quantity_label": "Quantité",
+        "product_change_label": "Changement",
+        "product_image_label": "Image du produit",
+        "scroll_order_summary": "Faites défiler pour plus d'articles",
+        "expand_order_summary": "Afficher le récapitulatif de la commande"
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "sort": {
+          "order_number": {
+            "ascending": "Numéro de commande (de bas en haut)",
+            "descending": "Numéro de commande (de haut en bas)"
+          },
+          "order_total": {
+            "ascending": "Total de la commande (de bas en haut)",
+            "descending": "Total de la commande (décroissant)"
+          }
+        },
+        "table_view": "Afficher le tableau",
+        "show_order_actions_accessibility_label": "Afficher les actions de commande pour la commande {{name}}"
+      },
+      "order_status": {
+        "attempted_delivery_label": "Tentative de livraison",
+        "attempted_delivery_description": "La tentative de livraison a échoué.",
+        "confirmed_description": "Nous avons reçu votre commande.",
+        "on_its_way_description": "Cette cargaison est en route.",
+        "out_for_delivery_description": "Cet envoi est en cours de livraison.",
+        "preparing_for_shipping_label": "Préparation pour l'expédition",
+        "preparing_for_shipping_description": "Ces articles sont en cours de préparation pour l'expédition.",
+        "ready_for_pickup_label": "Prêt pour le ramassage",
+        "ready_for_pickup_description": "Ces articles sont prêts à être récupérés. Veuillez apporter votre confirmation de commande lorsque vous récupérez votre commande.",
+        "ready_for_pickup_location": "Votre commande est prête à être récupérée sur place",
+        "picked_up_label": "Ramassé",
+        "picked_up_description": "Ces objets ont été ramassés.",
+        "canceled_description": "Votre commande a été annulée le {{date}} .",
+        "canceled_label": "Annulé",
+        "canceled_title": "Votre commande a été annulée",
+        "come_back": "Revenez sur cette page pour des mises à jour sur l'état de votre envoi.",
+        "company_tracking_number": "{{company}} numéro de suivi :",
+        "confirmed_label": "Confirmé",
+        "confirmed_title": "Votre commande est confirmée",
+        "confirmed_description_pickup": "Vous recevrez un e-mail lorsque votre commande sera prête à être récupérée.",
+        "confirmed_description_digital": "Vous recevrez un e-mail lorsque votre commande sera prête.",
+        "confirmed_description_gift_card_text": "Vous recevrez un SMS lorsque votre commande sera prête.",
+        "delivered_description": "Cet envoi a été livré.",
+        "delivered_label": "Livré",
+        "delivered_title": "Votre envoi a été livré",
+        "delivered_description_digital": "Votre commande est terminée.",
+        "delivered_description_gift_card": {
+          "one": "La carte cadeau a été envoyée par email.",
+          "other": "Les cartes cadeaux ont été envoyées par email."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "La carte cadeau a été envoyée par SMS.",
+          "other": "Les cartes cadeaux ont été envoyées par SMS."
+        },
+        "gift_card_label": {
+          "one": "Carte cadeau",
+          "other": "Cartes cadeaux"
+        },
+        "gift_card_resend": {
+          "one": "Ré-envoyer l'email",
+          "other": "Renvoyer des e-mails"
+        },
+        "gift_card_resend_text": {
+          "one": "Renvoyer le texte",
+          "other": "Renvoyer des textes"
+        },
+        "gift_card_resend_description": {
+          "one": "S'il n'a pas été reçu, renvoyez l'e-mail ou",
+          "other": "S'ils n'ont pas été reçus, renvoyez les e-mails ou"
+        },
+        "gift_card_resend_description_text": {
+          "one": "S'il n'a pas été reçu, renvoyez le texte ou",
+          "other": "S'ils n'ont pas été reçus, renvoyez les SMS ou"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "La carte-cadeau sera envoyée dans un e-mail séparé.",
+          "other": "Chaque carte-cadeau sera envoyée dans un e-mail séparé."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "La carte-cadeau sera envoyée dans un texte séparé.",
+          "other": "Chaque carte-cadeau sera envoyée dans un texte séparé."
+        },
+        "estimated_delivery": "Livraison estimée {{date}}",
+        "in_review_description": "Nous vous ferons savoir si nous avons besoin de plus d'informations ou lorsque votre commande sera confirmée.",
+        "in_review_label": "En revue",
+        "in_review_title": "Votre commande est en cours d'examen",
+        "last_updated": "Dernière mise à jour {{date}}",
+        "multiple_shipments_label": "Expéditions multiples",
+        "no_tracking_number": "Il n'y a pas de numéro de suivi pour cet envoi.",
+        "on_its_way_label": "Sur son chemin",
+        "on_its_way_title": "Votre envoi est en route",
+        "out_for_delivery_label": "En cours de livraison",
+        "out_for_delivery_title": "Votre envoi est en cours de livraison",
+        "resume_tracking": "Suivi des CV",
+        "submitted_label": "Soumis",
+        "submitted_description": "Vérifiez les détails de la commande et du paiement.",
+        "track_shipment": "Suivi de livraison",
+        "request_return": "Demander un retour",
+        "view_order_for_details": "Voir la commande pour plus de détails"
+      },
+      "status_mark_as_delivered": "Marquer comme livré",
+      "status_title": "Statut de la commande",
+      "buy_again": "Acheter à nouveau",
+      "buy_again_accessibility_label": "Acheter à nouveau pour la commande {{orderId}}",
+      "manage": "Gérer",
+      "manage_accessiblity_label": "Gérer la commande {{orderId}}",
+      "group_title_label": "Fait partie de : {{groupTitle}}",
+      "havent_received_your_delivery": "Vous n'avez pas reçu votre livraison ?",
+      "didnt_pick_up_order": "Vous n'avez pas récupéré votre commande ?",
+      "if_you_didnt_receive_this": "Si vous ne l'avez pas reçu,",
+      "let_us_know": "Faites le nous savoir",
+      "contact_us": "Contactez-nous."
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Afficher les détails",
+        "expand_events_accessibility_label": "Afficher les détails d'expédition de la commande",
+        "hide_events_label": "Cacher les détails",
+        "hide_events_accessibility_label": "Masquer les détails d'expédition de la commande"
+      },
+      "addresses_section_title": "Facturation et expédition",
+      "order_details": "Détails de la commande",
+      "billing_address": "Adresse de facturation",
+      "card_ending_with": "se terminant par {{lastDigits}}",
+      "contact_information": "Coordonnées",
+      "company": "Entreprise",
+      "fully_refunded_label": "REMBOURSÉ",
+      "discount": "Rabais",
+      "hide_items": "Masquer les éléments",
+      "loading": "Chargement des détails de la commande",
+      "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
+      "location": "Emplacement",
+      "image_gallery": {
+        "next": "Afficher les éléments suivants",
+        "previous": "Afficher les éléments précédents"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Afficher le récapitulatif de la commande",
+        "closed": "Masquer le récapitulatif de la commande"
       }
     }
   }
