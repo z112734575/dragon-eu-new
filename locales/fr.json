@@ -628,7 +628,272 @@
         "load_more": "Charger plus",
         "load_more_accessibility_label": "Charger plus d'adresses"
       },
-      "save_new_address_accessibility_label": "Enregistrer l'adresse"
+      "save_new_address_accessibility_label": "Enregistrer l'adresse",
+      "title": "Adresses",
+      "billing_address_dropdown_placeholder": "Adresse de facturation"
+    },
+    "address_form": {
+      "attention_help_text": "Le nom d'une personne ou d'un service",
+      "auto_complete_close_accessibility_label": "Fermer les suggestions",
+      "billing_address": "Utiliser comme adresse de facturation",
+      "cancel": "Annuler",
+      "cancel_accessibility_label": "Annuler la modification de l'adresse {{address}}",
+      "creation_success_notification": "Adresse ajoutée",
+      "default_address": "Ceci est mon adresse par défaut",
+      "default_address_creation_success_notification": "Adresse par défaut ajoutée",
+      "default_address_update_success_notification": "Adresse par défaut mise à jour",
+      "loading_add_form_accessibility_message": "Chargement du nouveau formulaire d'adresse",
+      "loading_edit_form_accessibility_message": "Chargement du formulaire de modification d'adresse",
+      "loading_form_accessibility_message": "Chargement du formulaire d'adresse",
+      "loading_finished_accessibility_message": "Le formulaire d'adresse a été chargé",
+      "save": "Sauvegarder",
+      "save_accessibility_label": "Enregistrer l'adresse {{address}}",
+      "section_title_accessibility_label": "Ajoutez l'adresse",
+      "update_success_notification": "Adresse mise à jour"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Nom de l'entreprise",
+        "company_card_section_accessibility_label": "Entreprise"
+      },
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_list_title": "Personnes",
+        "contact_name": "Nom",
+        "contact_permissions": "Autorisations",
+        "contact_phone_number": "Numéro de téléphone",
+        "location_picker_label": "Nom de la localisation",
+        "location_picker_accessibility_label": "Nom de l'emplacement : {{locationName}}",
+        "net_payment_terms_description": "{{name}} : paiements dus dans les {{numberOfDays}} jours",
+        "own_role_contact_name": "Toi",
+        "pagination": {
+          "load_more": "Charger plus",
+          "load_more_accessibility_label": "Charger plus d'emplacements"
+        },
+        "payment_details_title": "Détails de paiement",
+        "payment_terms": "Modalités de paiement",
+        "permissions_label": "Vos autorisations",
+        "permissions_title": "Autorisations",
+        "section_title": "Emplacement",
+        "shipping_address_required": "Ajoutez une adresse de livraison à cet emplacement pour commencer à passer des commandes.",
+        "staff_and_permissions_title": "Personnel et autorisations",
+        "tax_details_title": "Détails fiscaux",
+        "tax_id": "Numéro d'identification fiscale",
+        "tax_exemptions": "Exonérations fiscales",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} de plus",
+        "multiple_tax_exemptions_and": "et",
+        "tax_exemptions_modal_close": "Fermer",
+        "taxes_none": "Aucun",
+        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemptions_modal_button_accessibility_label": "Voir toutes les exonérations fiscales"
+      },
+      "location_selection": {
+        "continue_to_store": "Continuer à stocker",
+        "description": "Si vous avez déjà des articles dans votre panier, la modification des emplacements peut affecter les prix et les quantités du panier.",
+        "list_accessibility_label": "Liste des emplacements",
+        "list_item_without_address_accessibility_label": "{{name}} : Pas d'adresse",
+        "list_loading_accessibility_message": "Chargement de la liste des lieux",
+        "list_loading_address_accessibility_message": "Chargement de l'adresse pour {{locationName}}",
+        "list_loading_finished_accessibility_message": "La liste des emplacements a été chargée",
+        "loading_store_accessibility_message": "Aller au magasin",
+        "no_location_title": "Commandes personnelles uniquement",
+        "no_location_description": "Vous n'êtes plus autorisé à passer des commandes pour {{company}} . Vous pouvez toujours passer des commandes personnelles.",
+        "no_locations_found": "Aucun lieu trouvé",
+        "search": "Rechercher un lieu",
+        "search_location_title": "Sélectionnez un emplacement",
+        "selection_cancel_button": "Annuler",
+        "selection_confirmation_button": "Choisissez l'emplacement",
+        "title": "Pour quel emplacement achetez-vous ?",
+        "clear_search": "Effacer la recherche",
+        "try_new_search": "Essayez une nouvelle recherche"
+      },
+      "addresses": {
+        "add_billing_address_button": "Ajouter une adresse de facturation",
+        "add_billing_address_section_accessibility_label": "Ajouter une adresse de facturation",
+        "add_shipping_address_button": "Ajouter une adresse de livraison",
+        "add_shipping_address_section_accessibility_label": "Ajouter une adresse de livraison",
+        "billing_address_card_title": "Adresse de facturation",
+        "cancel_adding_billing_address_accessibility_label": "Annuler l'ajout de l'adresse de facturation",
+        "cancel_adding_shipping_address_accessibility_label": "Annuler l'ajout de l'adresse de livraison",
+        "save_new_billing_address_accessibility_label": "Enregistrer l'adresse de facturation",
+        "save_new_shipping_address_accessibility_label": "Enregistrer l'adresse de livraison",
+        "shipping_address_card_title": "Adresse de livraison"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Cacher tout",
+          "show_all": "Afficher tout",
+          "hide_all_accessibility_label": "Masquer toutes les commandes en cours de révision",
+          "show_all_accessibility_label": "Afficher toutes les commandes en cours d'examen",
+          "show_all_orders_in_review": "Afficher toutes les commandes en cours d'examen",
+          "show_less_orders_in_review": "Afficher moins de commandes en révision",
+          "title": "En attente",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Vous n'avez aucune commande en attente",
+            "pending_orders": {
+              "one": "Vous avez {{count}} commande en attente",
+              "other": "Vous avez {{count}} commandes en attente"
+            },
+            "more_than_pagination_length": "Vous avez plus de {{count}} commandes en attente"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "Boutons de navigation Commandes en révision"
+          }
+        },
+        "order_list_column_headers_location": "Emplacement",
+        "removed_company_contact_tooltip": "Retiré de l'entreprise"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmé {{date}} de la commande {{draftOrderName}}",
+        "loading": "Chargement des détails de la commande",
+        "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Votre paiement est en retard de {{count}} jours",
+              "other": "Votre paiement est en retard de {{count}} jours"
+            },
+            "banner_due": {
+              "one": "Votre paiement est dû dans {{count}} jour"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sections": {
+    "countdown_text": {
+      "hr": "heure",
+      "hr_plural": "heures",
+      "min_plural": "minutes",
+      "sec": "seconde",
+      "sec_plural": "secondes"
+    },
+    "newsletter_form": {
+      "email_placeholder": "E-mail*",
+      "submit": "S'abonner",
+      "subscribing": "Abonnement...",
+      "confirmation": "Merci pour votre subscription",
+      "error_exist": "E-mail déjà utilisé pour un autre compte"
+    },
+    "agree_mail": {
+      "conditions": "Vous devez accepter les termes et conditions pour vous inscrire.",
+      "link_conditions_html": "Je suis d'accord avec les <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" class=\"t4s-text__link\">termes et conditions<\/a> .",
+      "link_conditions_emty": "Je suis d'accord avec les termes et conditions."
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "Tagué \" {{ tags }} \""
+    },
+    "aria": {
+      "close": "Fermer",
+      "back_to_top": "Retour au sommet"
+    },
+    "popup": {
+      "close": "Fermer",
+      "close_esc": "Fermer (Esc)",
+      "loading": "Chargement...",
+      "pswp_share": "Partager",
+      "pswp_fs": "Basculer en plein écran",
+      "pswp_zoom": "Zoom avant\/arrière",
+      "pswp_facebook": "Partager sur Facebook",
+      "pswp_twitter": "Tweeter",
+      "pswp_pinterest": "Épinglez-le",
+      "pswp_prev": "Précédent (flèche gauche)",
+      "pswp_next": "Suivant (flèche droite)"
+    },
+    "newsletter_popup": {
+      "email_placeholder": "Votre adresse e-mail",
+      "submit": "S'abonner",
+      "subscribing": "Abonnement...",
+      "confirmation": "Merci pour votre subscription"
+    },
+    "pagination": {
+      "next": "Suivant",
+      "previous": "Précédent"
+    },
+    "breadcrumb": {
+      "home": "Maison"
+    },
+    "mobile_menu": {
+      "close": "Fermer le menu, catégories",
+      "wishlist": "Liste de souhaits",
+      "compare": "comparer",
+      "search": "Recherche",
+      "login_register": "S'identifier S'enregistrer",
+      "my_account": "Mon compte"
+    },
+    "sidebar": {
+      "open": "Ouvrir la barre latérale",
+      "close": "Fermer la barre latérale",
+      "title": "Barre latérale"
+    }
+  },
+  "socials": {
+    "share_fb": "Partager sur Facebook",
+    "share_tw": "Partager sur Twitter",
+    "share_em": "Partager par e-mail",
+    "share_pr": "Partager sur Pinterest",
+    "share_tu": "Partager sur Tumblr",
+    "share_tl": "Partager sur Telegram",
+    "share_wa": "Partager sur Whatsapp",
+    "follow_fb": "Suivez sur Facebook",
+    "follow_tw": "Suivre sur Twitter",
+    "follow_it": "Suivez sur Instagram",
+    "follow_dr": "Suivez sur Dribbble",
+    "follow_ld": "Suivez sur Linkedin",
+    "follow_pr": "Suivez sur Pinterest",
+    "follow_tu": "Suivre sur tumblr",
+    "follow_yt": "Suivez sur YouTube",
+    "follow_vm": "Suivez sur Viméo",
+    "follow_bh": "Suivre sur Behance",
+    "follow_sc": "Suivez sur Soundcloud",
+    "follow_tt": "Suivez sur Tiktok",
+    "follow_sp": "Suivez sur Snapchat"
+  },
+  "accessibility": {
+    "skip_to_text": "Aller au contenu",
+    "skip_to_product_info": "Passer aux informations sur le produit",
+    "close": "Fermer",
+    "unit_price_separator": "par",
+    "vendor": "Fournisseur:",
+    "error": "Erreur",
+    "refresh_page": "Le choix d'une sélection entraîne une actualisation complète de la page.",
+    "link_messages": {
+      "new_window": "Ouvre dans une nouvelle fenêtre.",
+      "external": "Ouvre un site Web externe."
+    },
+    "of": "de",
+    "next_slide": "Faites glisser vers la droite",
+    "previous_slide": "Faites glisser vers la gauche",
+    "loading": "Chargement...",
+    "total_reviews": "avis totaux",
+    "star_reviews_info": "{{ rating_value }} étoiles sur {{ rating_max }} étoiles"
+  },
+  "blogs": {
+    "filter_all": "Tous",
+    "pagination": {
+      "view_all": "Voir tout",
+      "load_more": "Charger plus de messages",
+      "load_prev": "Charger le précédent",
+      "bar_with_count_html": "Vous avez consulté <span data-current-bar>{{current_count}}<\/span> messages sur {{total_count}}"
+    },
+    "article": {
+      "by": "Par",
+      "on": "sur",
+      "in": "Dans",
+      "read_more": "Continuer la lecture",
+      "back_to": "Retour à {{title}}",
+      "view_all": "Voir plus",
+      "by_author": "Par {{ author }}"
+    },
+    "portfolio": {
+      "filter_all": "Tous",
+      "category": "Catégorie:",
+      "author": "Auteur:",
+      "tags": "Mots clés:"
     }
   }
 }
