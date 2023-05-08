@@ -81,8 +81,8 @@ if isDefault == false and enable_pr_color or enable_pr_size
    endfor
 endif -%}
 
-<!-- 用于隐藏第四个之后的 badge -->
 {% if pIndex > 4 %}
+  <!-- 用于隐藏第四个之后的 badge -->
   {% assign badge_hide = "badge_hide" %}
   {% endif %}
 
