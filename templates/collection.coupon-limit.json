@@ -160,7 +160,7 @@
       }
     },
     "main": {
-      "type": "main-collection",
+      "type": "coupon-limit-collection",
       "blocks": {
         "filter_id": {
           "type": "filter",
