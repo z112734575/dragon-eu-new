@@ -1687,7 +1687,7 @@
               "title": "SUPPORT",
               "url": "",
               "open_link": "_self",
-              "menu": "clients",
+              "menu": "support",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -1702,10 +1702,10 @@
             "type": "menu",
             "disabled": true,
             "settings": {
-              "title": "Contact Us",
+              "title": "Service",
               "url": "shopify:\/\/pages\/contact-us",
               "open_link": "_self",
-              "menu": "",
+              "menu": "service",
               "icon": "",
               "lb": "",
               "lb_cl": ""
