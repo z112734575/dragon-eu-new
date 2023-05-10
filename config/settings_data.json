@@ -1661,9 +1661,9 @@
             "type": "menu",
             "settings": {
               "title": "GaN CHARGERS",
-              "url": "#",
+              "url": "https:\/\/eu.ugreen.com\/collections\/gan-chargers",
               "open_link": "_self",
-              "menu": "product-chargers",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
