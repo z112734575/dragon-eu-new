@@ -11,12 +11,12 @@
 <!-- Page Banner -->
 <section class="page_banner">
         <picture>
-            <source srcset="{{ mol_image_url }}" media="(max-width: 375px)">
-            <source srcset="{{ mol_image_url }}" media="(max-width: 768px)">
-            <source srcset="{{ pc_image_url }}" media="(max-width: 1080px)">
-            <source srcset="{{ pc_image_url }}" media="(max-width: 1200px)">
-            <source srcset="{{ pc_image_url }}" media="(max-width: 1920px)">
-            <img src="{{ pc_image_url }}" alt="{{ image_alt }}">
+            <source srcset="{{ section.settings.mol_image_url }}" media="(max-width: 375px)">
+            <source srcset="{{ section.settings.mol_image_url }}" media="(max-width: 768px)">
+            <source srcset="{{ section.settings.pc_image_url }}" media="(max-width: 1080px)">
+            <source srcset="{{ section.settings.pc_image_url }}" media="(max-width: 1200px)">
+            <source srcset="{{ section.settings.pc_image_url }}" media="(max-width: 1920px)">
+            <img src="{{ section.settings.pc_image_url }}" alt="{{ section.settings.image_alt }}">
         </source></source></source></source></source></picture>
     </section>
 
