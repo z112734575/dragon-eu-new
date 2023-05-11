@@ -1,8 +1,52 @@
+<style>
+  /*Page banner style*/
+         .page_banner {
+        position: relative;
+    }
+
+    .page_banner img {
+        width: 100%;
+    }
+</style>
+<!-- Page Banner -->
+<section class="page_banner">
+        <picture>
+            <source srcset="{{ mol_image_url }}" media="(max-width: 375px)">
+            <source srcset="{{ mol_image_url }}" media="(max-width: 768px)">
+            <source srcset="{{ pc_image_url }}" media="(max-width: 1080px)">
+            <source srcset="{{ pc_image_url }}" media="(max-width: 1200px)">
+            <source srcset="{{ pc_image_url }}" media="(max-width: 1920px)">
+            <img src="{{ pc_image_url }}" alt="{{ image_alt }}">
+        </source></source></source></source></source></picture>
+    </section>
+
 {% schema %}
+{
+  "name": "Page banner",
+  "settings": [
+    {
+          "type": "text",
+          "id": "pc_image_url",
+          "label": "PC Image URL"
+        },
+    {
+          "type": "text",
+          "id": "mol_image_url",
+          "label": "MOL Image URL"
+        },
+    {
+          "type": "text",
+          "id": "image_alt",
+          "label": "Image alt"
+        }
+  ],
+  "presets": [
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Page banner"
   }
+],
+"templates": ["page"]
+}
 {% endschema %}
 
 {% stylesheet %}
