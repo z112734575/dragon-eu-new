@@ -12,9 +12,18 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "d2230466-b5fe-49cc-ac39-926497ba0c21": {
+      "type": "page_banner",
+      "settings": {
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN_banner_pc.webp?v=1683806121",
+        "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN_banner_mobile.webp?v=1683806120",
+        "image_alt": "72H Flash Sale!"
+      }
     }
   },
   "order": [
-    "30c08e71-df99-48f5-8206-6b874843c5e3"
+    "30c08e71-df99-48f5-8206-6b874843c5e3",
+    "d2230466-b5fe-49cc-ac39-926497ba0c21"
   ]
 }
