@@ -56,11 +56,25 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "30c08e71-df99-48f5-8206-6b874843c5e3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "30c08e71-df99-48f5-8206-6b874843c5e3"
   ]
 }
