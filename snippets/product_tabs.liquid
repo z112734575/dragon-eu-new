@@ -166,6 +166,7 @@ assign listTyCurent2 = ''  -%}
                 <div id="{{idTabDes}}" class="t4s-rte t4s-tab-content{{class_first_tab}}" data-t4s-tab-content>{{- product.description -}}</div>
 <!--                 <div>test---</div> -->
 <!--                 <div style="height: 500px">轮播</div> -->
+                  {% render "ug-product-compare", custom: product.metafields.custom, current_product: product %}
                 {%- if bk_stts.enable_products_diff -%}
                   {%- assign diff_images = product.metafields.custom.diff_product_image | split: '***IMAGE***' -%}
                   {%- assign diff_image_pc = diff_images[0] -%}
