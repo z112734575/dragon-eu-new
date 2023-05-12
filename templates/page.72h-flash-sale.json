@@ -1,5 +1,20 @@
 {
   "sections": {
+    "e49dddc3-8400-4a86-a3ec-b69a2fd75773": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<style>\n        .contant{\n            width: 100%;\n            max-width: 1280px;\n            margin: 0 auto;\n        }\n        \/* ug_bundles *\/\n        .ug_bundles{\n            background: #FFF5D3;\n            padding: 22px 0;\n        }\n        .ug_bundles_box{\n            display: flex;\n            justify-content: space-between;\n        }\n        .ug_bundles_box > div:nth-child(1){\n            \n            border-right: 1px solid #F58720;\n        }\n        .ug_bundles_box .item{\n            width: 50%;\n            display: flex;\n            justify-content: space-between;\n            padding: 8px 50px;\n        }\n        .ug_bundles_box .item .left{\n            text-align: center;\n        }\n        .ug_bundles_box .item .left p{\n            font-weight: 600;\n            font-size: 44px;\n            line-height: 44px;\n            color: #FF8818;\n            margin-bottom: 10px;\n        }\n        .ug_bundles_box .item .left span{\n            font-size: 20px;\n            color: #333333;\n        }\n        .ug_bundles_box .item .right{\n            display: flex;\n            align-items: center;\n        }\n        .ug_bundles_box .item .right p{\n            font-size: 20px;\n            color: #FF8818;\n            margin: 0;\n        }\n        .ug_bundles_box .item .right .copy-btn{\n            display: inline-block;\n            padding: 10px 30px;\n            background: #FFFFFF;\n            border: 1px solid #FF8818;\n            border-radius: 100px;\n            font-weight: 600;\n            font-size: 16px;\n            color: #FF8818;\n            margin: 0 0 0 20px;\n        }\n        .ug_bundles_box .item .right .copy-btn:hover{\n            background: #FF8818;\n            color: #FFFFFF;\n        }\n        \/* svg_title *\/\n        .svg_title{\n        padding: 120px 0 40px 0;\n        text-align: center;\n    }\n    .svg_title svg{\n        display: inline-block;\n        width: 1.875vw;\n        height: 1.875vw;\n    }\n    .svg_title h2{\n        font-weight: 700;\n        font-size: 1.875vw;\n        color: #000000;\n        padding: 0.521vw 0 0.78125vw 0;\n        line-height: 2.083vw;\n    }\n    .svg_title h2 span{\n        font-weight: 700;\n    }\n    .svg_title p{\n        font-weight: 500;\n        font-size: 1.042vw;\n        color: #666666;\n        margin: 0;\n        line-height: 1.042vw;\n    }\n    .svg_title p button{ \n        color: #FF8818;\n        background: none;\n        padding: 0;\n        font-size: 1.042vw;\n    }\n    \/* details *\/\n    .details_box .section_box{\n        max-width: 960px;\n        margin: 0 auto;\n    }\n    .details_box{\n        padding: 100px 0;\n        background: #F5F5F7;\n    }\n    .details_box h2{\n        font-weight: 700;\n        font-size: 30px;\n        color: #000000;\n        margin-bottom: 40px;\n        text-align: center;\n    }\n    .details_box li{\n        font-size: 20px;\n        line-height: 30px;\n        color: #666666;\n        list-style: disc;\n    }\n    .details_box li button{\n        color: #FF8818;\n        background: none;\n        padding: 0;\n        font-size: 1.042vw;\n    }\n    <\/style>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "d2230466-b5fe-49cc-ac39-926497ba0c21": {
       "type": "page_banner",
       "settings": {
@@ -7,9 +22,58 @@
         "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN_banner_mobile.webp?v=1683806120",
         "image_alt": "72H Flash Sale!"
       }
+    },
+    "ba30f705-8ef4-4326-9574-a9913009c92c": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"ug_bundles\">\n        <div class=\"contant\">\n            <div class=\"ug_bundles_box\">\n                <div class=\"item\">\n                    <div class=\"left\">\n                        <p>€10 Off<\/p>\n                        <span>Ordes of 79+<\/span>\n                    <\/div>\n                    <div class=\"right\">\n                        <p>Code: Ugreen10<\/p>\n                        <button data-ug-copy-data=\"Ugreen10\" class=\"copy-btn\">Copy<\/button>\n                    <\/div>\n                <\/div>\n                <div class=\"item\">\n                    <div class=\"left\">\n                        <p>€25 Off<\/p>\n                        <span>Ordes of 149+<\/span>\n                    <\/div>\n                    <div class=\"right\">\n                        <p>Code: Ugreen25<\/p>\n                        <button data-ug-copy-data=\"Ugreen25\" class=\"copy-btn\">Copy<\/button>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>\n    <section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-sale_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Best Sellers<\/span>\n<\/h2>\n    <\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-discount_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Buy More, Save More<\/span>\n<\/h2>\n        <p>€10 Off | Ordres of 79+, €25 Off | Ordres of 149+ (Code: <button data-ug-copy-data=\"UGREEN10\" class=\"copy-btn\">UGREEN10<\/button>,<button data-ug-copy-data=\"UGREEN25\" class=\"copy-btn\">UGREEN25<\/button>)<\/p>\n    <\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"details_box\">\n        <div class=\"section_box\">\n            <h2>Details<\/h2>\n            <ul>\n                <li>All products on this page are prices after discounts, and at the same time enjoy full discounts.<\/li>\n                <li>Order over €79 get €10 off (Code: <button data-ug-copy-data=\"UGREEN10\" class=\"copy-btn\">UGREEN10<\/button>),Order over €149 get €25 off (Code: <button data-ug-copy-data=\"UGREEN25\" class=\"copy-btn\">UGREEN25<\/button>)<\/li>\n                <li>This event and subsequent discount only applies to products on the event page.<\/li>\n            <\/ul>\n        <\/div>\n    <\/section>\n    <script src=\"https:\/\/at.alicdn.com\/t\/c\/font_3829374_0qkgxntptos.js\"><\/script>\n    <script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/jquery-1.7.2.min.js?v=1624935298\"><\/script>\n    <script type=\"text\/javascript\">\n         \/\/ copy\n        $(function() {\n        let timeId = null;\n        $('[data-ug-copy-data]').click(function () {\n            clearTimeout(timeId);\n            timeId = setTimeout(() => {\n                var copyText = $(this).attr('data-ug-copy-data');\n                var input = document.createElement('input');\n                input.setAttribute('value',copyText);\n                document.body.appendChild(input);\n                input.select();\n                if (document.execCommand('copy')) {\n                    document.execCommand('copy');\n                    $(this).text('Copied!');\n                    setTimeout( () => {\n                        $(this).text('Copy');\n                    },2000)}\n                    document.body.removeChild(input);\n            },200);});\n        })\n    <\/script>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
-    "d2230466-b5fe-49cc-ac39-926497ba0c21"
+    "e49dddc3-8400-4a86-a3ec-b69a2fd75773",
+    "d2230466-b5fe-49cc-ac39-926497ba0c21",
+    "ba30f705-8ef4-4326-9574-a9913009c92c",
+    "e8f15098-8dc6-40ea-98fc-74037a3d1191",
+    "121d9e92-ecf9-4049-b9c6-bf173a4295fe"
   ]
 }
