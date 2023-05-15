@@ -217,6 +217,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -227,6 +228,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
@@ -356,7 +358,7 @@
   "blocks": [
     {
       "name": "Product list Tabs",
-      "type": "ug-product-list",
+      "type": "ug-product-list-tabs",
       "settings": [
         {
           "type": "text",
@@ -373,7 +375,7 @@
           "id": "section_id",
           "label": "当前模块Id",
           "info": "用于标识多个 product list 模块，不可重复",
-          "default": "ug-product-list"
+          "default": "ug-product-list-tabs"
         }
       ]
     }
