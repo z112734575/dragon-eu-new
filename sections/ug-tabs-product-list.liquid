@@ -24,13 +24,13 @@
   href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790"
 >
 <style>
-   .ug-product-list {
+   #{{ section_id }} .ug-product-list {
       margin: 0 auto;
       max-width: 1280px;
       width: 100%;
       padding: {{ pc_padding }};
   }
-   .ug-product-list-main {
+   #{{ section_id }} .ug-product-list-main {
       display: grid;
       width: 100%;
      grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
@@ -65,7 +65,7 @@
        .ug-product-list {
           padding: {{ mobile_padding }};
       }
-      .ug-product-list-main {
+      #{{ section_id }} .ug-product-list-main {
           grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
           gap: 12px;
           padding: 0 12px;
@@ -196,28 +196,6 @@
   ></script>
   <script>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -228,28 +206,6 @@
             </svg></a>`
                 });
             });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </script>
 {% endif %}
