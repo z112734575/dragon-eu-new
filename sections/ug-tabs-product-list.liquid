@@ -1,5 +1,6 @@
 {% liquid
   assign settings = section.settings
+  assign items = section.blocks
   assign product_list = settings.product_list
   assign title = settings.title
   assign subtitle = settings.subtitle
@@ -32,14 +33,6 @@
       max-width: 1280px;
       width: 100%;
       padding: {{ pc_padding }};
-  }
-  .ug-product-list-title {
-      font-weight: 700;
-      font-size: 1.875vw;
-      color: #000;
-      margin-bottom: 2.08vw;
-      text-align: center;
-      line-height: 1.2;
   }
   #{{ section_id }} .ug-product-list-main {
       display: grid;
@@ -76,10 +69,6 @@
       #{{ section_id }} .ug-product-list {
           padding: {{ mobile_padding }};
       }
-      .ug-product-list-title {
-          font-size: 24px;
-          margin-bottom: 40px;
-      }
       #{{ section_id }} .ug-product-list-main {
           grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
           gap: 12px;
@@ -100,30 +89,26 @@
   </div>
   <div class="tabs_swiper swiper">
     <div class="swiper-wrapper">
-      <div class="ug-product-list swiper-slide" id="{{ section_id }}">
-        {% if title != blank %}
-          <div class="ug-product-list-title">{{ title }}</div>
-        {% endif %}
-        {% if subtitle != blank %}
-          <div class="ug-product-list-sub-title">{{ subtitle }}</div>
-        {% endif %}
-        <div class="ug-product-list-main load-more_list">
-          {% render 'ug-product',
-            product_list: product_list,
-            bg_color: bg_color,
-            sale_flag: sale_flag,
-            pc_product_sale_width: pc_product_sale_width,
-            mobile_product_sale_width: mobile_product_sale_width,
-            show_sale_flag: show_sale_flag,
-            show_compare: show_compare,
-            show_rating: show_rating,
-            show_learn_btn: show_learn_btn,
-            pc_product_item_img_size: pc_product_item_img_size,
-            mobile_product_item_img_size: mobile_product_item_img_size,
-            mobile_product_type: mobile_product_type
-          %}
+      {% for item in items %}
+        <div class="ug-product-list swiper-slide" id="{{ section_id }}">
+          <div class="ug-product-list-main load-more_list">
+            {% render 'ug-product',
+              product_list: product_list,
+              bg_color: bg_color,
+              sale_flag: sale_flag,
+              pc_product_sale_width: pc_product_sale_width,
+              mobile_product_sale_width: mobile_product_sale_width,
+              show_sale_flag: show_sale_flag,
+              show_compare: show_compare,
+              show_rating: show_rating,
+              show_learn_btn: show_learn_btn,
+              pc_product_item_img_size: pc_product_item_img_size,
+              mobile_product_item_img_size: mobile_product_item_img_size,
+              mobile_product_type: mobile_product_type
+            %}
+          </div>
         </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
@@ -158,6 +143,7 @@
   ></script>
   <script>
     
+    
       
       
       
@@ -175,6 +161,7 @@
   
   
 
+
   </script>
 {% endif %}
 
@@ -182,7 +169,14 @@
 {
   "name": "UGREEN Tbas Product List",
   "settings": [
+
+  ],
+  "blocks": [
     {
+      "name": "Product list Tabs",
+      "type": "ug-index-category-item",
+      "settings": [
+        {
       "type": "product_list",
       "id": "product_list",
       "label": "商品列表"
@@ -315,6 +309,8 @@
       "id": "show_learn_btn",
       "label": "是否展示Learn按钮",
       "default": true
+    }
+      ]
     }
   ]
 }
