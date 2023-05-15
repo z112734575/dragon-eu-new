@@ -19,7 +19,7 @@
   assign pc_product_item_img_size = settings.pc_product_item_img_size
   assign mobile_product_item_img_size = settings.mobile_product_item_img_size
   assign mobile_product_type = settings.mobile_product_type
-  assign section_id = settings.section_id
+  assign section_id = items.settings.section_id
 %}
 <link
   rel="stylesheet"
@@ -410,6 +410,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -420,6 +421,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
