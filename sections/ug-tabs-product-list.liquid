@@ -61,8 +61,8 @@
 
   .cursor-btns .cursor-btn:hover,
   .cursor-btns .cursor-btn.swiper-slide-thumb-active {
-      border-bottom: 0.052vw solid #00CC88;
-      color: #000;
+      background: #FF8818;
+      color: #fff;
   }
   @media (max-width: 768px) {
        #{{ section_id }} .ug-product-list {
@@ -207,6 +207,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -217,6 +218,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
