@@ -18,19 +18,20 @@
   assign pc_product_item_img_size = settings.pc_product_item_img_size
   assign mobile_product_item_img_size = settings.mobile_product_item_img_size
   assign mobile_product_type = settings.mobile_product_type
+  assign section_id = settings.section_id
 %}
 <link
   rel="stylesheet"
   href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790"
 >
 <style>
-   #{{ settings.section_id }} .ug-product-list {
+   #{{ section_id }} .ug-product-list {
       margin: 0 auto;
       max-width: 1280px;
       width: 100%;
       padding: {{ pc_padding }};
   }
-   #{{ settings.section_id }} .ug-product-list-main {
+   #{{ section_id }} .ug-product-list-main {
       display: grid;
       width: 100%;
      grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
@@ -197,6 +198,7 @@
   <script>
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -209,6 +211,7 @@
             });
 
 
+
   </script>
 {% endif %}
 
@@ -216,6 +219,11 @@
 {
   "name": "UGREEN Tbas Product List",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "当前模块Id"
+    },
     {
       "type": "color",
       "id": "product_item_bg_color",
