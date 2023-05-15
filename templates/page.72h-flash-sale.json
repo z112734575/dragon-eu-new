@@ -85,6 +85,38 @@
         "code_cus_css": ""
       }
     },
+    "ug-tabs-product-list": {
+      "type": "ug-tabs-product-list",
+      "settings": {
+        "product_list": [
+          "snap-deal-ugreen-usb-2-0-switch-2-in-4-output-usb-kvm-switch",
+          "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
+          "ugreen-100w-usb-c-desktop-charger",
+          "ugreen-100w-usb-c-to-usb-c-cable"
+        ],
+        "title": "",
+        "subtitle": "",
+        "section_id": "ug-tabs-product-list",
+        "pc_product_type": "row",
+        "mobile_product_type": "row",
+        "product_item_bg_color": "#f5f5f7",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "57%",
+        "pc_row": "2",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "0",
+        "mobile_padding": "0",
+        "need_load_more": false,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true
+      }
+    },
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
       "type": "custom-html",
       "settings": {
@@ -107,6 +139,7 @@
     "ba30f705-8ef4-4326-9574-a9913009c92c",
     "ug-product-list",
     "e8f15098-8dc6-40ea-98fc-74037a3d1191",
+    "ug-tabs-product-list",
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe"
   ]
 }
