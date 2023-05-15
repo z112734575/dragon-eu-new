@@ -293,7 +293,10 @@
 <div class="contant">
   <div class="cursor-btns swiper" thumbsslider="">
     <div class="swiper-wrapper">
-      <span class="cursor-btn swiper-slide">111</span>
+      {% for item in items %}
+        {% assign tabs_title = item.settings.tabs_title %}
+        <span class="cursor-btn swiper-slide">{{ tabs_title }}</span>
+      {% endfor %}
     </div>
   </div>
   <div class="tabs_swiper swiper">
@@ -556,6 +559,11 @@
       "name": "Product list Tabs",
       "type": "ug-product-list",
       "settings": [
+        {
+          "type": "text",
+          "id": "tabs_title",
+          "label": "当前产品块title"
+        },
         {
           "type": "product_list",
           "id": "product_list",
