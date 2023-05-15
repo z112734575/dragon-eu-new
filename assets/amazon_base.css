@@ -619,6 +619,9 @@ html[dir="rtl"]
   padding: 0;
   margin: 0;
 }
+.aplus-pagination-wrapper {
+  z-index: 100;
+}
 @media screen and (max-width: 768px) {
   .aplus-v2 .aplus-carousel-actions {
     position: initial !important;
