@@ -2,6 +2,7 @@
   assign settings = section.settings
   assign items = section.blocks
   assign product_list = items.settings.product_list
+  assign section_id = items.settings.section_id
   assign pc_row = settings.pc_row
   assign mobile_row = settings.mobile_row
   assign bg_color = settings.product_item_bg_color
@@ -19,7 +20,6 @@
   assign pc_product_item_img_size = settings.pc_product_item_img_size
   assign mobile_product_item_img_size = settings.mobile_product_item_img_size
   assign mobile_product_type = settings.mobile_product_type
-  assign section_id = items.settings.section_id
 %}
 <link
   rel="stylesheet"
@@ -412,6 +412,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -422,6 +423,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
