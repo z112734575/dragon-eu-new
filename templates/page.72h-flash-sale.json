@@ -38,21 +38,6 @@
         "code_cus_css": ""
       }
     },
-    "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
-      "type": "custom-html",
-      "settings": {
-        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-discount_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Buy More, Save More<\/span>\n<\/h2>\n        <p>€10 Off | Ordres of 79+, €25 Off | Ordres of 149+ (Code: <button data-ug-copy-data=\"UGREEN10\" class=\"copy-btn\">UGREEN10<\/button>,<button data-ug-copy-data=\"UGREEN25\" class=\"copy-btn\">UGREEN25<\/button>)<\/p>\n    <\/section>",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "ug-product-list": {
       "type": "ug-product-list",
       "settings": {
@@ -84,8 +69,23 @@
         "load_more_default_count": 4,
         "show_sale_flag": true,
         "show_compare": true,
-        "show_rating": false,
+        "show_rating": true,
         "show_learn_btn": true
+      }
+    },
+    "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-discount_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Buy More, Save More<\/span>\n<\/h2>\n        <p>€10 Off | Ordres of 79+, €25 Off | Ordres of 149+ (Code: <button data-ug-copy-data=\"UGREEN10\" class=\"copy-btn\">UGREEN10<\/button>,<button data-ug-copy-data=\"UGREEN25\" class=\"copy-btn\">UGREEN25<\/button>)<\/p>\n    <\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
@@ -108,8 +108,8 @@
     "e49dddc3-8400-4a86-a3ec-b69a2fd75773",
     "d2230466-b5fe-49cc-ac39-926497ba0c21",
     "ba30f705-8ef4-4326-9574-a9913009c92c",
-    "e8f15098-8dc6-40ea-98fc-74037a3d1191",
     "ug-product-list",
+    "e8f15098-8dc6-40ea-98fc-74037a3d1191",
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe"
   ]
 }
