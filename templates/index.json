@@ -46,6 +46,7 @@
         },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1920-920_EU_1.5x.jpg?v=1684137853",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/750_1160_EU.jpg?v=1684137918",

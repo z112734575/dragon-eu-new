@@ -91,36 +91,38 @@
       }
   }
 </style>
-<div class="cursor-btns swiper" thumbsslider="">
-  <div class="swiper-wrapper">
-    <span class="cursor-btn swiper-slide">Compatibility</span>
-    <span class="cursor-btn swiper-slide">Ports</span>
+<div class="contant">
+  <div class="cursor-btns swiper" thumbsslider="">
+    <div class="swiper-wrapper">
+      <span class="cursor-btn swiper-slide">Compatibility</span>
+      <span class="cursor-btn swiper-slide">Ports</span>
+    </div>
   </div>
-</div>
-<div class="tabs_swiper swiper">
-  <div class="swiper-wrapper">
-    <div class="ug-product-list swiper-slide" id="{{ section_id }}">
-      {% if title != blank %}
-        <div class="ug-product-list-title">{{ title }}</div>
-      {% endif %}
-      {% if subtitle != blank %}
-        <div class="ug-product-list-sub-title">{{ subtitle }}</div>
-      {% endif %}
-      <div class="ug-product-list-main load-more_list">
-        {% render 'ug-product',
-          product_list: product_list,
-          bg_color: bg_color,
-          sale_flag: sale_flag,
-          pc_product_sale_width: pc_product_sale_width,
-          mobile_product_sale_width: mobile_product_sale_width,
-          show_sale_flag: show_sale_flag,
-          show_compare: show_compare,
-          show_rating: show_rating,
-          show_learn_btn: show_learn_btn,
-          pc_product_item_img_size: pc_product_item_img_size,
-          mobile_product_item_img_size: mobile_product_item_img_size,
-          mobile_product_type: mobile_product_type
-        %}
+  <div class="tabs_swiper swiper">
+    <div class="swiper-wrapper">
+      <div class="ug-product-list swiper-slide" id="{{ section_id }}">
+        {% if title != blank %}
+          <div class="ug-product-list-title">{{ title }}</div>
+        {% endif %}
+        {% if subtitle != blank %}
+          <div class="ug-product-list-sub-title">{{ subtitle }}</div>
+        {% endif %}
+        <div class="ug-product-list-main load-more_list">
+          {% render 'ug-product',
+            product_list: product_list,
+            bg_color: bg_color,
+            sale_flag: sale_flag,
+            pc_product_sale_width: pc_product_sale_width,
+            mobile_product_sale_width: mobile_product_sale_width,
+            show_sale_flag: show_sale_flag,
+            show_compare: show_compare,
+            show_rating: show_rating,
+            show_learn_btn: show_learn_btn,
+            pc_product_item_img_size: pc_product_item_img_size,
+            mobile_product_item_img_size: mobile_product_item_img_size,
+            mobile_product_type: mobile_product_type
+          %}
+        </div>
       </div>
     </div>
   </div>
