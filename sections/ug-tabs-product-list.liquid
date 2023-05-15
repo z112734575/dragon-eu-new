@@ -59,36 +59,6 @@
       left: 50%;
       transform: translate(-50%, 100%);
   }
-  {% if pc_product_type == 'row' %}
-    @media (min-width:768px) {
-          .ug-product-box{
-              flex-direction: row!important;
-              align-items: center;
-          }
-          .ug-product-box > a{
-              display: inline-block;
-              width: 200px;
-              margin-right: 40px;
-          }
-          .ug-product-price-review{
-              align-items: flex-start!important;
-              flex-direction: column;
-          }
-          .ug-product-price-review .ug-product-price{
-              order: 1;
-          }
-          .ug-product-price-review .ug-product-review{
-              margin-bottom: 10px;
-          }
-          .ug-product-buy{
-              flex-direction: column;
-              align-items: stretch!important;
-          }
-          .ug-product-buy .ug-product-buy-btn{
-              margin-bottom: 12px;
-          }
-      }
-  {% endif %}
   @media (max-width: 768px) {
       .ug-product-list {
           padding: {{ mobile_padding }};
@@ -159,6 +129,7 @@
   ></script>
   <script>
     
+    
           $(function () {
               $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                   item: `div.ug-product-item`,
@@ -169,6 +140,7 @@
           </svg></a>`
               });
           })
+
 
   </script>
 {% endif %}
@@ -198,22 +170,6 @@
       "label": "当前模块Id",
       "info": "用于标识多个 product list 模块，不可重复",
       "default": "ug-product-list"
-    },
-    {
-      "type": "select",
-      "id": "pc_product_type",
-      "options": [
-        {
-          "value": "column",
-          "label": "默认排布"
-        },
-        {
-          "value": "row",
-          "label": "左右排布"
-        }
-      ],
-      "label": "电脑端排版风格",
-      "default": "column"
     },
     {
       "type": "select",
