@@ -53,6 +53,7 @@
         "title": "",
         "subtitle": "",
         "section_id": "ug-tabs-product-list",
+        "pc_product_type": "row",
         "mobile_product_type": "row",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "100%",
