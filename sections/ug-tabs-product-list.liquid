@@ -302,9 +302,9 @@
   <div class="tabs_swiper swiper">
     <div class="swiper-wrapper">
       {% for item in items %}
-        <div class="ug-product-list swiper-slide" id="{{ section_id }}">
+        <div class="ug-product-list swiper-slide" id="{{ items.section_id }}">
           <div class="ug-product-list-main load-more_list">
-            {% for product in product_list %}
+            {% for product in items.product_list %}
               <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
                 <div class="ug-product-box">
                   <a href="{{ product.url }}">
@@ -416,6 +416,7 @@
     
     
     
+    
       
       
       
@@ -432,6 +433,7 @@
   
   
   
+
 
 
 
