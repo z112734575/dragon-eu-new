@@ -97,17 +97,29 @@
               "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
               "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-600",
               "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w"
-            ],
-            "section_id": "ug-product-list-tabs"
+            ]
+          }
+        },
+        "4556941b-3614-4b1f-8b9e-8d449c378b3f": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "2222",
+            "product_list": [
+              "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
+              "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-600",
+              "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-200-w",
+              "snap-deal-ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray"
+            ]
           }
         }
       },
       "block_order": [
-        "2632b153-e4f5-4946-9146-3002be2c2b29"
+        "2632b153-e4f5-4946-9146-3002be2c2b29",
+        "4556941b-3614-4b1f-8b9e-8d449c378b3f"
       ],
       "settings": {
         "section_id": "tabs_product",
-        "product_item_bg_color": "#222222",
+        "product_item_bg_color": "#ff4e00",
         "pc_product_item_img_size": "50%",
         "mobile_product_item_img_size": "57%",
         "pc_row": "4",
