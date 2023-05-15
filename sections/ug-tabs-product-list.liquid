@@ -299,70 +299,6 @@
       <span class="cursor-btn swiper-slide">Ports</span>
     </div>
   </div>
-  {% for product in product_list %}
-    <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
-      <div class="ug-product-box">
-        <a href="{{ product.url }}">
-          <div class="ug-product-img">
-            <img src="{{ product.featured_media | img_url: "400x" }}" alt="{{ product.title }}">
-          </div>
-        </a>
-        <div class="ug-product-info">
-          <a href="{{ product.url }}">
-            <div class="ug-product-title">
-              {{ product.title }}
-            </div>
-          </a>
-          <div class="ug-product-price-review">
-            {% assign compare_at_price = product.compare_at_price %}
-            {% assign price = product.price %}
-            {% assign showDiscountBar = compare_at_price | minus: price %}
-
-            {% if showDiscountBar > 1 %}
-              <p class="ug-product-price font-lato">
-                {{ product.price | money }}
-                <span class="ug-product-compare_at_price">{{ product.compare_at_price | money }}</span>
-              </p>
-            {% else %}
-              <p class="ug-product-price font-lato">{{ product.price | money }}</p>
-            {% endif %}
-            {% if show_rating %}
-              <div class="ug-product-review">
-                {%- render 'product-rating', product: product, app_review: '4' -%}
-              </div>
-            {% endif %}
-          </div>
-          <div class="ug-product-buy">
-            <a
-              href="{{ product.url }}"
-              class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-product-buy-btn"
-              data-variant-id="{{ product.variants.first.id }}"
-              data-action-atc
-              rel="nofollow"
-              >Buy Now</a
-            >
-            {% if show_learn_btn %}
-              <a href="{{ product.url }}" class="ug-product-learn-btn">Learn more</a>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% if showDiscountBar > 1 and show_sale_flag %}
-        <div class="ug-product-sale">
-          <span class="ug-product-sale-text">
-            {{ compare_at_price | minus: price | times: 100 | divided_by: compare_at_price | prepend: '-' -}}
-            <span
-              class="ug-product-sale-text-percent"
-              >%</span
-            >
-          </span>
-          <div class="ug-product-sale-flag">
-            <img src="{{ sale_flag }}" alt="flag">
-          </div>
-        </div>
-      {% endif %}
-    </div>
-  {% endfor %}
   <div class="tabs_swiper swiper">
     <div class="swiper-wrapper">
       {% for item in items %}
@@ -469,26 +405,6 @@
   ></script>
   <script>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-      
-      
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -498,27 +414,7 @@
                 <use xlink:href="#icon-xiayiye"></use>
             </svg></a>`
                 });
-            })
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            });
 
   </script>
 {% endif %}
@@ -527,11 +423,6 @@
 {
   "name": "UGREEN Tbas Product List",
   "settings": [
-    {
-          "type": "product_list",
-          "id": "product_list",
-          "label": "商品列表"
-        },
     {
       "type": "color",
       "id": "product_item_bg_color",
