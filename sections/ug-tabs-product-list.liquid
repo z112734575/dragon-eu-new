@@ -144,6 +144,8 @@
   <script>
     
     
+    
+    
       
       
       
@@ -162,6 +164,8 @@
   
 
 
+
+
   </script>
 {% endif %}
 
@@ -169,70 +173,7 @@
 {
   "name": "UGREEN Tbas Product List",
   "settings": [
-
-  ],
-  "blocks": [
-    {
-      "name": "Product list Tabs",
-      "type": "ug-index-category-item",
-      "settings": [
-        {
-      "type": "product_list",
-      "id": "product_list",
-      "label": "商品列表"
-    },
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Title"
-    },
-    {
-      "type": "text",
-      "id": "subtitle",
-      "label": "Subtitle"
-    },
-    {
-      "type": "text",
-      "id": "section_id",
-      "label": "当前模块Id",
-      "info": "用于标识多个 product list 模块，不可重复",
-      "default": "ug-product-list"
-    },
-    {
-      "type": "select",
-      "id": "mobile_product_type",
-      "options": [
-        {
-          "value": "column",
-          "label": "上下排布"
-        },
-        {
-          "value": "row",
-          "label": "左右排布"
-        }
-      ],
-      "label": "移动端风格",
-      "default": "column"
-    },
-    {
-      "type": "color",
-      "id": "product_item_bg_color",
-      "label": "Product Item 背景色",
-      "default": "#fff"
-    },
-    {
-      "type": "text",
-      "id": "pc_product_item_img_size",
-      "label": "电脑端Product Item 图片比例",
-      "default": "50%"
-    },
-    {
-      "type": "text",
-      "id": "mobile_product_item_img_size",
-      "label": "移动端Product Item 图片比例",
-      "default": "57%"
-    },
-    {
+  {
       "type": "text",
       "id": "pc_row",
       "label": "电脑端显示几行",
@@ -309,6 +250,24 @@
       "id": "show_learn_btn",
       "label": "是否展示Learn按钮",
       "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Product list Tabs",
+      "type": "ug-index-category-item",
+      "settings": [
+        {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "商品列表"
+    },
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "当前模块Id",
+      "info": "用于标识多个 product list 模块，不可重复",
+      "default": "ug-product-list"
     }
       ]
     }
