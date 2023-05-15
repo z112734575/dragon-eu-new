@@ -75,7 +75,7 @@
   }
 </style>
 
-{% if pc_product_type == 'column' %}
+{% if pc_product_type == 'row' %}
   <style>
     .ug-product-title{
       color:red!important;
@@ -119,6 +119,7 @@
     
     
     
+    
         $(function () {
             $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                 item: `div.ug-product-item`,
@@ -129,6 +130,7 @@
         </svg></a>`
             });
         })
+
 
 
 
@@ -170,7 +172,7 @@
       "options": [
         {
           "value": "column",
-          "label": "上下排布"
+          "label": "默认排布"
         },
         {
           "value": "row",
