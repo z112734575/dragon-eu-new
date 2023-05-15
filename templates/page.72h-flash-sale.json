@@ -92,12 +92,13 @@
           "snap-deal-ugreen-usb-2-0-switch-2-in-4-output-usb-kvm-switch",
           "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
           "ugreen-100w-usb-c-desktop-charger",
-          "ugreen-100w-usb-c-to-usb-c-cable"
+          "ugreen-100w-usb-c-to-usb-c-cable",
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+          "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter"
         ],
         "title": "",
         "subtitle": "",
         "section_id": "ug-tabs-product-list",
-        "pc_product_type": "column",
         "mobile_product_type": "row",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "100%",
