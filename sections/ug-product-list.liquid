@@ -24,7 +24,7 @@
   assign section_id = settings.section_id
 %}
 <style>
-  #{{ section_id }} .ug-product-list {
+  .ug-product-list {
       margin: 0 auto;
       max-width: 1280px;
       width: 100%;
@@ -38,7 +38,7 @@
       text-align: center;
       line-height: 1.2;
   }
-  #{{ section_id }} .ug-product-list-main {
+  .ug-product-list-main {
       display: grid;
       width: 100%;
       grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
