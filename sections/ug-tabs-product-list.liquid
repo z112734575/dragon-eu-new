@@ -1,7 +1,7 @@
 {% liquid
   assign settings = section.settings
   assign items = section.blocks
-  assign product_list = items.settings.product_list
+  assign product_list = items.product_list
   assign pc_row = settings.pc_row
   assign mobile_row = settings.mobile_row
   assign bg_color = settings.product_item_bg_color
@@ -409,6 +409,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -419,6 +420,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
