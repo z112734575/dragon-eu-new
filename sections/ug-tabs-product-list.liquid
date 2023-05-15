@@ -73,7 +73,13 @@
       }
   }
 </style>
-
+{% if mobile_product_type.column %}
+  <style>
+    .ug-product-title{
+      color:red!important
+    }
+  </style>
+{% endif %}
 <div class="ug-product-list" id="{{ section_id }}">
   {% if title != blank %}
     <div class="ug-product-list-title">{{ title }}</div>
@@ -107,6 +113,8 @@
     
     
     
+    
+    
         $(function () {
             $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                 item: `div.ug-product-item`,
@@ -117,6 +125,8 @@
         </svg></a>`
             });
         })
+
+
 
 
 
