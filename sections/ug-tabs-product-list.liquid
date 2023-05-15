@@ -23,6 +23,10 @@
   assign pc_product_type = settings.pc_product_type
   assign section_id = settings.section_id
 %}
+<link
+  rel="stylesheet"
+  href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790"
+>
 <style>
   .ug-product-list {
       margin: 0 auto;
@@ -104,31 +108,50 @@
       }
   }
 </style>
-
-<div class="ug-product-list" id="{{ section_id }}">
-  {% if title != blank %}
-    <div class="ug-product-list-title">{{ title }}</div>
-  {% endif %}
-  {% if subtitle != blank %}
-    <div class="ug-product-list-sub-title">{{ subtitle }}</div>
-  {% endif %}
-  <div class="ug-product-list-main load-more_list">
-    {% render 'ug-product',
-      product_list: product_list,
-      bg_color: bg_color,
-      sale_flag: sale_flag,
-      pc_product_sale_width: pc_product_sale_width,
-      mobile_product_sale_width: mobile_product_sale_width,
-      show_sale_flag: show_sale_flag,
-      show_compare: show_compare,
-      show_rating: show_rating,
-      show_learn_btn: show_learn_btn,
-      pc_product_item_img_size: pc_product_item_img_size,
-      mobile_product_item_img_size: mobile_product_item_img_size,
-      mobile_product_type: mobile_product_type
-    %}
+<div class="tabs_swiper swiper">
+  <div class="swiper-wrapper">
+    <div class="ug-product-list swiper-slide" id="{{ section_id }}">
+      {% if title != blank %}
+        <div class="ug-product-list-title">{{ title }}</div>
+      {% endif %}
+      {% if subtitle != blank %}
+        <div class="ug-product-list-sub-title">{{ subtitle }}</div>
+      {% endif %}
+      <div class="ug-product-list-main load-more_list">
+        {% render 'ug-product',
+          product_list: product_list,
+          bg_color: bg_color,
+          sale_flag: sale_flag,
+          pc_product_sale_width: pc_product_sale_width,
+          mobile_product_sale_width: mobile_product_sale_width,
+          show_sale_flag: show_sale_flag,
+          show_compare: show_compare,
+          show_rating: show_rating,
+          show_learn_btn: show_learn_btn,
+          pc_product_item_img_size: pc_product_item_img_size,
+          mobile_product_item_img_size: mobile_product_item_img_size,
+          mobile_product_type: mobile_product_type
+        %}
+      </div>
+    </div>
   </div>
 </div>
+
+<script src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/jquery-1.7.2.min.js?v=1624935298"></script>
+<script
+  src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_23a60c44-0efc-4129-bf9f-c046f688609a.js?v=1655275790"
+></script>
+<script>
+  const TabsSwiper = new Swiper('.tabs_swiper', {
+             slidesPerView: 'auto',
+             spaceBetween: 20,
+             speed: 1000,
+             loop: true,
+             autoplay: {
+                 delay: 5000,
+             },
+         })
+</script>
 {% if need_load_more %}
   <script
     src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
@@ -136,34 +159,16 @@
   ></script>
   <script>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        $(function () {
-            $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
-                item: `div.ug-product-item`,
-                count: {{ load_more_default_count }},
-                itemsToLoad: -1,
-                btnHTML: `<a href="#" class="load-more__btn">View More <svg class="icon" aria-hidden="true" style="transform: rotate(90deg)">
-            <use xlink:href="#icon-xiayiye"></use>
-        </svg></a>`
-            });
-        })
-
-
-
-
-
-
-
-
-
+          $(function () {
+              $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
+                  item: `div.ug-product-item`,
+                  count: {{ load_more_default_count }},
+                  itemsToLoad: -1,
+                  btnHTML: `<a href="#" class="load-more__btn">View More <svg class="icon" aria-hidden="true" style="transform: rotate(90deg)">
+              <use xlink:href="#icon-xiayiye"></use>
+          </svg></a>`
+              });
+          })
 
   </script>
 {% endif %}
@@ -248,13 +253,13 @@
       "type": "text",
       "id": "pc_row",
       "label": "电脑端显示几行",
-      "default": "3"
+      "default": "4"
     },
     {
       "type": "text",
       "id": "mobile_row",
       "label": "移动端显示几行",
-      "default": "1"
+      "default": "2"
     },
     {
       "type": "text",
@@ -290,13 +295,13 @@
       "type": "checkbox",
       "id": "need_load_more",
       "label": "是否需要加载更多",
-      "default": false
+      "default": true
     },
     {
       "type": "number",
       "id": "load_more_default_count",
       "label": "初始展示数量",
-      "default": 6
+      "default": 4
     },
     {
       "type": "checkbox",
