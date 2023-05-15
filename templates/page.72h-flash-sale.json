@@ -38,6 +38,41 @@
         "code_cus_css": ""
       }
     },
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "product_list": [
+          "products-test",
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+          "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
+          "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
+          "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-600",
+          "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w",
+          "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-200-w",
+          "ugreen-9-in-1-usb-c-docking-station"
+        ],
+        "title": "",
+        "subtitle": "",
+        "section_id": "ug-product-list1",
+        "mobile_product_type": "column",
+        "product_item_bg_color": "#eff2f8",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "57%",
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "40px 0 120px 0",
+        "mobile_padding": "30px 0 80px 0",
+        "need_load_more": false,
+        "load_more_default_count": 6,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": false,
+        "show_learn_btn": false
+      }
+    },
     "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
       "type": "custom-html",
       "settings": {
@@ -73,6 +108,7 @@
     "e49dddc3-8400-4a86-a3ec-b69a2fd75773",
     "d2230466-b5fe-49cc-ac39-926497ba0c21",
     "ba30f705-8ef4-4326-9574-a9913009c92c",
+    "ug-product-list",
     "e8f15098-8dc6-40ea-98fc-74037a3d1191",
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe"
   ]
