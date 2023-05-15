@@ -20,6 +20,7 @@
   assign pc_product_item_img_size = settings.pc_product_item_img_size
   assign mobile_product_item_img_size = settings.mobile_product_item_img_size
   assign mobile_product_type = settings.mobile_product_type
+  assign pc_product_type = settings.pc_product_type
   assign section_id = settings.section_id
 %}
 <style>
@@ -73,7 +74,7 @@
       }
   }
 </style>
-{% if mobile_product_type.value == column %}
+{% if pc_product_type.value == column %}
   <style>
     .ug-product-title{
       color:red!important;
@@ -111,13 +112,6 @@
   ></script>
   <script>
     
-    
-    
-    
-    
-    
-    
-    
         $(function () {
             $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                 item: `div.ug-product-item`,
@@ -128,13 +122,6 @@
         </svg></a>`
             });
         })
-
-
-
-
-
-
-
 
   </script>
 {% endif %}
@@ -164,6 +151,22 @@
       "label": "当前模块Id",
       "info": "用于标识多个 product list 模块，不可重复",
       "default": "ug-product-list"
+    },
+    {
+      "type": "select",
+      "id": "pc_product_type",
+      "options": [
+        {
+          "value": "column",
+          "label": "上下排布"
+        },
+        {
+          "value": "row",
+          "label": "左右排布"
+        }
+      ],
+      "label": "电脑端排版风格",
+      "default": "column"
     },
     {
       "type": "select",
