@@ -107,6 +107,15 @@
         "bf4ba482-18d6-42d8-8256-755338b45692"
       ],
       "settings": {
+        "product_list1": [
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+          "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
+          "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-600",
+          "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w"
+        ],
+        "product_item_bg_color": "#fff",
+        "pc_product_item_img_size": "50%",
+        "mobile_product_item_img_size": "57%",
         "pc_row": "4",
         "mobile_row": "2",
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
