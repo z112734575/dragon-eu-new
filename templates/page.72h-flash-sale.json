@@ -88,8 +88,8 @@
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
-        "9a36209f-a6d5-4ff2-8c3b-0fef6c46445d": {
-          "type": "ug-product-list",
+        "2632b153-e4f5-4946-9146-3002be2c2b29": {
+          "type": "ug-product-list-tabs",
           "settings": {
             "tabs_title": "111",
             "product_list": [
@@ -98,26 +98,12 @@
               "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-600",
               "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w"
             ],
-            "section_id": "ug-product-list2"
-          }
-        },
-        "368005d8-94ad-4701-a538-d0118dc024d3": {
-          "type": "ug-product-list",
-          "settings": {
-            "tabs_title": "222",
-            "product_list": [
-              "snap-deal-ugreen-usb-2-0-switch-2-in-4-output-usb-kvm-switch",
-              "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
-              "snap-deal-deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
-              "wholesale-deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio"
-            ],
-            "section_id": "ug-product-list"
+            "section_id": "ug-product-list-tabs"
           }
         }
       },
       "block_order": [
-        "9a36209f-a6d5-4ff2-8c3b-0fef6c46445d",
-        "368005d8-94ad-4701-a538-d0118dc024d3"
+        "2632b153-e4f5-4946-9146-3002be2c2b29"
       ],
       "settings": {
         "product_item_bg_color": "#222222",
