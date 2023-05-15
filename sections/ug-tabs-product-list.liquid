@@ -63,7 +63,7 @@
       color: #000;
   }
   @media (max-width: 768px) {
-       .ug-product-list {
+       #{{ section_id }} .ug-product-list {
           padding: {{ mobile_padding }};
       }
       #{{ section_id }} .ug-product-list-main {
@@ -199,6 +199,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -209,6 +210,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
