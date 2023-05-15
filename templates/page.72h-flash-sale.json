@@ -129,7 +129,7 @@
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
         "pc_product_sale_width": "60px",
         "mobile_product_sale_width": "48px",
-        "pc_padding": "0 0 200px 0",
+        "pc_padding": "40px 0 200px 0",
         "mobile_padding": "40px 0",
         "need_load_more": true,
         "load_more_default_count": 4,
