@@ -64,6 +64,15 @@
       background: #FF8818;
       color: #fff;
   }
+   @media (min-width: 768px) {
+      #{{ section_id }} .ug-product-buy{
+          flex-direction: column;
+          align-items: stretch!important;
+      }
+      #{{ section_id }} .ug-product-buy .ug-product-buy-btn{
+          margin-bottom: 12px;
+      }
+   }
   @media (max-width: 768px) {
        #{{ section_id }} .ug-product-list {
           padding: {{ mobile_padding }};
@@ -208,6 +217,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -218,6 +228,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
