@@ -24,16 +24,15 @@
   href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790"
 >
 <style>
-  #{{ section_id }} .ug-product-list {
+   .ug-product-list {
       margin: 0 auto;
       max-width: 1280px;
       width: 100%;
       padding: {{ pc_padding }};
   }
-  #{{ section_id }} .ug-product-list-main {
+   .ug-product-list-main {
       display: grid;
       width: 100%;
-      grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
       gap: 1vw;
       position: relative;
   }
@@ -305,7 +304,10 @@
         {% assign product_list = item.settings.product_list %}
         {% assign section_id = item.settings.section_id %}
         <div class="ug-product-list swiper-slide" id="{{ section_id }}">
-          <div class="ug-product-list-main load-more_list">
+          <div
+            class="ug-product-list-main load-more_list"
+            style="grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));"
+          >
             {% for product in product_list %}
               <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
                 <div class="ug-product-box">
@@ -423,6 +425,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -433,6 +436,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
