@@ -94,7 +94,6 @@
         <div class="ug-product-list swiper-slide" id="{{ section_id }}">
           <div
             class="ug-product-list-main load-more_list"
-            style="grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));"
           >
             {% for product in product_list %}
               <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
@@ -217,6 +216,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -227,6 +227,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
