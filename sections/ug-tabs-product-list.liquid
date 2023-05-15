@@ -58,6 +58,20 @@
       left: 50%;
       transform: translate(-50%, 100%);
   }
+  .cursor-btns .cursor-btn {
+      padding-bottom: 0.78125vw;
+      text-align: center;
+      cursor: pointer;
+      font-size: 1.042vw;
+      border-bottom: 0.052vw solid rgba(0, 0, 0, 0.2);
+      transition: all .3s;
+  }
+
+  .cursor-btns .cursor-btn:hover,
+  .cursor-btns .cursor-btn.swiper-slide-thumb-active {
+      border-bottom: 0.052vw solid #00CC88;
+      color: #000;
+  }
   @media (max-width: 768px) {
       #{{ section_id }} .ug-product-list {
           padding: {{ mobile_padding }};
@@ -77,6 +91,12 @@
       }
   }
 </style>
+<div class="cursor-btns swiper" thumbsslider="">
+  <div class="swiper-wrapper">
+    <span class="cursor-btn swiper-slide">Compatibility</span>
+    <span class="cursor-btn swiper-slide">Ports</span>
+  </div>
+</div>
 <div class="tabs_swiper swiper">
   <div class="swiper-wrapper">
     <div class="ug-product-list swiper-slide" id="{{ section_id }}">
@@ -111,14 +131,22 @@
   src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_23a60c44-0efc-4129-bf9f-c046f688609a.js?v=1655275790"
 ></script>
 <script>
+  const cursorBtns = new Swiper(".cursor-btns", {
+              slidesPerView: 5,
+              watchSlidesVisibility: true //防止不可点击
+          });
   const TabsSwiper = new Swiper('.tabs_swiper', {
              slidesPerView: 'auto',
              spaceBetween: 20,
              speed: 1000,
+             centeredSlides: true,
              loop: true,
              autoplay: {
                  delay: 5000,
              },
+             thumbs: {
+                  swiper: cursorBtns,
+              },
          })
 </script>
 {% if need_load_more %}
