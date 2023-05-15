@@ -33,6 +33,7 @@
    .ug-product-list-main {
       display: grid;
       width: 100%;
+     grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
       gap: 1vw;
       position: relative;
   }
@@ -426,6 +427,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -436,6 +438,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
