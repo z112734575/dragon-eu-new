@@ -20,7 +20,6 @@
   assign pc_product_item_img_size = settings.pc_product_item_img_size
   assign mobile_product_item_img_size = settings.mobile_product_item_img_size
   assign mobile_product_type = settings.mobile_product_type
-  assign pc_product_type = settings.pc_product_type
   assign section_id = settings.section_id
 %}
 <link
@@ -28,7 +27,7 @@
   href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790"
 >
 <style>
-  .ug-product-list {
+  #{{ section_id }} .ug-product-list {
       margin: 0 auto;
       max-width: 1280px;
       width: 100%;
@@ -60,14 +59,14 @@
       transform: translate(-50%, 100%);
   }
   @media (max-width: 768px) {
-      .ug-product-list {
+      #{{ section_id }} .ug-product-list {
           padding: {{ mobile_padding }};
       }
       .ug-product-list-title {
           font-size: 24px;
           margin-bottom: 40px;
       }
-      .ug-product-list-main {
+      #{{ section_id }} .ug-product-list-main {
           grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
           gap: 12px;
           padding: 0 12px;
@@ -129,20 +128,22 @@
   ></script>
   <script>
     
-    
-    
-          $(function () {
-              $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
-                  item: `div.ug-product-item`,
-                  count: {{ load_more_default_count }},
-                  itemsToLoad: -1,
-                  btnHTML: `<a href="#" class="load-more__btn">View More <svg class="icon" aria-hidden="true" style="transform: rotate(90deg)">
-              <use xlink:href="#icon-xiayiye"></use>
-          </svg></a>`
-              });
-          })
-
-
+      
+      
+      
+            $(function () {
+                $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
+                    item: `div.ug-product-item`,
+                    count: {{ load_more_default_count }},
+                    itemsToLoad: -1,
+                    btnHTML: `<a href="#" class="load-more__btn">View More <svg class="icon" aria-hidden="true" style="transform: rotate(90deg)">
+                <use xlink:href="#icon-xiayiye"></use>
+            </svg></a>`
+                });
+            })
+  
+  
+  
 
   </script>
 {% endif %}
