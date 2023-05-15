@@ -300,8 +300,8 @@
   <div class="tabs_swiper swiper">
     <div class="swiper-wrapper">
       {% for item in items %}
-        {% assign product_list = items.settings.product_list %}
-        {% assign section_id = items.settings.section_id %}
+        {% assign product_list = item.settings.product_list %}
+        {% assign section_id = item.settings.section_id %}
         <div class="ug-product-list swiper-slide" id="{{ section_id }}">
           <div class="ug-product-list-main load-more_list">
             {% for product in product_list %}
@@ -414,6 +414,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -424,6 +425,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
