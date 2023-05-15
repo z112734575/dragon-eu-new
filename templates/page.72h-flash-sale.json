@@ -42,7 +42,6 @@
       "type": "ug-product-list",
       "settings": {
         "product_list": [
-          "products-test",
           "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
           "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
           "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
@@ -55,7 +54,7 @@
         "subtitle": "",
         "section_id": "ug-product-list1",
         "mobile_product_type": "column",
-        "product_item_bg_color": "#eff2f8",
+        "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
         "pc_row": "4",
@@ -65,7 +64,7 @@
         "mobile_product_sale_width": "48px",
         "pc_padding": "0",
         "mobile_padding": "0",
-        "need_load_more": true,
+        "need_load_more": false,
         "load_more_default_count": 4,
         "show_sale_flag": true,
         "show_compare": true,
