@@ -24,7 +24,7 @@
   assign section_id = settings.section_id
 %}
 <style>
-  .ug-product-list {
+  #{{ section_id }} .ug-product-list {
       margin: 0 auto;
       max-width: 1280px;
       width: 100%;
@@ -38,7 +38,7 @@
       text-align: center;
       line-height: 1.2;
   }
-  .ug-product-list-main {
+  #{{ section_id }} .ug-product-list-main {
       display: grid;
       width: 100%;
       grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
@@ -148,6 +148,7 @@
     
     
     
+    
         $(function () {
             $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                 item: `div.ug-product-item`,
@@ -158,6 +159,7 @@
         </svg></a>`
             });
         })
+
 
 
 
