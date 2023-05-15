@@ -50,10 +50,10 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_100w_charger_pc__2x-2.jpg?v=1673702929",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pe-banner-2.png?v=166554269",
-            "title": "Nexode 100W Charger",
-            "subtitle": "4-in-1 Multiport Charger",
-            "button_text": "Shop Now",
-            "link": "\/products\/ugreen-nexode-100w-usb-c-wall-charger",
+            "title": "",
+            "subtitle": "",
+            "button_text": "",
+            "link": "\/products\/15054a",
             "className": "nexode-100w"
           }
         },
@@ -178,6 +178,7 @@
         "title": "Hot Sale",
         "subtitle": "",
         "section_id": "ug-product-list",
+        "pc_product_type": "column",
         "mobile_product_type": "column",
         "product_item_bg_color": "#f8f8f9",
         "pc_product_item_img_size": "100%",
