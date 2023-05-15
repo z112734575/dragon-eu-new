@@ -302,7 +302,7 @@
   <div class="tabs_swiper swiper">
     <div class="swiper-wrapper">
       {% for item in items %}
-        <div class="ug-product-list swiper-slide" id="{{ item.section_id }}">
+        <div class="ug-product-list swiper-slide" id="{{ section_id }}">
           <div class="ug-product-list-main load-more_list">
             {% for product in product_list %}
               <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
@@ -411,6 +411,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -421,6 +422,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
