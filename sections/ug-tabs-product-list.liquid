@@ -75,7 +75,7 @@
   }
 </style>
 
-{% if pc_product_type.value.column %}
+{% if pc_product_type == 'column' %}
   <style>
     .ug-product-title{
       color:red!important;
@@ -118,6 +118,7 @@
     
     
     
+    
         $(function () {
             $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                 item: `div.ug-product-item`,
@@ -128,6 +129,7 @@
         </svg></a>`
             });
         })
+
 
 
 
