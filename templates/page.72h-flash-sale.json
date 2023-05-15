@@ -96,7 +96,9 @@
               "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
               "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
               "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-600",
-              "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w"
+              "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w",
+              "snap-deal-ugreen-usb-2-0-switch-2-in-4-output-usb-kvm-switch",
+              "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio"
             ]
           }
         },
@@ -127,7 +129,7 @@
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
         "pc_product_sale_width": "60px",
         "mobile_product_sale_width": "48px",
-        "pc_padding": "80px 0",
+        "pc_padding": "0 0 200px 0",
         "mobile_padding": "40px 0",
         "need_load_more": true,
         "load_more_default_count": 4,
