@@ -299,7 +299,7 @@
       <span class="cursor-btn swiper-slide">Ports</span>
     </div>
   </div>
-  {% for product in product_list1 %}
+  {% for product in product_list %}
     <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
       <div class="ug-product-box">
         <a href="{{ product.url }}">
@@ -484,6 +484,8 @@
     
     
     
+    
+    
       
       
       
@@ -516,6 +518,8 @@
 
 
 
+
+
   </script>
 {% endif %}
 
@@ -525,7 +529,7 @@
   "settings": [
     {
           "type": "product_list",
-          "id": "product_list1",
+          "id": "product_list",
           "label": "商品列表"
         },
     {
