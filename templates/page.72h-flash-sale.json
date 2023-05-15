@@ -88,78 +88,36 @@
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
-        "b8e4cf59-72d1-41b7-abed-95ea0c9fc887": {
-          "type": "ug-index-category-item",
+        "bf4ba482-18d6-42d8-8256-755338b45692": {
+          "type": "ug-product-list",
           "settings": {
             "product_list": [
               "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
               "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
               "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-600",
-              "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w",
-              "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-200-w",
-              "ugreen-9-in-1-usb-c-docking-station"
+              "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w"
             ],
-            "title": "",
-            "subtitle": "",
-            "section_id": "ug-product-list",
-            "mobile_product_type": "column",
-            "product_item_bg_color": "#fff",
-            "pc_product_item_img_size": "50%",
-            "mobile_product_item_img_size": "57%",
-            "pc_row": "4",
-            "mobile_row": "2",
-            "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
-            "pc_product_sale_width": "60px",
-            "mobile_product_sale_width": "48px",
-            "pc_padding": "80px 0",
-            "mobile_padding": "40px 0",
-            "need_load_more": true,
-            "load_more_default_count": 4,
-            "show_sale_flag": true,
-            "show_compare": true,
-            "show_rating": true,
-            "show_learn_btn": true
-          }
-        },
-        "1a12d0c0-761f-4ba7-8443-f4dc1eb795c8": {
-          "type": "ug-index-category-item",
-          "settings": {
-            "product_list": [
-              "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
-              "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
-              "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-600",
-              "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-100-w",
-              "ugreen-9-in-1-usb-c-docking-station",
-              "snap-deal-ugreen-solar-panel-foldable-solar-panel-for-portable-power-station-200-w"
-            ],
-            "title": "",
-            "subtitle": "",
-            "section_id": "ug-product-list",
-            "mobile_product_type": "column",
-            "product_item_bg_color": "#fff",
-            "pc_product_item_img_size": "50%",
-            "mobile_product_item_img_size": "57%",
-            "pc_row": "4",
-            "mobile_row": "2",
-            "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
-            "pc_product_sale_width": "60px",
-            "mobile_product_sale_width": "48px",
-            "pc_padding": "80px 0",
-            "mobile_padding": "40px 0",
-            "need_load_more": true,
-            "load_more_default_count": 4,
-            "show_sale_flag": true,
-            "show_compare": true,
-            "show_rating": true,
-            "show_learn_btn": true
+            "section_id": "ug-product-list"
           }
         }
       },
       "block_order": [
-        "b8e4cf59-72d1-41b7-abed-95ea0c9fc887",
-        "1a12d0c0-761f-4ba7-8443-f4dc1eb795c8"
+        "bf4ba482-18d6-42d8-8256-755338b45692"
       ],
       "settings": {
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "80px 0",
+        "mobile_padding": "40px 0",
+        "need_load_more": true,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true
       }
     },
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
