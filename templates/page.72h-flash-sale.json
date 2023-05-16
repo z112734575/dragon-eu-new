@@ -41,7 +41,7 @@
     "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
       "type": "custom-html",
       "settings": {
-        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-discount_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Buy More, Save More<\/span>\n<\/h2>\n        <p>€10 Off | Ordres of 79+, €25 Off | Ordres of 149+ (Code: <button data-ug-copy-data=\"UGREEN10\" class=\"copy-btn\">UGREEN10<\/button>,<button data-ug-copy-data=\"UGREEN25\" class=\"copy-btn\">UGREEN25<\/button>)<\/p>\n    <\/section>",
+        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-discount_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Buy More, Save More<\/span>\n<\/h2>\n\n    <\/section>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
