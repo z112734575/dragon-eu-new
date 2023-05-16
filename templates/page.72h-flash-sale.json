@@ -175,6 +175,7 @@
       ],
       "settings": {
         "section_id": "tabs_product",
+        "list_all": "6",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "50%",
         "mobile_product_item_img_size": "57%",
