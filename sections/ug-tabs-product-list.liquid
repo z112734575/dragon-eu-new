@@ -21,10 +21,6 @@
   assign section_id = settings.section_id
   assign list_all = settings.list_all
 %}
-<link
-  rel="stylesheet"
-  href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790"
->
 <style>
      #{{ section_id }} .ug-product-list {
         margin: 0 auto;
@@ -197,9 +193,6 @@
     </div>
   </div>
 </div>
-<script
-  src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_23a60c44-0efc-4129-bf9f-c046f688609a.js?v=1655275790"
-></script>
 <script>
   const cursorBtns = new Swiper(".cursor-btns", {
               slidesPerView: {{ list_all }},
@@ -244,6 +237,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -254,6 +248,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
