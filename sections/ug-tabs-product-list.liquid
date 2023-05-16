@@ -111,7 +111,7 @@
 </style>
 
 <div class="contant">
-  <div class="cursor-btns swiper" thumbsslider="">
+  <div class="cursor-btns" thumbsslider="">
     <div class="swiper-wrapper">
       {% for item in items %}
         {% assign tabs_title = item.settings.tabs_title %}
@@ -244,6 +244,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -254,6 +255,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
