@@ -197,6 +197,7 @@
   const cursorBtns = new Swiper(".cursor-btns", {
               slidesPerView: {{ list_all }},
         spaceBetween: 20,
+    loop: true,
               watchSlidesVisibility: true //防止不可点击
           });
   const TabsSwiper = new Swiper('.tabs_swiper', {
@@ -240,6 +241,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -250,6 +252,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
