@@ -1665,7 +1665,7 @@
               "open_link": "_self",
               "menu": "product-chargers",
               "icon": "",
-              "lb": "NEW",
+              "lb": "",
               "lb_cl": "#29efcd"
             }
           },
@@ -1702,7 +1702,7 @@
               "open_link": "_self",
               "menu": "",
               "icon": "",
-              "lb": "Flash Sale",
+              "lb": "NEW",
               "lb_cl": "#4ce0ce"
             }
           },
