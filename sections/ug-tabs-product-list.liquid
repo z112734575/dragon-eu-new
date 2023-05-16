@@ -59,9 +59,7 @@
   .cursor-btns .swiper-wrapper{
             justify-content: center;
           }
-          .cursor-btns .cursor-btn:last-child{
-            margin: 0!important;
-        }
+
     .cursor-btns .cursor-btn:hover,
     .cursor-btns .cursor-btn.swiper-slide-thumb-active {
         background: #FF8818;
@@ -74,6 +72,9 @@
         }
         #{{ section_id }} .ug-product-buy .ug-product-buy-btn{
             margin-bottom: 12px;
+        }
+        .cursor-btns .cursor-btn:last-child{
+            margin: 0!important;
         }
      }
     @media (max-width: 768px) {
@@ -248,6 +249,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -258,6 +260,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
