@@ -1693,6 +1693,19 @@
               "lb_cl": ""
             }
           },
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "title": "72H Deal",
+              "url": "shopify:\/\/pages\/weekly-sale",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "New",
+              "lb_cl": "#4ce0ce"
+            }
+          },
           "a6508826-0ecb-4412-a5d8-a7547aa8d015": {
             "type": "menu",
             "settings": {
@@ -1720,19 +1733,6 @@
             "type": "acc",
             "disabled": true,
             "settings": {
-            }
-          },
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "WEEKLY SALE",
-              "url": "shopify:\/\/pages\/weekly-sale",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
             }
           },
           "6f549481-942e-4bc2-82b1-22f3208c3997": {
@@ -1794,11 +1794,11 @@
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf",
           "a0d1607c-521f-49bd-8ed4-1c384cca180e",
           "06092e7b-58cd-4790-9721-e86ddd55d4a0",
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
           "a6508826-0ecb-4412-a5d8-a7547aa8d015",
           "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
           "6f549481-942e-4bc2-82b1-22f3208c3997",
           "8d7adc9a-6e6f-4c96-849e-005240cb0084",
           "mb_nav-7",
