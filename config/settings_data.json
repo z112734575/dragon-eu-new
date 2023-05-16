@@ -756,7 +756,7 @@
             "disabled": true,
             "settings": {
               "title": "72H Deal",
-              "url": "#",
+              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1698,7 +1698,7 @@
             "disabled": true,
             "settings": {
               "title": "72H Deal",
-              "url": "shopify:\/\/pages\/weekly-sale",
+              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
               "open_link": "_self",
               "menu": "",
               "icon": "",
