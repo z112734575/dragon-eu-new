@@ -107,7 +107,7 @@
 </style>
 
 <div class="contant">
-  <div class="cursor-btns" thumbsslider="">
+  <div class="cursor-btns swiper" thumbsslider="">
     <div class="swiper-wrapper">
       {% for item in items %}
         {% assign tabs_title = item.settings.tabs_title %}
@@ -196,6 +196,7 @@
 <script>
   const cursorBtns = new Swiper(".cursor-btns", {
               slidesPerView: {{ list_all }},
+        spaceBetween: 20,
               watchSlidesVisibility: true //防止不可点击
           });
   const TabsSwiper = new Swiper('.tabs_swiper', {
@@ -238,6 +239,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -248,6 +250,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
