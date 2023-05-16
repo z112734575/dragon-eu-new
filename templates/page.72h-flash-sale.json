@@ -128,12 +128,11 @@
         "448af4be-180b-49ce-9705-b9ed6cbf39ca": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Power Station",
+            "tabs_title": "Fast Chargers",
             "product_list": [
-              "15054a",
-              "ugreen-portable-power-station-mit-byd-gemeinsam-entwickeltes-1200w-1024wh",
-              "ugreen-portable-power-station-mit-byd-gemeinsam-entwickeltes-600w-680wh",
-              "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601"
+              "ugreen-65w-usb-c-charger-with-3-ports",
+              "power-supply-pd-3-0",
+              "ugreen-30w-usb-c-charger-with-pd3-0"
             ]
           }
         },
