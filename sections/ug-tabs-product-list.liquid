@@ -26,86 +26,88 @@
   href="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790"
 >
 <style>
-   #{{ section_id }} .ug-product-list {
-      margin: 0 auto;
-      max-width: 1280px;
-      width: 100%;
-      padding: {{ pc_padding }};
-  }
-   #{{ section_id }} .ug-product-list-main {
-      display: grid;
-      width: 100%;
-     grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
-      gap: 1vw;
-      position: relative;
-  }
-  .load-more__btn {
-      color: #00CC88;
-      font-size: 1.04vw;
-  }
-  .load-more__btn-wrap {
-      position: absolute;
-      bottom: -40px;
-      left: 50%;
-      transform: translate(-50%, 100%);
-  }
-  .cursor-btns .cursor-btn {
-      padding: 16px 0;
-      text-align: center;
-      cursor: pointer;
-      font-size: 16px;
-    line-height: 16px;
-      background: #FFF5D3;
-    border-radius: 6px;
-      transition: all .3s;
-    color: #FF8818;
-  }
-
-  .cursor-btns .cursor-btn:hover,
-  .cursor-btns .cursor-btn.swiper-slide-thumb-active {
-      background: #FF8818;
-      color: #fff;
-  }
-   @media (min-width: 768px) {
-      #{{ section_id }} .ug-product-buy{
-          flex-direction: column;
-          align-items: stretch!important;
-      }
-      #{{ section_id }} .ug-product-buy .ug-product-buy-btn{
-          margin-bottom: 12px;
-      }
-   }
-  @media (max-width: 768px) {
-       #{{ section_id }} .ug-product-list {
-          padding: {{ mobile_padding }};
-      }
-      #{{ section_id }} .ug-product-list-main {
-          grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
-          gap: 12px;
-          padding: 0 12px;
-      }
-      .load-more__btn {
-          color: #00CC88;
-          font-size: 16px;
-      }
-    .cursor-btns{
-            position: sticky!important;
-            top: 0;
-            z-index: 99;
-            background: #fff;
-            padding: 15px;
+     #{{ section_id }} .ug-product-list {
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        padding: {{ pc_padding }};
+    }
+     #{{ section_id }} .ug-product-list-main {
+        display: grid;
+        width: 100%;
+       grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
+        gap: 1vw;
+        position: relative;
+    }
+    .load-more__btn {
+        color: #00CC88;
+        font-size: 1.04vw;
+    }
+    .load-more__btn-wrap {
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translate(-50%, 100%);
+    }
+    .cursor-btns .cursor-btn {
+        padding: 16px 0;
+        text-align: center;
+        cursor: pointer;
+        font-size: 16px;
+      line-height: 16px;
+        background: #FFF5D3;
+      border-radius: 6px;
+        transition: all .3s;
+      color: #FF8818;
+    }
+  .cursor-btns .swiper-wrapper{
+            justify-content: center;
+          }
+    .cursor-btns .cursor-btn:hover,
+    .cursor-btns .cursor-btn.swiper-slide-thumb-active {
+        background: #FF8818;
+        color: #fff;
+    }
+     @media (min-width: 768px) {
+        #{{ section_id }} .ug-product-buy{
+            flex-direction: column;
+            align-items: stretch!important;
         }
-        .cursor-btns .cursor-btn{
-            width: 25%!important;
-            font-size: 14px;
-            line-height: 14px;
-            padding: 13px 0;
-            margin: 4px!important;
+        #{{ section_id }} .ug-product-buy .ug-product-buy-btn{
+            margin-bottom: 12px;
         }
-        .cursor-btns .swiper-wrapper{
-            flex-wrap: wrap!important;
+     }
+    @media (max-width: 768px) {
+         #{{ section_id }} .ug-product-list {
+            padding: {{ mobile_padding }};
         }
-  }
+        #{{ section_id }} .ug-product-list-main {
+            grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
+            gap: 12px;
+            padding: 0 12px;
+        }
+        .load-more__btn {
+            color: #00CC88;
+            font-size: 16px;
+        }
+      .cursor-btns{
+              position: sticky!important;
+              top: 0;
+              z-index: 99;
+              background: #fff;
+              padding: 15px;
+          }
+          .cursor-btns .cursor-btn{
+               width: calc(25% - 8px)!important;
+              font-size: 14px;
+              line-height: 14px;
+              padding: 13px 0;
+              margin: 4px!important;
+          }
+          .cursor-btns .swiper-wrapper{
+            justify-content: center;
+          }
+    }
 </style>
 
 <div class="contant">
@@ -241,6 +243,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -251,6 +254,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
