@@ -93,10 +93,10 @@
             "product_list": [
               "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
               "ugreen-nexode-100w-usb-c-wall-charger-2-ports",
+              "ugreen-100w-usb-c-desktop-charger",
               "ugreen-65w-power-strip-diginest-cube-gan-extension-lead-with-usb-c-slots",
-              "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger",
               "ugreen-65w-usb-c-pd-charger-4-ports",
-              "ugreen-100w-usb-c-desktop-charger"
+              "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger"
             ]
           }
         },
@@ -105,8 +105,8 @@
           "settings": {
             "tabs_title": "Hubs & Docking Station",
             "product_list": [
-              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
               "ugreen-6-in-1-usb-c-hub",
+              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
               "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
               "ugreen-usb-c-triple-display-docking-station",
               "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio"
