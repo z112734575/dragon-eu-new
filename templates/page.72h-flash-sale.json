@@ -151,12 +151,12 @@
         "4a3eddf4-b4a6-4086-a1fa-2bf590158427": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "6666",
+            "tabs_title": "Stands",
             "product_list": [
-              "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
-              "snap-deal-ugreen-usb-2-0-switch-2-in-4-output-usb-kvm-switch",
-              "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
-              "snap-deal-deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio"
+              "ugreen-aluminum-adjustable-tablet-stand",
+              "ugreen-360-rotating-tablet-stand-holder",
+              "ugreen-superior-suction-cup-car-phone-holder",
+              "ugreen-hands-free-air-vent-car-phone-holder"
             ]
           }
         }
