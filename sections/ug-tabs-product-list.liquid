@@ -19,6 +19,7 @@
   assign mobile_product_item_img_size = settings.mobile_product_item_img_size
   assign mobile_product_type = settings.mobile_product_type
   assign section_id = settings.section_id
+  assign list_all = settings.list_all
 %}
 <link
   rel="stylesheet"
@@ -183,7 +184,7 @@
 ></script>
 <script>
   const cursorBtns = new Swiper(".cursor-btns", {
-              slidesPerView: 6,
+              slidesPerView: {{ list_all }},
     spaceBetween: 20,
               watchSlidesVisibility: true //防止不可点击
           });
@@ -218,6 +219,9 @@
     
     
     
+    
+    
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -228,6 +232,9 @@
             </svg></a>`
                 });
             });
+
+
+
 
 
 
@@ -250,6 +257,12 @@
       "type": "text",
       "id": "section_id",
       "label": "当前模块Id"
+    },
+    {
+      "type": "text",
+      "id": "list_all",
+      "label": "设置几组产品",
+      "default": "8"
     },
     {
       "type": "color",
