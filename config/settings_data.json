@@ -736,6 +736,7 @@
           },
           "6141bf58-9316-4ce8-bd6d-16b03ed3fc8c": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "HUB & ADAPTER",
               "url": "#",
@@ -1682,6 +1683,7 @@
           },
           "a0d1607c-521f-49bd-8ed4-1c384cca180e": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "HUB & ADAPTER",
               "url": "#",
