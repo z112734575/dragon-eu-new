@@ -8,6 +8,18 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "ug-index-carousel-11": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner.webp?v=1684305064",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_mobile.webp?v=1684305063",
+            "title": "72H Flash Sale!",
+            "subtitle": "Up To 55% Off",
+            "button_text": "Shop Now",
+            "link": "\/pages\/flash-sale",
+            "className": "banner_left"
+          }
+        },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -44,19 +56,6 @@
             "className": ""
           }
         },
-        "ug-index-carousel-11": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1200_web_eu.png?v=1684142207",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_eu_3.png?v=1684143863",
-            "title": "",
-            "subtitle": "",
-            "button_text": "",
-            "link": "\/products\/15054a",
-            "className": "nexode-100w"
-          }
-        },
         "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -72,15 +71,15 @@
         }
       },
       "block_order": [
+        "ug-index-carousel-11",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-1",
         "86777b6a-bde9-4981-9d0b-274743aba41c",
-        "ug-index-carousel-11",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
       "settings": {
-        "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
-        "banner_index": ""
+        "custom_style": ".banner_left .green-home-banner-box {\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n    max-width: 1280px;\n    margin: 0 auto;\n}\n.banner_left .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.banner_left .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
+        "banner_index": "0"
       }
     },
     "ug-index-image": {
