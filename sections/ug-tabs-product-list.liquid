@@ -209,9 +209,6 @@
              speed: 1000,
              centeredSlides: true,
              loop: true,
-             autoplay: {
-                 delay: 5000,
-             },
              thumbs: {
                   swiper: cursorBtns,
               },
@@ -251,6 +248,7 @@
     
     
     
+    
             $(function () {
                 $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                     item: `div.ug-product-item`,
@@ -261,6 +259,7 @@
             </svg></a>`
                 });
             });
+
 
 
 
