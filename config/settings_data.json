@@ -700,6 +700,23 @@
               "r_s_v_item": "30"
             }
           },
+          "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
+            "type": "drop",
+            "settings": {
+              "title": "72H Deal",
+              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "New",
+              "lb_cl": "#4ce0ce",
+              "lazy_mn": true,
+              "pos_sub": "bottom",
+              "pos": "left"
+            }
+          },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
             "type": "drop",
             "settings": {
@@ -752,23 +769,6 @@
               "pos": "left"
             }
           },
-          "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
-            "type": "drop",
-            "settings": {
-              "title": "72H Deal",
-              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "New",
-              "lb_cl": "#4ce0ce",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
           "498888dd-d297-4762-adcd-478cdb134666": {
             "type": "base",
             "disabled": true,
@@ -807,10 +807,10 @@
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "7b6b268c-25a0-4c97-960d-7e81c56a2676",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
+          "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7",
           "16e2ef48-b04b-46f0-bf5f-d12823645624",
           "6141bf58-9316-4ce8-bd6d-16b03ed3fc8c",
-          "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "498888dd-d297-4762-adcd-478cdb134666",
           "81870b72-15ac-42fc-9d8c-0f9898d38878"
         ],
