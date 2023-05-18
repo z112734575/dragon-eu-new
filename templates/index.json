@@ -8,6 +8,18 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "86777b6a-bde9-4981-9d0b-274743aba41c": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/web_eu.png?v=1684373037",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_eu_4.png?v=1684373033",
+            "title": "",
+            "subtitle": "",
+            "button_text": "",
+            "link": "\/collections\/power-station\/products\/15054a",
+            "className": ""
+          }
+        },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -44,19 +56,6 @@
             "className": ""
           }
         },
-        "86777b6a-bde9-4981-9d0b-274743aba41c": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/2_Banner-_Web.png?v=1677659094",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/2.1_Banner-_Mobile.png?v=1677659089",
-            "title": "Hard Drive Enclosures, File Transfers in a Flash.",
-            "subtitle": "",
-            "button_text": "Shop Now",
-            "link": "\/collections\/hard-drive-enclosures",
-            "className": ""
-          }
-        },
         "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -72,10 +71,10 @@
         }
       },
       "block_order": [
+        "86777b6a-bde9-4981-9d0b-274743aba41c",
         "ug-index-carousel-11",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-1",
-        "86777b6a-bde9-4981-9d0b-274743aba41c",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
       "settings": {
