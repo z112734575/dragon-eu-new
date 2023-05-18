@@ -1,193 +1,224 @@
 <style>
-  .icon {
-      width: 1em;
-      height: 1em;
-      vertical-align: -0.15em;
-      fill: currentColor;
-      overflow: hidden;
+    .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+    }
+    /*topImage*/
+    .topImage {
+        width: 100%;
+        position: relative;
+    }
+    .mainBanner {
+        width: 100%;
+        height: 100%;
+    }
+    .mainBanner img {
+        width: 100%;
+    }
+    .topImageText {
+        position: absolute;
+        top: 5.2vw;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+    }
+    .topImageText h1 {
+        font-size: 2vw;
+        font-weight: bold;
+        color: #fff;
+
+    }
+    .topImageText h2 {
+        font-size: 1.2vw;
+        font-weight: 400;
+        margin: .5vw 0 1.2vw 0;
+        color: #fff;
+    }
+    .topImageText .btn {
+        display: inline-block;
+        height: 2.5vw;
+        line-height: 2.5vw;
+        text-align: center;
+        padding: 0 1.67vw;
+        border: 1px solid white;
+        border-radius: 60px;
+        font-size: 0.83vw;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    .topImageText .btn:hover {
+        background: #00CC88;
+        color: white;
+        border-color: #00CC88;
+    }
+    .topImageText .icon {
+        width: .8em;
+        height: .8em;
+    }
+    @media (max-width: 767px) {
+        .topImageText {
+            top: 25%;
+            width: 100%;
+            padding: 0 20px;
+        }
+        .topImageText h1 {
+            font-size: 28px;
+            line-height: 1.2;
+        }
+        .topImageText h2 {
+            font-size: 16px;
+            margin-top: 8px;
+            line-height: 1.2;
+        }
+        .topImageText .btn {
+            font-size: 16px;
+            height: 40px;
+            width: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 25px auto 0;
+            line-height: 1;
+        }
+    }
+    /*topImage*/
+
+    /*    why buy*/
+    .green-home-whybar {
+        height: 3.125vw;
+        background-color: #000;
+        max-width: 1200px;
+        width: 100%;
+    }
+    .green-home-whybar-ship {
+        font-size: .833vw;
+        font-weight: 400;
+        color: #858585;
+        line-height: 2.292vw;
+        margin-bottom: 0 !important;
+        margin-left: 0;
+        padding: 0;
+    }
+    .green-home-whybar-ship li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .green-home-whybar-ship img {
+        margin-right: .625vw;
+        width: 1.667vw;
+        height: 1.667vw
+    }
+    .green-home-whybar-more {
+        font-size: .833vw;
+        font-weight: 400;
+        color: #fff !important;
+        margin-left: 3.646vw;
+        text-decoration: none !important
+    }
+    @media (max-width: 767px) {
+        .green-home-whybar {
+            height: 60px;
+        }
+        .green-home-whybar-ship {
+            font-size: 14px;
+            line-height: 1.2;
+            color: #00CC88;
+        }
+        .green-home-whybar-ship li {
+            white-space: nowrap;
+            font-size: 16px;
+            margin-bottom: 0;
+            line-height: 1;
+        }
+        .green-home-whybar-ship img {
+            margin-right: 5px;
+            width: 32px;
+            height: 32px;
+        }
+        .green-home-whybar-more {
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    }
+    .banner_left .green-home-banner-box {
+      top: 12.292vw;
+      color: black;
+      text-align: left;
+      max-width: 1280px;
+      margin: 0 auto;
   }
-  /*topImage*/
-  .topImage {
-      width: 100%;
-      position: relative;
+  .banner_left .green-home-banner-box .btn {
+    border-color: black;
   }
-  .mainBanner {
-      width: 100%;
-      height: 100%;
+  @media (max-width: 767px) {
+  .banner_left .green-home-banner-box {
+      text-align: center;
+      top: 15%;
   }
-  .mainBanner img {
-      width: 100%;
   }
-  .topImageText {
-      position: absolute;
-      top: 5.2vw;
+
+    .banner_left .topImageText {
+      top: 12.292vw;
+      text-align: left;
+      max-width: 1280px;
+      margin: 0 auto;
+  left: 30%
+  }
+  @media (max-width: 767px) {
+  .banner_left .topImageText {
+      text-align: center;
+      top: 15%;
       left: 50%;
-      transform: translateX(-50%);
-      text-align: center;
-      color: white;
   }
-  .topImageText h1 {
-      font-size: 2vw;
-      font-weight: bold;
-      color: #fff;
-
   }
-  .topImageText h2 {
-      font-size: 1.2vw;
-      font-weight: 400;
-      margin: .5vw 0 1.2vw 0;
-      color: #fff;
-  }
-  .topImageText .btn {
-      display: inline-block;
-      height: 2.5vw;
-      line-height: 2.5vw;
-      text-align: center;
-      padding: 0 1.67vw;
-      border: 1px solid white;
-      border-radius: 60px;
-      font-size: 0.83vw;
-      cursor: pointer;
-      font-weight: 600;
-  }
-  .topImageText .btn:hover {
-      background: #00CC88;
-      color: white;
-      border-color: #00CC88;
-  }
-  .topImageText .icon {
-      width: .8em;
-      height: .8em;
-  }
-  @media (max-width: 767px) {
-      .topImageText {
-          top: 25%;
-          width: 100%;
-          padding: 0 20px;
-      }
-      .topImageText h1 {
-          font-size: 28px;
-          line-height: 1.2;
-      }
-      .topImageText h2 {
-          font-size: 16px;
-          margin-top: 8px;
-          line-height: 1.2;
-      }
-      .topImageText .btn {
-          font-size: 16px;
-          height: 40px;
-          width: 140px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 25px auto 0;
-          line-height: 1;
-      }
-  }
-  /*topImage*/
-
-  /*    why buy*/
-  .green-home-whybar {
-      height: 3.125vw;
-      background-color: #000;
-      max-width: 1200px;
-      width: 100%;
-  }
-  .green-home-whybar-ship {
-      font-size: .833vw;
-      font-weight: 400;
-      color: #858585;
-      line-height: 2.292vw;
-      margin-bottom: 0 !important;
-      margin-left: 0;
-      padding: 0;
-  }
-  .green-home-whybar-ship li {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center
-  }
-  .green-home-whybar-ship img {
-      margin-right: .625vw;
-      width: 1.667vw;
-      height: 1.667vw
-  }
-  .green-home-whybar-more {
-      font-size: .833vw;
-      font-weight: 400;
-      color: #fff !important;
-      margin-left: 3.646vw;
-      text-decoration: none !important
-  }
-  @media (max-width: 767px) {
-      .green-home-whybar {
-          height: 60px;
-      }
-      .green-home-whybar-ship {
-          font-size: 14px;
-          line-height: 1.2;
-          color: #00CC88;
-      }
-      .green-home-whybar-ship li {
-          white-space: nowrap;
-          font-size: 16px;
-          margin-bottom: 0;
-          line-height: 1;
-      }
-      .green-home-whybar-ship img {
-          margin-right: 5px;
-          width: 32px;
-          height: 32px;
-      }
-      .green-home-whybar-more {
-          font-size: 14px;
-          margin-left: 10px;
-      }
-  }
-  /*    why buy*/
+    /*    why buy*/
 </style>
 <script src="//at.alicdn.com/t/c/font_3829374_9fbnj23d42i.js"></script>
-<div>
-  <a href="/collections/gan-chargers">
+<div class="banner_left">
+  <a href="/pages/flash-sale">
     <div class="topImage">
       <div class="mainBanner">
         <picture>
           <source
-            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/1.3-_Mobile.png?v=1679541258"
+            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/banner_mobile.webp?v=1684305063"
             media="(max-width: 375px)"
           >
           <source
-            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/1.3-_Mobile.png?v=1679541258"
+            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/banner_mobile.webp?v=1684305063"
             media="(max-width: 768px)"
           >
           <source
-            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/1.2_-_Web.png?v=1679541263"
+            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/banner.webp?v=1684305064"
             media="(max-width: 1080px)"
           >
           <source
-            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/1.2_-_Web.png?v=1679541263"
+            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/banner.webp?v=1684305064"
             media="(max-width: 1200px)"
           >
           <source
-            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/1.2_-_Web.png?v=1679541263"
+            srcset="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/banner.webp?v=1684305064"
             media="(max-width: 1920px)"
           >
           <img
-            src="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/1.2_-_Web.png?v=1679541263"
+            src="https://cdn.shopify.com/s/files/1/0573/0979/0291/files/banner.webp?v=1684305064"
             alt="image"
           >
         </picture>
       </div>
       <div class="topImageText">
-        <h1 class="title">Superior GaN Technology"Sub: "Bolder, Faster Chargers</h1>
-        <h2 class="subTitle"></h2>
+        <h1 class="title">72H Flash Sale!</h1>
+        <h2 class="subTitle">Up To 55% Off</h2>
         <div class="btn">
           <span>Shop Now</span>
           <svg class="icon" aria-hidden="true">
