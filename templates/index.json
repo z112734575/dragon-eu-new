@@ -8,18 +8,6 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
-        "86777b6a-bde9-4981-9d0b-274743aba41c": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/web_eu.png?v=1684373037",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_eu_4.png?v=1684373033",
-            "title": "",
-            "subtitle": "",
-            "button_text": "",
-            "link": "\/collections\/power-station\/products\/15054a",
-            "className": ""
-          }
-        },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -32,8 +20,21 @@
             "className": ""
           }
         },
+        "86777b6a-bde9-4981-9d0b-274743aba41c": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/web_eu.png?v=1684373037",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_eu_4.png?v=1684373033",
+            "title": "",
+            "subtitle": "",
+            "button_text": "",
+            "link": "\/collections\/power-station\/products\/15054a",
+            "className": ""
+          }
+        },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Web.png?v=1679535962",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Mobile.png?v=1679535957",
@@ -71,8 +72,8 @@
         }
       },
       "block_order": [
-        "86777b6a-bde9-4981-9d0b-274743aba41c",
         "ug-index-carousel-11",
+        "86777b6a-bde9-4981-9d0b-274743aba41c",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-1",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
