@@ -54,6 +54,38 @@
         "code_cus_css": ""
       }
     },
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "product_list": [
+          "snap-deal-ugreen-nexode-100w-usb-c-wall-charger",
+          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+          "weekly-sale-ugreen-nexode-200w-usb-c-wall-charger-6-ports",
+          "weekly-sale-product-docking-station1-12-in-1"
+        ],
+        "title": "",
+        "subtitle": "",
+        "section_id": "ug-product-list",
+        "pc_product_type": "row",
+        "mobile_product_type": "row",
+        "product_item_bg_color": "#f5f5f7",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "57%",
+        "pc_row": "2",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "0 0 120px 0",
+        "mobile_padding": "0 0 60px 0",
+        "need_load_more": false,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true
+      }
+    },
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
@@ -193,38 +225,6 @@
         "code_cus_css": ""
       }
     },
-    "ug-product-list": {
-      "type": "ug-product-list",
-      "settings": {
-        "product_list": [
-          "snap-deal-ugreen-nexode-100w-usb-c-wall-charger",
-          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
-          "weekly-sale-ugreen-nexode-200w-usb-c-wall-charger-6-ports",
-          "weekly-sale-product-docking-station1-12-in-1"
-        ],
-        "title": "",
-        "subtitle": "",
-        "section_id": "ug-product-list",
-        "pc_product_type": "row",
-        "mobile_product_type": "row",
-        "product_item_bg_color": "#f5f5f7",
-        "pc_product_item_img_size": "100%",
-        "mobile_product_item_img_size": "57%",
-        "pc_row": "2",
-        "mobile_row": "2",
-        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
-        "pc_product_sale_width": "60px",
-        "mobile_product_sale_width": "48px",
-        "pc_padding": "0 0 120px 0",
-        "mobile_padding": "0 0 60px 0",
-        "need_load_more": false,
-        "load_more_default_count": 4,
-        "show_sale_flag": true,
-        "show_compare": true,
-        "show_rating": true,
-        "show_learn_btn": true
-      }
-    },
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
       "type": "custom-html",
       "settings": {
@@ -246,9 +246,9 @@
     "d2230466-b5fe-49cc-ac39-926497ba0c21",
     "ba30f705-8ef4-4326-9574-a9913009c92c",
     "e8f15098-8dc6-40ea-98fc-74037a3d1191",
+    "ug-product-list",
     "ug-tabs-product-list",
     "87863d7e-936f-43c0-9c2b-4d59cb5688f1",
-    "ug-product-list",
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe"
   ]
 }
