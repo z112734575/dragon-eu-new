@@ -39,10 +39,10 @@
         "code_cus_css": ""
       }
     },
-    "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
+    "87863d7e-936f-43c0-9c2b-4d59cb5688f1": {
       "type": "custom-html",
       "settings": {
-        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-discount_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Buy More, Save More<\/span>\n<\/h2>\n\n    <\/section>",
+        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-sale_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Best Sellers<\/span>\n<\/h2>\n    <\/section>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -84,6 +84,21 @@
         "show_compare": true,
         "show_rating": true,
         "show_learn_btn": true
+      }
+    },
+    "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-discount_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Buy More, Save More<\/span>\n<\/h2>\n\n    <\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "ug-tabs-product-list": {
@@ -210,21 +225,6 @@
         "show_learn_btn": true
       }
     },
-    "87863d7e-936f-43c0-9c2b-4d59cb5688f1": {
-      "type": "custom-html",
-      "settings": {
-        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-sale_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Best Sellers<\/span>\n<\/h2>\n    <\/section>",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
       "type": "custom-html",
       "settings": {
@@ -245,10 +245,10 @@
     "e49dddc3-8400-4a86-a3ec-b69a2fd75773",
     "d2230466-b5fe-49cc-ac39-926497ba0c21",
     "ba30f705-8ef4-4326-9574-a9913009c92c",
-    "e8f15098-8dc6-40ea-98fc-74037a3d1191",
-    "ug-product-list",
-    "ug-tabs-product-list",
     "87863d7e-936f-43c0-9c2b-4d59cb5688f1",
+    "ug-product-list",
+    "e8f15098-8dc6-40ea-98fc-74037a3d1191",
+    "ug-tabs-product-list",
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe"
   ]
 }
