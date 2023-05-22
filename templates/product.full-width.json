@@ -163,7 +163,7 @@
             "size": 14,
             "source": "1",
             "wimg": 70,
-            "svg": "visa,amazon_payments,american_express,apple_pay,diners_club,discover,jcb,master,shopify_pay,paypal",
+            "svg": "visa,amazon_payments,american_express,apple_pay,diners_club,discover,jcb,master,shopify_pay,paypal,klarna",
             "height": 40
           }
         },
