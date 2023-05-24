@@ -124,8 +124,23 @@
             ]
           }
         },
+        "100c73d1-183d-4757-9c93-1168c36c5feb": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "For iphone",
+            "product_list": [
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "ugreen-hands-free-air-vent-car-phone-holder",
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable"
+            ]
+          }
+        },
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
           "type": "ug-product-list-tabs",
+          "disabled": true,
           "settings": {
             "tabs_title": "Cables",
             "product_list": [
@@ -183,31 +198,16 @@
               "ugreen-2-bay-hard-drive-enclosure-2-x-16tb-raid-array-dual-bay-hard-drive-tray-for-3-5-2-5-inch-hdd-ssd-2-5-hard-drive-docking-station-for-with-quiet-fan-supports-raid-0-1-10-pm-large-clone-mode"
             ]
           }
-        },
-        "100c73d1-183d-4757-9c93-1168c36c5feb": {
-          "type": "ug-product-list-tabs",
-          "disabled": true,
-          "settings": {
-            "tabs_title": "For iphone",
-            "product_list": [
-              "ugreen-145w-power-bank-for-laptop",
-              "ugreen-2-in-1-magnetic-wireless-charging-station",
-              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
-              "ugreen-hands-free-air-vent-car-phone-holder",
-              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
-              "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable"
-            ]
-          }
         }
       },
       "block_order": [
         "2632b153-e4f5-4946-9146-3002be2c2b29",
+        "100c73d1-183d-4757-9c93-1168c36c5feb",
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "448af4be-180b-49ce-9705-b9ed6cbf39ca",
         "4556941b-3614-4b1f-8b9e-8d449c378b3f",
         "4a3eddf4-b4a6-4086-a1fa-2bf590158427",
-        "0096b536-6c02-4451-92ec-e4a59ca6a88c",
-        "100c73d1-183d-4757-9c93-1168c36c5feb"
+        "0096b536-6c02-4451-92ec-e4a59ca6a88c"
       ],
       "settings": {
         "section_id": "tabs_product",
