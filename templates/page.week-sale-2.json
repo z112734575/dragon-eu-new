@@ -152,7 +152,6 @@
         },
         "448af4be-180b-49ce-9705-b9ed6cbf39ca": {
           "type": "ug-product-list-tabs",
-          "disabled": true,
           "settings": {
             "tabs_title": "Fast Chargers",
             "product_list": [
@@ -165,7 +164,7 @@
         "4556941b-3614-4b1f-8b9e-8d449c378b3f": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Hubs & Docking Station",
+            "tabs_title": "Hubs & Dock",
             "product_list": [
               "ugreen-6-in-1-usb-c-hub",
               "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
