@@ -167,7 +167,7 @@
         "pc_padding": "35px 0 80px 0",
         "mobile_padding": "35px 0 80px 0",
         "need_load_more": true,
-        "load_more_default_count": 4,
+        "load_more_default_count": 6,
         "show_sale_flag": true,
         "show_compare": true,
         "show_rating": true,
