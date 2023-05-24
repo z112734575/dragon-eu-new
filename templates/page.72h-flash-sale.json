@@ -131,7 +131,6 @@
         },
         "100c73d1-183d-4757-9c93-1168c36c5feb": {
           "type": "ug-product-list-tabs",
-          "disabled": true,
           "settings": {
             "tabs_title": "For iphone",
             "product_list": [
