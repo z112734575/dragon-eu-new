@@ -133,9 +133,14 @@
           "type": "ug-product-list-tabs",
           "disabled": true,
           "settings": {
-            "tabs_title": "",
+            "tabs_title": "For iphone",
             "product_list": [
-
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "ugreen-hands-free-air-vent-car-phone-holder",
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable"
             ]
           }
         }
