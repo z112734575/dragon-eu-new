@@ -1,233 +1,266 @@
 {
   "sections": {
-    "ug-images": {
-      "type": "ug-images",
+    "5a97e0ca-1580-48d9-aafd-8a9feb3ade1f": {
+      "type": "page_banner",
       "settings": {
-        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_7f352fec-13a5-4ca4-b9d9-e7fa7c86cf63.jpg?v=1679910374",
-        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mobile.jpg?v=1679910375",
-        "title": "The Best Deals Are One Click Away",
-        "description": "Join Ugreen Rewards Now for exclusive offers!",
-        "btn_text": "",
-        "title_color": "#000000",
-        "desc_color": "#727273",
-        "btn_color": "#000000",
-        "hover_btn_color": "#00cc88",
-        "mobile_text_top": "15%"
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_c782417b-a08d-4ba8-8719-c6618f7df407.webp?v=1684808756",
+        "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mobile_dc418f57-a347-4525-9f27-f4aec4463308.webp?v=1684808760",
+        "image_alt": "The Best Deals AreOne Click Away"
       }
     },
-    "ug-day-program": {
-      "type": "ug-day-program",
+    "30d681da-5279-4baf-9bad-f096bd5258c8": {
+      "type": "custom-html",
       "settings": {
-        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner2_pc.jpg?v=1679910374",
-        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner2_mobile.jpg?v=1679910374",
-        "title": "Ugreen Rewards",
-        "description": "Join the Ugreen Rewards program and earn points that can be redeemed on discount coupons on your purchases.",
-        "btn_text": "Learn More",
-        "formula_text": "10",
-        "money_text": "5,50,100",
-        "integral_text": "50,500,1000",
-        "button_link": "shopify:\/\/pages\/ugreen-rewards-program"
-      }
-    },
-    "ug-day-point-product": {
-      "type": "ug-day-point-product",
-      "blocks": {
-        "84252723-bc62-42fa-8ba7-3a2ce1ac0eb7": {
-          "type": "points_product",
-          "settings": {
-            "product": "cell-phone-stand-holder",
-            "points": "50",
-            "custom_price": "499"
-          }
-        },
-        "36373bd9-fada-4e05-a85a-3ac6068c4cf7": {
-          "type": "points_product",
-          "settings": {
-            "product": "usb-c-to-lightning-fast-charging-cable",
-            "points": "100",
-            "custom_price": "499"
-          }
-        },
-        "aab0b0f4-67ca-4600-b490-31e3de6414db": {
-          "type": "points_product",
-          "settings": {
-            "product": "6-in-2-usb-c-hub-for-macbook-pro",
-            "points": "200",
-            "custom_price": "699"
-          }
-        },
-        "9e98210c-69bd-449f-be2a-ac0c30f57429": {
-          "type": "points_product",
-          "settings": {
-            "product": "6-in-1-usb-c-adapter-with-4k-hdmi",
-            "points": "200",
-            "custom_price": "999"
-          }
-        },
-        "b2441e52-713d-4884-a04a-3a5dcefbac61": {
-          "type": "points_product",
-          "settings": {
-            "product": "ugreen-vertical-dual-slot-laptop-stand-for-desk",
-            "points": "200",
-            "custom_price": "999"
-          }
-        },
-        "8db0fb5c-d93d-4cf6-b755-0b80d1e589e3": {
-          "type": "points_product",
-          "settings": {
-            "product": "ugreen-nexode-45w-dual-c-port-wall-charger",
-            "points": "200",
-            "custom_price": "1999"
-          }
-        }
-      },
-      "block_order": [
-        "84252723-bc62-42fa-8ba7-3a2ce1ac0eb7",
-        "36373bd9-fada-4e05-a85a-3ac6068c4cf7",
-        "aab0b0f4-67ca-4600-b490-31e3de6414db",
-        "9e98210c-69bd-449f-be2a-ac0c30f57429",
-        "b2441e52-713d-4884-a04a-3a5dcefbac61",
-        "8db0fb5c-d93d-4cf6-b755-0b80d1e589e3"
-      ],
-      "settings": {
-        "section_title": "Redeem Points for Exclusive Discounts at Checkout",
-        "jump_text": "Earn Points Now",
-        "jump_link": "#smile-home"
-      }
-    },
-    "ug-product-list": {
-      "type": "ug-product-list",
-      "settings": {
-        "product_list": [
-          "100w-3c1a-gan-fast-charger",
-          "ugreen-nexode-200w-usb-c-desktop-charger",
-          "ugreen-nexode-140w-usb-c-wall-charger",
-          "65w-3-ports-gan-fast-charger",
-          "ugreen-65w-nexode-gan-usb-c-3-port-charger-with-us-uk-eu-plug-for-travel",
-          "ugreen-65w-usb-c-charging-station",
-          "ugreen-130w-usb-c-car-charger",
-          "ugreen-9-in-1-usb-c-docking-station",
-          "ugreen-usb-c-triple-display-docking-station",
-          "ultra-slim-4-ports-usb-c-hub",
-          "7-in-1-multiport-adapter-with-4k-60hz",
-          "ugreen-65w-usb-c-diginest-cube-charging-station",
-          "ugreen-usb-3-0-4-port-switch",
-          "ugreen-usb-c-to-lightning-audio-adapter",
-          "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft"
-        ],
-        "title": "Ugreen Day Recommendations",
-        "subtitle": "",
-        "mobile_product_type": "column",
-        "product_item_bg_color": "#ffffff",
-        "pc_product_item_img_size": "50%",
-        "mobile_product_item_img_size": "57%",
-        "pc_row": "3",
-        "mobile_row": "2",
-        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/tag_pc_e0131dd4-478f-400d-af1b-e8a767edcba5.png?v=1680255000",
-        "pc_product_sale_width": "70px",
-        "mobile_product_sale_width": "56px",
-        "pc_padding": "80px 0",
-        "mobile_padding": "40px 0",
-        "need_load_more": true,
-        "show_sale_flag": true,
-        "show_compare": true,
-        "show_rating": true,
-        "show_learn_btn": true
-      }
-    },
-    "accordion": {
-      "type": "accordion",
-      "blocks": {
-        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-0": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "How soon will orders ship?",
-            "content": "<p>Orders will ship in 1-2 business days. Delivery usually takes 3-5 business days.<\/p>"
-          }
-        },
-        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-1": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "What carrier will be used to ship my order?",
-            "content": "<p>Ugreen ships orders from the warehouse nearest to the delivery address. Most packages are shipped via USPS, UPS or Amazon logistics.<\/p>"
-          }
-        },
-        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-2": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "What are accepted methods of payment？",
-            "content": "<p>We accept PayPal, Credit Card (Visa, MasterCard, American Express, Discover), and Online Store Gift Cards\/Coupons.<\/p>"
-          }
-        },
-        "5c884525-3be9-478a-aefd-d4c01b263134": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "What is the return policy?",
-            "content": "<p>Ugreen provides a 30-day return and refund policy for purchases. Feel free to contact support@turboant.com if you have any additional questions.<\/p>"
-          }
-        },
-        "337c33e0-e2da-4e47-9430-5abdf79bff76": {
-          "type": "accor_item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "title": "Q: Can I get a price match if the product price on the Ugreen website has changed?",
-            "content": "<p>Discounts offered for Corporate Purchase Program orders are customized based on product quantity. Orders placed via this program cannot be refunded for any difference in price.<\/p>"
-          }
-        },
-        "cf0854b9-705f-4cd5-bf0a-cbfd9dcfc697": {
-          "type": "accor_item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "title": "Q: We are a tax-exempt organization. How do we make tax-exempted orders?",
-            "content": "<p>Our website does not support applying for tax exemptions on the checkout page or setting up tax-exempted accounts. However, we can issue you a refund on the tax after the purchase. Please contact service@ugreen.com<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-0",
-        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-1",
-        "template--14525804118078__77ce73be-f362-4274-96e7-5d19509d6525-1676290061dc0148a6-2",
-        "5c884525-3be9-478a-aefd-d4c01b263134",
-        "337c33e0-e2da-4e47-9430-5abdf79bff76",
-        "cf0854b9-705f-4cd5-bf0a-cbfd9dcfc697"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "FAQ",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 0,
-        "accor_des": "1",
-        "title_cl": "#333333",
-        "bg_title_cl": "#f5f4f7",
-        "title_active_cl": "#333333",
-        "bg_title_active_cl": "#f5f4f7",
-        "content_cl": "#f5f4f7",
-        "bg_content_cl": "#f5f4f7",
-        "content_align": "t4s-text-start",
-        "layout": "t4s-container-wrap",
-        "custom_width": 1000,
+        "code": "<style>\n.cursor-btns{\n        background: #F5F5F7!important;\n    }\n .cursor-btns .cursor-btn{\n        color: #999999!important;\n        background: #FFFFFF!important;\n    }\n    .cursor-btns .cursor-btn:hover, .cursor-btns .cursor-btn.swiper-slide-thumb-active{\n        color: #FFFFFF!important;\n        background: #00CC88!important;\n    }\n    .ugreen_rewards{\n        padding: 5.208vw 0 3.125vw 0;\n    }\n    .ugreen_rewards .content {\n        width: 100%;\n        max-width: 66.667vw;\n        margin: 0 auto;\n    }\n    .rewards_imgtext{\n        position: relative;\n    }\n    .rewards_text{\n        position: absolute;\n        top: 55%;\n        right: 10%;\n        max-width: 23.4375vw;\n        transform: translateY(-50%);\n    }\n    .rewards_text h2{\n        font-weight: 700;\n        font-size: 1.875vw;\n        line-height: 1.875vw;\n        color: #000000;\n    }\n    .rewards_text p{\n        font-size: 1.042vw;\n        line-height: 1.458vw;\n        color: #666666;\n        margin: 1.042vw 0 2.604vw 0;\n    }\n    .rewards_text a{\n        display: inline-block;\n        padding: 0.625vw 1.823vw;\n        font-weight: 600;\n        font-size: 0.833vw;\n        line-height: 1.25vw;\n        color: #FFFFFF;\n        transition: 0.3s;\n        background: #000000;\n        border-radius: 3.125vw;\n    }\n    .rewards_text a:hover{\n        background: #00CC88;\n        color: white;\n    }\n    .rewards_bottom{\n        background: #000000;\n        width: 100%;\n        padding: 1.042vw 0;\n        border-radius: 0vw 0vw 0.625vw 0.625vw;\n    }\n    .rewards_bottom ul{\n        margin: 0;\n        padding: 0;\n    }\n    .rewards_bottom ul li{\n        font-size: 0.729vw;\n        color: #FFFFFF;\n        max-width: 33.333%;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n    .rewards_bottom ul li .icon {\n        display: inline-block;\n        width: 28px;\n        height: 28px;\n        margin-right: 8px;\n    }\n    @media (max-width:768px) {\n        .ugreen_rewards{\n            padding: 10.667vw 4vw 8vw 4vw;\n        }\n        .ugreen_rewards .content{\n            max-width: 100%;\n        }\n        .rewards_text{\n            top: 50%;\n            right: 4.333vw;\n            max-width: 48vw;\n        }\n        .rewards_text h2{\n            font-size: 5.333vw;\n            line-height: 5.333vw;\n        }\n        .rewards_text p{\n            font-size: 12px;\n            line-height: 5.333vw;\n            margin: 2.667vw 0 4vw 0;\n        }\n        .rewards_text a{\n            padding: 2.667vw 6.667vw;\n            font-size: 3.733vw;\n            line-height: 3.733vw;\n            border-radius: 16vw;\n        }\n        .rewards_bottom{\n            padding: 2.667vw 0;\n            border-radius: 0vw 0vw 2.133vw 2.133vw;\n        }\n        .rewards_bottom ul li{\n            max-width: 100%;\n            font-size: 3.733vw;\n        }\n      \n    }\n<\/style>\n<section class=\"ugreen_rewards\">\n    <div class=\"content\">\n        <div class=\"rewards_imgtext\">\n            <picture>\n                <source srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/points_bg_mobile.webp?v=1684813800\" media=\"(max-width: 375px)\">\n                <source srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/points_bg_mobile.webp?v=1684813800\" media=\"(max-width: 768px)\">\n                <source srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/points_bg.webp?v=1684813808\" media=\"(max-width: 1080px)\">\n                <source srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/points_bg.webp?v=1684813808\" media=\"(max-width: 1200px)\">\n                <source srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/points_bg.webp?v=1684813808\" media=\"(max-width: 1920px)\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/points_bg.webp?v=1684813808\" alt=\"\">\n            <\/source><\/source><\/source><\/source><\/source><\/picture>\n        <div class=\"rewards_text\">\n            <h2>Ugreen Rewards<\/h2>\n            <p>Join the Ugreen and earn points that canbe redeemed on discount coupons on your purchases.<\/p>\n            <a href=\"#smile-home\">Join Now <svg class=\"icon\" aria-hidden=\"true\">\n                <use xlink:href=\"#icon-xiayiye\"><\/use>\n            <\/svg><\/a>\n        <\/div>\n        <\/div>\n            \n        <div class=\"rewards_bottom\">\n                <div class=\"swiper bottom_swiper\">\n                    <ul class=\"swiper-wrapper\">\n                        <li class=\"swiper-slide\">\n                            <svg class=\"icon\" aria-hidden=\"true\">\n                                <use xlink:href=\"#icon-Discounts\"><\/use>\n                            <\/svg>\n                            Redeem Points For Extra Discounts\n                        <\/li>\n                        <li class=\"swiper-slide\">\n                            <svg class=\"icon\" aria-hidden=\"true\">\n                                <use xlink:href=\"#icon-bell\"><\/use>\n                            <\/svg>\n                            Early Promotion Alerts\n                        <\/li>\n                        <li class=\"swiper-slide\">\n                            <svg class=\"icon\" aria-hidden=\"true\">\n                                <use xlink:href=\"#icon-shield\"><\/use>\n                            <\/svg>\n                            30-Day Price Guarantee\n                        <\/li>\n                    <\/ul>\n                <\/div>\n        <\/div>\n    <\/div>\n<\/section>\n<script type=\"text\/javascript\">\n    function isMobile() {\n        return window.innerWidth <= 768;\n    }\n    if (isMobile()) {\n        const BannerSwiper = new Swiper('.bottom_swiper', {\n                slidesPerView: 1,\n                loop: true,\n                autoplay: {\n                    delay: 5000,\n                },\n            });\n    }\n<\/script>",
+        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": "",
         "pd": "",
         "mg_mb": "",
         "pd_mb": "",
-        "use_cus_css": true,
-        "code_cus_css": "\/* faq Accordion *\/\n.t4s-accordion {\n\tpadding: 4.25vw 0;\n}\n\n.t4s-accordion .t4s-container {\n\tmax-width: 1280px;\n}\n\n.t4s-accordion .t4s-section-title {\n\tfont-weight: 700;\n\tfont-size: 1.875vw;\n\tcolor: #000000;\n\tpadding-bottom: 2.083vw;\n}\n\n.t4s-type-accordion .t4s-accor-title {\n\tpadding: 0 0 0 2.604vw !important;\n}\n\n.t4s-accor-title .t4s-accor-item-nav {\n\tleft: 0;\n\tright: inherit !important;\n\tbackground-color: #F5F4F7!important;\n}\n\n.t4s-accor-title .t4s-accor-item-nav:before,\n.t4s-accor-title .t4s-accor-item-nav:after,\n.t4s-tab-wrapper.t4s-active .t4s-accor-title .t4s-accor-item-nav:after,\n.t4s-tab-wrapper.t4s-active .t4s-accor-title .t4s-accor-item-nav:before {\n\tbackground-color: #000 !important;\n}\n\n.t4s-tab-wrapper.t4s-active .t4s-accor-title .t4s-accor-item-nav {\n\tbackground-color: #F5F4F7!important;\n}\n\n.t4s-type-accordion .t4s-tab-content {\n\tborder: none !important;\n\tpadding: 0.78125vw 0 0 2.865vw !important;\n}\n\n.t4s-type-accordion .t4s-tab-content p {\n\tmargin: 0;\n\tfont-size: 0.729vw;\n\tline-height: 1.09375vw;\n\tcolor: #939393;\n}\n\n.t4s-type-accordion>.t4s-tab-wrapper {\n\tborder-bottom: 0.052vw solid rgba(17, 0, 0, 0.1);\n\tmargin: 0 !important;\n\tpadding: 1.042vw 0;\n}\n\n.t4s-accor-title .t4s-accor-text {\n\tpadding: 0;\n\tfont-weight: 600;\n\tcolor: #131414;\n}\n@media (max-width:1440px) {\n\t.t4s-accor-title .t4s-accor-text {\n\t\tpadding: 0 !important;\n\t}\n\n\t.t4s-accor-title .t4s-accor-icon {\n\t\tmargin-left: 7px !important;\n\t}\n}\n@media (max-width:768px){\n\/* FAQ mobile style *\/\n\t.t4s-accordion {\n\t\tpadding: 21.333vw 0;\n\t}\n\n\t.t4s-accordion .t4s-section-title {\n\t\tfont-size: 6.4vw;\n\t\tline-height: 8vw;\n\t}\n\n\t.t4s-accordion .t4s-container {\n\t\tmax-width: 100%;\n\t}\n\n\t.t4s-type-accordion .t4s-accor-title {\n\t\tpadding: 0 0 0 12vw !important;\n\t}\n\n\t.t4s-accor-title .t4s-accor-text {\n\t\tpadding: 0 !important;\n\t\tline-height: 5.600vw !important;\n\t}\n\n\t.t4s-type-accordion>.t4s-tab-wrapper {\n\t\tpadding: 3.2vw 0;\n\t}\n\n\t.t4s-type-accordion .t4s-tab-content {\n\t\tpadding: 1.6vw 0 0 13.333vw !important;\n\t}\n\n\t.t4s-type-accordion .t4s-tab-content p {\n\t\tfont-size: 3.2vw;\n\t\tline-height: 4.8vw;\n\t}\n\n\t.t4s-accor-title .t4s-accor-icon {\n\t\tmargin: 0 !important;\n\t}\n}"
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "aa5c32c5-d0a1-42f1-8dfd-fc8141b97f20": {
+      "type": "ug_UgreenDay_power",
+      "blocks": {
+        "5ba4ac6a-170a-4600-8ede-2710a62cb5f2": {
+          "type": "ugreenday_power",
+          "settings": {
+            "product": "ugreen-powerroam1200-power-station",
+            "product_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/1200w_pc.png?v=1684827711",
+            "points_text": "Get 1,999 Points"
+          }
+        },
+        "2b08f6a4-59d4-47e1-ab5c-02635cca8717": {
+          "type": "ugreenday_power",
+          "settings": {
+            "product": "ugreen-powerroam-600-power-station",
+            "product_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/600w_pc.png?v=1684827712",
+            "points_text": "Get 1,199 Points"
+          }
+        }
+      },
+      "block_order": [
+        "5ba4ac6a-170a-4600-8ede-2710a62cb5f2",
+        "2b08f6a4-59d4-47e1-ab5c-02635cca8717"
+      ],
+      "settings": {
+      }
+    },
+    "3ef9e0fe-0b0e-4ce1-82e1-e85775e850d8": {
+      "type": "ug_UgreenDay_Redeem",
+      "blocks": {
+        "135e9481-2ae3-4adc-afb5-36546540b448": {
+          "type": "ugreenday_redeem",
+          "settings": {
+            "product": "ugreen-100w-usb-c-charger",
+            "points_text": "100"
+          }
+        },
+        "e8448177-047b-40a3-9f7f-a2517af5f09c": {
+          "type": "ugreenday_redeem",
+          "settings": {
+            "product": "ugreen-3-in-1-magsafe-wireless-charging-station",
+            "points_text": "130"
+          }
+        },
+        "ed3f8630-2a68-404c-bf53-4f2453e417aa": {
+          "type": "ugreenday_redeem",
+          "settings": {
+            "product": "ugreen-2-in-1-magnetic-wireless-charging-station",
+            "points_text": "46"
+          }
+        },
+        "8b6f2566-3bdf-4604-af49-dc5703247ccf": {
+          "type": "ugreenday_redeem",
+          "settings": {
+            "product": "ugreen-9-in-1-usb-c-docking-station",
+            "points_text": "190"
+          }
+        },
+        "59c4e402-07ad-4845-89c3-ad1ca17d74de": {
+          "type": "ugreenday_redeem",
+          "settings": {
+            "product": "ugreen-6-in-1-usb-c-docking-station-with-4k-60hz-hdmi",
+            "points_text": "45"
+          }
+        },
+        "dd63429d-f4e2-46c8-940d-c3dc5bfddb06": {
+          "type": "ugreenday_redeem",
+          "settings": {
+            "product": "ultra-slim-5-in-1-usb-c-hub",
+            "points_text": "50"
+          }
+        }
+      },
+      "block_order": [
+        "135e9481-2ae3-4adc-afb5-36546540b448",
+        "e8448177-047b-40a3-9f7f-a2517af5f09c",
+        "ed3f8630-2a68-404c-bf53-4f2453e417aa",
+        "8b6f2566-3bdf-4604-af49-dc5703247ccf",
+        "59c4e402-07ad-4845-89c3-ad1ca17d74de",
+        "dd63429d-f4e2-46c8-940d-c3dc5bfddb06"
+      ],
+      "settings": {
+        "section_title": "Redeem Your Rewards",
+        "sub_title": "Got some Points to spare? Redeem them for exclusive discounts on Ugreen merch!"
+      }
+    },
+    "2f93060c-0842-4efa-a146-5ab97c0165dc": {
+      "type": "ug_UgreenDay_gifts",
+      "blocks": {
+        "00d72716-fe9c-4b3e-86e6-c6075668941c": {
+          "type": "ugreenday_gifts",
+          "settings": {
+            "product1": "ugreen-nexode-200w-usb-c-desktop-charger",
+            "product_img1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/1_8ce2d4cc-9967-4c9f-8369-7a8669978e5b.webp?v=1684843272",
+            "product2": "100w-3c1a-gan-fast-charger",
+            "product_img2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/2_84d82364-18c4-4a6c-9781-e00d9924417a.webp?v=1684930458"
+          }
+        },
+        "fdaf0a52-4962-40f6-bb9b-762a8708de5f": {
+          "type": "ugreenday_gifts",
+          "settings": {
+            "product1": "65w-3-ports-gan-fast-charger",
+            "product_img1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3_55176c5d-6a27-4c55-94ed-238467fceaf7.webp?v=1684930459",
+            "product2": "ugreen-6-in-1-usb-c-hub",
+            "product_img2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/4_3ce73d13-acd3-432d-b717-3e1d55e02460.webp?v=1684930458"
+          }
+        }
+      },
+      "block_order": [
+        "00d72716-fe9c-4b3e-86e6-c6075668941c",
+        "fdaf0a52-4962-40f6-bb9b-762a8708de5f"
+      ],
+      "settings": {
+        "section_title": "High-Tech Bundle Gifts",
+        "sub_title": "Buy one get one free"
+      }
+    },
+    "388f7fcd-4e61-4dd4-a908-861b90859d17": {
+      "type": "ug-tabs-product-list",
+      "blocks": {
+        "35c9871c-733f-43d3-b0aa-a3e96b9ef85c": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Chargers",
+            "product_list": [
+              "ugreen-nexode-200w-usb-c-desktop-charger",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "65w-3-ports-gan-fast-charger",
+              "ugreen-65w-nexode-gan-usb-c-3-port-charger-with-us-uk-eu-plug-for-travel",
+              "ugreen-100w-usb-c-diginest-pro-power-strip",
+              "ugreen-65w-usb-c-diginest-cube-charging-station",
+              "ugreen-65w-usb-c-charging-station",
+              "ugreen-nexode-45w-dual-c-port-wall-charger"
+            ]
+          }
+        },
+        "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Hubs & Docking Stations",
+            "product_list": [
+              "6-in-1-usb-c-adapter-with-4k-hdmi",
+              "7-in-1-multiport-adapter-with-4k-60hz",
+              "ugreen-10-in-1-hub-with-4k-hdmi",
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-usb-3-0-4-port-switch",
+              "ugreen-m-2-nvme-sata-ssd-enclosure-reader"
+            ]
+          }
+        },
+        "56de405c-308f-4005-baf2-e1aac394fd05": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Stands & Holders",
+            "product_list": [
+              "ugreen-360-rotating-tablet-stand-holder",
+              "cell-phone-stand-holder",
+              "adjustable-aluminum-phone-holder",
+              "gravity-drive-car-mount"
+            ]
+          }
+        },
+        "75ce9223-3849-4530-97f8-99ba59ce9854": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Cables",
+            "product_list": [
+              "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft",
+              "ugreen-usb-c-to-lightning-audio-adapter",
+              "usb-c-to-lightning-fast-charging-cable"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "35c9871c-733f-43d3-b0aa-a3e96b9ef85c",
+        "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88",
+        "56de405c-308f-4005-baf2-e1aac394fd05",
+        "75ce9223-3849-4530-97f8-99ba59ce9854"
+      ],
+      "settings": {
+        "section_id": "ugreen-day",
+        "section_title": "Buy More, Save More",
+        "sub_title": "Discover the most recommended products and unlock the best deals today!",
+        "list_all": "4",
+        "product_item_bg_color": "#ffffff",
+        "pc_product_item_img_size": "95%",
+        "mobile_product_item_img_size": "83%",
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/tag_pc_e0131dd4-478f-400d-af1b-e8a767edcba5.png?v=1680255000",
+        "pc_product_sale_width": "",
+        "mobile_product_sale_width": "",
+        "pc_padding": "40px 0 100px 0",
+        "mobile_padding": "40px 0 70px 0",
+        "need_load_more": true,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true
+      }
+    },
+    "f74fe2ab-850e-43bf-9f34-79fc6e040474": {
+      "type": "ug_details",
+      "blocks": {
+        "89071230-bddc-4477-9489-82b455551bb3": {
+          "type": "details_item",
+          "settings": {
+            "details": "Double points event is only available on the power station."
+          }
+        },
+        "e2ce36a5-1ff2-4c05-b23b-1d36f4794580": {
+          "type": "details_item",
+          "settings": {
+            "details": "Discount ONLY applies to products on the event page, and you can only apply one discount at checkout."
+          }
+        },
+        "8f174881-2302-40af-83ec-d3d049c7a87b": {
+          "type": "details_item",
+          "settings": {
+            "details": "All rights reserved by Ugreen Innovations."
+          }
+        }
+      },
+      "block_order": [
+        "89071230-bddc-4477-9489-82b455551bb3",
+        "e2ce36a5-1ff2-4c05-b23b-1d36f4794580",
+        "8f174881-2302-40af-83ec-d3d049c7a87b"
+      ],
+      "settings": {
+        "section_title": "Details"
       }
     },
     "385b35bd-8ba7-4d9c-a9cc-0919ed44a194": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n    .ug-day-bg {\n        position: absolute;\n        z-index: -1;\n    }\n    .ug-day-bg1 {\n        left: 0;\n        top: 78.125vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg2 {\n        right: -4.375vw;\n        top: 108vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg3{\n        left: 3.375vw;\n        top: 162vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg4{\n        right: -5.375vw;\n        top: 170vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg5{\n        left: -0.625vw;\n        top: 186vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg6{\n        right: 7.625vw;\n        top: 202vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg7{\n        right: -6vw;\n        width: min(360px, 18.75vw);\n        bottom: -5vw;\n    }\n    @media screen and (max-width: 1200px){\n        .ug-day-bg {\n            display: none;\n        }\n    }\n<\/style>\n<div class=\"ug-day-bg1 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img1_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg2 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img2_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg3 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img3_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg4 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img4_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg5 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img5_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg6 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img6_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg7 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img7_pc.png?v=1680255000\" alt=\"\"><\/div>\n\n<script>\n    $(function(){\n        if(isMobile()){\n            $('.ug-day-bg').remove()\n        }\n    })\n<\/script>",
+        "custom_liquid": "<style>\n    .ug-day-bg {\n        position: absolute;\n        \n    }\n    .ug-day-bg1 {\n        left: 0;\n        top: 124.125vw;\n        width: min(460px, 21vw);\n    }\n    .ug-day-bg2 {\n        right: -4.375vw;\n        top: 140vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg3{\n        left: 2.375vw;\n        top: 195vw; \n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg4{\n        right: -5.375vw;\n        top: 193vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg5{\n        left: -0.625vw;\n        top: 237vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg6{\n        left: 2.625vw;\n        top: 272vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg7{\n        right: 2vw;\n        width: min(360px, 18.75vw);\n        top: 254vw;\n        transform: rotate(65deg);\n    }\n    @media screen and (max-width: 1200px){\n        .ug-day-bg {\n            display: none;\n        }\n    }\n<\/style>\n<div class=\"ug-day-bg1 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img1_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg2 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img2_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg3 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img3_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg4 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img4_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg5 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img5_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg6 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img6_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg7 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img7_pc.png?v=1680255000\" alt=\"\"><\/div>\n\n<script>\n    $(function(){\n        if(isMobile()){\n            $('.ug-day-bg').remove()\n        }\n    })\n<\/script>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -239,11 +272,13 @@
     }
   },
   "order": [
-    "ug-images",
-    "ug-day-program",
-    "ug-day-point-product",
-    "ug-product-list",
-    "accordion",
+    "5a97e0ca-1580-48d9-aafd-8a9feb3ade1f",
+    "30d681da-5279-4baf-9bad-f096bd5258c8",
+    "aa5c32c5-d0a1-42f1-8dfd-fc8141b97f20",
+    "3ef9e0fe-0b0e-4ce1-82e1-e85775e850d8",
+    "2f93060c-0842-4efa-a146-5ab97c0165dc",
+    "388f7fcd-4e61-4dd4-a908-861b90859d17",
+    "f74fe2ab-850e-43bf-9f34-79fc6e040474",
     "385b35bd-8ba7-4d9c-a9cc-0919ed44a194"
   ]
 }
