@@ -29,17 +29,17 @@
         "5ba4ac6a-170a-4600-8ede-2710a62cb5f2": {
           "type": "ugreenday_power",
           "settings": {
-            "product": "ugreen-powerroam1200-power-station",
+            "product": "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
             "product_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/1200w_pc.png?v=1684827711",
-            "points_text": "Get 1,999 Points"
+            "points_text": "Get 1,399 Points"
           }
         },
         "2b08f6a4-59d4-47e1-ab5c-02635cca8717": {
           "type": "ugreenday_power",
           "settings": {
-            "product": "ugreen-powerroam-600-power-station",
+            "product": "15054a",
             "product_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/600w_pc.png?v=1684827712",
-            "points_text": "Get 1,199 Points"
+            "points_text": "Get 2,399 Points"
           }
         }
       },
@@ -56,12 +56,13 @@
         "135e9481-2ae3-4adc-afb5-36546540b448": {
           "type": "ugreenday_redeem",
           "settings": {
-            "product": "ugreen-100w-usb-c-charger",
-            "points_text": "100"
+            "product": "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+            "points_text": "250"
           }
         },
         "e8448177-047b-40a3-9f7f-a2517af5f09c": {
           "type": "ugreenday_redeem",
+          "disabled": true,
           "settings": {
             "product": "ugreen-3-in-1-magsafe-wireless-charging-station",
             "points_text": "130"
@@ -71,18 +72,19 @@
           "type": "ugreenday_redeem",
           "settings": {
             "product": "ugreen-2-in-1-magnetic-wireless-charging-station",
-            "points_text": "46"
+            "points_text": "100"
           }
         },
         "8b6f2566-3bdf-4604-af49-dc5703247ccf": {
           "type": "ugreenday_redeem",
           "settings": {
-            "product": "ugreen-9-in-1-usb-c-docking-station",
-            "points_text": "190"
+            "product": "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable",
+            "points_text": "50"
           }
         },
         "59c4e402-07ad-4845-89c3-ad1ca17d74de": {
           "type": "ugreenday_redeem",
+          "disabled": true,
           "settings": {
             "product": "ugreen-6-in-1-usb-c-docking-station-with-4k-60hz-hdmi",
             "points_text": "45"
@@ -90,6 +92,7 @@
         },
         "dd63429d-f4e2-46c8-940d-c3dc5bfddb06": {
           "type": "ugreenday_redeem",
+          "disabled": true,
           "settings": {
             "product": "ultra-slim-5-in-1-usb-c-hub",
             "points_text": "50"
@@ -111,13 +114,14 @@
     },
     "2f93060c-0842-4efa-a146-5ab97c0165dc": {
       "type": "ug_UgreenDay_gifts",
+      "disabled": true,
       "blocks": {
         "00d72716-fe9c-4b3e-86e6-c6075668941c": {
           "type": "ugreenday_gifts",
           "settings": {
             "product1": "ugreen-nexode-200w-usb-c-desktop-charger",
             "product_img1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/1_8ce2d4cc-9967-4c9f-8369-7a8669978e5b.webp?v=1684843272",
-            "product2": "100w-3c1a-gan-fast-charger",
+            "product2": "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
             "product_img2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/2_84d82364-18c4-4a6c-9781-e00d9924417a.webp?v=1684930458"
           }
         },
@@ -143,64 +147,59 @@
     "388f7fcd-4e61-4dd4-a908-861b90859d17": {
       "type": "ug-tabs-product-list",
       "blocks": {
+        "56de405c-308f-4005-baf2-e1aac394fd05": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Hubs & Dock",
+            "product_list": [
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-6-in-1-usb-c-hub",
+              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "copy-of-snap-deal-ugreen-docking-station-for-steam-deck"
+            ]
+          }
+        },
         "35c9871c-733f-43d3-b0aa-a3e96b9ef85c": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Chargers",
+            "tabs_title": "Gan Chargers",
             "product_list": [
-              "ugreen-nexode-200w-usb-c-desktop-charger",
-              "ugreen-nexode-140w-usb-c-wall-charger",
-              "65w-3-ports-gan-fast-charger",
-              "ugreen-65w-nexode-gan-usb-c-3-port-charger-with-us-uk-eu-plug-for-travel",
-              "ugreen-100w-usb-c-diginest-pro-power-strip",
-              "ugreen-65w-usb-c-diginest-cube-charging-station",
-              "ugreen-65w-usb-c-charging-station",
-              "ugreen-nexode-45w-dual-c-port-wall-charger"
+              "ugreen-65w-usb-c-pd-charger-4-ports",
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-65w-power-strip-diginest-cube-gan-extension-lead-with-usb-c-slots",
+              "ugreen-nexode-100w-usb-c-wall-charger"
             ]
           }
         },
         "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Hubs & Docking Stations",
+            "tabs_title": "For Iphone",
             "product_list": [
-              "6-in-1-usb-c-adapter-with-4k-hdmi",
-              "7-in-1-multiport-adapter-with-4k-60hz",
-              "ugreen-10-in-1-hub-with-4k-hdmi",
-              "ugreen-usb-c-triple-display-docking-station",
-              "ugreen-usb-3-0-4-port-switch",
-              "ugreen-m-2-nvme-sata-ssd-enclosure-reader"
-            ]
-          }
-        },
-        "56de405c-308f-4005-baf2-e1aac394fd05": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Stands & Holders",
-            "product_list": [
-              "ugreen-360-rotating-tablet-stand-holder",
-              "cell-phone-stand-holder",
-              "adjustable-aluminum-phone-holder",
-              "gravity-drive-car-mount"
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-nexode-mini-45w-dual-usb-c-charger",
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray"
             ]
           }
         },
         "75ce9223-3849-4530-97f8-99ba59ce9854": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Cables",
+            "tabs_title": "Hard Drive",
             "product_list": [
-              "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft",
-              "ugreen-usb-c-to-lightning-audio-adapter",
-              "usb-c-to-lightning-fast-charging-cable"
+              "ugreen-2-bay-hard-drive-enclosure-2-x-16tb-raid-array-dual-bay-hard-drive-tray-for-3-5-2-5-inch-hdd-ssd-2-5-hard-drive-docking-station-for-with-quiet-fan-supports-raid-0-1-10-pm-large-clone-mode",
+              "ugreen-m2-nvme-10-gbps-ssd-enclosure",
+              "weekly-sale-product-m2-gehause1",
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-ssd-caddy"
             ]
           }
         }
       },
       "block_order": [
+        "56de405c-308f-4005-baf2-e1aac394fd05",
         "35c9871c-733f-43d3-b0aa-a3e96b9ef85c",
         "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88",
-        "56de405c-308f-4005-baf2-e1aac394fd05",
         "75ce9223-3849-4530-97f8-99ba59ce9854"
       ],
       "settings": {
