@@ -40,6 +40,7 @@
     },
     "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-discount_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Buy More, Save More<\/span>\n<\/h2>\n\n    <\/section>",
         "layout": "t4s-container-fluid",
@@ -156,6 +157,8 @@
       ],
       "settings": {
         "section_id": "tabs_product",
+        "section_title": "Buy More, Save More",
+        "sub_title": "",
         "list_all": "7",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "50%",
