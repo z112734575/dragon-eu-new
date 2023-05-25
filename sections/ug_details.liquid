@@ -1,12 +1,87 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  /* details */
+  .details_box .section_box{
+      max-width: 50vw;
+      margin: 0 auto;
   }
+  .details_box{
+      padding: 5.208vw 0;
+      background: #fff;
+  }
+  .details_box h2{
+      font-weight: 700;
+      font-size: 1.5625vw;
+      color: #000000;
+      margin-bottom: 2.083vw;
+      text-align: center;
+  }
+  .details_box li{
+      font-size: 1.042vw;
+      line-height: 1.5625vw;
+      color: #666666;
+      list-style: disc;
+  }
+  @media (max-width: 768px) {
+    .details_box{
+          padding: 16vw 5.333vw;
+      }
+      .details_box .section_box{
+          max-width: 100%;
+      }
+      .details_box h2{
+          font-size: 6.4vw;
+          margin-bottom: 6.667vw;
+      }
+      .details_box li{
+          font-size: 4.267vw;
+          line-height: 6.4vw;
+      }
+  }
+</style>
+{% liquid
+  assign section_title = section.settings.section_title
+  assign blocks = section.blocks
+%}
+<section class="details_box">
+  <div class="section_box">
+    <h2>{{ section_title }}</h2>
+    <ul>
+      {% for block in blocks %}
+        {% assign details = block.settings.details %}
+        <li>{{ details }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "UGreen Details Block",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "区域标题",
+      "default": "Details"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "details item",
+      "type": "details_item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "details",
+          "label": "Details Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "UGreen Details Block"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
