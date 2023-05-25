@@ -1,12 +1,289 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .day_powerroam{
+      padding: 3.125vw 0;
   }
+  .day_powerroam .content {
+      width: 100%;
+      max-width: 66.667vw;
+      margin: 0 auto;
+  }
+  .day_powerroam .powerroam_title{
+      text-align: center;
+  }
+  .day_powerroam .powerroam_title h2{
+      font-weight: 700;
+      font-size: 1.875vw;
+      line-height: 1.875vw;
+      color: #000000;
+  }
+  .day_powerroam .powerroam_title h2 span{
+      color: #00CC88;
+  }
+  .day_powerroam .powerroam_title p{
+      font-size: 1.042vw;
+      line-height: 1.042vw;
+      color: #666666;
+      margin: 1.042vw 0 2.083vw 0;
+  }
+  .day_powerroam .content > p{
+      font-size: 1.042vw;
+      line-height: 1.042vw;
+      text-align: center;
+      color: #999999;
+      margin: 1.5625vw 0 0 0;
+  }
+  .day_powerroam .content > p a{
+      color: #00CC88;
+  }
+  .day_powerroam .section_box{
+      display: grid;
+      grid-template-columns: repeat(2,minmax(0, 1fr));
+      gap: 1.042vw;
+  }
+  .day_powerroam .product{
+      background: #FFFFFF;
+      box-shadow: 0vw 0.417vw 1.042vw rgba(0, 0, 0, 0.08);
+      border-radius: 0.625vw;
+  }
+  .day_powerroam .product img{
+      border-radius: 0.625vw 0.625vw 0 0;
+      width: 100%;
+  }
+  .day_powerroam .product_text{
+      padding: 2.083vw;
+  }
+  .day_powerroam .product_text h3{
+      font-weight: 600;
+      font-size: 1.458vw;
+      line-height: 1.458vw;
+      color: #000000;
+  }
+  .day_powerroam .product_text p{
+      font-size: 0.833vw;
+      line-height: 0.833vw;
+      color: #999999;
+      margin: 0.78125vw 0 0 0;
+  }
+  .day_powerroam .product_text .pice_points{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.823vw 0;
+      position: relative;
+  }
+  .day_powerroam .product_text .pice_points h4{
+      font-weight: 600;
+      font-size: 1.458vw;
+      line-height: 1.458vw;
+      color: #000000;
+  }
+  .day_powerroam .product_text .pice_points h4 span{
+      font-weight: 400;
+      font-size: 0.833vw;
+      line-height: 0.833vw;
+      text-decoration-line: line-through;
+      color: #999999;
+      padding-left: 0.417vw;
+  }
+  .day_powerroam .product_text .pice_points p{
+      display: flex;
+      position: absolute;
+      right: -2.292vw;
+      background: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Label_pc.webp?v=1684827663") center center/100% 100% no-repeat;
+      width: 11.979vw;
+      height: 2.292vw;
+      align-items: center;
+      justify-content: space-around;
+      font-weight: 600;
+      font-size: 1.042vw;
+      line-height: 1.042vw;
+      color: #FF900E;
+      padding: 0 0 0.208vw 1.042vw;
+      margin: 0;
+  }
+  .day_powerroam .product_text .buy_leam{
+      display: flex;
+      align-items: self-end;
+      justify-content: space-between;
+      width: 100%;
+      gap: 2%;
+  }
+  .day_powerroam .product_text .buy_leam a{
+      flex: 1;
+      color: #fff;
+      font-size: 0.833vw;
+      line-height: 1.25vw;
+      font-weight: 600;
+      border-radius: 3.125vw;
+      background: #000;
+      text-align: center;
+      padding: 0.521vw 0;
+      transition: 0.3s;
+      border: 1px solid #000;
+  }
+  .day_powerroam .product_text .buy_leam a:last-child{
+      color: #000;
+      background: #FFFFFF;
+  }
+  .day_powerroam .product_text .buy_leam a:hover{
+      color: #fff;
+      background: #00CC88;
+      border:1px solid #00CC88;
+  }
+
+  @media (max-width:768px) {
+      .day_powerroam{
+          padding: 8vw 0;
+      }
+      .day_powerroam .content{
+          max-width: 100%;
+      }
+      .day_powerroam .powerroam_title h2{
+          font-size: 6.4vw;
+          line-height: 8vw;
+      }
+      .day_powerroam .powerroam_title p{
+          font-size: 12px;
+          line-height: 6.4vw;
+          margin: 2.667vw 0 8vw 0;
+      }
+      .day_powerroam .section_box{
+          grid-template-columns: repeat(1,minmax(0, 1fr));
+          gap: 5.333vw;
+          margin: 5.333vw 4vw;
+      }
+      .day_powerroam .product{
+          box-shadow: 0vw 1.067vw 2.667vw rgba(0, 0, 0, 0.08);
+          border-radius: 2.133vw;
+      }
+      .day_powerroam .product img{
+          border-radius: 3.2vw 3.2vw 0 0;
+      }
+      .day_powerroam .product_text{
+          padding: 5.333vw;
+      }
+      .day_powerroam .product_text h3{
+          font-size: 4.267vw;
+          line-height: 4.267vw;
+      }
+      .day_powerroam .product_text p{
+          font-size: 3.2vw;
+          line-height: 4.267vw;
+          margin: 2.667vw 0 0 0;
+      }
+      .day_powerroam .product_text .pice_points{
+          padding: 5.333vw 0 7.467vw 0;
+      }
+      .day_powerroam .product_text .pice_points h4{
+          font-size: 5.333vw;
+          line-height: 4.8vw;
+      }
+      .day_powerroam .product_text .pice_points h4 span{
+          font-size: 3.733vw;
+          line-height: 4.533vw;
+          padding-left: 2.133vw;
+      }
+      .day_powerroam .product_text .pice_points p{
+          width: 43.2vw;
+          height: 8vw;
+          right: -6.4vw;
+          font-size: 3.733vw;
+          line-height: 3.733vw;
+          padding: 0 0 0 5.333vw;
+      }
+      .day_powerroam .product_text .buy_leam a{
+          font-size: 3.733vw;
+          line-height: 3.733vw;
+          padding: 2.667vw 0;
+          border-radius: 16vw;
+      }
+      .day_powerroam .content > p{
+          font-size: 4.267vw;
+          line-height: 6.4vw;
+          margin: 5.333vw 0 0 0;
+      }
+  }
+</style>
+{% liquid
+  assign blocks = section.blocks
+%}
+<section class="day_powerroam">
+  <div class="content">
+    <div class="powerroam_title">
+      <h2>Get <span>2X</span> Ugreen Points with PowerRoam</h2>
+      <p>
+        For each $1 spent, get 2 times the Ugreen Reward points. Please note points are based on the checkout price.
+      </p>
+    </div>
+    <div class="section_box">
+      {% for block in blocks %}
+        {% assign product = block.settings.product %}
+        {% assign product_url = block.settings.product_url %}
+        {% assign points_text = block.settings.points_text %}
+        {% if product != blank %}
+          <div class="product">
+            <img src="{{ product_url }}" alt="">
+            <div class="product_text">
+              <h3>{{ product.title }}</h3>
+              <p>{{ product.metafields.custom.sub_title }}</p>
+              <div class="pice_points">
+                <h4 class="font-lato">
+                  {{ product.price | money -}}
+                  <span>{{ product.compare_at_price | money }}</span>
+                </h4>
+                <p>{{ points_text }}</p>
+              </div>
+              <div class="buy_leam">
+                <a
+                  href="{{ product.url }}"
+                  class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-day-point-product-item-info-btn"
+                  data-variant-id="{{ product.variants.first.id }}"
+                  data-action-atc
+                  rel="nofollow"
+                  >Buy Now</a
+                >
+                <a href="{{ product.url }}">Learn More</a>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <p>Please make sure you’d join our <a href="#smile-home">Reward program</a></p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Ugreen Day Power",
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "name": "product item",
+      "type": "ugreenday_power",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "url",
+          "id": "product_url",
+          "label": "产品封面"
+        },
+        {
+          "type": "text",
+          "id": "points_text",
+          "label": "Points 文案"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ugreen Day Power"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
