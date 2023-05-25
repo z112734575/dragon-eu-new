@@ -53,6 +53,13 @@
     "3ef9e0fe-0b0e-4ce1-82e1-e85775e850d8": {
       "type": "ug_UgreenDay_Redeem",
       "blocks": {
+        "8b6f2566-3bdf-4604-af49-dc5703247ccf": {
+          "type": "ugreenday_redeem",
+          "settings": {
+            "product": "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable",
+            "points_text": "50"
+          }
+        },
         "135e9481-2ae3-4adc-afb5-36546540b448": {
           "type": "ugreenday_redeem",
           "settings": {
@@ -75,13 +82,6 @@
             "points_text": "100"
           }
         },
-        "8b6f2566-3bdf-4604-af49-dc5703247ccf": {
-          "type": "ugreenday_redeem",
-          "settings": {
-            "product": "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable",
-            "points_text": "50"
-          }
-        },
         "59c4e402-07ad-4845-89c3-ad1ca17d74de": {
           "type": "ugreenday_redeem",
           "disabled": true,
@@ -100,10 +100,10 @@
         }
       },
       "block_order": [
+        "8b6f2566-3bdf-4604-af49-dc5703247ccf",
         "135e9481-2ae3-4adc-afb5-36546540b448",
         "e8448177-047b-40a3-9f7f-a2517af5f09c",
         "ed3f8630-2a68-404c-bf53-4f2453e417aa",
-        "8b6f2566-3bdf-4604-af49-dc5703247ccf",
         "59c4e402-07ad-4845-89c3-ad1ca17d74de",
         "dd63429d-f4e2-46c8-940d-c3dc5bfddb06"
       ],
