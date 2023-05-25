@@ -1,12 +1,306 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .rewards_product{
+      padding: 6.25vw 0 3.125vw 0;
+      background: #F5F5F7;
   }
+  .rewards_product .content {
+      width: 100%;
+      max-width: 66.667vw;
+      margin: 0 auto;
+  }
+  .rewards_product .svg_title{
+      text-align: center;
+  }
+  .rewards_product .svg_title svg{
+      display: inline-block;
+      width: 38px;
+      height: 38px;
+  }
+  .rewards_product .svg_title h2{
+      font-weight: 700;
+      font-size: 1.875vw;
+      line-height: 1.875vw;
+      color: #000000;
+      padding: 0.677vw 0 1.042vw 0;
+  }
+  .rewards_product .svg_title p{
+      font-size: 1.042vw;
+      line-height: 1.042vw;
+      color: #666666;
+      margin: 0 0 2.083vw 0;
+  }
+  .rewards_product_list{
+      display: grid;
+      grid-template-columns: repeat(3,minmax(0, 1fr));
+      gap: 1.042vw;
+  }
+  .rewards_product_list .item{
+      background: #FFFFFF;
+      box-shadow: 0vw 0.208vw 1.042vw rgba(0, 0, 0, 0.08);
+      border-radius: 0.625vw;
+      padding: 2.083vw 1.458vw;
+    z-index:1;
+  }
+  .rewards_product_list .item a{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .rewards_product_list .item a img{
+      max-width: 10.417vw;
+      transition: all .3s;
+  }
+  .rewards_product_list .item a p{
+      font-size: 1.042vw;
+      line-height: 1.5625vw;
+      color: #666666;
+      height: 3.021vw;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      margin: 1.042vw 0 1.5625vw 0;
+  }
+  .rewards_product_list .item .points_btn{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .rewards_product_list .item .points_btn p{
+      font-weight: 600;
+      font-size: 1.354vw;
+      line-height: 1.458vw;
+      color: #00CC88;
+      margin: 0;
+  }
+  .rewards_product_list .item .points_btn p img{
+      width: 1.458vw;
+      height: 1.458vw;
+      margin:-0.260vw 0.417vw 0 0;
+  }
+  .rewards_product_list .item .points_btn a{
+      display: inline-block;
+      padding: 0.521vw 1.302vw;
+      font-weight: 600;
+      font-size: 0.833vw;
+      line-height: 1.25vw;
+      color: #FFFFFF;
+      transition: 0.3s;
+      background: #000000;
+      border-radius: 3.125vw;
+  }
+  .rewards_product_list .item .points_btn a:hover{
+      background: #00CC88;
+  }
+  .rewards_product_list .item:hover a img{
+      transform: scale(1.1);
+      opacity: .7;
+  }
+  .list_mol{display: none;}
+  @media (max-width:768px) {
+      .list_pc{
+          display: none;
+      }
+      .list_mol{
+          display: block;
+      }
+      .rewards_product{
+          padding: 16vw 0 0 0;
+      }
+      .rewards_product .content {
+          max-width: 100%;
+      }
+      .rewards_product .svg_title{
+          padding: 0 4vw;
+      }
+      .rewards_product .svg_title h2{
+          font-size: 6.4vw;
+          line-height: 8vw;
+          padding: 2.667vw 0;
+      }
+      .rewards_product .svg_title p{
+          font-size: 4.267vw;
+          line-height: 6.4vw;
+          margin-bottom: 8vw;
+      }
+      .rewards_product_list{
+          padding: 0 0 8vw 3vw;
+      }
+      .rewards_product_list .item{
+          padding: 5.333vw 4vw;
+          box-shadow: 0vw 1.067vw 5.333vw rgba(0, 0, 0, 0.08);
+          border-radius: 3.2vw;
+      }
+      .rewards_product_list .item a img{
+          max-width: 32vw;
+      }
+      .rewards_product_list .item a p{
+          font-size: 3.733vw;
+          line-height: 4.267vw;
+          height: 9.067vw;
+          margin: 2.667vw 0 4vw 0;
+      }
+      .rewards_product_list .item .points_btn{
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+      }
+      .rewards_product_list .item .points_btn p{
+          font-size: 4.8vw;
+          line-height: 5.333vw;
+          margin: 0 0 5.333vw 0;
+      }
+      .rewards_product_list .item .points_btn p img{
+          width: 5.333vw;
+          height: 5.333vw;
+          margin: -1.333vw 2.133vw 0 0;
+      }
+      .rewards_product_list .item .points_btn a{
+          width: 100%;
+          text-align: center;
+          padding: 2.667vw 0;
+          font-size: 3.733vw;
+          line-height: 3.733vw;
+          border-radius: 16vw;
+      }
+  }
+</style>
+{% liquid
+  assign section_title = section.settings.section_title
+  assign sub_title = section.settings.sub_title
+  assign blocks = section.blocks
+%}
+<section class="rewards_product">
+  <div class="content">
+    <div class="svg_title">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-Redeem_icon"></use>
+      </svg>
+      <h2>{{ section_title }}</h2>
+      <p>{{ sub_title }}</p>
+    </div>
+    <div class="rewards_product_list list_pc">
+      {% for block in blocks %}
+        {% assign product = block.settings.product %}
+        {% assign points_text = block.settings.points_text %}
+        {% if product != blank %}
+          <div class="item">
+            <a href="{{ product.url }}">
+              <img src="{{ product.featured_image | img_url: 'medium' }}" alt="">
+              <p>{{ product.title }}</p>
+            </a>
+            <div class="points_btn">
+              <p class="font-lato">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/points_icon_pc.webp?v=1684835581"
+                  alt=""
+                >
+                {{- points_text }} Points
+              </p>
+              <a
+                href="{{ product.url }}"
+                class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-day-point-product-item-info-btn"
+                data-variant-id="{{ product.variants.first.id }}"
+                data-action-atc
+                rel="nofollow"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="rewards_product_list swiper list_mol">
+      <div class="swiper-wrapper">
+        {% for block in blocks %}
+          {% assign product = block.settings.product %}
+          {% assign points_text = block.settings.points_text %}
+          {% if product != blank %}
+            <div class="item swiper-slide">
+              <a href="{{ product.url }}">
+                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="">
+                <p>{{ product.title }}</p>
+              </a>
+              <div class="points_btn">
+                <p class="font-lato">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/points_icon_pc.webp?v=1684835581"
+                    alt=""
+                  >
+                  {{- points_text }} Points
+                </p>
+                <a
+                  href="{{ product.url }}"
+                  class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-day-point-product-item-info-btn"
+                  data-variant-id="{{ product.variants.first.id }}"
+                  data-action-atc
+                  rel="nofollow"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript">
+  function isMobile() {
+      return window.innerWidth <= 768;
+  }
+  if (isMobile()) {
+      const RewardsSwiper = new Swiper('.rewards_product_list', {
+              slidesPerView: 1.5,
+              spaceBetween: 12,
+              loop: true,
+              autoplay: {
+                  delay: 5000,
+              },
+          });
+  }
+</script>
+{% schema %}
+{
+  "name": "Ugreen Day Redeem",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "区域标题",
+      "default": "Redeem Your Rewards"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "区域副标题",
+      "default": "Got some Points to spare? Redeem them for exclusive discounts on Ugreen merch!"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "product item",
+      "type": "ugreenday_redeem",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "text",
+          "id": "points_text",
+          "label": "Points 文案"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ugreen Day Redeem"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
