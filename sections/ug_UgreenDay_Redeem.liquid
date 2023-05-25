@@ -29,6 +29,9 @@
       color: #666666;
       margin: 0 0 2.083vw 0;
   }
+  .rewards_product .svg_title p a{
+    color: #00CC88;
+  }
   .rewards_product_list{
       display: grid;
       grid-template-columns: repeat(3,minmax(0, 1fr));
@@ -178,7 +181,10 @@
         <use xlink:href="#icon-Redeem_icon"></use>
       </svg>
       <h2>{{ section_title }}</h2>
-      <p>{{ sub_title }}</p>
+      <p>
+        Got some Points to spare? <a href="#smile-home">Log in</a> Rewards Program to redeem them for exclusive
+        discounts on Ugreen merch!
+      </p>
     </div>
     <div class="rewards_product_list list_pc">
       {% for block in blocks %}
