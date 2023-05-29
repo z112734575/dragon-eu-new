@@ -704,7 +704,7 @@
             "type": "drop",
             "settings": {
               "title": "Deals & Events",
-              "url": "",
+              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
               "open_link": "_self",
               "menu": "deals-events",
               "icon": "",
