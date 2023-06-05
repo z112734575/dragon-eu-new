@@ -1,9 +1,9 @@
 {% liquid
-    assign settings = section.settings
-    assign title = section.settings.title
-    assign items = section.blocks
-    assign pc_icon_size = section.settings.pc_icon_size
-    assign mobile_icon_size = section.settings.mobile_icon_size
+  assign settings = section.settings
+  assign title = section.settings.title
+  assign items = section.blocks
+  assign pc_icon_size = section.settings.pc_icon_size
+  assign mobile_icon_size = section.settings.mobile_icon_size
 %}
 
 <style>
@@ -53,6 +53,9 @@
     .ug-index-category-item-title {
         font-size: {{ section.settings.pc_icon_size |  default: "inherit" }};
     }
+  .ug-index-category-item-title .icon{
+    color:#999999;
+  }
     @media screen and (max-width: 768px) {
         .ug-index-category {
             padding: 80px 16px 0;
@@ -90,28 +93,27 @@
 </style>
 
 <div class="ug-index-category">
-    <div class="ug-index-category-title">{{ title }}</div>
-    <div class="ug-index-category-items">
-        {% for item in items %}
-            {% assign name = item.settings.name %}
-            {% assign icon_name = item.settings.icon_name %}
-            {% assign link = item.settings.link %}
-            <a href="{{ link }}" class="ug-index-category-item-wrap">
-                <div class="ug-index-category-item">
-                    <div class="ug-index-category-item-title">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#{{ icon_name }}"></use>
-                        </svg>
-                    </div>
-                    <div class="ug-index-category-item-name">{{ name }}</div>
-                </div>
-                <svg class="icon category-next" aria-hidden="true">
-                    <use xlink:href="#icon-xiayiye"></use>
-                </svg>
-            </a>
-        {% endfor %}
-
-    </div>
+  <div class="ug-index-category-title">{{ title }}</div>
+  <div class="ug-index-category-items">
+    {% for item in items %}
+      {% assign name = item.settings.name %}
+      {% assign icon_name = item.settings.icon_name %}
+      {% assign link = item.settings.link %}
+      <a href="{{ link }}" class="ug-index-category-item-wrap">
+        <div class="ug-index-category-item">
+          <div class="ug-index-category-item-title">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#{{ icon_name }}"></use>
+            </svg>
+          </div>
+          <div class="ug-index-category-item-name">{{ name }}</div>
+        </div>
+        <svg class="icon category-next" aria-hidden="true">
+          <use xlink:href="#icon-xiayiye"></use>
+        </svg>
+      </a>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
