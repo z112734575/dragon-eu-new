@@ -162,8 +162,8 @@
       ],
       "settings": {
         "title": "Shop by Category",
-        "pc_icon_size": "",
-        "mobile_icon_size": ""
+        "pc_icon_size": "60px",
+        "mobile_icon_size": "40px"
       }
     },
     "ug-product-list": {
@@ -188,7 +188,7 @@
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
         "pc_product_sale_width": "60px",
         "mobile_product_sale_width": "48px",
-        "pc_padding": "100px 0",
+        "pc_padding": "120px 0",
         "mobile_padding": "40px 0",
         "need_load_more": false,
         "load_more_default_count": 6,
