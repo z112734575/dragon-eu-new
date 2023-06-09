@@ -2,6 +2,9 @@
   "sections": {
     "3155cc81-16ac-4d96-80a0-275500abaea3": {
       "type": "ug_AppleEvent_banner",
+      "custom_css": [
+
+      ],
       "settings": {
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_8b046f76-0060-4426-b97c-741a6a86388a.png?v=1678088706",
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mobile_d5b671f4-8dc6-44b8-86ef-0ab1b0b64edb.png?v=1678096000",
@@ -19,9 +22,9 @@
         "desc": "Keep iOS Devices Charged, Faster",
         "product_list": [
           "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
-          "snap-deal-ugreen-nexode-100w-usb-c-wall-charger",
           "snap-deal-ugreen-nexode-mini-45w-dual-usb-c-charger",
-          "snap-deal-ugreen-usb-c-to-lightning-cable"
+          "snap-deal-ugreen-usb-c-to-lightning-cable",
+          "ugreen-2-in-1-magnetic-wireless-charging-station"
         ]
       }
     },
