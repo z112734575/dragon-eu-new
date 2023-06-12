@@ -17,26 +17,27 @@ endif -%}
 {%- if t_name == 'index' -%}<h1 class="site-header__logo t4s-d-none">{{- shop.name -}}</h1>{%- endif -%}
 {%- liquid
   assign admin_sp = request.design_mode
+  section "top-activity-bar"
   section 'announcement-bar'
   section 'top-bar'
-  case settings.header_design 
-   when 'inline' 
+  case settings.header_design
+   when 'inline'
      section 'header-inline'
-   when 'sidebar' 
+   when 'sidebar'
      section 'header-sidebar'
-   when 'bottom' 
+   when 'bottom'
      section 'header-bottom'
-   when 'categories'  
+   when 'categories'
       section 'header-categories-menu'
-      if admin_sp 
-      section 'header-categories' 
+      if admin_sp
+      section 'header-categories'
       endif
-   when 'vertical' 
+   when 'vertical'
      section 'header-vertical'
   endcase
   if admin_sp and settings.header_design != 'sidebar'
   section 'mega-menu'
-  endif  -%}<script>                                                                                                       
+  endif  -%}<script>
 window.onload = function() {
     var searchCanvas = document.querySelector('header');
   console.log(searchCanvas)
@@ -45,7 +46,7 @@ window.onload = function() {
             if (window._usfInstantSearchInited)
                 return;
             var inputs = document.querySelectorAll('input.t4s-mini-search__input');
-          
+
             if (inputs.length) {
                 if (window.usf && usf.settings.instantSearch.online){
                     inputs.forEach(e => usf.utils.installSearchInput(e));

@@ -1,0 +1,294 @@
+{% assign products = product.metafields.custom.new_bundles %}
+{% liquid
+    assign title = product.metafields.custom.new_bundles.value.title.value
+    assign sub_title = product.metafields.custom.new_bundles.value.sub_title.value
+    assign discount_percentage = product.metafields.custom.new_bundles.value.discount_percentage.value | floor
+    assign variants_array = product.metafields.custom.new_bundles.value.variants.value
+    assign detail_products_array = product.metafields.custom.new_bundles.value.products.value
+    assign bundles_discount = 100 | minus: discount_percentage
+%}
+
+<script>
+    console.log('111', {{ product | json }})
+    console.log('heihei', {{ product.metafields.custom.bundles.value | json }})
+    console.log(444, '{{ title }}')
+    console.log(555, '{{ sub_title }}')
+    console.log(666, '{{ discount_percentage }}')
+    console.log(777,{{ variants_array | json }})
+    console.log(888,{{ detail_products_array | json }})
+    console.log(999,{{ bundles_discount }})
+    {% assign aaa = variants_array | json %}
+    console.log(1000, {{ aaa[0].name }})
+    console.log(1111, {{ aaa[0].title }})
+    console.log(2222, {{ aaa }})
+    console.log(4444)
+    console.log(3333, JSON.parse({{ aaa }}).length)
+
+
+</script>
+{% if variants_array %}
+    <style>
+        .ug-bundles{
+            padding-left: 0;
+        }
+        .ug-bundles-product-item {
+            margin-top: 24px;
+            padding: 24px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+        }
+        .ug-bundles-product-item.active {
+            border: 1px solid #00CC88;
+        }
+        .ug-bundles-product-item.soutOut {
+            cursor: not-allowed;
+        }
+        .ug-bundles-product-item-img {
+            flex-shrink: 0;
+        }
+        .ug-bundles-product-item-content {
+            flex: 1;
+            margin-left: 12px;
+            color: black;
+        }
+        .ug-bundles-product-item-content del {
+            color: #727273;
+        }
+        .ug-bundles-product-item-title {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        .ug-bundles-product-item-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .ug-bundles-product-item-bottom-price {
+            display: flex;
+        }
+        .ug-bundles-product-item-bottom-detail-btn {
+            color: #00CC88;
+        }
+        .ug-bundles-text {
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+        .ug-bundles-title {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.5;
+            color: black;
+            margin: 0;
+        }
+        .ug-bundles-sub_title {
+            font-size: 14px;
+            margin: 0 0 0 12px;
+        }
+        @media(max-width: 767px) {
+            .ug-bundles-product-item {
+                margin-top: 12px;
+                padding: 12px;
+            }
+            .ug-bundles-product-item-title {
+                font-size: 14px;
+            }
+            .ug-bundles-product-item-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+
+
+    <div class="ug-bundles-text">
+        <div class="ug-bundles-title">{{ title }}</div>
+        <p class="ug-bundles-sub_title">{{ sub_title }}</p>
+    </div>
+    <ul class="ug-bundles">
+        {% for product in detail_products_array %}
+            {% assign index = forloop.index %}
+            {% for pVariant in product.variants %}
+                {% assign cVariant = pVariant %}
+                {% for variant in variants_array %}
+                    {% if variant.id == pVariant.id %}
+                        {% assign cVariant = variant %}
+                        {% comment %}cVariant: currentVariant{% endcomment %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+
+            {% assign soutOut = '' %}
+
+            <script>
+                console.log('cVariant', {{ cVariant | json }})
+            </script>
+
+            {% assign discount_price = cVariant.price | times: bundles_discount | divided_by: 100.0 | money %}
+            {% if bundles_discount == 0 %}
+                {% assign discount_price = 'Free' %}
+            {% endif %}
+
+            {% unless cVariant.available == true %}
+                {% assign soutOut = 'soutOut' %}
+            {% endunless %}
+
+            {%- capture sale_badge_html -%}
+                {%- if bundles_discount > 0 and bundles_discount < 100 -%}
+                    <span class="t4s-badge-price">{{ 'products.badge.save_amount_2_html' | t: saved_amount: discount_percentage }}</span>
+
+                {%- elsif bundles_discount == 100 %}
+                    {% assign saveAmountFixed = cVariant.compare_at_price | minus: cVariant.price %}
+                    {%- assign save = saveAmountFixed | times: 100.0 | divided_by: cVariant.compare_at_price | round %}
+                    <span class="t4s-badge-price">{{ 'products.badge.save_amount_2_html' | t: saved_amount: save }}</span>
+                {%- else -%}
+                {%- endif -%}
+            {%- endcapture -%}
+
+            {% if cVariant.available %}
+                <li data-ug-product-id="{{ cVariant.id }}"
+                    class="ug-bundles-product-item {{ soutOut }}">
+                    <div class="ug-bundles-product-item-img"><img src="{{ product.featured_media | img_url: "400x" }}"
+                                                                  alt="{{ cVariant.name }}" height="64"
+                                                                  width="64"></div>
+                    <div class="ug-bundles-product-item-content">
+                        <div class="ug-bundles-product-item-title">{{ product.title }}</div>
+                        <div class="ug-bundles-product-item-bottom">
+                            <div class="ug-bundles-product-item-bottom-price">
+                                {% if bundles_discount == 100 %}
+                                    <div>{{ cVariant.price | money }}</div>
+                                    {% if cVariant.compare_at_price > cVariant.price %}
+                                        <del>{{ cVariant.compare_at_price | money }}</del>
+                                        {{ sale_badge_html }}
+                                    {% endif %}
+                                {% else %}
+                                    <div>
+                                        {{ discount_price -}}
+                                        <del>{{ cVariant.price | money }}</del>
+                                        {{ sale_badge_html }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                            <div class="ug-bundles-product-item-bottom-detail-btn">Detail ></div>
+                        </div>
+                    </div>
+                </li>
+
+            {% endif %}
+
+        {% endfor %}
+    </ul>
+{% endif %}
+
+<button class="test-add">添加</button>
+<button class="test-checkout">checkout</button>
+<script>
+    $(function () {
+        let formData = {
+            'items': [{
+                'id': getQueryParam('variant'),
+                'quantity': 1
+            }]
+        };
+        $('.test-add').click(function () {
+            add()
+        })
+        $('.test-checkout').click(function () {
+            checkout()
+        })
+        $('.ug-bundles').on('click', 'li', function () {
+            if ($(this).hasClass('soutOut')) {
+                return
+            }
+            $(this).addClass('active').siblings().removeClass('active')
+            let id = $(this).data('ug-product-id')
+            if (!formData.items[1]) {
+                formData.items.push({
+                    'id': id,
+                    'quantity': 1,
+                })
+            } else {
+                formData.items[1].id = id
+            }
+        })
+
+        function get() {
+            fetch(window.Shopify.routes.root + 'cart.js', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+            })
+                .then(response => {
+                    return response.json();
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+
+        async function add() {
+            fetch(window.Shopify.routes.root + 'cart/add.js', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+                .then(async response => {
+                    await T4SThemeSP.Cart.getToFetch()
+                    T4SThemeSP.Drawer.opend($("#t4s-mini_cart"))
+                    return response.json();
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function checkout () {
+
+            const obj = {
+                "line_items": [
+                    {
+                        "variant_id": 46748653388124,
+                        "quantity": 2
+                    }
+                ],
+                "secret": true,
+                "wallet_name": "Checkout",
+                "is_upstream_button": false,
+                "page_type": "product",
+                "has_selling_plans": false,
+                "presentment_currency": "EUR",
+                "country": "DE"
+            }
+            fetch(window.Shopify.routes.root + 'wallets/checkouts.json', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(obj)
+            }).then(response => {
+                return response.json();
+            })
+                .then(data => {
+                    console.log('Success:', data);
+                    // window.location.href = "/checkout";
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                })
+        }
+
+        function getQueryParam(key) {
+            var urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(key);
+        }
+    })
+</script>

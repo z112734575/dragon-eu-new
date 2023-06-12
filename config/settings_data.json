@@ -600,6 +600,17 @@
           "bd_cl_tr": "#b3b3b3"
         }
       },
+      "top-activity-bar": {
+        "type": "top-activity-bar",
+        "settings": {
+          "enable": true,
+          "pc_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc_b250a1ec-1839-4112-b72c-0e64601b7900.jpg?v=1686305564",
+          "mobile_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile.jpg?v=1686305564",
+          "pc_height": "auto",
+          "mobile_height": "auto",
+          "link": ""
+        }
+      },
       "header-inline": {
         "type": "header-inline",
         "blocks": {
