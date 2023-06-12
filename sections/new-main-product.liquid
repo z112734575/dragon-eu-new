@@ -589,10 +589,6 @@
                                 </h1>
                                 {% render 'ug-bundles', product: product %}
                                 {% comment %}ugreen{% endcomment %}
-                            {%- when 'short_description' -%}
-                                {% if product.metafields.custom.short_description %}
-                                    {% render 'ug-short-description', product: product %}
-                                {% endif %}
 
                                 {% assign showBundlessArray = '7050071670846,6928711811155,6893296451667,6928711319635'
                                         | split: ','
@@ -1350,6 +1346,8 @@
     </div>
 </div>
 {%- render 'FBT' -%}
+
+{% render 'ug-new-short-description' %}
 
 {%- if tabs_position == 'external' -%}
     {%- render 'product_tabs',

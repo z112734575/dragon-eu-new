@@ -67,7 +67,7 @@
           }
         },
         "short_description": {
-          "type": "short_description",
+          "type": "ug-new-short-description",
           "settings": {
           }
         },
