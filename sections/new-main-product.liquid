@@ -587,7 +587,7 @@
                                 >
                                     {{ product.title }}
                                 </h1>
-                                {% render 'ug-bundles', product: product %}
+                                {% render 'ug-bundles', product: product, current_variant: current_variant %}
                                 {% comment %}ugreen{% endcomment %}
 
                                 {% assign showBundlessArray = '7050071670846,6928711811155,6893296451667,6928711319635'
@@ -1347,6 +1347,8 @@
 </div>
 {%- render 'FBT' -%}
 
+
+{% render 'ug-product-drawer' %}
 {% render 'ug-new-short-description' %}
 
 {%- if tabs_position == 'external' -%}
