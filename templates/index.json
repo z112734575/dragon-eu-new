@@ -23,6 +23,7 @@
         },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1.2_-_Web.png?v=1679541263",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1.3-_Mobile.png?v=1679541258",
