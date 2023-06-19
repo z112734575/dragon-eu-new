@@ -8,6 +8,19 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc.webp?v=1687167151",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile.webp?v=1687167150",
+            "title": "Buy More Save More",
+            "subtitle": "€4 off for orders over €49 <br>€10 off for orders over €99 <br>€25 off for orders over €159",
+            "button_text": "Learn More",
+            "link": "\/pages\/powerroam-power-stations",
+            "className": "buy-more-save-more"
+          }
+        },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -29,19 +42,6 @@
             "subtitle": "",
             "button_text": "",
             "link": "\/collections\/power-station\/products\/15054a",
-            "className": ""
-          }
-        },
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Web.png?v=1679535962",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Mobile.png?v=1679535957",
-            "title": "Ugreen Power Station",
-            "subtitle": "Empower your life, Roam the world",
-            "button_text": "Shop Now",
-            "link": "\/pages\/powerroam-power-stations",
             "className": ""
           }
         },
@@ -72,9 +72,9 @@
         }
       },
       "block_order": [
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-11",
         "86777b6a-bde9-4981-9d0b-274743aba41c",
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-1",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
