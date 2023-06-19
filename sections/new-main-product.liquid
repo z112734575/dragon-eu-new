@@ -505,69 +505,6 @@
                             id="ProductInfo-template--{{ se_id }}__main"
                             class="t4s-product__info-container{% if se_stts.enable_sticky_info %} t4s-product__info-container--sticky{% endif %}"
                     >
-                        {% comment %}
-                          {%- if product.compare_at_price -%}
-                          {% comment %}               <p style="font-size: 12px;
-                          font-weight: 400;
-                          color: #00CC88;
-                          line-height: 14px;display: inline-block;padding: 2px 8px;border: 1px solid #00CC88;border-radius: 3px">Special Offer</p> {% endcomment %}
-                                       <style>
-                                  .coupon_checkbox input{
-                                      width: 16px;
-                                      height: 16px;
-                                      background-color: #353535;
-                                       font-size: 0.8rem;
-                                      margin: 0 5px 0 0;
-                                      padding: 0;
-                                      position: relative;
-                                      display: inline-block;
-                                      vertical-align: top;
-                                      cursor: default;
-                                      -webkit-appearance: none;
-                                  }
-                                  .coupon_checkbox input:checked:before{
-                                      content: '';
-                              width: 10px;
-                              height: 5px;
-                              border: 2px solid #ffffff;
-                              border-top: none;
-                              border-right: none;
-                              position: absolute;
-                              top: 3px;
-                              left: 2px;
-                              -webkit-transform: rotate(-45deg);
-                              transform: rotate(-45deg);
-                                  }
-                                  .coupon_checkbox{
-                                      font-size: 14px;
-                          font-weight: 400;
-                          color: #757575;
-                          line-height: 21px;
-                          display: flex;
-                              align-items: center;
-                                  }
-                                  .coupon_checkbox:hover{
-                                      cursor:pointer
-                                  }
-                                  .t4s-section-main-product .t4s-product__info-container .t4s-product-price ins,.t4s-section-main-product .t4s-product__info-container .t4s-product-price span{
-                          display: none;
-                          }
-                           .t4s-section-main-product .t4s-product__info-container .t4s-product-price del{
-                               text-decoration: none!important;
-                           }
-                          @media (max-width:768px) {
-                              .t4s-product__price-review{
-                              align-items: flex-start!important;
-                                  flex-direction: column-reverse!important;
-                              }
-                              .t4s-section-main-product .t4s-product__price-review .t4s-product-price{
-                                  margin: 10px 0;
-                              }
-                          }
-
-                                 </style>
-                                        {%- endif -%}
-                        {% endcomment %}
                         {%- for block in seBlocks -%}
                             {%- assign bk_stts = block.settings -%}
                             {%- assign bk_id = block.id -%}
@@ -587,7 +524,6 @@
                                 >
                                     {{ product.title }}
                                 </h1>
-                                {% render 'ug-bundles', product: product, current_variant: current_variant %}
                                 {% comment %}ugreen{% endcomment %}
 
                                 {% assign showBundlessArray = '7050071670846,6928711811155,6893296451667,6928711319635'
@@ -613,7 +549,7 @@
                                        <label class="coupon_checkbox"><input type="checkbox"  checked > Apply {{ product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round }}% coupon Terms</label>
                                       {%- endif -%}
                                     {% endcomment %}
-                                    {%- render 'product-price-single',
+                                    {%- render 'ug-product-price',
                                             variant: current_variant,
                                             product: product,
                                             PR_no_pick: PR_no_pick,
@@ -714,7 +650,7 @@
                                             assign first_ratio_img = variant_images[0].aspect_ratio
                                         endif
                                         if product_list == blank
-                                            render 'product-form', type: 'main', product: product, bk_stts: bk_stts, pr_se_id: pr_se_id, isExternal: isExternal, external_title: external_title, external_link: external_link, isProductAvailable: isProductAvailable, isProductDefault: isProductDefault, current_variant: current_variant, remove_soldout: remove_soldout, PR_no_pick: PR_no_pick, isPreoder: isPreoder, is_fit_ratio_img: is_fit_ratio_img, first_ratio_img: first_ratio_img, name_sizeg: name_sizeg, html_sizeg: html_sizeg, advance_pr_type: advance_pr_type, advance_label: advance_label, html_price: html_price, shopify_attributes: block.shopify_attributes
+                                            render 'ug-product-form', type: 'main', product: product, bk_stts: bk_stts, pr_se_id: pr_se_id, isExternal: isExternal, external_title: external_title, external_link: external_link, isProductAvailable: isProductAvailable, isProductDefault: isProductDefault, current_variant: current_variant, remove_soldout: remove_soldout, PR_no_pick: PR_no_pick, isPreoder: isPreoder, is_fit_ratio_img: is_fit_ratio_img, first_ratio_img: first_ratio_img, name_sizeg: name_sizeg, html_sizeg: html_sizeg, advance_pr_type: advance_pr_type, advance_label: advance_label, html_price: html_price, shopify_attributes: block.shopify_attributes, bk_id: bk_id
                                         else
                                             render 'grouped-form', product: product, bk_stts: bk_stts, pr_se_id: pr_se_id, product_list: product_list, shopify_attributes: block.shopify_attributes
                                         endif
@@ -923,74 +859,71 @@
                                     </a>
                                 </div>
 
-                            {%- when 'img' -%}
-                            {%- capture html_trust -%}
-                                {%- assign image = bk_stts.image -%}
-                            {%- if bk_stts.source == '1' and image != blank -%}
-                            <img style="--max-w-img:{{ bk_stts.wimg }}%" width="{{ image.width }}"
-                                 height="{{ image.height }}" class="t4s-img-tr__img lazyloadt4s"
-                                 src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{ image.width }}%20{{ image.height }}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                 data-src="{{ image | image_url: width: 1 }}"
-                                 data-widths="[90, 120, 150, 180, 360, 480, 600, 750, 940]"
-                                 data-sizes="auto" alt="{{ image.alt }}">
-                            {%- else bk_stts.svg -%}
-                                {%- assign isStyleSvg = true -%}
-                                {%- assign svg_height = bk_stts.height -%}
-                                {%- assign svg_width = svg_height | times: 1.57446809 | ceil -%}
-                                {%- assign arr = bk_stts.svg | remove: ' ' | split: "," -%}
-                            {%- for img in arr -%}<img width="{{ svg_width }}" height="{{ svg_height }}"
-                                                       class="t4s-img-tr__svg lazyloadt4s"
-                                                       src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg"
-                                                       data-src="{{ img | payment_type_img_url }}"
-                                                       alt="{{ img | replace: '_', ' ' }}" />{%- endfor -%}
-                            {%- endif -%}
-                            {%- endcapture -%}
-                                <div
-                                        id="t4s-trust_seal{{ bk_id }}"
-                                        data-rr="{{ svg_width }}"
-                                        {% if isStyleSvg %}
-                                            style="--height-img:{{ svg_height }}px;"
-                                        {% endif %}
-                                        class="t4s-pr_trust_seal t4s-text-md-{{ bk_stts.al }} t4s-text-center"
-                                        {{ block.shopify_attributes }}
-                                >
-                                    {%- if bk_stts.mess -%}
-                                        <p
-                                                class="t4s-pr-mess_trust t4s-ch"
-                                                style="--fs-mess-trust:{{ bk_stts.size }}px;"
-                                        >
-                                            {{ bk_stts.mess }}
-                                        </p>
-                                    {%- endif -%}
-                                    {{- html_trust -}}
-                                </div>
+                        {%- when 'img' -%}
+                  {%- capture html_trust -%}
+                                        {%- assign image = bk_stts.image -%}
+                                        {%- if bk_stts.source == '1' and image != blank -%}
+                                            <img style="--max-w-img:{{ bk_stts.wimg }}%" width="{{ image.width }}"
+                                                 height="{{ image.height }}" class="t4s-img-tr__img lazyloadt4s"
+                                                 src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{ image.width }}%20{{ image.height }}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
+                                                 data-src="{{ image | image_url: width: 1 }}"
+                                                 data-widths="[90, 120, 150, 180, 360, 480, 600, 750, 940]"
+                                                 data-sizes="auto" alt="{{ image.alt }}">
+                                        {%- else bk_stts.svg -%}
+                                            {%- assign isStyleSvg = true -%}
+                                            {%- assign svg_height = bk_stts.height -%}
+                                            {%- assign svg_width = svg_height | times: 1.57446809 | ceil -%}
+                                            {%- assign arr = bk_stts.svg | remove: ' ' | split: "," -%}
+                                            {%- for img in arr -%}<img width="{{ svg_width }}" height="{{ svg_height }}"
+                                                                       class="t4s-img-tr__svg lazyloadt4s"
+                                                                       src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg"
+                                                                       data-src="{{ img | payment_type_img_url }}"
+                                                                       alt="{{ img | replace: '_', ' ' }}" />{%- endfor -%}
+                                        {%- endif -%}
+                                    {%- endcapture -%}
+                  <div
+                    id="t4s-trust_seal{{ bk_id }}"
+                    data-rr="{{ svg_width }}"
+                    {% if isStyleSvg %}
+                      style="--height-img:{{ svg_height }}px;"
+                    {% endif %}
+                    class="t4s-pr_trust_seal t4s-text-md-{{ bk_stts.al }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{- html_trust -}}
+                  </div>
+                                <script>
+                                    $('#ug-product-trust-pay-hold').append($('#t4s-trust_seal{{ bk_id }}'))
+                                </script>
 
                             {%- when 'trust_delivery' -%}
-                            {%- capture html_trust -%}
-                                {%- assign images = bk_stts.imageList | split: "," -%}
-                            {%- for img in images -%}<img class="t4s-img-tr__svg lazyloadt4s"
-                                                          src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg"
-                                                          data-src="{{ img | img_url: '100x' }}"
-                                                          alt="{{ img | replace: '_', ' ' }}" />{%- endfor -%}
-                            {%- endcapture -%}
+                                <style>
+                                    .ug-trust_delivery {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                    }
+                                </style>
                                 <div
-                                        id="t4s-trust_seal{{ bk_id }}"
+                                        id="t4s-trust_delivery {{ bk_id }}"
                                         data-rr="{{ svg_width }}"
-                                        {% if isStyleSvg %}
-                                            style="--height-img:{{ svg_height }}px;"
-                                        {% endif %}
-                                        class="t4s-pr_trust_seal t4s-text-md-{{ bk_stts.al }} t4s-text-center"
+                                        class="t4s-pr_trust_seal t4s-text-md-{{ bk_stts.al }} t4s-text-center ug-trust_delivery"
                                         {{ block.shopify_attributes }}
                                 >
                                     {%- if bk_stts.mess -%}
                                         <p
-                                                class="t4s-pr-mess_trust t4s-ch"
-                                                style="--fs-mess-trust:{{ bk_stts.size }}px;"
+                                                class=""
+                                                style="--fs-mess-trust:{{ bk_stts.size }}px;margin-bottom: 0;color: black;font-weight: 500;"
                                         >
                                             {{ bk_stts.mess }}
                                         </p>
                                     {%- endif -%}
-                                    {{- html_trust -}}
+                                    <img class="t4s-img-tr__svg lazyloadt4s"
+                                         src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg"
+                                         data-src="{{ bk_stts.image }}"
+                                         alt="Trust delivery"
+                                        style="max-width: 50%;"
+                                    />
                                 </div>
 
                             {%- when 'live_view' -%}
@@ -1302,13 +1235,14 @@
                                 {%- when 'tab_des', 'tab_add', 'tab_buy', 'tab_rivui', 'tab_liquid', 'tab_html', 'tab_faq' -%}
                                     {%- if tabCheck or tabs_position == 'external' %}{% continue %}{% endif -%}
                                     {%- assign tabCheck = true -%}
-                                    {%- render 'product_tabs',
+                                    {%- render 'ug-product_tabs',
                                             product: product,
                                             se_stts: se_stts,
                                             seBlocks: seBlocks,
                                             idTabDes: idTabDes,
                                             idTabReview: idTabReview,
-                                            isProductDefault: isProductDefault
+                                            isProductDefault: isProductDefault,
+                                            current_variant: current_variant
                                     -%}
                                     {% render 'questions-answers' %}
 
@@ -1352,7 +1286,7 @@
 {% render 'ug-new-short-description' %}
 
 {%- if tabs_position == 'external' -%}
-    {%- render 'product_tabs',
+    {%- render 'ug-product_tabs',
             product: product,
             se_stts: se_stts,
             seBlocks: seBlocks,
@@ -1396,138 +1330,116 @@
                 onload="this.media='all'"
         >
     {%- endif -%}
-    <template class="t4s-d-none" id="t4s-sticky-atc-temp">
+    <style>
+        .ug-sticky-bar {
+            display: none;
+        }
+        @media (max-width: 767px) {
+            .ug-sticky-bar {
+                position: fixed;
+                padding: 10px;
+                background-color:white;
+                z-index: 190;
+                box-shadow: 0 0 9px #0000001f;
+                transition: -webkit-transform .25s ease;
+                transition: transform .25s ease;
+                transition: transform .25s ease,-webkit-transform .25s ease;
+                -webkit-transform: translate3d(0,105%,0);
+                transform: translate3d(0,105%,0);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 1;
+                pointer-events: auto;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                flex-wrap: wrap;
+            }
+            .ug-sticky-bar.is--shown {
+                transform: translateZ(0);
+            }
+            .ug-sticky-bar.is--shown.hide {
+                transform: translate3d(0,105%,0);
+            }
+            .ug-sticky-bar .ug-add-to-cart-btn{
+                width: 100%;
+                border-radius: 20px;
+            }
+            .ug-sticky-bar .ug-sticky-bar-price {
+                font-size: 24px;
+                margin-bottom: 8px;
+                color: black;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+            }
+            .ug-sticky-bar .ug-sticky-bar-price del {
+                order: 2;
+                margin-left: 8px;
+                color: #727273;
+                font-size: 18px;
+            }
+        }
+    </style>
+    <div class="ug-sticky-bar show" data-sticky-addtocart>
         <div
-                data-sticky-addtocart
-                class="t4s-sticky-atc t4s-pf t4s-b-0 t4s-l-0 t4s-r-0 t4s-op-0 t4s-pe-none"
-                {% if PR_no_pick %}
-                    hidden
-                {% endif %}
+                data-sticky-price
+                class="ug-sticky-bar-price"
         >
-            {%- if request.design_mode %}
-                <link href="{{ 'sticky-atc.css' | asset_url }}" rel="stylesheet" media="all">
-            {%- endif -%}
-            <div class="t4s-sticky-atc__product">
-                {%- liquid
-                    assign image = current_variant.featured_image | default: product.featured_image
-                    assign img_url = image | image_url: width: 1
-                -%}
-                <div data-sticky-img class="t4s-sticky-atc__img t4s-pr">
-                    <img
-                            class="lazyloadt4s t4s-lz--fadeIn"
-                            data-orginal="{{ img_url }}"
-                            data-src="{{ img_url }}"
-                            data-widths="[65,120]"
-                            data-optimumx="1.5"
-                            data-sizes="auto"
-                            src="{% render 'img_svg', w: image.width, h: image.height %}"
-                            width="{{ image.width }}"
-                            height="{{ image.height }}"
-                            alt="{{ image.alt | escape }}"
-                    >
-                    <span class="lazyloadt4s-loader is-bg-img" style="background: url({{ img_url }})"></span>
-                </div>
-                <div class="t4s-sticky-atc__infos">
-                    <div class="t4s-sticky-atc__title">{{ product.title }}</div>
-                    <div
-                            data-sticky-price
-                            class="t4s-sticky-atc__price"
-                    >
-                        {% if current_variant.compare_at_price > current_variant.price %}
-                            <del>{{ current_variant.compare_at_price | money }}</del>
-                            <ins>{{ current_variant.price | money }}</ins>
-                        {%- else -%}
-                            {{- current_variant.price | money -}}
-                        {%- endif %}
-                    </div>
-                </div>
-                <div
-                        {% if variants_size > 1 %}
-                            data-sticky-v-title
-                        {% endif %}
-                        class="t4s-sticky-atc__v-title"
-                >
-                    {% unless isProductDefault %}{{ current_variant.title }}{% endunless %}
-                </div>
-            </div>
-            <div class="t4s-sticky-atc__btns">
-                <div data-quantity-wrapper class="t4s-quantity-wrapper t4s-sticky-atc__qty">
-                    <button
-                            data-quantity-selector
-                            data-decrease-qty
-                            type="button"
-                            class="t4s-quantity-selector is--minus"
-                    >
-                        <svg focusable="false" class="icon icon--minus" viewBox="0 0 10 2" role="presentation">
-                            <path d="M10 0v2H0V0z" fill="currentColor"></path>
-                        </svg>
-                    </button>
-                    <input
-                            data-quantity-value
-                            type="number"
-                            class="t4s-quantity-input"
-                            step="1"
-                            min="1"
-                            max="9999"
-                            name="quantity"
-                            value="1"
-                            size="4"
-                            pattern="[0-9]*"
-                            inputmode="numeric"
-                    >
-                    <button
-                            data-quantity-selector
-                            data-increase-qty
-                            type="button"
-                            class="t4s-quantity-selector is--plus"
-                    >
-                        <svg focusable="false" class="icon icon--plus" viewBox="0 0 10 10" role="presentation">
-                            <path d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z" fill="currentColor" fill-rule="evenodd"></path>
-                        </svg>
-                    </button>
-                </div>
-                <button
-                        data-animation-atc='{ "ani":"{{ se_stts.ani }}","time":{{ se_stts.time }}000 }'
-                        type="button"
-                        data-action-atc
-                        data-variant-id="{{ current_variant.id }}"
-                        class="t4s-sticky-atc__atc t4s-btn-loading__svg"
-                        {% unless current_variant.available %}
-                            aria-disabled="true"
-                        {% endunless -%}
-                        {% unless isProductAvailable %}
-                            disabled="disabled"
-                        {% endunless %}
-                >
-          <span class="t4s-btn-atc_text">
-            {%- if current_variant.available == false or isProductAvailable == false -%}
-                {{- 'products.product.sold_out' | t -}}
-            {%- elsif isPreoder -%}
-                {{- 'products.product.pre_order' | t }}
+            {% if current_variant.compare_at_price > current_variant.price %}
+                <del>{{ current_variant.compare_at_price | money }}</del>
+                <ins>{{ current_variant.price | money }}</ins>
             {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
-            {%- endif -%}
-          </span>
-                    <span class="t4s-loading__spinner" hidden>
-            <svg
-                    width="16"
-                    height="16"
-                    hidden
-                    class="t4s-svg-spinner"
-                    focusable="false"
-                    role="presentation"
-                    viewBox="0 0 66 66"
-                    xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle class="t4s-path" fill="none"
-                      stroke-width="6" cx="33" cy="33"
-                      r="30"></circle>
-            </svg>
-          </span>
-                </button>
-            </div>
+                {{- current_variant.price | money -}}
+            {%- endif %}
         </div>
-    </template>
+        {% assign current_variant_available = current_variant.available %}
+        {% assign isProductAvailable = product.available %}
+        <button id="ug-stick-add-to-cart-btn" class="ug-add-to-cart-btn" type="button"
+                {% unless current_variant_available %} aria-disabled="true"{% endunless %}{% unless isProductAvailable %} disabled="disabled"{% endunless %}>
+            <span class="t4s-btn-atc_text">{% if current_variant_available == false or isProductAvailable == false %}{{ 'products.product.sold_out' | t }}{% elsif isPreoder %}{{ 'products.product.pre_order' | t }}{%- else -%}{{ 'products.product.add_to_cart' | t }}{%- endif -%}</span>
+            <span class="t4s-loading__spinner" hidden>
+                                <svg width="16" height="16" hidden class="t4s-svg-spinner" focusable="false"
+                                     role="presentation" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle
+                                            class="t4s-path" fill="none" stroke-width="6" cx="33" cy="33"
+                                            r="30"></circle></svg>
+                            </span>
+        </button>
+    </div>
+    <script>
+        $(function(){
+        if(isMobile()){
+            isScrollAtBottom()
+        }
+        function isScrollAtBottom() {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 1.0
+            };
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        $('.ug-sticky-bar').addClass('hide')
+                    } else {
+                        if($('.ug-sticky-bar').hasClass('hide')){
+                            $('.ug-sticky-bar').removeClass('hide')
+                        }
+                    }
+                });
+            }, options);
+
+            const target = document.getElementById('ug-add-to-cart-total');
+            observer.observe(target);
+        }
+            $('.ug-stick-add-to-cart-btn').on('click', function(){
+                $.addToCart()
+            })
+        })
+    </script>
 {%- endif -%}
 
 {% if se_stts.enable_top_tips %}
@@ -2395,10 +2307,9 @@
 },
 {
 "type": "textarea",
-"id": "imageList",
-"label": "Delivery list",
-"default": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-"info": "插入图片链接，用逗号分隔"
+"id": "image",
+"label": "Delivery image",
+"info": "插入图片链接"
 }
 ]
 },
