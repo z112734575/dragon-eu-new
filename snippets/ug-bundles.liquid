@@ -173,7 +173,7 @@
                 {%- endif -%}
             {%- endcapture -%}
 
-            {% if cVariant.available %}
+
                 <li data-ug-product-id="{{ cVariant.id }}"
                     class="ug-bundles-product-item {{ soutOut }}">
                     <div class="ug-bundles-product-item-img"><img src="{{ product.featured_media | img_url: "400x" }}"
@@ -213,7 +213,7 @@
                                     {% assign bundles_price = cVariant.price %}
                                     {% assign bundles_compare_at_price = cVariant.compare_at_price %}
                                     {% else %}
-                                    {% assign current_price = discount_price | money %}
+                                    {% assign current_price = discount_price  %}
                                     {% assign current_compare_at_price = cVariant.price | money %}
                                     {% assign current_save = discount_percentage %}
                                     {% assign bundles_price = cVariant.price | times: bundles_discount | divided_by: 100.0 %}
@@ -234,7 +234,6 @@
                     </div>
                 </li>
 
-            {% endif %}
 
         {% endfor %}
     </ul>
@@ -248,6 +247,7 @@
                 const item = $('.ug-bundles .ug-bundles-product-item')
                 const details = []
                 const detailPrices = []
+                console.log('detailObject', detailObject)
                 {% for item in detail_products_array %}
                 {% assign loopindedx = forloop.index | minus: 1 %}
                 // 设置元字段数据到 details 数组中
