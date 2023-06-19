@@ -29,10 +29,71 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "6405bc65-14f4-4fcd-9aaa-b952139309c8": {
+      "type": "accordion",
+      "blocks": {
+        "template--19034769129820__6405bc65-14f4-4fcd-9aaa-b952139309c8-1687167504bceb72ff-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Which products are the discounts valid for?",
+            "content": "<p>Applies to all products except new<\/p>"
+          }
+        },
+        "template--19034769129820__6405bc65-14f4-4fcd-9aaa-b952139309c8-1687167504bceb72ff-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How do I judge the strength of the discount?",
+            "content": "<p>Method 1: Please click the settlement button after additional purchase, the discount amount will be displayed on the settlement page<\/p><p>Method 2: Match the total price of the products you need with the above coupons. The maximum price for this event is 199-35 euros.<\/p>"
+          }
+        },
+        "template--19034769129820__6405bc65-14f4-4fcd-9aaa-b952139309c8-1687167504bceb72ff-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "When does the discount campaign end?",
+            "content": "<p>The event will start at 12:00 on June 16, 2023 and end at 12:00 on June 26, 2023 (Germany Time, UTC\/GMT +2)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19034769129820__6405bc65-14f4-4fcd-9aaa-b952139309c8-1687167504bceb72ff-0",
+        "template--19034769129820__6405bc65-14f4-4fcd-9aaa-b952139309c8-1687167504bceb72ff-1",
+        "template--19034769129820__6405bc65-14f4-4fcd-9aaa-b952139309c8-1687167504bceb72ff-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Accordion",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "b09b3576-448b-4d2b-81a0-b6e700824f0b",
-    "a517b3d0-f836-4ad2-9f68-4946454e8c3d"
+    "a517b3d0-f836-4ad2-9f68-4946454e8c3d",
+    "6405bc65-14f4-4fcd-9aaa-b952139309c8"
   ]
 }
