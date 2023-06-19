@@ -1,0 +1,41 @@
+{% if product.metafields.custom.short_description != blank %}
+    <style>
+        .ug-new-product-short-desc {
+            background: #F8F8F8;
+            color: #757575;
+            padding: 80px 0;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-top: 100px;
+        }
+        .ug-new-product-short-desc > ul {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        .ug-new-product-short-desc ul li {
+            margin-bottom: 36px;
+        }
+        .ug-new-product-short-desc ul li:last-child {
+            margin: 0;
+        }
+        .ug-new-product-short-desc b {
+            color: black;
+            display: block;
+        }
+        @media (max-width: 767px) {
+            .ug-new-product-short-desc {
+                margin-top: 50px;
+                padding: 24px 10px;
+                margin-left: -10px;
+                margin-right: -10px;
+            }
+            .ug-new-product-short-desc ul li {
+                margin-bottom: 18px;
+            }
+        }
+    </style>
+<div class="ug-new-product-short-desc">
+    {{ product.metafields.custom.short_description }}
+</div>
+
+{% endif %}

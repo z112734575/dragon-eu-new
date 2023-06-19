@@ -698,7 +698,7 @@
   .t4s-section-main-product
     .t4s-product__info-container
     .t4s-swatch__item.is-sw__color.is--selected {
-    border: 1px solid #d9d9d9;
+    border: 1px solid #00CC88;
   }
   .t4s-section-main-product .t4s-product__info-container .t4s-swatch__list {
     margin-top: 8px;
@@ -875,8 +875,8 @@
 
 /*       物流提示样式 */
 .t4s-product__info-container .t4s-pr_trust_seal {
-  padding-bottom: 24px;
-  border-bottom: 1px solid #dedede;
+  /*padding-bottom: 24px;*/
+  /*border-bottom: 1px solid #dedede;*/
 }
 @media (max-width: 767px) {
   .t4s-main-collection-page .t4s-layout-switch-wrapper {
@@ -1197,7 +1197,7 @@
     display: none;
   }
   .t4s-section-main-product .t4s-swatch__item.is-sw__color.is--selected {
-    border: 1px solid #d9d9d9;
+    border: 1px solid #00CC88;
   }
   .t4s-section-main-product .t4s-product__title {
     font-size: 20px;

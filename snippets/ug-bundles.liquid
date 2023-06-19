@@ -1,0 +1,309 @@
+{% assign products = product.metafields.custom.new_bundles %}
+{% liquid
+    assign title = product.metafields.custom.new_bundles.value.title.value
+    assign sub_title = product.metafields.custom.new_bundles.value.sub_title.value
+    assign discount_percentage = product.metafields.custom.new_bundles.value.discount_percentage.value | floor
+    assign variants_array = product.metafields.custom.new_bundles.value.variants.value
+    assign detail_products_array = product.metafields.custom.new_bundles.value.products.value
+    assign bundles_discount = 100 | minus: discount_percentage
+    assign detailObject = ""
+%}
+
+<script>
+    const detailObject = {}
+    window.BUNDLES_INFO = new Proxy({
+        price: "{{ current_variant.price }}", // 当前商品价格
+        compare_at_price: "{{ current_variant.compare_at_price }}", // 当前商品原价
+        currencyCode: "{{ cart.currency.symbol }}",
+        bundles_price: 0, // 当前绑定商品价格
+        bundles_compare_at_price: 0, //当前绑定商品原价
+        quantity: 1, // 当前商品数量
+        variant_id: "{{ current_variant.id }}"
+    }, {
+        get(target, p, receiver) {
+            const formatPrice = (price) => {
+                return '{{ cart.currency.symbol }}' + (price / 100).toLocaleString('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 2 }).replace('{{ cart.currency.symbol }}', '').trim()
+            }
+            if(p === 'getPrice') {
+                return function () {
+                    return formatPrice(parseInt(this.price * this.quantity) + parseInt(this.bundles_price))
+                }
+            }
+            if(p === 'getCompareAtPrice') {
+                return function () {
+                    return formatPrice(parseInt(this.compare_at_price* this.quantity) + parseInt(this.bundles_compare_at_price))
+                }
+            }
+            return target[p]
+        },
+        set: function (obj, prop, value) {
+            obj[prop] = value
+            $('.ug-product-form-add-to-cart-info .ug-product-price').text(BUNDLES_INFO.getPrice())
+            if(BUNDLES_INFO.getCompareAtPrice() !== BUNDLES_INFO.getPrice()) {
+                $('.ug-product-form-add-to-cart-info .ug-product-compare-at-price').text(BUNDLES_INFO.getCompareAtPrice())
+            } else {
+                $('.ug-product-form-add-to-cart-info .ug-product-compare-at-price').text('')
+            }
+            return true
+        }
+    })
+</script>
+{% if variants_array %}
+    <style>
+        .ug-bundles {
+            padding-left: 0;
+        }
+        .ug-bundles-product-item {
+            margin-top: 24px;
+            padding: 24px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+        }
+        .ug-bundles-product-item.active {
+            border: 1px solid #00CC88;
+        }
+        .ug-bundles-product-item.soutOut {
+            cursor: not-allowed;
+        }
+        .ug-bundles-product-item-img {
+            flex-shrink: 0;
+        }
+        .ug-bundles-product-item-content {
+            flex: 1;
+            margin-left: 12px;
+            color: black;
+        }
+        .ug-bundles-product-item-content del {
+            color: #727273;
+        }
+        .ug-bundles-product-item-title {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        .ug-bundles-product-item-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .ug-bundles-product-item-bottom-price {
+            display: flex;
+        }
+        .ug-bundles-product-item-bottom-detail-btn {
+            color: #00CC88;
+        }
+        .ug-bundles-product-item-bottom-detail-btn:hover {
+            text-decoration: underline;
+        }
+        .ug-bundles-text {
+            display: flex;
+            align-items: center;
+            margin: 24px 0 0;
+        }
+        .ug-bundles-title {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.5;
+            color: black;
+            margin: 0;
+        }
+        .ug-bundles-sub_title {
+            font-size: 14px;
+            margin: 0 0 0 12px;
+        }
+        @media (max-width: 767px) {
+            .ug-bundles-product-item {
+                margin-top: 12px;
+                padding: 12px;
+            }
+            .ug-bundles-product-item-title {
+                font-size: 14px;
+            }
+            .ug-bundles-product-item-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+
+
+    <div class="ug-bundles-text">
+        <div class="ug-bundles-title">{{ title }}</div>
+        <p class="ug-bundles-sub_title">{{ sub_title }}</p>
+    </div>
+    <ul class="ug-bundles" lazyloadt4sed>
+        {% for product in detail_products_array %}
+            {% assign handle = product.handle %}
+            {% assign index = forloop.index %}
+            {% for pVariant in product.variants %}
+                {% assign cVariant = pVariant %}
+                {% for variant in variants_array %}
+                    {% if variant.id == pVariant.id %}
+                        {% assign cVariant = variant %}
+                        {% comment %}cVariant: currentVariant{% endcomment %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+
+            {% assign soutOut = '' %}
+
+            {% assign discount_price = cVariant.price | times: bundles_discount | divided_by: 100.0 | money %}
+            {% if bundles_discount == 0 %}
+                {% assign discount_price = 'Free' %}
+            {% endif %}
+
+            {% unless cVariant.available == true %}
+                {% assign soutOut = 'soutOut' %}
+            {% endunless %}
+
+            {%- capture sale_badge_html -%}
+                {%- if bundles_discount > 0 and bundles_discount < 100 -%}
+                    <span class="t4s-badge-price">{{ 'products.badge.save_amount_2_html' | t: saved_amount: discount_percentage }}</span>
+
+                {%- elsif bundles_discount == 100 %}
+                    {% assign saveAmountFixed = cVariant.compare_at_price | minus: cVariant.price %}
+                    {%- assign save = saveAmountFixed | times: 100.0 | divided_by: cVariant.compare_at_price | round %}
+                    <span class="t4s-badge-price">{{ 'products.badge.save_amount_2_html' | t: saved_amount: save }}</span>
+                {%- else -%}
+                {%- endif -%}
+            {%- endcapture -%}
+
+            {% if cVariant.available %}
+                <li data-ug-product-id="{{ cVariant.id }}"
+                    class="ug-bundles-product-item {{ soutOut }}">
+                    <div class="ug-bundles-product-item-img"><img src="{{ product.featured_media | img_url: "400x" }}"
+                                                                  alt="{{ cVariant.name }}" height="64"
+                                                                  width="64"></div>
+                    <div class="ug-bundles-product-item-content">
+                        <div class="ug-bundles-product-item-title">{{ product.title }}</div>
+                        <div class="ug-bundles-product-item-bottom">
+                            <div class="ug-bundles-product-item-bottom-price">
+                                {% if bundles_discount == 100 %}
+                                    <div>{{ cVariant.price | money }}</div>
+                                    {% if cVariant.compare_at_price > cVariant.price %}
+                                        <del>{{ cVariant.compare_at_price | money }}</del>
+                                        {{ sale_badge_html }}
+                                    {% endif %}
+                                {% else %}
+                                    <div>
+                                        {{ discount_price -}}
+                                        <del>{{ cVariant.price | money }}</del>
+                                        {{ sale_badge_html }}
+                                    </div>
+                                {% endif %}
+                                <script>
+                                    {% assign current_price = "" %}
+                                    {% assign current_compare_at_price = "" %}
+                                    {% assign current_save = "" %}
+                                    {% if bundles_discount == 100 %}
+                                    {% assign current_price = 'Free' %}
+                                    {% assign current_compare_at_price = cVariant.price | money %}
+                                    {% assign current_save = '' %}
+                                    {% assign bundles_price = 0 %}
+                                    {% assign bundles_compare_at_price = cVariant.compare_at_price %}
+                                    {% elsif bundles_discount == 0 %}
+                                    {% assign current_price = cVariant.price | money %}
+                                    {% assign current_compare_at_price = cVariant.compare_at_price | money %}
+                                    {% assign current_save = save %}
+                                    {% assign bundles_price = cVariant.price %}
+                                    {% assign bundles_compare_at_price = cVariant.compare_at_price %}
+                                    {% else %}
+                                    {% assign current_price = discount_price | money %}
+                                    {% assign current_compare_at_price = cVariant.price | money %}
+                                    {% assign current_save = discount_percentage %}
+                                    {% assign bundles_price = cVariant.price | times: bundles_discount | divided_by: 100.0 %}
+                                    {% assign bundles_compare_at_price = cVariant.price %}
+                                    {% endif %}
+                                    detailObject['{{ product.id }}'] = {
+                                        current_price: '{{ current_price }}',
+                                        current_compare_at_price: '{{ current_compare_at_price }}',
+                                        current_save: '{{ current_save }}',
+                                        bundles_price: '{{ bundles_price }}',
+                                        bundles_compare_at_price: '{{ bundles_compare_at_price }}',
+                                        id: '{{ cVariant.id }}',
+                                    }
+                                </script>
+                            </div>
+                            <div class="ug-bundles-product-item-bottom-detail-btn">Detail ></div>
+                        </div>
+                    </div>
+                </li>
+
+            {% endif %}
+
+        {% endfor %}
+    </ul>
+{% endif %}
+
+<script>
+    $(function () {
+            init()
+
+            function init() {
+                const item = $('.ug-bundles .ug-bundles-product-item')
+                const details = []
+                const detailPrices = []
+                {% for item in detail_products_array %}
+                {% assign loopindedx = forloop.index | minus: 1 %}
+                // 设置元字段数据到 details 数组中
+                details['{{ loopindedx }}'] = {
+                    ...{{ item | json }},
+                    sub_title: `{{ all_products[handle].metafields.custom.sub_title }}`,
+                    short_description: `{{ all_products[handle].metafields.custom.short_description }}`,
+                    specs: `{{ all_products[handle].metafields.custom.specs }}`,
+                    current_price: detailObject['{{ item.id }}'].current_price,
+                    current_compare_at_price: detailObject['{{ item.id }}'].current_compare_at_price,
+                    current_save: detailObject['{{ item.id }}'].current_save,
+                    bundles_price: detailObject['{{ item.id }}'].bundles_price,
+                    bundles_compare_at_price: detailObject['{{ item.id }}'].bundles_compare_at_price
+                }
+                detailPrices['{{ loopindedx }}'] = {
+                    id: detailObject['{{ item.id }}'].id,
+                    bundles_price: detailObject['{{ item.id }}'].bundles_price,
+                    bundles_compare_at_price: detailObject['{{ item.id }}'].bundles_compare_at_price
+                }
+                {% endfor %}
+                $.each(item, function (index) {
+                    // 设置数据到 detail 按钮上
+                    $(this).find('.ug-bundles-product-item-bottom-detail-btn').data('detail', details[index])
+                    $(this).data('detailPrices', detailPrices[index])
+                })
+            }
+        
+            $('.ug-bundles').on('click', 'li', function () {
+                if ($(this).hasClass('soutOut')) {
+                    return
+                }
+                if ($(this).hasClass('active')) {
+                    $(this).removeClass('active')
+                    window.BUNDLES_INFO.bundles_price = 0;
+                    window.BUNDLES_INFO.bundles_compare_at_price = 0;
+                    window.BUNDLES_INFO.selected_variant_id = undefined;
+                    return
+                }
+                window.BUNDLES_INFO.bundles_price = $(this).data('detailPrices').bundles_price;
+                window.BUNDLES_INFO.bundles_compare_at_price = $(this).data('detailPrices').bundles_compare_at_price;
+                window.BUNDLES_INFO.selected_variant_id = $(this).data('detailPrices').id;
+                $(this).addClass('active').siblings().removeClass('active')
+            })
+        
+            setTimeout(() => {
+                const productDetail = $.getProductDetailInstance()
+
+                $('.ug-bundles-product-item-bottom-detail-btn').on('click', function () {
+                    const detail = $(this).data('detail')
+                    checkDetail(detail)
+                })
+
+                function checkDetail(detail) {
+                    productDetail.open(detail)
+                }
+            }, 1000)
+        }
+    )
+</script>

@@ -10,14 +10,14 @@
       "blocks": {
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc.webp?v=1687167151",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile.webp?v=1687167150",
+            "text_color": "#000000",
             "title": "Buy More Save More",
-            "subtitle": "€4 off for orders over €49 <br>€10 off for orders over €99 <br>€25 off for orders over €159",
+            "subtitle": "€4 off for orders over €35 <br>€10 off for orders over €49 <br>€25 off for orders over €149",
             "button_text": "Learn More",
-            "link": "\/pages\/powerroam-power-stations",
+            "link": "pages\/voucher",
             "className": "buy-more-save-more"
           }
         },
@@ -27,6 +27,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1.2_-_Web.png?v=1679541263",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1.3-_Mobile.png?v=1679541258",
+            "text_color": "#ffffff",
             "title": "Superior GaN Technology",
             "subtitle": "Bolder, Faster Chargers",
             "button_text": "Shop Now",
@@ -40,6 +41,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/web_eu.png?v=1684373037",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_eu_4.png?v=1684373033",
+            "text_color": "#000000",
             "title": "",
             "subtitle": "",
             "button_text": "",
@@ -52,6 +54,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3_Banner-Hub_Web.png?v=1677659098",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3.1_Banner-Hub_Mobile.png?v=1677659090",
+            "text_color": "#ffffff",
             "title": "Get More Versatility From One Hub.",
             "subtitle": "",
             "button_text": "Shop Now",
@@ -64,6 +67,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Nexode_200W_PC_98a652d8-9d73-4ad8-8a20-6ad7f743ba01.jpg?v=1677726529",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Nexode_200W.jpg?v=1677726527",
+            "text_color": "#000000",
             "title": "Desktop Charging for 6 Devices",
             "subtitle": "6 Ports, Fast Charging",
             "button_text": "Shop Now",
@@ -79,9 +83,13 @@
         "ug-index-carousel-1",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
+      "custom_css": [
+        ".buy-more-save-more .green-home-banner-box {text-align: left; top: 16vw; left: 20vw;}",
+        "@media (max-width: 767px) {.buy-more-save-more .green-home-banner-box {text-align: center; top: 15%; left: 0; }}"
+      ],
       "settings": {
         "custom_style": "",
-        "banner_index": ""
+        "banner_index": "0"
       }
     },
     "ug-index-image": {
