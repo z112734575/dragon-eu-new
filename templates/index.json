@@ -36,6 +36,7 @@
         },
         "86777b6a-bde9-4981-9d0b-274743aba41c": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/web_eu.png?v=1684373037",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_eu_4.png?v=1684373033",
