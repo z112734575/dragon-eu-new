@@ -77,7 +77,7 @@ $(function () {
         const BUNDLES_INFO = window.BUNDLES_INFO
         const data = {
             items: [{
-                id: productId ?? new URLSearchParams(window.location.search).get('variant'),
+                id: productId ?? new URLSearchParams(window.location.search).get('variant') ?? window.BUNDLES_INFO.variant_id,
                 quantity: BUNDLES_INFO.quantity
             }]
         }
