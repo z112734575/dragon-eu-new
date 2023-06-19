@@ -7388,20 +7388,6 @@ input:not([type="hidden"]) + input {
   margin-left: 0.385em;
 }
 
-.a-input-text,
-input[type="text"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="password"],
-select.a-select-multiple,
-textarea {
-  border: 1px solid #888c8c;
-  border-radius: 3px;
-  box-shadow: 0 1px 2px rgba(15, 17, 17, 0.15) inset;
-  outline: 0;
-}
-
 .a-input-text.a-form-focus,
 .a-input-text:focus,
 input[type="text"].a-form-focus,
@@ -7560,34 +7546,11 @@ textarea.a-form-disabled input {
   color: #6f7373;
 }
 
-input,
-select,
-textarea {
-  -webkit-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-  line-height: 19px;
-  color: #0f1111;
-}
-
 textarea {
   background-color: #fff;
   width: 100%;
   padding: 5px 7px;
   resize: vertical;
-}
-
-.a-input-text,
-input[type="text"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="password"],
-input[type="date"],
-input[type="email"] {
-  background-color: #fff;
-  height: 31px;
-  padding: 3px 7px;
-  line-height: normal;
 }
 
 select.a-select-multiple {
