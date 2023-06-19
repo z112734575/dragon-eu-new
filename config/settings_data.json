@@ -604,11 +604,11 @@
         "type": "top-activity-bar",
         "settings": {
           "enable": true,
-          "pc_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc_b250a1ec-1839-4112-b72c-0e64601b7900.jpg?v=1686305564",
-          "mobile_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile.jpg?v=1686305564",
+          "pc_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc_b16f9cb3-c39c-483c-8002-6be478961842.png?v=1687168655",
+          "mobile_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc_b16f9cb3-c39c-483c-8002-6be478961842.png?v=1687168655",
           "pc_height": "auto",
           "mobile_height": "auto",
-          "link": ""
+          "link": "shopify:\/\/pages\/voucher"
         }
       },
       "header-inline": {
