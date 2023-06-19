@@ -126,7 +126,7 @@
             {% assign mobile_image_url = settings.mobile_image_url | split: '.' %}
             {% assign text_color = settings.text_color %}
             <a
-                    class="swiper-slide swiper-index{{ forloop.index }}"
+                    class="swiper-slide swiper-index{{ forloop.index }} {{ className }}"
                     href="{{ settings.link }}"
             >
                 <div class="green-home-banner-box" style="color: {{ text_color }};">
