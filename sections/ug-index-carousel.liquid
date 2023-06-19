@@ -125,6 +125,7 @@
             {% assign pc_image_url = settings.pc_image_url | split: '.' %}
             {% assign mobile_image_url = settings.mobile_image_url | split: '.' %}
             {% assign text_color = settings.text_color %}
+            {% assign className = settings.className %}
             <a
                     class="swiper-slide swiper-index{{ forloop.index }} {{ className }}"
                     href="{{ settings.link }}"
