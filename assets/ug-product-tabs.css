@@ -192,6 +192,7 @@
         left: 0;
         background: white;
         box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+        z-index: 101;
     }
     .ugreen-product-tabs-main {
         display: flex;

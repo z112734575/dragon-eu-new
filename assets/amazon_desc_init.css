@@ -6215,12 +6215,6 @@ img.a-thumbnail-right {
 }
 
 /* ******** */
-a,
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #007185;
-}
 
 a.a-color-base,
 a:link.a-color-base,

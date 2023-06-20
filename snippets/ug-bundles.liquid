@@ -52,6 +52,7 @@
     <style>
         .ug-bundles {
             padding-left: 0;
+            margin-left: 0;
         }
         .ug-bundles-product-item {
             margin-top: 24px;
@@ -75,6 +76,10 @@
             margin-left: 12px;
             color: black;
         }
+        .ug-bundles-product-item.soutOut .ug-bundles-product-item-content,
+        .ug-bundles-product-item.soutOut .ug-bundles-product-item-content del {
+            color: #ccc;
+        }
         .ug-bundles-product-item-content del {
             color: #727273;
         }
@@ -96,6 +101,7 @@
         }
         .ug-bundles-product-item-bottom-detail-btn {
             color: #00CC88;
+            cursor: pointer;
         }
         .ug-bundles-product-item-bottom-detail-btn:hover {
             text-decoration: underline;
