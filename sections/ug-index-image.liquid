@@ -87,70 +87,81 @@
       }
       /*topImage*/
 
-      /*    why buy*/
-      .green-home-whybar {
-          height: 3.125vw;
-          background-color: #000;
-          max-width: 1200px;
-          width: 100%;
-      }
-      .green-home-whybar-ship {
-          font-size: .833vw;
-          font-weight: 400;
-          color: #858585;
-          line-height: 2.292vw;
-          margin-bottom: 0 !important;
-          margin-left: 0;
-          padding: 0;
-      }
-      .green-home-whybar-ship li {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center
-      }
-      .green-home-whybar-ship img {
-          margin-right: .625vw;
-          width: 1.667vw;
-          height: 1.667vw
-      }
-      .green-home-whybar-more {
-          font-size: .833vw;
-          font-weight: 400;
-          color: #fff !important;
-          margin-left: 3.646vw;
-          text-decoration: none !important
-      }
-      @media (max-width: 767px) {
-          .green-home-whybar {
-              height: 60px;
-          }
-          .green-home-whybar-ship {
-              font-size: 14px;
-              line-height: 1.2;
-              color: #00CC88;
-          }
-          .green-home-whybar-ship li {
-              white-space: nowrap;
-              font-size: 16px;
-              margin-bottom: 0;
-              line-height: 1;
-          }
-          .green-home-whybar-ship img {
-              margin-right: 5px;
-              width: 32px;
-              height: 32px;
-          }
-          .green-home-whybar-more {
-              font-size: 14px;
-              margin-left: 10px;
-          }
-      }
+       /*    why buy*/
+    .green-home-whybar {
+        height: 3.125vw;
+        background-color: #000;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .green-home-whybar-ship {
+        font-size: .833vw;
+        font-weight: 400;
+        color: #858585;
+        line-height: 2.292vw;
+        margin-bottom: 0 !important;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .green-home-whybar-ship li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+          font-size: 14px;
+    }
+
+    .green-home-whybar-ship img {
+        margin-right: .5vw;
+        width: 1.467vw;
+        height: 1.467vw
+    }
+
+    .green-home-whybar-more {
+        font-size: .833vw;
+        font-weight: 400;
+        color: #fff !important;
+        margin-left: 3.646vw;
+        text-decoration: none !important
+    }
+
+    @media (max-width: 767px) {
+        .green-home-whybar {
+            height: 60px;
+        }
+
+        .green-home-whybar-ship {
+            font-size: 14px;
+            line-height: 1.2;
+        }
+
+        .green-home-whybar-ship li {
+            white-space: nowrap;
+            font-size: 16px;
+            margin-bottom: 0;
+            line-height: 1;
+        }
+
+        .green-home-whybar-ship img {
+            margin-right: 5px;
+            width: 32px;
+            height: 32px;
+        }
+
+        .green-home-whybar-more {
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    }
+
+    /*    why buy*/
       .banner_left .green-home-banner-box {
         top: 12.292vw;
         color: black;
@@ -275,6 +286,19 @@
           </picture>
           Two-year Product Warranty
         </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              srcset="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/4_3aaf89b5-2af3-4948-a9de-fd7d79bfda25.png?v=1687256465"
+              media="(max-width: 768px)"
+            >
+            <img
+              src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/4_3aaf89b5-2af3-4948-a9de-fd7d79bfda25.png?v=1687256465"
+              alt="price icon"
+            >
+          </picture>
+          Product VAT Incl
+        </li>
       </ul>
     </div>
   </section>
@@ -291,7 +315,7 @@
       })
   } else {
       const whybarSwiper = new Swiper('.green-home-whybar', {
-          slidesPerView: 3,
+          slidesPerView: 4,
           spaceBetween: 30,
           pagination: {
               el: ".swiper-pagination",
