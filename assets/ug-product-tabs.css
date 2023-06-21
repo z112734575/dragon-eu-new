@@ -193,6 +193,7 @@
         background: white;
         box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
         z-index: 101;
+        margin-top: 60px;
     }
     .ugreen-product-tabs-main {
         display: flex;
@@ -203,6 +204,7 @@
     }
 .t4s-tabs ul.t4s-tabs-ul {
     text-align: left;
+    margin-left: 0;
     }
 .ug-add-to-cart-btn {
     border-radius: 20px;
