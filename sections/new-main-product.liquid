@@ -614,6 +614,9 @@
                                 </div>
                             {%- endif -%}
 
+                                {% when 'short_description' %}
+                                    {% render 'ug-new-short-description' %}
+
                             {%- when 'description' -%}
                                 {%- assign pr_des = product.description -%}
                                 {%- assign description_excerpt = meta_theme.description_excerpt | default: bk_stts.text -%}
@@ -1283,7 +1286,6 @@
 
 
 {% render 'ug-product-drawer' %}
-{% render 'ug-new-short-description' %}
 
 {%- if tabs_position == 'external' -%}
     {%- render 'ug-product_tabs',

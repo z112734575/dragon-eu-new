@@ -31,7 +31,10 @@
             }
             if(p === 'getCompareAtPrice') {
                 return function () {
-                    return formatPrice(parseInt(this.compare_at_price* this.quantity) + parseInt(this.bundles_compare_at_price))
+                    if(this.compare_at_price){
+                        return formatPrice(parseInt(this.compare_at_price* this.quantity) + parseInt(this.bundles_compare_at_price))
+                    }
+                    return 0
                 }
             }
             return target[p]
@@ -39,7 +42,7 @@
         set: function (obj, prop, value) {
             obj[prop] = value
             $('.ug-product-form-add-to-cart-info .ug-product-price').text(BUNDLES_INFO.getPrice())
-            if(BUNDLES_INFO.getCompareAtPrice() !== BUNDLES_INFO.getPrice()) {
+            if(BUNDLES_INFO.getCompareAtPrice() !== BUNDLES_INFO.getPrice() && BUNDLES_INFO.getCompareAtPrice() !== 0) {
                 $('.ug-product-form-add-to-cart-info .ug-product-compare-at-price').text(BUNDLES_INFO.getCompareAtPrice())
             } else {
                 $('.ug-product-form-add-to-cart-info .ug-product-compare-at-price').text('')

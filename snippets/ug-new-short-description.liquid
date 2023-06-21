@@ -1,19 +1,38 @@
 {% if product.metafields.custom.short_description != blank %}
     <style>
-        .ug-new-product-short-desc {
+        .ug-new-product-short-desc-wrap {
             background: #F8F8F8;
             color: #757575;
-            padding: 80px 0;
+            padding: 24px 12px;
             font-size: 14px;
             line-height: 1.5;
-            margin-top: 100px;
+            margin-top: 24px;
+        }
+        .ug-new-product-short-desc {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            height: 80px;
         }
         .ug-new-product-short-desc > ul {
-            max-width: 1280px;
-            margin: 0 auto;
+            margin: 0;
+            padding: 0;
+        }
+        .fold-product-short-desc:after {
+            display: none;
+            position: absolute;
+            height: 30%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .75) 54%, #fff);
+            clear: both;
+            content: " ";
+            /*display: block;*/
+            font-size: 0;
         }
         .ug-new-product-short-desc ul li {
-            margin-bottom: 36px;
+            margin-bottom: 24px;
         }
         .ug-new-product-short-desc ul li:last-child {
             margin: 0;
@@ -22,20 +41,75 @@
             color: black;
             display: block;
         }
+        .foldBtn-wrap {
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+        }
+        .foldBtn-wrap > a {
+            color: #00CC88;
+            font-size: 16px;
+            width: auto;
+        }
+        .foldBtn-wrap .foldBtn-arrow {
+            width: 6px;
+            height: 6px;
+            border: 1px solid #00CC88;
+            border-left: none;
+            border-top: none;
+            transform: rotate(45deg);
+            margin-left: 6px;
+        }
         @media (max-width: 767px) {
             .ug-new-product-short-desc {
-                margin-top: 50px;
-                padding: 24px 10px;
-                margin-left: -10px;
-                margin-right: -10px;
+                padding: 0;
+                margin: 0;
             }
             .ug-new-product-short-desc ul li {
                 margin-bottom: 18px;
             }
         }
     </style>
-<div class="ug-new-product-short-desc">
-    {{ product.metafields.custom.short_description }}
-</div>
+    <div class="ug-new-product-short-desc-wrap">
+        <div class="ug-new-product-short-desc">
+            {{ product.metafields.custom.short_description }}
+        </div>
+        <div class="foldBtn-wrap">
+            <a href="javascript:void(0)" id="foldBtn">Learn More</a><span class="foldBtn-arrow"></span>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            function showAndHideShortDesc() {
+                const foldEl = document.querySelector('.foldBtn-wrap');
+                const descWrapEl = document.querySelector('.ug-new-product-short-desc');
+                const descEL = document.querySelector('.ug-new-product-short-desc > ul')
+                const descHeight = descEL?.getBoundingClientRect().height;
 
+                if (!descHeight) return;
+                if (descHeight >= 80) {
+                    descWrapEl.style.height = '80px'
+                    descWrapEl.classList.add('fold-product-short-desc')
+                } else {
+                    foldEl.parentNode.removeChild(foldEl)
+                    descHeight.style.height = 'auto'
+                }
+                foldEl.addEventListener('click', function () {
+                    let flag = descWrapEl.classList.contains('fold-product-short-desc')
+                    if (flag) {
+                        $('.foldBtn-arrow').css({transform: "rotate(225deg)"})
+                    } else {
+                        $('.foldBtn-arrow').css({transform: "rotate(45deg)"})
+                    }
+                    $('#foldBtn').innerHTML = flag ? 'Learn Less' : 'Learn More'
+                    descWrapEl.style.height = flag ? descHeight + 'px' : '80px'
+                    descWrapEl.classList.toggle('fold-product-short-desc')
+                })
+            }
+
+            setTimeout(function () {
+                showAndHideShortDesc()
+            })
+        })
+    </script>
 {% endif %}

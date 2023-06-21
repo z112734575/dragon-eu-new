@@ -669,7 +669,7 @@
     -webkit-box-align: start;
     -ms-flex-align: start;
     margin: 0 0 30px 0;
-    border-bottom: 1px solid #dedede;
+    /*border-bottom: 1px solid #dedede;*/
     align-items: flex-start;
   }
 
@@ -679,7 +679,7 @@
     font-weight: 600;
     color: #131414;
     line-height: 35px;
-    margin: 30px 0;
+    /*margin: 30px 0;*/
     order: 1;
   }
   .t4s-section-main-product
