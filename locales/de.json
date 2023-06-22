@@ -1259,27 +1259,14 @@
     },
     "filters": {
       "availability": {
-        "label": "Verfügbarkeit",
         "value": {
           "in_stock": "Auf Lager",
           "out_of_stock": "Ausverkauft"
         }
       },
-      "vendor": {
-        "label": "Marke"
-      },
-      "price": {
-        "label": "Preis"
-      },
-      "product_type": {
-        "label": "Produktart"
-      },
       "boolean": {
         "true_label": "Ja",
         "false_label": "NEIN"
-      },
-      "tags": {
-        "label": "Mehr Filter"
       }
     },
     "search": {
