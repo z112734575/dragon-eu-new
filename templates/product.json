@@ -15,7 +15,7 @@
       }
     },
     "main": {
-      "type": "new-main-product",
+      "type": "main-product",
       "blocks": {
         "column1-delivery-info": {
           "type": "column1-delivery-info",
