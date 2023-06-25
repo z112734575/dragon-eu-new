@@ -1183,8 +1183,8 @@
           "@media (max-width: 767px) {}"
         ],
         "settings": {
-          "enable_backtop": true,
-          "enable_hidden_mobile": false,
+          "enable_backtop": false,
+          "enable_hidden_mobile": true,
           "backtop_des": "2"
         }
       },

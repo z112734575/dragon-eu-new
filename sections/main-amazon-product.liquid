@@ -1037,35 +1037,37 @@
                     {{- html_trust -}}
                   </div>
 
-                {%- when 'trust_delivery' -%}
-                  {%- capture html_trust -%}
-                                        {%- assign images = bk_stts.imageList | split: "," -%}
-                                        {%- for img in images -%}<img class="t4s-img-tr__svg lazyloadt4s"
-                                                                      src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg"
-                                                                      data-src="{{ img | img_url: '100x' }}"
-                                                                      alt="{{ img | replace: '_', ' ' }}" />{%- endfor -%}
-                                    {%- endcapture -%}
-                  <div
-                    id="t4s-trust_seal{{ bk_id }}"
-                    data-rr="{{ svg_width }}"
-                    {% if isStyleSvg %}
-                      style="--height-img:{{ svg_height }}px;"
-                    {% endif %}
-                    class="t4s-pr_trust_seal t4s-text-md-{{ bk_stts.al }} t4s-text-center"
-                    {{ block.shopify_attributes }}
-                  >
-                    {%- if bk_stts.mess -%}
-                      <p
-                        class="t4s-pr-mess_trust t4s-ch"
-                        style="--fs-mess-trust:{{ bk_stts.size }}px;"
+                  {%- when 'trust_delivery' -%}
+                      <style>
+                          .ug-trust_delivery {
+                              display: flex;
+                              align-items: center;
+                              justify-content: space-between;
+                          }
+                      </style>
+                      <div
+                              id="t4s-trust_delivery {{ bk_id }}"
+                              data-rr="{{ svg_width }}"
+                              class="t4s-pr_trust_seal t4s-text-md-{{ bk_stts.al }} t4s-text-center ug-trust_delivery"
+                              {{ block.shopify_attributes }}
                       >
-                        {{ bk_stts.mess }}
-                      </p>
-                    {%- endif -%}
-                    {{- html_trust -}}
-                  </div>
+                          {%- if bk_stts.mess -%}
+                              <p
+                                      class=""
+                                      style="--fs-mess-trust:{{ bk_stts.size }}px;margin-bottom: 0;color: black;font-weight: 500;"
+                              >
+                                  {{ bk_stts.mess }}
+                              </p>
+                          {%- endif -%}
+                          <img class="t4s-img-tr__svg lazyloadt4s"
+                               src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg"
+                               data-src="{{ bk_stts.image }}"
+                               alt="Trust delivery"
+                               style="max-width: 50%;"
+                          />
+                      </div>
 
-                {%- when 'live_view' -%}
+                  {%- when 'live_view' -%}
                   {%- if bk_stts.text == blank %}{% continue %}{% endif -%}
                   <div
                     id="t4s-counter{{ bk_id }}"
@@ -2553,10 +2555,10 @@
 },
 {
 "type": "textarea",
-"id": "imageList",
-"label": "Delivery list",
-"default": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-"info": "插入图片链接，用逗号分隔"
+"id": "image",
+"label": "Delivery image",
+"info": "插入图片链接",
+"default": "https://cdn.shopify.com/s/files/1/0573/0979/0291/files/pic.png?v=1686559360"
 }
 ]
 },

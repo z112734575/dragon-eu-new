@@ -1298,3 +1298,6 @@
   fill: currentColor;
   overflow: hidden;
 }
+#smile-ui-lite-launcher-frame-container {
+  bottom: 90px !important;
+}

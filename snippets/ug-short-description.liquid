@@ -3,6 +3,7 @@
       position: relative;
       overflow: hidden;
       transition: height 0.3s;
+      height: 120px;
   }
   .ug-product-short-desc ul {
       list-style: disc;
@@ -75,12 +76,13 @@
   function showAndHideShortDesc() {
             var foldEl = document.querySelector('.foldBtn-wrap')
             var descWrapEl = document.querySelector('.ug-product-short-desc');
-            var descHeight = descWrapEl.offsetHeight;
+            var descHeight = document.querySelector('.ug-product-short-desc > ul').offsetHeight;
             if (descHeight >= 120) {
                 descWrapEl.style.height = '120px'
                 descWrapEl.classList.add('fold-product-short-desc')
             } else {
                 foldEl.parentNode.removeChild(foldEl)
+                descWrapEl.style.height = 'auto'
             }
             foldEl.addEventListener('click', function () {
                 let flag = descWrapEl.classList.contains('fold-product-short-desc')
