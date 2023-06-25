@@ -15,7 +15,7 @@
       }
     },
     "main": {
-      "type": "new-main-amazon-product",
+      "type": "main-amazon-product",
       "blocks": {
         "column1-delivery-info": {
           "type": "column1-delivery-info",
