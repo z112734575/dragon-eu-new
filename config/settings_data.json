@@ -603,7 +603,7 @@
       "top-activity-bar": {
         "type": "top-activity-bar",
         "settings": {
-          "enable": true,
+          "enable": false,
           "pc_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc_64385afd-f753-48a1-be5e-22f7e2aea4f2.png?v=1687176703",
           "mobile_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_b847ac18-b0ea-4d14-ba7f-53b8799ed071.png?v=1687168655",
           "pc_height": "auto",
