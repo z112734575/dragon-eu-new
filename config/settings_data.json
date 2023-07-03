@@ -764,12 +764,11 @@
           },
           "6141bf58-9316-4ce8-bd6d-16b03ed3fc8c": {
             "type": "drop",
-            "disabled": true,
             "settings": {
-              "title": "HUB & ADAPTER",
+              "title": "Buying Guide",
               "url": "#",
               "open_link": "_self",
-              "menu": "product-hub",
+              "menu": "buying-guide",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
