@@ -520,7 +520,7 @@
         "c82045e1-25a0-42be-8971-6d55a3cf8397": {
           "type": "image",
           "settings": {
-            "image_child": "shopify:\/\/shop_images\/Group_420.png",
+            "image_child": "shopify:\/\/shop_images\/40914_d114bff1-8dc7-43f5-9a79-4c36372bfdff.png",
             "img_width": 0,
             "img_width_mb": 0,
             "hidden_mobile": false,
@@ -532,7 +532,7 @@
         "template--14855482179667__f98341aa-8cf2-4309-a3ae-097e36765860-1666785503dc5b0e00-4": {
           "type": "custom_text",
           "settings": {
-            "text": "Nexode 100W Charger",
+            "text": "Nexode 200W Charger",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#222222",
@@ -629,7 +629,7 @@
         "d5f3ce5b-3677-492c-b7aa-9aea9ce3b422": {
           "type": "image",
           "settings": {
-            "image_child": "shopify:\/\/shop_images\/Group_421.png",
+            "image_child": "shopify:\/\/shop_images\/90658.png",
             "img_width": 0,
             "img_width_mb": 0,
             "hidden_mobile": false,
@@ -641,7 +641,7 @@
         "d14a1fc2-8e13-42ef-bef2-bf50d8ef2aa4": {
           "type": "custom_text",
           "settings": {
-            "text": "Nexode 200W Desktop Charger",
+            "text": "Nexode 45W Desktop Charger",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#222222",
@@ -839,7 +839,7 @@
         "437c01c6-a6ae-496f-89f2-e846b2952dce": {
           "type": "image",
           "settings": {
-            "image_child": "shopify:\/\/shop_images\/Group_422.png",
+            "image_child": "shopify:\/\/shop_images\/90549_56f25c11-74c8-4f6a-a4ed-cbbe9ef05376.png",
             "img_width": 0,
             "img_width_mb": 0,
             "hidden_mobile": false,
@@ -851,7 +851,7 @@
         "template--14855482179667__273da5f9-d7bc-4495-b1e9-67d412ada69d-16667859573247b5d5-4": {
           "type": "custom_text",
           "settings": {
-            "text": "Nexode 65W Charger",
+            "text": "Nexode 140W Charger",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#222222",
@@ -1014,7 +1014,7 @@
         "7560f2e7-86a0-480d-82ba-6c9244c55658": {
           "type": "image",
           "settings": {
-            "image_child": "shopify:\/\/shop_images\/Group_423.png",
+            "image_child": "shopify:\/\/shop_images\/40747_4effd359-c741-4838-bbd6-0b9defcf975c.png",
             "img_width": 0,
             "img_width_mb": 0,
             "hidden_mobile": false,
@@ -1049,7 +1049,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "Learn More",
-            "button_link": "https:\/\/eu.ugreen.com\/collections\/gan-chargers\/products\/ugreen-nexode-100w-usb-c-wall-charg er",
+            "button_link": "https:\/\/eu.ugreen.com\/collections\/gan-chargers\/products\/ugreen-nexode-100w-usb-c-wall-charger?variant=40293741199443",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
