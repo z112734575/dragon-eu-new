@@ -569,7 +569,7 @@
             "fwbutton": 500,
             "button_ls": 0,
             "button_mh": 40,
-            "button_bdr": 16,
+            "button_bdr": 40,
             "button_pd_lr": 15,
             "button_mgb": 0,
             "hidden_mobile": false,
