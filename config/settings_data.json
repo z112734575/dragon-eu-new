@@ -438,7 +438,7 @@
           "a3aa1034-5bf9-460f-a184-4f18fc2a76f4": {
             "type": "payments",
             "settings": {
-              "svg": "visa,amazon_payments,american_express,apple_pay,diners_club,discover,jcb,master,shopify_pay,paypal,klarna",
+              "svg": "visa,american_express,apple_pay,diners_club,discover,jcb,master,shopify_pay,paypal,klarna",
               "height": 35,
               "hidden_mobile": false,
               "mgb": 20,
