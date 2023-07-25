@@ -17,7 +17,6 @@
     },
     "d2230466-b5fe-49cc-ac39-926497ba0c21": {
       "type": "page_banner",
-      "disabled": true,
       "settings": {
         "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/10001_586fa8b8-20a8-404d-9607-52c0a0888209.png?v=1687922710",
         "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/10001_1.png?v=1687922709",
@@ -48,10 +47,11 @@
           "settings": {
             "tabs_title": "GaN Chargers",
             "product_list": [
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
               "ugreen-65w-usb-c-pd-charger-4-ports",
+              "ugreen-nexode-100w-usb-c-wall-charger",
               "ugreen-65w-power-strip-diginest-cube-gan-extension-lead-with-usb-c-slots",
-              "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger",
-              "ugreen-nexode-65w-usb-c-wall-charger-3-ports"
+              "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger"
             ]
           }
         },
