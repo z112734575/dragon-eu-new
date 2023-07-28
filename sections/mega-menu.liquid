@@ -4,28 +4,102 @@
   assign checkFirst        = true
 -%}
 
+
 [nt_mega_split1]
   {%- for block in se_blocks -%}{%- assign bk_type = block.type -%}{%- assign bk_stts = block.settings -%}
   {%- if checkFirst and bk_type == 'mega' -%}
   {%- assign checkFirst = false -%}
   <div id="t4s-mega-contents{{bk_stts.id}}" data-id="{{bk_stts.id}}" data-blockid="{{block.id}}" {{ block.shopify_attributes }}>
   <link rel="stylesheet" href="{{ 'mega-menu.css' | asset_url }}" media="all">
+  <link rel="stylesheet" href="{{ 'ug-mega-menu.css' | asset_url }}" media="all">
+  <script src="{{ 'ug-mega-menu.js' | asset_url }}" async="async"></script>
   {%- elsif bk_type == 'mega' -%}
   </div>
   <div id="t4s-mega-contents{{bk_stts.id}}" data-id="{{bk_stts.id}}" data-blockid="{{block.id}}" {{ block.shopify_attributes }}>
   <link rel="stylesheet" href="{{ 'mega-menu.css' | asset_url }}" media="all">
+  <link rel="stylesheet" href="{{ 'ug-mega-menu.css' | asset_url }}" media="all">
+  <script src="{{ 'ug-mega-menu.js' | asset_url }}" async="async"></script>
   {%- endif -%}
 
-    {%- case bk_type -%}
+      {%- case bk_type -%}
+      {% when 'tab_list' %}
+      {% assign settings =  bk_stts %}
+        {% assign tab_name_list = settings.tab_name_list | split: "," %}
+       <ul class="ug-menu-tab-wrap">
+           {% for tab_name in tab_name_list %}
+             <li id="ug-menu-tab{{ forloop.index }}" class="mega-menu-tab {% if forloop.index == 1 %}active{% endif %}">
+                 {{ tab_name }}
+                <span> > </span>
+             </li>
+             {% endfor %}
+      </ul>
+
+        {% when 'tab_content' %}
+        {% assign settings =  bk_stts %}
+        {% assign tab_id = settings.tab_id %}
+
+      {% assign product_list = settings.product_list %}
+      {% assign tag_list = settings.tag_list | split: "," %}
+      {% assign collection_name_list = settings.collection_name_list | split: ',' %}
+      {% assign all_collection_url =  settings.all_collection_url %}
+      {% assign all_collection_name =  settings.all_collection_name %}
+      {% assign collection_link_list = settings.collection_link_list | split: ',' %}
+         <div class="ug-tab-content ug-menu-tab{{ tab_id }} {% if tab_id ==1  %}active animate{% endif %}">
+           <div class="ug-tab-product-list">
+                {% for product in product_list %}
+                {% assign index = forloop.index |  minus: 1 %}
+                <script>
+                    console.log("{{ tag_list[index] }}", 'riniam', {{ index }})
+                </script>
+                <a href="{{ product.url }}">
+                    <div class="ug-tab-product-item">
+                     <div class="ug-tab-product-image">
+                          <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
+                     </div>
+                     <div class="ug-tab-product-info">
+                          <div class="ug-tab-product-title">
+                               {{ product.title }}
+                          </div>
+                          {% if tag_list[index] != blank %}
+                          <div class="ug-tab-product-tag">
+                            {{ tag_list[index]}}
+                          </div>
+                          {%endif%}
+                     </div>
+                </div>
+                </a>
+                {% endfor %}
+        </div>
+            <div class="ug-tab-collection-bar">
+                <div class="ug-tab-collection-list">
+                    {% for collection_name in collection_name_list %}
+                    {% assign index = forloop.index |  minus: 1 %}
+                            <div class="ug-tab-collection">
+                           <a href="{{ collection_link_list[index]}}">
+                            {{ collection_name }} >
+                            </a>
+                           </div>
+                    {% endfor %}
+                </div>
+                {% if all_collection_name != blank %}
+                <a class="ug-tab-all-collection" id="ug-tab-all-collection" href="{{ all_collection_url }}">
+                    {{ all_collection_name }} >
+                </a>
+                {% endif %}
+            </div>
+
+        </div>
+
+
       {%- when 'banner' %}{% assign c_bid = block.id %}{% assign image = bk_stts.image -%}
         {{ 'content-position.css' | asset_url | stylesheet_tag }}
         {{ 'banner.css' | asset_url | stylesheet_tag }}
-        {%-liquid 
+        {%-liquid
           assign image = bk_stts.image
           assign image_ratio = bk_stts.image_ratio
           if image_ratio == "ratioadapt"
             assign imgatt = ''
-           else 
+           else
             assign imgatt = 'data-'
           endif
           assign cl_opacity = bk_stts.cl_opacity | divided_by: 100.0
@@ -39,7 +113,7 @@
         <div id="bk_{{c_bid}}" class="type_mn_banner t4s-menu-item t4s-sub-column-item t4s-col-{{bk_stts.col}} t4s-col-item" {{ block.shopify_attributes }}>
           <div class="t4s-banner-item t4s_{{image_ratio}} t4s_position_{{se_stts.image_position}} t4s_{{se_stts.image_size}} t4scuspx3_true t4s-eff t4s-eff-{{bk_stts.b_effect}} t4s-eff-img-{{bk_stts.img_effect}}" {% if image_ratio != "ratio_fh" %} style="--aspect-ratio-cusdt : {{bk_stts.height_dk}}px;" {%- endif %}>
             <div class="t4s-banner-inner" style="--cl-text: {{bk_stts.cl_txt}};--bg-overlay:{{cl_overlay}};">
-              
+
 
               <{{ARRhtml[0]}} {{ARRhtml[1]}}href="{{ bk_stts.b_link}}"  {{ARRhtml[2]}}target="{{bk_stts.open_link}}" class="t4s-d-block t4s_ratio t4s_ratio_hasmb" {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 2}};--aspect-ratioaptmb: {{image_mb.aspect_ratio | default: 2}};">
                 {%- if image != blank -%}
@@ -72,7 +146,7 @@
           assign image_ratio = bk_stts.image_ratio
           if image_ratio == "ratioadapt"
             assign imgatt = ''
-           else 
+           else
             assign imgatt = 'data-'
           endif
           assign b_effect = bk_stts.b_effect
@@ -85,24 +159,24 @@
           assign subtitle_cl_pri       = bk_stts.subtitle_cl | color_extract: 'lightness'
           assign count_cl_pri       = bk_stts.count_cl | color_extract: 'lightness'
 
-          if title_cl_pri < 85  
+          if title_cl_pri < 85
             assign title_cl_sec = "#fff"
-          else 
+          else
             assign title_cl_sec = "#222"
           endif
-          if title_cl_hover_pri < 85 
+          if title_cl_hover_pri < 85
             assign title_cl_hover_sec = "#fff"
-          else 
+          else
             assign title_cl_hover_sec = "#222"
           endif
-          if subtitle_cl_pri < 85 
+          if subtitle_cl_pri < 85
             assign subtitle_cl_sec = "#fff"
-          else 
+          else
             assign subtitle_cl_sec = "#222"
           endif
-          if count_cl_pri < 85 
+          if count_cl_pri < 85
             assign count_cl_sec = "#fff"
-          else 
+          else
             assign count_cl_sec = "#222"
           endif
         -%}
@@ -131,7 +205,7 @@
           assign image_ratio = bk_stts.image_ratio
           if image_ratio == "ratioadapt"
             assign imgatt = ''
-           else 
+           else
             assign imgatt = 'data-'
           endif
 
@@ -145,7 +219,7 @@
           assign enable_pr_size = settings.enable_pr_size
           assign pr_size_pos = settings.pr_size_pos
           assign show_size_type = settings.show_size_type
-          assign size_ck = settings.size_ck | append:',size,sizes,Größe' 
+          assign size_ck = settings.size_ck | append:',size,sizes,Größe'
           assign get_size = size_ck | downcase | replace: ' ,', ',' | replace: ', ', ',' | split: ',' | uniq
 
           assign enable_pr_color = settings.enable_pr_color
@@ -164,19 +238,19 @@
        {%- assign show_color = settings.show_pr_color -%}
        {%- assign show_cl_type = settings.show_color_type -%}
        {%- assign show_size = settings.show_pr_size -%}
-        {%- assign use_cdt = bk_stts.use_cdt  -%} 
+        {%- assign use_cdt = bk_stts.use_cdt  -%}
         {%- assign txt_cd = 'products.grid_items.offer_end_in' | t  -%}
         {%- paginate collection.products by limit -%}
         <div id="bk_{{block.id}}" class="type_mn_pr t4s-menu-item t4s-sub-column-item t4s-col-{{bk_stts.col}} t4s-col-item" {{ block.shopify_attributes }}>
-          {%- if layout_des == "1" -%} 
+          {%- if layout_des == "1" -%}
           <div data-collection-url="{{collection.url}}" class="t4s_box_pr_grid t4s-products t4s-justify-content-center t4s-text-{{bk_stts.content_align}} t4s_{{image_ratio}} t4s_position_{{bk_stts.image_position}} t4s_{{bk_stts.image_size}} t4s-row t4s-row-cols-{{bk_stts.col_dk}} t4s-gx-{{bk_stts.space_h_item}} t4s-gy-{{bk_stts.space_v_item}}">
-         {%- else layout_des == "2" -%} 
+         {%- else layout_des == "2" -%}
           {{ 'slider-settings.css' | asset_url | stylesheet_tag }}
           {{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
           <div data-collection-url="{{collection.url}}" class="t4s-flicky-slider t4s_box_pr_slider t4s-products t4s-text-{{bk_stts.content_align}} t4s_{{image_ratio}} t4s_position_{{bk_stts.image_position}} t4s_{{bk_stts.image_size}} t4s-row t4s-row-cols-{{bk_stts.col_dk}} t4s-gx-{{bk_stts.space_h_item}} t4s-gy-{{bk_stts.space_v_item}} {% if bk_stts.nav_btn %} t4s-slider-btn-style-{{bk_stts.btn_owl}} t4s-slider-btn-{{bk_stts.btn_shape}} t4s-slider-btn-{{bk_stts.btn_size}} t4s-slider-btn-cl-{{bk_stts.btn_cl}} t4s-slider-btn-vi-{{bk_stts.btn_vi}} t4s-slider-btn-hidden-mobile-{{bk_stts.btn_hidden_mobile}} {% endif %} flickityt4s flickityt4s-later" data-flickityt4s-js='{"setPrevNextButtons":true,"arrowIcon":"{{arrow_icon}}","imagesLoaded": 0,"adaptiveHeight": 0, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": {{bk_stts.nav_btn}},"percentPosition": 1,"pageDots": false, "autoPlay" : false, "pauseAutoPlayOnHover" : true }' style="--flickity-btn-pos: {{bk_stts.space_h_item}}px;--flickity-btn-pos-mb: {{bk_stts.space_h_item_mb}}px;">
-          {%- endif -%} 
+          {%- endif -%}
             {%- if collection != blank -%}
-            {%- liquid 
+            {%- liquid
               case product_des
                 when '1'
                   render 'product-grid-item1' for collection.products as product,product:product,prefix_url:prefix_url,isGrowaveWishlist:isGrowaveWishlist,show_img:show_img,show_vendor:show_vendor,enable_pr_color:enable_pr_color,show_cl_type:show_cl_type,get_color:get_color,enable_pr_size:enable_pr_size,pr_size_pos:pr_size_pos,get_size:get_size,show_size_type:show_size_type,price_varies_style:price_varies_style,app_review:app_review,enable_rating:enable_rating,use_countdown:use_countdown,imgatt:imgatt,show_list_btns:false
@@ -196,7 +270,7 @@
                 <div class="t4s-col-item t4s-product t4s-pr-grid t4s-pr-style{{product_des}} t4s-pr-item t4s-pr-des-{{product_des}}">
                   <div class="t4s-product-wrapper" data-cacl-slide >
                     <div class="t4s-product-inner">
-                      <a class="t4s-d-block" data-cacl-slide href="/admin/products">{%- capture current -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%} 
+                      <a class="t4s-d-block" data-cacl-slide href="/admin/products">{%- capture current -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
                       {{ 'product-' | append: current | placeholder_svg_tag: 't4s-placeholder-svg' }}</a>
                     </div>
                     <div class="t4s-product-info">
@@ -208,7 +282,7 @@
                   </div>
                 </div>
               {%- endfor -%}
-            {%- endif -%} 
+            {%- endif -%}
           </div>
         </div>
         {%- endpaginate -%}
@@ -227,7 +301,12 @@
           {%- for link in llists -%}<a href="{{ link.url }}">{%- render 'title_menu2',title:link.title -%}</a>{%- endfor -%}
          </div>
       {%- when 'html' -%}
-        <div id="bk_{{block.id}}" class="type_mn_html t4s-menu-item t4s-sub-column-item t4s-col-{{bk_stts.col}} t4s-col-item" {{ block.shopify_attributes }}>{{- bk_stts.html -}}{% if bk_stts.page != blank %}{{pages[bk_stts.page].content}}{% endif -%}
+        <div id="bk_{{block.id}}" class="type_mn_html t4s-menu-item t4s-sub-column-item t4s-col-{{bk_stts.col}} ug-mega-menu-wrap" {{ block.shopify_attributes }}>{{- bk_stts.html -}}{% if bk_stts.page != blank %}{{pages[bk_stts.page].content}}{% endif -%}
+        <style>
+          .ug-mega-menu-wrap {
+            position: initial !important;
+          }
+        </style>   {% comment %}{% render 'ug-mega-menu' %}{% endcomment %}
         </div>
       {%- when 'blogs' -%}
         {{ 'blog.css' | asset_url | stylesheet_tag }}
@@ -236,13 +315,14 @@
           assign layout_des = bk_stts.layout_des
           if bk_stts.btn_owl == "outline"
             assign arrow_icon = 1
+            assign arrow_icon = 1
           else
             assign arrow_icon = 2
           endif
           assign image_ratio = bk_stts.image_ratio
           if image_ratio == "ratioadapt"
             assign imgatt = ''
-           else 
+           else
             assign imgatt = 'data-'
           endif
 
@@ -279,15 +359,15 @@
 
         {%- paginate blog.articles by limit -%}
         <div id="bk_{{block.id}}" class="type_mn_pr t4s-menu-item t4s-sub-column-item t4s-col-{{bk_stts.col}} t4s-col-item" {{ block.shopify_attributes }}>
-          {%- if layout_des == "1" -%} 
+          {%- if layout_des == "1" -%}
           <div class="blog_grid has_post_des_{{post_des}} t4s-justify-content-center t4s-text-{{bk_stts.content_align}} t4s_{{image_ratio}} t4s_position_{{bk_stts.image_position}} t4s_{{bk_stts.image_size}} t4s-row t4s-row-cols-{{bk_stts.col_dk}} t4s-gx-{{bk_stts.space_h_item}} t4s-gy-{{bk_stts.space_v_item}}">
-         {%- else layout_des == "2" -%} 
+         {%- else layout_des == "2" -%}
           {{ 'slider-settings.css' | asset_url | stylesheet_tag }}
           {{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
           <div class="t4s-flicky-slider blog_slider has_post_des_{{post_des}} t4s-text-{{bk_stts.content_align}} t4s_{{image_ratio}} t4s_position_{{bk_stts.image_position}} t4s_{{bk_stts.image_size}} t4s-row t4s-row-cols-{{bk_stts.col_dk}} t4s-gx-{{bk_stts.space_h_item}} t4s-gy-{{bk_stts.space_v_item}} {% if bk_stts.nav_btn %} t4s-slider-btn-style-{{bk_stts.btn_owl}} t4s-slider-btn-{{bk_stts.btn_shape}} t4s-slider-btn-{{bk_stts.btn_size}} t4s-slider-btn-cl-{{bk_stts.btn_cl}} t4s-slider-btn-vi-{{bk_stts.btn_vi}} t4s-slider-btn-hidden-mobile-{{bk_stts.btn_hidden_mobile}} {% endif %} flickityt4s flickityt4s-later" data-flickityt4s-js='{"setPrevNextButtons":true,"arrowIcon":"{{arrow_icon}}","imagesLoaded": 0,"adaptiveHeight": 0, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": {{bk_stts.nav_btn}},"percentPosition": 1,"pageDots": false, "autoPlay" : false, "pauseAutoPlayOnHover" : true }' style="--flickity-btn-pos: {{bk_stts.space_h_item}}px;--flickity-btn-pos-mb: {{bk_stts.space_h_item_mb}}px;">
-          {%- endif -%} 
-            {%- if blog != blank -%} 
-              {%- case post_des  -%} 
+          {%- endif -%}
+            {%- if blog != blank -%}
+              {%- case post_des  -%}
                 {%-   when '1'  -%}
                   {%-  render 'post_loop_1' for blog.articles as post,
                     post:post,blog_url:blog_url,by_txt:by_txt,on_txt:on_txt,b_effect:b_effect,img_effect:img_effect,show_dt:show_dt,show_au:show_au,show_cm:show_cm,show_cate:show_cate,show_tags:show_tags,show_cnt:show_cnt,show_rm:show_rm,show_irm:show_irm,date:date,readmore_txt:readmore_txt  -%}
@@ -314,7 +394,7 @@
                     <a class="t4s-post-thumb t4s-eff t4s-eff-{{b_effect}} t4s-eff-img-{{img_effect}} t4s-d-block" href="/admin/blogs" data-cacl-slide >
                       {% capture current %}{% cycle 1, 2 %}{% endcapture %}
                       <div class="t4s_ratio" style="--aspect-ratioapt: {{image.aspect_ratio | default: 2}}">
-                        {{ 'lifestyle-' | append: current | placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' }}  
+                        {{ 'lifestyle-' | append: current | placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' }}
                       </div>
                     </a>
                     <div class="t4s-post-info">
@@ -345,7 +425,7 @@
                 </article>
               {%- endfor -%}
             {%- endif -%}
-          </div> 
+          </div>
         </div>
         {%- endpaginate -%}
       {%- else -%}
@@ -530,10 +610,10 @@
           },
           {
             "type": "link_list",
-            "id": "menu", 
+            "id": "menu",
             "label": "Add menu"
           }
-           
+
         ]
       },
       {
@@ -543,7 +623,7 @@
           {
               "id": "collection",
               "type": "collection",
-              "label": "Collection" 
+              "label": "Collection"
           },
           {
             "type": "select",
@@ -800,27 +880,27 @@
             "id": "space_h_item",
             "options": [
               {
-                  "value": "0", 
+                  "value": "0",
                   "label": "0"
               },
               {
-                  "value": "2", 
+                  "value": "2",
                   "label": "2px"
               },
               {
-                  "value": "4", 
+                  "value": "4",
                   "label": "4px"
               },
               {
-                  "value": "6", 
+                  "value": "6",
                   "label": "6px"
               },
               {
-                  "value": "8", 
+                  "value": "8",
                   "label": "8px"
               },
               {
-                  "value": "10", 
+                  "value": "10",
                   "label": "10px"
               },
               {
@@ -840,27 +920,27 @@
             "id": "space_v_item",
             "options": [
               {
-                  "value": "0", 
+                  "value": "0",
                   "label": "0"
               },
               {
-                  "value": "2", 
+                  "value": "2",
                   "label": "2px"
               },
               {
-                  "value": "4", 
+                  "value": "4",
                   "label": "4px"
               },
               {
-                  "value": "6", 
+                  "value": "6",
                   "label": "6px"
               },
               {
-                  "value": "8", 
+                  "value": "8",
                   "label": "8px"
               },
               {
-                  "value": "10", 
+                  "value": "10",
                   "label": "10px"
               },
               {
@@ -1708,7 +1788,7 @@
               {
                 "value": "light-overlay",
                 "label": "Light overlay"
-              } 
+              }
             ]
           },
 
@@ -1719,7 +1799,7 @@
           },
           {
             "type": "select",
-            "id": "open_link", 
+            "id": "open_link",
             "options": [
               {
                 "value": "_self",
@@ -2072,7 +2152,7 @@
             "max": 50,
             "step": 1,
             "label": "Maximum posts to show",
-            "default": 8 
+            "default": 8
           },
           {
             "type": "select",
@@ -2317,27 +2397,27 @@
             "id": "space_h_item",
             "options": [
               {
-                  "value": "0", 
+                  "value": "0",
                   "label": "0"
               },
               {
-                  "value": "2", 
+                  "value": "2",
                   "label": "2px"
               },
               {
-                  "value": "4", 
+                  "value": "4",
                   "label": "4px"
               },
               {
-                  "value": "6", 
+                  "value": "6",
                   "label": "6px"
               },
               {
-                  "value": "8", 
+                  "value": "8",
                   "label": "8px"
               },
               {
-                  "value": "10", 
+                  "value": "10",
                   "label": "10px"
               },
               {
@@ -2357,27 +2437,27 @@
             "id": "space_v_item",
             "options": [
               {
-                  "value": "0", 
+                  "value": "0",
                   "label": "0"
               },
               {
-                  "value": "2", 
+                  "value": "2",
                   "label": "2px"
               },
               {
-                  "value": "4", 
+                  "value": "4",
                   "label": "4px"
               },
               {
-                  "value": "6", 
+                  "value": "6",
                   "label": "6px"
               },
               {
-                  "value": "8", 
+                  "value": "8",
                   "label": "8px"
               },
               {
-                  "value": "10", 
+                  "value": "10",
                   "label": "10px"
               },
               {
@@ -2590,6 +2670,79 @@
             ],
             "label": "Width col:"
            }
+        ]
+      },
+     {
+       "type": "tab_list",
+       "name": "菜单列表",
+       "settings": [
+         {
+           "type": "textarea",
+           "id": "tab_name_list",
+           "label": "菜单名",
+           "info": "以英文逗号分割"
+         },
+         {
+           "type": "textarea",
+           "id": "tab_image_list",
+           "label": "菜单图片",
+           "info": "以英文逗号分割"
+         },
+         {
+           "type": "textarea",
+            "id": "tab_link_list",
+           "label": "菜单跳转链接",
+           "info": "以英文逗号分割"
+         }
+       ]
+     },
+      {
+        "type": "tab_content",
+        "name": "商品列表",
+        "settings": [
+        {
+        "type": "range",
+        "id": "tab_id",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "label": "菜单ID",
+        "default": 1
+          },
+          {
+            "type": "product_list",
+            "id": "product_list",
+            "label": "商品列表选择",
+            "limit": 5
+          },
+          {
+          "type": "textarea",
+            "id": "tag_list",
+            "label": "标签列表",
+            "info": "以英文逗号分割"
+          },
+          {
+            "type": "textarea",
+            "id": "collection_name_list",
+            "label": "按钮名列表",
+            "info": "以英文逗号分割"
+          },
+          {
+            "type": "textarea",
+            "id": "collection_link_list",
+            "label": "按钮名列表链接",
+            "info": "以英文逗号分割"
+          },
+          {
+            "type": "url",
+            "id": "all_collection_url",
+            "label": "总按钮链接"
+          },
+          {
+            "type": "text",
+            "id": "all_collection_name",
+            "label": "总按钮文案"
+          }
         ]
       }
    ]

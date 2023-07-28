@@ -98,7 +98,7 @@
             "settings": {
               "col_heading": "",
               "menu": "",
-              "col_dk": "7",
+              "col_dk": "6",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
@@ -121,8 +121,8 @@
             "settings": {
               "col_heading": "",
               "menu": "",
-              "col_dk": "4",
-              "col_tb": "5",
+              "col_dk": "6",
+              "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-end",
               "padding_inner": "",
@@ -130,12 +130,20 @@
               "content_align_mb": "t4s-text-center",
               "padding_inner_mb": ""
             }
+          },
+          "c4ef2aa5-06a8-4d88-9faf-52b196931061": {
+            "type": "html",
+            "settings": {
+              "html_content": "<style>\n    .earth-icon {\n        width: 1.5em;\n        height: 1.5em;\n        vertical-align: -0.15em;\n        fill: currentColor;\n        overflow: hidden;\n    }\n    .ug-current-country {\n        cursor: pointer;\n        color: inherit;\n        font-size: inherit;\n        display: flex;\n        align-items: center;\n        justify-content: flex-end;\n    }\n    .ug-current-country .ug-current-country-text:hover {\n        color: white;\n    }\n    .ug-current-country-text {\n        margin-left: 8px;\n    }\n    .ug-select-country-dialog {\n        display: none;\n        position: fixed;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        background-color: rgba(0, 0, 0, 0.5);\n        z-index: 1000;\n        backdrop-filter: blur(4px);\n    }\n    .ug-select-country-dialog__main {\n        background: white;\n        border-radius: 4px;\n        max-width: 790px;\n        padding: 64px 80px;\n        position: absolute;\n        top: 50%;\n        transform: translateY(-50%);\n        left: 50%;\n        margin-left: -395px;\n    }\n    .ug-select-country-dialog__header__title{\n        font-weight: 600;\n        font-size: 32px;\n        color: #131414;\n        text-align: center;\n    }\n    .ug-select-country-dialog__header__close{\n        position: absolute;\n        top: 25px;\n        right: 25px;\n    }\n    .ug-select-country-dialog__header__close a:hover{\n        color: #000000!important;\n    }\n    .ug-select-country-dialog__body {\n        padding: 30px 0 0 0;\n    }\n    .ug-select-country-dialog__body__list {\n        display: flex;\n        justify-content: space-between;\n        flex-wrap: wrap;\n        margin: 0;\n        padding: 0;\n    }\n    .ug-select-country-dialog__body__list__item {\n        width: 50%;\n        cursor: pointer;\n        padding: 10px;\n\n    }\n    .ug-select-country-dialog__body__list__item.ComingSoon{\n        opacity: .5;\n    } \n    .ug-select-country-dialog__body__list__item.ComingSoon a{\n        cursor:not-allowed;\n        color: #727273;\n        background: #f4f4f4!important;\n    }\n    .ug-select-country-dialog__main .ug-select-country-dialog__body .ug-select-country-dialog__body__list__item a {\n        width: 100%;\n        height: 60px;\n        color: #727273;\n        padding: 0 20px;\n        font-weight: 500;\n        font-size: 16px;\n        border-radius: 4px;\n        background: #f4f4f4;\n        display: flex;\n        align-items: center;\n        text-decoration: none;\n    }\n    .ug-select-country-dialog__body .ug-select-country-dialog__body__list .ug-select-country-dialog__body__list__item a:hover {\n        background: #EAEAEF;\n    }\n    .ug-select-country-dialog__body__list__item__link__name {\n        width: 100%;\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        font-size: 16px;\n        padding-left: 32px;\n        position: relative;\n        font-weight: 400;\n    }\n    .ug-select-country-dialog__body__list__item__link__name .earth-icon{\n        position: absolute;\n        left: 0;\n        top: 0;\n    }\n    .ug-select-country-dialog__body__list__item__link__name .language {\n        color: #999999;\n    }\n    @media screen and (max-width: 768px) {\n        .ug-select-country-dialog__body__list__item {\n            width: 100%;\n        }\n        .ug-select-country-dialog__main{\n            left: 0;\n            margin: 0 24px;\n            padding: 40px 24px;\n            width: calc(100% - 48px);\n        }\n        .ug-select-country-dialog__header__title{\n            font-size: 24px;\n            line-height: 30px;\n        }\n        .ug-select-country-dialog__body{\n            padding: 20px 0 0 0;\n        }\n        .ug-select-country-dialog__body__list__item{\n            padding: 6px 0;\n        }\n        .ug-current-country{\n            justify-content: center;\n        }\n    }\n    \n<\/style>\n<div id=\"ug-current-country\" class=\"ug-current-country\">\n    <p style=\"margin: 0 10px 0 0;font-size: 14px;color: #727273;\">Select Your Region:<\/p>\n    <svg class=\"earth-icon\" aria-hidden=\"true\">\n        <use xlink:href=\"#icon-EU_icon\"><\/use>\n    <\/svg>\n    <div class=\"ug-current-country-text\">Europe \/ English<\/div>\n<\/div>\n<div class=\"ug-select-country-dialog\">\n    <div class=\"ug-select-country-dialog__main\">\n        <div class=\"ug-select-country-dialog__header\">\n            <div class=\"ug-select-country-dialog__header__title\">Select Your Country\/Region<\/div>\n            <div class=\"ug-select-country-dialog__header__close\">\n                <a href=\"javascript:void(0)\" class=\"ug-select-country-dialog__header__close__link\">\n                    <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\">\n                        <path d=\"M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z\"><\/path>\n                        <path d=\"M0 0h24v24H0z\" fill=\"none\"><\/path>\n                    <\/svg>\n                <\/a>\n            <\/div>\n        <\/div>\n        <div class=\"ug-select-country-dialog__body\">\n            <ul class=\"ug-select-country-dialog__body__list\">\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/www.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-US_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>United States<\/span>\n                            <span class=\"language\">English<\/span>\n                        <\/div>\n\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/eu.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-EU_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>Europe<\/span>\n                            <span class=\"language\">English<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/ca.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-CA_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>Canada<\/span>\n                            <span class=\"language\">English<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/de.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-DE_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>Deutschland<\/span>\n                            <span class=\"language\">Deutsch<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/uk.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-UK_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>United Kingdom<\/span>\n                            <span class=\"language\">English<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item ComingSoon\">\n                    <a href=\"#\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-FR_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>France<\/span>\n                            <span class=\"language\">Coming Soon<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n            <\/ul>\n        <\/div>\n    <\/div>\n<\/div>\n<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.11.1\/jquery.min.js\"><\/script>\n<script>\n    $(function () {\n        const COUNTRY = {\n            eu: 'Europe \/ English',\n            www: 'United States \/ English',\n            ca: \"Canada \/ English\",\n            de: \"Deutschland \/ Deutsch\",\n            uk: \"United Kingdom \/ English\",\n        }\n        const initCountry = () => {\n            const hostname = window.location.hostname\n            const country = hostname.split('.')[0]\n            const currentCountry = COUNTRY[country] || 'Europe \/ English'\n            $('.ug-current-country-text').text(currentCountry)\n        }\n        const listen = () => {\n            $('#ug-current-country').on('click', function () {\n                $('.ug-select-country-dialog').show()\n            })\n\t\t\t$('#ug-top-current-country').on('click', function () {\n                $('.ug-select-country-dialog').show()\n            })\n            $('.ug-select-country-dialog__header__close__link').on('click', function () {\n                $('.ug-select-country-dialog').hide()\n            })\n        }\n        initCountry()\n        listen()\n    })\n<\/script>",
+              "hidden_mobile": false
+            }
           }
         },
         "block_order": [
           "2433b4f1-5bdc-49a9-ba42-a51f4eb6d8e3",
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08",
-          "47f5eb4c-1063-495d-bfc4-a54c62d219aa"
+          "47f5eb4c-1063-495d-bfc4-a54c62d219aa",
+          "c4ef2aa5-06a8-4d88-9faf-52b196931061"
         ],
         "settings": {
           "border_top": true,
@@ -166,7 +174,7 @@
           "mg_tb": "",
           "pd_tb": "",
           "mg_mb": "",
-          "pd_mb": "20px,,5px,"
+          "pd_mb": "20px,,100px,"
         }
       },
       "footer": {
@@ -394,7 +402,7 @@
           "ec9669aa-76bd-4be0-b476-6117b5d55a6f": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "Select Your Region",
+              "col_heading": "Contact Us",
               "menu": "",
               "menu_style": "1",
               "col_dk": "3",
@@ -410,7 +418,7 @@
           "09d3b654-6021-4be4-a2e2-aaacbc36e17e": {
             "type": "html",
             "settings": {
-              "html_content": "<style>\n    .earth-icon {\n        width: 1.5em;\n        height: 1.5em;\n        vertical-align: -0.15em;\n        fill: currentColor;\n        overflow: hidden;\n    }\n    .ug-current-country {\n        cursor: pointer;\n        color: inherit;\n        font-size: inherit;\n        display: flex;\n        align-items: center;\n    }\n    .t4s-footer .ug-current-country {\n        margin-bottom: 40px;\n    }\n    .ug-current-country .ug-current-country-text:hover {\n        color: white;\n    }\n    .ug-current-country-text {\n        margin-left: 8px;\n    }\n    .ug-select-country-dialog {\n        display: none;\n        position: fixed;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        background-color: rgba(0, 0, 0, 0.5);\n        z-index: 1000;\n        backdrop-filter: blur(4px);\n    }\n    .ug-select-country-dialog__main {\n        background: white;\n        border-radius: 4px;\n        max-width: 790px;\n        padding: 64px 80px;\n        position: absolute;\n        top: 50%;\n        transform: translateY(-50%);\n        left: 50%;\n        margin-left: -395px;\n    }\n    .ug-select-country-dialog__header__title{\n        font-weight: 600;\n        font-size: 32px;\n        color: #131414;\n        text-align: center;\n    }\n    .ug-select-country-dialog__header__close{\n        position: absolute;\n        top: 25px;\n        right: 25px;\n    }\n    .ug-select-country-dialog__header__close a:hover{\n        color: #000000!important;\n    }\n    .ug-select-country-dialog__body {\n        padding: 30px 0 0 0;\n    }\n    .ug-select-country-dialog__body__list {\n        display: flex;\n        justify-content: space-between;\n        flex-wrap: wrap;\n        margin: 0;\n        padding: 0;\n    }\n    .ug-select-country-dialog__body__list__item {\n        width: 50%;\n        cursor: pointer;\n        padding: 10px;\n\n    }\n    .ug-select-country-dialog__body__list__item.ComingSoon{\n        opacity: .5;\n    } \n    .ug-select-country-dialog__body__list__item.ComingSoon a{\n        cursor:not-allowed;\n        color: #727273;\n        background: #f4f4f4!important;\n    }\n    .ug-select-country-dialog__main .ug-select-country-dialog__body .ug-select-country-dialog__body__list__item a {\n        width: 100%;\n        height: 60px;\n        color: #727273;\n        padding: 0 20px;\n        font-weight: 500;\n        font-size: 16px;\n        border-radius: 4px;\n        background: #f4f4f4;\n        display: flex;\n        align-items: center;\n        text-decoration: none;\n    }\n    .ug-select-country-dialog__body .ug-select-country-dialog__body__list .ug-select-country-dialog__body__list__item a:hover {\n        background: #EAEAEF;\n    }\n    .ug-select-country-dialog__body__list__item__link__name {\n        width: 100%;\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        font-size: 16px;\n        padding-left: 32px;\n        position: relative;\n        font-weight: 400;\n    }\n    .ug-select-country-dialog__body__list__item__link__name .earth-icon{\n        position: absolute;\n        left: 0;\n        top: 0;\n    }\n    .ug-select-country-dialog__body__list__item__link__name .language {\n        color: #999999;\n    }\n    @media screen and (max-width: 768px) {\n        .ug-select-country-dialog__body__list__item {\n            width: 100%;\n        }\n        .ug-select-country-dialog__main{\n            left: 0;\n            margin: 0 24px;\n            padding: 40px 24px;\n            width: calc(100% - 48px);\n        }\n        .ug-select-country-dialog__header__title{\n            font-size: 24px;\n            line-height: 30px;\n        }\n        .ug-select-country-dialog__body{\n            padding: 20px 0 0 0;\n        }\n        .ug-select-country-dialog__body__list__item{\n            padding: 6px 0;\n        }\n    }\n<\/style>\n<div id=\"ug-current-country\" class=\"ug-current-country\">\n    <svg class=\"earth-icon\" aria-hidden=\"true\">\n        <use xlink:href=\"#icon-EU_icon\"><\/use>\n    <\/svg>\n    <div class=\"ug-current-country-text\">Europe \/ English<\/div>\n<\/div>\n<div class=\"ug-select-country-dialog\">\n    <div class=\"ug-select-country-dialog__main\">\n        <div class=\"ug-select-country-dialog__header\">\n            <div class=\"ug-select-country-dialog__header__title\">Select Your Country\/Region<\/div>\n            <div class=\"ug-select-country-dialog__header__close\">\n                <a href=\"javascript:void(0)\" class=\"ug-select-country-dialog__header__close__link\">\n                    <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\">\n                        <path d=\"M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z\"><\/path>\n                        <path d=\"M0 0h24v24H0z\" fill=\"none\"><\/path>\n                    <\/svg>\n                <\/a>\n            <\/div>\n        <\/div>\n        <div class=\"ug-select-country-dialog__body\">\n            <ul class=\"ug-select-country-dialog__body__list\">\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/www.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-US_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>United States<\/span>\n                            <span class=\"language\">English<\/span>\n                        <\/div>\n\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/eu.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-EU_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>Europe<\/span>\n                            <span class=\"language\">English<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/ca.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-CA_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>Canada<\/span>\n                            <span class=\"language\">English<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/de.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-DE_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>Deutschland<\/span>\n                            <span class=\"language\">Deutsch<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item\">\n                    <a href=\"https:\/\/uk.ugreen.com?SkipCozyRedirect=yes\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-UK_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>United Kingdom<\/span>\n                            <span class=\"language\">English<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item ComingSoon\">\n                    <a href=\"#\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-FR_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>France<\/span>\n                            <span class=\"language\">Coming Soon<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n                <li class=\"ug-select-country-dialog__body__list__item ComingSoon\">\n                    <a href=\"#\" class=\"ug-select-country-dialog__body__list__item__link\">\n                        <div class=\"ug-select-country-dialog__body__list__item__link__name\">\n\t\t\t\t\t\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<use xlink:href=\"#icon-AU_icon\"><\/use>\n\t\t\t\t\t\t\t<\/svg>\n                            <span>Australia<\/span>\n                            <span class=\"language\">Coming Soon<\/span>\n                        <\/div>\n                    <\/a>\n                <\/li>\n            <\/ul>\n        <\/div>\n    <\/div>\n<\/div>\n<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.11.1\/jquery.min.js\"><\/script>\n<script>\n    $(function () {\n        const COUNTRY = {\n            eu: 'Europe \/ English',\n            www: 'United States \/ English',\n            ca: \"Canada \/ English\",\n        }\n        const initCountry = () => {\n            const hostname = window.location.hostname\n            const country = hostname.split('.')[0]\n            const currentCountry = COUNTRY[country] || 'Europe \/ English'\n            $('.ug-current-country-text').text(currentCountry)\n        }\n        const listen = () => {\n            $('#ug-current-country').on('click', function () {\n                $('.ug-select-country-dialog').show()\n            })\n\t\t\t$('#ug-top-current-country').on('click', function () {\n                $('.ug-select-country-dialog').show()\n            })\n            $('.ug-select-country-dialog__header__close__link').on('click', function () {\n                $('.ug-select-country-dialog').hide()\n            })\n        }\n        initCountry()\n        listen()\n    })\n<\/script>",
+              "html_content": "<style>\n    .footer_content p{\n        color: #A4A4A6;\n        font-size: 14px;\n        line-height: 20px;\n        padding-left: 24px;\n        background: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/9660\/2144\/files\/chat.svg?v=1690453293')left 2px\/16px no-repeat;\n    }\n    .footer_content p:nth-child(2){\n        background: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/9660\/2144\/files\/Email.svg?v=1690453293')left 2px\/16px no-repeat;\n    }\n    \n    .footer_content p a:hover{\n        color: #03F2A6;\n    }\n    <\/style>\n    <div class=\"footer_content\">\n        <p><a href=\"#!\" onclick=\"document.getElementById('dummy-chat-button-iframe').contentDocument.querySelector('.chat-toggle').click()\" style=\"color: #03F2A6;\">Website Live Chat<\/a> <br>Mon-Sun 9AM-6PM(PT)<\/p>\n        <p><a href=\"mailto:service.eu@ugreen.com\">service.eu@ugreen.com<\/a><\/p>\n    <\/div>\n    \n    <script type=\"text\/javascript\">\n         const needhelp = document.getElementById('needhelp-button');\n         needhelp.addEventListener('click', () => {\n         document.getElementById('ShopifyChat').contentDocument.querySelector('.chat-toggle').click()       \n        });\n    <\/script>",
               "hidden_mobile": false
             }
           },
@@ -438,7 +446,7 @@
           "a3aa1034-5bf9-460f-a184-4f18fc2a76f4": {
             "type": "payments",
             "settings": {
-              "svg": "visa,amazon_payments,american_express,apple_pay,diners_club,discover,jcb,master,shopify_pay,paypal",
+              "svg": "visa,american_express,apple_pay,diners_club,discover,jcb,master,shopify_pay,paypal,klarna",
               "height": 35,
               "hidden_mobile": false,
               "mgb": 20,
@@ -570,7 +578,7 @@
           "5ed463cd-bef5-46b7-b9fc-e983e0d5f64f": {
             "type": "html",
             "settings": {
-              "html": "<style>\n\t.ug-top-bar{\n\t\tdisplay: flex;\n\t\twidth: 100%;\n\t\tjustify-content: space-between;\n\t\talign-items: center;\n\t\tposition: relative;\n\t\tz-index: 5;\n\t}\n\t.ug-top-bar .ug-current-country .ug-current-country-text:hover {\n\t\tcolor: #00CC88;\n\t}\n\t.ug-top-bar p{\n\t\tmargin:0;\n\t}\n\t@media (max-width: 768px) {\n\t\t.ug-top-bar{\n\t\t\tjustify-content: center;\n\t\t}\n\t\t.ug-top-bar #ug-top-current-country,.ug-top-bar .occupy-box{\n\t\t\tdisplay: none;\n\t\t}\n\t}\n<\/style>\n<div class=\"ug-top-bar\">\n\t<div class=\"occupy-box\"><\/div>\n\t<div class=\"top-text\">\n\t\t<p style=\"margin:0;\">Get 10% Off You First Purchase | Code：UG10\n<\/p>\n\t<\/div>\n\t<div id=\"ug-top-current-country\" class=\"ug-current-country\">\n\t\t<svg class=\"earth-icon\" aria-hidden=\"true\">\n\t\t\t<use xlink:href=\"#icon-EU_icon\"><\/use>\n\t\t<\/svg>\n\t\t<div class=\"ug-current-country-text\">Europe \/ English<\/div>\n\t<\/div>\n<\/div>",
+              "html": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790\">\n<style>\n    .ug-top-bar {\n        display: flex;\n        width: 100%;\n        justify-content: center;\n        align-items: center;\n        position: relative;\n        z-index: 5;\n    }\n\n    .ug-top-bar .ug-current-country {\n        position: absolute;\n        right: 0;\n        z-index: 1;\n    }\n\n    .ug-top-bar .ug-current-country .ug-current-country-text:hover {\n        color: #00CC88;\n    }\n\n    .ug-top-bar p {\n        margin: 0;\n    }\n    \/* cookie *\/\n    .cc-banner.cc-bottom{\n        display: none;\n    }\n    @media (max-width: 768px) {\n        .ug-top-bar {\n            justify-content: center;\n        }\n\n        .ug-top-bar #ug-top-current-country,\n        .ug-top-bar .occupy-box {\n            display: none;\n        }\n    }\n<\/style>\n<div class=\"ug-top-bar\">\n    <div class=\"occupy-box\"><\/div>\n    <div class=\"topBar_swiper swiper\">\n        <div class=\"swiper-wrapper\">\n            <div class=\"top-text swiper-slide\">\n                <p style=\"margin:0;\"><b> Free shipping<\/b> on orders over €14<b><\/b>\n                <\/p>\n            <\/div>\n            <div class=\"top-text swiper-slide\">\n                <a href=\"https:\/\/eu.ugreen.com\/pages\/flash-sale\">\n                    <p style=\"margin:0;\">Flash Sale | Buy More, Save More <b>SHOP NOW &gt;<\/b>\n                    <\/p>\n                <\/a>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div id=\"ug-top-current-country\" class=\"ug-current-country\">\n        <svg class=\"earth-icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-EU_icon\"><\/use>\n        <\/svg>\n        <div class=\"ug-current-country-text\">Europe \/ English<\/div>\n    <\/div>\n<\/div>\n<script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/jquery-1.7.2.min.js?v=1624935298\"><\/script>\n<script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/swiper-bundle.min_23a60c44-0efc-4129-bf9f-c046f688609a.js?v=1655275790\"><\/script>\n<script>\n    const topBarswiper = new Swiper('.topBar_swiper', {\n        slidesPerView: 1,\n        speed: 1000,\n        loop: true,\n        autoplay: {\n            delay: 5000,\n        },\n    })\n<\/script>",
               "hide": false,
               "text_align": "center",
               "col": "12"
@@ -598,6 +606,17 @@
           "bg_op_tr": 10,
           "show_border_tr": false,
           "bd_cl_tr": "#b3b3b3"
+        }
+      },
+      "top-activity-bar": {
+        "type": "top-activity-bar",
+        "settings": {
+          "enable": false,
+          "pc_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc_64385afd-f753-48a1-be5e-22f7e2aea4f2.png?v=1687176703",
+          "mobile_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_b847ac18-b0ea-4d14-ba7f-53b8799ed071.png?v=1687168655",
+          "pc_height": "auto",
+          "mobile_height": "auto",
+          "link": "shopify:\/\/pages\/voucher"
         }
       },
       "header-inline": {
@@ -683,7 +702,7 @@
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2": {
             "type": "mega",
             "settings": {
-              "title": "PRODUCTS",
+              "title": "Products",
               "url": "#",
               "open_link": "_self",
               "icon": "",
@@ -700,18 +719,35 @@
               "r_s_v_item": "30"
             }
           },
+          "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
+            "type": "drop",
+            "settings": {
+              "title": "Deals & Events",
+              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
+              "open_link": "_self",
+              "menu": "deals-events",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "Hot",
+              "lb_cl": "#ec0101",
+              "lazy_mn": true,
+              "pos_sub": "bottom",
+              "pos": "left"
+            }
+          },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
             "type": "drop",
             "settings": {
-              "title": "POWER STATION",
-              "url": "shopify:\/\/pages\/powerroam-power-stations",
+              "title": "Portable Power Station",
+              "url": "https:\/\/eu.ugreen.com\/collections\/power-station",
               "open_link": "_self",
               "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
-              "lb": "HOT",
-              "lb_cl": "#ec0101",
+              "lb": "New",
+              "lb_cl": "#4ce0ce",
               "lazy_mn": true,
               "pos_sub": "bottom",
               "pos": "left"
@@ -720,10 +756,10 @@
           "16e2ef48-b04b-46f0-bf5f-d12823645624": {
             "type": "drop",
             "settings": {
-              "title": "CHARGERS",
-              "url": "shopify:\/\/collections\/chargeur",
+              "title": "Chargers",
+              "url": "#",
               "open_link": "_self",
-              "menu": "",
+              "menu": "product-chargers",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -737,28 +773,10 @@
           "6141bf58-9316-4ce8-bd6d-16b03ed3fc8c": {
             "type": "drop",
             "settings": {
-              "title": "HUB & ADAPTER",
-              "url": "shopify:\/\/collections\/hub-adaptateur",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
-          "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
-            "type": "drop",
-            "disabled": true,
-            "settings": {
-              "title": "SUPPORTS",
+              "title": "Buying Guide",
               "url": "#",
               "open_link": "_self",
-              "menu": "",
+              "menu": "buying-guide",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -786,10 +804,10 @@
           "81870b72-15ac-42fc-9d8c-0f9898d38878": {
             "type": "drop",
             "settings": {
-              "title": "TO OUR CLIENTS",
+              "title": "Support",
               "url": "#",
               "open_link": "_self",
-              "menu": "clients",
+              "menu": "support",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -807,10 +825,10 @@
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "7b6b268c-25a0-4c97-960d-7e81c56a2676",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
+          "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7",
           "16e2ef48-b04b-46f0-bf5f-d12823645624",
           "6141bf58-9316-4ce8-bd6d-16b03ed3fc8c",
-          "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "498888dd-d297-4762-adcd-478cdb134666",
           "81870b72-15ac-42fc-9d8c-0f9898d38878"
         ],
@@ -1172,336 +1190,14 @@
           "@media (max-width: 767px) {}"
         ],
         "settings": {
-          "enable_backtop": true,
-          "enable_hidden_mobile": false,
+          "enable_backtop": false,
+          "enable_hidden_mobile": true,
           "backtop_des": "2"
         }
       },
       "mega-menu": {
         "type": "mega-menu",
         "blocks": {
-          "583a30c7-369d-4a64-a51d-ca53c1685206": {
-            "type": "mega",
-            "settings": {
-              "id": 1
-            }
-          },
-          "3abb98a1-837d-46af-b195-f5c43e7c88ee": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "HOME PAGES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "2ceac397-4b2b-4740-a477-707dd2680e02": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "HOME PAGES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "1f90cea5-04fb-4ef3-822b-5f987845e5c4": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "HEADER LAYOUTS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "45fa281e-2be5-4727-bd01-942824713769": {
-            "type": "mega",
-            "settings": {
-              "id": 2
-            }
-          },
-          "02beea21-3cb9-41ce-a1ab-04ae44b7f47e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "SHOP PAGES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "2"
-            }
-          },
-          "ff494243-e58b-40e9-a2ea-e64ccd58a624": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "2"
-            }
-          },
-          "cec6a189-3084-497a-b4a8-b391531b2503": {
-            "type": "cat",
-            "settings": {
-              "collection": "women",
-              "collection_title": "",
-              "collection_subtitle": "",
-              "collection_des": "1",
-              "title_cl": "#ffffff",
-              "title_cl_hover": "#222222",
-              "subtitle_cl": "#878787",
-              "count_cl": "#222222",
-              "border_cl": "#e5e5e5",
-              "open_link": "_self",
-              "space_bottom": 20,
-              "space_bottom_mb": 10,
-              "border": false,
-              "item_pd": 0,
-              "item_rd": 0,
-              "img_effect": "zoom",
-              "b_effect": "none",
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
-              "collection_link": "",
-              "col": "4"
-            }
-          },
-          "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e": {
-            "type": "cat",
-            "settings": {
-              "collection": "frontpage",
-              "collection_title": "",
-              "collection_subtitle": "",
-              "collection_des": "1",
-              "title_cl": "#ffffff",
-              "title_cl_hover": "#222222",
-              "subtitle_cl": "#878787",
-              "count_cl": "#222222",
-              "border_cl": "#e5e5e5",
-              "open_link": "_self",
-              "space_bottom": 20,
-              "space_bottom_mb": 10,
-              "border": false,
-              "item_pd": 0,
-              "item_rd": 0,
-              "img_effect": "none",
-              "b_effect": "none",
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
-              "collection_link": "",
-              "col": "4"
-            }
-          },
-          "5bdb6eec-e820-4415-ac9b-9c6096eb20c1": {
-            "type": "mega",
-            "settings": {
-              "id": 3
-            }
-          },
-          "cc1a7875-8010-421e-b69c-efc19a6043d6": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT LAYOUTS",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "e17e717c-01e0-4704-92bc-92c339ee6148": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT DETAILS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "27ca598d-2e3f-44fc-a790-64783d37de5e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT SWATCH",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "bdfaa837-86a3-4159-805a-668060142b0d": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "5952e385-42a5-4603-9be9-64b76f15ef48": {
-            "type": "mega",
-            "settings": {
-              "id": 4
-            }
-          },
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
-            "type": "link2",
-            "settings": {
-              "col": "2",
-              "menu": ""
-            }
-          },
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6": {
-            "type": "pr",
-            "settings": {
-              "collection": "sale",
-              "product_des": "1",
-              "show_vendor": false,
-              "use_cdt": false,
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
-              "content_align": "default",
-              "limit": 6,
-              "col_dk": "4",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "10"
-            }
-          },
-          "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f": {
-            "type": "mega",
-            "settings": {
-              "id": 5
-            }
-          },
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "BLOG LAYOUT",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com\/blogs\/fashion?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "4"
-            }
-          },
-          "552902be-02b1-40ca-8475-982bbdb75ed7": {
-            "type": "blogs",
-            "settings": {
-              "blog": "fashion",
-              "post_des": "1",
-              "show_cate": false,
-              "show_tags": true,
-              "show_cnt": false,
-              "show_au": true,
-              "show_dt": true,
-              "show_cm": true,
-              "show_rm": false,
-              "show_irm": false,
-              "date": "date",
-              "content_align": "t4s-text-center",
-              "limit": 8,
-              "img_effect": "zoom",
-              "b_effect": "none",
-              "image_ratio": "ratio4_3",
-              "image_size": "cover",
-              "image_position": "8",
-              "col_dk": "2",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "8"
-            }
-          },
-          "0d99e134-d9fc-42ff-a448-3dcb5b6e0106": {
-            "type": "mega",
-            "settings": {
-              "id": 1
-            }
-          },
-          "c92c4789-6a2d-4511-956b-ed12665e5c79": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "CHARGERS",
-              "url": "shopify:\/\/collections\/charger",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "32dc75f6-f7fa-4f32-a5ff-0672acf37aeb": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "CABLES",
-              "url": "shopify:\/\/collections\/cable",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "258ce0a0-e1d8-4ee4-9f9c-b3c0b34da1a3": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "HUB & ADAPTER",
-              "url": "shopify:\/\/collections\/hubs-and-adapters",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "96b2cb05-f7be-4f7f-9be5-dacdf3d357d0": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "STANDS & PROTECTORS",
-              "url": "shopify:\/\/collections\/holder-protectors",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "ff5e3fb6-b690-4f36-8a8b-463440c7c0a7": {
-            "type": "link2",
-            "settings": {
-              "col": "3",
-              "menu": ""
-            }
-          },
-          "c26f0833-3a31-4c17-9d0c-be5eef6157ad": {
-            "type": "link2",
-            "settings": {
-              "col": "3",
-              "menu": ""
-            }
-          },
           "896b0a1b-4c88-41dc-aae8-3dc3fc782bd9": {
             "type": "mega",
             "settings": {
@@ -1511,43 +1207,65 @@
           "224acbf9-e273-470e-aeb8-ce1cab7498c4": {
             "type": "html",
             "settings": {
-              "html": "<div class=\"ug-mega\">\n    <div class=\"ug-mega-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/600w_350x350.png?v=1678954000\">\n        <div class=\"ug-mega-menu\">\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/power-station\" class=\"ug-mega-main\">Power Stations<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/\/products\/snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601?variant=46\" class=\"ug-mega-sub\">PowerRoam 600<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/power-station\/products\/15054a\" class=\"ug-mega-sub\">PowerRoam 1200 <span style=\"color: rgb(0, 204, 136);font-size: 12px;\">New<\/span><\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/power-station\/products\/15113\" class=\"ug-mega-sub\">Solarpanel 100W<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/power-station\/products\/15114\" class=\"ug-mega-sub\">Solarpanel 200W<\/a>\n        <\/div>\n    <\/div>\n    <div class=\"ug-mega-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/40737_16348ac7-42b4-4471-9e0b-7996fe48b370.png?v=1658728430\">\n        <div class=\"ug-mega-menu\">\n            <a href=\"javascript:void(0)\" style=\"cursor:default;\" class=\"ug-mega-main menu_hover\">CHARGERS<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/gan-chargers\" class=\"ug-mega-sub\">GaN Chargers<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/power-strip\" class=\"ug-mega-sub\">Power Strip<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/fast-chargers\" class=\"ug-mega-sub\">PD Fast Charger<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/car-chargers\" class=\"ug-mega-sub\">Car Chargers<\/a>\n        <\/div>\n    <\/div>\n    <div class=\"ug-mega-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/60761_913b1274-b20b-49a7-a54d-19e7c3031329.png?v=1658728431\">\n        <div class=\"ug-mega-menu\">\n            <a href=\"javascript:void(0)\" style=\"cursor:default;\" class=\"ug-mega-main menu_hover\">CABLES<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/usb-c-cables\" class=\"ug-mega-sub\">USB-C Cables<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/iphone-cables\" class=\"ug-mega-sub\">iPhone Cables<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/ethernet-cable\" class=\"ug-mega-sub\">Ethernet Cable<\/a>\n        <\/div>\n    <\/div>\n    <div class=\"ug-mega-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/60600_ac1fc0d2-8707-4ec6-bb81-dae8ce9f468e.png?v=1658728430\">\n        <div class=\"ug-mega-menu\">\n            <a href=\"javascript:void(0)\" style=\"cursor:default;\" class=\"ug-mega-main menu_hover\">HUB &amp; ADAPTER\n            <\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/hubs\" class=\"ug-mega-sub\">Hubs<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/ethernet-adapters\" class=\"ug-mega-sub\">Adapters<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/hdmi-switch\" class=\"ug-mega-sub\">USB &amp; HDMI Switch<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/sata-adapter\" class=\"ug-mega-sub\">SATA Adapter<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/hard-drive-enclosures\" class=\"ug-mega-sub\">Hard Drive Enclosures<\/a>\n        <\/div>\n    <\/div>\n    <div class=\"ug-mega-item ug-mega-item-with-img\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/40393_8fd026c1-bcbb-487c-b86c-e06ba61cbf88.png?v=1658728431\">\n        <div class=\"ug-mega-menu\">\n            <a href=\"javascript:void(0)\" style=\"cursor:default;\" class=\"ug-mega-main menu_hover\">STANDS &amp; MOUNTS\n            <\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/phone-stands\" class=\"ug-mega-sub\">Phone Stands<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/tablets-stands\" class=\"ug-mega-sub\">Tablets Stands<\/a>\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/car-mounts\" class=\"ug-mega-sub\">Car Mounts<\/a>\n        <\/div>\n    <\/div>\n    <div class=\"ug-mega-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/90550_256x256_crop_center.png\">\n        <div class=\"ug-mega-menu\">\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/docking-station\" class=\"ug-mega-main\">DOCKING STATION\n            <\/a>\n        <\/div>\n    <\/div>\n    <div class=\"ug-mega-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/10596_256x256_crop_center.png\">\n        <div class=\"ug-mega-menu\">\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/audio-cables\" class=\"ug-mega-main\">AUDIO\n            <\/a>\n        <\/div>\n    <\/div>\n    <div class=\"ug-mega-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/10140_256x256_crop_center.png\">\n        <div class=\"ug-mega-menu\">\n            <a href=\"https:\/\/eu.ugreen.com\/collections\/video-cables\" class=\"ug-mega-main\">VIDEO\n            <\/a>\n        <\/div>\n    <\/div>\n    <!--  <div class=\"ug-mega-item\">-->\n    <!--    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/90242_26750508-bb5b-4663-a00f-cbbf38625c8d.png?v=1658728430\">-->\n    <!--    <div class=\"ug-mega-menu\">-->\n    <!--      <a href=\"https:\/\/eu.ugreen.com\/collections\/earbuds\" class=\"ug-mega-main\">EARBUDS-->\n    <!--      <\/a>-->\n    <!--    <\/div>-->\n    <!--  <\/div>-->\n    <!--  <div class=\"ug-mega-item\">-->\n    <!--    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/90505.png?v=1658728430\">-->\n    <!--    <div class=\"ug-mega-menu\">-->\n    <!--      <a href=\"https:\/\/eu.ugreen.com\/collections\/mouse-keyboard\" class=\"ug-mega-main\">MOUSE &amp;<br>-->\n    <!--        KEYBOARD<\/a>-->\n    <!--    <\/div>-->\n    <!--  <\/div>-->\n    <!--<div class=\"ug-mega-item ug-mega-item-ads\" style=\"width: 100%;max-width: 580px;\">\n        <a href=\"https:\/\/eu.ugreen.com\/pages\/weekly-sale\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1026_620_132.jpg?v=1666860130\" style=\"width: 100%;height: auto;\"><\/a>\n    <\/div>-->\n<\/div>\n<style>\n    .menu_hover:hover{\n        color: #000!important;\n    }<\/style>",
+              "html": "<script type=\"module\" crossorigin=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/index-cf0859c1.js?v=1687144668\"><\/script>\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/index-77b21024.css?v=1685528041\">\n<div id=\"ug-mega-menu-app\"><\/div>",
               "page": "",
               "col": "12"
+            }
+          },
+          "a9f84a71-35c3-45b9-a929-2f426d7a7f7f": {
+            "type": "tab_list",
+            "disabled": true,
+            "settings": {
+              "tab_name_list": "Hub,Cable,111,222,333",
+              "tab_image_list": "",
+              "tab_link_list": ""
+            }
+          },
+          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+                "snap-deal-ugreen-m-2-nvme-ssd-enclosure-adapter",
+                "snap-deal-ugreen-nexode-100w-usb-c-wall-charger",
+                "snap-deal-ugreen-usb-2-0-switch-2-in-4-output-usb-kvm-switch",
+                "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio"
+              ],
+              "tag_list": "111,222,,,new",
+              "collection_name_list": "Hub,Cable.abc",
+              "collection_link_list": "\/collection\/abc,\/collection\/bcd",
+              "all_collection_url": "shopify:\/\/pages\/contact-us",
+              "all_collection_name": "All Hub"
+            }
+          },
+          "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 2,
+              "product_list": [
+                "snap-deal-ugreen-130w-3-port-pd-100w-pd3-0-qc4-0-pps-fast-car-charger",
+                "ugreen-145w-power-bank-for-laptop",
+                "ugreen-15w-magnetic-wireless-charger",
+                "ugreen-2-bay-hard-drive-enclosure-2-x-16tb-raid-array-dual-bay-hard-drive-tray-for-3-5-2-5-inch-hdd-ssd-2-5-hard-drive-docking-station-for-with-quiet-fan-supports-raid-0-1-10-pm-large-clone-mode",
+                "ugreen-2-in-1-usb-c-sd-card-reader"
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
             }
           }
         },
         "block_order": [
-          "583a30c7-369d-4a64-a51d-ca53c1685206",
-          "3abb98a1-837d-46af-b195-f5c43e7c88ee",
-          "2ceac397-4b2b-4740-a477-707dd2680e02",
-          "1f90cea5-04fb-4ef3-822b-5f987845e5c4",
-          "6122e966-0272-4c46-a1a0-051bdc2ae08c",
-          "45fa281e-2be5-4727-bd01-942824713769",
-          "02beea21-3cb9-41ce-a1ab-04ae44b7f47e",
-          "ff494243-e58b-40e9-a2ea-e64ccd58a624",
-          "cec6a189-3084-497a-b4a8-b391531b2503",
-          "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e",
-          "5bdb6eec-e820-4415-ac9b-9c6096eb20c1",
-          "cc1a7875-8010-421e-b69c-efc19a6043d6",
-          "e17e717c-01e0-4704-92bc-92c339ee6148",
-          "27ca598d-2e3f-44fc-a790-64783d37de5e",
-          "bdfaa837-86a3-4159-805a-668060142b0d",
-          "5952e385-42a5-4603-9be9-64b76f15ef48",
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6",
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6",
-          "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
-          "552902be-02b1-40ca-8475-982bbdb75ed7",
-          "0d99e134-d9fc-42ff-a448-3dcb5b6e0106",
-          "c92c4789-6a2d-4511-956b-ed12665e5c79",
-          "32dc75f6-f7fa-4f32-a5ff-0672acf37aeb",
-          "258ce0a0-e1d8-4ee4-9f9c-b3c0b34da1a3",
-          "96b2cb05-f7be-4f7f-9be5-dacdf3d357d0",
-          "ff5e3fb6-b690-4f36-8a8b-463440c7c0a7",
-          "c26f0833-3a31-4c17-9d0c-be5eef6157ad",
           "896b0a1b-4c88-41dc-aae8-3dc3fc782bd9",
-          "224acbf9-e273-470e-aeb8-ce1cab7498c4"
+          "224acbf9-e273-470e-aeb8-ce1cab7498c4",
+          "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
+          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
+          "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d"
         ],
         "settings": {
         }
@@ -1555,82 +1273,43 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
-          "mb_nav-0": {
-            "type": "menu",
+          "cf593f6f-7586-4e95-b4c8-32b1d99d575a": {
+            "type": "collection_list",
             "disabled": true,
             "settings": {
-              "title": "Demo",
-              "url": "",
-              "open_link": "_self",
-              "menu": "footer",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "mb_nav-1": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "Shop",
-              "url": "shopify:\/\/collections\/women",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "mb_nav-2": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "Product",
-              "url": "shopify:\/\/products\/analogue-resin-strap",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "25fa7ecf-2db0-4747-b093-a1299099917e": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "Portfolio",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "58800ed8-befe-449a-b8f8-ea86620bef6f": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "Lookbook",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "mb_nav-3": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "Blog",
-              "url": "shopify:\/\/blogs\/fashion",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
+              "title": "Products",
+              "cat1": "audio-cables",
+              "title1": "Hub",
+              "url1": "",
+              "image1": "shopify:\/\/shop_images\/90322.jpg",
+              "cat2": "car-chargers",
+              "title2": "Chargers",
+              "url2": "",
+              "image2": "shopify:\/\/shop_images\/2_f70c2677-730a-4fd1-b343-6b0a4e2730a6.jpg",
+              "cat3": "",
+              "title3": "",
+              "url3": "",
+              "cat4": "",
+              "title4": "",
+              "url4": "",
+              "cat5": "",
+              "title5": "",
+              "url5": "",
+              "cat6": "",
+              "title6": "",
+              "url6": "",
+              "cat7": "",
+              "title7": "",
+              "url7": "",
+              "cat8": "",
+              "title8": "",
+              "url8": "",
+              "cat9": "",
+              "title9": "",
+              "url9": "",
+              "cat10": "",
+              "title10": "",
+              "url10": ""
             }
           },
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58": {
@@ -1647,36 +1326,47 @@
           },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
-            "disabled": true,
             "settings": {
-              "title": "POWER STATION",
+              "title": "PORTABLE POWER STATION",
               "url": "shopify:\/\/pages\/powerroam-power-stations",
               "open_link": "_self",
-              "menu": "",
+              "menu": "portable-power-station",
               "icon": "",
               "lb": "HOT",
               "lb_cl": "#de4156"
+            }
+          },
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
+            "type": "menu",
+            "settings": {
+              "title": "Deals & Events",
+              "url": "",
+              "open_link": "_self",
+              "menu": "deals-events",
+              "icon": "",
+              "lb": "NEW",
+              "lb_cl": "#4ce0ce"
             }
           },
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf": {
             "type": "menu",
             "settings": {
               "title": "CHARGERS",
-              "url": "",
+              "url": "https:\/\/eu.ugreen.com\/collections\/gan-chargers",
               "open_link": "_self",
               "menu": "product-chargers",
               "icon": "",
               "lb": "",
-              "lb_cl": ""
+              "lb_cl": "#29efcd"
             }
           },
-          "a0d1607c-521f-49bd-8ed4-1c384cca180e": {
+          "06092e7b-58cd-4790-9721-e86ddd55d4a0": {
             "type": "menu",
             "settings": {
-              "title": "HUB & ADAPTER",
+              "title": "SUPPORT",
               "url": "",
               "open_link": "_self",
-              "menu": "product-hub",
+              "menu": "support",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -1685,20 +1375,8 @@
           "a6508826-0ecb-4412-a5d8-a7547aa8d015": {
             "type": "menu",
             "settings": {
-              "title": "Contact Us",
+              "title": "About Ugreen",
               "url": "shopify:\/\/pages\/contact-us",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "06092e7b-58cd-4790-9721-e86ddd55d4a0": {
-            "type": "menu",
-            "settings": {
-              "title": "TO OUR CLIENTS",
-              "url": "",
               "open_link": "_self",
               "menu": "about",
               "icon": "",
@@ -1721,19 +1399,6 @@
             "type": "acc",
             "disabled": true,
             "settings": {
-            }
-          },
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "WEEKLY SALE",
-              "url": "shopify:\/\/pages\/weekly-sale",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
             }
           },
           "6f549481-942e-4bc2-82b1-22f3208c3997": {
@@ -1784,22 +1449,16 @@
           }
         },
         "block_order": [
-          "mb_nav-0",
-          "mb_nav-1",
-          "mb_nav-2",
-          "25fa7ecf-2db0-4747-b093-a1299099917e",
-          "58800ed8-befe-449a-b8f8-ea86620bef6f",
-          "mb_nav-3",
+          "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
           "74abf930-8362-4e67-a9df-d02be16b9c4e",
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf",
-          "a0d1607c-521f-49bd-8ed4-1c384cca180e",
-          "a6508826-0ecb-4412-a5d8-a7547aa8d015",
           "06092e7b-58cd-4790-9721-e86ddd55d4a0",
+          "a6508826-0ecb-4412-a5d8-a7547aa8d015",
           "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
           "6f549481-942e-4bc2-82b1-22f3208c3997",
           "8d7adc9a-6e6f-4c96-849e-005240cb0084",
           "mb_nav-7",
@@ -2717,8 +2376,14 @@
 
     ],
     "blocks": {
-      "lai_embed_block_auto": {
-        "type": "shopify:\/\/apps\/lai-product-reviews\/blocks\/appBlockEmbed\/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
+      "558381514691908246": {
+        "type": "shopify:\/\/apps\/volumeboost-volume-discount\/blocks\/app-embed\/25745434-52e7-4378-88f1-890df18a0110",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11724500921838622758": {
+        "type": "shopify:\/\/apps\/frequently-bought-together\/blocks\/app-embed-block\/b1a8cbea-c844-4842-9529-7c62dbab1b1f",
         "disabled": false,
         "settings": {
         }
