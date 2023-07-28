@@ -327,10 +327,31 @@ svg.t4s-iconsvg-close {
 }
 
 .t4s-drawer-menu__close {
-    left: calc(100vw - 65px);
+    /*     left: calc(100vw - 65px); */
+    left: initial;
+    right: 0;
 }
 @media (min-width: 641px){
     .t4s-drawer-menu__close{
         left: 340px;
     }
+}
+
+.ug-mb_collection_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.t4s-mb__menu .t4s-menu-item.t4s-menu-item-cat .t4s-cat_space_item.ug-mb-collection-item {
+    margin-top: 0;
+}
+.ug-mb-collection-image {
+    width: 60%;
+    margin: 0 auto;
+}
+.ug-mb-collection-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
 }

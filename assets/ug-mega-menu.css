@@ -1,0 +1,92 @@
+.ug-menu-tab-wrap {
+    width: 170px;
+    padding: 0;
+    flex-shrink: 0;
+}
+.ug-menu-tab-wrap .mega-menu-tab {
+    cursor: pointer;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ug-menu-tab-wrap .mega-menu-tab.active {
+    color: #00CC88;
+}
+.ug-tab-content {
+    display: none;
+}
+.ug-tab-content.active {
+    display: block;
+}
+.ug-tab-product-list {
+    display: flex;
+    gap: 12px;
+}
+.ug-tab-product-item {
+    width: 200px;
+    opacity: 0;
+    transition: all .3s cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+.ug-tab-product-image {
+    width: 80%;
+    margin: 0 auto;
+}
+.ug-tab-product-info {
+    text-align: center;
+}
+.ug-tab-product-item .ug-tab-product-title {
+    color: #000000;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 这里是超出几行省略 */
+    overflow: hidden;
+    line-height: 1.5;
+    font-size: 14px ;
+}
+
+.ug-tab-collection-bar {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ug-tab-collection {
+    margin-right: 36px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s cubic-bezier(0.1, 0.7, 1, 0.1);
+    color: #999999;
+    font-size: 16px;
+}
+.ug-tab-collection:hover a{
+    color: #00CC88;
+    text-decoration: underline;
+}
+.ug-tab-collection-list {
+    display: flex;
+}
+#ug-tab-all-collection.ug-tab-all-collection {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 8px 30px;
+    border-radius: 32px;
+    color: black;
+    font-size: 14px;
+}
+#ug-tab-all-collection.ug-tab-all-collection:hover {
+    color: #00CC88;
+    border-color: #00CC88;
+}
+
+.ug-tab-content.active.animate .ug-tab-product-item,
+.ug-tab-content.active.animate .ug-tab-collection {
+    opacity: 1;
+}
+.ug-tab-product-tag {
+    font-size: 12px;
+    color: #00CC88;
+    font-weight: bold;
+    margin-top: 8px;
+}
