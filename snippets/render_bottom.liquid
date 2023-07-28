@@ -281,8 +281,13 @@ assign enable_quickshop = settings.enable_quickshop -%}
    {%- if page_type != 'cart' and settings.cart_type != 'disable' %}{% section 'mini_cart' %}{% endif -%}
    
 {%- else -%}
+  <style>
+    #t4s-menu-drawer {
+      width: 100vw;
+    }
+  </style>
    <div id="t4s-menu-drawer" class="t4s-drawer t4s-drawer__left lazyloadt4s {% if settings.header_design != 'sidebar' %} t4s-d-lg-none{% endif %}" aria-hidden="true" data-rendert4s="{{ routes_search_url }}/?view=mn"></div>
-   <button class="t4s-drawer-menu__close t4s-pe-none t4s-op-0 t4s-pf" data-drawer-close aria-label="{{'general.mobile_menu.close' | t}}"><svg class="t4s-iconsvg-close" role="presentation" viewBox="0 0 16 14"><path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path></svg></button>
+   <button class="t4s-drawer-menu__close  t4s-op-0 t4s-pf" data-drawer-close aria-label="{{'general.mobile_menu.close' | t}}" style="background: transparent;color: black;"><svg class="t4s-iconsvg-close" role="presentation" viewBox="0 0 16 14"><path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path></svg></button>
 {%- endif -%}
 
 {%- liquid 
