@@ -36,19 +36,6 @@
             "className": ""
           }
         },
-        "ug-index-carousel-1": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3_Banner-Hub_Web.png?v=1677659098",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3.1_Banner-Hub_Mobile.png?v=1677659090",
-            "text_color": "#ffffff",
-            "title": "Get More Versatility From One Hub.",
-            "subtitle": "",
-            "button_text": "Shop Now",
-            "link": "\/collections\/hubs",
-            "className": ""
-          }
-        },
         "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -59,6 +46,19 @@
             "subtitle": "6 Ports, Fast Charging",
             "button_text": "Shop Now",
             "link": "\/products\/ugreen-nexode-200w-usb-c-desktop-charger",
+            "className": ""
+          }
+        },
+        "ug-index-carousel-1": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3_Banner-Hub_Web.png?v=1677659098",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3.1_Banner-Hub_Mobile.png?v=1677659090",
+            "text_color": "#ffffff",
+            "title": "Get More Versatility From One Hub.",
+            "subtitle": "",
+            "button_text": "Shop Now",
+            "link": "\/collections\/hubs",
             "className": ""
           }
         },
@@ -80,8 +80,8 @@
       "block_order": [
         "ug-index-carousel-11",
         "86777b6a-bde9-4981-9d0b-274743aba41c",
-        "ug-index-carousel-1",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e",
+        "ug-index-carousel-1",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41"
       ],
       "custom_css": [
