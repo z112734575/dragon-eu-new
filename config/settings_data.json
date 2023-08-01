@@ -1214,7 +1214,6 @@
           },
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f": {
             "type": "tab_list",
-            "disabled": true,
             "settings": {
               "tab_name_list": "Hub,Cable,111,222,333",
               "tab_image_list": "",
@@ -1223,7 +1222,6 @@
           },
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
             "type": "tab_content",
-            "disabled": true,
             "settings": {
               "tab_id": 1,
               "product_list": [
@@ -1242,7 +1240,6 @@
           },
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d": {
             "type": "tab_content",
-            "disabled": true,
             "settings": {
               "tab_id": 2,
               "product_list": [
