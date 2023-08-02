@@ -15,15 +15,10 @@
 <section class="apple_section_1">
   <div class="content">
     <div class="section_1_box">
-      <h2>The Apple Event Is On!</h2>
-      <h2>What's New for This Year's Apple Event?</h2>
+      <h2>{{ section.settings.title_1 }}</h2>
+      <h2>{{ section.settings.title_2 }}</h2>
       <div class="box_text">
-        <p>
-          The Apple Spring Event 2023 is fast approaching and we KNOW you're excited! We all want to know how Apple
-          plans to improve product desgin, quality, and just what awesome products they plan to add to the Apple
-          ecosystem! To celebrate this upcoming event, stay tuned at Ugreen.com as we plan to showcase amazing products
-          that are the perfect companions to any Apple User!
-        </p>
+        <p>{{ section.settings.text }}</p>
         <div></div>
       </div>
       <button>Learn More <span>&gt;</span></button>
@@ -53,6 +48,21 @@
     "type": "text",
     "id": "desc",
     "label": "Banner desc"
+  },
+    {
+    "type": "text",
+    "id": "title_1",
+    "label": "Green title"
+  },
+    {
+    "type": "text",
+    "id": "title_2",
+    "label": "white title"
+  },
+    {
+    "type": "text",
+    "id": "text",
+    "label": "text"
   }
   ],
   "presets": [
