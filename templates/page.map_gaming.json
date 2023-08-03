@@ -22,8 +22,8 @@
         "desc": "Designed to Make Work Feel Less Like Work",
         "product_list": [
           "ugreen-usb-c-triple-display-docking-station",
-          "ugreen-9-in-1-usb-c-docking-station",
-          "ugreen-6-in-1-usb-c-docking-station-with-4k-60hz-hdmi"
+          "copy-of-snap-deal-ugreen-docking-station-for-steam-deck",
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station"
         ]
       }
     },
@@ -37,8 +37,8 @@
         "desc": "Multiple Ports & Upgraded Charging Protocols. Fast Charging ASAP!",
         "product_list": [
           "ugreen-nexode-200w-usb-c-desktop-charger",
-          "ugreen-100w-usb-c-diginest-pro-power-strip",
-          "ugreen-65w-usb-c-diginest-cube-charging-station"
+          "ugreen-nexode-100w-usb-c-wall-charger",
+          "ugreen-nexode-65w-usb-c-wall-charger-3-ports"
         ]
       }
     },
@@ -90,7 +90,8 @@
       ],
       "settings": {
         "section_title": "Gaming Greatness Bundle",
-        "sub_title": ""
+        "sub_title": "",
+        "svg_name": "icon-a-11"
       }
     },
     "88cc5d01-0a4e-4978-b89a-974806655051": {
