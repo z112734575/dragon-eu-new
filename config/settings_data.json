@@ -1288,12 +1288,12 @@
           "6290bbb7-655f-4740-aeb5-bcea4d6de6cc": {
             "type": "tab_content",
             "settings": {
-              "tab_id": 1,
+              "tab_id": 5,
               "product_list": [
 
               ],
               "tag_list": "",
-              "collection_name_list": "",
+              "collection_name_list": "Bluetooth Adapter,\nLAN Adapter,\nSD Adapter,\nSound Card,\nSwitcher",
               "collection_link_list": "",
               "all_collection_url": "",
               "all_collection_name": ""
