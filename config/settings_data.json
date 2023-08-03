@@ -1265,7 +1265,7 @@
 
               ],
               "tag_list": "",
-              "collection_name_list": "USB c Chargers，\nGaN Chargers，\nPower Banks，\nCar Chargers，\nWireless Chargers",
+              "collection_name_list": "Docking Station，\nMini Dock，\nUSB-C HDMI Hub，\nSwitche Hub，\nUSB Hub",
               "collection_link_list": "",
               "all_collection_url": "",
               "all_collection_name": ""
@@ -1274,7 +1274,7 @@
           "0570254c-45bf-450c-861c-0c201ef1c2b0": {
             "type": "tab_content",
             "settings": {
-              "tab_id": 1,
+              "tab_id": 4,
               "product_list": [
 
               ],
