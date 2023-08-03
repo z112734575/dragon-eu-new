@@ -1256,6 +1256,90 @@
               "all_collection_url": "",
               "all_collection_name": ""
             }
+          },
+          "3aa127d5-0ed9-44dc-b7d5-82682a545122": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 3,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "USB c Chargers，\nGaN Chargers，\nPower Banks，\nCar Chargers，\nWireless Chargers",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "0570254c-45bf-450c-861c-0c201ef1c2b0": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "6290bbb7-655f-4740-aeb5-bcea4d6de6cc": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "1c50ce9b-2808-411c-bb98-6376c5fd0403": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "30dc977f-eeef-4b61-b49b-d376c5fb80c2": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "57c94dfa-87a9-4366-b9cc-b78dc8f52805": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
           }
         },
         "block_order": [
@@ -1263,7 +1347,13 @@
           "224acbf9-e273-470e-aeb8-ce1cab7498c4",
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
-          "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d"
+          "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
+          "3aa127d5-0ed9-44dc-b7d5-82682a545122",
+          "0570254c-45bf-450c-861c-0c201ef1c2b0",
+          "6290bbb7-655f-4740-aeb5-bcea4d6de6cc",
+          "1c50ce9b-2808-411c-bb98-6376c5fd0403",
+          "30dc977f-eeef-4b61-b49b-d376c5fb80c2",
+          "57c94dfa-87a9-4366-b9cc-b78dc8f52805"
         ],
         "settings": {
         }
