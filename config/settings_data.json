@@ -1233,8 +1233,8 @@
                 "15113"
               ],
               "tag_list": "111,222,,,new",
-              "collection_name_list": "Hub,Cable.abc",
-              "collection_link_list": "\/collection\/abc,\/collection\/bcd",
+              "collection_name_list": "Portable Power Station",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-station,",
               "all_collection_url": "shopify:\/\/pages\/contact-us",
               "all_collection_name": "All Hub"
             }
@@ -1251,7 +1251,7 @@
                 "ugreen-30w-car-charger-with-60w-usb-c-cable-pd-qc3-0-fast-charge"
               ],
               "tag_list": "",
-              "collection_name_list": "USB c Chargers,\nGaN Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers",
+              "collection_name_list": "USB C Chargers,\nGaN Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers",
               "collection_link_list": "",
               "all_collection_url": "",
               "all_collection_name": ""
