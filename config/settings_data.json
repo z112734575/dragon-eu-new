@@ -1387,10 +1387,9 @@
         "blocks": {
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a": {
             "type": "collection_list",
-            "disabled": true,
             "settings": {
               "title": "Products",
-              "cat1": "audio-cables",
+              "cat1": "",
               "title1": "Hub",
               "url1": "",
               "image1": "shopify:\/\/shop_images\/90322.jpg",
