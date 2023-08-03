@@ -21,9 +21,7 @@
         "title1": "",
         "desc": "Jampacked, Portable Power for Any Outdoor Adventure",
         "product_list": [
-          "ugreen-powerroam-1200-solar-generation",
-          "ugreen-powerroam1200-power-station",
-          "ugreen-powerroam-600-power-station"
+
         ]
       }
     },
@@ -89,7 +87,8 @@
       ],
       "settings": {
         "section_title": "Travelgoer Bundle",
-        "sub_title": ""
+        "sub_title": "",
+        "svg_name": "icon-a-11"
       }
     },
     "88cc5d01-0a4e-4978-b89a-974806655051": {
