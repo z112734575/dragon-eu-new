@@ -21,10 +21,9 @@
         "title1": "",
         "desc": "Multiple Ports & Upgraded Charging Protocols. Fast Charging ASAP!",
         "product_list": [
-          "100w-3c1a-gan-fast-charger",
-          "65w-3-ports-gan-fast-charger",
-          "ugreen-nexode-45w-dual-c-port-wall-charger",
-          "ugreen-nexode-140w-usb-c-wall-charger"
+          "ugreen-nexode-140w-usb-c-wall-charger",
+          "ugreen-nexode-100w-usb-c-wall-charger",
+          "ugreen-nexode-65w-usb-c-wall-charger-3-ports"
         ]
       }
     },
@@ -38,8 +37,8 @@
         "desc": "Multi-USB\/AC Power for Your Phones, Gadgets, & Doodads!",
         "product_list": [
           "ugreen-nexode-200w-usb-c-desktop-charger",
-          "ugreen-100w-usb-c-diginest-pro-power-strip",
-          "ugreen-65w-usb-c-diginest-cube-charging-station"
+          "ugreen-nexode-usb-c-charger-100w-gan-desktop-charger-4-ports-laptop-adapter",
+          "snap-deal-ugreen-65w-usb-c-charger-nexode-gan-4-port-fast-desktop-charger-power-adapter"
         ]
       }
     },
@@ -52,9 +51,9 @@
         "title1": "",
         "desc": "Cables Varieties for the Android, iPhone, & Anything In Between!",
         "product_list": [
-          "ugreen-240w-pd3-1-usb-c-to-usb-c-cable",
-          "usb-c-to-lightning-fast-charging-cable",
-          "ugreen-100w-usb-c-to-usb-c-cable-6ft"
+          "ugreen-2-pack-usb-c-to-usb-c-charger-cable-100w-65w-power-delivery",
+          "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable",
+          "snap-deal-ugreen-usb-c-to-usb-c-cable-60w"
         ]
       }
     },
@@ -67,9 +66,9 @@
         "title1": "",
         "desc": "Optimum, Hassle-Free Viewing. What More Could One Ask For?!",
         "product_list": [
-          "adjustable-aluminum-phone-holder",
-          "ugreen-360-rotating-tablet-stand-holder",
-          "lazy-arm-tablet-holder"
+          "snap-deal-ugreen-aluminum-adjustable-tablet-stand",
+          "ugreen-phone-stand-for-desk-adjustable-mobile-desktop-holder",
+          "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray"
         ]
       }
     },
@@ -79,9 +78,9 @@
         "05e9cded-4680-406d-b363-f9f7c0c984a0": {
           "type": "ugreenday_gifts",
           "settings": {
-            "product1": "ugreen-nexode-200w-usb-c-desktop-charger-bundle",
+            "product1": "ugreen-nexode-200w-usb-c-desktop-charger",
             "product_img1": "https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0257\\\/5246\\\/9566\\\/files\\\/1_8ce2d4cc-9967-4c9f-8369-7a8669978e5b.webp?v=1684843272",
-            "product2": "ugreen-nexode-100w-usb-c-wall-charger-4-ports",
+            "product2": "ugreen-nexode-100w-usb-c-wall-charger",
             "product_img2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/40737-70429.webp?v=1688981572"
           }
         }
@@ -91,7 +90,8 @@
       ],
       "settings": {
         "section_title": "Homebody Bundle",
-        "sub_title": ""
+        "sub_title": "",
+        "svg_name": "icon-a-11"
       }
     },
     "88cc5d01-0a4e-4978-b89a-974806655051": {
