@@ -134,7 +134,7 @@
         "show_sale_flag": true,
         "show_compare": false,
         "show_rating": true,
-        "show_learn_btn": true
+        "show_learn_btn": false
       }
     },
     "6bd7b4d6-e1ca-41dc-a120-240615799438": {
