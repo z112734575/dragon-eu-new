@@ -95,23 +95,13 @@
               "ugreen-phone-stand-for-desk-portable-mobile-phone-holder-angle-ajustable"
             ]
           }
-        },
-        "e472b724-2e2b-429c-bb05-71f31ca25a63": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "",
-            "product_list": [
-
-            ]
-          }
         }
       },
       "block_order": [
         "26cc3342-a278-4719-a557-6c473397c808",
         "f6634c97-0937-4cee-baf7-f2a5d9bdf790",
         "32a3eb77-f59c-4cde-9508-4b4852e2397d",
-        "25b73c8d-458d-4956-962b-af002720a7ac",
-        "e472b724-2e2b-429c-bb05-71f31ca25a63"
+        "25b73c8d-458d-4956-962b-af002720a7ac"
       ],
       "settings": {
         "section_id": "tabs_product",
