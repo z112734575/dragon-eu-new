@@ -22,6 +22,7 @@
   assign list_all = settings.list_all
   assign section_title = settings.section_title
   assign sub_title = settings.sub_title
+  assign section_icon = settings.section_icon
 %}
 
 <style>
@@ -261,6 +262,7 @@
         font-size: 1.042vw;
         line-height: 1.042vw;
         color: #666666;
+        margin: 0 0 2.083vw 0;
     }
 
     #{{ section_id }} .ug-product-list {
@@ -340,6 +342,7 @@
          .svg_title p {
             font-size: 4.267vw;
             line-height: 6.4vw;
+            margin-bottom: 4vw;
         }
 
         #{{ section_id }}
@@ -384,7 +387,7 @@
   <div class="contant">
     <div class="svg_title">
       <svg class="icon" aria-hidden="true">
-        <use xlink:href="#icon-discount_icon1"></use>
+        <use xlink:href="#{{ section_icon }}"></use>
       </svg>
       <h2>{{ section_title }}</h2>
       <p>{{ sub_title }}</p>
@@ -523,6 +526,8 @@
     
     
     
+    
+    
 
 
     $(function () {
@@ -556,6 +561,8 @@
 
 
 
+
+
   </script>
 {% endif %}
 
@@ -567,6 +574,12 @@
       "type": "text",
       "id": "section_id",
       "label": "当前模块Id"
+    },
+  {
+      "type": "text",
+      "id": "section_icon",
+      "label": "iconfont",
+     "default": "icon-discount_icon1"
     },
   {
       "type": "text",
