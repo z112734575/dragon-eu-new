@@ -399,6 +399,7 @@
           <span class="cursor-btn swiper-slide">{{ tabs_title }}</span>
         {% endfor %}
       </div>
+      <div class="swiper-scrollbar"></div>
     </div>
     <div class="tabs_swiper swiper" id="{{ section_id }}">
       <div class="swiper-wrapper">
@@ -489,6 +490,7 @@
       slidesPerView: {{ list_all }},
       spaceBetween: 20,
       watchSlidesVisibility: true ,
+    direction: "vertical",
       freeMode: true,
       mousewheel: true,
           });
