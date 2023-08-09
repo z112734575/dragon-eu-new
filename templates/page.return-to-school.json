@@ -132,7 +132,7 @@
         "need_load_more": true,
         "load_more_default_count": 5,
         "show_sale_flag": true,
-        "show_compare": true,
+        "show_compare": false,
         "show_rating": true,
         "show_learn_btn": true
       }
