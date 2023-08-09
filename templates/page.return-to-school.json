@@ -47,7 +47,7 @@
         "26cc3342-a278-4719-a557-6c473397c808": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Phone&Tablet Charger",
+            "tabs_title": "For Phone&Tablet",
             "product_list": [
               "ugreen-2-in-1-magnetic-wireless-charging-station",
               "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
@@ -60,7 +60,7 @@
         "f6634c97-0937-4cee-baf7-f2a5d9bdf790": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Phone&Laptop Chargers",
+            "tabs_title": "For Phone&Laptop",
             "product_list": [
               "ugreen-nexode-100w-usb-c-wall-charger",
               "ugreen-nexode-usb-c-charger-100w-gan-desktop-charger-4-ports-laptop-adapter",
@@ -73,28 +73,35 @@
         "32a3eb77-f59c-4cde-9508-4b4852e2397d": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Docking Station",
+            "tabs_title": "Hubs&Docks",
             "product_list": [
-              "ugreen-145w-power-bank-for-laptop",
-              "ugreen-130w-usb-c-car-charger",
-              "ugreen-usb-c-triple-display-docking-station",
-              "ugreen-m-2-nvme-sata-ssd-enclosure-reader",
-              "ugreen-100w-usb-c-to-usb-c-cable-6ft",
-              "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删",
-              "ugreen-100w-usb-c-diginest-pro-power-strip",
-              "ugreen-100w-usb-c-charger"
+              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "ugreen-6-in-1-usb-c-hub",
+              "copy-of-snap-deal-ugreen-docking-station-for-steam-deck",
+              "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+              "ugreen-usb-c-triple-display-docking-station"
             ]
           }
         },
         "25b73c8d-458d-4956-962b-af002720a7ac": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Power Bank",
+            "tabs_title": "Stands",
             "product_list": [
-              "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
-              "2023-recommend-ugreen-powerroam-600-power-station",
-              "ugreen-100w-usb-c-charger",
-              "ugreen-100w-usb-c-diginest-pro-power-strip"
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-aluminum-adjustable-tablet-stand",
+              "snap-deal-ugreen-360-rotating-tablet-stand-holder",
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "ugreen-phone-stand-for-desk-portable-mobile-phone-holder-angle-ajustable"
+            ]
+          }
+        },
+        "e472b724-2e2b-429c-bb05-71f31ca25a63": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "",
+            "product_list": [
+
             ]
           }
         }
@@ -103,14 +110,15 @@
         "26cc3342-a278-4719-a557-6c473397c808",
         "f6634c97-0937-4cee-baf7-f2a5d9bdf790",
         "32a3eb77-f59c-4cde-9508-4b4852e2397d",
-        "25b73c8d-458d-4956-962b-af002720a7ac"
+        "25b73c8d-458d-4956-962b-af002720a7ac",
+        "e472b724-2e2b-429c-bb05-71f31ca25a63"
       ],
       "settings": {
         "section_id": "tabs_product",
         "section_icon": "icon-hat_icon1",
         "section_title": "Studying Made Easier",
         "sub_title": "Essential Tech for the Successful Learner",
-        "list_all": "5",
+        "list_all": "4",
         "product_item_bg_color": "#eff2f8",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "100%",
@@ -125,8 +133,8 @@
         "load_more_default_count": 4,
         "show_sale_flag": true,
         "show_compare": true,
-        "show_rating": false,
-        "show_learn_btn": false
+        "show_rating": true,
+        "show_learn_btn": true
       }
     },
     "6bd7b4d6-e1ca-41dc-a120-240615799438": {
@@ -148,18 +156,10 @@
       "type": "ug-product-list",
       "settings": {
         "product_list": [
-          "right-angel-lightning-to-usb-a-cable",
-          "ugreen-100w-usb-c-to-usb-c-cable-6ft",
-          "usb-c-to-lightning-fast-charging-cable",
-          "right-angle-usb-c-quick-charging-cable",
-          "ugreen-10-in-1-hub-with-4k-hdmi",
-          "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
-          "ugreen-1200w-portable-power-station-2023-deal",
-          "2023-deal-100w-3c1a-gan-fast-charger",
-          "2023-recommend-ugreen-powerroam-600-power-station",
-          "ugreen-100w-usb-c-charger",
-          "ugreen-100w-usb-c-diginest-pro-power-strip",
-          "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删"
+          "ugreen-usb-c-to-lightning-cable",
+          "ugreen-usb-c-to-usb-c-cable-60w",
+          "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0",
+          "8k-hdmi-2-1-cable"
         ],
         "title": "",
         "subtitle": "",
@@ -187,7 +187,7 @@
     "1eb25428-f93f-4a26-8b10-701fdb9af09e": {
       "type": "custom-html",
       "settings": {
-        "code": "<section class=\"details_box\">\n    <h2>Details<\/h2>\n    <ul>\n        <li>Place an order of €70 or more for one (1) free accessory! <\/li>\n        <li>For every €70 added, an additional free accessory can be added!\n            (limit: 3 free accessories per order)<\/li>\n        <li>Choose from the selected accessories before checkout.<\/li>\n    <\/ul>\n    <table class=\"school_table\">\n        <tbody>\n<tr>\n            <th>Order Value<\/th>\n            <th>Free Accessory<\/th>\n        <\/tr>\n        <tr>\n            <td>€70-€139<\/td>\n            <td>1 Free Accessory<\/td>\n        <\/tr>\n        <tr>\n            <td>€140-€209<\/td>\n            <td>2 Free Accessories<\/td>\n        <\/tr>\n        <tr>\n            <td>€210-€infinity<\/td>\n            <td>3 Free Accessories<\/td>\n        <\/tr>\n    <\/tbody>\n<\/table>\n<\/section>\n<script src=\"\/\/at.alicdn.com\/t\/c\/font_4176382_ys2gulnn6uh.js\"><\/script>\n<script type=\"text\/javascript\">\n    $(function () {\n        \/\/ 锚点跳转，浏览器URL后缀不带有锚点字样\n        $('.top_tab a').click(function () {\n            if (location.pathname.replace(\/^\\\/\/, '') == this.pathname.replace(\/^\\\/\/, '') && location.hostname == this.hostname) {\n                let $target = $(this.hash);\n                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');\n                if ($target.length) {\n                    let targetOffset = $target.offset().top;\n                    $('html,body').animate({ scrollTop: targetOffset }, 500);\n                    return false;\n                }\n            }\n        });\n\n        $(window).on('scroll', debounce(onScroll, 150));\n\n        function debounce(fn, delay) {\n            let timeout;\n            return function () {\n                clearTimeout(timeout)\n                timeout = setTimeout(() => {\n                    fn.apply(this, arguments)\n                }, delay)\n            }\n        }\n        function onScroll() {\n            const scrollDistance = $(window).scrollTop();\n            $('.gan_charger').each(function (i) {\n                if (Math.floor($(this).position().top) - 100 <= scrollDistance) {\n                    $('.top_tab a.active').removeClass('active');\n                    $('.top_tab a').eq(i).addClass('active');\n                } else if (scrollDistance < Math.floor($('.gan_charger').eq(0).position().top)) {\n                    $('.top_tab a.active').removeClass('active');\n                }\n            });\n        }\n        \/\/ 加购按钮 \n        $('.ug-product-buy-btn').text('Add to Cart');\n        const cursorBtns = new Swiper(\".cursor-btns\", {\n            centeredSlides: true,\n          });\n    })\n<\/script>",
+        "code": "<section class=\"details_box\">\n    <h2>Details<\/h2>\n    <ul>\n        <li>Place an order of €70 or more for one (1) free accessory!<\/li>\n        <li>For every €70 added, an additional free accessory can be added! (limit: 3 free accessories per order)<\/li>\n        <li>Choose from the selected accessories before checkout.<\/li>\n    <\/ul>\n    <table class=\"school_table\">\n        <tbody>\n<tr>\n            <th>Order Value<\/th>\n            <th>Free Accessory<\/th>\n        <\/tr>\n        <tr>\n            <td>€70-€139<\/td>\n            <td>1 Free Accessory<\/td>\n        <\/tr>\n        <tr>\n            <td>€140-€209<\/td>\n            <td>2 Free Accessory<\/td>\n        <\/tr>\n        <tr>\n            <td>€210-€279<\/td>\n            <td>3 Free Accessory<\/td>\n        <\/tr>\n    <\/tbody>\n<\/table>\n<\/section>\n<script src=\"\/\/at.alicdn.com\/t\/c\/font_4176382_ys2gulnn6uh.js\"><\/script>\n<script type=\"text\/javascript\">\n    $(function () {\n        \/\/ 锚点跳转，浏览器URL后缀不带有锚点字样\n        $('.top_tab a').click(function () {\n            if (location.pathname.replace(\/^\\\/\/, '') == this.pathname.replace(\/^\\\/\/, '') && location.hostname == this.hostname) {\n                let $target = $(this.hash);\n                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');\n                if ($target.length) {\n                    let targetOffset = $target.offset().top;\n                    $('html,body').animate({ scrollTop: targetOffset }, 500);\n                    return false;\n                }\n            }\n        });\n\n        $(window).on('scroll', debounce(onScroll, 150));\n\n        function debounce(fn, delay) {\n            let timeout;\n            return function () {\n                clearTimeout(timeout)\n                timeout = setTimeout(() => {\n                    fn.apply(this, arguments)\n                }, delay)\n            }\n        }\n        function onScroll() {\n            const scrollDistance = $(window).scrollTop();\n            $('.gan_charger').each(function (i) {\n                if (Math.floor($(this).position().top) - 100 <= scrollDistance) {\n                    $('.top_tab a.active').removeClass('active');\n                    $('.top_tab a').eq(i).addClass('active');\n                } else if (scrollDistance < Math.floor($('.gan_charger').eq(0).position().top)) {\n                    $('.top_tab a.active').removeClass('active');\n                }\n            });\n        }\n        \/\/ 加购按钮 \n        $('.ug-product-buy-btn').text('Add to Cart');\n        const cursorBtns = new Swiper(\".cursor-btns\", {\n            centeredSlides: true,\n          });\n    })\n<\/script>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
