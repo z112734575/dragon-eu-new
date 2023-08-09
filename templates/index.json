@@ -10,30 +10,15 @@
       "blocks": {
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1.2_-_Web.png?v=1679541263",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/1.3-_Mobile.png?v=1679541258",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_ae51d297-40e4-413e-a3ca-f0ae2018c190.webp?v=1691573824",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mobile_c7bf64f5-7c5b-45af-88bd-b94aaae4f05e.webp?v=1691573823",
             "text_color": "#ffffff",
-            "title": "Superior GaN Technology",
-            "subtitle": "Bolder, Faster Chargers",
+            "title": "<span style=\"font-weight: 500;\">New School Year, New School Deals<\/span><br> Save Up to 30%",
+            "subtitle": "Aug 10 <sup>th<\/sup> - Aug 24 <sup>th<\/sup>",
             "button_text": "Shop Now",
-            "link": "\/collections\/gan-chargers",
-            "className": ""
-          }
-        },
-        "86777b6a-bde9-4981-9d0b-274743aba41c": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/web_eu.png?v=1684373037",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_eu_4.png?v=1684373033",
-            "text_color": "#000000",
-            "title": "",
-            "subtitle": "",
-            "button_text": "",
-            "link": "\/collections\/power-station\/products\/15054a",
-            "className": ""
+            "link": "\/pages\/ugreen-2023-bcak-to-school-sale",
+            "className": "buy-more-save-more"
           }
         },
         "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
@@ -79,7 +64,6 @@
       },
       "block_order": [
         "ug-index-carousel-11",
-        "86777b6a-bde9-4981-9d0b-274743aba41c",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e",
         "ug-index-carousel-1",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41"
