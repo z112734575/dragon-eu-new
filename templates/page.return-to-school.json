@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "b69537a1-bea0-4d16-88cf-c53c85542200": {
+      "type": "page_banner",
+      "settings": {
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/US__pc.webp?v=1691552870",
+        "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/US__mobile.webp?v=1691552869",
+        "image_alt": "back to shcool 2023"
+      }
+    },
+    "ee090c24-bc59-4391-8dd5-c099b196556b": {
+      "type": "custom-html",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "code": "<section class=\"top_tab\">\n    <a href=\"#gan_charger\">Spend $70<\/a>\n    <a href=\"#free_cable\">Get 1 Free Gift<\/a>\n<\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": "#shopify-section-template--14603757191230__ee090c24-bc59-4391-8dd5-c099b196556b{\nposition: sticky;\n    top: 0;\n    left: 0;\n    z-index: 10;\n}"
+      }
+    },
+    "4822419c-23df-4ac6-8d17-e344c35b1eca": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"gan_charger\" id=\"gan_charger\">\n<\/section>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "6ba28761-6bc9-457d-b65f-9cb571e9dc41": {
+      "type": "ug-tabs-product-list",
+      "blocks": {
+        "26cc3342-a278-4719-a557-6c473397c808": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Charger",
+            "product_list": [
+              "2023-deal-100w-3c1a-gan-fast-charger",
+              "ugreen-1200w-portable-power-station-2023-deal",
+              "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
+              "2023-recommend-ugreen-powerroam-600-power-station",
+              "ugreen-10-in-1-hub-with-4k-hdmi",
+              "ugreen-100w-usb-c-charger",
+              "ugreen-100w-usb-c-diginest-pro-power-strip",
+              "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删"
+            ]
+          }
+        },
+        "f6634c97-0937-4cee-baf7-f2a5d9bdf790": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Hubs & Adapters",
+            "product_list": [
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-130w-usb-c-car-charger",
+              "ugreen-m-2-nvme-sata-ssd-enclosure-reader",
+              "ugreen-100w-usb-c-to-usb-c-cable-6ft",
+              "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删",
+              "ugreen-100w-usb-c-diginest-pro-power-strip",
+              "ugreen-100w-usb-c-charger",
+              "ugreen-10-in-1-hub-with-4k-hdmi"
+            ]
+          }
+        },
+        "32a3eb77-f59c-4cde-9508-4b4852e2397d": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Docking Station",
+            "product_list": [
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-130w-usb-c-car-charger",
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-m-2-nvme-sata-ssd-enclosure-reader",
+              "ugreen-100w-usb-c-to-usb-c-cable-6ft",
+              "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删",
+              "ugreen-100w-usb-c-diginest-pro-power-strip",
+              "ugreen-100w-usb-c-charger"
+            ]
+          }
+        },
+        "25b73c8d-458d-4956-962b-af002720a7ac": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Power Bank",
+            "product_list": [
+              "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
+              "2023-recommend-ugreen-powerroam-600-power-station",
+              "ugreen-100w-usb-c-charger",
+              "ugreen-100w-usb-c-diginest-pro-power-strip"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "26cc3342-a278-4719-a557-6c473397c808",
+        "f6634c97-0937-4cee-baf7-f2a5d9bdf790",
+        "32a3eb77-f59c-4cde-9508-4b4852e2397d",
+        "25b73c8d-458d-4956-962b-af002720a7ac"
+      ],
+      "settings": {
+        "section_id": "tabs_product",
+        "section_title": "Studying Made Easier",
+        "sub_title": "Essential Tech for the Successful Learner",
+        "list_all": "4",
+        "product_item_bg_color": "#eff2f8",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "100%",
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "40px 0 180px 0",
+        "mobile_padding": "30px 0 100px 0",
+        "need_load_more": true,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": false,
+        "show_learn_btn": false
+      }
+    },
+    "6bd7b4d6-e1ca-41dc-a120-240615799438": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"gan_charger\" id=\"free_cable\">\n    <svg class=\"icon\" aria-hidden=\"true\">\n        <use xlink:href=\"#icon-gift_icon1\"><\/use>\n    <\/svg>\n    <h2> <span>Free Accessories to Boost Success!<\/span> <\/h2>\n    <p>Long-lasting, Portable, &amp; Easy to use<\/p>\n<\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "ug-product-list2": {
+      "type": "ug-product-list",
+      "settings": {
+        "product_list": [
+          "right-angel-lightning-to-usb-a-cable",
+          "ugreen-100w-usb-c-to-usb-c-cable-6ft",
+          "usb-c-to-lightning-fast-charging-cable",
+          "right-angle-usb-c-quick-charging-cable",
+          "ugreen-10-in-1-hub-with-4k-hdmi",
+          "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
+          "ugreen-1200w-portable-power-station-2023-deal",
+          "2023-deal-100w-3c1a-gan-fast-charger",
+          "2023-recommend-ugreen-powerroam-600-power-station",
+          "ugreen-100w-usb-c-charger",
+          "ugreen-100w-usb-c-diginest-pro-power-strip",
+          "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删"
+        ],
+        "title": "",
+        "subtitle": "",
+        "section_id": "ug-product-list2",
+        "pc_product_type": "column",
+        "mobile_product_type": "column",
+        "product_item_bg_color": "#ffffff",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "100%",
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "40px 0 120px 0",
+        "mobile_padding": "30px 0 80px 0",
+        "need_load_more": true,
+        "load_more_default_count": 8,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": false,
+        "show_learn_btn": false
+      }
+    },
+    "1eb25428-f93f-4a26-8b10-701fdb9af09e": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"details_box\">\n    <h2>Details<\/h2>\n    <ul>\n        <li>Place an order of $70 or more for one (1) free accessory!<\/li>\n        <li>For every $70 added, an additional free accessory can be added! (limit: 3 free accessories per order)<\/li>\n        <li>Choose from the selected accessories before checkout.<\/li>\n    <\/ul>\n    <table class=\"school_table\">\n        <tbody>\n<tr>\n            <th>Order Value<\/th>\n            <th>Free Accessory<\/th>\n        <\/tr>\n        <tr>\n            <td>$70-$139<\/td>\n            <td>1 Free Accessory<\/td>\n        <\/tr>\n        <tr>\n            <td>$140-$209<\/td>\n            <td>2 Free Accessory<\/td>\n        <\/tr>\n        <tr>\n            <td>$210-$279<\/td>\n            <td>3 Free Accessory<\/td>\n        <\/tr>\n    <\/tbody>\n<\/table>\n<\/section>\n<script src=\"\/\/at.alicdn.com\/t\/c\/font_4176382_ys2gulnn6uh.js\"><\/script>\n<script type=\"text\/javascript\">\n    $(function () {\n        \/\/ 锚点跳转，浏览器URL后缀不带有锚点字样\n        $('.top_tab a').click(function () {\n            if (location.pathname.replace(\/^\\\/\/, '') == this.pathname.replace(\/^\\\/\/, '') && location.hostname == this.hostname) {\n                let $target = $(this.hash);\n                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');\n                if ($target.length) {\n                    let targetOffset = $target.offset().top;\n                    $('html,body').animate({ scrollTop: targetOffset }, 500);\n                    return false;\n                }\n            }\n        });\n\n        $(window).on('scroll', debounce(onScroll, 150));\n\n        function debounce(fn, delay) {\n            let timeout;\n            return function () {\n                clearTimeout(timeout)\n                timeout = setTimeout(() => {\n                    fn.apply(this, arguments)\n                }, delay)\n            }\n        }\n        function onScroll() {\n            const scrollDistance = $(window).scrollTop();\n            $('.gan_charger').each(function (i) {\n                if (Math.floor($(this).position().top) - 100 <= scrollDistance) {\n                    $('.top_tab a.active').removeClass('active');\n                    $('.top_tab a').eq(i).addClass('active');\n                } else if (scrollDistance < Math.floor($('.gan_charger').eq(0).position().top)) {\n                    $('.top_tab a.active').removeClass('active');\n                }\n            });\n        }\n        \/\/ 加购按钮 \n        $('.ug-product-buy-btn').text('Add to Cart');\n        const cursorBtns = new Swiper(\".cursor-btns\", {\n            centeredSlides: true,\n          });\n    })\n<\/script>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "f57e6d58-1983-49cf-9ee7-7ef3dcdf5562": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<style>\n    .top_tab {\n        display: flex;\n    }\n\n    .top_tab a {\n        display: inline-block;\n        width: 50%;\n        padding: 20px 0;\n        text-align: center;\n        background: #F8F8F8;\n        font-weight: 600;\n        font-size: 24px;\n        color: #000000;\n        text-decoration: none;\n    }\n\n    .top_tab a.active {\n        background: #000000;\n        color: #FFFFFF;\n    }\n\n    .tabs_products_list {\n        margin: 0 auto;\n        max-width: 1280px;\n        width: 100%;\n    }\n\n    .gan_charger {\n        padding: 120px 0 0 0;\n        text-align: center;\n    }\n\n    .gan_charger svg,.svg_title svg{\n        width: 36px!important;\n        height: 36px!important;\n    }\n\n    .gan_charger h2 {\n        font-weight: 500;\n        font-size: 36px;\n        color: #000000;\n        padding: 10px 0 15px 0;\n        line-height: 40px;\n    }\n\n    .gan_charger h2 span {\n        font-weight: 700;\n    }\n\n    .gan_charger p {\n        font-weight: 500;\n        font-size: 20px;\n        color: #666666;\n        margin: 0;\n        line-height: 20px;\n    }\n\n    .gan_charger p span {\n        color: #00CC88;\n        font-style: italic;\n    }\n\n    .details_box {\n        max-width: 1080px;\n        margin: 100px auto;\n    }\n\n    .details_box h2 {\n        font-weight: 700;\n        font-size: 30px;\n        color: #000000;\n        margin-bottom: 30px;\n        text-align: center;\n    }\n    .details_box ul{\n        margin: 0;\n    }\n    .details_box li {\n        font-size: 20px;\n        line-height: 30px;\n        color: #666666;\n        list-style: disc;\n    }\n\n    #free_cable {\n        padding: 80px 0 0 0;\n        background: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/1_bf797874-3f80-4b2c-9779-0d887fddf625.webp?v=1682045599')top center\/100% no-repeat #EFF2F8;\n    }\n\n    #shopify-section-template--14603757191230__ug-product-list2 {\n        background: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/1_2a349ab3-786b-4bf2-abef-ab0ab2a07f57.webp?v=1682045599')bottom center\/100% no-repeat #EFF2F8;\n    }\n\n    .cursor-btns .swiper-wrapper {\n        gap: 40px;\n    }\n\n    .cursor-btns .cursor-btn {\n        background: #fff !important;\n        color: #000000 !important;\n        border-radius: 40px !important;\n        font-weight: 600;\n        max-width: fit-content;\n        padding: 12px 28px !important;\n        margin: 0 !important;\n    }\n\n    .cursor-btns .cursor-btn:hover,\n    .cursor-btns .cursor-btn.swiper-slide-thumb-active {\n        background-color: #6281D6 !important;\n        color: #fff !important;\n    }\n    .load-more__btn{\n        color: #6281D6!important;\n    }\n    .school_table {\n        border-collapse: collapse;\n        width: 100%;\n        margin-top: 40px;\n    }\n\n    .school_table td,\n    .school_table th {\n        border: 1px solid #DEDEDE;\n        padding: 40px 0;\n        text-align: center;\n        color: #666666;\n        font-size: 20px;\n        width: 50%;\n    }\n\n    .school_table tr:nth-child(1) {\n        background-color: #EFF2F8;\n    }\n\n    .school_table th {\n        font-size: 24px;\n        font-weight: 500;\n        color: #000000;\n    }\n    #tabs_product .ug-product-list{\n        max-height: 660px;\n        overflow: hidden;\n    }\n    #tabs_product .ug-product-list.swiper-slide-active{\n        max-height: none;\n    }\n    @media (min-width: 2050px) {\n        #tabs_product .ug-product-list,.contant,.ug-product-list{\n            max-width: 1680px!important;\n        }\n    }\n    @media (max-width:768px) {\n        #tabs_product .ug-product-list{\n            max-height: 820px;\n        }\n        .load-more__btn-wrap{\n            bottom: -20px;\n        }\n        .top_tab a {\n            font-size: 16px;\n            padding: 16px 0;\n        }\n\n        .gan_charger {\n            padding: 60px 0 0 0;\n        }\n\n        .gan_charger h2 {\n            font-size: 24px;\n            padding: 0;\n        }\n\n        .gan_charger p {\n            font-size: 16px;\n        }\n\n        .details_box {\n            padding: 0 20px;\n            margin: 60px 0;\n        }\n        .details_box li{\n            font-size: 16px;\n            line-height: 24px;\n        }\n        .details_box h2 {\n            font-size: 24px;\n        }\n\n        .ug-product-img {\n            width: 83%;\n            padding-bottom: 84%;\n        }\n        .cursor-btns{\n            position: relative!important;\n        }\n        .cursor-btns .swiper-wrapper{\n            gap: 10px;\n            flex-wrap: nowrap!important;\n            justify-content: flex-start!important;\n        }\n        .cursor-btns .cursor-btn{\n            padding: 12px 20px!important;\n            width: auto!important;\n        }\n        .school_table td,\n        .school_table th {\n            padding: 16px 0;\n            font-size: 14px;\n        }\n\n        .school_table tr:nth-child(1) {\n            background-color: #EFF2F8;\n        }\n\n        .school_table th {\n            font-size: 16px;\n            padding: 22px 0;\n            font-weight: 600;\n        }\n    }\n<\/style>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "b69537a1-bea0-4d16-88cf-c53c85542200",
+    "ee090c24-bc59-4391-8dd5-c099b196556b",
+    "4822419c-23df-4ac6-8d17-e344c35b1eca",
+    "6ba28761-6bc9-457d-b65f-9cb571e9dc41",
+    "6bd7b4d6-e1ca-41dc-a120-240615799438",
+    "ug-product-list2",
+    "1eb25428-f93f-4a26-8b10-701fdb9af09e",
+    "f57e6d58-1983-49cf-9ee7-7ef3dcdf5562"
+  ]
+}
