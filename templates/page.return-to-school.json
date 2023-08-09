@@ -113,6 +113,7 @@
       ],
       "settings": {
         "section_id": "tabs_product",
+        "section_icon": "icon-hat_icon1",
         "section_title": "Studying Made Easier",
         "sub_title": "Essential Tech for the Successful Learner",
         "list_all": "4",
