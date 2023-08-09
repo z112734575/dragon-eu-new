@@ -490,8 +490,10 @@
       slidesPerView: {{ list_all }},
       spaceBetween: 20,
       watchSlidesVisibility: true ,
-    direction: "vertical",
       freeMode: true,
+    scrollbar: {
+        el: ".swiper-scrollbar",
+      },
       mousewheel: true,
           });
   const TabsSwiper = new Swiper('.tabs_swiper', {
