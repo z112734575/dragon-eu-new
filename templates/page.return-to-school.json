@@ -47,32 +47,25 @@
         "26cc3342-a278-4719-a557-6c473397c808": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Charger",
+            "tabs_title": "Phone&Tablet Charger",
             "product_list": [
-              "2023-deal-100w-3c1a-gan-fast-charger",
-              "ugreen-1200w-portable-power-station-2023-deal",
-              "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
-              "2023-recommend-ugreen-powerroam-600-power-station",
-              "ugreen-10-in-1-hub-with-4k-hdmi",
-              "ugreen-100w-usb-c-charger",
-              "ugreen-100w-usb-c-diginest-pro-power-strip",
-              "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删"
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-65w-usb-c-pd-charger-4-ports",
+              "ugreen-nexode-100w-usb-c-wall-charger",
+              "power-supply-pd-3-0"
             ]
           }
         },
         "f6634c97-0937-4cee-baf7-f2a5d9bdf790": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Hubs & Adapters",
+            "tabs_title": "Phone&Laptop Chargers",
             "product_list": [
-              "ugreen-usb-c-triple-display-docking-station",
-              "ugreen-130w-usb-c-car-charger",
-              "ugreen-m-2-nvme-sata-ssd-enclosure-reader",
-              "ugreen-100w-usb-c-to-usb-c-cable-6ft",
-              "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删",
-              "ugreen-100w-usb-c-diginest-pro-power-strip",
-              "ugreen-100w-usb-c-charger",
-              "ugreen-10-in-1-hub-with-4k-hdmi"
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-nexode-100w-usb-c-wall-charger",
+              "ugreen-nexode-200w-usb-c-desktop-charger",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "ugreen-nexode-usb-c-charger-100w-gan-desktop-charger-4-ports-laptop-adapter"
             ]
           }
         },
