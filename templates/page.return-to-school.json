@@ -114,7 +114,7 @@
         "product_item_bg_color": "#eff2f8",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "100%",
-        "pc_row": "4",
+        "pc_row": "5",
         "mobile_row": "2",
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
         "pc_product_sale_width": "60px",
