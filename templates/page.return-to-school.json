@@ -130,7 +130,7 @@
     "6bd7b4d6-e1ca-41dc-a120-240615799438": {
       "type": "custom-html",
       "settings": {
-        "code": "<section class=\"gan_charger\" id=\"free_cable\">\n    <svg class=\"icon\" aria-hidden=\"true\">\n        <use xlink:href=\"#icon-gift_icon1\"><\/use>\n    <\/svg>\n    <h2> <span>Free Accessories to Boost Success!<\/span> <\/h2>\n    <p>Long-lasting, Portable, &amp; Easy to use<\/p>\n<\/section>",
+        "code": "<section class=\"gan_charger\" id=\"free_cable\">\n    <svg class=\"icon\" aria-hidden=\"true\">\n        <use xlink:href=\"#icon-gift_icon1\"><\/use>\n    <\/svg>\n    <h2> <span>Free Accessories to Boost Success!<\/span> <\/h2>\n    <p>The amount for the accessories will be automatically deducted at the checkout.<\/p>\n<\/section>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
