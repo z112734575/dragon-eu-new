@@ -721,9 +721,9 @@
             "type": "drop",
             "settings": {
               "title": "CHARGERS",
-              "url": "#",
+              "url": "shopify:\/\/collections\/chargeur",
               "open_link": "_self",
-              "menu": "product-chargers",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -740,7 +740,7 @@
               "title": "HUB & ADAPTER",
               "url": "#",
               "open_link": "_self",
-              "menu": "product-hub",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -1639,7 +1639,7 @@
               "title": "PRODUCTS",
               "url": "",
               "open_link": "_self",
-              "menu": "m-product",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -1663,7 +1663,7 @@
               "title": "CHARGERS",
               "url": "#",
               "open_link": "_self",
-              "menu": "product-chargers",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -1675,7 +1675,7 @@
               "title": "HUB & ADAPTER",
               "url": "#",
               "open_link": "_self",
-              "menu": "product-hub",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
