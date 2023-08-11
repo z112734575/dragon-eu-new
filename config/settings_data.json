@@ -2716,8 +2716,8 @@
 
     ],
     "blocks": {
-      "558381514691908246": {
-        "type": "shopify:\/\/apps\/volumeboost-volume-discount\/blocks\/app-embed\/25745434-52e7-4378-88f1-890df18a0110",
+      "lai_embed_block_auto": {
+        "type": "shopify:\/\/apps\/lai-product-reviews\/blocks\/appBlockEmbed\/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
         "disabled": false,
         "settings": {
         }
