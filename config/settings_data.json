@@ -1647,6 +1647,7 @@
           },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "POWER STATION",
               "url": "shopify:\/\/pages\/powerroam-power-stations",
@@ -1661,7 +1662,7 @@
             "type": "menu",
             "settings": {
               "title": "CHARGERS",
-              "url": "shopify:\/\/collections\/chargeur",
+              "url": "",
               "open_link": "_self",
               "menu": "product-chargers",
               "icon": "",
