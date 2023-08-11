@@ -1674,9 +1674,9 @@
             "type": "menu",
             "settings": {
               "title": "HUB & ADAPTER",
-              "url": "shopify:\/\/collections\/hub-adaptateur",
+              "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "product-hub",
               "icon": "",
               "lb": "",
               "lb_cl": ""
