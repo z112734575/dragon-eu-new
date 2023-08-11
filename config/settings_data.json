@@ -738,7 +738,7 @@
             "type": "drop",
             "settings": {
               "title": "HUB & ADAPTER",
-              "url": "#",
+              "url": "shopify:\/\/collections\/hub-adaptateur",
               "open_link": "_self",
               "menu": "",
               "icon": "",
