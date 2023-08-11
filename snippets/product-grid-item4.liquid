@@ -114,6 +114,8 @@ endif -%}
       <div class="t4s-product-info__inner">
          {%- if product.vendor.size > 0 and show_vendor -%}<div class="t4s-product-vendor"><a href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a></div>{%- endif -%}
          <h3 class="t4s-product-title"><a data-pr-href href="{{pr_url}}">{{ product.title }}</a></h3>
+         <div class="scm-reviews-rate" data-rate-version2={{ product.metafields.scm_review_importer.reviewsData.reviewCountInfo | json }} data-product-id= {{ product.id }}></div>
+
          {%- render 'product-price',product:product,price_varies_style:price_varies_style,type:'card',isGrouped:isGrouped -%}
          {%- if enable_rating %}{%- render 'product-rating',product:product,app_review:app_review -%}{% endif -%}
         {%- if show_list_btns -%}

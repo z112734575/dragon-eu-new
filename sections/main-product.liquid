@@ -606,7 +606,9 @@
                   {% endunless %}
                   {% comment %}ugreen{% endcomment %}
 
-                {%- when 'price_review' -%}
+                <div class="scm-reviews-rate" data-go-id="#{{idTabReview}}" data-rate-version2={{ product.metafields.scm_review_importer.reviewsData.reviewCountInfo | json }} data-product-id= {{ product.id }}></div>
+
+            {%- when 'price_review' -%}
                   <div
                     class="t4s-product__price-review"
                     style="--price-size:{{ bk_stts.size_price_pr }}px;--price-weight:{{ bk_stts.fw_price_pr }};--price-color:{{ bk_stts.price_color }};--price-sale-color:{{ bk_stts.price_sale_color }};"
