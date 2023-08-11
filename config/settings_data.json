@@ -1661,7 +1661,7 @@
             "type": "menu",
             "settings": {
               "title": "CHARGERS",
-              "url": "#",
+              "url": "shopify:\/\/collections\/chargeur",
               "open_link": "_self",
               "menu": "",
               "icon": "",
