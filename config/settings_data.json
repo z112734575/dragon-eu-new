@@ -608,17 +608,6 @@
           "bd_cl_tr": "#b3b3b3"
         }
       },
-      "top-activity-bar": {
-        "type": "top-activity-bar",
-        "settings": {
-          "enable": false,
-          "pc_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc_64385afd-f753-48a1-be5e-22f7e2aea4f2.png?v=1687176703",
-          "mobile_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile_b847ac18-b0ea-4d14-ba7f-53b8799ed071.png?v=1687168655",
-          "pc_height": "auto",
-          "mobile_height": "auto",
-          "link": "shopify:\/\/pages\/voucher"
-        }
-      },
       "header-inline": {
         "type": "header-inline",
         "blocks": {
@@ -725,7 +714,7 @@
               "title": "Deals & Events",
               "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
               "open_link": "_self",
-              "menu": "deals-events",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -776,7 +765,7 @@
               "title": "Buying Guide",
               "url": "#",
               "open_link": "_self",
-              "menu": "buying-guide",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -807,7 +796,7 @@
               "title": "Support",
               "url": "#",
               "open_link": "_self",
-              "menu": "support",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -1206,6 +1195,7 @@
           },
           "224acbf9-e273-470e-aeb8-ce1cab7498c4": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "html": "<script type=\"module\" crossorigin=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/index-cf0859c1.js?v=1687144668\"><\/script>\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/index-77b21024.css?v=1685528041\">\n<div id=\"ug-mega-menu-app\"><\/div>",
               "page": "",
@@ -1214,7 +1204,6 @@
           },
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f": {
             "type": "tab_list",
-            "disabled": true,
             "settings": {
               "tab_name_list": "Hub,Cable,111,222,333",
               "tab_image_list": "",
@@ -1223,7 +1212,6 @@
           },
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
             "type": "tab_content",
-            "disabled": true,
             "settings": {
               "tab_id": 1,
               "product_list": [
@@ -1242,7 +1230,6 @@
           },
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d": {
             "type": "tab_content",
-            "disabled": true,
             "settings": {
               "tab_id": 2,
               "product_list": [
@@ -1281,11 +1268,9 @@
               "cat1": "audio-cables",
               "title1": "Hub",
               "url1": "",
-              "image1": "shopify:\/\/shop_images\/90322.jpg",
               "cat2": "car-chargers",
               "title2": "Chargers",
               "url2": "",
-              "image2": "shopify:\/\/shop_images\/2_f70c2677-730a-4fd1-b343-6b0a4e2730a6.jpg",
               "cat3": "",
               "title3": "",
               "url3": "",
@@ -1330,7 +1315,7 @@
               "title": "PORTABLE POWER STATION",
               "url": "shopify:\/\/pages\/powerroam-power-stations",
               "open_link": "_self",
-              "menu": "portable-power-station",
+              "menu": "",
               "icon": "",
               "lb": "HOT",
               "lb_cl": "#de4156"
@@ -1342,7 +1327,7 @@
               "title": "Deals & Events",
               "url": "",
               "open_link": "_self",
-              "menu": "deals-events",
+              "menu": "",
               "icon": "",
               "lb": "NEW",
               "lb_cl": "#4ce0ce"
@@ -1366,7 +1351,7 @@
               "title": "SUPPORT",
               "url": "",
               "open_link": "_self",
-              "menu": "support",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -2374,20 +2359,6 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "558381514691908246": {
-        "type": "shopify:\/\/apps\/volumeboost-volume-discount\/blocks\/app-embed\/25745434-52e7-4378-88f1-890df18a0110",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "11724500921838622758": {
-        "type": "shopify:\/\/apps\/frequently-bought-together\/blocks\/app-embed-block\/b1a8cbea-c844-4842-9529-7c62dbab1b1f",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   }
 }
