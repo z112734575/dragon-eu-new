@@ -1243,6 +1243,24 @@
               "all_collection_url": "",
               "all_collection_name": ""
             }
+          },
+          "8c21f218-c305-4e9f-b351-3bbf72f1cdc0": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 3,
+              "product_list": [
+                "90325",
+                "60515",
+                "10919",
+                "90568",
+                "60560"
+              ],
+              "tag_list": "Hot,Deal",
+              "collection_name_list": "Station d'accueil,\nConcentrateur USB-C,\nCommutateur HDMI,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/station-daccueil,https:\/\/fr.ugreen.com\/collections\/hub-1,https:\/\/fr.ugreen.com\/collections\/usb-switch",
+              "all_collection_url": "shopify:\/\/collections\/hub-adaptateur",
+              "all_collection_name": "All HUB"
+            }
           }
         },
         "block_order": [
@@ -1250,7 +1268,8 @@
           "224acbf9-e273-470e-aeb8-ce1cab7498c4",
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
-          "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d"
+          "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
+          "8c21f218-c305-4e9f-b351-3bbf72f1cdc0"
         ],
         "settings": {
         }
