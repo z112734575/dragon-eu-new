@@ -1903,7 +1903,8 @@
       "sec": "seconde",
       "sec_plural": "secondes",
       "day": "Jour",
-      "day_plural": "Jours"
+      "day_plural": "Jours",
+      "min": "Min"
     },
     "newsletter_form": {
       "email_placeholder": "E-mail*",
@@ -1930,7 +1931,8 @@
   },
   "general": {
     "meta": {
-      "tags": "Tagué \" {{ tags }} \""
+      "tags": "Tagué \" {{ tags }} \"",
+      "page": "Page {{page}}"
     },
     "aria": {
       "close": "Fermer",
@@ -1957,7 +1959,9 @@
     },
     "pagination": {
       "next": "Suivant",
-      "previous": "Précédent"
+      "previous": "Précédent",
+      "label": "Pagination",
+      "page": "Page {{number}}"
     },
     "breadcrumb": {
       "home": "Maison"
@@ -1968,7 +1972,9 @@
       "compare": "comparer",
       "search": "Recherche",
       "login_register": "S'identifier S'enregistrer",
-      "my_account": "Mon compte"
+      "my_account": "Mon compte",
+      "menu": "Menu",
+      "categories": "Categories"
     },
     "sidebar": {
       "open": "Ouvrir la barre latérale",
@@ -2086,7 +2092,8 @@
       },
       "title": "laissez un commentaire",
       "name": "Nom",
-      "email": "E-mail"
+      "email": "E-mail",
+      "message": "Message"
     },
     "password_page": {
       "login_form_message": "Entrez dans le magasin en utilisant le mot de passe :",
@@ -2211,7 +2218,8 @@
         "hr_plural": "heures",
         "min_plural": "minutes",
         "sec": "seconde",
-        "sec_plural": "secondes"
+        "sec_plural": "secondes",
+        "min": "min"
       }
     },
     "product_single": {
@@ -2222,7 +2230,8 @@
         "hr_plural": "heures",
         "min_plural": "minutes",
         "sec": "seconde",
-        "sec_plural": "secondes"
+        "sec_plural": "secondes",
+        "min": " min"
       },
       "order_dayNames": "Dimanche Lundi Mardi Mercredi Jeudi Vendredi Samedi",
       "order_monthNames": "janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre",
@@ -2334,7 +2343,8 @@
       "add_gift_wrap": "Ajouter un emballage cadeau",
       "add_coupon": "Ajouter un coupon",
       "info_coupon": "Le code de coupon fonctionnera sur la page de paiement",
-      "placeholder_coupon": "Code promo"
+      "placeholder_coupon": "Code promo",
+      "coupon": "Coupon:"
     },
     "shipping_estimator": {
       "title": "Estimation des frais de port",
@@ -2344,7 +2354,9 @@
       "multiple_rates": "Nous avons trouvé [number_of_rates] tarifs d'expédition disponibles pour [address], à partir de [rate].",
       "one_rate": "Nous avons trouvé un tarif d'expédition disponible pour [adresse].",
       "no_rates": "Désolé, nous ne livrons pas vers cette destination.",
-      "errors": "Il y a quelques erreurs :"
+      "errors": "Il y a quelques erreurs :",
+      "province": "Province",
+      "rate_value": ""
     },
     "shipping_threshold": {
       "text_1_html": "Livraison gratuite pour toutes les commandes supérieures à <span class=\"t4s-cr\">{{ money }}<\/span>",
@@ -2364,7 +2376,8 @@
       "label": {
         "product": "Produit",
         "price": "Prix",
-        "quantity": "Quantité"
+        "quantity": "Quantité",
+        "total": "Total"
       },
       "empty": "Votre panier est vide.",
       "empty_html": "Avant de passer à la caisse, vous devez ajouter certains produits à votre panier.<br> Vous trouverez de nombreux produits intéressants sur notre page \"Boutique\".",
@@ -2394,7 +2407,8 @@
       "fulfillment_status": "Statut d'exécution",
       "discount": "Rabais",
       "shipping": "Expédition",
-      "tax": "Impôt"
+      "tax": "Impôt",
+      "total": "Total"
     },
     "recover_password": {
       "title": "réinitialisez votre mot de passe",
@@ -2443,7 +2457,8 @@
       "country": "Pays:",
       "zip": "Zipper:",
       "phone": "Téléphone:",
-      "company": "Entreprise:"
+      "company": "Entreprise:",
+      "email": "Email"
     },
     "menu": {
       "dashboard": "Tableau de bord",
@@ -2478,7 +2493,8 @@
       "cancel": "Annuler",
       "edit": "Modifier",
       "delete": "Supprimer",
-      "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?",
+      "province": "Province"
     },
     "login": {
       "title": "CONNEXION",
@@ -2497,7 +2513,9 @@
       "order_number_link": "Numéro de commande {{ number }}",
       "payment_status": "Statut de paiement",
       "fulfillment_status": "Statut d'exécution",
-      "none": "Vous n'avez pas encore passé de commande."
+      "none": "Vous n'avez pas encore passé de commande.",
+      "date": "Date",
+      "total": "Total"
     }
   },
   "password_page": {
@@ -2572,7 +2590,8 @@
   "templates": {
     "404": {
       "subtext": "Désolé! La page que vous recherchez est introuvable.",
-      "link_html": "Retour à la <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" rel=\"home\">page d'accueil<\/a>"
+      "link_html": "Retour à la <a href=\"&lt;span%20class='notranslate'&gt;%7B%7Blink%7D%7D&lt;\/span&gt;\" rel=\"home\">page d'accueil<\/a>",
+      "title": "404"
     },
     "contact": {
       "form": {
