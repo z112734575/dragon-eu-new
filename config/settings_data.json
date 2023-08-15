@@ -1220,8 +1220,8 @@
                 "10335"
               ],
               "tag_list": "Hot，",
-              "collection_name_list": "Chargeurs USB C,\nChargeurs GaN,\nBanques d'alimentation,\nChargeurs de voiture,\nChargeurs sans fil",
-              "collection_link_list": "\/collection\/abc,\/collection\/bcd",
+              "collection_name_list": "Chargeurs USB C,\nChargeurs GaN,\nBanques d'alimentation,\nChargeurs de voiture,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/quick-charge-chargeur,https:\/\/fr.ugreen.com\/collections\/gan-chargeur,https:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/chargeur-de-voiture,",
               "all_collection_url": "shopify:\/\/pages\/contact-us",
               "all_collection_name": "All Hub"
             }
