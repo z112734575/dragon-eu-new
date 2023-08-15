@@ -1261,6 +1261,24 @@
               "all_collection_url": "shopify:\/\/collections\/hub-adaptateur",
               "all_collection_name": "All HUB"
             }
+          },
+          "c568446d-9720-482f-b9ab-5195213a66f0": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 4,
+              "product_list": [
+                "60759",
+                "50122",
+                "60125",
+                "10232",
+                "40180"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Câbles USB C,\nCâbles USB A,\nCâbles Lightning (pour IPHONE),\nCâbles audio et vidéo,\nCâbles Ethernet,",
+              "collection_link_list": "",
+              "all_collection_url": "shopify:\/\/collections\/cable",
+              "all_collection_name": "All Câbles"
+            }
           }
         },
         "block_order": [
@@ -1269,7 +1287,8 @@
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
-          "8c21f218-c305-4e9f-b351-3bbf72f1cdc0"
+          "8c21f218-c305-4e9f-b351-3bbf72f1cdc0",
+          "c568446d-9720-482f-b9ab-5195213a66f0"
         ],
         "settings": {
         }
