@@ -1,0 +1,261 @@
+{% liquid
+    assign section_title = section.settings.section_title
+    assign section_bg = section.settings.section_bg
+    assign items = section.blocks
+%}
+
+<style>
+    /**    fit life*!*/
+    .ug-new-fit-life-section {
+        width: 100%;
+        padding-top: 120px;
+        background: #F0F0F2;
+    }
+    .ug-new-fit-life-section .title {
+        font-weight: bold;
+        color: black;
+        line-height: 60px;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    .ug-new-fit-life-main .pc_hide {
+        display: block;
+    }
+    .ug-new-fit-life-main {
+        display: grid;
+        max-width: 1280px;
+        margin: 0 auto;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .ug-new-fit-life-main .new-fit-life-item {
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    }
+    .ug-new-fit-life-main .new-fit-life-item:hover img {
+        transform: scale(1.1);
+    }
+    .ug-new-fit-life-main .new-fit-life-item img {
+        transition: all 0.3s;
+    }
+    .ug-new-fit-life-main .new-fit-life-item .bottom {
+        padding: 28px 20px;
+        position: relative;
+    }
+    .ug-new-fit-life-main .new-fit-life-item .item-title {
+        color: black;
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 28px;
+    }
+    .ug-new-fit-life-main .new-fit-life-item .top-image {
+        overflow: hidden;
+    }
+    .ug-new-fit-life-main .new-fit-life-item .item-content {
+        color: #727273;
+        line-height: 1.4;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .ug-new-fit-life-main .new-fit-life-item .learn-more {
+        font-size: 16px;
+        color: #00CC88;
+    }
+    .ug-new-fit-life-main .new-fit-life-item:nth-child(1) {
+        display: flex;
+        grid-row: 1;
+        grid-column: 1 / span 3;
+    }
+    .ug-new-fit-life-main .new-fit-life-item:nth-child(1) .top-image {
+        width: 62.5%;
+        flex-shrink: 0;
+    }
+    .ug-new-fit-life-main .new-fit-life-item:nth-child(1) .top-image img {
+        object-fit: cover;
+        height: 100%;
+    }
+    .ug-new-fit-life-main .new-fit-life-item:nth-child(1) .bottom {
+        padding: 48px 40px;
+    }
+    .ug-new-fit-life-main .new-fit-life-item:nth-child(1) .bottom .learn-more {
+        position: absolute;
+        bottom: 48px;
+        left: 40px;
+    }
+    .ug-new-fit-life-main .new-fit-life-item:not(:first-child) .top-image {
+        width: 100%;
+        height: 0;
+        padding-top: 67.63%;
+        background: #F0F0F2;
+        position: relative;
+    }
+    .ug-new-fit-life-main .new-fit-life-item:not(:first-child) .top-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .ug-new-fit-life-main .new-fit-life-item:not(:first-child) .item-content {
+
+    }
+    @media (max-width: 767px) {
+        .ug-new-fit-life-section {
+            padding-top: 50px;
+        }
+        .ug-new-fit-life-section .title {
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+        .ug-new-fit-life-main .pc_hide {
+            display: block;
+        }
+        .ug-new-fit-life-main {
+            display: flex;
+            overflow-x: auto;
+        }
+        .ug-new-fit-life-main .new-fit-life-item {
+            width: 80%;
+            flex-shrink: 0;
+            flex-direction: column;
+        }
+        .ug-new-fit-life-main .new-fit-life-item:nth-child(1) {
+         margin-left: 20px;
+        }
+        .ug-new-fit-life-main .new-fit-life-item .top-image {
+            width: 100% !important;
+            height: 0;
+            padding-top: 75% !important;
+            position: relative;
+        }
+        .ug-new-fit-life-main .new-fit-life-item .top-image img{
+            width: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .ug-new-fit-life-main .new-fit-life-item:nth-child(1) .bottom {
+            padding: 20px 12px;
+        }
+        .ug-new-fit-life-main .new-fit-life-item  .bottom {
+            padding: 14px 10px;
+        }
+        .ug-new-fit-life-main .new-fit-life-item .bottom .learn-more {
+            position: static !important;
+            font-size: 14px !important;
+        }
+        .ug-new-fit-life-main .new-fit-life-item .item-title {
+            font-size: 16px !important;
+            margin-bottom: 12px !important;;
+        }
+        .ug-new-fit-life-main .new-fit-life-item .item-content {
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+    }
+    /*    fit life*/
+</style>
+
+<section class="ug-new-fit-life-section">
+    <div class="title">{{ section_title }}</div>
+    <div class="ug-new-fit-life-main">
+        {% for item in items %}
+        {% liquid
+            assign pc_image = item.settings.pc_image
+            assign mobile_image = item.settings.mobile_image
+            assign title = item.settings.title
+            assign content = item.settings.content
+            assign btn_text = item.settings.btn_text
+            assign link = item.settings.link
+        %}
+        <a class="new-fit-life-item" href="{{ link }}">
+            <div class="top-image">
+                {% render "ug-custom-picture", pc_image: pc_image, mobile_image: mobile_image, title: title, sub_title: content, alt: title %}
+            </div>
+            <div class="bottom">
+                <h4 class="item-title">{{ title }}</h4>
+                <div class="item-content {% if forloop.index > 1 %} pc_hide {% endif %}">
+                    {{ content }}
+                </div>
+                <div class="learn-more">
+                    <span>{{ btn_text }}</span>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiayiye"></use>
+                    </svg>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "首页Fit life模块",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "模块标题",
+      "default": "Ugreen Fits Your Life"
+    },
+    {
+      "type": "color",
+      "id": "section_bg",
+      "label": "模块背景色"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Fit life Item",
+      "type": "ug-index-category-item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "pc_image",
+          "label": "PC场景图片"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile场景图片"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "场景标题"
+        },
+        {
+          "type": "text",
+          "id": "content",
+          "label": "场景内容"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "按钮文案",
+          "default" : "Learn More"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "场景链接"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "首页Fit life模块",
+      "category": "homepage"
+    }
+  ]
+}
+{% endschema %}
