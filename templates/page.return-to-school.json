@@ -149,7 +149,8 @@
           "ugreen-usb-c-to-lightning-cable",
           "ugreen-usb-c-to-usb-c-cable-60w",
           "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0",
-          "8k-hdmi-2-1-cable"
+          "8k-hdmi-2-1-cable",
+          "order-over-70-get-free-6-99-gift-card"
         ],
         "title": "",
         "subtitle": "",
@@ -159,7 +160,7 @@
         "product_item_bg_color": "#ffffff",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "100%",
-        "pc_row": "4",
+        "pc_row": "5",
         "mobile_row": "2",
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
         "pc_product_sale_width": "60px",
