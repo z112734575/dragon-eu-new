@@ -1296,6 +1296,24 @@
               "all_collection_url": "shopify:\/\/collections\/adaptateur",
               "all_collection_name": "ADAPTATEUR"
             }
+          },
+          "5e36256f-89ee-42cd-8ca5-b1510d32f9b6": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 6,
+              "product_list": [
+                "50748",
+                "40393",
+                "40289",
+                "20471",
+                "50564"
+              ],
+              "tag_list": "",
+              "collection_name_list": "support de téléphone portable\nSupport d'ordinateur\nsupport de voiture",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/support-telephone-bureau,https:\/\/fr.ugreen.com\/collections\/support-tablette-et-pc-portable,https:\/\/fr.ugreen.com\/collections\/support-voiture-telephone",
+              "all_collection_url": "shopify:\/\/collections\/support",
+              "all_collection_name": "All SUPPORT"
+            }
           }
         },
         "block_order": [
@@ -1306,7 +1324,8 @@
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
           "8c21f218-c305-4e9f-b351-3bbf72f1cdc0",
           "c568446d-9720-482f-b9ab-5195213a66f0",
-          "e3e4007f-8702-486d-8ffa-94ba701b471d"
+          "e3e4007f-8702-486d-8ffa-94ba701b471d",
+          "5e36256f-89ee-42cd-8ca5-b1510d32f9b6"
         ],
         "settings": {
         }
