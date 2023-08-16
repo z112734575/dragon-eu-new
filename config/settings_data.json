@@ -1278,6 +1278,24 @@
               "all_collection_url": "shopify:\/\/collections\/cable",
               "all_collection_name": "All Câbles"
             }
+          },
+          "e3e4007f-8702-486d-8ffa-94ba701b471d": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 5,
+              "product_list": [
+                "50737",
+                "90541",
+                "80888",
+                "70601",
+                "50966"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Adaptateur Bluetooth,\nAdaptateur Ethernet,\nAdaptateur SD,\nCommutateur HDMI,\nBoîtiers de disque dur",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/bluetooth,https:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,https:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,https:\/\/fr.ugreen.com\/collections\/usb-switch,https:\/\/fr.ugreen.com\/collections\/hard-drive-enclosures",
+              "all_collection_url": "shopify:\/\/collections\/adaptateur",
+              "all_collection_name": "ADAPTATEUR"
+            }
           }
         },
         "block_order": [
@@ -1287,7 +1305,8 @@
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
           "8c21f218-c305-4e9f-b351-3bbf72f1cdc0",
-          "c568446d-9720-482f-b9ab-5195213a66f0"
+          "c568446d-9720-482f-b9ab-5195213a66f0",
+          "e3e4007f-8702-486d-8ffa-94ba701b471d"
         ],
         "settings": {
         }
