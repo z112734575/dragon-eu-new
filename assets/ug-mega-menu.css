@@ -15,6 +15,7 @@
 }
 .ug-tab-content {
     display: none;
+    width: 100%;
 }
 .ug-tab-content.active {
     display: block;
@@ -52,6 +53,7 @@
     overflow: hidden;
     line-height: 1.5;
     font-size: 14px ;
+    margin-top: 12px;
 }
 
 .ug-tab-collection-bar {
