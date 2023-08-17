@@ -1,0 +1,161 @@
+{
+  "sections": {
+    "3155cc81-16ac-4d96-80a0-275500abaea3": {
+      "type": "ug_AppleEvent_banner",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_3dc607a5-7852-4c17-ad25-9ad07f947ed0.webp?v=1689057962",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mo_e385ee73-fcf2-4958-a746-4facd2b8bda5.webp?v=1689058080",
+        "title": "",
+        "desc": "Ugreen For Business",
+        "title_1": "For",
+        "title_2": "the Business Savy",
+        "text": "For the business-minded that are serious about upping work productivity and efficiency, check out these amazing products!"
+      }
+    },
+    "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic1_pc_68b0caf6-2f0f-4f0c-a2ec-9a99cb576a94.webp?v=1689057962",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic1_mo_5703ab7c-4e2a-4f3c-be93-d9108eed4a71.webp?v=1689058080",
+        "title": "Chargers",
+        "title1": "",
+        "desc": "Multiple Ports & Upgraded Charging Protocols. Fast Charging ASAP!",
+        "product_list": [
+          "ugreen-nexode-200w-usb-c-desktop-charger",
+          "ugreen-nexode-140w-usb-c-wall-charger",
+          "ugreen-145w-power-bank-for-laptop"
+        ]
+      }
+    },
+    "abc75bc4-3f51-473a-b1dd-e439f37a15a0": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic2_pc_e101932f-6c4a-4460-81de-f3e4e7e2b206.webp?v=1689057962",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic2_mo_65312bb6-99b8-4ca2-ac4f-a9244f3bb818.webp?v=1689058080",
+        "title": "Charging Stations",
+        "title1": "",
+        "desc": "Multi-USB\/AC Power for Your Phones, Gadgets, & Doodads",
+        "product_list": [
+          "ugreen-65w-power-strip-diginest-cube-gan-extension-lead-with-usb-c-slots",
+          "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger"
+        ]
+      }
+    },
+    "a9c6f060-5fbd-455c-8321-f99aa9934742": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic3_pc_93771aff-b921-4bcf-a780-07e7634dfe5a.webp?v=1689057962",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic3_mo_810aea8f-61c7-43f2-b570-b538a6635f81.webp?v=1689058080",
+        "title": "Data Hubs",
+        "title1": "",
+        "desc": "Easily Transfer Data or Connect Extra Displays. Or Both!",
+        "product_list": [
+          "ugreen-macbook-pro-usb-c-hub-adapter-5-in-2-hdmi-4k-type-c-port-thunderbolt-3-for-video-100w-pd-charging",
+          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+          "ugreen-6-in-1-usb-c-hub",
+          "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio"
+        ]
+      }
+    },
+    "ebdd4269-8c40-458a-890d-39cfe5f8cf15": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic4_pc_f74cf477-b606-4f31-9fb1-b952bb124a13.webp?v=1689057962",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic4_mo_f774449a-9604-4aab-a6bc-93ca9aedc6cc.webp?v=1689058080",
+        "title": "Docking Stations",
+        "title1": "",
+        "desc": "Designed to Make Work Feel Less Like Work",
+        "product_list": [
+          "ugreen-usb-c-triple-display-docking-station",
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station"
+        ]
+      }
+    },
+    "c785aa33-19ca-47a3-afeb-0d567da5e58f": {
+      "type": "ug_UgreenDay_gifts",
+      "blocks": {
+        "05e9cded-4680-406d-b363-f9f7c0c984a0": {
+          "type": "ugreenday_gifts",
+          "settings": {
+            "product1": "ugreen-nexode-200w-usb-c-desktop-charger",
+            "product_img1": "https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0257\\\/5246\\\/9566\\\/files\\\/1_8ce2d4cc-9967-4c9f-8369-7a8669978e5b.webp?v=1684843272",
+            "product2": "ugreen-nexode-100w-usb-c-wall-charger",
+            "product_img2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/40737-70429.webp?v=1688981572"
+          }
+        }
+      },
+      "block_order": [
+        "05e9cded-4680-406d-b363-f9f7c0c984a0"
+      ],
+      "settings": {
+        "section_title": "Homebody Bundle",
+        "sub_title": "",
+        "svg_name": "icon-a-11"
+      }
+    },
+    "88cc5d01-0a4e-4978-b89a-974806655051": {
+      "type": "promo_text",
+      "blocks": {
+        "template--14592140345406__88cc5d01-0a4e-4978-b89a-974806655051-1689046481cc1cb237-0": {
+          "type": "1",
+          "settings": {
+            "content": "<p>Discounts are only applicable to products featured on this page.<\/p>",
+            "countdown": "2022\/12\/20",
+            "cus_cd": "%-D day%!D %H:%M:%S",
+            "dayx": 0,
+            "cl_text": "#666666",
+            "cl_link": "#56cfe1",
+            "fw_text": 400,
+            "fs_text": 20,
+            "lh_text": 0,
+            "ls_text": 0,
+            "fs_mb_text": 16,
+            "lh_text_mb": 0,
+            "ls_mb_text": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14592140345406__88cc5d01-0a4e-4978-b89a-974806655051-1689046481cc1cb237-0"
+      ],
+      "settings": {
+        "effect": "slider",
+        "au_time": 3,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#ffffff",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "40px,,40px,",
+        "mg_mb": "",
+        "pd_mb": "28px,,28px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "d9e994f6-1a15-45ff-baf3-961a802d3cdf": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<script>\n    $(\".box_text div\").fadeOut(1000);\n    $(\".section_1_box button\").hide();\n    const fitSwiper = new Swiper('.product_swiper', {\n        slidesPerView: 1,\n        spaceBetween: 20,\n        speed: 1000,\n        pagination: {\n            el: \".swiper-pagination\",\n        },\n        autoplay: {\n            delay: 5000,\n        },\n        breakpoints: {\n            768: {\n                slidesPerView: 3,\n            },\n        },\n    })\n<\/script>\n<style>\n    section {\n        background-color: #fff !important;\n    }\n\n    .page_banner .banner_box {\n        left: 34%;\n        width: 100%;\n    }\n\n    .apple_section_1 .section_1_box {\n        background: none;\n        display: flex;\n        flex-wrap: wrap;\n    }\n\n    .apple_section_1 .section_1_box .box_text {\n        width: 100%;\n    }\n\n    .gifts_product .gifts_product_list {\n        padding: 0 0.417vw;\n    }\n\n    .product_list .item,\n    .gifts_product .gifts_product_list .item {\n        background-color: #fff !important;\n        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);\n    }\n\n    .product_list .item .product_message {\n        background: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/point_bg_pc_b79eb4fd-4784-4479-b430-f40eefed9ca6.webp?v=1689057962') center center\/100% 100% no-repeat !important;\n    }\n\n    .product_list .item .product_details p,\n    .apple_section_1 .section_1_box h2 {\n        color: #000 !important;\n    }\n\n    .product_list .item .product_details a {\n        background-color: #000 !important;\n        border: none !important;\n    }\n\n    .product_list .item .product_details a:hover {\n        background-color: #03f2a6 !important;\n        color: #fff !important;\n    }\n\n    .product_list .item .product_details h3 {\n        color: #666 !important;\n        font-weight: 500!important;\n    }\n\n    .apple_section_1 .section_1_box .box_text p {\n        color: #999 !important;\n    }\n\n    .gifts_product {\n        background: #F0F1FA !important;\n    }\n\n    .apple_section_1 .section_1_box .box_text {\n        max-width: 100% !important;\n        margin-top: 2.125vw !important;\n    }\n\n    .apple_section_1 .section_1_box h2:nth-child(1) {\n        margin-right: 15px;\n        color: #00CC88!important;\n    }\n\n    .product_swiper .swiper-pagination-bullet {\n        background-color: #A4B5CE!important;\n    }\n    .product_list .item .product_details .product_sale{\n        background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/tag_pc_e0131dd4-478f-400d-af1b-e8a767edcba5.png?v=1680255000) center center\/100% 100% no-repeat!important;\n        width: 3.854vw!important;\n        height: 3.125vw!important;\n        top: -0.208vw!important;\n        left: 0.78125vw!important;\n    }\n    .product_list .item .product_details .product_sale p{\n        font-weight: 500!important;\n        font-size: 0.9375vw!important;\n        line-height: 1.25vw!important;\n        transform: translateY(-50%)!important;\n        color: #fff!important;\n        top: 40%!important;\n        left: 0!important;\n        text-align: center;\n        width: 100%;\n    }\n    .product_list .item .product_details .product_sale p span{\n        color: #fff!important;\n    }\n    @media (max-width: 768px) {\n        .page_banner .banner_box {\n            left: 0;\n        }\n        .product_list .item .product_img{\n            padding: 0!important;\n        }\n        .product_list .item{\n            padding: 5.333vw 4vw 4vw 4vw!important;\n        }\n        .apple_section_1 {\n            padding: 16vw 5.333vw!important;\n        }\n        .page_banner .banner_box p{\n            color: #000!important;\n            padding: 0!important;\n        }\n        .product_list .item .product_details .product_sale{\n            width: 14.133vw!important;\n            height: 11.467vw!important;\n            top: -0.8vw!important;\n            left: 2.667vw!important;\n        }\n        .product_list .item .product_details .product_sale p{\n            font-size: 4.267vw!important;\n            line-height: 4.267vw!important;\n        }\n    }\n<\/style>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "3155cc81-16ac-4d96-80a0-275500abaea3",
+    "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
+    "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
+    "a9c6f060-5fbd-455c-8321-f99aa9934742",
+    "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
+    "c785aa33-19ca-47a3-afeb-0d567da5e58f",
+    "88cc5d01-0a4e-4978-b89a-974806655051",
+    "d9e994f6-1a15-45ff-baf3-961a802d3cdf"
+  ]
+}
