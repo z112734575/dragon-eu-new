@@ -1212,24 +1212,6 @@
               "tab_link_list": ""
             }
           },
-          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 2,
-              "product_list": [
-                "40914",
-                "40747",
-                "10335",
-                "90573",
-                "90597"
-              ],
-              "tag_list": "Hot，",
-              "collection_name_list": "Chargeurs USB C,\nChargeurs GaN,\nBanques d'alimentation,\nChargeurs de voiture,",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/quick-charge-chargeur,https:\/\/fr.ugreen.com\/collections\/gan-chargeur,https:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/chargeur-de-voiture,",
-              "all_collection_url": "shopify:\/\/collections\/chargeur",
-              "all_collection_name": "All CHARGEUR"
-            }
-          },
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d": {
             "type": "tab_content",
             "settings": {
@@ -1243,6 +1225,24 @@
               "collection_link_list": "",
               "all_collection_url": "shopify:\/\/collections\/centrale-electrique",
               "all_collection_name": "centrale électrique"
+            }
+          },
+          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 2,
+              "product_list": [
+                "40914",
+                "40747",
+                "10335",
+                "90573",
+                "90597"
+              ],
+              "tag_list": "Hot",
+              "collection_name_list": "Chargeurs USB C,\nChargeurs GaN,\nChargeur de bureau\nBanques d'alimentation,\nChargeurs de voiture,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/quick-charge-chargeur,https:\/\/fr.ugreen.com\/collections\/gan-chargeur,\nhttps:\/\/fr.ugreen.com\/collections\/chargeur-de-bureau,\nhttps:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/chargeur-de-voiture,",
+              "all_collection_url": "shopify:\/\/collections\/chargeur",
+              "all_collection_name": "All CHARGEUR"
             }
           },
           "8c21f218-c305-4e9f-b351-3bbf72f1cdc0": {
@@ -1322,8 +1322,8 @@
           "896b0a1b-4c88-41dc-aae8-3dc3fc782bd9",
           "224acbf9-e273-470e-aeb8-ce1cab7498c4",
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
-          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
+          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "8c21f218-c305-4e9f-b351-3bbf72f1cdc0",
           "c568446d-9720-482f-b9ab-5195213a66f0",
           "e3e4007f-8702-486d-8ffa-94ba701b471d",
