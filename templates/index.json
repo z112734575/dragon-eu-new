@@ -268,6 +268,62 @@
       "type": "ug-index-link",
       "settings": {
       }
+    },
+    "c4ca2e6a-1f6c-4595-9e0f-890d6f17ff3d": {
+      "type": "ug-index-new-fit-life",
+      "blocks": {
+        "451156f3-c995-441a-ac1b-f5a7567c1b78": {
+          "type": "ug-index-category-item",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "btn_text": "Learn More",
+            "link": ""
+          }
+        },
+        "e9d127e0-aeab-448c-9118-b4a3e087d017": {
+          "type": "ug-index-category-item",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "btn_text": "Learn More",
+            "link": ""
+          }
+        },
+        "50a3aef5-1d8d-4b05-9af9-9ed9017f0d55": {
+          "type": "ug-index-category-item",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "btn_text": "Learn More",
+            "link": ""
+          }
+        },
+        "d063da36-10b2-4feb-b144-b369e08b52e5": {
+          "type": "ug-index-category-item",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "btn_text": "Learn More",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "451156f3-c995-441a-ac1b-f5a7567c1b78",
+        "e9d127e0-aeab-448c-9118-b4a3e087d017",
+        "50a3aef5-1d8d-4b05-9af9-9ed9017f0d55",
+        "d063da36-10b2-4feb-b144-b369e08b52e5"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_title": "Ugreen Fits Your Life",
+        "section_bg": ""
+      }
     }
   },
   "order": [
@@ -280,6 +336,7 @@
     "ug-index-benefit",
     "ug-index-blog",
     "ug-index-featured",
-    "ug-index-link"
+    "ug-index-link",
+    "c4ca2e6a-1f6c-4595-9e0f-890d6f17ff3d"
   ]
 }
