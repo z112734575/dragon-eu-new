@@ -176,28 +176,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {%- render 'render_bottom' -%}
   {% include 'social-login' %}
   
-	{{ shop.metafields.loox["global_html_body"] }}
-<!-- CRITEO START -->
-{% render 'criteo-tracking' %}
-<!-- CRITEO END -->
-
-
-
-
-    {% include 'eu-cookie-richtlinie-block' %}
- {% include 'smile-initializer' %}
-
-        
+{{ shop.metafields.loox["global_html_body"] }}
 
 
 
 
 
-
-
-
-{% include 'gtranslate', float: 'yes' %}
-{% render 'enimoh' %} 
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPWLL45"
