@@ -48,20 +48,20 @@
             "custom_price": "499"
           }
         },
-        "aab0b0f4-67ca-4600-b490-31e3de6414db": {
-          "type": "points_product",
-          "settings": {
-            "product": "60560",
-            "points": "200",
-            "custom_price": "699"
-          }
-        },
         "9e98210c-69bd-449f-be2a-ac0c30f57429": {
           "type": "points_product",
           "settings": {
             "product": "50698",
             "points": "200",
             "custom_price": "599"
+          }
+        },
+        "aab0b0f4-67ca-4600-b490-31e3de6414db": {
+          "type": "points_product",
+          "settings": {
+            "product": "60560",
+            "points": "200",
+            "custom_price": "699"
           }
         },
         "b2441e52-713d-4884-a04a-3a5dcefbac61": {
@@ -75,7 +75,7 @@
         "8db0fb5c-d93d-4cf6-b755-0b80d1e589e3": {
           "type": "points_product",
           "settings": {
-            "product": "ugreen-nexode-45w-dual-c-port-wall-charger",
+            "product": "90573",
             "points": "200",
             "custom_price": "1999"
           }
@@ -84,8 +84,8 @@
       "block_order": [
         "84252723-bc62-42fa-8ba7-3a2ce1ac0eb7",
         "36373bd9-fada-4e05-a85a-3ac6068c4cf7",
-        "aab0b0f4-67ca-4600-b490-31e3de6414db",
         "9e98210c-69bd-449f-be2a-ac0c30f57429",
+        "aab0b0f4-67ca-4600-b490-31e3de6414db",
         "b2441e52-713d-4884-a04a-3a5dcefbac61",
         "8db0fb5c-d93d-4cf6-b755-0b80d1e589e3"
       ],
