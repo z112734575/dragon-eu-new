@@ -187,15 +187,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% include 'eu-cookie-richtlinie-block' %}
  {% include 'smile-initializer' %}
 
-
-<!-- **BEGIN** Hextom CTB Integration // Main Include - DO NOT MODIFY -->
-    {% render 'hextom_ctb_main', product: product, customer: customer %}
-    <!-- **END** Hextom CTB Integration // Main Include - DO NOT MODIFY -->
-  {% include 'revy-bundle-script' %}
-{% render 'amai_stp-theme-snippet' %}
-{% render 'amai_stp-cart-snippet' %}
-{% render 'amai_stp-product-snippet' %}
-{% render 'quantity-breaks-now', customer: customer, template: template, product: product, cart: cart %}
         
 
 
