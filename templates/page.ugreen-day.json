@@ -35,9 +35,9 @@
         "84252723-bc62-42fa-8ba7-3a2ce1ac0eb7": {
           "type": "points_product",
           "settings": {
-            "product": "cell-phone-stand-holder",
+            "product": "20435",
             "points": "50",
-            "custom_price": "499"
+            "custom_price": "699"
           }
         },
         "36373bd9-fada-4e05-a85a-3ac6068c4cf7": {
@@ -117,6 +117,7 @@
         ],
         "title": "Ugreen Day Recommendations",
         "subtitle": "",
+        "section_id": "ug-product-list",
         "mobile_product_type": "column",
         "product_item_bg_color": "#ffffff",
         "pc_product_item_img_size": "50%",
@@ -129,6 +130,7 @@
         "pc_padding": "80px 0",
         "mobile_padding": "40px 0",
         "need_load_more": true,
+        "load_more_default_count": 6,
         "show_sale_flag": true,
         "show_compare": true,
         "show_rating": true,
