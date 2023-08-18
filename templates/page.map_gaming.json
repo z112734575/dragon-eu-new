@@ -21,9 +21,11 @@
         "title1": "",
         "desc": "Designed to Make Work Feel Less Like Work",
         "product_list": [
-          "ugreen-usb-c-triple-display-docking-station",
-          "ugreen-9-in-1-usb-c-docking-station",
-          "ugreen-6-in-1-usb-c-docking-station-with-4k-60hz-hdmi"
+          "90325",
+          "90912",
+          "80133",
+          "60384",
+          "90568"
         ]
       }
     },
@@ -90,7 +92,8 @@
       ],
       "settings": {
         "section_title": "Gaming Greatness Bundle",
-        "sub_title": ""
+        "sub_title": "",
+        "svg_name": "icon-a-11"
       }
     },
     "88cc5d01-0a4e-4978-b89a-974806655051": {
