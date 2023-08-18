@@ -6,7 +6,10 @@
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_99354b23-8c53-4fc7-a02e-1b0dc349096e.webp?v=1689047522",
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mo_2db25716-d737-495c-bc29-39b94f8bd95c.webp?v=1689047615",
         "title": "",
-        "desc": "Ugreen For Gamers"
+        "desc": "Ugreen For Gamers",
+        "title_1": "Greatness",
+        "title_2": "for the Gaming Explorer",
+        "text": "Check out these products for that on-the-go, inner-gamer with the desire to keep their mobile devices constantly connected! Explorers, onward ho!"
       }
     },
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2": {
@@ -19,8 +22,8 @@
         "desc": "Designed to Make Work Feel Less Like Work",
         "product_list": [
           "ugreen-usb-c-triple-display-docking-station",
-          "copy-of-snap-deal-ugreen-docking-station-for-steam-deck",
-          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station"
+          "ugreen-9-in-1-usb-c-docking-station",
+          "ugreen-6-in-1-usb-c-docking-station-with-4k-60hz-hdmi"
         ]
       }
     },
@@ -34,8 +37,8 @@
         "desc": "Multiple Ports & Upgraded Charging Protocols. Fast Charging ASAP!",
         "product_list": [
           "ugreen-nexode-200w-usb-c-desktop-charger",
-          "ugreen-nexode-100w-usb-c-wall-charger",
-          "ugreen-nexode-65w-usb-c-wall-charger-3-ports"
+          "ugreen-100w-usb-c-diginest-pro-power-strip",
+          "ugreen-65w-usb-c-diginest-cube-charging-station"
         ]
       }
     },
@@ -48,9 +51,9 @@
         "title1": "",
         "desc": "Charger Cable Varieties for the Android, iPhone, & Everthing In Between!",
         "product_list": [
-          "ugreen-2-pack-usb-c-to-usb-c-charger-cable-100w-65w-power-delivery",
-          "8k-hdmi-2-1-cable",
-          "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0"
+          "ugreen-240w-pd3-1-usb-c-to-usb-c-cable",
+          "usb-c-to-lightning-fast-charging-cable",
+          "ugreen-100w-usb-c-to-usb-c-cable-6ft"
         ]
       }
     },
@@ -63,9 +66,9 @@
         "title1": "",
         "desc": "Optimum, Hassle-Free Viewing. What More Could One Ask For?!",
         "product_list": [
-          "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
-          "snap-deal-ugreen-360-rotating-tablet-stand-holder",
-          "snap-deal-ugreen-aluminum-adjustable-tablet-stand"
+          "adjustable-aluminum-phone-holder",
+          "ugreen-360-rotating-tablet-stand-holder",
+          "lazy-arm-tablet-holder"
         ]
       }
     },
@@ -75,9 +78,9 @@
         "05e9cded-4680-406d-b363-f9f7c0c984a0": {
           "type": "ugreenday_gifts",
           "settings": {
-            "product1": "ugreen-nexode-200w-usb-c-desktop-charger",
+            "product1": "ugreen-nexode-200w-usb-c-desktop-charger-bundle",
             "product_img1": "https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0257\\\/5246\\\/9566\\\/files\\\/1_8ce2d4cc-9967-4c9f-8369-7a8669978e5b.webp?v=1684843272",
-            "product2": "ugreen-nexode-100w-usb-c-wall-charger",
+            "product2": "ugreen-nexode-100w-usb-c-wall-charger-4-ports",
             "product_img2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/40737-70429.webp?v=1688981572"
           }
         }
@@ -87,8 +90,7 @@
       ],
       "settings": {
         "section_title": "Gaming Greatness Bundle",
-        "sub_title": "",
-        "svg_name": "icon-a-11"
+        "sub_title": ""
       }
     },
     "88cc5d01-0a4e-4978-b89a-974806655051": {
