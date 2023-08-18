@@ -202,6 +202,65 @@
       "settings": {
       }
     },
+    "b6962c61-4afd-4831-a1c2-c4ef32150079": {
+      "type": "ug-index-new-fit-life",
+      "blocks": {
+        "2bcdd17a-c9a4-4f90-bfa0-6ba64c1d24a1": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "pc_image": "shopify:\/\/shop_images\/Home_pc.png",
+            "mobile_image": "shopify:\/\/shop_images\/Home_Mobile.png",
+            "title": "Perfect for the Homebody",
+            "content": "Check out our collection of products that will make any house into a power-pumping home!",
+            "btn_text": "Learn More",
+            "link": "shopify:\/\/pages\/map-home"
+          }
+        },
+        "ea608fab-41f3-4786-b255-2f520cced1b6": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "pc_image": "shopify:\/\/shop_images\/Travel_pc.png",
+            "mobile_image": "shopify:\/\/shop_images\/Travel_mobile.png",
+            "title": "Necessities for the Travelgoer",
+            "content": "",
+            "btn_text": "Learn More",
+            "link": "shopify:\/\/pages\/map-travel"
+          }
+        },
+        "92f78796-6a54-4cf3-898d-a0099a1fe499": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "pc_image": "shopify:\/\/shop_images\/Business_pc.png",
+            "mobile_image": "shopify:\/\/shop_images\/business_mobile.png",
+            "title": "For the Business Savy",
+            "content": "",
+            "btn_text": "Learn More",
+            "link": "shopify:\/\/pages\/map-business"
+          }
+        },
+        "bffbb435-8d67-4840-817c-8719ac40d671": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "pc_image": "shopify:\/\/shop_images\/Game_pc.png",
+            "mobile_image": "shopify:\/\/shop_images\/Game_mobile.png",
+            "title": "Greatness for the Gaming Explorer",
+            "content": "",
+            "btn_text": "Learn More",
+            "link": "shopify:\/\/pages\/map-game"
+          }
+        }
+      },
+      "block_order": [
+        "2bcdd17a-c9a4-4f90-bfa0-6ba64c1d24a1",
+        "ea608fab-41f3-4786-b255-2f520cced1b6",
+        "92f78796-6a54-4cf3-898d-a0099a1fe499",
+        "bffbb435-8d67-4840-817c-8719ac40d671"
+      ],
+      "settings": {
+        "section_title": "Ugreen Fits Your Life",
+        "section_bg": ""
+      }
+    },
     "ug-index-benefit": {
       "type": "ug-index-benefit",
       "settings": {
@@ -277,6 +336,7 @@
     "ug-index-category",
     "ug-product-list",
     "ug-index-fit-life",
+    "b6962c61-4afd-4831-a1c2-c4ef32150079",
     "ug-index-benefit",
     "ug-index-blog",
     "ug-index-featured",
