@@ -1295,8 +1295,8 @@
                 "50966"
               ],
               "tag_list": "",
-              "collection_name_list": "Adaptateur Bluetooth,\nAdaptateur Ethernet,\nAdaptateur SD,\nCommutateur HDMI,\nBoîtiers de disque dur",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/bluetooth,https:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,https:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,https:\/\/fr.ugreen.com\/collections\/usb-switch,https:\/\/fr.ugreen.com\/collections\/hard-drive-enclosures",
+              "collection_name_list": "Adaptateur Bluetooth,\nAdaptateur Ethernet,\nAdaptateur SD,\nCommutateur HDMI,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/bluetooth,\nhttps:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,\nhttps:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,\nhttps:\/\/fr.ugreen.com\/collections\/usb-switch,",
               "all_collection_url": "shopify:\/\/collections\/adaptateur",
               "all_collection_name": "ADAPTATEUR"
             }
