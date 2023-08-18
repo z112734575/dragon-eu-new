@@ -1400,6 +1400,7 @@
           },
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Deals & Events",
               "url": "",
@@ -1413,8 +1414,8 @@
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf": {
             "type": "menu",
             "settings": {
-              "title": "CHARGERS",
-              "url": "https:\/\/eu.ugreen.com\/collections\/gan-chargers",
+              "title": "CHARGEURS",
+              "url": "https:\/\/fr.ugreen.com\/collections\/chargeur",
               "open_link": "_self",
               "menu": "product-chargers",
               "icon": "",
