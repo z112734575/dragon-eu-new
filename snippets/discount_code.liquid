@@ -117,13 +117,15 @@
 
         let checkoutContainer = document.createElement('div');
         document.body.appendChild(checkoutContainer);
+        console.log(11111)
         if (localStorage.discountCode) {
             applyDiscount(JSON.parse(localStorage.discountCode).code);
+          console.log(2222)
         }
         applyBtn.addEventListener("click", function(e){
-            console.log(111)
+            console.log(333)
             e.preventDefault()
-            console.log(222)
+            console.log(444)
             try {
                 applyDiscount(discountCodeInput.value);
             } catch (error) {
