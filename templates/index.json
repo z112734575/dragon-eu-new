@@ -261,70 +261,6 @@
         "section_bg": ""
       }
     },
-    "b40fb4f9-97ef-4954-83c9-4c92b8e185bb": {
-      "type": "ug-index-new-fit-life",
-      "blocks": {
-        "f79b7a3f-23ca-4da6-aff1-da8c7294a13a": {
-          "type": "ug-index-category-item",
-          "disabled": true,
-          "settings": {
-            "pc_image": "shopify:\/\/shop_images\/10001_89139a25-a95b-49d4-ae22-68d55a0c8920.png",
-            "mobile_image": "shopify:\/\/shop_images\/10001_89139a25-a95b-49d4-ae22-68d55a0c8920.png",
-            "title": "Perfekt für den Stubenhocker",
-            "content": "Check out our collection of products that will make any house into a power-pumping home!",
-            "btn_text": "Learn More",
-            "link": ""
-          }
-        },
-        "623c9eed-2868-4cd8-9ae7-1951030d43e5": {
-          "type": "ug-index-category-item",
-          "disabled": true,
-          "settings": {
-            "pc_image": "shopify:\/\/shop_images\/10003.png",
-            "mobile_image": "shopify:\/\/shop_images\/10003.png",
-            "title": "",
-            "content": "",
-            "btn_text": "Learn More",
-            "link": ""
-          }
-        },
-        "1df5790a-f0c2-4806-a128-fb7898336931": {
-          "type": "ug-index-category-item",
-          "disabled": true,
-          "settings": {
-            "pc_image": "shopify:\/\/shop_images\/10002_9eea6243-65c7-448d-b9c7-ecf4649c01e7.png",
-            "mobile_image": "shopify:\/\/shop_images\/10002_9eea6243-65c7-448d-b9c7-ecf4649c01e7.png",
-            "title": "",
-            "content": "",
-            "btn_text": "Learn More",
-            "link": ""
-          }
-        },
-        "9312db8f-1d48-436d-8c74-fce69d4ffa2e": {
-          "type": "ug-index-category-item",
-          "disabled": true,
-          "settings": {
-            "pc_image": "shopify:\/\/shop_images\/10004.png",
-            "mobile_image": "shopify:\/\/shop_images\/10004.png",
-            "title": "",
-            "content": "",
-            "btn_text": "Learn More",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "f79b7a3f-23ca-4da6-aff1-da8c7294a13a",
-        "623c9eed-2868-4cd8-9ae7-1951030d43e5",
-        "1df5790a-f0c2-4806-a128-fb7898336931",
-        "9312db8f-1d48-436d-8c74-fce69d4ffa2e"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_title": "Ugreen passt in Ihr Leben",
-        "section_bg": ""
-      }
-    },
     "ug-index-benefit": {
       "type": "ug-index-benefit",
       "settings": {
@@ -457,7 +393,6 @@
     "ug-product-list",
     "ug-index-fit-life",
     "4a624755-364b-42b2-b396-e2d93e409448",
-    "b40fb4f9-97ef-4954-83c9-4c92b8e185bb",
     "ug-index-benefit",
     "ug-index-blog",
     "ug-index-featured",
