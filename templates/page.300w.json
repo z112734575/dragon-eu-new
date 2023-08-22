@@ -3,7 +3,7 @@
     "54ee5526-e5f7-44e7-92c8-8ff30b84789e": {
       "type": "custom-html",
       "settings": {
-        "code": "<style>\n    .ug-footer-subscribe,#lc30399.g55660{\n        display: none!important;\n    }\n<\/style>",
+        "code": "<style>\n    .ug-footer-subscribe,#lc30443.g55734{\n        display: none!important;\n    }\n<\/style>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
