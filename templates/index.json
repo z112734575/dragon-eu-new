@@ -21,6 +21,19 @@
             "className": "buy-more-save-more"
           }
         },
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_300w_Banner_pc.png?v=1692683823",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_300w_Banner_mo.png?v=1692683805",
+            "text_color": "#ffffff",
+            "title": "The First 300W Multiport GaN Charger",
+            "subtitle": "September 5th",
+            "button_text": "Learn More",
+            "link": "\/pages\/ugreen-nexode-300w-gan-desktop-charger",
+            "className": "buy-more-save-more"
+          }
+        },
         "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -46,26 +59,13 @@
             "link": "\/collections\/hubs",
             "className": ""
           }
-        },
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_300w_Banner_pc.png?v=1692683823",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_300w_Banner_mo.png?v=1692683805",
-            "text_color": "#fff",
-            "title": "The First 300W Multiport GaN Charger",
-            "subtitle": "September 5th",
-            "button_text": "Learn More",
-            "link": "\/pages\/ugreen-nexode-300w-gan-desktop-charger",
-            "className": "buy-more-save-more"
-          }
         }
       },
       "block_order": [
         "ug-index-carousel-11",
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e",
-        "ug-index-carousel-1",
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41"
+        "ug-index-carousel-1"
       ],
       "custom_css": [
         ".buy-more-save-more .green-home-banner-box {text-align: left; top: 16vw; left: 20vw;}",
