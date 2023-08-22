@@ -49,13 +49,12 @@
         },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pc.webp?v=1687167151",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobile.webp?v=1687167150",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_300w_Banner_pc.png?v=1692683823",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_300w_Banner_mo.png?v=1692683805",
             "text_color": "#000000",
-            "title": "Buy More Save More",
-            "subtitle": "€4 off for orders over €35 <br>€10 off for orders over €49 <br>€25 off for orders over €149",
+            "title": "The First 300W Multiport GaN Charger",
+            "subtitle": "September 5th",
             "button_text": "Learn More",
             "link": "pages\/voucher",
             "className": "buy-more-save-more"
