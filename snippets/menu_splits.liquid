@@ -50,6 +50,7 @@ assign se_blocks_size_half = se_blocks_size | divided_by: 2
 	            {%- else -%}
 	               <div class="t4s-lazy_menu">{%- render 'menu_dropdown',handle_menu:bk_stts.menu -%}</div>
 	            {%- endif -%} -->
+               {%- render 'menu_dropdown',handle_menu:bk_stts.menu -%}
 	         </div>
 	        {%- endif -%}
 	      </li>
