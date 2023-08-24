@@ -698,7 +698,8 @@
           "label": "导航 ID",
           "min": 1,
           "max": 24,
-          "step": 1
+          "step": 1,
+          "default": 1
         }
       ]
     },
@@ -720,17 +721,17 @@
       ]
     },
     {
-      "type": "link-menu",
+      "type": "single-menu",
       "name": "单个菜单",
       "settings": [
         {
           "type": "text",
-          "id": "link_menu_title",
+          "id": "single_menu_title",
           "label": "导航标题"
         },
         {
-          "type": "link",
-          "id": "link_url",
+          "type": "url",
+          "id": "single_menu_url",
           "label": "链接地址"
         }
       ]
