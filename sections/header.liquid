@@ -595,7 +595,7 @@
       "label": "t:sections.all.colors.label",
       "default": "background-1"
     },
-      {
+    {
       "type": "color_scheme",
       "id": "menu_color_scheme",
       "label": "t:sections.header.settings.menu_color_scheme.label",
@@ -683,6 +683,58 @@
     }
   ],
   "blocks": [
+    {
+      "type": "mega-menu",
+      "name": "超级菜单",
+      "settings": [
+        {
+          "type": "text",
+          "id": "mega_menu_title",
+          "label": "导航标题"
+        },
+        {
+          "type": "range",
+          "id": "mega_menu_id",
+          "label": "导航 ID",
+          "min": 1,
+          "max": 24,
+          "step": 1
+        }
+      ]
+    },
+    {
+      "type": "dropdown-menu",
+      "name": "下拉菜单",
+      "settings": [
+        {
+          "type": "text",
+          "id": "dropdown_menu_title",
+          "label": "导航标题"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "default": "main-menu",
+          "label": "选择菜单"
+        }
+      ]
+    },
+    {
+      "type": "link-menu",
+      "name": "单个菜单",
+      "settings": [
+        {
+          "type": "text",
+          "id": "link_menu_title",
+          "label": "导航标题"
+        },
+        {
+          "type": "link",
+          "id": "link_url",
+          "label": "链接地址"
+        }
+      ]
+    },
     {
       "type": "@app"
     }
