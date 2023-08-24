@@ -5,6 +5,8 @@
   {% render 'header-mega-menu' %}
 {% endcomment %}
 
+{% assign title = mega_title %}
+
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
@@ -21,7 +23,7 @@
                     class="header__active-menu-item"
                   {% endif %}
                 >
-                  {{- link.title | escape -}}
+                  {{- title | escape -}}
                 </span>
                 {% render 'icon-caret' %}
               </summary>
