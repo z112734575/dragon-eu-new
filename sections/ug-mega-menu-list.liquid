@@ -93,7 +93,7 @@
 {%- endif -%}
 
 <script>
-const elementToMoveList = document.getElementsByClassName('ug-mega-contents');
+const elementToMoveList = document.querySelectorAll('.ug-mega-contents');
 elementToMoveList.forEach(element => {
     console.log(element.getAttribute('data-parent-id'), 'ele')
     const parent = document.getElementById(element.getAttribute('data-parent-id'));
