@@ -66,6 +66,41 @@
     },
     "ug-mega-menu-list": {
       "type": "ug-mega-menu-list",
+      "blocks": {
+        "ae3dee0a-050f-4d86-900b-e75882bcd462": {
+          "type": "mega",
+          "settings": {
+            "id": 1
+          }
+        },
+        "c323f091-db2c-43e2-be8c-9b951ad2d19b": {
+          "type": "tab_list",
+          "settings": {
+            "tab_name_list": "Power Station,Chargers,Docks & Hubs,Cables,Adapters,For Laptop,For Phone&Tablet,For Car",
+            "tab_image_list": "",
+            "tab_link_list": ""
+          }
+        },
+        "fbb1c9df-f4c6-499e-937a-14fa40db5215": {
+          "type": "tab_content",
+          "settings": {
+            "tab_id": 1,
+            "product_list": [
+
+            ],
+            "tag_list": "",
+            "collection_name_list": "",
+            "collection_link_list": "",
+            "all_collection_url": "",
+            "all_collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "ae3dee0a-050f-4d86-900b-e75882bcd462",
+        "c323f091-db2c-43e2-be8c-9b951ad2d19b",
+        "fbb1c9df-f4c6-499e-937a-14fa40db5215"
+      ],
       "settings": {
       }
     }
