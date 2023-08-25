@@ -56,6 +56,6 @@ class MegaMenu {
     }
 }
 
-document.querySelectorAll('.ug-menu-custom').forEach((el) => {
+document.querySelectorAll('.mega-menu__list').forEach((el) => {
     new MegaMenu(el);
 });
