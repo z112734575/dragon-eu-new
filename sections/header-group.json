@@ -65,7 +65,9 @@
       }
     },
     "ug-mega-menu-list": {
-      "type": "mega-menu-list"
+      "type": "ug-mega-menu-list",
+      "settings": {
+      }
     }
   },
   "order": [
