@@ -1,0 +1,196 @@
+{%- liquid
+    assign se_blocks = section.blocks
+    assign se_blocks_size = se_blocks.size
+    assign checkFirst = true
+-%}
+
+
+
+{%- for block in se_blocks -%}{%- assign bk_type = block.type -%}{%- assign bk_stts = block.settings -%}
+{%- if checkFirst and bk_type == 'mega' -%}
+{%- assign checkFirst = false -%}
+    <div id="ug-mega-contents{{ bk_stts.id }}" {{ block.shopify_attributes }}>
+        <link rel="stylesheet" href="{{ 'ug-mega-menu.css' | asset_url }}" media="all">
+        {% comment %}<script src="{{ 'ug-mega-menu.js' | asset_url }}" async="async"></script>{% endcomment %}
+        {%- elsif bk_type == 'mega' -%}
+    </div>
+<div id="ug-mega-contents{{ bk_stts.id }}" {{ block.shopify_attributes }}>
+    {% comment %}<link rel="stylesheet" href="{{ 'mega-menu.css' | asset_url }}" media="all">{% endcomment %}
+    <link rel="stylesheet" href="{{ 'ug-mega-menu.css' | asset_url }}" media="all">
+    <script src="{{ 'ug-mega-menu.js' | asset_url }}" async="async"></script>
+    {%- endif -%}
+
+    {%- case bk_type -%}
+        {% when 'tab_list' %}
+            {% assign settings = bk_stts %}
+            {% assign tab_name_list = settings.tab_name_list | split: "," %}
+            <ul class="ug-menu-tab-wrap">
+                {% for tab_name in tab_name_list %}
+                    <li id="ug-menu-tab{{ forloop.index }}"
+                        class="mega-menu-tab {% if forloop.index == 1 %}active{% endif %}">
+                        {{ tab_name }}
+                        <span> > </span>
+                    </li>
+                {% endfor %}
+            </ul>
+
+        {% when 'tab_content' %}
+            {% assign settings = bk_stts %}
+            {% assign tab_id = settings.tab_id %}
+
+            {% assign product_list = settings.product_list %}
+            {% assign tag_list = settings.tag_list | split: "," %}
+            {% assign collection_name_list = settings.collection_name_list | split: ',' %}
+            {% assign all_collection_url = settings.all_collection_url %}
+            {% assign all_collection_name = settings.all_collection_name %}
+            {% assign collection_link_list = settings.collection_link_list | split: ',' %}
+            <div class="ug-tab-content ug-menu-tab{{ tab_id }} {% if tab_id == 1 %}active animate{% endif %}">
+                <div class="ug-tab-product-list">
+                    {% for product in product_list %}
+                        {% assign index = forloop.index | minus: 1 %}
+                        <a href="{{ product.url }}">
+                            <div class="ug-tab-product-item">
+                                <div class="ug-tab-product-image">
+                                    <img src="{{ product.featured_image | img_url: '300x300' }}"
+                                         alt="{{ product.title }}">
+                                </div>
+                                <div class="ug-tab-product-info">
+                                    <div class="ug-tab-product-title">
+                                        {{ product.title }}
+                                    </div>
+                                    {% if tag_list[index] != blank %}
+                                        <div class="ug-tab-product-tag">
+                                            {{ tag_list[index] }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+                <div class="ug-tab-collection-bar">
+                    <div class="ug-tab-collection-list">
+                        {% for collection_name in collection_name_list %}
+                            {% assign index = forloop.index | minus: 1 %}
+                            <div class="ug-tab-collection">
+                                <a href="{{ collection_link_list[index] }}">
+                                    {{ collection_name }} >
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    {% if all_collection_name != blank %}
+                        <a class="ug-tab-all-collection" id="ug-tab-all-collection" href="{{ all_collection_url }}">
+                            {{ all_collection_name }} >
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+    {%- endcase -%}
+    {%- endfor -%}
+    {%- if se_blocks_size > 0 -%}
+</div>
+{%- endif -%}
+
+
+{%- schema -%}
+{
+  "name": "Mega menu",
+  "tag": "div",
+  "class": "ug-mega-menu__list__inner",
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "type": "mega",
+      "name": "Mega Menu (Parent)",
+      "settings": [
+        {
+          "type": "range",
+          "id": "id",
+          "min": 1,
+          "max": 16,
+          "step": 1,
+          "label": "ID",
+          "unit": "#",
+          "info": "ID connect mega menu.",
+          "default": 1
+        }
+      ]
+    },
+    {
+      "type": "tab_list",
+      "name": "菜单列表",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "tab_name_list",
+          "label": "菜单名",
+          "info": "以英文逗号分割"
+        },
+        {
+          "type": "textarea",
+          "id": "tab_image_list",
+          "label": "菜单图片",
+          "info": "以英文逗号分割"
+        },
+        {
+          "type": "textarea",
+          "id": "tab_link_list",
+          "label": "菜单跳转链接",
+          "info": "以英文逗号分割"
+        }
+      ]
+    },
+    {
+      "type": "tab_content",
+      "name": "商品列表",
+      "settings": [
+        {
+          "type": "range",
+          "id": "tab_id",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "label": "菜单ID",
+          "default": 1
+        },
+        {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "商品列表选择",
+          "limit": 5
+        },
+        {
+          "type": "textarea",
+          "id": "tag_list",
+          "label": "标签列表",
+          "info": "以英文逗号分割"
+        },
+        {
+          "type": "textarea",
+          "id": "collection_name_list",
+          "label": "按钮名列表",
+          "info": "以英文逗号分割"
+        },
+        {
+          "type": "textarea",
+          "id": "collection_link_list",
+          "label": "按钮名列表链接",
+          "info": "以英文逗号分割"
+        },
+        {
+          "type": "url",
+          "id": "all_collection_url",
+          "label": "总按钮链接"
+        },
+        {
+          "type": "text",
+          "id": "all_collection_name",
+          "label": "总按钮文案"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -63,10 +63,14 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "ug-mega-menu-list": {
+      "type": "mega-menu-list"
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "ug-mega-menu-list"
   ]
 }
