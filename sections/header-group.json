@@ -35,10 +35,18 @@
             "title": "测试",
             "mega_menu_id": 1
           }
+        },
+        "95ab3d47-3ea9-4d69-8464-28391e0db547": {
+          "type": "mega-menu",
+          "settings": {
+            "title": "222",
+            "mega_menu_id": 2
+          }
         }
       },
       "block_order": [
-        "5f5e13ec-a045-4ae3-bced-4f7e5312c19f"
+        "5f5e13ec-a045-4ae3-bced-4f7e5312c19f",
+        "95ab3d47-3ea9-4d69-8464-28391e0db547"
       ],
       "settings": {
         "logo_position": "middle-left",
