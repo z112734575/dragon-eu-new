@@ -197,17 +197,20 @@
         {%- endif -%}
 
 
-
-        {%- for block in section.blocks -%}
-            {%- case block.type -%}
-                {%- when 'mega-menu' -%}
-                   {% render 'header-mega-menu', title: block.title %}
-                {%- when 'dropdown-menu' -%}
-                {% render 'header-dropdown-menu', title: block.title %}
-                {%- when 'single-menu' -%}
-                    <div>{{ block.title }}</div>
-            {%- endcase -%}
-        {%- endfor -%}
+        <nav class="header__inline-menu">
+            <ul class="list-menu list-menu--inline" role="list">
+                {%- for block in section.blocks -%}
+                    {%- case block.type -%}
+                        {%- when 'mega-menu' -%}
+                            {% render 'ug-mega-menu', settings: block.settings %}
+                        {%- when 'dropdown-menu' -%}
+                            {% render 'header-dropdown-menu', title: block.title %}
+                        {%- when 'single-menu' -%}
+                            <div>{{ block.title }}</div>
+                    {%- endcase -%}
+                {%- endfor -%}
+            </ul>
+        </nav>
 
         {%- if section.settings.logo_position == 'middle-center' -%}
             {%- if request.page_type == 'index' -%}

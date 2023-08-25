@@ -1,0 +1,43 @@
+{% comment %}
+  Renders a megamenu for the header.
+
+  Usage:
+  {% render 'header-mega-menu' %}
+{% endcomment %}
+
+{% assign title = settings.title %}
+{% assign id = settings.id %}
+
+
+<li>
+    <header-menu>
+        <details id="Details-HeaderMenu-{{ id }}" class="mega-menu">
+            <summary
+                    id="HeaderMenu-{{ id }}"
+                    class="header__menu-item list-menu__item link focus-inset"
+            >
+                <span
+                  {%- if link.child_active %}
+                      class="header__active-menu-item"
+                  {% endif %}
+                >
+                  {{- title | escape -}}
+                </span>
+                {% render 'icon-caret' %}
+            </summary>
+            <div
+                    id="MegaMenu-Content-{{ id }}"
+                    class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                    tabindex="-1"
+            >
+                <ul
+                        id="MegaMenu-menu-list-{{ id }}"
+                        class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                        role="list"
+                >
+                    111
+                </ul>
+            </div>
+        </details>
+    </header-menu>
+</li>
