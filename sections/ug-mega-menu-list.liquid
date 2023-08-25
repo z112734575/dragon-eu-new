@@ -92,13 +92,13 @@
 </div>
 {%- endif -%}
 
-{% javascript %}
+<script>
 const elementToMoveList = document.getElementsByClassName('ug-mega-contents');
 elementToMoveList.forEach(element => {
     const parent = document.getElementById(element.getAttribute('data-parent-id'));
     parent.insertBefore(element, parent.firstChild);
 });
-{% endjavascript %}
+</script>
 
 
 {%- schema -%}
