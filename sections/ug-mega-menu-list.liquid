@@ -11,11 +11,11 @@
 {%- assign checkFirst = false -%}
     <div id="ug-mega-contents-{{ bk_stts.id }}" {{ block.shopify_attributes }} class="ug-mega-contents" data-parent-id="MegaMenu-menu-list-{{ bk_stts.id }}">
         <link rel="stylesheet" href="{{ 'ug-mega-menu.css' | asset_url }}" media="all">
-        {% comment %}<script src="{{ 'ug-mega-menu.js' | asset_url }}" async="async"></script>{% endcomment %}
+        <script src="{{ 'ug-mega-menu.js' | asset_url }}" async="async"></script>
         {%- elsif bk_type == 'mega' -%}
     </div>
 <div id="ug-mega-contents{{ bk_stts.id }}" {{ block.shopify_attributes }}>
-    {% comment %}<link rel="stylesheet" href="{{ 'mega-menu.css' | asset_url }}" media="all">{% endcomment %}
+    <link rel="stylesheet" href="{{ 'mega-menu.css' | asset_url }}" media="all">
     <link rel="stylesheet" href="{{ 'ug-mega-menu.css' | asset_url }}" media="all">
     <script src="{{ 'ug-mega-menu.js' | asset_url }}" async="async"></script>
     {%- endif -%}
