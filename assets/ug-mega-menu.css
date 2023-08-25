@@ -1,3 +1,7 @@
+.ug-mega-contents {
+    display: flex;
+    gap: 24px;
+}
 .ug-menu-tab-wrap {
     width: 170px;
     padding: 0;
