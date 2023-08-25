@@ -9,7 +9,7 @@
 {%- for block in se_blocks -%}{%- assign bk_type = block.type -%}{%- assign bk_stts = block.settings -%}
 {%- if checkFirst and bk_type == 'mega' -%}
 {%- assign checkFirst = false -%}
-    <div id="ug-mega-contents-{{ bk_stts.id }}" {{ block.shopify_attributes }} class="ug-mega-contents" data-parent-id="MegaMenu-menu-list-{{ id }}">
+    <div id="ug-mega-contents-{{ bk_stts.id }}" {{ block.shopify_attributes }} class="ug-mega-contents" data-parent-id="MegaMenu-menu-list-{{ bk_stts.id }}">
         <link rel="stylesheet" href="{{ 'ug-mega-menu.css' | asset_url }}" media="all">
         {% comment %}<script src="{{ 'ug-mega-menu.js' | asset_url }}" async="async"></script>{% endcomment %}
         {%- elsif bk_type == 'mega' -%}
