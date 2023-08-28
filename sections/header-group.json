@@ -42,11 +42,27 @@
             "title": "222",
             "mega_menu_id": 2
           }
+        },
+        "2c60683a-d0c1-495c-811a-8078c0778342": {
+          "type": "dropdown-menu",
+          "settings": {
+            "title": "我是傻逼",
+            "menu": "main-menu"
+          }
+        },
+        "fea4d5fc-e093-4e3a-b2c2-991232bcb109": {
+          "type": "single-menu",
+          "settings": {
+            "title": "你是傻逼",
+            "single_menu_url": "shopify:\/\/collections\/accessoires-pour-telephone"
+          }
         }
       },
       "block_order": [
         "5f5e13ec-a045-4ae3-bced-4f7e5312c19f",
-        "95ab3d47-3ea9-4d69-8464-28391e0db547"
+        "95ab3d47-3ea9-4d69-8464-28391e0db547",
+        "2c60683a-d0c1-495c-811a-8078c0778342",
+        "fea4d5fc-e093-4e3a-b2c2-991232bcb109"
       ],
       "settings": {
         "logo_position": "middle-left",
