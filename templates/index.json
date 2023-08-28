@@ -10,6 +10,7 @@
       "blocks": {
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_ae51d297-40e4-413e-a3ca-f0ae2018c190.webp?v=1691573824",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mobile_c7bf64f5-7c5b-45af-88bd-b94aaae4f05e.webp?v=1691573823",
