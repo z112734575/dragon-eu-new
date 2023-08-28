@@ -1,66 +1,247 @@
 {
   "sections": {
-    "heading": {
-      "type": "heading-template",
+    "e49dddc3-8400-4a86-a3ec-b69a2fd75773": {
+      "type": "custom-html",
       "settings": {
-        "use_specify_image": true,
-        "parallax": false,
-        "color": "#000000",
-        "overlay": 54,
-        "padding": 50,
-        "paddingmb": 50,
-        "mg_b": 50,
-        "mg_bmb": 50,
-        "content_align": "t4s-text-center",
-        "bg_pos": "center center",
-        "bg_repeat": "no-repeat",
-        "bg_size": "cover",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "layout": "t4s-container-wrap",
+        "code": "<style>\n    .contant{\n        width: 100%;\n        max-width: 1280px;\n        margin: 0 auto;\n    }\n    \/* ug_bundles *\/\n    .ug_bundles{\n        background: #FFF5D3;\n        padding: 1.146vw 0;\n    }\n    .ug_bundles_box{\n        display: flex;\n        justify-content: space-between;\n    }\n    .ug_bundles_box > div:nth-child(1){\n        border-right: 0.052vw solid rgba(245,135,32,.4);;\n    }\n    .ug_bundles_box .item{\n        width: 50%;\n        display: flex;\n        justify-content: space-between;\n        padding: 0.417vw 2.604vw;\n    }\n    .ug_bundles_box .item .left{\n        text-align: center;\n    }\n    .ug_bundles_box .item .left p{\n        font-weight: 600;\n        font-size: 2.292vw;\n        line-height: 2.292vw;\n        color: #FF8818;\n        margin-bottom: 0.521vw;\n    }\n    .ug_bundles_box .item .left span{\n        font-size: 1.042vw;\n        color: #333333;\n    }\n    .ug_bundles_box .item .right{\n        display: flex;\n        align-items: center;\n    }\n    .ug_bundles_box .item .right p{\n        font-size: 1.042vw;\n        color: #FF8818;\n        margin: 0;\n    }\n    .ug_bundles_box .item .right .copy-btn{\n        display: inline-block;\n        padding: 0.521vw 1.5625vw;\n        background: #FFFFFF;\n        border: 1px solid #FF8818;\n        border-radius: 5.208vw;\n        font-weight: 600;\n        font-size: 0.833vw;\n        color: #FF8818;\n        margin: 0 0 0 1.042vw;\n    }\n    .ug_bundles_box .item .right .copy-btn:hover{\n        background: #FF8818;\n        color: #FFFFFF;\n    }\n    \/* svg_title *\/\n    .svg_title{\n    padding: 4.25vw 0 2.083vw 0;\n    text-align: center;\n}\n.svg_title svg{\n    display: inline-block;\n    width: 1.875vw;\n    height: 1.875vw;\n}\n.svg_title h2{\n    font-weight: 700;\n    font-size: 1.875vw;\n    color: #000000;\n    padding: 0.521vw 0 0.78125vw 0;\n    line-height: 2.083vw;\n}\n.svg_title h2 span{\n    font-weight: 700;\n}\n.svg_title p{\n    font-weight: 500;\n    font-size: 1.042vw;\n    color: #666666;\n    margin: 0!important;\n    line-height: 1.042vw;\n}\n.svg_title p button{ \n    color: #FF8818;\n    background: none;\n    padding: 0;\n    font-size: 1.042vw;\n}\n\/* details *\/\n.details_box .section_box{\n    max-width: 50vw;\n    margin: 0 auto;\n}\n.details_box{\n    padding: 5.208vw 0;\n    background: #F5F5F7;\n}\n.details_box h2{\n    font-weight: 700;\n    font-size: 1.5625vw;\n    color: #000000;\n    margin-bottom: 2.083vw;\n    text-align: center;\n}\n.details_box li{\n    font-size: 1.042vw;\n    line-height: 1.5625vw;\n    color: #666666;\n    list-style: disc;\n}\n.details_box li button{\n    color: #FF8818;\n    background: none;\n    padding: 0;\n    font-size: 1.042vw;\n}\n.load-more__btn{\n    color: #FF8818!important;\n}\n#tabs_product .ug-product-list{\n    max-height: 660px;\n    overflow: hidden;\n}\n#tabs_product .ug-product-list.swiper-slide-active{\n    max-height: none;\n}\n@media (min-width: 2050px) {\n    #tabs_product .ug-product-list,.contant,.ug-product-list{\n        max-width: 1680px!important;\n    }\n}\n@media (max-width: 768px) {\n    #tabs_product .ug-product-list{\n        max-height: 820px;\n    }\n    .ug_bundles{\n        padding: 0 4vw;\n    }\n    .ug_bundles_box{\n        flex-direction: column;\n    }\n    .ug_bundles_box > div:nth-child(1){\n        border-right: 0;\n        border-bottom: 0.267vw solid rgba(245,135,32,.4);\n    }\n    .ug_bundles_box .item{\n        width: 100%;\n        padding: 2.667vw 4vw;\n    }\n    .ug_bundles_box .item .left p{\n        font-size: 5.333vw;\n        line-height: 5.333vw;\n        margin: 0;\n    }\n    .ug_bundles_box .item .left span{\n        font-size: 3.2vw;\n    }\n    .ug_bundles_box .item .right p{\n        font-size: 3.2vw;\n        color: #000;\n    }\n    .ug_bundles_box .item .right .copy-btn{\n        padding: 1.867vw 5.333vw;\n        font-size: 3.733vw;\n        margin: 0 0 0 5.333vw;\n    }\n    .svg_title{\n        padding: 16vw 0 4vw 0;\n    }\n    .svg_title svg{\n        width: 10.133vw;\n        height: 10.133vw;\n    }\n    .svg_title h2{\n        font-size: 6.4vw;\n        line-height: 8vw;\n        padding: 2.667vw 0 0 0;\n    }\n    .svg_title p{\n        font-size: 4.267vw;\n        line-height: 6.4vw;\n        padding: 2.667vw 21vw 0 21vw;\n    }\n    .svg_title p button{\n        font-size: 12px;\n    }\n    .details_box{\n        padding: 16vw 5.333vw;\n    }\n    .details_box .section_box{\n        max-width: 100%;\n    }\n    .details_box h2{\n        font-size: 6.4vw;\n        margin-bottom: 6.667vw;\n    }\n    .details_box li{\n        font-size: 4.267vw;\n        line-height: 6.4vw;\n    }\n    .details_box li button{\n        font-size: 4.267vw;\n       \n    }\n    \n}\n<\/style>",
+        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "60px,,60px,",
+        "mg": "",
         "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
-    "sidebar-page": {
-      "type": "sidebar-page",
+    "d2230466-b5fe-49cc-ac39-926497ba0c21": {
+      "type": "page_banner",
+      "settings": {
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/30__pc.png?v=1687312653",
+        "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/30__mobile.png?v=1687312652",
+        "image_alt": "Featured Deals"
+      }
+    },
+    "ba30f705-8ef4-4326-9574-a9913009c92c": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "code": "<section class=\"ug_bundles\">\n        <div class=\"contant\">\n            <div class=\"ug_bundles_box\">\n                <div class=\"item\">\n                    <div class=\"left\">\n                        <p>€10 Off<\/p>\n                        <span>Ordes of 79+<\/span>\n                    <\/div>\n                    <div class=\"right\">\n                        <p>Code: Ugreen10<\/p>\n                        <button data-ug-copy-data=\"Ugreen10\" class=\"copy-btn\">Copy<\/button>\n                    <\/div>\n                <\/div>\n                <div class=\"item\">\n                    <div class=\"left\">\n                        <p>€25 Off<\/p>\n                        <span>Ordes of 149+<\/span>\n                    <\/div>\n                    <div class=\"right\">\n                        <p>Code: Ugreen25<\/p>\n                        <button data-ug-copy-data=\"Ugreen25\" class=\"copy-btn\">Copy<\/button>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "87863d7e-936f-43c0-9c2b-4d59cb5688f1": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-sale_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Our Recommend<\/span>\n<\/h2>\n    <\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "product_list": [
+          "ugreen-nexode-200w-usb-c-desktop-charger",
+          "100w-3c1a-gan-fast-charger",
+          "65w-3-ports-gan-fast-charger",
+          "ugreen-nexode-140w-usb-c-wall-charger",
+          "6-in-1-usb-c-adapter-with-4k-hdmi",
+          "ugreen-9-in-1-usb-c-docking-station"
+        ],
+        "title": "",
+        "subtitle": "",
+        "section_id": "ug-product-list",
+        "pc_product_type": "row",
+        "mobile_product_type": "row",
+        "product_item_bg_color": "#f5f5f7",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "57%",
+        "pc_row": "2",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "0",
+        "mobile_padding": "0",
+        "need_load_more": false,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true
+      }
+    },
+    "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
+      "type": "custom-html",
+      "settings": {
+        "code": "",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "ug-tabs-product-list": {
+      "type": "ug-tabs-product-list",
       "blocks": {
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
-          "type": "blog_cate",
+        "2632b153-e4f5-4946-9146-3002be2c2b29": {
+          "type": "ug-product-list-tabs",
           "settings": {
-            "title": "Blog categories",
-            "cat_link_list": "",
-            "count": true
+            "tabs_title": "GaN Chargers",
+            "product_list": [
+              "ugreen-nexode-200w-usb-c-desktop-charger",
+              "ugreen-65w-usb-c-diginest-cube-charging-station",
+              "ugreen-65w-nexode-gan-usb-c-3-port-charger-with-us-uk-eu-plug-for-travel",
+              "ugreen-100w-usb-c-diginest-pro-power-strip",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "65w-3-ports-gan-fast-charger",
+              "100w-dual-port-gan-fast-charger",
+              "ugreen-nexode-100w-usb-c-wall-charger-4-ports"
+            ]
+          }
+        },
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Hubs & Docking",
+            "product_list": [
+              "6-in-1-usb-c-adapter-with-4k-hdmi",
+              "ugreen-9-in-1-usb-c-docking-station",
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-9-in-1-usb-c-hub-with-4k-hdmi"
+            ]
+          }
+        },
+        "b1f03e12-3265-4ff0-8e67-78c87a9afabf": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "PowerRoam",
+            "product_list": [
+              "ugreen-powerroam1200-power-station",
+              "ugreen-powerroam-1200-solar-generation",
+              "ugreen-powerroam-600-power-station"
+            ]
+          }
+        },
+        "ca5e5743-557b-4aba-aa51-946342cd18ce": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Adapters",
+            "product_list": [
+              "usb-2-0-to-3-5mm-bluetooth-aux-adapter",
+              "ugreen-usb-3-0-4-port-switch",
+              "ugreen-m-2-nvme-sata-ssd-enclosure-reader",
+              "ugreen-m-2-nvme-sata-ssd-enclosure-adapter"
+            ]
+          }
+        },
+        "6a1282f5-6f7c-435a-aa88-7d876a77f826": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Cable & Stand",
+            "product_list": [
+              "ugreen-360-rotating-tablet-stand-holder",
+              "ugreen-240w-pd3-1-usb-c-to-usb-c-cable",
+              "adjustable-aluminum-phone-holder",
+              "ugreen-cell-phone-stand-for-desk",
+              "cell-phone-stand-holder"
+            ]
           }
         }
       },
       "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+        "2632b153-e4f5-4946-9146-3002be2c2b29",
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
+        "b1f03e12-3265-4ff0-8e67-78c87a9afabf",
+        "ca5e5743-557b-4aba-aa51-946342cd18ce",
+        "6a1282f5-6f7c-435a-aa88-7d876a77f826"
       ],
-      "disabled": true,
       "settings": {
-        "enable_drawer": false,
-        "space": 50,
-        "size": "medium",
-        "br_style": "none",
-        "brcolor": "#222222",
-        "sidebar_bdr": 5,
-        "sidebar_pd": 10
+        "section_id": "tabs_product",
+        "section_icon": "icon-discount_icon1",
+        "section_title": "Up to 30% OFF",
+        "sub_title": "Looking for more gift ideas? Find more event products here!",
+        "list_all": "6",
+        "product_item_bg_color": "#f5f5f7",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "100%",
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "35px 0 120px 0",
+        "mobile_padding": "35px 0 80px 0",
+        "need_load_more": true,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true
+      }
+    },
+    "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"details_box\">\n    <div class=\"section_box\">\n        <h2>Details<\/h2>\n        <ul>\n            <li>The Featured Deals page will change the form of activities regularly, but the discount is up to 30% (based on MSRP)\n<\/li>\n            <li>Final interpretation of rights belongs solely to Ugreen Group, Ltd.<\/li>\n        <\/ul>\n    <\/div>\n<\/section>\n<script src=\"https:\/\/at.alicdn.com\/t\/c\/font_3829374_0qkgxntptos.js\"><\/script>\n<script type=\"text\/javascript\">\n     \/\/ copy\n    $(function() {\n    let timeId = null;\n    $('[data-ug-copy-data]').click(function () {\n        clearTimeout(timeId);\n        timeId = setTimeout(() => {\n            var copyText = $(this).attr('data-ug-copy-data');\n            var input = document.createElement('input');\n            input.setAttribute('value',copyText);\n            document.body.appendChild(input);\n            input.select();\n            if (document.execCommand('copy')) {\n                document.execCommand('copy');\n                $(this).text('Copied!');\n                }\n                document.body.removeChild(input);\n        },200);});\n        $('.ug-product-buy-btn').text('Add to Cart');\n    })\n<\/script>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "cad238b2-e0fd-431c-8f18-c654585ffaa5": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<style>\n    .ug-day-bg {\n        position: absolute;\n        \n    }\n    .ug-day-bg1 {\n        left: 0;\n        top: 44.125vw;\n        width: min(460px, 21vw);\n    }\n    .ug-day-bg2 {\n        right: -4.375vw;\n        top: 60vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg3{\n        left: 2.375vw;\n        top: 115vw; \n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg4{\n        right: -5.375vw;\n        top: 113vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg5{\n        left: -0.625vw;\n        top: 157vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg6{\n        left: 2.625vw;\n        top: 192vw;\n        width: min(360px, 18.75vw);\n    }\n    .ug-day-bg7{\n        right: 2vw;\n        width: min(360px, 18.75vw);\n        top: 174vw;\n        transform: rotate(65deg);\n    }\n    @media screen and (max-width: 1200px){\n        .ug-day-bg {\n            display: none;\n        }\n    }\n<\/style>\n<div class=\"ug-day-bg1 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img1_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg2 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img2_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg3 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img3_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg4 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img4_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg5 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img5_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg6 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img6_pc.png?v=1680255000\" alt=\"\"><\/div>\n<div class=\"ug-day-bg7 ug-day-bg\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/img7_pc.png?v=1680255000\" alt=\"\"><\/div>\n\n<script>\n    $(function(){\n        if(isMobile()){\n            $('.ug-day-bg').remove()\n        }\n    })\n<\/script>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     }
   },
   "order": [
-    "heading",
-    "main",
-    "sidebar-page"
+    "e49dddc3-8400-4a86-a3ec-b69a2fd75773",
+    "d2230466-b5fe-49cc-ac39-926497ba0c21",
+    "ba30f705-8ef4-4326-9574-a9913009c92c",
+    "87863d7e-936f-43c0-9c2b-4d59cb5688f1",
+    "ug-product-list",
+    "e8f15098-8dc6-40ea-98fc-74037a3d1191",
+    "ug-tabs-product-list",
+    "121d9e92-ecf9-4049-b9c6-bf173a4295fe",
+    "cad238b2-e0fd-431c-8f18-c654585ffaa5"
   ]
 }
