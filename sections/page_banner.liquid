@@ -1,12 +1,58 @@
-{% schema %}
+<style>
+    /*Page banner style*/
+           .page_banner {
+          position: relative;
+      }
+  
+      .page_banner img {
+          width: 100%;
+      }
+  </style>
+  <!-- Page Banner -->
+  <section class="page_banner">
+          <picture>
+              <source srcset="{{ section.settings.mol_image_url }}" media="(max-width: 375px)">
+              <source srcset="{{ section.settings.mol_image_url }}" media="(max-width: 768px)">
+              <source srcset="{{ section.settings.pc_image_url }}" media="(max-width: 1080px)">
+              <source srcset="{{ section.settings.pc_image_url }}" media="(max-width: 1200px)">
+              <source srcset="{{ section.settings.pc_image_url }}" media="(max-width: 1920px)">
+              <img src="{{ section.settings.pc_image_url }}" alt="{{ section.settings.image_alt }}">
+          </source></source></source></source></source></picture>
+          
+      </section>
+  
+  {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Page banner",
+    "settings": [
+      {
+            "type": "text",
+            "id": "pc_image_url",
+            "label": "PC Image URL"
+          },
+      {
+            "type": "text",
+            "id": "mol_image_url",
+            "label": "MOL Image URL"
+          },
+      {
+            "type": "text",
+            "id": "image_alt",
+            "label": "Image alt"
+          }
+    ],
+    "presets": [
+    {
+      "name": "Page banner"
+    }
+  ],
+  "templates": ["page"]
   }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}
+  
