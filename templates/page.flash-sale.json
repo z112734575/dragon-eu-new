@@ -54,6 +54,16 @@
             ]
           }
         },
+        "563e8dd5-3fa7-4939-b349-ae402e9db803": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Power Bank",
+            "product_list": [
+              "90597",
+              "ugreen-foldable-kickstand-magnetic-battery-10000mah"
+            ]
+          }
+        },
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -101,25 +111,15 @@
               "20471"
             ]
           }
-        },
-        "563e8dd5-3fa7-4939-b349-ae402e9db803": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Power Bank",
-            "product_list": [
-              "90597",
-              "ugreen-foldable-kickstand-magnetic-battery-10000mah"
-            ]
-          }
         }
       },
       "block_order": [
         "2632b153-e4f5-4946-9146-3002be2c2b29",
+        "563e8dd5-3fa7-4939-b349-ae402e9db803",
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "b1f03e12-3265-4ff0-8e67-78c87a9afabf",
         "ca5e5743-557b-4aba-aa51-946342cd18ce",
-        "6a1282f5-6f7c-435a-aa88-7d876a77f826",
-        "563e8dd5-3fa7-4939-b349-ae402e9db803"
+        "6a1282f5-6f7c-435a-aa88-7d876a77f826"
       ],
       "settings": {
         "section_id": "tabs_product",
@@ -164,10 +164,15 @@
       "type": "ug-product-list",
       "settings": {
         "product_list": [
-          "90889",
-          "80133",
+          "10343",
           "50698",
-          "60450"
+          "90889",
+          "60515",
+          "90568",
+          "90541",
+          "50737",
+          "30768",
+          "30767"
         ],
         "title": "",
         "subtitle": "",
