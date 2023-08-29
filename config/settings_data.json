@@ -710,10 +710,9 @@
           },
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
             "type": "drop",
-            "disabled": true,
             "settings": {
               "title": "Deals & Events",
-              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
+              "url": "shopify:\/\/pages\/flash-deal",
               "open_link": "_self",
               "menu": "",
               "icon": "",
