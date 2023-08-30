@@ -1,0 +1,61 @@
+{% liquid
+    assign title = block.title
+    assign sub_title = block.sub_title
+    assign poster = block.poster
+    assign video_src = block.video_src
+    assign background = block.body_color | default: "transparent"
+    assign text_color = block.text_color | default: "#000000"
+    assign max_width = block.max_width | default: "100%"
+    assign pc_padding = block.pc_padding | default: "120px 0 0"
+    assign mobile_padding = block.mobile_padding | default: "60px 10px 0"
+%}
+
+<style>
+    .ug-custom-desc-full-video-{{ id }} {
+        background-color: {{ background }};
+        padding: {{ pc_padding }};
+    }
+    .ug-custom-desc-full-video-{{ id }} .video-container {
+        max-width: {{max_width}};
+        margin: 0 auto;
+    }
+    @media (max-width: 767px) {
+        .ug-custom-desc-full-video-{{ id }} {
+            padding: {{ mobile_padding }};
+        }
+        .ug-custom-desc-full-video-{{ id }} .video-container {
+            max-width: 100%;
+        }
+    }
+</style>
+
+
+<div class="ug-custom-desc-full-video-{{ id }} ug-custom-desc-section">
+    {% render 'ug-custom-desc-title-line', title: title, sub_title: sub_title, text_color: text_color %}
+    {% if video_src != blank %}
+        <div class="video-container">
+            <video width="100%" height="auto" preload="none" poster="{{ poster }}" controls="" class="ug-custom-video">
+                <source src="{{ video_src }}">
+            </video>
+            <div class="play-btn" style=""></div>
+        </div>
+    {% endif %}
+</div>
+
+<script>
+    $(document).ready(function () {
+        if (window.innerWidth <= 768) return
+        const video = $('.ug-custom-desc-full-video-{{ id }} .ug-custom-video')
+        const playBtn = $('.ug-custom-desc-full-video-{{ id }} .play-btn');
+        playBtn.click(function () {
+            video.get(0).play();
+        });
+        video.on('play', function () {
+            playBtn.hide();
+        });
+        video.on('pause', function () {
+            playBtn.show();
+        });
+    });
+
+</script>

@@ -50,8 +50,7 @@
               "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
               "ugreen-65w-usb-c-pd-charger-4-ports",
               "ugreen-nexode-100w-usb-c-wall-charger",
-              "ugreen-65w-power-strip-diginest-cube-gan-extension-lead-with-usb-c-slots",
-              "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger"
+              "ugreen-nexode-200w-usb-c-desktop-charger"
             ]
           }
         },
@@ -60,12 +59,10 @@
           "settings": {
             "tabs_title": "For iphone",
             "product_list": [
-              "ugreen-145w-power-bank-for-laptop",
-              "ugreen-2-in-1-magnetic-wireless-charging-station",
-              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
-              "ugreen-hands-free-air-vent-car-phone-holder",
               "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
-              "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable"
+              "ugreen-10000mah-magsafe-wireless-power-bank",
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray"
             ]
           }
         },
@@ -77,7 +74,7 @@
               "ugreen-usb-c-to-lightning-cable",
               "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable",
               "ugreen-2-pack-usb-c-to-usb-c-charger-cable-100w-65w-power-delivery",
-              "ugreen-100w-usb-c-to-usb-c-cable"
+              "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0"
             ]
           }
         },
@@ -127,7 +124,8 @@
             "product_list": [
               "ugreen-65w-usb-c-charger-with-3-ports",
               "power-supply-pd-3-0",
-              "ugreen-30w-usb-c-charger-with-pd3-0"
+              "ugreen-30w-usb-c-charger-with-pd3-0",
+              "ugreen-20w-usb-c-charger-with-mfi-certified-lightning-cable-pd-usb-c-power-supply-usb-c-charging-plug-pps"
             ]
           }
         }
@@ -143,6 +141,7 @@
       ],
       "settings": {
         "section_id": "tabs_product",
+        "section_icon": "icon-discount_icon1",
         "section_title": "Buy More, Save More",
         "sub_title": "",
         "list_all": "7",
@@ -185,8 +184,8 @@
         "product_list": [
           "15054a",
           "ugreen-usb-c-triple-display-docking-station",
-          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
-          "ugreen-65w-usb-c-pd-charger-4-ports"
+          "ugreen-145w-power-bank-for-laptop",
+          "ugreen-10000mah-magsafe-wireless-power-bank"
         ],
         "title": "",
         "subtitle": "",

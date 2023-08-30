@@ -1,0 +1,114 @@
+{% liquid
+    assign title = block.title
+    assign sub_title = block.sub_title
+    assign background = block.body_color | default: "transparent"
+    assign text_color = block.text_color | default: "#000000"
+    assign max_width = block.max_width | default: "100%"
+    assign pc_padding = block.pc_padding | default: "120px 0 0"
+    assign mobile_padding = block.mobile_padding | default: "60px 10px 0"
+%}
+
+<style>
+    .custom_desc_compatibility-{{ id }} {
+        background-color: {{ background }};
+        padding: {{ pc_padding }};
+    }
+    .custom_desc_compatibility-{{ id }} .custom_desc_compatibility-wrap {
+        max-width: {{max_width}};
+        margin: 0 auto;
+    }
+    .custom_desc_compatibility-{{ id }} .title_line {
+        max-width: 1200px;
+        margin: 0 auto 20px;
+        text-align: left;
+    }
+    .custom_desc_compatibility-{{ id }} h3 {
+        font-size: 24px;
+    }
+    .custom_desc_compatibility-wrap {
+        border: 1px solid rgba(0,0,0,.1);
+    }
+    .custom_desc_compatibility-row {
+        display: flex;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        text-align: left
+    }
+    .custom_desc_compatibility-row:last-child {
+        border-bottom: none;
+    }
+    .custom_desc_compatibility-row:nth-child(odd) {
+        background-color: #F8F8F8;
+    }
+    .custom_desc_compatibility-row-cell {
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        word-break: break-word;
+    }
+    .custom_desc_compatibility-row-cell-title {
+        width: 200px;
+        border-right: 1px solid rgba(0,0,0,.1);
+        flex-shrink: 0;
+    }
+    .custom_desc_compatibility-row-cell-content {
+        flex: 1;
+    }
+    .custom_desc_compatibility-row h4 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #000000;
+        margin: 0;
+    }
+    .custom_desc_compatibility-row p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #757575;
+        margin: 0;
+
+    }
+
+
+    @media (max-width: 767px) {
+        .custom_desc_compatibility-{{ id }} {
+            padding: {{ mobile_padding }};
+        }
+        .custom_desc_compatibility-{{ id }} .custom_desc_compatibility-wrap {
+            max-width: 100%;
+        }
+        .custom_desc_compatibility-row-cell-title {
+            width: 100px
+        }
+        .custom_desc_compatibility-row-cell {
+            padding: 6px 10px;
+        }
+    }
+</style>
+
+
+<div class="custom_desc_compatibility-{{ id }} ug-custom-desc-section">
+    {% render 'ug-custom-desc-title-line', title: title, sub_title: sub_title, text_color: text_color %}
+    
+        <div class="custom_desc_compatibility-wrap">
+            {% for i in (1..10) %}
+                {% assign title_name = 'title' | append: i %}
+                {% assign content_name =  'content' | append: i %}
+                {% assign title = block[title_name] %}
+                {% assign content = block[content_name] %}
+                {% if title != blank %}
+                    <div class="custom_desc_compatibility-row">
+                        <div class="custom_desc_compatibility-row-cell-title custom_desc_compatibility-row-cell">
+                            <h4>{{ title }}</h4>
+                        </div>
+
+                        <div class="custom_desc_compatibility-row-cell-content custom_desc_compatibility-row-cell">
+                            <p>{{ content }}</p>
+                        </div>
+
+                    </div>
+            {% endif %}
+
+            {% endfor %}
+        </div>
+    
+</div>
