@@ -255,7 +255,7 @@
           "16cc28da-fdbf-4890-88c0-e9da1c801c51": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "About",
+              "col_heading": "À propos",
               "menu": "about",
               "menu_style": "1",
               "col_dk": "auto",
