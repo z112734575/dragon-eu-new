@@ -97,7 +97,7 @@
         "914a7dc5-0679-4c54-abf9-6721e9d89ebb": {
           "type": "ug-index-category-item",
           "settings": {
-            "name": "Power Stations",
+            "name": "Centrale électrique portables",
             "icon_name": "icon-a-Powerstation_icon",
             "link": "shopify:\/\/collections\/centrale-electrique"
           }
@@ -178,6 +178,7 @@
         "title": "Meilleures ventes",
         "subtitle": "",
         "section_id": "ug-product-list",
+        "pc_product_type": "column",
         "mobile_product_type": "column",
         "product_item_bg_color": "#f8f8f9",
         "pc_product_item_img_size": "100%",
