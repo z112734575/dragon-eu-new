@@ -25,7 +25,7 @@
       }
     },
     "main": {
-      "type": "main-product",
+      "type": "main-custom-product",
       "blocks": {
         "column1-delivery-info": {
           "type": "column1-delivery-info",
@@ -172,8 +172,7 @@
           "disabled": true,
           "settings": {
             "mess": "Trusted Delivery",
-            "size": 14,
-            "imageList": ""
+            "size": 14
           }
         },
         "4e85739a-0cb1-4fda-9fe8-441ed6ed155c": {
