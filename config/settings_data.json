@@ -271,7 +271,7 @@
           "footer-8": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "To Our Clients",
+              "col_heading": "Pour Nos Clients",
               "menu": "clients",
               "menu_style": "1",
               "col_dk": "auto",
