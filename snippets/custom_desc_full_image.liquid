@@ -1,0 +1,49 @@
+{% liquid
+    assign title = block.title
+    assign sub_title = block.sub_title
+    assign pc_image = block.pc_image
+    assign mobile_image = block.mobile_image
+    assign background = block.body_color | default: "transparent"
+    assign text_color = block.text_color | default: "#000000"
+    assign max_width = block.max_width | default: "100%"
+    assign pc_padding = block.pc_padding | default: "120px 0 0"
+    assign mobile_padding = block.mobile_padding | default: "60px 10px 0"
+%}
+
+<style>
+    .ug-custom-desc-full-image-{{ id }} {
+        background-color: {{ background }};
+        padding: {{ pc_padding }};
+    }
+    .ug-custom-desc-full-image-{{ id }} .ug-custom-desc-full-image-wrap {
+        max-width: {{ max_width }};
+        margin: 0 auto;
+    }
+    @media (max-width: 767px) {
+        .ug-custom-desc-full-image-{{ id }} {
+            padding: {{ mobile_padding }};
+        }
+        .ug-custom-desc-full-image-{{ id }} .ug-custom-desc-full-image-wrap {
+            max-width: 100%;
+        }
+    }
+</style>
+
+
+<div class="ug-custom-desc-full-image-{{ id }} ug-custom-desc-section">
+    {% if title != blank or sub_title != blank %}
+        <div class="title_line">
+            {% if title != blank %}
+                <h3 style="color: {{ text_color }}">{{ title }}</h3>
+            {% endif %}
+            {% if sub_title != blank %}
+                <p style="color: {{ text_color }}">{{ sub_title }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
+    {% if pc_image != blank %}
+        <div class="ug-custom-desc-full-image-wrap">
+            {% render "ug-custom-picture", pc_image: pc_image, mobile_image: mobile_image, alt: title %}
+        </div>
+    {% endif %}
+</div>

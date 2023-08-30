@@ -1,0 +1,274 @@
+{% liquid
+    assign title = block.title
+    assign sub_title = block.sub_title
+    assign background = block.body_color | default: "transparent"
+    assign text_color = block.text_color | default: "#000000"
+    assign max_width = block.max_width | default: "100%"
+    assign pc_padding = block.pc_padding | default: "120px 0 0"
+    assign mobile_padding = block.mobile_padding | default: "60px 10px 0"
+    assign bg_pic = block.bg_pic
+%}
+
+<style>
+    .custom_desc_hub_carousel-{{ id }} {
+        background-color: {{ background }};
+        padding: {{ pc_padding }};
+    }
+    .custom_desc_hub_carousel-{{ id }} .custom_desc_hub_carousel-wrap {
+        max-width: {{max_width}};
+        margin: 0 auto;
+    }
+    @media (max-width: 767px) {
+        .custom_desc_hub_carousel-{{ id }} {
+            padding: {{ mobile_padding }};
+        }
+        .custom_desc_hub_carousel-{{ id }} .custom_desc_hub_carousel-wrap {
+            max-width: 100%;
+        }
+    }
+</style>
+
+<style>
+    .custom_desc_hub_carousel {
+        width: 100%;
+        height: 100%;
+    }
+    .custom_desc_hub_carousel .swiper-slide {
+        padding: 4vw 0;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .custom_desc_hub_carousel-wrap {
+        height: 30vw;
+        display: flex;
+        gap: 40px;
+        position: relative;
+        margin-top: 300px;
+        background: linear-gradient(90deg, #4E5364 0%, #03050B 100%);
+    }
+    .custom_desc_hub_carousel-wrap .custom_desc_hub_carousel-text-list {
+        width: 50%;
+        flex-shrink: 0;
+        padding-bottom: 7%;
+        flex-direction: column;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: left;
+    }
+    .custom_desc_hub_carousel-text-list ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        max-width: 26vw;
+          margin: 0;
+    padding: 0;
+    }
+    .custom_desc_hub_carousel .swiper-pagination {
+        transform: translateX(-7%);
+    }
+      .custom_desc_hub_carousel .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        opacity: 1;
+    }
+  .custom_desc_hub_carousel .swiper-pagination .swiper-pagination-bullet {
+        background: white;
+    opacity: .5;
+    }
+    .custom_desc_hub_carousel-text-list li {
+        display: none;
+    }
+    .custom_desc_hub_carousel-text-list li.show {
+        display: block;
+    }
+    .custom_desc_hub_carousel-background-pic {
+        position: absolute;
+        left: 0;
+        bottom: 20%;
+        width: 25%;
+    }
+    .custom_desc_hub_carousel-background-pic > img {
+        width: 100%;
+    }
+    .pointer-btns {
+        display: flex;
+        max-width: 26vw;
+      width: 100%;
+          margin-bottom: 6px;
+    color: white;
+}
+  .pointer-btns > div {
+        border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+  }
+   .pointer-btns > div：after {
+     content: ""
+     position: absolute;
+    width: 100%;
+    height: 100%;
+   }
+
+   .pointer-btns > div:first-child {
+     margin-right: 24px;
+   }
+
+    .custom_desc_hub_carousel-text-list h4 {
+   font-size: 24px;
+    color: white;
+    font-weight: 600;  
+  }
+  .custom_desc_hub_carousel-text-list p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+      bottom: 2vw;
+    }
+  @media (max-width: 1100px) {
+        .custom_desc_hub_carousel-background-pic {
+            display: none;
+        }
+        .pointer-btns {
+            display: none;
+        }
+            .custom_desc_hub_carousel-wrap {
+            flex-direction: column;
+            height: auto;
+        }
+        .custom_desc_hub_carousel-text-list {
+            order: 2;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .custom_desc_hub_carousel{
+            order: 1;
+        }
+        .custom_desc_hub_carousel .swiper-pagination {
+            transform: translateX(0);
+        }
+    .custom_desc_hub_carousel-wrap .custom_desc_hub_carousel-text-list {
+            width: 80%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    .custom_desc_hub_carousel-text-list ul {
+            max-width: 100%;
+        }
+    .custom_desc_hub_carousel .swiper-slide {
+      padding: 40px 0;
+    }
+    }
+  @media (max-width: 767px) {
+        .custom_desc_hub_carousel-wrap .custom_desc_hub_carousel-text-list {
+            width: 95%;
+        }
+        .custom_desc_hub_carousel-text-list h4 {
+            font-size: 20px;
+        }
+        .custom_desc_hub_carousel-text-list p {
+            font-size: 14px;
+        }
+    }
+</style>
+
+
+<div class="custom_desc_hub_carousel-{{ id }} ug-custom-desc-section">
+    {% render 'ug-custom-desc-title-line', title: title, sub_title: sub_title, text_color: text_color %}
+
+    <div class="custom_desc_hub_carousel-wrap">
+        <div class="custom_desc_hub_carousel-background-pic">
+            {% render "ug-custom-picture", pc_image: bg_pic, mobile_image: bg_pic, title: title, sub_title: sub_title, alt: title %}
+        </div>
+        <div class="custom_desc_hub_carousel-text-list">
+            <div class="pointer-btns">
+                <div class="pre"><</div>
+                <div class="next">></div>
+            </div>
+            <ul>
+                {% for i in (1..6) %}
+                    {% assign pc_image_name = 'pc_pic' | append: i %}
+                    {% assign mobile_image_name = 'mobile_pic' | append: i %}
+                    {% assign title_name = 'title' | append: i %}
+                    {% assign sub_title_name = 'sub_title' | append: i %}
+                    {% assign sub_title_name = 'sub_title' | append: i %}
+                    {% assign pc_image = block[pc_image_name] %}
+                    {% assign mobile_image = block[mobile_image_name] %}
+                    {% assign title = block[title_name] %}
+                    {% assign sub_title = block[sub_title_name] %}
+                  {% if title != blank %}
+                    <li class="{% if forloop.index == 1 %}  show {% endif %}">
+                      <h4>{{ title }}</h4>  
+                      <p>{{ sub_title }}</p>
+                    </li>
+              {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="swiper custom_desc_hub_carousel">
+            <div class="swiper-wrapper">
+                {% for i in (1..6) %}
+                    {% assign pc_image_name = 'pc_pic' | append: i %}
+                    {% assign mobile_image_name = 'mobile_pic' | append: i %}
+                    {% assign title_name = 'title' | append: i %}
+                    {% assign sub_title_name = 'sub_title' | append: i %}
+                    {% assign sub_title_name = 'sub_title' | append: i %}
+                    {% assign pc_image = block[pc_image_name] %}
+                    {% assign mobile_image = block[mobile_image_name] %}
+                    {% assign title = block[title_name] %}
+                    {% assign sub_title = block[sub_title_name] %}
+                  {% if pc_image != blank %}
+                    <div class="swiper-slide">
+                        {% render "ug-custom-picture", pc_image: pc_image, mobile_image: mobile_image, title: title, sub_title: sub_title, alt: title %}
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        const swiper = new Swiper(" .custom_desc_hub_carousel-{{ id }} .custom_desc_hub_carousel", {
+            slidesPerView: "1.2",
+            spaceBetween: 20,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.pointer-btns .next',
+                prevEl: '.pointer-btns .pre',
+            },
+        });
+        swiper.on('slideChange', function (event) {
+            console.log(event.realIndex)
+            const index = event.realIndex
+            const li = document.querySelectorAll('.custom_desc_hub_carousel-text-list li')
+            li.forEach((item, i) => {
+                if (i === index) {
+                    item.classList.add('show')
+                } else {
+                    item.classList.remove('show')
+                }
+            })
+        });
+    })
+</script>

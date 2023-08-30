@@ -1,0 +1,62 @@
+{% liquid
+    assign title = block.title
+    assign sub_title = block.sub_title
+    assign background = block.body_color | default: "transparent"
+    assign text_color = block.text_color | default: "#000000"
+    assign max_width = block.max_width | default: "100%"
+    assign pc_padding = block.pc_padding | default: "120px 0 0"
+    assign mobile_padding = block.mobile_padding | default: "60px 10px 0"
+%}
+
+<style>
+    .ug-custom-desc-three-image-{{ id }} {
+        background-color: {{ background }};
+        padding: {{ pc_padding }};
+    }
+    .ug-custom-desc-three-image-{{ id }} .ug-custom-desc-three-image-wrap {
+        max-width: {{max_width}};
+        margin: 0 auto;
+    }
+
+
+
+    @media (max-width: 767px) {
+        .ug-custom-desc-three-image-{{ id }} {
+            padding: {{ mobile_padding }};
+        }
+        .ug-custom-desc-three-image-{{ id }} .ug-custom-desc-three-image-wrap {
+            max-width: 100%;
+        }
+    }
+</style>
+
+
+<div class="ug-custom-desc-three-image-{{ id }} ug-custom-desc-section">
+    {% render 'ug-custom-desc-title-line', title: title, sub_title: sub_title, text_color: text_color %}
+    
+        <div class="ug-custom-desc-three-image-wrap">
+            {% for i in (1..3) %}
+                {% assign pc_image_name = 'pc_pic' | append: i %}
+                {% assign mobile_image_name = 'mobile_pic' | append: i %}
+                {% assign title_name = 'title' | append: i %}
+                {% assign sub_title_name =  'sub_title' | append: i %}
+                {% assign row_id =  'row' | append: i %}
+                {% assign column_id =  'column' | append: i %}
+                {% assign pc_image = block[pc_image_name] %}
+                {% assign mobile_image = block[mobile_image_name] %}
+                {% assign title = block[title_name] %}
+                {% assign sub_title = block[sub_title_name] %}
+                {% assign row = block[row_id] %}
+                {% assign column = block[column_id] %}
+
+                <div class="image_wrap" style="">
+                    {% render "ug-custom-picture", pc_image: pc_image, mobile_image: mobile_image, title: title, sub_title: sub_title,alt: title %}
+                    <div class="image-text-block" style="justify-content: {{ column }}; align-items: {{ row }}">
+                        <h3>{{ title }}</h3>
+                        <p>{{ sub_title }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    
+</div>
