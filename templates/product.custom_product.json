@@ -172,7 +172,8 @@
           "disabled": true,
           "settings": {
             "mess": "Trusted Delivery",
-            "size": 14
+            "size": 14,
+            "image": ""
           }
         },
         "4e85739a-0cb1-4fda-9fe8-441ed6ed155c": {
@@ -269,6 +270,20 @@
             "space_h_item_mb": "2",
             "space_v_item_mb": "2"
           }
+        },
+        "de339fac-efc4-43ac-9552-438fcf47e726": {
+          "type": "custom_desc_full_image",
+          "settings": {
+            "max_width": "1200px",
+            "title": "Ugreen Nexode 300W USB C GaN Charger",
+            "sub_title": "",
+            "text_color": "#000000",
+            "body_color": "transparent",
+            "pc_image": "shopify:\/\/shop_images\/1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/app1.jpg",
+            "pc_padding": "120px 0 0",
+            "mobile_padding": "60px 10px 0"
+          }
         }
       },
       "block_order": [
@@ -294,7 +309,8 @@
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "tab_faq",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
-        "94011ade-ec25-4d68-b37a-70660ede49dd"
+        "94011ade-ec25-4d68-b37a-70660ede49dd",
+        "de339fac-efc4-43ac-9552-438fcf47e726"
       ],
       "settings": {
         "enable_top_tips": false,
@@ -540,7 +556,8 @@
         "sma_reviews_section_auto": {
           "type": "shopify:\/\/apps\/lai-product-reviews\/blocks\/lai-product-section\/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
           "settings": {
-            "lai_product": ""
+            "lai_product": "",
+            "title": ""
           }
         }
       },
