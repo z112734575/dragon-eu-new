@@ -161,8 +161,7 @@
           "type": "trust_delivery",
           "settings": {
             "mess": "Trusted Delivery",
-            "size": 14,
-            "imageList": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pic.png?v=1686559360"
+            "size": 14
           }
         },
         "4e85739a-0cb1-4fda-9fe8-441ed6ed155c": {
