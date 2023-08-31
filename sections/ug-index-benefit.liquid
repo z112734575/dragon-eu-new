@@ -137,6 +137,7 @@
             {% assign title = item.settings.title %}
             {% assign content = item.settings.content %}
             {% assign link = item.settings.link %}
+            {% assign icon_link = item.settings.icon_link %}
             {% assign index = forloop.index %}
             <div class="ug-benefit-box box{{ index }}">
                 <a href="{{ link }}">
@@ -144,7 +145,7 @@
                     <div class="desc">{{ content }}</div>
                     <div class="benefit-con">
                         <img
-                                src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/e0499a22d3b764477b6f0b29183620c9.png?v=1672917013"
+                                src="{{ icon_link }}"
                                 alt="benefit-icon"
                         >
                     </div>
