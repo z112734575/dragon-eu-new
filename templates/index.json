@@ -263,7 +263,48 @@
     },
     "ug-index-benefit": {
       "type": "ug-index-benefit",
+      "blocks": {
+        "35ae226d-9062-4a1c-b88a-ad2a2268ce3d": {
+          "type": "ug-index-benefit-item",
+          "settings": {
+            "title": "Ugreen-Vouchers",
+            "content": "Save Money with Discounts on Ugreen Products",
+            "link": "shopify:\/\/pages\/voucher"
+          }
+        },
+        "6c01309b-7c90-4b88-bdbe-3edf88f3796b": {
+          "type": "ug-index-benefit-item",
+          "settings": {
+            "title": "Affiliate Program",
+            "content": "Get 15% Commission with the Affiliate Program",
+            "link": "shopify:\/\/pages\/affiliate"
+          }
+        },
+        "2064386b-32ca-4eb6-ab97-42b28456bbe3": {
+          "type": "ug-index-benefit-item",
+          "settings": {
+            "title": "Dropshipping",
+            "content": "For large purchases of over 10 items, please contact us for a quote",
+            "link": "shopify:\/\/pages\/dropshipping-program"
+          }
+        },
+        "1849e724-6609-4b3e-bd03-65a6b935bcaf": {
+          "type": "ug-index-benefit-item",
+          "settings": {
+            "title": "Points & Rewards",
+            "content": "Earn Points, Get Rewarded w\/ Savings",
+            "link": "shopify:\/\/pages\/ugreen-rewards-program"
+          }
+        }
+      },
+      "block_order": [
+        "35ae226d-9062-4a1c-b88a-ad2a2268ce3d",
+        "6c01309b-7c90-4b88-bdbe-3edf88f3796b",
+        "2064386b-32ca-4eb6-ab97-42b28456bbe3",
+        "1849e724-6609-4b3e-bd03-65a6b935bcaf"
+      ],
       "settings": {
+        "title": "Ugreen Benefit"
       }
     },
     "ug-index-blog": {
