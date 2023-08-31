@@ -269,7 +269,8 @@
           "settings": {
             "title": "Ugreen-Vouchers",
             "content": "Save Money with Discounts on Ugreen Products",
-            "link": "shopify:\/\/pages\/voucher"
+            "link": "shopify:\/\/pages\/voucher",
+            "icon_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/e0499a22d3b764477b6f0b29183620c9.png?v=1672917013"
           }
         },
         "6c01309b-7c90-4b88-bdbe-3edf88f3796b": {
@@ -277,7 +278,8 @@
           "settings": {
             "title": "Affiliate Program",
             "content": "Get 15% Commission with the Affiliate Program",
-            "link": "shopify:\/\/pages\/affiliate"
+            "link": "shopify:\/\/pages\/affiliate",
+            "icon_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/cbac91317d8a47f9fe47582942c3cee7.png?v=1672917013"
           }
         },
         "2064386b-32ca-4eb6-ab97-42b28456bbe3": {
@@ -285,7 +287,8 @@
           "settings": {
             "title": "Dropshipping",
             "content": "For large purchases of over 10 items, please contact us for a quote",
-            "link": "shopify:\/\/pages\/dropshipping-program"
+            "link": "shopify:\/\/pages\/dropshipping-program",
+            "icon_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/d3225ab021040514f24fda6b9469ff51.png?v=1672917013"
           }
         },
         "1849e724-6609-4b3e-bd03-65a6b935bcaf": {
@@ -293,7 +296,8 @@
           "settings": {
             "title": "Points & Rewards",
             "content": "Earn Points, Get Rewarded w\/ Savings",
-            "link": "shopify:\/\/pages\/ugreen-rewards-program"
+            "link": "shopify:\/\/pages\/ugreen-rewards-program",
+            "icon_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/member_icon__2X_dcd74648-10bc-48ed-b318-f19cb74e4388.png?v=1681805550"
           }
         }
       },
