@@ -1233,13 +1233,13 @@
             "settings": {
               "tab_id": 2,
               "product_list": [
+                "90903",
                 "40914",
                 "40747",
                 "10335",
-                "90573",
                 "90597"
               ],
-              "tag_list": "Hot",
+              "tag_list": "New,Hot",
               "collection_name_list": "Chargeurs USB C,\nChargeurs GaN,\nBanques d'alimentation,\nChargeurs de voiture,",
               "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/quick-charge-chargeur,https:\/\/fr.ugreen.com\/collections\/gan-chargeur,\nhttps:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/chargeur-de-voiture,",
               "all_collection_url": "shopify:\/\/collections\/chargeur",
