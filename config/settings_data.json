@@ -722,7 +722,7 @@
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
             "type": "drop",
             "settings": {
-              "title": "Deals & Events",
+              "title": "Deals",
               "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
               "open_link": "_self",
               "menu": "deals-events",
@@ -739,8 +739,8 @@
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
             "type": "drop",
             "settings": {
-              "title": "Portable Power Station",
-              "url": "https:\/\/eu.ugreen.com\/collections\/power-station",
+              "title": "Nexode 300W",
+              "url": "\/pages\/ugreen-nexode-300w-gan-desktop-charger",
               "open_link": "_self",
               "menu": "",
               "icon": "",
