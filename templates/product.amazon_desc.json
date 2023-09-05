@@ -30,7 +30,7 @@
         "column1-delivery-info": {
           "type": "column1-delivery-info",
           "settings": {
-            "custom_liquid": "<div class=\"product-page-shipping\">\n    <ul>\n        <li>\n            <a href=\"\/pages\/warehouse\">\n                <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Free_d91a3d44-4223-4efa-96c5-24a0208ba40a.png?v=1657071380\" \/>\n                <span>Local Warehouse<\/span>\n            <\/a>\n            <\/li>\n        <li>\n            <a href=\"\/policies\/refund-policy\">\n                <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/risk_633c5d7e-5e60-4194-9e77-6655815c7e18.png?v=1657071380\" \/>\n                <span>30-day Risk-Free Trial<\/span>\n            <\/a>\n            <\/li>\n        <li>\n            <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/price_0228abcd-25b5-42db-9a6d-4910043a9482.png?v=1657071380\" \/>\n                <span class=\"shipping_2\">Two-year Product Warranty<\/span>\n                \n        <\/li>\n    <\/ul>\n<\/div>\n<style>\n    \/*       物流提示样式 *\/\n    .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping {\n        width: 100%;\n        margin: 40px 0 0 0;\n    }\n\n    .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping ul {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        padding: 0;\n        margin: 0;\n    }\n\n    .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping ul li a {\n        font-size: 12px;\n        color: black;\n    }\n\n    .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping ul li img {\n        margin-right: 4px;\n    }\n\n    @media (max-width: 768px) {\n        .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping {\n            display: none;\n        }\n    }\n<\/style>\n<script>\n    const url = window.location.pathname;\n    const shipping = 'Five-year Product Warranty'\n    if(url.indexOf(\"15050\") >= 0 ){\n        $('.shipping_2').html(shipping)\n    }else if (url.indexOf(\"snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601\") >= 0 ) {\n        $('.shipping_2').html(shipping)\n    }\n    \n<\/script>",
+            "custom_liquid": "<div class=\"product-page-shipping\">\n    <ul>\n        <li>\n            <a href=\"\/pages\/warehouse\" class=\"shipping-icon\">\n                <img\n                        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/Free_d91a3d44-4223-4efa-96c5-24a0208ba40a.png?v=1657071380\" \/>Local Warehouse\n\n            <\/a>\n        <\/li>\n        <li>\n            <a href=\"\/policies\/refund-policy\" class=\"shipping-icon\">\n                <img\n                        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/risk_633c5d7e-5e60-4194-9e77-6655815c7e18.png?v=1657071380\" \/>30-day Risk-Free Trial\n\n            <\/a>\n        <\/li>\n        <li class=\"shipping-icon\">\n            <img\n                    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/price_0228abcd-25b5-42db-9a6d-4910043a9482.png?v=1657071380\" \/>Two-year Product Warranty\n        <\/li>\n        <li class=\"shipping-icon\">\n            <img\n                    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/4_f8206356-677e-4953-b79c-49c853d10b48.png?v=1687164867\" \/>Product VAT Incl\n        <\/li>\n    <\/ul>\n<\/div>\n<style>\n    \/*       物流提示样式 *\/\n    .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping {\n        width: 100%;\n        margin: 40px 0 0 0;\npadding-top: 32px;\n    border-top: 1px solid rgba(0,0,0,0.1);\n\n    }\n\n    .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping ul {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        padding: 0;\n        margin: 0;\n    }\n\n    .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping ul li {\n        font-size: 12px;\n    }\n\n    .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping ul li img {\n        width: 32px;\n    }\n    .product-page-shipping .shipping-icon {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n    }\n\n    @media (max-width: 768px) {\n        .t4s-section-main-product .t4s-product__media-wrapper .product-page-shipping {\n            display: none;\n        }\n    }\n<\/style>",
             "custom_liquid_mobile": ""
           }
         },
@@ -173,7 +173,7 @@
           "settings": {
             "mess": "Trusted Delivery",
             "size": 14,
-            "imageList": ""
+            "imageList": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/pic.png?v=1686559360"
           }
         },
         "4e85739a-0cb1-4fda-9fe8-441ed6ed155c": {
@@ -541,7 +541,8 @@
         "sma_reviews_section_auto": {
           "type": "shopify:\/\/apps\/lai-product-reviews\/blocks\/lai-product-section\/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
           "settings": {
-            "lai_product": ""
+            "lai_product": "",
+            "title": ""
           }
         }
       },
