@@ -25,13 +25,13 @@
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_300w_Banner_pc.png?v=1692683823",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Nexode_300w_Banner_mo.png?v=1692683805",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/300w_banner_pc_d694d25a-be72-4111-8765-5b4428df521f.webp?v=1693906908",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/300w_Banner_mobile_f652d2dd-67db-4f67-b55d-768ff87f81fa.webp?v=1693906908",
             "text_color": "#ffffff",
-            "title": "The First 300W Multiport GaN Charger",
-            "subtitle": "September 5th",
+            "title": "Dare to Aspire For More",
+            "subtitle": "Nexode 300W 5-Port PD GaN Fast Charger",
             "button_text": "Learn More",
-            "link": "\/pages\/ugreen-nexode-300w-gan-desktop-charger",
+            "link": "https:\/\/eu.ugreen.com\/products\/ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
             "className": "300w"
           }
         },
