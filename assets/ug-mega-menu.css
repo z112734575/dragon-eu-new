@@ -15,7 +15,6 @@
 }
 .ug-tab-content {
     display: none;
-    width: 100%;
 }
 .ug-tab-content.active {
     display: block;
@@ -25,6 +24,7 @@
     gap: 12px;
 }
 .ug-tab-product-item {
+    position: relative;
     width: 200px;
     opacity: 0;
     transition: all .3s cubic-bezier(0.1, 0.7, 1, 0.1);
@@ -43,6 +43,7 @@
 }
 .ug-tab-product-info {
     text-align: center;
+    margin-top: 8px;
 }
 .ug-tab-product-item .ug-tab-product-title {
     color: #000000;
@@ -53,7 +54,6 @@
     overflow: hidden;
     line-height: 1.5;
     font-size: 14px ;
-    margin-top: 12px;
 }
 
 .ug-tab-collection-bar {
@@ -99,4 +99,17 @@
     color: #00CC88;
     font-weight: bold;
     margin-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ug-tab-product-price-block {
+    margin-top: 8px;
+    font-size: 14px;
+    color: black;
+}
+.ug-tab-product-price-block del {
+    font-size: 14px;
+    color: #999;
+    margin-right: 8px;
 }

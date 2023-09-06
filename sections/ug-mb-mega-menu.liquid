@@ -1,0 +1,187 @@
+{% assign show_price = section.settings.show_price %}
+{% assign tag_color = section.settings.tag_color %}
+
+{%- if section.blocks.size > 0 -%}
+    {{ 'ug-mobile-mega-menu.css' | asset_url | stylesheet_tag }}
+    {%- for block in section.blocks -%}
+        {% case block.type %}
+            {% when 'menu-list' %}
+                {% assign settings = block.settings %}
+                {% assign tab_id = settings.tab_id %}
+
+                {% assign product_list = settings.product_list %}
+                {% assign tag_list = settings.tag_list | split: "," %}
+                {% assign collection_name_list = settings.collection_name_list | split: ',' %}
+                {% assign all_collection_url = settings.all_collection_url %}
+                {% assign all_collection_name = settings.all_collection_name %}
+                {% assign collection_link_list = settings.collection_link_list | split: ',' %}
+                <div class="ug-mobile-tab-content ug-menu-tab{{ tab_id }} {% if tab_id == 1 %}active animate{% endif %}"
+                     data-parent-id="ug-mega-sub_menu{{ tab_id }}">
+                    <div class="ug-mobile-tab-product-list">
+                        {% for product in product_list %}
+                            {% assign index = forloop.index | minus: 1 %}
+
+                            <a href="{{ product.url }}">
+                                <div class="ug-mobile-tab-product-item">
+                                    <div class="ug-mobile-tab-product-image">
+                                        <img src="{{ product.featured_image | img_url: '300x300' }}"
+                                             alt="{{ product.title }}" loading="lazy">
+                                    </div>
+                                    <div class="ug-mobile-tab-product-info">
+                                        <div class="ug-mobile-tab-product-title">
+                                            {{ product.title }}
+                                        </div>
+                                        <div class="ug-mobile-tab-product-price-block">
+                                            {% if show_price %}
+                                                <span>{{ product.price | money }}</span>
+                                            {% endif %}
+                                            {% if show_compare_price %}
+                                                <del>{{ product.compare_at_price | money }}</del>
+                                            {% endif %}
+                                        </div>
+                                        {% if tag_list[index] != blank %}
+                                            <div class="ug-mobile-tab-product-tag" style="color: {{ tag_color }}">
+                                                {{ tag_list[index] }}
+                                            </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                    <div class="ug-mobile-tab-collection-bar">
+                        <div class="ug-mobile-tab-collection-list">
+                            {% for collection_name in collection_name_list %}
+                                {% assign index = forloop.index | minus: 1 %}
+                                <div class="ug-mobile-tab-collection">
+                                    <a href="{{ collection_link_list[index] }}">
+                                        {{ collection_name }} >
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        {% if all_collection_name != blank %}
+                            <a class="ug-mobile-tab-all-collection" id="ug-tab-all-collection"
+                               href="{{ all_collection_url }}">
+                                {{ all_collection_name }} >
+                            </a>
+                        {% endif %}
+                    </div>
+
+                </div>
+
+        {% endcase %}
+    {% endfor %}
+{% endif %}
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+        console.log('init dom---')
+        let timer = setTimeout(checkElement, 500);
+        let count = 0;
+        const checkTotalCount = 10;
+
+        function checkElement() {
+            if (document.querySelector('.mb_mega_menu_exist') !== null) {
+                console.log('Element exists!');
+                clearTimeout(timer);
+                insertDom()
+            } else {
+                count++;
+                if (count < checkTotalCount) {
+                    timer = setTimeout(checkElement, 500);
+                }
+            }
+        }
+
+        function insertDom() {
+            const elementToMoveList = document.querySelectorAll('.ug-mobile-tab-content');
+            elementToMoveList.forEach(element => {
+                const id = element.getAttribute('data-parent-id')
+                const parent = document.getElementById(id);
+                parent.insertBefore(element, parent.firstChild);
+            });
+        }
+    });
+</script>
+
+{% schema %}
+{
+  "name": "UGREEN移动端超级菜单",
+  "tag": "div",
+  "class": "t4s-d-none",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "label": "是否展示售价",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_compare_price",
+      "label": "是否展示原价",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "tag_color",
+      "label": "标签颜色",
+      "default": "#00CC88"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "menu-list",
+      "name": "菜单列表内容",
+      "settings": [
+        {
+          "type": "range",
+          "id": "tab_id",
+          "label": "菜单id",
+          "default": 1,
+          "min": 1,
+          "max": 20,
+          "step": 1,
+          "info": "与多级导航顺序关联"
+        },
+        {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "Products",
+          "limit": 6
+        },
+        {
+          "type": "textarea",
+          "id": "tag_list",
+          "label": "标签列表",
+          "info": "以英文逗号分割"
+        },
+        {
+          "type": "textarea",
+          "id": "collection_name_list",
+          "label": "按钮名列表",
+          "info": "以英文逗号分割"
+        },
+        {
+          "type": "textarea",
+          "id": "collection_link_list",
+          "label": "按钮名列表链接",
+          "info": "以英文逗号分割"
+        },
+        {
+          "type": "url",
+          "id": "all_collection_url",
+          "label": "总按钮链接"
+        },
+        {
+          "type": "text",
+          "id": "all_collection_name",
+          "label": "总按钮文案"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
