@@ -2,6 +2,9 @@
   assign se_blocks         = section.blocks 
   assign se_blocks_size    = se_blocks.size 
   assign checkFirst        = true
+   assign show_price        = section.settings.show_price
+  assign show_compare_price = section.settings.show_compare_price
+  assign tag_color        = section.settings.tag_color
 -%}
 
 
@@ -60,8 +63,16 @@
                           <div class="ug-tab-product-title">
                                {{ product.title }}
                           </div>
+                          <div class="ug-tab-product-price-block">
+                              {% if show_price %}
+                                <span>{{ product.price | money }}</span>
+                              {% endif %}
+                               {% if show_compare_price %}
+                                 <del>{{ product.compare_at_price | money }}</del>
+                               {% endif %}
+                          </div>
                           {% if tag_list[index] != blank %}
-                          <div class="ug-tab-product-tag">
+                          <div class="ug-tab-product-tag" style="color: {{ tag_color }}">
                             {{ tag_list[index]}}
                           </div>
                           {%endif%}
@@ -444,6 +455,24 @@
    "tag": "div",
    "class": "t4s-section t4s-section-mega__menu t4s_bk_flickity t4s_tp_cdt t4s-d-none",
    "settings": [
+     {
+      "type": "checkbox",
+      "id": "show_price",
+      "label": "是否展示售价",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_compare_price",
+      "label": "是否展示原价",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "tag_color",
+      "label": "标签颜色",
+      "default": "#00CC88"
+    }
    ],
    "blocks": [
       {

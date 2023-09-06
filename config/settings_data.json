@@ -1332,11 +1332,23 @@
           "5e36256f-89ee-42cd-8ca5-b1510d32f9b6"
         ],
         "settings": {
+          "show_price": false,
+          "show_compare_price": false,
+          "tag_color": "#00CC88"
         }
       },
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
+          "978de359-1bb0-4204-91e0-084625271217": {
+            "type": "mega_tab_list",
+            "disabled": true,
+            "settings": {
+              "title": "超级菜单",
+              "tab_list": "",
+              "open": false
+            }
+          },
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a": {
             "type": "collection_list",
             "disabled": true,
@@ -1510,6 +1522,7 @@
           }
         },
         "block_order": [
+          "978de359-1bb0-4204-91e0-084625271217",
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
@@ -1527,6 +1540,58 @@
           "mb_nav-9"
         ],
         "settings": {
+        }
+      },
+      "ug-mb-mega-menu": {
+        "type": "ug-mb-mega-menu",
+        "blocks": {
+          "8d954c8a-601b-484c-a41a-790f2460396f": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "2023-deal-100w-3c1a-gan-fast-charger",
+                "ugreen-1200w-portable-power-station-2023-deal",
+                "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
+                "2023-recommend-ugreen-powerroam-600-power-station",
+                "bluetooth5-3transmitteraudioadapter",
+                "order-over-70-get-free-10-gift-card"
+              ],
+              "tag_list": "Hot,Good",
+              "collection_name_list": "Cable,Hubs,Good",
+              "collection_link_list": "\/collection\/abc",
+              "all_collection_url": "shopify:\/\/collections\/2023summer",
+              "all_collection_name": "All Hubs"
+            }
+          },
+          "90862b21-7621-46e5-9f35-938af1220116": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 2,
+              "product_list": [
+                "ugreen-100w-usb-c-diginest-pro-power-strip",
+                "ugreen-100w-usb-c-to-usb-c-cable-6ft",
+                "ugreen-m-2-nvme-sata-ssd-enclosure-reader",
+                "ugreen-usb-c-triple-display-docking-station",
+                "ugreen-100w-gan-mini-power-station",
+                "ugreen-100w-usb-c-charger"
+              ],
+              "tag_list": "好,很好，非常好",
+              "collection_name_list": "123,456,789",
+              "collection_link_list": "111,222,333",
+              "all_collection_url": "shopify:\/\/collections\/back-to-school-stand-deals",
+              "all_collection_name": "All Cables"
+            }
+          }
+        },
+        "block_order": [
+          "8d954c8a-601b-484c-a41a-790f2460396f",
+          "90862b21-7621-46e5-9f35-938af1220116"
+        ],
+        "settings": {
+          "show_price": true,
+          "show_compare_price": false,
+          "tag_color": "#00cc88"
         }
       },
       "mb_cat": {
