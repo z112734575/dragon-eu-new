@@ -1393,7 +1393,7 @@
             "disabled": true,
             "settings": {
               "title": "超级菜单",
-              "tab_list": "",
+              "tab_list": "111,222,333",
               "open": false
             }
           },
@@ -1601,12 +1601,11 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-                "2023-deal-100w-3c1a-gan-fast-charger",
-                "ugreen-1200w-portable-power-station-2023-deal",
-                "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
-                "2023-recommend-ugreen-powerroam-600-power-station",
-                "bluetooth5-3transmitteraudioadapter",
-                "order-over-70-get-free-10-gift-card"
+                "ugreen-2-5-inch-hard-drive-enclosure-external-usb-3-0-hard-disk-case-sata-hdd-caddy-5gbps-uasp-supported-compatible-with-wd-evo-seagate-toshiba-crucial-kingston-0-5m-usb-a-cable",
+                "ugreen-2-5-inch-usb-c-3-1-6gbps-hard-drive-enclosure",
+                "ugreen-20w-usb-c-charger-with-mfi-certified-lightning-cable-pd-usb-c-power-supply-usb-c-charging-plug-pps",
+                "ugreen-2-5-inch-hard-drive-enclosure-sata-hdd-caddy-external-usb-3-0-hard-disk-case-sata-ssd-reader-uasp-supported-compatible-with-2-5-inch-ssd-hdd-evo-870-wd-crucial-drive-with-0-3m-micro-usb-cable",
+                "usb-3-0-card-reader-with-sd-tf"
               ],
               "tag_list": "Hot,Good",
               "collection_name_list": "Cable,Hubs,Good",
@@ -1620,12 +1619,12 @@
             "settings": {
               "tab_id": 2,
               "product_list": [
-                "ugreen-100w-usb-c-diginest-pro-power-strip",
-                "ugreen-100w-usb-c-to-usb-c-cable-6ft",
-                "ugreen-m-2-nvme-sata-ssd-enclosure-reader",
                 "ugreen-usb-c-triple-display-docking-station",
-                "ugreen-100w-gan-mini-power-station",
-                "ugreen-100w-usb-c-charger"
+                "order-over-70-get-free-6-99-gift-card",
+                "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
+                "ugreen-145w-power-bank-for-laptop",
+                "ugreen-15w-magnetic-wireless-charger",
+                "ugreen-130w-3-port-pd-100w-pd3-0-qc4-0-pps-fast-car-charger"
               ],
               "tag_list": "好,很好，非常好",
               "collection_name_list": "123,456,789",
