@@ -54,10 +54,9 @@
         "title1": "Ultimate Connectivity",
         "desc": "Stay Connected, No Choosing Needed",
         "product_list": [
-          "ugreen-6-in-1-usb-c-hub",
-          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
-          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
-          "ugreen-usb-c-triple-display-docking-station"
+          "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+          "ugreen-nexode-200w-usb-c-desktop-charger",
+          "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger"
         ]
       }
     },
@@ -79,10 +78,10 @@
     "87ccd491-26cb-43b6-a34f-469fa71e947c": {
       "type": "ug_AppleEvent_product",
       "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/15283_15279-1500x750.png?v=1694137007",
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Background.png?v=1694139553",
         "mobile_image": "",
-        "title": "a",
-        "title1": "s",
+        "title": "",
+        "title1": "",
         "desc": "",
         "product_list": [
 
