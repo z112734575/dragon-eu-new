@@ -46,6 +46,22 @@
         ]
       }
     },
+    "00127267-2816-452d-adc3-e99756aa4553": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/cable_pc.png?v=1694158754",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/cable_m.png?v=1694158752",
+        "title": "Câble USB-C",
+        "title1": "",
+        "desc": "Différentes longueurs pour répondre à vos besoins",
+        "product_list": [
+          "70429",
+          "50122",
+          "10358",
+          "50149"
+        ]
+      }
+    },
     "a9c6f060-5fbd-455c-8321-f99aa9934742": {
       "type": "ug_AppleEvent_product",
       "settings": {
@@ -101,6 +117,7 @@
     "3155cc81-16ac-4d96-80a0-275500abaea3",
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
     "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
+    "00127267-2816-452d-adc3-e99756aa4553",
     "a9c6f060-5fbd-455c-8321-f99aa9934742",
     "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
     "d9e994f6-1a15-45ff-baf3-961a802d3cdf"
