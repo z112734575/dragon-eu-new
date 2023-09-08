@@ -45,36 +45,6 @@
         ]
       }
     },
-    "abc75bc4-3f51-473a-b1dd-e439f37a15a0": {
-      "type": "ug_AppleEvent_product",
-      "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_pc.png?v=1678159469",
-        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_mobile.png?v=1678096000",
-        "title": "More Ports,",
-        "title1": "Ultimate Connectivity",
-        "desc": "Stay Connected, No Choosing Needed",
-        "product_list": [
-          "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
-          "ugreen-nexode-200w-usb-c-desktop-charger",
-          "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger"
-        ]
-      }
-    },
-    "ebdd4269-8c40-458a-890d-39cfe5f8cf15": {
-      "type": "ug_AppleEvent_product",
-      "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_3_banner_pc.png?v=1678159419",
-        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_3_banner_mobile.png?v=1678159403",
-        "title": "Expand More, Transfer Faster",
-        "title1": "",
-        "desc": "Broaden Your Device Capabilities",
-        "product_list": [
-          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
-          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
-          "ugreen-usb-c-triple-display-docking-station"
-        ]
-      }
-    },
     "a9c6f060-5fbd-455c-8321-f99aa9934742": {
       "type": "ug_AppleEvent_product",
       "settings": {
@@ -105,6 +75,36 @@
         ]
       }
     },
+    "abc75bc4-3f51-473a-b1dd-e439f37a15a0": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_pc.png?v=1678159469",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_mobile.png?v=1678096000",
+        "title": "More Ports,",
+        "title1": "Ultimate Connectivity",
+        "desc": "Stay Connected, No Choosing Needed",
+        "product_list": [
+          "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+          "ugreen-nexode-200w-usb-c-desktop-charger",
+          "ugreen-diginest-pro-100-w-usb-c-power-strip-gan-usb-c-charger"
+        ]
+      }
+    },
+    "ebdd4269-8c40-458a-890d-39cfe5f8cf15": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_3_banner_pc.png?v=1678159419",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_3_banner_mobile.png?v=1678159403",
+        "title": "Expand More, Transfer Faster",
+        "title1": "",
+        "desc": "Broaden Your Device Capabilities",
+        "product_list": [
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+          "ugreen-usb-c-triple-display-docking-station"
+        ]
+      }
+    },
     "d9e994f6-1a15-45ff-baf3-961a802d3cdf": {
       "type": "custom-html",
       "settings": {
@@ -125,10 +125,10 @@
     "3155cc81-16ac-4d96-80a0-275500abaea3",
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
     "87ccd491-26cb-43b6-a34f-469fa71e947c",
-    "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
-    "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
     "a9c6f060-5fbd-455c-8321-f99aa9934742",
     "6d79858f-f6c5-4287-824b-042c98cad9e7",
+    "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
+    "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
     "d9e994f6-1a15-45ff-baf3-961a802d3cdf"
   ]
 }
