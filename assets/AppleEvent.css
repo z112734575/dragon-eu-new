@@ -322,7 +322,15 @@ section {
   color: #ffffff;
   list-style-type: disc;
 }
-
+.product_list .item .product_message ul li:nth-child(1){
+        font-weight: 700;
+    }
+    .product_list .item .product_message ul li b{
+        color: #03f2a6;
+    }
+    .apple_footer_form{
+        display: none;
+    }
 .product_swiper .swiper-pagination-bullet {
   width: 3.229vw;
   height: 0.208vw;
