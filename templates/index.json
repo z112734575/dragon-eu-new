@@ -23,11 +23,11 @@
         "ug-index-carousel-1": {
           "type": "ug-index-carousel-item",
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner_-event.png?v=1694154188",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/DE-90666-1.png?v=1694142380",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner-M-2023-septemberevent.png?v=1694141748",
-            "title": "",
-            "subtitle": "",
-            "button_text": "",
+            "title": "USB-C",
+            "subtitle": "USB-C Innover pour l'avenir",
+            "button_text": "Achetez maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
             "className": ""
           }
