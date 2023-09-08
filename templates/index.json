@@ -35,12 +35,12 @@
         "ug-index-carousel-1": {
           "type": "ug-index-carousel-item",
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3_Banner-Hub_Web.png?v=1677659098",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/3.1_Banner-Hub_Mobile.png?v=1677659090",
-            "title": "Get More Versatility From One Hub.",
-            "subtitle": "",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner-PC-2023-septemberevent.png?v=1694141726",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner-M-2023-septemberevent.png?v=1694141748",
+            "title": "USB-C",
+            "subtitle": "Innover pour l'avenir !",
             "button_text": "acheter maintenant",
-            "link": "https:\/\/fr.ugreen.com\/collections\/hub-adaptateur",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
             "className": ""
           }
         },
