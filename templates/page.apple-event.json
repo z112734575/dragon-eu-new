@@ -7,9 +7,9 @@
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/top-banner-m-2023-appleevent.png",
         "title": "USB-C",
         "desc": "Innovating the Future!",
-        "title_1": "Press conference coming soon",
+        "title_1": "september event coming soon",
         "title_2": "What's New for This Year's Event?",
-        "text": "The 2023 launch is right around the corner and we know you’re excited! We all want to know how they plan to improve product design, quality, and what great products they plan to add to the Apple ecosystem! To celebrate this upcoming event, stay tuned to Ugreen.com as we plan to showcase amazing products that are the perfect companions for any Apple user!"
+        "text": "The 2023 launch is right around the corner and we know you’re excited! We all want to know how they plan to improve product design, quality, and what great products they plan to add to the ecosystem! To celebrate this upcoming event, stay tuned to Ugreen.com as we plan to showcase amazing products that are the perfect companions for any Smart phone user!"
       }
     },
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2": {
@@ -28,6 +28,21 @@
         ]
       }
     },
+    "a9c6f060-5fbd-455c-8321-f99aa9934742": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_pc.png?v=1678159418",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_mobile.png?v=1678159403",
+        "title": "Smart Device Holders",
+        "title1": "",
+        "desc": "Adjustable & Designed for Optimum Viewing",
+        "product_list": [
+          "snap-deal-ugreen-aluminum-adjustable-tablet-stand",
+          "snap-deal-ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+          "snap-deal-ugreen-phone-stand-for-desk-adjustable-mobile-desktop-holder"
+        ]
+      }
+    },
     "abc75bc4-3f51-473a-b1dd-e439f37a15a0": {
       "type": "ug_AppleEvent_product",
       "settings": {
@@ -42,21 +57,6 @@
           "ugreen-support-telephone-bureau",
           "20435",
           "30488"
-        ]
-      }
-    },
-    "a9c6f060-5fbd-455c-8321-f99aa9934742": {
-      "type": "ug_AppleEvent_product",
-      "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_pc.png?v=1678159418",
-        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_mobile.png?v=1678159403",
-        "title": "Smart Device Holders",
-        "title1": "",
-        "desc": "Adjustable & Designed for Optimum Viewing",
-        "product_list": [
-          "snap-deal-ugreen-aluminum-adjustable-tablet-stand",
-          "snap-deal-ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
-          "snap-deal-ugreen-phone-stand-for-desk-adjustable-mobile-desktop-holder"
         ]
       }
     },
@@ -94,8 +94,8 @@
   "order": [
     "3155cc81-16ac-4d96-80a0-275500abaea3",
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
-    "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
     "a9c6f060-5fbd-455c-8321-f99aa9934742",
+    "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
     "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
     "d9e994f6-1a15-45ff-baf3-961a802d3cdf"
   ]
