@@ -37,7 +37,7 @@
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2021\/05\/836x488-3.png?resize=697%2C407&ssl=1",
-            "article_title": "USB-C Chargers: 5 Most Asked Basic Questions",
+            "article_title": "Chargeurs USB-C : les 5 questions de base les plus posées",
             "article_time": "",
             "article_link": "https:\/\/blog.ugreen.com\/usb-c-chargers-faq\/"
           }
@@ -46,7 +46,7 @@
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2021\/01\/USB-A-to-USB-C-to-USB-B-Banner.png?resize=600%2C358&ssl=1",
-            "article_title": "USB C vs A vs B: Which One Do You Need for Your Product?",
+            "article_title": "USB C vs A vs B : lequel choisir pour votre produit ?",
             "article_time": "",
             "article_link": "https:\/\/blog.ugreen.com\/usb-c-a-b-difference\/"
           }
@@ -55,7 +55,7 @@
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2021\/05\/UGREEN-VGA-Cable.png?resize=1140%2C680&ssl=1",
-            "article_title": "A Complete Guide to VGA: What You Need to Know",
+            "article_title": "Guide complet du VGA : ce qu'il faut savoir",
             "article_time": "",
             "article_link": "https:\/\/blog.ugreen.com\/vga-connector\/"
           }
@@ -64,7 +64,7 @@
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2021\/11\/Apple-MFi-Certified-Banner.jpg?resize=1140%2C680&ssl=1",
-            "article_title": "Apple MFi Certified: The Definitive Guide",
+            "article_title": "Certifié Apple MFi : Le guide définitif",
             "article_time": "",
             "article_link": "https:\/\/blog.ugreen.com\/mfi-certified\/"
           }
@@ -78,9 +78,9 @@
       ],
       "settings": {
         "blog_tag_1": "Today’s Picks",
-        "featured_article": "off-grid-living\/off-grid-living-101-ultimate-guide",
-        "featured_article_1": "news\/review-ugreens-new-powerroam-1200-portable-power-station-forbes",
-        "featured_article_2": "news\/ugreen-prepares-innovative-product-demo-for-ifa-2023",
+        "featured_article": "chargeur\/certifie-apple-mfi-le-manuel-complet",
+        "featured_article_1": "chargeur\/chargeur-gan-vs-chargeur-pd-quelle-est-la-difference",
+        "featured_article_2": "chargeur\/chargeurs-usb-c-faq",
         "blog_tag_2": "Most Recent",
         "date": "date"
       }
@@ -88,7 +88,7 @@
     "b8e8c9f9-4031-482a-b69a-652c18751758": {
       "type": "custom-html",
       "settings": {
-        "code": "<section class=\"ug_blog_box_2\">\n    <div class=\"ug_section_box\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/9660\/2144\/files\/Email_icon_bdb996d2-9880-48bf-9d23-cedf50157858.svg?v=1689249963\" alt=\"\">\n        <div class=\"ug_form\">\n            <h2>\n<span>Upgrade <\/span>Your Inbox With Ugreen<\/h2>\n            <p>Sign up to receive tech tips &amp;tutorials, reviews, deals, coupons and more from Ugreen.<\/p>\n            <div class=\"cs-custom-form s1022841069\">\n                <div class=\"form-col-wrap\">\n                    <form method=\"post\" action=\"https:\/\/ecf.cirkleinc.com\/api\/form-submit\" class=\"cs-form-wrap\" id=\"c5fc528d-0995-41d6-b1b2-adbd08cdaa60\">\n                        <div class=\"ug_blog_input\">\n                            <div class=\"Polaris-FormLayout\">\n                              <div class=\"Polaris-FormLayout__Item\">\n                                <div class=\"sc-jJEKmz\">\n                                    <div class=\"sc-citxvW sc-iUuxjF gYTLuO iidRym drop-area-warp\">\n                                        <div class=\"element-group  cs-width-100\"><input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Enter You Email Address\" class=\"\"><\/div>\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                            <\/div>\n                            <div class=\"element-group\">\n                                <div class=\"form-submit-btn-wrap\" style=\"justify-content: left; display: flex;\">\n                                    <button type=\"submit\" class=\"submit-btn\" style=\"font-weight: 600\">\n                                        Subscribe\n                                    <\/button>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/form>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/section>",
+        "code": "<section class=\"ug_blog_box_2\">\n    <div class=\"ug_section_box\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/9660\/2144\/files\/Email_icon_bdb996d2-9880-48bf-9d23-cedf50157858.svg?v=1689249963\" alt=\"\">\n        <div class=\"ug_form\">\n            <h2>\nAméliorez votre boîte de réception avec Ugreen<\/h2>\n            <p>Inscrivez-vous pour recevoir des conseils et des tutoriels techniques, des critiques, des offres, des coupons et plus encore de la part d'Ugreen.<\/p>\n            <div class=\"cs-custom-form s1022841069\">\n                <div class=\"form-col-wrap\">\n                    <form method=\"post\" action=\"https:\/\/ecf.cirkleinc.com\/api\/form-submit\" class=\"cs-form-wrap\" id=\"c5fc528d-0995-41d6-b1b2-adbd08cdaa60\">\n                        <div class=\"ug_blog_input\">\n                            <div class=\"Polaris-FormLayout\">\n                              <div class=\"Polaris-FormLayout__Item\">\n                                <div class=\"sc-jJEKmz\">\n                                    <div class=\"sc-citxvW sc-iUuxjF gYTLuO iidRym drop-area-warp\">\n                                        <div class=\"element-group  cs-width-100\"><input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Entrez votre adresse e-mail\" class=\"\"><\/div>\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                            <\/div>\n                            <div class=\"element-group\">\n                                <div class=\"form-submit-btn-wrap\" style=\"justify-content: left; display: flex;\">\n                                    <button type=\"submit\" class=\"submit-btn\" style=\"font-weight: 600\">\n                                        S'abonner\n                                    <\/button>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/form>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/section>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -107,7 +107,7 @@
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2023\/03\/usb-c-charging-station-all-devices.png?resize=600%2C300&ssl=1",
-            "article_title": "10 Best USB C Charging Stations for All Your Devices",
+            "article_title": "10 meilleures stations de charge USB C pour tous vos appareils",
             "article_time": "",
             "article_link": "https:\/\/blog.ugreen.com\/10-best-usb-c-charging-stations-for-all-your-devices\/"
           }
@@ -116,7 +116,7 @@
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2023\/01\/usb-hub-vs-docking-station.jpg?fit=768%2C432&ssl=1",
-            "article_title": "Docking Station vs. USB Hub – What’s the Difference?",
+            "article_title": "Station d'accueil ou concentrateur USB - Quelle est la différence ?",
             "article_time": "",
             "article_link": "https:\/\/blog.ugreen.com\/docking-station-vs-usb-hub\/"
           }
@@ -125,7 +125,7 @@
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2023\/03\/power-station-vs-generator.png?fit=600%2C300&ssl=1",
-            "article_title": "Portable Power Station vs. Generator: Which is Right for You?",
+            "article_title": "Centrale électrique portable ou groupe électrogène : Qu'est-ce qui vous convient le mieux ?",
             "article_time": "",
             "article_link": "https:\/\/blog.ugreen.com\/portable-power-station-vs-generator\/"
           }
@@ -138,7 +138,7 @@
       ],
       "settings": {
         "section_id": "ug_blog_box_3",
-        "box_title": "Buying Guides",
+        "box_title": "Guides d'achat",
         "box_more_title": "More",
         "box_more_url": "https:\/\/blog.ugreen.com\/product-reviews-and-buying-guides\/buying-guides\/",
         "blog_img": "https:\/\/i.ytimg.com\/vi\/Azs4REVc4k0\/maxresdefault.jpg",
@@ -153,7 +153,7 @@
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/www.ugreen.com\/cdn\/shop\/articles\/forbesreview-ugreens-new-powerroam-1200-portable-power-station-682337_1200x.webp?v=1692790996",
-            "article_title": "[Forbes]Review: Ugreen’s New PowerRoam 1200 Portable Power Station",
+            "article_title": "[Forbes]Revue de presse : La nouvelle centrale électrique portable PowerRoam 1200 d'Ugreen",
             "article_time": "",
             "article_link": "https:\/\/www.ugreen.com\/blogs\/news\/review-ugreens-new-powerroam-1200-portable-power-station-forbes"
           }
@@ -188,7 +188,7 @@
         "box_more_title": "More",
         "box_more_url": "",
         "blog_img": "https:\/\/i.ytimg.com\/vi\/CN7Sawwqfrg\/maxresdefault.jpg",
-        "blog_title": "Almost Perfect: The UGreeen PowerRoam 1200 and SC200 Solar Panels",
+        "blog_title": "Presque parfait : Les panneaux solaires Ugreeen PowerRoam 1200 et SC200",
         "blog_url": "https:\/\/youtu.be\/CN7Sawwqfrg"
       }
     },
