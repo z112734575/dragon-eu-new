@@ -1,12 +1,147 @@
+{%- liquid
+  assign se_stts = section.settings
+  assign se_blocks = section.blocks
+  assign box_title = se_stts.box_title
+  assign box_more_title = se_stts.box_more_title
+  assign box_more_url = se_stts.box_more_url
+  assign blog_img = se_stts.blog_img
+  assign blog_title = se_stts.blog_title
+  assign blog_url = se_stts.blog_url
+  assign section_id = se_stts.section_id
+-%}
+
+<section class="ug_blog_box_3 {{ section_id }}">
+  <div class="ug_section_box">
+    <div class="blog_title">
+      <h2>{{ box_title }}</h2>
+      <a href="{{ box_more_url }}">
+        {{- box_more_title }}
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-xiayiye"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="ug_buying_blog">
+      <div class="left">
+        <a href="{{blog_url}}">
+          <div class="blog_img">
+            <img src="{{ blog_img }}" alt="" loading="eager">
+          </div>
+          <h2>{{ blog_title }}</h2>
+        </a>
+      </div>
+      <div class="right">
+        {%- for block in se_blocks -%}
+          {%- assign bk_stts = block.settings -%}
+          {%- assign article_cover = bk_stts.article_cover -%}
+          {%- assign article_title = bk_stts.article_title -%}
+          {%- assign article_time = bk_stts.article_time -%}
+          {%- assign article_link = bk_stts.article_link -%}
+          
+          <div class="item">
+            <a href="{{ article_link }}">
+              <div class="blog_text">
+                <h3>{{ article_title }}</h3>
+                <span>{{ article_time }}</span>
+              </div>
+              <div class="blog_img">
+                <img src="{{ article_cover }}" alt="" loading="eager">
+              </div>
+            </a>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+  "name": "Blog Buying Guides",
+  "tag": "section",
+    "max_blocks": 3,
+  "settings": [
+    {
+        "type": "header",
+        "content": "Blog Buying Guides"
+    },
+    {
+        "type": "text",
+        "id": "section_id",
+        "label": "Section ID",
+        "default": "ug_blog_box_3"
+      },
+    {
+        "type": "text",
+        "id": "box_title",
+        "label": "Box Title",
+        "default": "Buying Guides"
+      },
+    {
+        "type": "text",
+        "id": "box_more_title",
+        "label": "Box More Title",
+        "default": "More Buying Guides"
+      },
+    {
+        "type": "url",
+        "id": "box_more_url",
+      "label": "Box More URL"
+      },
+    {
+        "type": "url",
+        "id": "blog_img",
+        "label": "Blog Image"
+      },
+    {
+        "type": "text",
+        "id": "blog_title",
+        "label": "Blog title",
+        "default": "Ugreen PowerRoam 1200W Power Station - Empower Your Life, Roam the World"
+      },
+    {
+        "type": "url",
+        "id": "blog_url",
+        "label": "Blog Url"
+      }
+  ],
+  "blocks": [
+    {
+      "type": "Item",
+      "name": "blog_item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "article_cover",
+          "label": "Article cover"
+        },
+        {
+          "type": "textarea",
+          "id": "article_title",
+          "label": "Article title"
+        },
+        {
+          "type": "text",
+          "id": "article_time",
+          "label": "Article time"
+        },
+        {
+          "type": "text",
+          "id": "article_link",
+          "label": "Link",
+          "info": "Article link"
+        }
+      ]
+    }
+  ],
+   "presets": [
+      {
+        "name": "Blog Buying Guides",
+        "category": "Homepage"
+      }
+    ]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+{%- javascript -%}
+{%- endjavascript -%}

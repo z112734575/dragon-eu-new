@@ -1,12 +1,189 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+{%- liquid
+  assign se_stts = section.settings
+  assign se_blocks = section.blocks
+  assign date = se_stts.date
+  assign blog_tag_1 = se_stts.blog_tag_1
+  assign blog_tag_2 = se_stts.blog_tag_2
+  assign featured_article = se_stts.featured_article
+  assign featured_article_1 = se_stts.featured_article_1
+  assign featured_article_2 = se_stts.featured_article_2
+-%}
+<section class="ug_blog_box_1">
+  <div class="ug_section_box">
+    <div class="left">
+      <p>{{ blog_tag_1 }}</p>
+      <div class="blog_list">
+        <div class="item">
+          <a href="{{featured_article.url}}">
+            <div class="blog_img">
+              <img
+                src="{{ featured_article.image | img_url: "400x" }}"
+                alt=""
+              >
+            </div>
+            <div class="blog_text">
+              <h2>{{ featured_article.title }}</h2>
+              <span>{{ featured_article.published_at | time_tag: format: date }}</span>
+            </div>
+            <div class="blog_tag">{{ featured_article.tags }}</div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="{{featured_article_1.url}}">
+            <div class="blog_img">
+              <img
+                src="{{ featured_article_1.image | img_url: "400x" }}"
+                alt=""
+              >
+            </div>
+            <div class="blog_text">
+              <h2>{{ featured_article_1.title }}</h2>
+              <span>{{ featured_article_1.published_at | time_tag: format: date }}</span>
+            </div>
+            <div class="blog_tag">{{ featured_article_1.tags }}</div>
+          </a>
+        </div>
+      </div>
+      <div class="item">
+        <a href="{{featured_article_2.url}}">
+          <div class="blog_img">
+            <img
+              src="{{ featured_article_2.image | img_url: "400x" }}"
+              alt=""
+            >
+          </div>
+          <div class="blog_text">
+            <h2>{{ featured_article_2.title }}</h2>
+            <span>{{ featured_article_2.published_at | time_tag: format: date }}</span>
+            <p>{{ featured_article_2.excerpt }}</p>
+          </div>
+          <div class="blog_tag">{{ featured_article_2.tags }}</div>
+        </a>
+      </div>
+    </div>
+    <div class="right">
+      <p>{{ blog_tag_2 }}</p>
+      {%- for block in se_blocks -%}
+        {%- assign bk_stts = block.settings -%}
+          {%- assign article_cover = bk_stts.article_cover -%}
+          {%- assign article_title = bk_stts.article_title -%}
+          {%- assign article_time = bk_stts.article_time -%}
+          {%- assign article_link = bk_stts.article_link -%}
+        <div class="item">
+          <a href="{{ article_link }}">
+            <div class="blog_text">
+              <h3>{{ article_title }}</h3>
+              <span>{{ article_time }}</span>
+            </div>
+            <div class="blog_img">
+              <img src="{{ article_cover }}" alt="" loading="eager">
+            </div>
+          </a>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- schema -%}
+{
+  "name": "Blog conter",
+  "tag": "section",
+  "max_blocks": 4,
+  "settings": [
+    {
+        "type": "header",
+        "content": "Today’s Picks"
+    },
+    {
+        "type": "text",
+        "id": "blog_tag_1",
+        "label": "Blog Tag",
+        "default": "Today’s Picks"
+      },
+{
+      "type": "article",
+      "id": "featured_article",
+      "label": "Ledt featured Article"
+    },
+    {
+      "type": "article",
+      "id": "featured_article_1",
+      "label": "Ledt featured Article"
+    },
+    {
+      "type": "article",
+      "id": "featured_article_2",
+      "label": "Right featured Article"
+    },
+    {
+        "type": "text",
+        "id": "blog_tag_2",
+        "label": "Right Blog Tag",
+        "default": "Most Recent"
+      },
+    {
+        "type": "select",
+        "id": "date",
+        "options": [
+          {
+            "value": "abbreviated_date",
+            "label": "Apr 19, 1994"
+          },
+          {
+            "value": "basic",
+            "label": "4/19/1994"
+          },
+          {
+            "value": "date",
+            "label": "April 19, 1994"
+          },
+          {
+            "value": "%b %d",
+            "label": "Apr 19"
+          }
+        ],
+        "label": "Date format",
+        "info":"different format options display for various languages.",
+        "default": "date"
+      }
+  ],
+   "blocks": [
+    {
+      "type": "Item",
+      "name": "blog_item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "article_cover",
+          "label": "Article cover"
+        },
+        {
+          "type": "textarea",
+          "id": "article_title",
+          "label": "Article title"
+        },
+        {
+          "type": "text",
+          "id": "article_time",
+          "label": "Article time"
+        },
+        {
+          "type": "text",
+          "id": "article_link",
+          "label": "Link",
+          "info": "Article link"
+        }
+      ]
+    }
+  ],
+   "presets": [
+      {
+        "name": "Blog conter",
+        "category": "Homepage"
+      }
+    ]
+}
+{%- endschema -%}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+{%- javascript -%}
+{%- endjavascript -%}
