@@ -1,0 +1,110 @@
+{%- liquid
+  assign se_stts = section.settings
+  assign se_blocks = section.blocks
+  assign box_title = se_stts.box_title
+  assign box_more_title = se_stts.box_more_title
+  assign box_more_url = se_stts.box_more_url
+-%}
+
+<section class="ug_blog_box_5">
+  <div class="ug_section_box">
+    <div class="blog_title">
+      <h2>{{ box_title }}</h2>
+      <a href="{{ box_more_url }}">
+        {{- box_more_title }}
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-xiayiye"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="blog_list">
+      {%- for block in se_blocks -%}
+          {%- assign bk_stts = block.settings -%}
+          {%- assign article_cover = bk_stts.article_cover -%}
+          {%- assign article_title = bk_stts.article_title -%}
+          {%- assign article_time = bk_stts.article_time -%}
+          {%- assign article_link = bk_stts.article_link -%}
+        <div class="item">
+          <a href="{{ article_link }}">
+            <div class="blog_img">
+             <img src="{{ article_cover }}" alt="" loading="eager">
+            </div>
+            <div class="blog_text">
+              <h3>{{ article_title }}</h3>
+              <span>{{ article_time }}</span>
+            </div>
+          </a>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+  "name": "Blog Tags list",
+  "tag": "section",
+    "max_blocks": 3,
+  "settings": [
+    {
+        "type": "header",
+        "content": "Blog Tags list"
+    },
+    {
+        "type": "text",
+        "id": "box_title",
+        "label": "Box Title",
+        "default": "Buying Guides"
+      },
+    {
+        "type": "text",
+        "id": "box_more_title",
+        "label": "Box More Title",
+        "default": "More Buying Guides"
+      },
+    {
+        "type": "url",
+        "id": "box_more_url",
+      "label": "Box More URL"
+      }
+  ],
+  "blocks": [
+    {
+      "type": "Item",
+      "name": "blog_item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "article_cover",
+          "label": "Article cover"
+        },
+        {
+          "type": "textarea",
+          "id": "article_title",
+          "label": "Article title"
+        },
+        {
+          "type": "text",
+          "id": "article_time",
+          "label": "Article time"
+        },
+        {
+          "type": "text",
+          "id": "article_link",
+          "label": "Link",
+          "info": "Article link"
+        }
+      ]
+    }
+  ],
+   "presets": [
+      {
+        "name": "Blog Tags list",
+        "category": "Homepage"
+      }
+    ]
+}
+{% endschema %}
+
+{%- javascript -%}
+{%- endjavascript -%}
