@@ -35,8 +35,23 @@
             "className": "300w"
           }
         },
+        "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN__pc_f02dbaaf-2ca6-4a6b-a081-40c1f4d75a91.png?v=1694746016",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN__Mobile_2a888e67-1e1c-4809-8852-08b914c5f028.png?v=1694746002",
+            "text_color": "#000000",
+            "title": "Ugreen Oktoberfest,Cheers to Savings!",
+            "subtitle": "Up To 30% Off",
+            "button_text": "Learn More",
+            "link": "\/pages\/oktoberfest",
+            "className": ""
+          }
+        },
         "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/fr_38401840.png?v=1694745080",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobil_7501160.png?v=1694745079",
@@ -61,27 +76,14 @@
             "link": "\/collections\/hubs",
             "className": ""
           }
-        },
-        "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN__pc_f02dbaaf-2ca6-4a6b-a081-40c1f4d75a91.png?v=1694746016",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN__Mobile_2a888e67-1e1c-4809-8852-08b914c5f028.png?v=1694746002",
-            "text_color": "#000000",
-            "title": "Ugreen Oktoberfest,Cheers to Savings!",
-            "subtitle": "Up To 30% Off",
-            "button_text": "Learn More",
-            "link": "\/pages\/oktoberfest",
-            "className": ""
-          }
         }
       },
       "block_order": [
         "ug-index-carousel-11",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
+        "6c99235d-1a0a-4489-bae1-1a493df0dc48",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e",
-        "ug-index-carousel-1",
-        "6c99235d-1a0a-4489-bae1-1a493df0dc48"
+        "ug-index-carousel-1"
       ],
       "custom_css": [
         ".buy-more-save-more .green-home-banner-box {text-align: left; top: 16vw; left: 20vw;}",
