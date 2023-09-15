@@ -8,17 +8,17 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
+        "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
           "type": "ug-index-carousel-item",
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/300w_banner_pc_d694d25a-be72-4111-8765-5b4428df521f.webp?v=1693906908",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/300w_Banner_mobile_f652d2dd-67db-4f67-b55d-768ff87f81fa.webp?v=1693906908",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/fr_38401840.png?v=1694745080",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobil_7501160.png?v=1694745079",
             "text_color": "#ffffff",
-            "title": "Dare to Aspire For More",
-            "subtitle": "Nexode 300W 5-Port PD GaN Fast Charger",
-            "button_text": "Learn More",
-            "link": "https:\/\/eu.ugreen.com\/products\/ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
-            "className": "300w"
+            "title": "USB-C,Innovating the Future!",
+            "subtitle": "Sep 11st-Sep 22nd.",
+            "button_text": "Shop Now",
+            "link": "\/pages\/apple-event",
+            "className": "buy-more-save-more"
           }
         },
         "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
@@ -34,17 +34,17 @@
             "className": "buy-more-save-more"
           }
         },
-        "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/fr_38401840.png?v=1694745080",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobil_7501160.png?v=1694745079",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/300w_banner_pc_d694d25a-be72-4111-8765-5b4428df521f.webp?v=1693906908",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/300w_Banner_mobile_f652d2dd-67db-4f67-b55d-768ff87f81fa.webp?v=1693906908",
             "text_color": "#ffffff",
-            "title": "USB-C,Innovating the Future!",
-            "subtitle": "Sep 11st-Sep 22nd.",
-            "button_text": "Shop Now",
-            "link": "\/pages\/apple-event",
-            "className": "buy-more-save-more"
+            "title": "Dare to Aspire For More",
+            "subtitle": "Nexode 300W 5-Port PD GaN Fast Charger",
+            "button_text": "Learn More",
+            "link": "https:\/\/eu.ugreen.com\/products\/ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+            "className": "300w"
           }
         },
         "ug-index-carousel-1": {
@@ -77,9 +77,9 @@
         }
       },
       "block_order": [
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
-        "6c99235d-1a0a-4489-bae1-1a493df0dc48",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e",
+        "6c99235d-1a0a-4489-bae1-1a493df0dc48",
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-1",
         "ug-index-carousel-11"
       ],
