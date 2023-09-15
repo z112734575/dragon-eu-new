@@ -65,11 +65,11 @@
           "type": "ug-index-carousel-item",
           "disabled": true,
           "settings": {
-            "pc_image_url": "",
-            "mobile_image_url": "",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN__pc_f02dbaaf-2ca6-4a6b-a081-40c1f4d75a91.png?v=1694746016",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN__Mobile_2a888e67-1e1c-4809-8852-08b914c5f028.png?v=1694746002",
             "text_color": "#000000",
-            "title": "",
-            "subtitle": "",
+            "title": "Ugreen Oktoberfest,Cheers to Savings!",
+            "subtitle": "Up To 30% Off",
             "button_text": "",
             "link": "",
             "className": ""
