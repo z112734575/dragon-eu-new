@@ -42,18 +42,6 @@
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
-        "2632b153-e4f5-4946-9146-3002be2c2b29": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "GaN Chargers",
-            "product_list": [
-              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
-              "ugreen-65w-usb-c-pd-charger-4-ports",
-              "ugreen-nexode-100w-usb-c-wall-charger",
-              "ugreen-nexode-200w-usb-c-desktop-charger"
-            ]
-          }
-        },
         "100c73d1-183d-4757-9c93-1168c36c5feb": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -63,6 +51,18 @@
               "ugreen-10000mah-magsafe-wireless-power-bank",
               "ugreen-2-in-1-magnetic-wireless-charging-station",
               "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray"
+            ]
+          }
+        },
+        "2632b153-e4f5-4946-9146-3002be2c2b29": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "GaN Chargers",
+            "product_list": [
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-nexode-100w-usb-c-wall-charger",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports"
             ]
           }
         },
@@ -131,8 +131,8 @@
         }
       },
       "block_order": [
-        "2632b153-e4f5-4946-9146-3002be2c2b29",
         "100c73d1-183d-4757-9c93-1168c36c5feb",
+        "2632b153-e4f5-4946-9146-3002be2c2b29",
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "4556941b-3614-4b1f-8b9e-8d449c378b3f",
         "4a3eddf4-b4a6-4086-a1fa-2bf590158427",
@@ -182,10 +182,12 @@
       "type": "ug-product-list",
       "settings": {
         "product_list": [
-          "15054a",
-          "ugreen-usb-c-triple-display-docking-station",
+          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+          "ugreen-10000mah-magsafe-wireless-power-bank",
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
           "ugreen-145w-power-bank-for-laptop",
-          "ugreen-10000mah-magsafe-wireless-power-bank"
+          "ugreen-usb-c-triple-display-docking-station",
+          "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports"
         ],
         "title": "",
         "subtitle": "",
