@@ -1,8 +1,12 @@
 {
   "sections": {
+    "related_collections_bar": {
+      "type": "related_collections_bar",
+      "settings": {
+      }
+    },
     "top": {
       "type": "top-collections",
-      "disabled": true,
       "blocks": {
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
@@ -87,6 +91,7 @@
         "560f5822-3eeb-4070-a2cd-b5738881a4c1",
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
       ],
+      "disabled": true,
       "settings": {
         "show_top_collections": true,
         "source": "1",
@@ -226,7 +231,6 @@
     },
     "sidebar": {
       "type": "sidebar-collection",
-      "disabled": true,
       "blocks": {
         "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
           "type": "category",
@@ -275,6 +279,7 @@
         "9d37e80a-1eda-4a65-bb08-199e6a933a16",
         "c090f36e-d6ef-4a2a-ab04-cc78211dadb7"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,
@@ -302,6 +307,7 @@
     }
   },
   "order": [
+    "related_collections_bar",
     "top",
     "heading_template",
     "main",
