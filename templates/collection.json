@@ -147,6 +147,7 @@
       "block_order": [
         "3b0cc506-49ea-4851-b5a6-ff7c2153b0e6"
       ],
+      "disabled": true,
       "settings": {
         "use_specify_image": false,
         "parallax": false,
@@ -167,6 +168,11 @@
     "main": {
       "type": "main-collection",
       "blocks": {
+        "dfe3d7da-2186-4f36-b8a5-11dc9d89b094": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "filter_id": {
           "type": "filter",
           "disabled": true,
@@ -186,6 +192,7 @@
         }
       },
       "block_order": [
+        "dfe3d7da-2186-4f36-b8a5-11dc9d89b094",
         "filter_id",
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
