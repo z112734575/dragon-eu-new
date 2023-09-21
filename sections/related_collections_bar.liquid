@@ -1,0 +1,85 @@
+<style>
+  .related_icons_bar_wrap {
+    background: #F8F8F8;
+  }
+  .related_icons_bar {
+    max-width: 1350px;
+    height: 168px;
+    display: flex;
+      justify-content: center;
+        align-items: center;
+    margin: 0 auto;
+  }
+    .related_icon {
+      width: 16%;
+      font-size: 60px;
+      color: #666666;
+      text-align: center;
+      cursor: pointer;
+      font-weight: 400;
+    }
+    .related_icon.active {
+      color: black;
+      font-weight: 600;
+    }
+    .related_icon:hover {
+      color: black;
+    }
+    .related_icon h5 {
+      font-size: 16px;
+      color: inherit;
+      font-weight: inherit;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 这里是超出几行省略 */
+    overflow: hidden;
+    }
+    @media(max-width: 767px) {
+      .related_icons_bar {
+      height: auto;
+      display: flex;
+      background: #F8F8F8;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow-x: auto;
+      padding: 28px 12px;
+  }
+      .related_icon {
+        width: 88px;
+        margin-right: 12px;
+      flex-shrink: 0;
+      display: block;
+        font-size: 40px;
+      }
+    }
+</style>
+{% assign related_collections = collection.metafields.custom.related_collections.value.collections.value %}
+
+{% if related_collections != blank %}
+
+  <div class="related_icons_bar_wrap">
+    <div class="related_icons_bar">
+      {% for item in related_collections %}
+        {% assign handle = item.handle | prepend: '/collections/' %}
+        {%- capture active -%}
+    {%- if handle == request.path -%}
+      active
+      {%- endif -%}
+    {%- endcapture -%}
+        <a class="related_icon {{ active }}" href="{{ item.handle }}">
+          <div>{{ item.metafields.custom.icon.value }}</div>
+          <h5>{{ item.title }}</h5>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "关联专辑",
+  "settings": []
+}
+{% endschema %}
