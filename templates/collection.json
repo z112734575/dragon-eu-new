@@ -1,5 +1,10 @@
 {
   "sections": {
+    "related_collections_bar": {
+      "type": "related_collections_bar",
+      "settings": {
+      }
+    },
     "top": {
       "type": "top-collections",
       "blocks": {
@@ -301,6 +306,7 @@
     }
   },
   "order": [
+    "related_collections_bar",
     "top",
     "heading_template",
     "main",
