@@ -15,5 +15,5 @@
             media="(max-width: 1200px)">
     <source srcset="{{ pc_image | img_url: '3840x' }}"
             media="(max-width: 1920px)">
-    <img src="{{ pc_image | img_url: '3840x' }}" alt="{{ alt }}" loading="lazy">
+    <img src="{{ pc_image | img_url: '3840x' }}" alt="{{ alt }}" loading="lazy" width="auto" height="100%">
 </picture>

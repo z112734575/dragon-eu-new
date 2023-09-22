@@ -1,6 +1,7 @@
 .ug-custom-desc-section {
     text-align: center;
 }
+
 .ug-custom-desc-section .title_line {
     margin-bottom: 40px;
 }
@@ -138,5 +139,8 @@
     .ug-custom-desc-three-image-wrap .image_wrap p {
         font-size: 14px;
         margin-top: 6px;
+    }
+    .ug-custom-desc-three-image-wrap picture {
+        display: block;
     }
 }

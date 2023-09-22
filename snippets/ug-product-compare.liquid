@@ -1,0 +1,199 @@
+<style>
+    .ug-product-compare-wrap {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1200px;
+    }
+    .ug-product-compare {
+        text-align: center;
+        position: relative;
+    }
+    .ug-product-compare-title {
+        font-size: 40px;
+        font-weight: 600;
+        color: #131414;
+        line-height: 50px;
+        margin: 24px 0;
+        text-align: center;
+    }
+    .ug-product-compare-main > .table-row {
+        display: inline-flex;
+        width: 100%;
+    }
+    .ug-product-compare-main > .table-row .table-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ug-product-compare-main > .table-row > div {
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .ug-product-compare-main > .table-row > div:first-child {
+        padding: 12px;
+        width: 200px;
+        flex-shrink: 0;
+        text-align: start;
+        position: sticky;
+        left: 0;
+        z-index: 10;
+        background: white;
+    }
+    .ug-product-compare-main > .table-row > div:not(:first-child) {
+        width: 25%;
+        padding: 12px;
+        /*border-left: 1px solid #e5e5e5;*/
+        word-break: break-word;
+        overflow: auto;
+    }
+    .ug-product-compare-product-info {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    .ug-product-compare-product-info-a {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        color: black;
+    }
+    .ug-product-compare-product-info-img {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .ug-product-compare-product-info-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .ug-product-compare-product-inner-info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .ug-product-compare-product-info-title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .ug-product-compare-product-buy-btn {
+        max-width: 90px;
+        width: 100%;
+        height: 32px;
+        background: white;
+        color: black;
+        border-radius: 40px;
+        border: 1px solid black;
+        margin: 12px auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ug-product-compare-product-buy-btn:hover {
+        color: white;
+        background: black;
+    }
+    @media (max-width: 768px) {
+        .ug-product-compare-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #131414;
+            line-height: 30px;
+            margin: 24px 0;
+            text-align: center;
+        }
+        .ug-product-compare-main {
+            overflow: auto;
+        }
+        .ug-product-compare-main > .table-row {
+            width: auto;
+        }
+        .ug-product-compare-main > .table-row > div:not(:first-child) {
+            width: 100px;
+            flex-shrink: 0;
+            padding: 5px;
+        }
+        .ug-product-compare-product-info-img {
+            width: 90px;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .ug-product-compare-main > .table-row > div:first-child {
+            width: 120px;
+        }
+    }
+</style>
+{%- liquid
+    assign products = custom.diff_product_list.value
+    assign products_info = custom.products_json.value.products_info
+    assign compare_title = custom.products_json.value.title
+    assign show_self = custom.products_json.value.show_self
+    assign current_product = current_product
+-%}
+
+{%- if products_info -%}
+    <div class="ug-product-compare-wrap">
+        <div class="ug-product-compare-title">{{ compare_title }}</div>
+        <div id="ug-product-compare" class="ug-product-compare">
+            <div class="ug-product-compare-main">
+                <div class="ug-product-compare-products-row table-row">
+                    <div></div>
+                    {% if show_self != false %}
+                        <div class="ug-product-compare-product-info">
+                            <div class="ug-product-compare-product-info-img">
+                                <img src="{{ current_product.featured_media | img_url: "400x" }}" width="100%"
+                                     height="100%"
+                                     alt="{{ current_product.title }}"/>
+                            </div>
+                            <div class="ug-product-compare-product-inner-info">
+                                <div class="ug-product-compare-product-info-title">{{ current_product.title }}</div>
+                                <div class="ug-product-compare-product-info-price">{{ current_product.price | money }}</div>
+                            </div>
+                            <div class="ug-product-compare-product-buy-btn" style="visibility: hidden">Buy Now</div>
+                        </div>
+                    {% endif %}
+                    {% for product in products %}
+                        <div class="ug-product-compare-product-info">
+                            <a href="{{ product.url }}" target="_blank" class="ug-product-compare-product-info-a">
+                                <div class="ug-product-compare-product-info-img">
+                                    <img src="{{ product.featured_media | img_url: "400x" }}" width="100%" height="100%"
+                                         alt="{{ product.title }}"/>
+                                </div>
+                                <div class="ug-product-compare-product-inner-info">
+                                    <div class="ug-product-compare-product-info-title">{{ product.title }}</div>
+                                    <div class="ug-product-compare-product-info-price">{{ product.price | money }}</div>
+                                </div>
+                                <div class="ug-product-compare-product-buy-btn">Buy Now</div>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% for info in products_info %}
+                    {% assign row_data = info.row_data | split: '**PL**' %}
+                    <div class="table-row">
+                        <div class="table-row-title">{{ info.row_name }}</div>
+                        {% for data in info.row_data %}
+                            {% if data == 'yes' %}
+                                {% assign data = '✔' %}
+                                <div class="table-inner">✔</div>
+                            {% else %}
+                                <div class="table-inner">{{ data }}</div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{%- endif -%}
+
