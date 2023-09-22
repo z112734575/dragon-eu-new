@@ -245,7 +245,7 @@ ul#menu-mb__ul,
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    /* background-color: #000; */
     opacity: .2;
     pointer-events: none;
     z-index: 5;
