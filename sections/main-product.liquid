@@ -498,7 +498,7 @@
         </div>
         <div
           data-t4s-zoom-info
-          class="t4s-{{ class_info }} t4s-col-12 t4s-col-item t4s-product__info-wrapper t4s-pr"
+          class="t4s-{{ class_info }} t4s-col-12 t4s-product__info-wrapper t4s-pr"
         >
           <div id="product-zoom-{{ section.id }}" class="t4s-product__zoom-wrapper"></div>
           <div
@@ -1654,33 +1654,19 @@
 </script>
 
 <script type="text/javascript">
-  (function () {
-      if (isMobile()) {
-          makeTabsToTop();
-      } else {
-          // jquery on scroll 无法移除监听，所以使用原生的方式
-          const listenScrollToShowTopTips = function () {
-              const offset = $(window).scrollTop();
-              console.log(offset)
-              if (offset >= 200) {
-                  window.removeEventListener('scroll', listenScrollToShowTopTips)
-              }
-          }
-          // window.addEventListener('scroll', listenScrollToShowTopTips)
-      }
+    (function(){
+        if(isMobile()) {
+            makeTabsToTop();
+        }
 
-      function makeTabsToTop() {
-          setTimeout(() => {
-              $('#ugreen-product-tabs .flickityt4s-button').hide()
-          }, 500)
+        function makeTabsToTop () {
+            $("#ugreen-product-top-placeholder").append($('#ugreen-product-tabs'))
+        }
 
-          $("#ugreen-product-top-placeholder").append($('#ugreen-product-tabs'))
-      }
-
-      function isMobile() {
-          return window.innerWidth <= 768;
-      }
-  })();
+        function isMobile () {
+            return window.innerWidth <= 768;
+        }
+    })();
 </script>
 
 {%- schema -%}

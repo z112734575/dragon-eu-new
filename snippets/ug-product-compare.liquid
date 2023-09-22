@@ -55,6 +55,7 @@
         display: flex;
         flex-direction: column;
         height: 100%;
+        color: black;
     }
     .ug-product-compare-product-info-img {
         width: 120px;
@@ -81,6 +82,23 @@
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
+    }
+    .ug-product-compare-product-buy-btn {
+        max-width: 90px;
+        width: 100%;
+        height: 32px;
+        background: white;
+        color: black;
+        border-radius: 40px;
+        border: 1px solid black;
+        margin: 12px auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ug-product-compare-product-buy-btn:hover {
+        color: white;
+        background: black;
     }
     @media (max-width: 768px) {
         .ug-product-compare-title {
@@ -111,7 +129,7 @@
             margin: 0 auto;
         }
         .ug-product-compare-main > .table-row > div:first-child {
-            width: 150px;
+            width: 120px;
         }
     }
 </style>
@@ -141,6 +159,7 @@
                                 <div class="ug-product-compare-product-info-title">{{ current_product.title }}</div>
                                 <div class="ug-product-compare-product-info-price">{{ current_product.price | money }}</div>
                             </div>
+                            <div class="ug-product-compare-product-buy-btn" style="visibility: hidden">Buy Now</div>
                         </div>
                     {% endif %}
                     {% for product in products %}
@@ -154,6 +173,7 @@
                                     <div class="ug-product-compare-product-info-title">{{ product.title }}</div>
                                     <div class="ug-product-compare-product-info-price">{{ product.price | money }}</div>
                                 </div>
+                                <div class="ug-product-compare-product-buy-btn">Buy Now</div>
                             </a>
                         </div>
                     {% endfor %}

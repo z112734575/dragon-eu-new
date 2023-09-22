@@ -1,0 +1,153 @@
+/*new products page style*/
+.ug-trust_delivery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.t4s-badge-price {
+    border-radius: 3px !important;
+    border: 1px solid #00CC88;
+    background: rgba(0, 0, 0, 0) !important;
+    font-size: 12px;
+    font-weight: 400;
+    color: #00CC88 !important;
+    line-height: 14px !important;
+}
+.t4s-section-main-product .t4s-product__info-container .t4s-product-price del {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 19px;
+}
+.t4s-product-form__buttons .t4s-quantity-wrapper button {
+    border-radius: 50%;
+}
+.ug-product-discount-box {
+    background-image: url('https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Group_276_0d24b96a-14bb-49b6-b830-eb30477ccc97.png') !important;
+    background-size: 100% 100% !important;
+}
+.t4s-pr__notify-stock.t4s-btn-color-dark, .t4s-payment-button.t4s-btn-color-dark .shopify-payment-button__button--unbranded {
+    background: linear-gradient(344deg, #F6D898 2%, #F6DDB2 100%) !important;
+    color: #000 !important;
+}
+.discount_information_show {
+    padding: 108px 20px 20px 20px;
+}
+.discount_information {
+    background: #FAFAFC;
+    position: relative;
+}
+.discount_information_box {
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-top: -200px;
+}
+.discount_information ul {
+    margin: 0;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #DEDEDE;
+}
+.discount_information ul li {
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid #27231E;
+    font-size: 13px;
+    font-weight: 500;
+    color: #27231E;
+    line-height: 15px;
+    padding: 2px 8px;
+    margin-right: 5px;
+}
+.discount_information ul li:nth-child(1) {
+    border: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+.t4s-product-price {
+    display: flex;
+    align-items: center;
+}
+.t4s-product-price del {
+    order: 1;
+    margin-top: 10px;
+}
+.t4s-product-price ins {
+    order: 0;
+}
+.t4s-product-price span {
+    order: 2;
+    margin-left: 20px;
+}
+.t4s-product__price-review .t4s-product-price {
+    order: 1;
+}
+.t4s-product__price-review a {
+    order: 0;
+    width: 100%;
+}
+.t4s-product-form__variants {
+    margin-top: 20px;
+}
+.discount_information_ul_show {
+    padding: 20px !important;
+    border: none !important;
+}
+/*sale icon*/
+.t4s-product-inner .t4s-product-badge {
+    top: 0 !important;
+    right: auto !important;
+    left: 0 !important;
+}
+.t4s-product-inner .t4s-product-badge .t4s-badge-sale {
+    width: 65px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Group_686_256x256.png") !important;
+    background-size: 100% 100%;
+}
+@media (max-width: 768px) {
+    .discount_information_show {
+        padding: 108px 10px 10px 10px;
+    }
+    .discount_information ul {
+        padding: 15px 0 0 0;
+    }
+    .discount_information_box {
+        padding: 10px;
+        margin-top: -195px;
+        width: 92%;
+    }
+    .discount_information ul li {
+        font-size: 12px;
+        margin: 0 0 3px 3px;
+        padding: 1px 3px;
+    }
+}
+
+/*top product placeholder*/
+
+.ug-product-top-placeholder-wrap {
+    display: none;
+}
+@media (max-width: 768px) {
+    .ug-product-top-placeholder-wrap {
+        display: block;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: 201;
+    }
+    .ug-product-top-placeholder-wrap ul {
+        margin: 0;
+        padding: 0;
+    }
+}

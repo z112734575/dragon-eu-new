@@ -70,40 +70,21 @@ $(function () {
         }, 3000)
     })
 
-    // GitHub异常
+    // 处理第三方悬浮层级
+    function handleIndex() {
+        const shopifyChat = document.getElementById('dummy-chat-button-iframe') ?? document.getElementById('ShopifyChat');
+        const smileFrame = document.getElementById('smile-ui-lite-container')
 
-    const jQueryFn = {}
-    const addToCart = (productId) => {
-        const BUNDLES_INFO = window.BUNDLES_INFO
-        const data = {
-            items: [{
-                id: productId ?? new URLSearchParams(window.location.search).get('variant') ?? window.BUNDLES_INFO.variant_id,
-                quantity: BUNDLES_INFO.quantity
-            }]
+        if (isMobile()) {
+            smileFrame.style.zIndex = '189';
+            shopifyChat.style.zIndex = '189';
+        } else {
+            smileFrame.style.zIndex = '1000';
+            shopifyChat.style.zIndex = '1000';
         }
-        if (BUNDLES_INFO?.selected_variant_id) {
-            data.items.push({
-                id: BUNDLES_INFO.selected_variant_id,
-                quantity: 1
-            })
-        }
-        fetch(window.Shopify.routes.root + 'cart/add.js', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        })
-            .then(async response => {
-                await T4SThemeSP.Cart.getToFetch()
-                T4SThemeSP.Drawer.opend($("#t4s-mini_cart"))
-                return response.json();
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
     }
-    $.extend({
-        addToCart
-    })
+
+    setTimeout(() => {
+        handleIndex()
+    }, 5000)
 })
