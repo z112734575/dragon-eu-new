@@ -51,9 +51,7 @@
            <div class="ug-tab-product-list">
                 {% for product in product_list %}
                 {% assign index = forloop.index |  minus: 1 %}
-                <script>
-                    console.log("{{ tag_list[index] }}", 'riniam', {{ index }})
-                </script>
+
                 <a href="{{ product.url }}">
                     <div class="ug-tab-product-item">
                      <div class="ug-tab-product-image">
