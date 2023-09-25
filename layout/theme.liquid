@@ -15,10 +15,7 @@
 t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_style_{{settings.swatch_color_style}} pr_border_style_{{settings.pr_border_style}} pr_img_effect_{{settings.pr_img_effect}} enable_eff_img1_{{settings.enable_eff_img1}} badge_shape_{{settings.badge_shape}} css_for_wis_app_{{settings.enable_css_wis}}{% if settings.use_cus_lz and settings.cus_lz %} t4s-lzcus-true{% endif %} shadow_round_img_{{settings.enable_shadow_round_img}} t4s-header__{{settings.header_design}} is-remove-unavai-{{settings.variant_remove}} t4_compare_{{settings.enable_compe}} is-catalog__mode-{{settings.catalog_mode}}
 {%- endcapture -%}
 <html class="{{class_html}} no-js" lang="{{ request.locale.iso_code }}"{% if isRTL %} dir="rtl"{% endif %}>
-<head>{% render 'pagefly-head' %}
-
-
-    
+<head>
     <!--   ip 跳转前置判断 -->
   {{shop.metafields.CCR.shopat_script}} 
     <meta name="facebook-domain-verification" content="26do7lxt0zgmvthg0s8lf2tcflqhi8" />
@@ -56,40 +53,12 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
       render 'meta-tags',t_name:t_name -%}
 
 
-
-
-    <script>
-      window['_fs_debug'] = false;
-      window['_fs_host'] = 'fullstory.com';
-      window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
-      window['_fs_org'] = 'o-1BBA03-na1';
-      window['_fs_namespace'] = 'FS';
-      (function(m,n,e,t,l,o,g,y){
-        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-        g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
-        o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
-        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-        g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
-        g.anonymize=function(){g.identify(!!0)};
-        g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
-        g.log = function(a,b){g("log",[a,b])};
-        g.consent=function(a){g("consent",!arguments.length||a)};
-        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-        g.clearUserCookie=function(){};
-        g.setVars=function(n, p){g('setVars',[n,p]);};
-        g._w={};y='XMLHttpRequest';g._w[y]=m[y];y='fetch';g._w[y]=m[y];
-        if(m[y])m[y]=function(){return g._w[y].apply(this,arguments)};
-        g._v="1.3.0";
-      })(window,document,window['_fs_namespace'],'script','user');
-    </script>
-
     <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
 {% render 'usf' %}
 
     {%- render 'head_assets',t_name:t_name,isRTL:isRTL -%}
-    <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/ijX8lsdGgaVTP7Z9LkSOYw" async></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
     {% comment %} iconfont 的 js {% endcomment %}
@@ -97,11 +66,6 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     {{ 'theme-new.css' | asset_url | stylesheet_tag }}
     {{ 'theme-new.js' | asset_url | script_tag }}
     {% comment %}ug-custom{% endcomment %}
-
-  
-	{{ shop.metafields.loox["global_html_head"] }}
-
- {% include 'eu-cookie-richtlinie-css' %}
 
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11295631802"></script>
@@ -137,10 +101,6 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
       </ul>
     {%- render 'render_bottom' -%}
   {% include 'social-login' %}
-  
-{{ shop.metafields.loox["global_html_body"] }}
-
-
 
 </body>
 </html>
