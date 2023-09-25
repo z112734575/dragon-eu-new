@@ -74,14 +74,8 @@ $(function () {
     function handleIndex() {
         const shopifyChat = document.getElementById('dummy-chat-button-iframe') ?? document.getElementById('ShopifyChat');
         const smileFrame = document.getElementById('smile-ui-lite-container')
-
-        if (isMobile()) {
-            smileFrame.style.zIndex = '189';
-            shopifyChat.style.zIndex = '189';
-        } else {
-            smileFrame.style.zIndex = '1000';
-            shopifyChat.style.zIndex = '1000';
-        }
+        smileFrame && (smileFrame.style.zIndex = isMobile() ? '189' : '1000')
+        shopifyChat && (shopifyChat.style.zIndex = isMobile() ? '189' : '1000')
     }
 
     setTimeout(() => {
