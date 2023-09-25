@@ -42,7 +42,7 @@
         height: 300px;
         overflow: hidden;
         border-radius: 8px;
-        background-color: gray;
+        background-color: grey;
     }
     .ug-index-blog__item-image img {
         width: 100%;
@@ -112,7 +112,7 @@
                     <div class="ug-index-blog__item">
                         <a href="{{ link }}" class="ug-index-blog__item-link">
                             <div class="ug-index-blog__item-image">
-                                <img src="{{ image }}" alt="{{ title | escape }}">
+                                <img src="{{ image }}" alt="{{ title | escape }}" loading="lazy" width="100%" height="auto">
                             </div>
                             <div class="ug-index-blog__item-content">
                                 <h3 class="ug-index-blog__item-title">{{ title }}</h3>
