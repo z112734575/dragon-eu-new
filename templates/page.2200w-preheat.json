@@ -21,7 +21,7 @@
         "743aaf41-343f-4919-aa92-407f030f42c2": {
           "type": "custom_text",
           "settings": {
-            "text": "UGREEN PowerRoam 2200 Portable Power Power Station",
+            "text": "UGREEN PowerRoam 2200 Portable Power Station",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#ffffff",
@@ -66,7 +66,7 @@
           "type": "custom_button",
           "settings": {
             "source": "1",
-            "video_url": "https:\/\/youtu.be\/6dh60IVju9g",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=7LaY-7qy_qM",
             "file_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/052d064ea0c94ff9ba0a8574c7022f12.mp4",
             "au_video": true,
             "loop_video": true,
@@ -159,7 +159,7 @@
         "ebae89b8-14c1-4d60-9e58-52ed5c3debb8": {
           "type": "custom_text",
           "settings": {
-            "text": "UGREEN PowerRoam 2200 <br>\nPortable Power Power Station",
+            "text": "UGREEN PowerRoam 2200 <br>\nPortable Power Station",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#ffffff",
@@ -204,7 +204,7 @@
           "type": "custom_button",
           "settings": {
             "source": "1",
-            "video_url": "https:\/\/youtu.be\/6dh60IVju9g",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=7LaY-7qy_qM",
             "file_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/052d064ea0c94ff9ba0a8574c7022f12.mp4",
             "au_video": true,
             "loop_video": true,
