@@ -36,27 +36,7 @@ endif -%}
   endcase
   if admin_sp and settings.header_design != 'sidebar'
   section 'mega-menu'
-  endif  -%}<script>                                                                                                       
-window.onload = function() {
-    var searchCanvas = document.querySelector('header');
-  console.log(searchCanvas)
-    if (searchCanvas && !window._usfInstantSearchInited) {
-        searchCanvas.addEventListener("mouseenter", function() {
-            if (window._usfInstantSearchInited)
-                return;
-            var inputs = document.querySelectorAll('input.t4s-mini-search__input');
-          
-            if (inputs.length) {
-                if (window.usf && usf.settings.instantSearch.online){
-                    inputs.forEach(e => usf.utils.installSearchInput(e));
-                    console.log('%c USF - Instant Search inited', 'background: blue; color: white');
-                }
-                window._usfInstantSearchInited = 1;
-            }
-        })
-    }
-};
-</script>
+  endif  -%}
 <!-- END USF -->
 
 {% comment %}USF
