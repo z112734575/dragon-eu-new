@@ -747,6 +747,7 @@
           },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "Centrales électriques portables",
               "url": "shopify:\/\/collections\/centrale-electrique",
@@ -765,10 +766,10 @@
           "16e2ef48-b04b-46f0-bf5f-d12823645624": {
             "type": "drop",
             "settings": {
-              "title": "Chargeurs",
-              "url": "#",
+              "title": "Accessoires iPhone 15",
+              "url": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
               "open_link": "_self",
-              "menu": "product-chargers",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
