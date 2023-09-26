@@ -7,7 +7,6 @@
     },
     "breadcrumb": {
       "type": "brc-nav-product",
-      "disabled": true,
       "settings": {
         "breadcrumb_pr": true,
         "back_next_pr": true,
