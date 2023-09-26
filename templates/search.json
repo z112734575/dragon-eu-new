@@ -208,7 +208,7 @@
       }
     },
     "main": {
-      "type": "main-search-no-usf",
+      "type": "main-search",
       "blocks": {
         "9375b7e8-1193-4527-a6bd-dd4bcd8660ac": {
           "type": "sortby",
