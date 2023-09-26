@@ -725,6 +725,26 @@
               "pos": "left"
             }
           },
+          "550bcd55-e2b8-40fb-a643-7e078694e4ea": {
+            "type": "mega",
+            "settings": {
+              "title": "Nouvelle arrivee",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "#00BADB",
+              "pos_sub": "bottom",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "id": 1,
+              "enable_packery": true,
+              "r_s_h_item": "20",
+              "r_s_v_item": "30"
+            }
+          },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
             "type": "drop",
             "settings": {
@@ -807,27 +827,6 @@
               "pos_sub": "bottom",
               "pos": "left"
             }
-          },
-          "550bcd55-e2b8-40fb-a643-7e078694e4ea": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "Nouvelle arrivee",
-              "url": "",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00BADB",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "id": 1,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
           }
         },
         "block_order": [
@@ -837,12 +836,12 @@
           "7b6b268c-25a0-4c97-960d-7e81c56a2676",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
+          "550bcd55-e2b8-40fb-a643-7e078694e4ea",
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7",
           "16e2ef48-b04b-46f0-bf5f-d12823645624",
           "6141bf58-9316-4ce8-bd6d-16b03ed3fc8c",
           "498888dd-d297-4762-adcd-478cdb134666",
-          "81870b72-15ac-42fc-9d8c-0f9898d38878",
-          "550bcd55-e2b8-40fb-a643-7e078694e4ea"
+          "81870b72-15ac-42fc-9d8c-0f9898d38878"
         ],
         "settings": {
           "layout": "logo_left",
@@ -1343,7 +1342,6 @@
           },
           "ba9c883f-7863-45ff-a5c4-e1f506e0d954": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "id": 1
             }
@@ -1356,7 +1354,7 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/Banner-PC-2023-septemberevent.png",
+              "image": "shopify:\/\/shop_images\/new_pc.png",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
@@ -1373,20 +1371,42 @@
           },
           "727d097b-61d8-4a66-8c07-a76e85acb487": {
             "type": "banner",
-            "disabled": true,
             "settings": {
               "image_ratio": "ratioadapt",
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 400,
+              "image": "shopify:\/\/shop_images\/tragbare-powerstation-solargenerator-2048Wh.jpg",
               "img_effect": "none",
               "b_effect": "none",
-              "b_link": "",
+              "b_link": "https:\/\/fr.ugreen.com\/pages\/ugreen-powerroam-2200",
               "open_link": "_self",
-              "html": "<h3 class=\"fs__30 mg__0 lh__1 cw mb__10\">lighting collections<\/h3><h4 class=\"fs__16 mg__0 cw\">Explorer<\/h4>",
-              "content_align": "center",
-              "cv_pos": 50,
-              "ch_pos": 50,
+              "html": "<h3 class=\"fs__30 mg__0 lh__1 cw mb__10\">PowerRoam 2200\nPowerstation|2300w 2048wh<\/h3><h4 class=\"fs__16 mg__0 cw\">Explorer<\/h4>",
+              "content_align": "start",
+              "cv_pos": 10,
+              "ch_pos": 20,
+              "cl_txt": "#fff",
+              "cl_overlay": "#000",
+              "cl_opacity": 5,
+              "col": "4"
+            }
+          },
+          "a351d824-8df6-46de-8ce1-5404fa9e9dd7": {
+            "type": "banner",
+            "settings": {
+              "image_ratio": "ratioadapt",
+              "image_size": "cover",
+              "image_position": "8",
+              "height_dk": 400,
+              "image": "shopify:\/\/shop_images\/pc.png",
+              "img_effect": "none",
+              "b_effect": "none",
+              "b_link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
+              "open_link": "_self",
+              "html": "<h3 class=\"fs__30 mg__0 lh__1 cw mb__10\">Unleash the Power\nNew Nexode 300W GaN Charger<\/h3><h4 class=\"fs__16 mg__0 cw\">Shop now<\/h4>",
+              "content_align": "start",
+              "cv_pos": 10,
+              "ch_pos": 20,
               "cl_txt": "#fff",
               "cl_overlay": "#000",
               "cl_opacity": 5,
@@ -1406,7 +1426,8 @@
           "5e36256f-89ee-42cd-8ca5-b1510d32f9b6",
           "ba9c883f-7863-45ff-a5c4-e1f506e0d954",
           "fe174549-7def-41fd-9d2a-9e8fcb76fab9",
-          "727d097b-61d8-4a66-8c07-a76e85acb487"
+          "727d097b-61d8-4a66-8c07-a76e85acb487",
+          "a351d824-8df6-46de-8ce1-5404fa9e9dd7"
         ],
         "settings": {
           "show_price": false,
