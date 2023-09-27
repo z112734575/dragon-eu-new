@@ -1403,7 +1403,7 @@
               "b_effect": "none",
               "b_link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
               "open_link": "_self",
-              "html": "<h3 class=\"fs__30 mg__0 lh__1 cw mb__10\">Unleash the Power\nNew Nexode 300W GaN Charger<\/h3><h4 class=\"fs__16 mg__0 cw\"><\/h4>",
+              "html": "<h3 class=\"fs__30 mg__0 lh__1 cw mb__10\">\n<span style=\"font-size: 16px;\">Unleash the Power\nNew<\/span><br> Nexode 300W GaN Charger<\/h3><h4 class=\"fs__16 mg__0 cw\" style=\"color: #03F2A6;\">Shop Now &gt;&gt;<\/h4>",
               "content_align": "start",
               "cv_pos": 10,
               "ch_pos": 20,
