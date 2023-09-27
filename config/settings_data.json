@@ -741,8 +741,8 @@
               "cus_wid": 1200,
               "id": 1,
               "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
+              "r_s_h_item": "10",
+              "r_s_v_item": "10"
             }
           },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
@@ -770,7 +770,7 @@
               "url": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
               "open_link": "_self",
               "menu": "",
-              "icon": "",
+              "icon": "lab la-hotjar",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "Hot",
