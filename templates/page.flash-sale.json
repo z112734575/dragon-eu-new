@@ -235,7 +235,8 @@
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-2": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "cable-usb-c-c",
+            "image": "shopify:\/\/shop_images\/313e5610075b2136e126dfc0b5313990.w750.h750._CR0_0_750_750_SX480_SY480.jpg",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
@@ -244,7 +245,8 @@
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-3": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "hub-adaptateur",
+            "image": "shopify:\/\/shop_images\/d4091d40bba8b43237b00dc06608f407.w750.h750._CR0_0_750_750_SX480_SY480.jpg",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
@@ -258,13 +260,33 @@
             "collection_title": "Collection",
             "collection_link": ""
           }
+        },
+        "fac7a75d-f1b1-42c0-bab2-823a90eea84c": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "aaed159c-dc49-4e7c-b2b3-75463ad9fa57": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
         }
       },
       "block_order": [
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-1",
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-2",
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-3",
-        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4"
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4",
+        "fac7a75d-f1b1-42c0-bab2-823a90eea84c",
+        "aaed159c-dc49-4e7c-b2b3-75463ad9fa57"
       ],
       "settings": {
         "design_heading": "1",
