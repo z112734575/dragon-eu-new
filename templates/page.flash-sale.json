@@ -255,7 +255,8 @@
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "hard-drive-enclosures",
+            "image": "shopify:\/\/shop_images\/2535d7096411a35268bfe26caac8c214.w750.h750._CR0_0_750_750_SX480_SY480.jpg",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
@@ -264,13 +265,32 @@
         "fac7a75d-f1b1-42c0-bab2-823a90eea84c": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "support",
+            "image": "shopify:\/\/shop_images\/ddede3b8fcf884953429c2639322e45e.w750.h750._CR0_0_750_750_SX480_SY480.jpg",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
           }
         },
         "aaed159c-dc49-4e7c-b2b3-75463ad9fa57": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "56a687f2-c695-4868-a0e3-7e6bf140d75d": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "5f360717-2a62-41b1-8b0d-893089cfe1d2": {
           "type": "collection_item",
           "settings": {
             "collection": "",
@@ -286,7 +306,9 @@
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-3",
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4",
         "fac7a75d-f1b1-42c0-bab2-823a90eea84c",
-        "aaed159c-dc49-4e7c-b2b3-75463ad9fa57"
+        "aaed159c-dc49-4e7c-b2b3-75463ad9fa57",
+        "56a687f2-c695-4868-a0e3-7e6bf140d75d",
+        "5f360717-2a62-41b1-8b0d-893089cfe1d2"
       ],
       "settings": {
         "design_heading": "1",
