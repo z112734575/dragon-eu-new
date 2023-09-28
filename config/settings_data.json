@@ -1331,8 +1331,8 @@
                 "ugreen-support-telephone-bureau",
                 "20435",
                 "40393",
-                "50564",
-                "40289"
+                "20471",
+                "50564"
               ],
               "tag_list": "",
               "collection_name_list": "support de téléphone portable,\nSupport d'ordinateur,\nsupport de voiture,",
@@ -1440,9 +1440,8 @@
         "blocks": {
           "978de359-1bb0-4204-91e0-084625271217": {
             "type": "mega_tab_list",
-            "disabled": true,
             "settings": {
-              "title": "超级菜单",
+              "title": "Produits",
               "tab_list": "",
               "open": false
             }
@@ -1648,18 +1647,18 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-                "2023-deal-100w-3c1a-gan-fast-charger",
-                "ugreen-1200w-portable-power-station-2023-deal",
-                "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
-                "2023-recommend-ugreen-powerroam-600-power-station",
-                "bluetooth5-3transmitteraudioadapter",
-                "order-over-70-get-free-10-gift-card"
+                "90903",
+                "40914",
+                "40747",
+                "15076",
+                "10335",
+                "90597"
               ],
-              "tag_list": "Hot,Good",
-              "collection_name_list": "Cable,Hubs,Good",
-              "collection_link_list": "\/collection\/abc",
-              "all_collection_url": "shopify:\/\/collections\/2023summer",
-              "all_collection_name": "All Hubs"
+              "tag_list": "New,Hot",
+              "collection_name_list": "Chargeurs USB C,\nChargeurs GaN,\nBanques d'alimentation,\nChargeurs de voiture,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/quick-charge-chargeur,https:\/\/fr.ugreen.com\/collections\/gan-chargeur,\nhttps:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/chargeur-de-voiture,",
+              "all_collection_url": "shopify:\/\/collections\/chargeur",
+              "all_collection_name": "All CHARGEUR"
             }
           },
           "90862b21-7621-46e5-9f35-938af1220116": {
@@ -1667,24 +1666,99 @@
             "settings": {
               "tab_id": 2,
               "product_list": [
-                "ugreen-100w-usb-c-diginest-pro-power-strip",
-                "ugreen-100w-usb-c-to-usb-c-cable-6ft",
-                "ugreen-m-2-nvme-sata-ssd-enclosure-reader",
-                "ugreen-usb-c-triple-display-docking-station",
-                "ugreen-100w-gan-mini-power-station",
-                "ugreen-100w-usb-c-charger"
+                "90325",
+                "90912",
+                "60515",
+                "70410",
+                "60560",
+                "80133"
               ],
-              "tag_list": "好,很好，非常好",
-              "collection_name_list": "123,456,789",
-              "collection_link_list": "111,222,333",
-              "all_collection_url": "shopify:\/\/collections\/back-to-school-stand-deals",
-              "all_collection_name": "All Cables"
+              "tag_list": "Hot,Deal",
+              "collection_name_list": "Station d'accueil,\nConcentrateur USB-C,\nCommutateur HDMI,\nBoîtiers de disque dur，",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/station-daccueil,\nhttps:\/\/fr.ugreen.com\/collections\/hub-1,\nhttps:\/\/fr.ugreen.com\/collections\/usb-switch,\nhttps:\/\/fr.ugreen.com\/collections\/hard-drive-enclosures,",
+              "all_collection_url": "shopify:\/\/collections\/hub-adaptateur",
+              "all_collection_name": "All HUB"
+            }
+          },
+          "0cd81335-fb55-499b-ad85-629671fca690": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 3,
+              "product_list": [
+                "50122",
+                "70429",
+                "60759",
+                "10232",
+                "40180",
+                "40171"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Câbles USB C,\nCâbles USB A,\nCâbles Lightning,\nCâbles audio et vidéo,\nCâbles Ethernet,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-usb-c-c,https:\/\/fr.ugreen.com\/collections\/cable-usb-a-c,https:\/\/fr.ugreen.com\/collections\/cable-lightning,https:\/\/fr.ugreen.com\/collections\/audio-video,https:\/\/fr.ugreen.com\/collections\/cable-ethernet",
+              "all_collection_url": "shopify:\/\/collections\/cable",
+              "all_collection_name": "All Câbles"
+            }
+          },
+          "7fd1d5b2-8613-4d10-ac02-dfdeda975306": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 4,
+              "product_list": [
+                "80893",
+                "70601",
+                "50737",
+                "30768",
+                "50966",
+                "50706"
+              ],
+              "tag_list": ",Hot",
+              "collection_name_list": "Adaptateur Bluetooth,\nAdaptateur Ethernet,\nAdaptateur SD,\nCommutateur HDMI,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/bluetooth,\nhttps:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,\nhttps:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,\nhttps:\/\/fr.ugreen.com\/collections\/usb-switch,",
+              "all_collection_url": "shopify:\/\/collections\/adaptateur",
+              "all_collection_name": "ADAPTATEUR"
+            }
+          },
+          "8d865e21-cd0c-49dc-8913-1e3b6563bbed": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 5,
+              "product_list": [
+                "ugreen-support-telephone-bureau",
+                "20435",
+                "40393",
+                "90396",
+                "30488",
+                "50564"
+              ],
+              "tag_list": "",
+              "collection_name_list": "support de téléphone portable,\nSupport d'ordinateur,\nsupport de voiture,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/support-telephone-bureau,https:\/\/fr.ugreen.com\/collections\/support-tablette-et-pc-portable,https:\/\/fr.ugreen.com\/collections\/support-voiture-telephone",
+              "all_collection_url": "shopify:\/\/collections\/support",
+              "all_collection_name": "All SUPPORT"
+            }
+          },
+          "92203dd8-5bd7-4e0d-9936-f47fd20d389f": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
             }
           }
         },
         "block_order": [
           "8d954c8a-601b-484c-a41a-790f2460396f",
-          "90862b21-7621-46e5-9f35-938af1220116"
+          "90862b21-7621-46e5-9f35-938af1220116",
+          "0cd81335-fb55-499b-ad85-629671fca690",
+          "7fd1d5b2-8613-4d10-ac02-dfdeda975306",
+          "8d865e21-cd0c-49dc-8913-1e3b6563bbed",
+          "92203dd8-5bd7-4e0d-9936-f47fd20d389f"
         ],
         "settings": {
           "show_price": true,
