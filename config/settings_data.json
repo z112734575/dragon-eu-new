@@ -1648,17 +1648,17 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-                "2023-deal-100w-3c1a-gan-fast-charger",
-                "ugreen-1200w-portable-power-station-2023-deal",
-                "ugreen-600w-power-station-2023-deal-680wh-capacity-solar-generatorlifepo4-battery1-5h-fast-charging",
-                "2023-recommend-ugreen-powerroam-600-power-station",
-                "bluetooth5-3transmitteraudioadapter",
-                "order-over-70-get-free-10-gift-card"
+                "90903",
+                "40914",
+                "40747",
+                "15076",
+                "10335",
+                "90597"
               ],
-              "tag_list": "Hot,Good",
-              "collection_name_list": "Cable,Hubs,Good",
-              "collection_link_list": "\/collection\/abc",
-              "all_collection_url": "shopify:\/\/collections\/2023summer",
+              "tag_list": "New,Hot",
+              "collection_name_list": "Chargeurs USB C,\nChargeurs GaN,\nBanques d'alimentation,\nChargeurs de voiture,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/quick-charge-chargeur,https:\/\/fr.ugreen.com\/collections\/gan-chargeur,\nhttps:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/chargeur-de-voiture,",
+              "all_collection_url": "shopify:\/\/collections\/chargeur",
               "all_collection_name": "All Hubs"
             }
           },
@@ -1680,11 +1680,26 @@
               "all_collection_url": "shopify:\/\/collections\/back-to-school-stand-deals",
               "all_collection_name": "All Cables"
             }
+          },
+          "0cd81335-fb55-499b-ad85-629671fca690": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
           }
         },
         "block_order": [
           "8d954c8a-601b-484c-a41a-790f2460396f",
-          "90862b21-7621-46e5-9f35-938af1220116"
+          "90862b21-7621-46e5-9f35-938af1220116",
+          "0cd81335-fb55-499b-ad85-629671fca690"
         ],
         "settings": {
           "show_price": true,
