@@ -1740,15 +1740,17 @@
           "92203dd8-5bd7-4e0d-9936-f47fd20d389f": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 1,
+              "tab_id": 6,
               "product_list": [
-
+                "ugreen-centrale-electrique-portable-panneau-solaire-pliable-1",
+                "15050a",
+                "15054a"
               ],
               "tag_list": "",
               "collection_name_list": "",
               "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "all_collection_url": "shopify:\/\/collections\/centrale-electrique",
+              "all_collection_name": "centrale électrique"
             }
           }
         },
