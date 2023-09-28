@@ -18,7 +18,7 @@
     "d2230466-b5fe-49cc-ac39-926497ba0c21": {
       "type": "page_banner",
       "settings": {
-        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/9732e4a7-5c13-48f4-aed8-2ad54803982d._CR0_0_3000_600_SX1500.jpg?v=1695891751",
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Autumn-Harvest-PC.png?v=1695892309",
         "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/a8979b4e-c7be-4b3a-982e-a9f6447be906._CR0_0_3000_1600_SX1500.jpg?v=1695891751",
         "image_alt": "Featured Deals"
       }
@@ -193,7 +193,8 @@
           "90541",
           "50737",
           "30768",
-          "30767"
+          "30767",
+          "ugreen-support-telephone-bureau"
         ],
         "title": "",
         "subtitle": "",
@@ -216,6 +217,115 @@
         "show_compare": true,
         "show_rating": true,
         "show_learn_btn": true
+      }
+    },
+    "0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199": {
+      "type": "collections-list",
+      "blocks": {
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "chargeur",
+            "image": "shopify:\/\/shop_images\/46b5522de9b22d4a381944307981935c.w750.h750._CR0_0_750_750_SX480_SY480.jpg",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-3": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-1",
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-2",
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-3",
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Collections list",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "1",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "source": "image",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout_des": "1",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "e8f15098-8dc6-40ea-98fc-74037a3d1191": {
@@ -271,6 +381,7 @@
     "ug-tabs-product-list",
     "87863d7e-936f-43c0-9c2b-4d59cb5688f1",
     "ug-product-list",
+    "0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199",
     "e8f15098-8dc6-40ea-98fc-74037a3d1191",
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe",
     "cad238b2-e0fd-431c-8f18-c654585ffaa5"
