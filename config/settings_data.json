@@ -1441,7 +1441,7 @@
           "978de359-1bb0-4204-91e0-084625271217": {
             "type": "mega_tab_list",
             "settings": {
-              "title": "超级菜单",
+              "title": "Produits",
               "tab_list": "",
               "open": false
             }
@@ -1702,15 +1702,20 @@
           "7fd1d5b2-8613-4d10-ac02-dfdeda975306": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 1,
+              "tab_id": 4,
               "product_list": [
-
+                "80893",
+                "70601",
+                "50737",
+                "30768",
+                "50966",
+                "50706"
               ],
-              "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "tag_list": ",Hot",
+              "collection_name_list": "Adaptateur Bluetooth,\nAdaptateur Ethernet,\nAdaptateur SD,\nCommutateur HDMI,",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/bluetooth,\nhttps:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,\nhttps:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,\nhttps:\/\/fr.ugreen.com\/collections\/usb-switch,",
+              "all_collection_url": "shopify:\/\/collections\/adaptateur",
+              "all_collection_name": "ADAPTATEUR"
             }
           },
           "8d865e21-cd0c-49dc-8913-1e3b6563bbed": {
