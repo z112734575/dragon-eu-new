@@ -1440,7 +1440,6 @@
         "blocks": {
           "978de359-1bb0-4204-91e0-084625271217": {
             "type": "mega_tab_list",
-            "disabled": true,
             "settings": {
               "title": "超级菜单",
               "tab_list": "",
@@ -1684,9 +1683,14 @@
           "0cd81335-fb55-499b-ad85-629671fca690": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 1,
+              "tab_id": 3,
               "product_list": [
-
+                "50122",
+                "70429",
+                "60759",
+                "10232",
+                "40180",
+                "40171"
               ],
               "tag_list": "",
               "collection_name_list": "",
