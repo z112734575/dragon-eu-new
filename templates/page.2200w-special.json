@@ -21,7 +21,7 @@
         "template--14559285149758__2ac9ca40-7a86-4210-9714-1727d0a3e29f-16818003977dd5f31e-1": {
           "type": "custom_text",
           "settings": {
-            "text": "UGREEN PowerRoam 2200 Portable Power Power Station",
+            "text": "PowerRoam 2200 Portable Power Station",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#ffffff",
@@ -43,7 +43,7 @@
         "template--14559285149758__2ac9ca40-7a86-4210-9714-1727d0a3e29f-16818003977dd5f31e-0": {
           "type": "custom_text",
           "settings": {
-            "text": "Power Anything, Anywhere, Anytime.",
+            "text": "Power Anything, Anytime, Anywhere",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#ffffff",
@@ -159,7 +159,7 @@
         "template--14559285149758__2ac9ca40-7a86-4210-9714-1727d0a3e29f-16818003977dd5f31e-1": {
           "type": "custom_text",
           "settings": {
-            "text": "UGREEN PowerRoam 2200 <br> Portable Power Power Station",
+            "text": "PowerRoam 2200 <br> Portable Power Station",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#ffffff",
@@ -181,7 +181,7 @@
         "template--14559285149758__2ac9ca40-7a86-4210-9714-1727d0a3e29f-16818003977dd5f31e-0": {
           "type": "custom_text",
           "settings": {
-            "text": "Power Anything, <br>Anywhere, <br>Anytime.",
+            "text": "Power Anything,<br> Anytime, <br>Anywhere",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#ffffff",
