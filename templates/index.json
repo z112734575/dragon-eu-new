@@ -8,6 +8,18 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/tragbare-powerstation-solargenerator-2048Wh.jpg?v=1695730132",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/tragbare-powerstation-solargenerator-2048Wh-m.jpg?v=1695731607",
+            "title": "UGREEN PowerRoam 2200 Centrale électrique portable",
+            "subtitle": "11h00, le 9 octobre. Préparez-vous !",
+            "button_text": "acheter maintenant",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-powerroam-2200",
+            "className": ""
+          }
+        },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -29,18 +41,6 @@
             "subtitle": "USB-C Innover pour l'avenir",
             "button_text": "Achetez maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
-            "className": ""
-          }
-        },
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/tragbare-powerstation-solargenerator-2048Wh.jpg?v=1695730132",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/tragbare-powerstation-solargenerator-2048Wh-m.jpg?v=1695731607",
-            "title": "UGREEN PowerRoam 2200 Centrale électrique portable",
-            "subtitle": "11h00, le 9 octobre. Préparez-vous !",
-            "button_text": "acheter maintenant",
-            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-powerroam-2200",
             "className": ""
           }
         },
@@ -72,9 +72,9 @@
         }
       },
       "block_order": [
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-11",
         "ug-index-carousel-1",
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "86777b6a-bde9-4981-9d0b-274743aba41c",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
