@@ -23,13 +23,12 @@
         },
         "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN__pc_f02dbaaf-2ca6-4a6b-a081-40c1f4d75a91.png?v=1694746016",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EN__Mobile_2a888e67-1e1c-4809-8852-08b914c5f028.png?v=1694746002",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EUpc-min.png?v=1696843424",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU_bd85c50d-ba1e-41d5-a070-bba376fa3942.png?v=1696843420",
             "text_color": "#000000",
-            "title": "Ugreen Oktoberfest,<br>Cheers to Savings!",
-            "subtitle": "Up To 30% Off",
+            "title": "PowerRoam 2200 Portable Power Power Station",
+            "subtitle": "Power Anything,Anywhere, Anytime.",
             "button_text": "Learn More",
             "link": "\/pages\/oktoberfest",
             "className": "buy-more-save-more"
