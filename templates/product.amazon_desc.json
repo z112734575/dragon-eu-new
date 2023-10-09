@@ -327,7 +327,6 @@
     },
     "sidebar": {
       "type": "sidebar-product",
-      "disabled": true,
       "blocks": {
         "f01b181b-62ee-4735-8e25-32cb71ccfaba": {
           "type": "category",
@@ -402,6 +401,7 @@
         "9ce9ded8-1cef-4e32-b98b-47364ffa328c",
         "4a9c6ae8-f3b4-4192-a6d1-82d01670bce6"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": true,
         "space": 50,
