@@ -39,6 +39,53 @@
         "code_cus_css": ""
       }
     },
+    "87863d7e-936f-43c0-9c2b-4d59cb5688f1": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-sale_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Best Sellers<\/span>\n<\/h2>\n    <\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "product_list": [
+          "15054a",
+          "90889",
+          "60450",
+          "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur"
+        ],
+        "title": "",
+        "subtitle": "",
+        "section_id": "ug-product-list",
+        "pc_product_type": "row",
+        "mobile_product_type": "row",
+        "product_item_bg_color": "#f5f5f7",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "100%",
+        "pc_row": "2",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "0 0 120px 0",
+        "mobile_padding": "0 0 60px 0",
+        "need_load_more": false,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true
+      }
+    },
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
@@ -163,53 +210,6 @@
         "show_learn_btn": true
       }
     },
-    "87863d7e-936f-43c0-9c2b-4d59cb5688f1": {
-      "type": "custom-html",
-      "settings": {
-        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-sale_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Best Sellers<\/span>\n<\/h2>\n    <\/section>",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "ug-product-list": {
-      "type": "ug-product-list",
-      "settings": {
-        "product_list": [
-          "15054a",
-          "ugreen-usb-c-triple-display-docking-station",
-          "ugreen-145w-power-bank-for-laptop",
-          "ugreen-10000mah-magsafe-wireless-power-bank"
-        ],
-        "title": "",
-        "subtitle": "",
-        "section_id": "ug-product-list",
-        "pc_product_type": "row",
-        "mobile_product_type": "row",
-        "product_item_bg_color": "#f5f5f7",
-        "pc_product_item_img_size": "100%",
-        "mobile_product_item_img_size": "57%",
-        "pc_row": "2",
-        "mobile_row": "2",
-        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
-        "pc_product_sale_width": "60px",
-        "mobile_product_sale_width": "48px",
-        "pc_padding": "0 0 120px 0",
-        "mobile_padding": "0 0 60px 0",
-        "need_load_more": false,
-        "load_more_default_count": 4,
-        "show_sale_flag": true,
-        "show_compare": true,
-        "show_rating": true,
-        "show_learn_btn": true
-      }
-    },
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
       "type": "custom-html",
       "settings": {
@@ -245,9 +245,9 @@
     "e49dddc3-8400-4a86-a3ec-b69a2fd75773",
     "d2230466-b5fe-49cc-ac39-926497ba0c21",
     "ba30f705-8ef4-4326-9574-a9913009c92c",
-    "ug-tabs-product-list",
     "87863d7e-936f-43c0-9c2b-4d59cb5688f1",
     "ug-product-list",
+    "ug-tabs-product-list",
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe",
     "be3868d2-78e9-4b35-9570-c9b21fb9bcb4"
   ]
