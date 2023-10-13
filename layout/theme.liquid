@@ -85,8 +85,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {% render 'usf' %}
 
     {%- render 'head_assets',t_name:t_name,isRTL:isRTL -%}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+    <script src="{{ 'jquery@3.min.js' | asset_url }}"></script>
+    <script src="{{ 'clipboard@2.min.js' | asset_url }}"></script>
     {% comment %} iconfont 的 js {% endcomment %}
     <script src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/iconfont.js?v=1676862777" async></script>
     {{ 'theme-new.css' | asset_url | stylesheet_tag }}
@@ -127,8 +127,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     {% include 'eu-cookie-richtlinie-block' %}
  {% include 'smile-initializer' %}
-
-{% include 'gtranslate', float: 'yes' %}
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPWLL45"
