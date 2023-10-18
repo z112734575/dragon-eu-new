@@ -1341,6 +1341,21 @@
               "all_collection_name": "All SUPPORT"
             }
           },
+          "effe8a05-9766-487a-81e9-4a94ab4489b7": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 7,
+              "product_list": [
+                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
+                "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable"
+              ],
+              "tag_list": "Hot,",
+              "collection_name_list": "Bundle",
+              "collection_link_list": "cfr.ugreen.com\/collections\/bundle,",
+              "all_collection_url": "shopify:\/\/collections\/bundle",
+              "all_collection_name": "All Bundle"
+            }
+          },
           "ba9c883f-7863-45ff-a5c4-e1f506e0d954": {
             "type": "mega",
             "settings": {
@@ -1424,6 +1439,7 @@
           "c568446d-9720-482f-b9ab-5195213a66f0",
           "e3e4007f-8702-486d-8ffa-94ba701b471d",
           "5e36256f-89ee-42cd-8ca5-b1510d32f9b6",
+          "effe8a05-9766-487a-81e9-4a94ab4489b7",
           "ba9c883f-7863-45ff-a5c4-e1f506e0d954",
           "fe174549-7def-41fd-9d2a-9e8fcb76fab9",
           "727d097b-61d8-4a66-8c07-a76e85acb487",
