@@ -8,6 +8,19 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "ug-index-carousel-11": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/DE_EU_FR__pc.png?v=1697685204",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/DE_EU_FR__mo.png?v=1697685203",
+            "text_color": "#ffffff",
+            "title": "HALLOWEEN HOWLER",
+            "subtitle": "Spine-Chilling Discounts I Up To 30% Off",
+            "button_text": "Shop Now",
+            "link": "\/pages\/halloween-sale",
+            "className": "buy-more-save-more"
+          }
+        },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -60,28 +73,14 @@
             "link": "\/collections\/hubs",
             "className": ""
           }
-        },
-        "ug-index-carousel-11": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/DE_EU_FR__pc.png?v=1697685204",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/DE_EU_FR__mo.png?v=1697685203",
-            "text_color": "#ffffff",
-            "title": "HALLOWEEN HOWLER",
-            "subtitle": "Spine-Chilling Discounts I Up To 30% Off",
-            "button_text": "Shop Now",
-            "link": "\/pages\/halloween-sale",
-            "className": "buy-more-save-more"
-          }
         }
       },
       "block_order": [
+        "ug-index-carousel-11",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "6c99235d-1a0a-4489-bae1-1a493df0dc48",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e",
-        "ug-index-carousel-1",
-        "ug-index-carousel-11"
+        "ug-index-carousel-1"
       ],
       "custom_css": [
         ".buy-more-save-more .green-home-banner-box {text-align: left; top: 16vw; left: 20vw;}",
@@ -209,7 +208,8 @@
         "show_sale_flag": false,
         "show_compare": true,
         "show_rating": false,
-        "show_learn_btn": false
+        "show_learn_btn": false,
+        "show_code": false
       }
     },
     "ug-index-fit-life": {
