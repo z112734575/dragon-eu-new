@@ -112,12 +112,15 @@
           "settings": {
             "tabs_title": "Cables",
             "product_list": [
-              "usb-c-to-lightning-fast-charging-cable",
-              "100w-pd-fast-charging-cable",
-              "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft",
-              "ugreen-240w-pd3-1-usb-c-to-usb-c-cable",
-              "ugreen-usb-c-to-lightning-audio-adapter",
-              "ugreen-cat-8-ethernet-cable-high-speed-40gbps-2000mhz"
+              "60759",
+              "60125",
+              "70754",
+              "20855",
+              "50940",
+              "10358",
+              "50122",
+              "70429",
+              "ugreen-cable-usb-c-vers-usb-c-pd-charge-rapide-60w-nylon-tresse"
             ]
           }
         }
