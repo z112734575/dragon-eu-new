@@ -90,18 +90,6 @@
             ]
           }
         },
-        "56de405c-308f-4005-baf2-e1aac394fd05": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Power Bank",
-            "product_list": [
-              "ugreen-10000mah-magsafe-wireless-power-bank",
-              "ugreen-145w-power-bank-for-laptop",
-              "ugreen-usb-c-to-usb-c-cable-60w",
-              "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0"
-            ]
-          }
-        },
         "a804cea0-ed41-44b1-aceb-dc8e243b3162": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -113,14 +101,26 @@
               "15113"
             ]
           }
+        },
+        "56de405c-308f-4005-baf2-e1aac394fd05": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Power Bank",
+            "product_list": [
+              "ugreen-10000mah-magsafe-wireless-power-bank",
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-usb-c-to-usb-c-cable-60w",
+              "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0"
+            ]
+          }
         }
       },
       "block_order": [
         "35c9871c-733f-43d3-b0aa-a3e96b9ef85c",
         "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88",
         "75ce9223-3849-4530-97f8-99ba59ce9854",
-        "56de405c-308f-4005-baf2-e1aac394fd05",
-        "a804cea0-ed41-44b1-aceb-dc8e243b3162"
+        "a804cea0-ed41-44b1-aceb-dc8e243b3162",
+        "56de405c-308f-4005-baf2-e1aac394fd05"
       ],
       "settings": {
         "section_id": "sainta-day",
