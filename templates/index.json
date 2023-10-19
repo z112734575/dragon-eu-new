@@ -23,10 +23,11 @@
         },
         "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EUpc-min.png?v=1696843424",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU_bd85c50d-ba1e-41d5-a070-bba376fa3942.png?v=1696843420",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "PowerRoam 2200 Portable Power Power Station",
             "subtitle": "Power Anything,Anywhere, Anytime.",
             "button_text": "Learn More",
@@ -64,8 +65,8 @@
           "type": "ug-index-carousel-item",
           "disabled": true,
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_pc_ae51d297-40e4-413e-a3ca-f0ae2018c190.webp?v=1691573824",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/banner_mobile_c7bf64f5-7c5b-45af-88bd-b94aaae4f05e.webp?v=1691573823",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/DE_EU_FR__pc.png?v=1697685204",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/DE_EU_FR__mo.png?v=1697685203",
             "text_color": "#ffffff",
             "title": "<span style=\"font-weight: 500;\">New School Year, New School Deals<\/span><br> Save Up to 30%",
             "subtitle": "Aug 10 <sup>th<\/sup> - Aug 24 <sup>th<\/sup>",
