@@ -1,66 +1,179 @@
 {
   "sections": {
-    "heading": {
-      "type": "heading-template",
+    "5a97e0ca-1580-48d9-aafd-8a9feb3ade1f": {
+      "type": "page_banner",
       "settings": {
-        "use_specify_image": true,
-        "parallax": false,
-        "color": "#000000",
-        "overlay": 54,
-        "padding": 50,
-        "paddingmb": 50,
-        "mg_b": 50,
-        "mg_bmb": 50,
-        "content_align": "t4s-text-center",
-        "bg_pos": "center center",
-        "bg_repeat": "no-repeat",
-        "bg_size": "cover",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/US_banner_pc.webp?v=1697512558",
+        "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/US_banner_mo.webp?v=1697512566",
+        "image_alt": "The Best Deals AreOne Click Away"
       }
     },
-    "main": {
-      "type": "main-page",
+    "2c9bf8f0-ce25-4c99-9bda-06c38ce52758": {
+      "type": "gift_card",
       "settings": {
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "60px,,60px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
+        "section_title": "Purchase a <span>10%<\/span> OFF BFCM Gift Card",
+        "sub_title": "Get ready for Black Friday by purchasing a 10% off gift card today.",
+        "product": "order-over-70-get-free-10-gift-card"
       }
     },
-    "sidebar-page": {
-      "type": "sidebar-page",
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "product_list": [
+          "ugreen-usb-c-triple-display-docking-station",
+          "ugreen-130w-usb-c-car-charger",
+          "bluetooth5-3transmitteraudioadapter",
+          "order-over-70-get-free-10-gift-card",
+          "ugreen-1200w-portable-power-station-2023-deal",
+          "2023-deal-100w-3c1a-gan-fast-charger",
+          "ugreen-10-in-1-hub-with-4k-hdmi",
+          "ugreen-100w-usb-c-diginest-pro-power-strip",
+          "ugreen-100w-usb-c-to-usb-c-cable-6ft",
+          "ugreen-100w-usb-c-diginest-pro-charging-station-的副本-测试勿删"
+        ],
+        "title": "Limited-Time Offers",
+        "subtitle": "",
+        "section_id": "ug-product-list",
+        "pc_product_type": "column",
+        "mobile_product_type": "row",
+        "product_item_bg_color": "#202422",
+        "pc_product_item_img_size": "70%",
+        "mobile_product_item_img_size": "100%",
+        "pc_row": "3",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/tag_mo.png?v=1697600272",
+        "pc_product_sale_width": "4.167vw",
+        "mobile_product_sale_width": "12.8vw",
+        "pc_padding": "2.083vw 0 6.25vw 0",
+        "mobile_padding": "4vw 0 21.333vw 0",
+        "need_load_more": false,
+        "load_more_default_count": 6,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true,
+        "show_code": true
+      }
+    },
+    "388f7fcd-4e61-4dd4-a908-861b90859d17": {
+      "type": "ug-tabs-product-list",
       "blocks": {
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
-          "type": "blog_cate",
+        "35c9871c-733f-43d3-b0aa-a3e96b9ef85c": {
+          "type": "ug-product-list-tabs",
           "settings": {
-            "title": "Blog categories",
-            "cat_link_list": "",
-            "count": true
+            "tabs_title": "Chargers",
+            "product_list": [
+              "100w-3c1a-gan-fast-charger",
+              "ugreen-nexode-200w-usb-c-desktop-charger",
+              "65w-3-ports-gan-fast-charger",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "ugreen-100w-usb-c-diginest-pro-power-strip",
+              "ugreen-65w-usb-c-diginest-cube-charging-station",
+              "ugreen-65w-nexode-gan-usb-c-3-port-charger-with-us-uk-eu-plug-for-travel",
+              "ugreen-65w-usb-c-charging-station",
+              "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft",
+              "ugreen-100w-usb-c-to-usb-c-cable-6ft"
+            ]
+          }
+        },
+        "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Hubs & Docking",
+            "product_list": [
+              "6-in-1-usb-c-adapter-with-4k-hdmi",
+              "7-in-1-multiport-adapter-with-4k-60hz",
+              "ugreen-9-in-1-usb-c-docking-station",
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-10-in-1-hub-with-4k-hdmi",
+              "ultra-slim-5-in-1-usb-c-hub",
+              "ugreen-usb-3-0-4-port-switch",
+              "ugreen-m-2-nvme-sata-ssd-enclosure-reader"
+            ]
+          }
+        },
+        "56de405c-308f-4005-baf2-e1aac394fd05": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Stands & Holders",
+            "product_list": [
+              "cell-phone-stand-holder",
+              "adjustable-aluminum-phone-holder",
+              "ugreen-360-rotating-tablet-stand-holder",
+              "ugreen-tablet-stand-holder",
+              "gravity-drive-car-mount",
+              "ugreen-laptop-stand-vertical-laptop-holder",
+              "ugreen-selfie-stick-tripod-with-remote-59-inches-phone-holder"
+            ]
+          }
+        },
+        "75ce9223-3849-4530-97f8-99ba59ce9854": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Cables",
+            "product_list": [
+              "usb-c-to-lightning-fast-charging-cable",
+              "100w-pd-fast-charging-cable",
+              "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft",
+              "ugreen-240w-pd3-1-usb-c-to-usb-c-cable",
+              "ugreen-usb-c-to-lightning-audio-adapter",
+              "ugreen-cat-8-ethernet-cable-high-speed-40gbps-2000mhz"
+            ]
           }
         }
       },
       "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+        "35c9871c-733f-43d3-b0aa-a3e96b9ef85c",
+        "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88",
+        "56de405c-308f-4005-baf2-e1aac394fd05",
+        "75ce9223-3849-4530-97f8-99ba59ce9854"
       ],
-      "disabled": true,
       "settings": {
-        "enable_drawer": false,
-        "space": 50,
-        "size": "medium",
-        "br_style": "none",
-        "brcolor": "#222222",
-        "sidebar_bdr": 5,
-        "sidebar_pd": 10
+        "section_id": "sainta-day",
+        "section_icon": "",
+        "section_title": "Buy More, Save More",
+        "sub_title": "",
+        "list_all": "4",
+        "product_item_bg_color": "#202422",
+        "pc_product_item_img_size": "70%",
+        "mobile_product_item_img_size": "100%",
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/tag_mo.png?v=1697600272",
+        "pc_product_sale_width": "4.167vw",
+        "mobile_product_sale_width": "12.8vw",
+        "pc_padding": "2.083vw 0 6.25vw 0",
+        "mobile_padding": "4vw 0 21.333vw 0",
+        "need_load_more": true,
+        "load_more_default_count": 16,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": false,
+        "show_code": true
+      }
+    },
+    "30d681da-5279-4baf-9bad-f096bd5258c8": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<style>\n    .shopify-section {\n        background: #141416;\n        margin-top: -1px;\n    }\n\n    .cursor-btns {\n        position: sticky;\n        top: 0;\n        z-index: 2;\n        background: none !important;\n    }\n\n    .cursor-btns .cursor-btn {\n        color: #999 !important;\n        background: #141416 !important;\n        border: 1px solid #666;\n    }\n\n    .cursor-btns .cursor-btn:hover,\n    .cursor-btns .cursor-btn.swiper-slide-thumb-active {\n        color: #000 !important;\n        background: #03F2A6 !important;\n        border: 1px solid #03F2A6;\n        font-weight: 600;\n    }\n\n    .tabs_products_list .contant,\n    .ug-product-list {\n        width: 100%;\n        max-width: 66.667vw !important;\n        margin: 0 auto;\n    }\n\n   \n    .ug-product-buy-btn {\n        background: #FFF !important;\n        color: #000 !important;\n    }\n\n    .ug-product-buy-btn:hover {\n        background: #03F2A6 !important;\n    }\n\n    .ug-product-learn-btn {\n        border: 1px solid #fff !important;\n        color: #fff !important;\n    }\n\n    .ug-product-learn-btn:hover {\n        border: 1px solid #03F2A6 !important;\n        color: #03F2A6 !important;\n    }\n    .ug-product-title {\n            font-weight: 600 !important;\n            color: #FFF !important;\n        }\n\n        .ug-product-price {\n            color: #03F2A6 !important;\n        }\n    .ug-product-list-title,\n    .svg_title h2 {\n        color: #fff !important;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        gap: 5px;\n    }\n\n    .svg_title svg {\n        display: none;\n    }\n\n    .ug-product-sale {\n        top: -0.625vw !important;\n        left: -0.417vw !important;\n\n    }\n\n    .ug-product-sale-text {\n        width: 2.865vw;\n        color: #000 !important;\n        top: 22% !important;\n        left: 4% !important;\n        font-weight: 700 !important;\n        font-size: 1.25vw !important;\n        transform: rotateZ(315deg) !important;\n        text-align: center;\n    }\n\n    .ug-product-sale-text-percent {\n        font-size: 0.833vw !important;\n        font-weight: 600 !important;\n    }\n\n    .tabs_products_list .ug_product_code {\n        padding: 0.25vw 1.875vw 0.25vw 1vw;\n    }\n\n    .ug-product-list-title::before,\n    .svg_title h2::before {\n        content: '';\n        background: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/lightning_left.webp?v=1697635642')center center no-repeat;\n        background-size: 100% 100%;\n        display: inline-block;\n        width: 1.979vw;\n        height: 2.8125vw;\n    }\n\n    .ug-product-list-title::after,\n    .svg_title h2::after {\n        content: '';\n        background: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/lightning_right.webp?v=1697635854')center center no-repeat;\n        background-size: 100% 100%;\n        display: inline-block;\n        width: 1.979vw;\n        height: 2.8125vw;\n    }\n    #sainta-day .ug-product-review{\n        display: none;\n    }\n    @media (min-width:768px) {\n        .ug-product-title {\n            font-size: 1.042vw!important;\n            line-height: 1.5625vw!important;\n            height: 3vw!important;\n        }\n\n        .ug-product-price {\n            font-size: 1.354vw!important;\n        }\n        .ug-product-compare_at_price{\n            font-size: 0.833vw!important;\n        }\n    }\n    @media (max-width:768px) {\n\n        .tabs_products_list .contant,\n        .ug-product-list {\n            max-width: 100% !important;\n        }\n\n        .ug-product-list-title {\n            margin-bottom: 30px !important;\n        }\n        .ug-product-sale{\n            top: -1.5vw !important;\n            left: -1vw !important;\n        }\n        .ug-product-sale-text {\n            font-size: 4.267vw !important;\n            width: 10.667vw;\n            top: 20% !important;\n            left: -5% !important;\n        }\n\n        .ug-product-sale-text-percent {\n            font-size: 12px!important;\n        }\n\n        .ug_product_code {\n            background: none;\n            padding: 0;\n            margin: 10px 0 0 0;\n        }\n\n        .ug_product_code p {\n            font-size: 12px;\n            color: #999;\n        }\n\n        .ug_product_code button {\n            font-size: 12px;\n            font-weight: 500;\n        }\n\n        .cursor-btns .swiper-wrapper {\n            justify-content: flex-start !important;\n        }\n\n        .cursor-btns .cursor-btn {\n            padding: 0 !important;\n            height: 40px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n\n        .svg_title h2 {\n            font-size: 24px !important;\n            padding: 0 0 15px 0 !important;\n        }\n\n        .svg_title p {\n            display: none;\n        }\n\n        .ug-product-list-title::before,\n        .svg_title h2::before {\n            width: 8vw;\n            height: 11.200vw;\n        }\n\n        .ug-product-list-title::after,\n        .svg_title h2::after {\n            width: 8vw;\n            height: 11.200vw;\n        }\n    }\n<\/style>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     }
   },
   "order": [
-    "heading",
-    "main",
-    "sidebar-page"
+    "5a97e0ca-1580-48d9-aafd-8a9feb3ade1f",
+    "2c9bf8f0-ce25-4c99-9bda-06c38ce52758",
+    "ug-product-list",
+    "388f7fcd-4e61-4dd4-a908-861b90859d17",
+    "30d681da-5279-4baf-9bad-f096bd5258c8"
   ]
 }
