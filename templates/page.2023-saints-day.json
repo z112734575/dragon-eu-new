@@ -57,7 +57,7 @@
         "35c9871c-733f-43d3-b0aa-a3e96b9ef85c": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Chargers",
+            "tabs_title": "Phone Chargers",
             "product_list": [
               "ugreen-30w-usb-c-charger-with-pd3-0",
               "ugreen-65w-usb-c-charger-with-3-ports",
@@ -78,6 +78,18 @@
             ]
           }
         },
+        "75ce9223-3849-4530-97f8-99ba59ce9854": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Laptop Chargers",
+            "product_list": [
+              "ugreen-nexode-100w-usb-c-wall-charger",
+              "ugreen-nexode-200w-usb-c-desktop-charger",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports"
+            ]
+          }
+        },
         "56de405c-308f-4005-baf2-e1aac394fd05": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -92,27 +104,13 @@
               "ugreen-selfie-stick-tripod-with-remote-59-inches-phone-holder"
             ]
           }
-        },
-        "75ce9223-3849-4530-97f8-99ba59ce9854": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Cables",
-            "product_list": [
-              "usb-c-to-lightning-fast-charging-cable",
-              "100w-pd-fast-charging-cable",
-              "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft",
-              "ugreen-240w-pd3-1-usb-c-to-usb-c-cable",
-              "ugreen-usb-c-to-lightning-audio-adapter",
-              "ugreen-cat-8-ethernet-cable-high-speed-40gbps-2000mhz"
-            ]
-          }
         }
       },
       "block_order": [
         "35c9871c-733f-43d3-b0aa-a3e96b9ef85c",
         "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88",
-        "56de405c-308f-4005-baf2-e1aac394fd05",
-        "75ce9223-3849-4530-97f8-99ba59ce9854"
+        "75ce9223-3849-4530-97f8-99ba59ce9854",
+        "56de405c-308f-4005-baf2-e1aac394fd05"
       ],
       "settings": {
         "section_id": "sainta-day",
