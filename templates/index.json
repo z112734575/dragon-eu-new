@@ -63,15 +63,14 @@
         },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/DE_EU_FR__pc.png?v=1697685204",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/DE_EU_FR__mo.png?v=1697685203",
             "text_color": "#ffffff",
-            "title": "<span style=\"font-weight: 500;\">New School Year, New School Deals<\/span><br> Save Up to 30%",
-            "subtitle": "Aug 10 <sup>th<\/sup> - Aug 24 <sup>th<\/sup>",
+            "title": "HALLOWEEN HOWLER",
+            "subtitle": "Spine-Chilling Discounts I Up To 30% Off",
             "button_text": "Shop Now",
-            "link": "\/pages\/ugreen-2023-bcak-to-school-sale",
+            "link": "\/pages\/halloween-sale",
             "className": "buy-more-save-more"
           }
         }
