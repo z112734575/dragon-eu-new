@@ -93,15 +93,12 @@
         "56de405c-308f-4005-baf2-e1aac394fd05": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Stands & Holders",
+            "tabs_title": "Power Bank",
             "product_list": [
-              "cell-phone-stand-holder",
-              "adjustable-aluminum-phone-holder",
-              "ugreen-360-rotating-tablet-stand-holder",
-              "ugreen-tablet-stand-holder",
-              "gravity-drive-car-mount",
-              "ugreen-laptop-stand-vertical-laptop-holder",
-              "ugreen-selfie-stick-tripod-with-remote-59-inches-phone-holder"
+              "ugreen-10000mah-magsafe-wireless-power-bank",
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-usb-c-to-usb-c-cable-60w",
+              "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0"
             ]
           }
         },
