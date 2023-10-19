@@ -134,6 +134,33 @@
       font-size: 14px;
       font-weight: 400;
   }
+   /* code */
+    .ug_product_code {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(https://cdn.shopify.com/s/files/1/0257/5246/9566/files/coupon_mo.png?v=1697618803)
+      center center no-repeat;
+      padding: 0.25vw 2.917vw 0.25vw 1.875vw;
+    margin: 0.5vw 0 0.8vw 0;
+    background-size: 100% 100%;
+  }
+.ug_product_code p {
+    margin: 0;
+    font-size: 0.729vw;
+    color: #FFF;
+  }
+  .ug_product_code button {
+    padding:0;
+    color: #03F2A6;
+    background:none;
+    transition: all 0.3s;
+    font-size: 0.729vw;
+    text-decoration: underline;
+  }
+  .ug_product_code button:hover {
+    color: #0a9e6f;
+  }
   @media (max-width: 768px) {
       .ug-product-item {
           padding: 20px 12px;
@@ -231,7 +258,7 @@
           {% assign compare_at_price = product.compare_at_price %}
           {% assign price = product.price %}
           {% assign showDiscountBar = compare_at_price | minus: price %}
-
+  
           {% if showDiscountBar > 1 %}
             <p class="ug-product-price font-lato">
               {{ product.price | money }}
@@ -246,6 +273,15 @@
             </div>
           {% endif %}
         </div>
+  {% assign discountbar = product.metafields.custom.discountbar.value %}
+      {% assign discount_code = discountbar[1] %}
+  {% if show_code and discount_code%}
+    
+      <div class="ug_product_code">
+        <p>Code: {{ discount_code }} </p>
+        <button data-ug-copy-data="{{ discount_code }}" class="copy-btn">Copy</button>
+      </div>
+    {% endif %}
         <div class="ug-product-buy">
           <a
             href="{{ product.url }}"

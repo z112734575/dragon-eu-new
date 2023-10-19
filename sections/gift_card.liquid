@@ -1,7 +1,323 @@
+{% liquid
+  assign settings = section.settings
+  assign section_title = settings.section_title
+  assign sub_title = settings.sub_title
+  assign product = settings.product
+%}
+<style>
+    .gift_card{
+        padding: 6.25vw 0 4.167vw 0;
+    }
+    .gift_card_box{
+        width: 100%;
+        max-width: 66.667vw;
+        margin: 0 auto;
+    }
+    .gift_card_title{
+        text-align: center;
+    }
+    .gift_card_title h2{
+        color: #FFF;
+        font-size: 1.875vw;
+        font-weight: 700;
+        line-height: 1.875vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          gap: 5px;
+    }
+    .gift_card_title h2 span{
+        font-size: 2.083vw;
+        line-height: 2.083vw;
+        background: linear-gradient(180deg, #E5C654 -11.11%, #FDE07B 22.7%, #FDEC92 54.73%, #D9A748 91.79%, #E7B456 102.78%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+  .gift_card_title h2::before{
+        content: '';
+        background: url('https://cdn.shopify.com/s/files/1/0257/5246/9566/files/lightning_left.webp?v=1697635642')center center no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 1.979vw;
+        height: 2.8125vw;
+    }
+    .gift_card_title h2::after{
+        content: '';
+        background: url('https://cdn.shopify.com/s/files/1/0257/5246/9566/files/lightning_right.webp?v=1697635854')center center no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 1.979vw;
+        height: 2.8125vw;
+    }
+    .gift_card_title p{
+        color: #999;
+        font-size: 1.042vw;
+        font-weight: 400;
+        line-height: 1.042vw;
+        margin: 1.042vw 0 2.083vw 0;
+    }
+    .gift_card_product{
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+        padding: 4.167vw 6.25vw 5.208vw 5.729vw;
+        background: url('https://cdn.shopify.com/s/files/1/0257/5246/9566/files/card_bg_pc.webp?v=1697622174') center center no-repeat;
+      background-size: 100% 100%;
+        border-radius: 1.042vw;
+    }
+    .gift_card_product .left{
+        max-width: 22.396vw;
+        width: 100%;
+    }
+    .gift_card_product .right{
+        max-width: 27.083vw;
+        width: 100%;
+    }
+    .gift_card_price{
+        font-weight: 600;
+        font-size: 2.083vw;
+        color: #FFF;
+        margin: 0;
+        line-height: 2.083vw;
+    }
+    .gift_card_price span{
+        font-weight: 400;
+        font-size: 1.042vw;
+        line-height: 1.042vw;
+        text-decoration-line: line-through;
+        color: #FFF;
+        padding-left: 0.26vw;
+        opacity: .8;
+    }
+    .gift_card_desc{
+        margin: 1.5625vw 0 1.302vw 0;
+    }
+    .gift_card_desc ul{
+        margin: 0;
+        list-style: disc;
+    }
+    .gift_card_desc ul li{
+        color: #999;
+        font-size: 0.833vw;
+        line-height: 1.25vw;
+    }
+    .gift_card_desc ul li::marker{
+        font-size: 0.625vw;
+    }
+    .gift_cart_add{
+        display: flex;
+        align-items: center;
+        gap: 2.083vw;
+    }
+    .gift_cart_add .t4s-product-form__qty{
+        border: 0.052vw solid #fff;
+    }
+    .gift_cart_add .t4s-product-form__qty button{
+        background: none;
+        border: none;
+    }
+    .gift_cart_add .t4s-product-form__qty input{
+        text-align: center;
+        background: none;
+        border: none;
+        color: #FFF;
+        font-size: 0.833vw;
+        font-weight: 400;
+        width: 2.083vw;
+        padding: 0;
+    }
+    .gift_cart_add .gift-card-buy-btn{
+        padding: 0.625vw 3.125vw;
+        border-radius: 2.083vw;
+        background: #FFA344;
+        color: #000;
+        font-size: 0.833vw;
+        font-weight: 600;
+        line-height: 0.833vw;
+    }
+    .gift_cart_add .gift-card-buy-btn:hover{
+        background: #FF8100;
+    }
+    .gift_card_desc.desc_mol{
+            display: none;
+        }
+    @media (max-width:768px) {
+        .gift_card{
+            padding: 16vw 4vw 8vw 4vw;
+        }
+        .gift_card_box{
+            max-width: 100%;
+        }
+        .gift_card_title h2{
+            font-size: 6.4vw;
+            line-height: 6.4vw;
+            margin-bottom: 6.667vw;
+          flex-wrap: wrap;
+        }
+        .gift_card_title h2 span{
+            font-size: 7.467vw;
+            line-height: 7.467vw;
+          display: flex;
+    align-items: center;
+        }
+      .gift_card_title h2::before{
+        width: 8vw;
+height: 11.200vw;
+    }
+      .gift_card_title h2 span::after{
+        content: '';
+        background: url('https://cdn.shopify.com/s/files/1/0257/5246/9566/files/lightning_right.webp?v=1697635854')center center no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 8vw;
+height: 11.200vw;
+      }
+    .gift_card_title h2::after{
+        display: none;
+    }
+        .gift_card_title p{
+            display: none;
+        }
+        .gift_card_product{
+          background: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/card_bg_mo.webp?v=1697686342") center center no-repeat;
+      background-size: 100% 100%;
+            padding: 8vw 10.667vw 23.467vw 8vw;
+            border-radius: 3.2vw;
+            position: relative;
+        }
+        .gift_card_product .left{
+            max-width: 40vw;
+        }
+        .gift_card_desc{
+            
+            padding: 3.2vw 1.6vw 0 1.6vw;
+        }
+        .gift_card_desc ul li{
+            font-size: 12px;
+            line-height: 4.267vw;
+        }
+        .gift_card_desc.desc_pc{
+            display: none;
+        }
+        .gift_card_desc.desc_mol{
+            display: block;
+        }
+        .gift_card_price{
+            font-size: 5.333vw;
+            line-height: 5.333vw;
+            margin-bottom: 4vw;
+        }
+        .gift_card_price span{
+            font-size: 12px;
+            line-height: 12px;
+            padding-left: 0;
+        }
+        .gift_cart_add .gift-card-buy-btn{
+            position: absolute;
+            bottom: 8vw;
+            left: 10.667vw;
+            width: calc(100% - 21.333vw);
+            font-size: 4.267vw;
+            border-radius: 10.667vw;
+            padding: 3.2vw 0;
+            line-height: 4.267vw;
+            text-align: center;
+        }
+        .gift_cart_add .t4s-product-form__qty button{
+            padding: 1.333vw 2.667vw;
+        }
+        .gift_cart_add .t4s-product-form__qty input{
+            width: 4.8vw;
+            font-size: 3.733vw;
+        }
+    }
+</style>
+<section class="gift_card">
+    <div class="gift_card_box">
+        <div class="gift_card_title">
+            <h2>{{ section_title }}</h2>
+            <p>{{ sub_title }}</p>
+        </div>
+        <div class="gift_card_product">
+            <div class="left">
+                <img src="{{ product.featured_media | img_url: "800x" }}" alt="{{ product.title }}">
+            </div>
+            <div class="right">
+                <p class="gift_card_price">{{ product.price | money }} <span>{{ product.compare_at_price | money }}</span></p>
+                <div class="gift_card_desc desc_pc">
+                  {{ product.metafields.custom.short_description }}
+                </div>
+                <div class="gift_cart_add">
+                  <div data-quantity-wrapper class="t4s-quantity-wrapper t4s-product-form__qty">
+                <button data-quantity-selector data-decrease-qty type="button" class="t4s-quantity-selector is--minus">
+                  <svg focusable="false" class="icon icon--minus" viewBox="0 0 10 2" role="presentation">
+                    <path d="M10 0v2H0V0z" fill="currentColor"></path>
+                  </svg>
+                </button>
+                <input
+                  data-quantity-value
+                  type="number"
+                  class="t4s-quantity-input"
+                  step="1"
+                  min="1"
+                  max="9999"
+                  name="quantity"
+                  value="1"
+                  size="4"
+                  pattern="[0-9]*"
+                  inputmode="numeric"
+                >
+                <button data-quantity-selector data-increase-qty type="button" class="t4s-quantity-selector is--plus">
+                  <svg focusable="false" class="icon icon--plus" viewBox="0 0 10 10" role="presentation">
+                    <path d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z" fill="currentColor" fill-rule="evenodd"></path>
+                  </svg>
+                </button>
+              </div>
+              <a
+                          href="{{ product.url }}"
+                          class="t4s-pr-item-btn t4s-pr-addtocart buy_now gift-card-buy-btn"
+                          data-variant-id="{{ product.variants.first.id }}"
+                          data-action-atc
+                          rel="nofollow"
+                          >Purchase Gift Card</a
+                        >
+                </div>
+              
+            </div>
+        </div>
+      <div class="gift_card_desc desc_mol">
+                  {{ product.metafields.custom.short_description }}
+                </div>
+    </div>
+</section>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Gift card",
+    "settings": [
+      {
+      "type": "text",
+      "id": "section_title",
+      "label": "当前标题",
+     "default": "Purchase a <span>10%</span> OFF BFCM Gift Card"
+    },
+  {
+      "type": "text",
+      "id": "sub_title",
+      "label": "当前模块描述",
+     "default": "Get ready for Black Friday by purchasing a 10% off gift card today."
+    },
+      {
+      "type": "product",
+      "id": "product",
+      "label": "礼品卡产品"
+    }
+    ],
+    "presets": [
+  {
+  "name": "Gift card"
+  }
+  ]
   }
 {% endschema %}
 
