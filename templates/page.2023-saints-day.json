@@ -136,6 +136,19 @@
               "50743"
             ]
           }
+        },
+        "6cce2e11-47fb-4d5b-94a8-55c792ce3811": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Adaptateur Ethernet ",
+            "product_list": [
+              "30985",
+              "20254",
+              "50737",
+              "20256",
+              "50922"
+            ]
+          }
         }
       },
       "block_order": [
@@ -143,7 +156,8 @@
         "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88",
         "56de405c-308f-4005-baf2-e1aac394fd05",
         "75ce9223-3849-4530-97f8-99ba59ce9854",
-        "45e517bd-974d-4c65-a935-7e85679c5083"
+        "45e517bd-974d-4c65-a935-7e85679c5083",
+        "6cce2e11-47fb-4d5b-94a8-55c792ce3811"
       ],
       "settings": {
         "section_id": "sainta-day",
