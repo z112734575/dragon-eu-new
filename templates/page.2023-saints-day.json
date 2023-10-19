@@ -75,14 +75,22 @@
           "settings": {
             "tabs_title": "Hubs & Docking",
             "product_list": [
-              "6-in-1-usb-c-adapter-with-4k-hdmi",
-              "7-in-1-multiport-adapter-with-4k-60hz",
-              "ugreen-9-in-1-usb-c-docking-station",
-              "ugreen-usb-c-triple-display-docking-station",
-              "ugreen-10-in-1-hub-with-4k-hdmi",
-              "ultra-slim-5-in-1-usb-c-hub",
-              "ugreen-usb-3-0-4-port-switch",
-              "ugreen-m-2-nvme-sata-ssd-enclosure-reader"
+              "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
+              "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
+              "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
+              "ugreen-adaptateur-hub-usb-c-hdmi-4k-60hz-pd-100w-recharge",
+              "ugreen-adaptateur-hub-usb-c-vers-hdmi-4k",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps",
+              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-usb-c-rj45-ethernet-supporte",
+              "20197",
+              "ugreen-hub-usb-c-ethernet-hdmi-4k-7-en-1-adaptateur-usb-c",
+              "70336",
+              "20841",
+              "60383",
+              "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
+              "ugreen-revodok-hub-usb-c-hdmi-4k-6-en-1-adaptateur-usb-c",
+              "90325",
+              "ugreen-revodok-pro-9-en-1-docking-station"
             ]
           }
         },
