@@ -59,10 +59,14 @@
           "settings": {
             "tabs_title": "Chargers",
             "product_list": [
-              "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
               "ugreen-20w-chargeur-usb-c-pd-3-0",
-              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
-              "ugreen-360-rotating-laptop-tablet-stand-holder"
+              "ugreen-20w-chargeur-usb-c-pd-3-1",
+              "ugreen-chargeur-30w-usb-c-pps-pd-3-0",
+              "ugreen-chargeur-30w-usb-c-with-cable",
+              "ugreen-65w-chargeur-usb-c-rapide-3-ports",
+              "ugreen-40w-chargeur-usb-c-2-ports",
+              "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
+              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports"
             ]
           }
         },
