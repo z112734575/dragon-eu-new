@@ -17,6 +17,7 @@
   assign show_compare = settings.show_compare
   assign show_rating = settings.show_rating
   assign show_learn_btn = settings.show_learn_btn
+  assign show_code = settings.show_code
   assign pc_product_item_img_size = settings.pc_product_item_img_size
   assign mobile_product_item_img_size = settings.mobile_product_item_img_size
   assign mobile_product_type = settings.mobile_product_type
@@ -123,6 +124,7 @@
       show_compare: show_compare,
       show_rating: show_rating,
       show_learn_btn: show_learn_btn,
+      show_code: show_code,
       pc_product_item_img_size: pc_product_item_img_size,
       mobile_product_item_img_size: mobile_product_item_img_size,
       mobile_product_type: mobile_product_type
@@ -135,21 +137,6 @@
     defer
   ></script>
   <script>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
         $(function () {
             $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                 item: `div.ug-product-item`,
@@ -160,24 +147,34 @@
         </svg></a>`
             });
         })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </script>
 {% endif %}
-
+{% if show_code %}
+<script>
+  // copy
+    $(function () {
+        let timeId = null;
+        $('[data-ug-copy-data]').click(function () {
+            clearTimeout(timeId);
+            timeId = setTimeout(() => {
+                var copyText = $(this).attr('data-ug-copy-data');
+                var input = document.createElement('input');
+                input.setAttribute('value', copyText);
+                document.body.appendChild(input);
+                input.select();
+                if (document.execCommand('copy')) {
+                    document.execCommand('copy');
+                    $(this).text('Copied');
+                    setTimeout(() => {
+                        $(this).text('Copy');
+                    }, 2000)
+                }
+                document.body.removeChild(input);
+            }, 200);
+        });
+    })
+</script>
+    {% endif %}
 {% schema %}
 {
   "name": "UGREEN Product List",
@@ -331,6 +328,12 @@
       "id": "show_learn_btn",
       "label": "是否展示Learn按钮",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_code",
+      "label": "是否展示折扣码",
+      "default": false
     }
   ]
 }
