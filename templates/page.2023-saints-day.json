@@ -113,6 +113,18 @@
               "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0"
             ]
           }
+        },
+        "c16ed04b-d6c1-4f0a-b81e-4bbb10671d72": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Cables",
+            "product_list": [
+              "ugreen-usb-c-to-usb-c-cable-60w-1",
+              "ugreen-usb-c-to-lightning-cable",
+              "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable",
+              "ugreen-usb-c-usb-c-charging-cable-100w-double-angle-plug-pd-3-0-qc-4-0"
+            ]
+          }
         }
       },
       "block_order": [
@@ -120,7 +132,8 @@
         "3f64d1a6-8e13-4c7a-8cfd-a4434dbebf88",
         "75ce9223-3849-4530-97f8-99ba59ce9854",
         "a804cea0-ed41-44b1-aceb-dc8e243b3162",
-        "56de405c-308f-4005-baf2-e1aac394fd05"
+        "56de405c-308f-4005-baf2-e1aac394fd05",
+        "c16ed04b-d6c1-4f0a-b81e-4bbb10671d72"
       ],
       "settings": {
         "section_id": "sainta-day",
