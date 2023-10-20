@@ -48,12 +48,12 @@
           "type": "ug-index-carousel-item",
           "disabled": true,
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU_2.png?v=1696841752",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU.png?v=1696841739",
-            "title": "Power Anything, Anytime, Anywhere",
-            "subtitle": "",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/halloween-sale-fr-01.png?v=1697796174",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/halloween-sale-fr-02.png",
+            "title": "Halloween Howler",
+            "subtitle": "Spine-Chilling Discounts",
             "button_text": "acheter maintenant",
-            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-power-station-2200w",
+            "link": "https:\/\/fr.ugreen.com\/pages\/halloween-sale",
             "className": ""
           }
         },
@@ -199,7 +199,8 @@
         "show_sale_flag": false,
         "show_compare": true,
         "show_rating": false,
-        "show_learn_btn": false
+        "show_learn_btn": false,
+        "show_code": false
       }
     },
     "ug-index-fit-life": {
