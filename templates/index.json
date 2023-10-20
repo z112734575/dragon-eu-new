@@ -20,16 +20,16 @@
             "className": ""
           }
         },
-        "ug-index-carousel-11": {
+        "86777b6a-bde9-4981-9d0b-274743aba41c": {
           "type": "ug-index-carousel-item",
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_39bcc587-8212-4e74-bf67-d0c2a03b1037.webp?v=1693892164",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner_mobile_e43abc6d-669f-439e-94a6-42a504d3d779.webp?v=1693892249",
-            "title": "UGREEN Nexode 300W USB C PD 3.1 Chargeur",
-            "subtitle": "5-in-1 Multiport Charger",
-            "button_text": "Achetez maintenant",
-            "link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
-            "className": "nexode-300w"
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/halloween-sale-fr-01.png?v=1697796174",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/halloween-sale-fr-02.png",
+            "title": "Halloween Howler",
+            "subtitle": "Spine-Chilling Discounts",
+            "button_text": "acheter maintenant",
+            "link": "https:\/\/fr.ugreen.com\/pages\/halloween-sale",
+            "className": ""
           }
         },
         "ug-index-carousel-1": {
@@ -44,17 +44,16 @@
             "className": ""
           }
         },
-        "86777b6a-bde9-4981-9d0b-274743aba41c": {
+        "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/halloween-sale-fr-01.png?v=1697796174",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/halloween-sale-fr-02.png",
-            "title": "Halloween Howler",
-            "subtitle": "Spine-Chilling Discounts",
-            "button_text": "acheter maintenant",
-            "link": "https:\/\/fr.ugreen.com\/pages\/halloween-sale",
-            "className": ""
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_39bcc587-8212-4e74-bf67-d0c2a03b1037.webp?v=1693892164",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner_mobile_e43abc6d-669f-439e-94a6-42a504d3d779.webp?v=1693892249",
+            "title": "UGREEN Nexode 300W USB C PD 3.1 Chargeur",
+            "subtitle": "5-in-1 Multiport Charger",
+            "button_text": "Achetez maintenant",
+            "link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
+            "className": "nexode-300w"
           }
         },
         "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
@@ -73,9 +72,9 @@
       },
       "block_order": [
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
-        "ug-index-carousel-11",
-        "ug-index-carousel-1",
         "86777b6a-bde9-4981-9d0b-274743aba41c",
+        "ug-index-carousel-1",
+        "ug-index-carousel-11",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
       "settings": {
