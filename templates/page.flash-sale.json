@@ -23,6 +23,21 @@
         "image_alt": "Featured Deals"
       }
     },
+    "87863d7e-936f-43c0-9c2b-4d59cb5688f1": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-sale_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Our Recommend<\/span>\n<\/h2>\n    <\/section>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "ba30f705-8ef4-4326-9574-a9913009c92c": {
       "type": "custom-html",
       "disabled": true,
@@ -37,6 +52,41 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
+      }
+    },
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "product_list": [
+          "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
+          "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
+          "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable",
+          "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
+          "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
+          "ugreen-360-rotating-laptop-tablet-stand-holder"
+        ],
+        "title": "",
+        "subtitle": "",
+        "section_id": "ug-product-list",
+        "pc_product_type": "row",
+        "mobile_product_type": "row",
+        "product_item_bg_color": "#f5f5f7",
+        "pc_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "57%",
+        "pc_row": "2",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
+        "pc_product_sale_width": "60px",
+        "mobile_product_sale_width": "48px",
+        "pc_padding": "0",
+        "mobile_padding": "0",
+        "need_load_more": false,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true,
+        "show_code": false
       }
     },
     "ug-tabs-product-list": {
@@ -163,60 +213,8 @@
         "show_sale_flag": true,
         "show_compare": true,
         "show_rating": true,
-        "show_learn_btn": true
-      }
-    },
-    "87863d7e-936f-43c0-9c2b-4d59cb5688f1": {
-      "type": "custom-html",
-      "settings": {
-        "code": "<section class=\"svg_title\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-sale_icon1\"><\/use>\n        <\/svg>\n        <h2> <span>Our Recommend<\/span>\n<\/h2>\n    <\/section>",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "ug-product-list": {
-      "type": "ug-product-list",
-      "settings": {
-        "product_list": [
-          "ugreen-65w-chargeur-usb-c-rapide-3-ports",
-          "ugreen-20w-chargeur-usb-c-pd-3-1",
-          "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
-          "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
-          "ugreen-hub-usb-c-ethernet-hdmi-4k-7-en-1-adaptateur-usb-c",
-          "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
-          "50737",
-          "30768",
-          "30767",
-          "ugreen-support-telephone-bureau"
-        ],
-        "title": "",
-        "subtitle": "",
-        "section_id": "ug-product-list",
-        "pc_product_type": "row",
-        "mobile_product_type": "row",
-        "product_item_bg_color": "#f5f5f7",
-        "pc_product_item_img_size": "100%",
-        "mobile_product_item_img_size": "57%",
-        "pc_row": "2",
-        "mobile_row": "2",
-        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
-        "pc_product_sale_width": "60px",
-        "mobile_product_sale_width": "48px",
-        "pc_padding": "0",
-        "mobile_padding": "0",
-        "need_load_more": false,
-        "load_more_default_count": 4,
-        "show_sale_flag": true,
-        "show_compare": true,
-        "show_rating": true,
-        "show_learn_btn": true
+        "show_learn_btn": true,
+        "show_code": false
       }
     },
     "0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199": {
@@ -349,18 +347,18 @@
             "ch_pos": 50,
             "cv_pos_mb": 50,
             "ch_pos_mb": 50,
-            "bg_overlay": "#000",
+            "bg_overlay": "#000000",
             "bg_opacity": 0,
             "bg_content_bl": false,
-            "bg_content_cl": "#fff",
+            "bg_content_cl": "#ffffff",
             "bg_content_op": 50,
             "content_pd_tb": 20,
             "content_pd_lr": 20,
             "content_pd_tb_mb": 10,
             "content_pd_lr_mb": 10,
             "border_bl": false,
-            "br_color": "#222",
-            "br_bg": "#fff",
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
             "br_opacity": 50,
             "br_style": "solid",
             "br_pd": 20,
@@ -515,10 +513,10 @@
   "order": [
     "e49dddc3-8400-4a86-a3ec-b69a2fd75773",
     "d2230466-b5fe-49cc-ac39-926497ba0c21",
-    "ba30f705-8ef4-4326-9574-a9913009c92c",
-    "ug-tabs-product-list",
     "87863d7e-936f-43c0-9c2b-4d59cb5688f1",
+    "ba30f705-8ef4-4326-9574-a9913009c92c",
     "ug-product-list",
+    "ug-tabs-product-list",
     "0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199",
     "3dbf1e03-501a-4d73-ba0a-f7622b5c5ec4",
     "e8f15098-8dc6-40ea-98fc-74037a3d1191",
