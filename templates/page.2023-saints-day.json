@@ -8,14 +8,6 @@
         "image_alt": "The Best Deals AreOne Click Away"
       }
     },
-    "2c9bf8f0-ce25-4c99-9bda-06c38ce52758": {
-      "type": "gift_card",
-      "settings": {
-        "section_title": "Purchase a <span>10%<\/span> OFF BFCM Gift Card",
-        "sub_title": "Get ready for Black Friday by purchasing a 10% off gift card today.",
-        "product": "carte-cadeau"
-      }
-    },
     "ug-product-list": {
       "type": "ug-product-list",
       "settings": {
@@ -178,6 +170,14 @@
         "show_code": true
       }
     },
+    "2c9bf8f0-ce25-4c99-9bda-06c38ce52758": {
+      "type": "gift_card",
+      "settings": {
+        "section_title": "Purchase a <span>10%<\/span> OFF BFCM Gift Card",
+        "sub_title": "Get ready for Black Friday by purchasing a 10% off gift card today.",
+        "product": "carte-cadeau"
+      }
+    },
     "30d681da-5279-4baf-9bad-f096bd5258c8": {
       "type": "custom-html",
       "settings": {
@@ -196,9 +196,9 @@
   },
   "order": [
     "5a97e0ca-1580-48d9-aafd-8a9feb3ade1f",
-    "2c9bf8f0-ce25-4c99-9bda-06c38ce52758",
     "ug-product-list",
     "388f7fcd-4e61-4dd4-a908-861b90859d17",
+    "2c9bf8f0-ce25-4c99-9bda-06c38ce52758",
     "30d681da-5279-4baf-9bad-f096bd5258c8"
   ]
 }
