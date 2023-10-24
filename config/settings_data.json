@@ -1253,7 +1253,7 @@
               "tag_list": "",
               "collection_name_list": "USB C Chargers,\nGaN Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/chargers,https:\/\/eu.ugreen.com\/collections\/gan-chargers,https:\/\/eu.ugreen.com\/collections\/power-bank,https:\/\/eu.ugreen.com\/collections\/car-chargers,https:\/\/eu.ugreen.com\/collections\/wireless-chargers",
-              "all_collection_url": "shopify:\/\/collections\/gan-chargers",
+              "all_collection_url": "shopify:\/\/collections\/charger",
               "all_collection_name": "All"
             }
           },
@@ -1409,7 +1409,6 @@
               "cat2": "car-chargers",
               "title2": "Chargers",
               "url2": "",
-              "image2": "shopify:\/\/shop_images\/2_f70c2677-730a-4fd1-b343-6b0a4e2730a6.jpg",
               "cat3": "",
               "title3": "",
               "url3": "",
