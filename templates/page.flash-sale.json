@@ -166,12 +166,24 @@
         "b1f03e12-3265-4ff0-8e67-78c87a9afabf": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "PowerRoam",
+            "tabs_title": "Car Charger",
             "product_list": [
-              "15054a",
-              "15050a",
-              "15113",
-              "15114"
+              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
+              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
+              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
+              "10192",
+              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
+              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
+              "50323",
+              "40907",
+              "50853",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
+              "50564",
+              "90528",
+              "80712",
+              "60991",
+              "10422",
+              "20473"
             ]
           }
         },
