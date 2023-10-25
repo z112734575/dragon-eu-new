@@ -282,7 +282,17 @@
           "type": "collection_item",
           "settings": {
             "collection": "hard-drive-enclosures",
-            "image": "shopify:\/\/shop_images\/2535d7096411a35268bfe26caac8c214.w750.h750._CR0_0_750_750_SX480_SY480.jpg",
+            "image": "shopify:\/\/shop_images\/d4091d40bba8b43237b00dc06608f407.w750.h750._CR0_0_750_750_SX480_SY480_0de7d754-8e1e-44b6-aa28-fe1e14d63413.jpg",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "a347ccad-024f-47b4-a7b3-30da4940c83b": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/acf141b1700a19f4f0fcf1d0fb0515db.w750.h750._CR0_0_750_750_SX480_SY480.jpg",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
@@ -293,7 +303,8 @@
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-1",
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-2",
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-3",
-        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4"
+        "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4",
+        "a347ccad-024f-47b4-a7b3-30da4940c83b"
       ],
       "settings": {
         "design_heading": "1",
