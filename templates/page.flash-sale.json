@@ -113,20 +113,17 @@
         "c8751f5a-1c7a-4c08-822d-9979d308db71": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "For Iphone",
+            "tabs_title": "PD Fast Charger",
             "product_list": [
-              "15076",
-              "ugreen-foldable-kickstand-magnetic-battery-10000mah",
-              "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
-              "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
-              "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
               "ugreen-65w-chargeur-usb-c-rapide-3-ports",
-              "60759",
-              "ugreen-cable-usb-c-vers-usb-c-pd-charge-rapide-60w-nylon-tresse",
-              "ugreen-cable-usb-c-vers-usb-c-pd-100w-5a-20v-cable-nylon-tresse",
-              "80708",
-              "20435",
-              "ugreen-65w-chargeur-usb-c-4-ports"
+              "ugreen-65w-chargeur-usb-c-4-ports",
+              "ugreen-20w-chargeur-usb-c-pd-3-0",
+              "ugreen-18w-quick-charge-3-0-chargeur-secteur-usb-2-ports",
+              "ugreen-20w-chargeur-usb-c-pd-3-1",
+              "ugreen-40w-chargeur-usb-c-2-ports",
+              "ugreen-chargeur-30w-usb-c-pps-pd-3-0",
+              "ugreen-chargeur-30w-usb-c-with-cable",
+              "ugreen-chargeur-secteur-usb-quick-charge-3-0-noir"
             ]
           }
         },
