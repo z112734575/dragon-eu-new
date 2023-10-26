@@ -47,10 +47,10 @@
           "settings": {
             "tabs_title": "For iphone",
             "product_list": [
+              "ugreen-nexode-mini-45w-dual-usb-c-charger",
               "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
-              "ugreen-10000mah-magsafe-wireless-power-bank",
-              "ugreen-2-in-1-magnetic-wireless-charging-station",
-              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray"
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "ugreen-30w-usb-c-charger-with-pd3-0"
             ]
           }
         },
@@ -160,7 +160,8 @@
         "show_sale_flag": true,
         "show_compare": true,
         "show_rating": true,
-        "show_learn_btn": true
+        "show_learn_btn": true,
+        "show_code": false
       }
     },
     "87863d7e-936f-43c0-9c2b-4d59cb5688f1": {
@@ -209,7 +210,8 @@
         "show_sale_flag": true,
         "show_compare": true,
         "show_rating": true,
-        "show_learn_btn": true
+        "show_learn_btn": true,
+        "show_code": false
       }
     },
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe": {
