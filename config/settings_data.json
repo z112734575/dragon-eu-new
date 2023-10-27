@@ -1307,8 +1307,8 @@
               "tag_list": "",
               "collection_name_list": "Bluetooth Adapter,\nEthernet Adapter,\nSD Adapter,\nSound Card,\nSwitcher",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/bluetooth-adapters,https:\/\/eu.ugreen.com\/collections\/ethernet-adapters,https:\/\/eu.ugreen.com\/collections\/sd-card-reader,https:\/\/eu.ugreen.com\/collections\/sound-card,https:\/\/eu.ugreen.com\/collections\/switcher",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "all_collection_url": "shopify:\/\/collections\/adapters",
+              "all_collection_name": "All"
             }
           },
           "1c50ce9b-2808-411c-bb98-6376c5fd0403": {
