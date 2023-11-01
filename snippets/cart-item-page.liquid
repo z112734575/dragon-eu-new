@@ -4,7 +4,7 @@
   assign item_url = item.url
   assign image    = item.image -%}  
 
- <div  data-hulkapps-lineitem data-cart-item class="t4s-page_cart__item {% if gift_pr_id == item.product_id %} is--gift{% endif %}">
+ <div data-cart-item class="t4s-page_cart__item {% if gift_pr_id == item.product_id %} is--gift{% endif %}">
     <div class="t4s-row t4s-align-items-center">
       <div class="t4s-col-12 t4s-col-md-12 t4s-col-lg-5 t4s-col-item">
           <div class="t4s-page_cart__infos t4s-d-flex t4s-align-items-center">
@@ -26,8 +26,8 @@
                     {%- unless item.product.has_only_default_variant or item.variant.title contains 'mczr_price_' -%}{%- assign qv_key = item_id -%}{%- for option in item.options_with_values -%}<p class="t4s-cart_meta_variant">{{ option.name }}: <strong>{{ option.value }}</strong></p>{%- endfor -%}{%- endunless -%}                    
                     {%- if item.selling_plan_allocation != blank %}<p class="t4s-cart_selling_plan">{{ item.selling_plan_allocation.selling_plan.name }}</p>{% endif -%}
                     {%- assign property_size = item.properties | size -%}
-                    <div class='hulkapps-reminder' data-key='{{item.key}}'></div>                    {%- if property_size > 0 -%}
-                    <ul   class="t4s-cart_meta_propertyList">
+                    {%- if property_size > 0 -%}
+                    <ul class="t4s-cart_meta_propertyList">
                       {%- for p in item.properties -%}
                         {%- if p.first contains '_bundle_' or p.first contains '_mczr_' -%}{%- continue -%}{%- endif -%}
                         {%- unless p.last == blank -%}
@@ -63,7 +63,6 @@
                         {%- endunless -%}
                       {%- endfor -%}
                     </ul>
-<button type='button' style='display: none;' class='edit_cart_option btn btn--primary button' data-product_id='{{item.product_id}}' data-key='{{item.key}}' data-variant_id='{{item.variant_id}}' data-quantity='{{item.quantity}}'>Edit Options</button>
                     {%- endif -%}
                     {%- if recurringchecked %}<span class="product-details__item-recurring cb">{{ 'cart.general.recurring_mess' | t:frequency:frequency,frequency_unit:frequency_unit }}</span>{% endif -%}
                  </div>
@@ -78,16 +77,27 @@
       </div>
       <div class="t4s-col-12 t4s-col-md-4 t4s-col-lg-3 t4s-col-item t4s-text-lg-center">
          <div class="t4s-cart_meta_prices">
-             <div class="t4s-cart_price">          
-               {%- assign item_compare_price = item.variant.compare_at_price | default:item.original_price |times:item.quantity -%}
-               {%- assign compare_tt_price = compare_tt_price | plus:item_compare_price -%}
-               {%- if item.original_price != item.final_price -%}{%- assign final_price = item.final_price -%}
-                  <del><div  data-hulkapps-ci-price data-key='{{item.key}}' class="pn-price-item" data-id="{{ item.key }}"><div class="qb-price-item" data-id="{{ item.key }}">{{ item.original_price | money }}</div></div></del><ins>{{ item.final_price | money }}</ins>
-               {%- elsif item.variant.compare_at_price > item.original_price  -%}{%- assign final_price = item.final_price -%}
-<!--                   <del data-hulkapps-ci-price data-key='{{item.key}}' >{{ item.variant.compare_at_price | money }}</del><ins>{{ item.final_price | money }}</ins> -->
-               <div data-hulkapps-ci-price data-key='{{item.key}}' >{{ item.variant.compare_at_price | money }}</div>
-               {%- else -%}{%- assign final_price = item.original_price -%}
-                  <div  data-hulkapps-ci-price data-key='{{item.key}}' class="pn-price-item" data-id="{{ item.key }}"><div class="qb-price-item" data-id="{{ item.key }}">{{ item.original_price | money }}</div></div>
+             <div class="t4s-cart_price">  
+                {%- liquid
+                 assign original_price     = item.original_price
+                 assign final_price        = item.final_price
+                 assign v_compare_at_price = item.variant.compare_at_price 
+                 assign item_compare_price = v_compare_at_price | default:original_price |times:item.quantity
+                 assign compare_tt_price   = compare_tt_price | plus:item_compare_price
+                 if false and cur_code_enabled
+                   assign money_original_price = original_price | money_with_currency
+                   assign money_final_price    = final_price | money_with_currency
+                 else
+                   assign money_original_price = original_price | money
+                   assign money_final_price    = final_price | money
+                 endif -%}        
+
+               {%- if original_price != item.final_price -%}
+                  <del>{{ money_original_price }}</del><ins>{{ money_final_price }}</ins>
+               {%- elsif v_compare_at_price > original_price  -%}
+                  <del>{% if false and cur_code_enabled %}{{ v_compare_at_price | money_with_currency }}{% else %}{{ v_compare_at_price | money }}{% endif %}</del><ins>{{ money_final_price }}</ins>
+               {%- else -%}
+                  {{ money_original_price }}
                {%- endif -%}
              </div>
              {%- if item.unit_price_measurement -%}
@@ -117,16 +127,24 @@
       </div>
       <div class="t4s-col-12 t4s-col-md-4 t4s-col-lg-2 t4s-col-item t4s-text-lg-end">
 
-        <span class="t4s-cart-item-price">
+        <span class="t4s-cart-item-price">  
+                {%- liquid
+                 if false and cur_code_enabled
+                   assign money_original_line_price = item.original_line_price | money_with_currency
+                   assign money_final_line_price    = item.final_line_price | money_with_currency
+                 else
+                   assign money_original_line_price = item.original_line_price | money
+                   assign money_final_line_price    = item.final_line_price | money
+                 endif -%}
                 {%- if item.original_line_price != item.final_line_price -%}
                   <dl>
                     <dd>
-                      <s><div  data-hulkapps-line-price data-key='{{item.key}}' class="pn-total-line-item" data-id="{{ item.key }}"><div class="qb-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div></div></s>
+                      <s>{{ money_original_line_price }}</s>
                     </dd>
-                      <span  data-hulkapps-line-price data-key='{{item.key}}' class="t4s-order-discount">{{ item.final_line_price | money }}</span>
+                      <span class="t4s-order-discount">{{ money_final_line_price }}</span>
                   </dl>
                 {%- else -%}
-                  <div  data-hulkapps-line-price data-key='{{item.key}}' class="pn-total-line-item" data-id="{{ item.key }}"><div class="qb-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div></div>
+                  {{ money_original_line_price }}
                 {%- endif -%}
          </span>
       </div>
