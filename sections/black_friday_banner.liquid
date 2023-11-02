@@ -1,0 +1,337 @@
+<style>
+    #MainContent {
+        background: #141416;
+    }
+    .is_pc {
+        display: block !important;
+    }
+    .is_pe {
+        display: none !important;
+    }
+    /*Page banner style*/
+    .black_friday_banner {
+        position: relative;
+    }
+    .black_friday_banner img {
+        width: 100%;
+    }
+    .banner_content {
+        position: absolute;
+        top: 1.25vw;
+        left: 50%;
+        color: white;
+        text-align: center;
+        transform: translateX(-50%);
+    }
+    .banner_content h1 {
+        font-size: 2.5vw;
+        font-weight: 700;
+        margin-bottom: 1vw;
+    }
+    .banner_content h1 span {
+        background: linear-gradient(180deg, #FFF 40.99%, #B5B6BA 78%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+    }
+    .banner_content h1 strong {
+        background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 700;
+        overflow: hidden;
+        -webkit-font-smoothing: antialiased;
+    }
+    .banner_content h3 {
+        color: #fff;
+        font-size: max(1.25vw, 12px);
+        position: relative;
+        display: inline-block;
+        line-height: 1;
+    }
+    .banner_content h3:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(120%, -50%);
+        width: 1.15vw;
+        height: 1.15vw;
+        background: url(https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Subtract_2x_e9d6d45f-df20-47c1-a463-62f070267641.png?v=1698235557) no-repeat center;
+        background-size: 100%;
+    }
+    .black_friday_form {
+        position: relative;
+        max-width: 28vw;
+        margin: 2vw auto 1vw;
+    }
+    .black_friday_form input#email {
+        width: 100%;
+        border-radius: 40px;
+        background: transparent;
+        border: 1px solid white;
+        height: clamp(40px, 2.6vw, 60px);
+        padding: 12px 20px;
+    }
+    .black_friday_form input#email::placeholder {
+        color: #b0b0b0;
+    }
+    .black_friday_form .element-group-submit {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .black_friday_form .element-group-submit button {
+        border-radius: 40px;
+        background: #FFDE94;
+        padding: 0.5vw 1.67vw;
+        color: black;
+        font-weight: 600;
+        font-size: max(.83vw, 12px);
+        height: 50%;
+        display: block;
+    }
+    .email-tips {
+        color: #FFDE94;
+        font-size: max(12px, .83vw);
+        line-height: 1.5;
+        margin-top: 0.625vw;
+        text-shadow: 0 1px 1px rgba(0,0,0,.5);
+    }
+    .black_friday_form .alert {
+        display: none !important;
+    }
+    .black_friday_banner .time {
+        color: #999999;
+        margin-top: 1.56vw;
+        font-size: 20px;
+        line-height: 1;
+        position: relative;
+    }
+    .black_friday_banner .time span:before {
+        content: "";
+        height: 1px;
+        width: 7.3vw;
+        background: #999;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -100%);
+    }
+    .black_friday_banner .time span:after {
+        content: "";
+        height: 1px;
+        width: 7.3vw;
+        background: #999;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -100%);
+    }
+    @media (max-width: 768px) {
+        .is_pc {
+            display: none !important;
+        }
+        .is_pe {
+            display: block !important;
+        }
+        .black_friday_banner .banner_content{
+            width: 100%;
+            padding: 0 20px;
+            top: 80px;
+        }
+        .black_friday_banner .banner_content h1 {
+            font-size: 32px;
+        }
+        .black_friday_banner .banner_content h3 {
+            font-size: 14px;
+        }
+        .black_friday_form {
+            padding: 0 20px;
+            margin: 0;
+            max-width: 100%;
+            width: 100%;
+        }
+        .black_friday_form input#email {
+            height: 44px;
+        }
+        .black_friday_form .element-group-submit {
+            position: initial;
+            transform: none;
+            margin-top: 12px;
+        }
+        .black_friday_form .element-group-submit button {
+            width: 100%;
+            height: 44px;
+        }
+        .email-tips {
+            margin-top: 12px;
+            padding: 0 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .black_friday_banner .time {
+            margin-top: 16px;
+            font-size: 14px;
+        }
+        .banner_content h3:after {
+         width: 16px;
+            height: 16px;
+        }
+    }
+</style>
+{% liquid
+    assign st = section.settings
+    assign pc_image = st.pc_image
+    assign mobile_image = st.mobile_image
+    assign title = st.title
+    assign subtitle = st.subtitle
+    assign time = st.time
+    assign is_pre = st.is_pre
+    assign email_tips = st.email_tips
+    assign email_btn_text = st.email_btn_text
+%}
+<section class="black_friday_banner">
+    {% render "ug-custom-picture", pc_image: pc_image, mobile_image: mobile_image, alt: title %}
+    <div class="banner_content">
+        <h1>{{ title }}</h1>
+        <h3>{{ subtitle }}</h3>
+        {% if is_pre %}
+            <div class="is_pc">
+                <div class="center-col cs-custom-form s844124396">
+                    <div class="form-col-wrap">
+                        <form method="post" action="https://ecf.cirkleinc.com/api/form-submit" class="cs-form-wrap black_friday_form"
+                              id="{{ st.action_id }}">
+                            <div class="Polaris-FormLayout">
+                                <div class="Polaris-FormLayout__Item">
+                                    <div class="sc-jJEKmz">
+                                        <div class="sc-citxvW sc-iUuxjF gYTLuO iidRym drop-area-warp">
+                                            <div class="element-group  cs-width-100"><label for="email" class="required"></label><input
+                                                        type="email" id="email" name="email" placeholder="Enter Email"
+                                                        class=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="element-group element-group-submit">
+                                <div class="form-submit-btn-wrap" style="justify-content: left; display: flex;">
+                                    <button type="submit">
+                                        {{ email_btn_text }}
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <p class="email-tips">{{ email_tips }}</p>
+            </div>
+        {% else %}
+            <div class="time"><span>{{ time }}</span></div>
+        {% endif %}
+    </div>
+    {% if is_pre %}
+        <div class="is_pe">
+            <div class="center-col cs-custom-form s844124396">
+                <div class="form-col-wrap">
+                    <form method="post" action="https://ecf.cirkleinc.com/api/form-submit" class="cs-form-wrap black_friday_form"
+                          id="{{ st.action_id }}">
+                        <div class="Polaris-FormLayout">
+                            <div class="Polaris-FormLayout__Item">
+                                <div class="sc-jJEKmz">
+                                    <div class="sc-citxvW sc-iUuxjF gYTLuO iidRym drop-area-warp">
+                                        <div class="element-group  cs-width-100"><label for="email" class="required"></label><input
+                                                    type="email" id="email" name="email" placeholder="Enter Email"
+                                                    class=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-group element-group-submit">
+                            <div class="form-submit-btn-wrap" style="justify-content: left; display: flex;">
+                                <button type="submit">
+                                    {{ email_btn_text }}
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <p class="email-tips">{{ email_tips }}</p>
+        </div>
+        <script src="https://ecf.cirkleinc.com/public/frontend/js/form-builder-helper-v2.js" defer></script>
+    {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "黑五 banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "action_id",
+      "label": "action id"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_pre",
+      "label": "是否在预热期",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "pc_image",
+      "label": "PC Image URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image URL"
+    },
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "标题",
+      "info": "特殊字体请用<strong>特殊字体</strong>包裹，其余用<span></span>包裹"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "标题"
+    },
+    {
+      "type": "text",
+      "id": "email_btn_text",
+      "label": "邮件按钮文案",
+      "default": "Sign Up Now"
+    },
+    {
+      "type": "text",
+      "id": "email_tips",
+      "label": "邮件提示文案",
+      "default": "Use it to stack up your savings during our Black Friday event!"
+    },
+    {
+      "type": "text",
+      "id": "time",
+      "label": "时间"
+    }
+  ],
+  "presets": [
+    {
+      "name": "黑五2023 banner"
+    }
+  ],
+  "templates": [
+    "page"
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

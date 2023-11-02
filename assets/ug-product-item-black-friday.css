@@ -1,0 +1,88 @@
+.ug-product-item {
+    border-radius: 8px;
+}
+.ug-product-title {
+    color: #fff;
+}
+.ug-product-price {
+    color: #FFDE94;
+}
+.ug-product-compare_at_price {
+    color: #a4a4a6;
+}
+.ug-product-buy-btn {
+    background: #FFDE94;
+    color: black;
+}
+.ug-product-buy-btn:hover {
+    background: #FAD168;
+    color: black;
+}
+.ug-product-learn-btn {
+    color: #FFDE94;
+    border: 1px solid #FFDE94;
+}
+.ug-product-learn-btn:hover {
+    border-color: #FAD168;
+    background: #FAD168;
+    color: black;
+}
+.ug-product-sale-text {
+    color: black;
+}
+/* code */
+.ug_product_code {
+    background: none;
+}
+.ug_product_code p {
+    color: #FFF;
+}
+.ug_product_code button {
+    color: #FFDE94;
+}
+.ug_product_code button:hover {
+    color: #fff;
+}
+.ug-product-list-title span, .tabs_products_list .svg_title h2 span {
+    position: relative;
+}
+.ug-product-list-title span:before, .tabs_products_list .svg_title h2 span:before {
+    content: "";
+    background: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/lightning_left.png?v=1698218620") no-repeat center;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    width: 2.8125vw;
+    height: 2.8125vw;
+    background-size: auto 100%;
+}
+.ug-product-list-title span:after, .tabs_products_list .svg_title h2 span:after {
+    content: "";
+    background: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/lightning_left.png?v=1698218620") no-repeat center;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translate(100%, -50%) scaleX(-1);
+    width: 2.8125vw;
+    height: 2.8125vw;
+    background-size: auto 100%;
+}
+@media (max-width: 768px) {
+    .ug-product-list-title span, .tabs_products_list .svg_title h2 span {
+        max-width: 80%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .ug-product-list-title span:before, .tabs_products_list .svg_title h2 span:before {
+        left: 0;
+        width: 42px;
+        height: 42px;
+    }
+    .ug-product-list-title span:after, .tabs_products_list .svg_title h2 span:after {
+        right: 0;
+        width: 42px;
+        height: 42px;
+    }
+}

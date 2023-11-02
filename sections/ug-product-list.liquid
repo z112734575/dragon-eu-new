@@ -1,142 +1,135 @@
 {% liquid
-  assign settings = section.settings
-  assign product_list = settings.product_list
-  assign title = settings.title
-  assign subtitle = settings.subtitle
-  assign pc_row = settings.pc_row
-  assign mobile_row = settings.mobile_row
-  assign bg_color = settings.product_item_bg_color
-  assign sale_flag = settings.product_sale_flag
-  assign pc_padding = settings.pc_padding
-  assign mobile_padding = settings.mobile_padding
-  assign need_load_more = settings.need_load_more
-  assign load_more_default_count = settings.load_more_default_count
-  assign pc_product_sale_width = settings.pc_product_sale_width
-  assign mobile_product_sale_width = settings.mobile_product_sale_width
-  assign show_sale_flag = settings.show_sale_flag
-  assign show_compare = settings.show_compare
-  assign show_rating = settings.show_rating
-  assign show_learn_btn = settings.show_learn_btn
-  assign show_code = settings.show_code
-  assign pc_product_item_img_size = settings.pc_product_item_img_size
-  assign mobile_product_item_img_size = settings.mobile_product_item_img_size
-  assign mobile_product_type = settings.mobile_product_type
-  assign pc_product_type = settings.pc_product_type
-  assign section_id = settings.section_id
+    assign section_id = section.id
+    assign settings = section.settings
+    assign product_list = settings.product_list
+    assign title = settings.title
+    assign subtitle = settings.subtitle
+    assign pc_row = settings.pc_row
+    assign mobile_row = settings.mobile_row
+    assign bg_color = settings.product_item_bg_color
+    assign sale_flag = settings.product_sale_flag
+    assign pc_padding = settings.pc_padding
+    assign mobile_padding = settings.mobile_padding
+    assign need_load_more = settings.need_load_more
+    assign load_more_default_count = settings.load_more_default_count
+    assign pc_product_sale_width = settings.pc_product_sale_width
+    assign mobile_product_sale_width = settings.mobile_product_sale_width
+    assign show_sale_flag = settings.show_sale_flag
+    assign show_compare = settings.show_compare
+    assign show_rating = settings.show_rating
+    assign show_learn_btn = settings.show_learn_btn
+    assign show_code = settings.show_code
+    assign pc_product_item_img_size = settings.pc_product_item_img_size
+    assign mobile_product_item_img_size = settings.mobile_product_item_img_size
+    assign mobile_product_type = settings.mobile_product_type
+    assign pc_product_type = settings.pc_product_type
+    assign item_type = settings.item_type
+    assign title_color = settings.title_color
+    assign classId = section_id | prepend: "#"
 %}
+{{ 'ug-product-list.css' | asset_url | stylesheet_tag }}
+{{ 'ug-product-item.css' | asset_url | stylesheet_tag }}
+{% if item_type == "black_friday" %}
+    {{ 'ug-product-item-black-friday.css' | asset_url | stylesheet_tag }}
+{% endif %}
 <style>
-  .ug-product-list {
-      margin: 0 auto;
-      max-width: 1280px;
-      width: 100%;
-      padding: {{ pc_padding }};
-  }
-  .ug-product-list-title {
-      font-weight: 700;
-      font-size: 1.875vw;
-      color: #000;
-      margin-bottom: 2.08vw;
-      text-align: center;
-      line-height: 1.2;
-  }
-  .ug-product-list-main {
-      display: grid;
-      width: 100%;
-      grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
-      gap: 1vw;
-      position: relative;
-  }
-  .load-more__btn {
-      color: #00CC88;
-      font-size: 1.04vw;
-  }
-  .load-more__btn-wrap {
-      position: absolute;
-      bottom: -40px;
-      left: 50%;
-      transform: translate(-50%, 100%);
-  }
-  {% if pc_product_type == 'row' %}
-    @media (min-width:768px) {
-          #ug-product-list .ug-product-box{
-              flex-direction: row!important;
-              align-items: center;
-          }
-          #ug-product-list .ug-product-box > a{
-              display: inline-block;
-              width: 200px;
-              margin-right: 40px;
-          }
-          #ug-product-list .ug-product-price-review{
-              align-items: flex-start!important;
-              flex-direction: column;
-          }
-          #ug-product-list .ug-product-price-review .ug-product-price{
-              order: 1;
-          }
-          #ug-product-list .ug-product-price-review .ug-product-review{
-              margin-bottom: 10px;
-          }
-          #ug-product-list .ug-product-buy{
-              flex-direction: column;
-              align-items: stretch!important;
-          }
-          #ug-product-list .ug-product-buy .ug-product-buy-btn{
-              margin-bottom: 12px;
-          }
-      }
-  {% endif %}
-  @media (max-width: 768px) {
-      .ug-product-list {
-          padding: {{ mobile_padding }};
-      }
-      .ug-product-list-title {
-          font-size: 24px;
-          margin-bottom: 40px;
-      }
-      .ug-product-list-main {
-          grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
-          gap: 12px;
-          padding: 0 12px;
-      }
-      .load-more__btn {
-          color: #00CC88;
-          font-size: 16px;
-      }
-  }
+    {{ classId }}.ug-product-list {
+        padding: {{ pc_padding }};
+    }
+    {{ classId }} .ug-product-list-main {
+                      grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
+                  }
+    {{ classId }} .ug-product-img {
+                      width: {{ pc_product_item_img_size | default: '50%'}};
+                      padding-bottom: {{ pc_product_item_img_size | default: '50%'}};
+                  }
+    {{ classId }} .ug-product-sale-flag {
+                      width: {{ pc_product_sale_width | default: '60px' }};
+                  }
+    @media (max-width: 768px) {
+        {{ classId }}.ug-product-list {
+            padding: {{ mobile_padding }};
+        }
+    {{ classId }} .ug-product-list-main {
+                      grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
+                      gap: 12px;
+                      padding: 0 12px;
+                  }
+    {{ classId }} .ug-product-img {
+                      width: {{ mobile_product_item_img_size | default: '57%'}};
+                      padding-bottom: {{ mobile_product_item_img_size | default: '57%'}};
+                  }
+
+    {{ classId }} .ug-product-sale-flag {
+                      width: {{ mobile_product_sale_width | default: '48px' }};
+                  }
+    }
+    {% if pc_product_type == 'row' %}
+    @media (min-width: 768px) {
+    {{ classId }}  .ug-product-box {
+        flex-direction: row !important;
+        align-items: center;
+    }
+    {{ classId }}  .ug-product-box > a {
+                       display: inline-block;
+                       width: 200px;
+                       margin-right: 40px;
+                   }
+    {{ classId }}  .ug-product-price-review {
+                       align-items: flex-start !important;
+                       flex-direction: column;
+                   }
+    {{ classId }}  .ug-product-price-review .ug-product-price {
+                       order: 1;
+                   }
+    {{ classId }}  .ug-product-price-review .ug-product-review {
+                       margin-bottom: 10px;
+                   }
+    {{ classId }}  .ug-product-buy {
+                       flex-direction: column;
+                       align-items: stretch !important;
+                   }
+    {{ classId }}  .ug-product-buy .ug-product-buy-btn {
+                       margin-bottom: 12px;
+                   }
+    }
+    {% endif %}
 </style>
 
 <div class="ug-product-list" id="{{ section_id }}">
-  {% if title != blank %}
-    <div class="ug-product-list-title">{{ title }}</div>
-  {% endif %}
-  {% if subtitle != blank %}
-    <div class="ug-product-list-sub-title">{{ subtitle }}</div>
-  {% endif %}
-  <div class="ug-product-list-main load-more_list">
-    {% render 'ug-product',
-      product_list: product_list,
-      bg_color: bg_color,
-      sale_flag: sale_flag,
-      pc_product_sale_width: pc_product_sale_width,
-      mobile_product_sale_width: mobile_product_sale_width,
-      show_sale_flag: show_sale_flag,
-      show_compare: show_compare,
-      show_rating: show_rating,
-      show_learn_btn: show_learn_btn,
-      show_code: show_code,
-      pc_product_item_img_size: pc_product_item_img_size,
-      mobile_product_item_img_size: mobile_product_item_img_size,
-      mobile_product_type: mobile_product_type
-    %}
-  </div>
+    {% if title != blank %}
+        <div class="ug-product-list-title" style="color: {{ title_color }}">
+            <span>{{ title }}</span>
+        </div>
+    {% endif %}
+    {% if subtitle != blank %}
+        <div class="ug-product-list-sub-title">{{ subtitle }}</div>
+    {% endif %}
+    <div class="ug-product-list-main load-more_list">
+        {% render "ug-product",
+                product_list: product_list,
+                bg_color: bg_color,
+                sale_flag: sale_flag,
+                pc_product_sale_width: pc_product_sale_width,
+                mobile_product_sale_width: mobile_product_sale_width,
+                show_sale_flag: show_sale_flag,
+                show_compare: show_compare,
+                show_rating: show_rating,
+                show_learn_btn: show_learn_btn,
+                show_code: show_code,
+                pc_product_item_img_size: pc_product_item_img_size,
+                mobile_product_item_img_size: mobile_product_item_img_size,
+                mobile_product_type: mobile_product_type,
+                item_type: item_type
+        %}
+    </div>
 </div>
 {% if need_load_more %}
-  <script
-    src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
-    defer
-  ></script>
-  <script>
+    <script
+            src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
+            defer
+    ></script>
+    <script>
         $(function () {
             $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                 item: `div.ug-product-item`,
@@ -147,38 +140,54 @@
         </svg></a>`
             });
         })
-  </script>
+    </script>
 {% endif %}
 {% if show_code %}
-<script>
-  // copy
-    $(function () {
-        let timeId = null;
-        $('[data-ug-copy-data]').click(function () {
-            clearTimeout(timeId);
-            timeId = setTimeout(() => {
-                var copyText = $(this).attr('data-ug-copy-data');
-                var input = document.createElement('input');
-                input.setAttribute('value', copyText);
-                document.body.appendChild(input);
-                input.select();
-                if (document.execCommand('copy')) {
-                    document.execCommand('copy');
-                    $(this).text('Copied');
-                    setTimeout(() => {
-                        $(this).text('Copy');
-                    }, 2000)
-                }
-                document.body.removeChild(input);
-            }, 200);
-        });
-    })
-</script>
-    {% endif %}
+    <script>
+        // copy
+        $(function () {
+            let timeId = null;
+            $('[data-ug-copy-data]').click(function () {
+                clearTimeout(timeId);
+                timeId = setTimeout(() => {
+                    var copyText = $(this).attr('data-ug-copy-data');
+                    var input = document.createElement('input');
+                    input.setAttribute('value', copyText);
+                    document.body.appendChild(input);
+                    input.select();
+                    if (document.execCommand('copy')) {
+                        document.execCommand('copy');
+                        $(this).text('Copied');
+                        setTimeout(() => {
+                            $(this).text('Copy');
+                        }, 2000)
+                    }
+                    document.body.removeChild(input);
+                }, 200);
+            });
+        })
+    </script>
+{% endif %}
 {% schema %}
 {
   "name": "UGREEN Product List",
   "settings": [
+    {
+      "type": "radio",
+      "id": "item_type",
+      "label": "活动类型",
+      "options": [
+        {
+          "value": "default",
+          "label": "默认"
+        },
+        {
+          "value": "black_friday",
+          "label": "黑五"
+        }
+      ],
+      "default": "default"
+    },
     {
       "type": "product_list",
       "id": "product_list",
@@ -232,6 +241,12 @@
       ],
       "label": "移动端风格",
       "default": "column"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "模块标题颜色",
+      "default": "#000"
     },
     {
       "type": "color",

@@ -1,0 +1,43 @@
+.ug-product-list {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+.ug-product-list-title {
+    font-weight: 700;
+    font-size: 1.875vw;
+    color: #000;
+    margin-bottom: 2.08vw;
+    text-align: center;
+    line-height: 1.2;
+}
+.ug-product-list-main {
+    display: grid;
+    width: 100%;
+    gap: 1vw;
+    position: relative;
+}
+.load-more__btn {
+    color: #00CC88;
+    font-size: 1.04vw;
+}
+.load-more__btn-wrap {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+@media (max-width: 768px) {
+    .ug-product-list-title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .ug-product-list-main {
+        gap: 12px;
+        padding: 0 12px;
+    }
+    .load-more__btn {
+        color: #00CC88;
+        font-size: 16px;
+    }
+}

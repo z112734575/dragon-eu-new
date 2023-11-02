@@ -1,597 +1,234 @@
 {% liquid
-  assign settings = section.settings
-  assign items = section.blocks
-  assign pc_row = settings.pc_row
-  assign mobile_row = settings.mobile_row
-  assign bg_color = settings.product_item_bg_color
-  assign sale_flag = settings.product_sale_flag
-  assign pc_padding = settings.pc_padding
-  assign mobile_padding = settings.mobile_padding
-  assign need_load_more = settings.need_load_more
-  assign load_more_default_count = settings.load_more_default_count
-  assign pc_product_sale_width = settings.pc_product_sale_width
-  assign mobile_product_sale_width = settings.mobile_product_sale_width
-  assign show_sale_flag = settings.show_sale_flag
-  assign show_compare = settings.show_compare
-  assign show_rating = settings.show_rating
-  assign show_learn_btn = settings.show_learn_btn
-  assign pc_product_item_img_size = settings.pc_product_item_img_size
-  assign mobile_product_item_img_size = settings.mobile_product_item_img_size
-  assign mobile_product_type = settings.mobile_product_type
-  assign section_id = settings.section_id
-  assign list_all = settings.list_all
-  assign section_title = settings.section_title
-  assign sub_title = settings.sub_title
-  assign section_icon = settings.section_icon
+    assign section_id = section.id
+    assign settings = section.settings
+    assign items = section.blocks
+    assign pc_row = settings.pc_row
+    assign mobile_row = settings.mobile_row
+    assign bg_color = settings.product_item_bg_color
+    assign sale_flag = settings.product_sale_flag
+    assign pc_padding = settings.pc_padding
+    assign mobile_padding = settings.mobile_padding
+    assign need_load_more = settings.need_load_more
+    assign load_more_default_count = settings.load_more_default_count
+    assign pc_product_sale_width = settings.pc_product_sale_width
+    assign mobile_product_sale_width = settings.mobile_product_sale_width
+    assign show_sale_flag = settings.show_sale_flag
+    assign show_compare = settings.show_compare
+    assign show_rating = settings.show_rating
+    assign show_learn_btn = settings.show_learn_btn
+    assign show_code = settings.show_code
+    assign pc_product_item_img_size = settings.pc_product_item_img_size
+    assign mobile_product_item_img_size = settings.mobile_product_item_img_size
+    assign mobile_product_type = settings.mobile_product_type
+    assign list_all = settings.list_all
+    assign section_title = settings.section_title
+    assign sub_title = settings.sub_title
+    assign section_icon = settings.section_icon
+    assign item_type = settings.item_type
+    assign title_color = settings.title_color
+    assign classId = section_id | prepend: "#"
 %}
-
+{{ 'ug-product-list.css' | asset_url | stylesheet_tag }}
+{{ 'ug-product-item.css' | asset_url | stylesheet_tag }}
+{{ 'ug-tabs-product-list.css' | asset_url | stylesheet_tag }}
+{% if item_type == "black_friday" %}
+    {{ 'ug-product-item-black-friday.css' | asset_url | stylesheet_tag }}
+    {{ 'ug-tabs-product-list-black-friday.css' | asset_url | stylesheet_tag }}
+{% endif %}
 <style>
-  .ug-product-item {
-      position: relative;
-      width: 100%;
-      padding: 7.28% 9.7%;
-      border-radius: 12px;
-    z-index:1;
-  }
-  .ug-product-item:hover .ug-product-img > img {
-      transform: scale(1.1);
-      opacity: .7;
-  }
-  .ug-product-box {
-      width: 100%;
-      position: relative;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-  }
-  .ug-product-img {
-      width: {{ pc_product_item_img_size | default: '50%'}};
-      padding-bottom: {{ pc_product_item_img_size | default: '50%'}};
-      position: relative;
-      margin: 0 auto;
-  }
-  .ug-product-img > img {
-      display: block;
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      color: transparent;
-      object-fit: contain;
-      vertical-align: middle;
-      transition: all .3s;
-  }
-  .ug-product-info {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      flex: 1;
-  }
-  .ug-product-title {
-      font-weight: 400;
-      font-size: .833vw;
-      color: #666;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      height: 2.8vw;
-      margin: 0.625vw 0 0.833vw;
-  }
-  .ug-product-price-review {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-  .ug-product-price {
-      font-weight: 600;
-      font-size: 1.042vw;
-      color: #000;
-      margin: 0;
-      line-height: 1.5;
-  }
-  .ug-product-compare_at_price {
-      font-weight: 500;
-      font-size: .729vw;
-      text-decoration-line: line-through;
-      color: #a4a4a6;
-      padding-left: 0.26vw;
-  }
-  .ug-product-buy {
-      display: flex;
-      align-items: self-end;
-      justify-content: space-between;
-      width: 100%;
-      margin-top: 0.625vw;
-      gap: 2%;
-  }
-  .ug-product-buy-btn {
-      flex: 1;
-      color: #fff;
-      font-size: min(.833vw, 16px);
-      font-weight: 600;
-      border-radius: 3.125vw;
-      line-height: 1.1;
-      background: #000;
-      text-align: center;
-      padding: min(.625vw, 12px) 0;
-  }
-  .ug-product-buy-btn:hover {
-      background: #00cc88;
-      color: white;
-  }
-  .ug-product-learn-btn {
-      display: inline-block;
-      flex: 1;
-      color: #333;
-      font-weight: 600;
-      border-radius: 3.125vw;
-      border: 0.104vw solid #333;
-      text-align: center;
-      font-size: min(.833vw, 16px);
-      line-height: 1;
-      padding: min(.625vw, 12px) 0;
-  }
-  .ug-product-learn-btn:hover {
-      color: #00cc88;
-      border-color: #00cc88;
-  }
-  .ug-product-sale {
-      position: absolute;
-      top: -0.208vw;
-      left: 0.417vw;
-  }
-  .ug-product-sale-flag {
-      width: {{ pc_product_sale_width | default: '60px' }};
-  }
-  .ug-product-sale-flag > img {
-      display: block;
-      width: 100%;
-  }
-  .ug-product-sale-text {
-      font-weight: 500;
-      font-size: 0.9375vw;
-      color: white;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  }
-  .ug-product-sale-text-percent {
-      font-size: 12px;
-      font-weight: 400;
-  }
-  @media (max-width: 768px) {
-      .ug-product-item {
-          padding: 20px 12px;
-      }
-      .ug-product-img {
-          width: {{ mobile_product_item_img_size | default: '57%'}};
-          padding-bottom: {{ mobile_product_item_img_size | default: '57%'}};
-          position: relative;
-          margin: 0 auto;
-      }
-      .ug-product-title {
-          font-size: 12px;
-          margin: 10px 0;
-          max-height: 42px;
-          height: auto;
-      }
-      .ug-product-price-review {
-          display: flex;
-          align-items: flex-start;
-          justify-content: flex-start;
-          flex-direction: column;
-      }
-      .ug-product-price {
-          font-size: 18px;
-          line-height: 1.5;
-      }
-      .ug-product-compare_at_price {
-          font-size: 12px;
-          padding-left: 8px;
-      }
-      .ug-product-buy {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: flex-end;
-          width: 100%;
-          margin-top: 20px;
-      }
-      .ug-product-buy-btn {
-          width: 100%;
-          font-size: 14px;
-          padding: 8px 0;
-          line-height: 1.5;
-          text-align: center;
-          border-radius: 30px;
-      }
-      .ug-product-learn-btn {
-          width: 100%;
-          font-size: 14px;
-          padding: 8px 0;
-          line-height: 1.5;
-          text-align: center;
-          margin-top: 8px;
-          border-radius: 30px;
-      }
-      .ug-product-sale {
-          position: absolute;
-          top: -0.208vw;
-          left: 0.417vw;
-      }
-      .ug-product-sale-flag {
-          width: {{ mobile_product_sale_width | default: '48px' }};
-      }
-      .ug-product-sale-text {
-          font-size: 16px;
-      }
-      .ug-product-sale-text-percent {
-          font-size: 12px;
-      }
-      .xxx .ug-product-box {
-          flex-direction: row;
-          align-items: center;
-      }
-      .ug-product-info {
-          display: flex;
-      }
-  }
-
-
-    .svg_title {
-        text-align: center;
-    }
-
-     .svg_title svg {
-        display: inline-block;
-        width: 40px;
-        height: 30px;
-    }
-
-     .svg_title h2 {
-        font-weight: 700;
-        font-size: 1.875vw;
-        line-height: 1.875vw;
-        color: #000000;
-        padding: 0.677vw 0 1.042vw 0;
-    }
-
-     .svg_title p {
-        font-size: 1.042vw;
-        line-height: 1.042vw;
-        color: #666666;
-        margin: 0 0 2.083vw 0;
-    }
-
-    #{{ section_id }} .ug-product-list {
-        width: 100%;
+    {{ classId }} .ug-product-list {
         padding: {{ pc_padding }};
     }
-
-    #{{ section_id }} .ug-product-list-main {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat({{pc_row}}, minmax(0, 1fr));
-    gap: 1vw;
-    position: relative;
+    {{ classId }}
+    .ug-product-list-main {
+        grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
     }
-
-    .load-more__btn {
-        color: #00CC88;
-        font-size: 1.04vw;
+    {{ classId }}
+    .ug-product-img {
+        width: {{ pc_product_item_img_size | default: '50%'}};
+        padding-bottom: {{ pc_product_item_img_size | default: '50%'}};
     }
-
-    .load-more__btn-wrap {
-        position: absolute;
-        bottom: -40px;
-        left: 50%;
-        transform: translate(-50%, 100%);
+    {{ classId }}
+    .ug-product-sale-flag {
+        width: {{ pc_product_sale_width | default: '60px' }};
     }
-
-    .cursor-btns .cursor-btn {
-        padding: 16px 0;
-        text-align: center;
-        cursor: pointer;
-        font-size: 16px;
-        line-height: 16px;
-        background: #FFF5D3;
-        border-radius: 6px;
-        transition: all .3s;
-        color: #FF8818;
-    }
-
-    .cursor-btns .swiper-wrapper {
-        justify-content: center;
-    }
-
-    .cursor-btns .cursor-btn:hover,
-    .cursor-btns .cursor-btn.swiper-slide-thumb-active {
-        background: #FF8818;
-        color: #fff;
-    }
-
-    @media (min-width: 768px) {
-        #{{ section_id }} .ug-product-buy {
-        flex-direction: column;
-        align-items: stretch !important;
-    }
-
-    #{{ section_id }} .ug-product-buy .ug-product-buy-btn {
-        margin-bottom: 12px;
-    }
-
-    .cursor-btns .cursor-btn:last-child {
-        margin: 0 !important;
-    }
-    }
-
     @media (max-width: 768px) {
-
-         .svg_title {
-            padding: 0 4vw;
-        }
-
-         .svg_title h2 {
-            font-size: 6.4vw;
-            line-height: 8vw;
-            padding: 2.667vw 0;
-        }
-
-         .svg_title p {
-            font-size: 4.267vw;
-            line-height: 6.4vw;
-            margin-bottom: 4vw;
-        }
-
-        #{{ section_id }}
-
-    .ug-product-list {
-        padding: {{mobile_padding}};
+    {{ classId }} .ug-product-list {
+        padding: {{ mobile_padding }};
     }
-
-    #{{ section_id }} .ug-product-list-main {
-        grid-template-columns: repeat({{mobile_row}}, minmax(0, 1fr));
-    gap: 12px;
-    padding: 0 12px;
+    {{ classId }} .ug-product-list-main {
+                      grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
+                      gap: 12px;
+                      padding: 0 12px;
+                  }
+    {{ classId }} .ug-product-img {
+                      width: {{ mobile_product_item_img_size | default: '57%'}};
+                      padding-bottom: {{ mobile_product_item_img_size | default: '57%'}};
+                  }
+    {{ classId }} .ug-product-sale-flag {
+                      width: {{ mobile_product_sale_width | default: '48px' }};
+                  }
     }
-
-    .load-more__btn {
-        color: #00CC88;
-        font-size: 16px;
+    {% if pc_product_type == 'row' %}
+    @media (min-width: 768px) {
+    {{ classId }}  .ug-product-box {
+        flex-direction: row !important;
+        align-items: center;
     }
-
-    .cursor-btns {
-        position: sticky !important;
-        top: 0;
-        z-index: 99;
-        background: #fff;
-        padding: 15px;
+    {{ classId }}  .ug-product-box > a {
+                       display: inline-block;
+                       width: 200px;
+                       margin-right: 40px;
+                   }
+    {{ classId }}  .ug-product-price-review {
+                       align-items: flex-start !important;
+                       flex-direction: column;
+                   }
+    {{ classId }}  .ug-product-price-review .ug-product-price {
+                       order: 1;
+                   }
+    {{ classId }}  .ug-product-price-review .ug-product-review {
+                       margin-bottom: 10px;
+                   }
+    {{ classId }}  .ug-product-buy {
+                       flex-direction: column;
+                       align-items: stretch !important;
+                   }
+    {{ classId }}  .ug-product-buy .ug-product-buy-btn {
+                       margin-bottom: 12px;
+                   }
     }
-
-    .cursor-btns .cursor-btn {
-        width: calc(33.3333% - 8px) !important;
-        font-size: 14px;
-        line-height: 14px;
-        padding: 13px 0;
-        margin: 4px !important;
-    }
-
-    .cursor-btns .swiper-wrapper {
-        flex-wrap: wrap !important;
-    }
-    }
+    {% endif %}
 </style>
 <div class="tabs_products_list">
-  <div class="contant">
-    <div class="svg_title">
-      <svg class="icon" aria-hidden="true">
-        <use xlink:href="#{{ section_icon }}"></use>
-      </svg>
-      <h2>{{ section_title }}</h2>
-      <p>{{ sub_title }}</p>
-    </div>
-    <div class="cursor-btns swiper" thumbsslider="">
-      <div class="swiper-wrapper">
-        {% for item in items %}
-          {% assign tabs_title = item.settings.tabs_title %}
-          <span class="cursor-btn swiper-slide">{{ tabs_title }}</span>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="tabs_swiper swiper" id="{{ section_id }}">
-      <div class="swiper-wrapper">
-        {% for item in items %}
-          {% assign product_list = item.settings.product_list %}
-          <div class="ug-product-list swiper-slide">
-            <div class="ug-product-list-main load-more_list">
-              {% for product in product_list %}
-                <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
-                  <div class="ug-product-box">
-                    <a href="{{ product.url }}">
-                      <div class="ug-product-img">
-                        <img
-                          src="{{ product.featured_image | img_url: 'medium' }}"
-                          alt="{{ product.title }}"
-                        >
-                      </div>
-                    </a>
-                    <div class="ug-product-info">
-                      <a href="{{ product.url }}">
-                        <div class="ug-product-title">
-                          {{ product.title }}
-                        </div>
-                      </a>
-                      <div class="ug-product-price-review">
-                        {% assign compare_at_price = product.compare_at_price %}
-                        {% assign price = product.price %}
-                        {% assign showDiscountBar = compare_at_price | minus: price %}
-
-                        {% if showDiscountBar > 1 %}
-                          <p class="ug-product-price font-lato">
-                            {{ product.price | money }}
-                            <span class="ug-product-compare_at_price">{{ product.compare_at_price | money }}</span>
-                          </p>
-                        {% else %}
-                          <p class="ug-product-price font-lato">{{ product.price | money }}</p>
-                        {% endif %}
-                        {% if show_rating %}
-                          <div class="ug-product-review">
-                            {%- render 'product-rating', product: product, app_review: '4' -%}
-                          </div>
-                        {% endif %}
-                      </div>
-                      <div class="ug-product-buy">
-                        <a
-                          href="{{ product.url }}"
-                          class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-product-buy-btn"
-                          data-variant-id="{{ product.variants.first.id }}"
-                          data-action-atc
-                          rel="nofollow"
-                          >Buy Now</a
-                        >
-                        {% if show_learn_btn %}
-                          <a href="{{ product.url }}" class="ug-product-learn-btn">Learn more</a>
-                        {% endif %}
-                      </div>
-                    </div>
-                  </div>
-                  {% if showDiscountBar > 1 and show_sale_flag %}
-                    <div class="ug-product-sale">
-                      <span class="ug-product-sale-text">
-                        {{
-                          compare_at_price
-                          | minus: price
-                          | times: 100
-                          | divided_by: compare_at_price
-                          | prepend: '-'
-                        -}}
-                        <span class="ug-product-sale-text-percent">%</span>
-                      </span>
-                      <div class="ug-product-sale-flag">
-                        <img src="{{ sale_flag }}" alt="flag">
-                      </div>
-                    </div>
-                  {% endif %}
-                </div>
-              {% endfor %}
+    <div class="contant">
+        <div class="svg_title">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#{{ section_icon }}"></use>
+            </svg>
+            <h2 style="color: {{ title_color }}"><span>{{ section_title }}</span></h2>
+            <p>{{ sub_title }}</p>
+        </div>
+        <div class="cursor-btns swiper" thumbsslider="">
+            <div class="swiper-wrapper">
+                {% for item in items %}
+                    {% assign tabs_title = item.settings.tabs_title %}
+                    <span class="cursor-btn swiper-slide">{{ tabs_title }}</span>
+                {% endfor %}
             </div>
-          </div>
-        {% endfor %}
-      </div>
+        </div>
+        <div class="tabs_swiper swiper" id="{{ section_id }}">
+            <div class="swiper-wrapper">
+                {% for item in items %}
+                    {% assign product_list = item.settings.product_list %}
+                    <div class="ug-product-list swiper-slide">
+                        <div class="ug-product-list-main load-more_list">
+                            {% render "ug-product",
+                                    product_list: product_list,
+                                    bg_color: bg_color,
+                                    sale_flag: sale_flag,
+                                    pc_product_sale_width: pc_product_sale_width,
+                                    mobile_product_sale_width: mobile_product_sale_width,
+                                    show_sale_flag: show_sale_flag,
+                                    show_compare: show_compare,
+                                    show_rating: show_rating,
+                                    show_learn_btn: show_learn_btn,
+                                    show_code: show_code,
+                                    pc_product_item_img_size: pc_product_item_img_size,
+                                    mobile_product_item_img_size: mobile_product_item_img_size,
+                                    mobile_product_type: mobile_product_type,
+                                    item_type: item_type
+                            %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <script>
-  const cursorBtns = new Swiper(".cursor-btns", {
-      slidesPerView: {{ list_all }},
-  spaceBetween: 20,
-      watchSlidesVisibility: true //防止不可点击
-          });
-  const TabsSwiper = new Swiper('.tabs_swiper', {
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-      speed: 1000,
-      centeredSlides: true,
-      loop: true,
-      thumbs: {
-          swiper: cursorBtns,
-      },
-  })
+    const cursorBtns = new Swiper(".cursor-btns", {
+        slidesPerView: {{ list_all }},
+        spaceBetween: 20,
+        watchSlidesVisibility: true //防止不可点击
+    });
+    const TabsSwiper = new Swiper('.tabs_swiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        speed: 1000,
+        centeredSlides: true,
+        loop: true,
+        thumbs: {
+            swiper: cursorBtns,
+        },
+    })
 </script>
 {% if need_load_more %}
-  <script
-    src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
-    defer
-  ></script>
-  <script>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <script
+            src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
+            defer
+    ></script>
+    <script>
 
 
-    $(function () {
-        $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
-            item: `div.ug-product-item`,
-            count: {{ load_more_default_count }},
-        itemsToLoad: -1,
-        btnHTML: `<a href="#" class="load-more__btn">View More <svg class="icon" aria-hidden="true" style="transform: rotate(90deg)">
+        $(function () {
+            $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
+                item: `div.ug-product-item`,
+                count: {{ load_more_default_count }},
+                itemsToLoad: -1,
+                btnHTML: `<a href="#" class="load-more__btn">View More <svg class="icon" aria-hidden="true" style="transform: rotate(90deg)">
                     <use xlink:href="#icon-xiayiye"></use>
                 </svg></a>`
-                    });
-                });
+            });
+        });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </script>
+    </script>
 {% endif %}
 
 {% schema %}
 {
-"name": "UGREEN Tbas Product List",
-"settings": [
+  "name": "UGREEN Tbas Product List",
+  "settings": [
+    {
+      "type": "radio",
+      "id": "item_type",
+      "label": "活动类型",
+      "options": [
+        {
+          "value": "default",
+          "label": "默认"
+        },
+        {
+          "value": "black_friday",
+          "label": "黑五"
+        }
+      ],
+      "default": "default"
+    },
     {
       "type": "text",
       "id": "section_id",
       "label": "当前模块Id"
     },
-  {
+    {
       "type": "text",
       "id": "section_icon",
       "label": "iconfont",
-     "default": "icon-discount_icon1"
+      "default": "icon-discount_icon1"
     },
-  {
+    {
       "type": "text",
       "id": "section_title",
       "label": "当前标题",
-     "default": "Buy More, Save More"
+      "default": "Buy More, Save More"
     },
-  {
+    {
       "type": "text",
       "id": "sub_title",
       "label": "当前模块描述",
-     "default": "XXXXXXXOrdres of 79+, XXXXXXX| Ordres of 149+ "
+      "default": "XXXXXXXOrdres of 79+, XXXXXXX| Ordres of 149+ "
     },
     {
       "type": "text",
@@ -599,7 +236,12 @@
       "label": "设置几组产品",
       "default": "8"
     },
-
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "模块标题颜色",
+      "default": "#000"
+    },
     {
       "type": "color",
       "id": "product_item_bg_color",
@@ -618,7 +260,7 @@
       "label": "移动端Product Item 图片比例",
       "default": "57%"
     },
-  {
+    {
       "type": "text",
       "id": "pc_row",
       "label": "电脑端显示几行",
@@ -695,30 +337,36 @@
       "id": "show_learn_btn",
       "label": "是否展示Learn按钮",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_code",
+      "label": "是否展示折扣码",
+      "default": false
     }
   ],
-"blocks": [
-{
-"name": "Product list Tabs",
-"type": "ug-product-list-tabs",
-"settings": [
-{
-"type": "text",
-"id": "tabs_title",
-"label": "当前产品块title"
-},
-{
-"type": "product_list",
-"id": "product_list",
-"label": "商品列表"
-}
-]
-}
-],
-"presets": [
-{
-"name": "UGREEN Tbas Product List"
-}
-]
+  "blocks": [
+    {
+      "name": "Product list Tabs",
+      "type": "ug-product-list-tabs",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tabs_title",
+          "label": "当前产品块title"
+        },
+        {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "商品列表"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "UGREEN Tbas Product List"
+    }
+  ]
 }
 {% endschema %}
