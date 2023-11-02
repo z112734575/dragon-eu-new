@@ -1,0 +1,20 @@
+.cursor-btns {
+    background: #141416;
+}
+.cursor-btns .cursor-btn {
+    background: transparent;
+    border: 1px solid #999;
+    color: #999;
+}
+.cursor-btns .cursor-btn:hover,
+.cursor-btns .cursor-btn.swiper-slide-thumb-active {
+    background: #FFDE94;
+    border-color:  #FFDE94;
+    color: #000;
+}
+.load-more__btn {
+    color: #FFDE94;
+}
+.cursor-btns .swiper-wrapper {
+    justify-content: start;
+}
