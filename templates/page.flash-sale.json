@@ -359,6 +359,16 @@
             "collection_title": "Collection",
             "collection_link": ""
           }
+        },
+        "328dd6fb-c096-40a1-9e3e-4c1cc367ad76": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "video",
+            "image": "shopify:\/\/shop_images\/f7ee6e3f85d4a90873b174dbc1d06783.w750.h750._CR0_0_750_750_SX480_SY480.jpg",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
         }
       },
       "block_order": [
@@ -368,7 +378,8 @@
         "template--20801121845568__0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199-collection_item-4",
         "a347ccad-024f-47b4-a7b3-30da4940c83b",
         "4768f1c9-a0ab-4340-a62e-a7f554681804",
-        "d2a41784-dbcc-4043-9fe3-e08e15d7c78a"
+        "d2a41784-dbcc-4043-9fe3-e08e15d7c78a",
+        "328dd6fb-c096-40a1-9e3e-4c1cc367ad76"
       ],
       "settings": {
         "design_heading": "1",
