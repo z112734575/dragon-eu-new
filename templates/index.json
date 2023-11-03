@@ -171,8 +171,8 @@
       "settings": {
         "item_type": "default",
         "product_list": [
+          "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
           "ugreen-nexode-300w-usb-c-gan-chargeur",
-          "15076",
           "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
           "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
           "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
@@ -185,7 +185,7 @@
         "section_id": "ug-product-list",
         "pc_product_type": "column",
         "mobile_product_type": "column",
-        "title_color": "#000",
+        "title_color": "#000000",
         "product_item_bg_color": "#f8f8f9",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
