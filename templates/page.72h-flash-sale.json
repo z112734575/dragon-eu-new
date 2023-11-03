@@ -47,10 +47,12 @@
           "settings": {
             "tabs_title": "For iphone",
             "product_list": [
-              "ugreen-nexode-mini-45w-dual-usb-c-charger",
+              "ugreen-65w-usb-c-pd-charger-4-ports",
               "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
               "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
-              "ugreen-30w-usb-c-charger-with-pd3-0"
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-30w-usb-c-charger-with-pd3-0",
+              "ugreen-nexode-mini-45w-dual-usb-c-charger"
             ]
           }
         },
@@ -140,11 +142,13 @@
         "448af4be-180b-49ce-9705-b9ed6cbf39ca"
       ],
       "settings": {
+        "item_type": "default",
         "section_id": "tabs_product",
         "section_icon": "icon-discount_icon1",
         "section_title": "Buy More, Save More",
         "sub_title": "",
         "list_all": "7",
+        "title_color": "#000",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "50%",
         "mobile_product_item_img_size": "57%",
@@ -182,6 +186,7 @@
     "ug-product-list": {
       "type": "ug-product-list",
       "settings": {
+        "item_type": "default",
         "product_list": [
           "ugreen-6-in-1-usb-c-hub",
           "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
@@ -195,6 +200,7 @@
         "section_id": "ug-product-list",
         "pc_product_type": "row",
         "mobile_product_type": "row",
+        "title_color": "#000",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
