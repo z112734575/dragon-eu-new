@@ -765,6 +765,7 @@
           },
           "16e2ef48-b04b-46f0-bf5f-d12823645624": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "Halloween",
               "url": "https:\/\/fr.ugreen.com\/pages\/halloween-sale",
@@ -1529,6 +1530,7 @@
           },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Halloween Promt",
               "url": "https:\/\/fr.ugreen.com\/pages\/halloween-sale",
@@ -1986,6 +1988,8 @@
         ],
         "settings": {
           "style": "1",
+          "pos": "2",
+          "enable_pr": true,
           "enable_calc_ship": false,
           "enable_note": true,
           "enable_rates": true,

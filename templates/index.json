@@ -22,6 +22,7 @@
         },
         "86777b6a-bde9-4981-9d0b-274743aba41c": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/halloween-sale-fr-01.png?v=1697796174",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/halloween-sale-fr-02.png",
@@ -168,6 +169,7 @@
     "ug-product-list": {
       "type": "ug-product-list",
       "settings": {
+        "item_type": "default",
         "product_list": [
           "ugreen-nexode-300w-usb-c-gan-chargeur",
           "15076",
@@ -183,6 +185,7 @@
         "section_id": "ug-product-list",
         "pc_product_type": "column",
         "mobile_product_type": "column",
+        "title_color": "#000",
         "product_item_bg_color": "#f8f8f9",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
