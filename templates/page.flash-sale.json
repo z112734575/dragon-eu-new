@@ -133,10 +133,13 @@
         "563e8dd5-3fa7-4939-b349-ae402e9db803": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Power Bank",
+            "tabs_title": "Car Charger",
             "product_list": [
-              "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
-              "ugreen-foldable-kickstand-magnetic-battery-10000mah"
+              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
+              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
+              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
+              "10192",
+              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps"
             ]
           }
         },
