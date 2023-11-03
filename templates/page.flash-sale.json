@@ -57,12 +57,14 @@
     "ug-product-list": {
       "type": "ug-product-list",
       "settings": {
+        "item_type": "default",
         "product_list": [
-          "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
           "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
           "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
+          "ugreen-65w-chargeur-usb-c-4-ports-with-cable-usb-c-vers-usb-c-coude-pd-60w-charge-rapide",
           "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable",
           "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
+          "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
           "ugreen-chargeur-usb-c-20w-lot-de-2-power-delivery-3-0-blancugreen-chargeur-usb-c-20w-lot-de-2-power-delivery-3-0-blanc",
           "ugreen-360-rotating-laptop-tablet-stand-holder",
           "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
@@ -73,6 +75,7 @@
         "section_id": "ug-product-list",
         "pc_product_type": "row",
         "mobile_product_type": "row",
+        "title_color": "#000",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
@@ -221,11 +224,13 @@
         "6a1282f5-6f7c-435a-aa88-7d876a77f826"
       ],
       "settings": {
+        "item_type": "default",
         "section_id": "tabs_product",
         "section_icon": "icon-discount_icon1",
         "section_title": "Offre d'une durée limitée",
         "sub_title": "",
         "list_all": "7",
+        "title_color": "#000",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "100%",
