@@ -24,7 +24,6 @@
         },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/300w_banner_pc_d694d25a-be72-4111-8765-5b4428df521f.webp?v=1693906908",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/300w_Banner_mobile_f652d2dd-67db-4f67-b55d-768ff87f81fa.webp?v=1693906908",
@@ -34,33 +33,6 @@
             "button_text": "Learn More",
             "link": "https:\/\/eu.ugreen.com\/products\/ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
             "className": "300w"
-          }
-        },
-        "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EUpc-min.png?v=1696843424",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU_bd85c50d-ba1e-41d5-a070-bba376fa3942.png?v=1696843420",
-            "text_color": "#ffffff",
-            "title": "PowerRoam 2200 Portable Power Power Station",
-            "subtitle": "Power Anything,Anywhere, Anytime.",
-            "button_text": "Learn More",
-            "link": "\/products\/ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh",
-            "className": "300w"
-          }
-        },
-        "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/fr_38401840.png?v=1694745080",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobil_7501160.png?v=1694745079",
-            "text_color": "#ffffff",
-            "title": "USB-C,Innovating the Future!",
-            "subtitle": "Sep 11st-Sep 22nd.",
-            "button_text": "Shop Now",
-            "link": "\/pages\/apple-event",
-            "className": "buy-more-save-more"
           }
         },
         "ug-index-carousel-1": {
@@ -75,14 +47,41 @@
             "link": "\/collections\/hubs",
             "className": ""
           }
+        },
+        "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EUpc-min.png?v=1696843424",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU_bd85c50d-ba1e-41d5-a070-bba376fa3942.png?v=1696843420",
+            "text_color": "#ffffff",
+            "title": "PowerRoam 2200 Portable Power Power Station",
+            "subtitle": "Power Anything,Anywhere, Anytime.",
+            "button_text": "Learn More",
+            "link": "\/products\/ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh",
+            "className": "300w"
+          }
+        },
+        "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/fr_38401840.png?v=1694745080",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/mobil_7501160.png?v=1694745079",
+            "text_color": "#ffffff",
+            "title": "USB-C,Innovating the Future!",
+            "subtitle": "Sep 11st-Sep 22nd.",
+            "button_text": "Shop Now",
+            "link": "\/pages\/apple-event",
+            "className": "buy-more-save-more"
+          }
         }
       },
       "block_order": [
         "ug-index-carousel-11",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
+        "ug-index-carousel-1",
         "6c99235d-1a0a-4489-bae1-1a493df0dc48",
-        "b3006339-60a1-4abc-a86b-30c091fb8f1e",
-        "ug-index-carousel-1"
+        "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
       "custom_css": [
         ".buy-more-save-more .green-home-banner-box {text-align: left; top: 16vw; left: 20vw;}",
@@ -196,7 +195,7 @@
         "section_id": "ug-product-list",
         "pc_product_type": "column",
         "mobile_product_type": "column",
-        "title_color": "#000",
+        "title_color": "#000000",
         "product_item_bg_color": "#f8f8f9",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
