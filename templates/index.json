@@ -94,7 +94,6 @@
     },
     "ug-index-image": {
       "type": "ug-index-image",
-      "disabled": true,
       "custom_css": [
 
       ],
