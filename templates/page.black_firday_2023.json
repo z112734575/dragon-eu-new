@@ -17,7 +17,7 @@
     "black_friday_step": {
       "type": "black_friday_step",
       "settings": {
-        "step_type": "1",
+        "step_type": "2",
         "title": "Black Friday & Cyber Monday Schedule",
         "subtitle": "",
         "step1_text": "Get Ready for BFCM with a 10% OFF Gift Card!",
@@ -51,7 +51,7 @@
         "section_id": "ug-product-list",
         "pc_product_type": "column",
         "mobile_product_type": "row",
-        "title_color": "#000",
+        "title_color": "#000000",
         "product_item_bg_color": "#242320",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "100%",
@@ -146,7 +146,7 @@
         "section_title": "Hot Sale",
         "sub_title": "",
         "list_all": "4",
-        "title_color": "#000",
+        "title_color": "#000000",
         "product_item_bg_color": "#242320",
         "pc_product_item_img_size": "50%",
         "mobile_product_item_img_size": "80%",
