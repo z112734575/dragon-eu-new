@@ -116,15 +116,26 @@
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Hubs",
+            "tabs_title": "Hub",
             "product_list": [
-              "ugreen-usb-c-triple-display-docking-station",
-              "ugreen-9-in-1-usb-c-docking-station",
-              "ultra-slim-4-ports-usb-c-hub",
-              "ultra-slim-5-in-1-usb-c-hub",
-              "6-in-1-usb-c-adapter-with-4k-hdmi",
-              "ugreen-7-in-1-usb-3-0-hub",
-              "7-in-1-multiport-adapter-with-4k-60hz"
+              "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
+              "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
+              "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
+              "ugreen-adaptateur-hub-usb-c-vers-hdmi-4k",
+              "ugreen-adaptateur-hub-usb-c-hdmi-4k-60hz-pd-100w-recharge",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide-adaptateur",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps",
+              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-usb-c-rj45-ethernet-supporte",
+              "ugreen-hub-usb-a-3-0-avec-lecteur-de-carte-micro-sd-ms-m2-et-3-ports",
+              "20197",
+              "ugreen-hub-usb-c-ethernet-hdmi-4k-7-en-1-adaptateur-usb-c",
+              "70336",
+              "ugreen-hub-usb-c-vers-4-ports-usb-hub-en-aluminium-5gbps-adaptateur",
+              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-type-c-lecteur-de-cartes",
+              "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
+              "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
+              "ugreen-revodok-hub-usb-c-hdmi-4k-6-en-1-adaptateur-usb-c"
             ]
           }
         },
