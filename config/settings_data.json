@@ -1248,7 +1248,7 @@
                 "ugreen-nexode-100w-usb-c-wall-charger",
                 "ugreen-145w-power-bank-for-laptop",
                 "ugreen-nexode-200w-usb-c-desktop-charger",
-                "ugreen-30w-car-charger-with-60w-usb-c-cable-pd-qc3-0-fast-charge"
+                "ugreen-36w-qc3-0-car-charger-with-usb-c-cable-dual-usb-ports"
               ],
               "tag_list": "",
               "collection_name_list": "USB C Chargers,\nGaN Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers",
@@ -1822,6 +1822,8 @@
         ],
         "settings": {
           "style": "1",
+          "pos": "2",
+          "enable_pr": true,
           "enable_calc_ship": false,
           "enable_note": true,
           "enable_rates": true,
