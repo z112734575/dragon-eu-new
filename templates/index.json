@@ -284,6 +284,7 @@
       "blocks": {
         "35ae226d-9062-4a1c-b88a-ad2a2268ce3d": {
           "type": "ug-index-benefit-item",
+          "disabled": true,
           "settings": {
             "title": "Ugreen-Vouchers",
             "content": "Save Money with Discounts on Ugreen Products",
