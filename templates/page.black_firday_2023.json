@@ -142,14 +142,11 @@
         "d34e9e35-2164-4636-9cba-8b376d673c3c": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Cables",
+            "tabs_title": "USB-C Cables",
             "product_list": [
-              "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft",
-              "usb-c-to-lightning-fast-charging-cable",
-              "ugreen-100w-usb-c-to-usb-c-cable-6ft",
-              "right-angel-lightning-to-usb-a-cable",
-              "usb-c-to-a-quick-charging-cable",
-              "right-angle-usb-c-quick-charging-cable"
+              "10358",
+              "50122",
+              "ugreen-cable-usb-c-vers-usb-c-pd-100w-5a-20v-cable-nylon-tresse"
             ]
           }
         },
