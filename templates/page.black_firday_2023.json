@@ -83,13 +83,15 @@
           "settings": {
             "tabs_title": "Chargers",
             "product_list": [
-              "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
-              "ugreen-18w-quick-charge-3-0-chargeur-secteur-usb-2-ports",
+              "90664",
+              "ugreen-nexode-chargeur-30w-usb-c",
+              "ugreen-nexode-chargeur-45w-usb-c-2-ports",
+              "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
+              "ugreen-65w-chargeur-secteur-2-usb-c-pd-3-0-rapide",
               "ugreen-65w-chargeur-usb-c-4-ports",
-              "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
-              "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
-              "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable",
-              "ugreen-65w-chargeur-usb-c-rapide-3-ports"
+              "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
+              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
+              "ugreen-nexode-300w-usb-c-gan-chargeur"
             ]
           }
         },
