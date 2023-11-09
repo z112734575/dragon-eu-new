@@ -210,7 +210,7 @@
         "show_sale_flag": true,
         "show_compare": true,
         "show_rating": false,
-        "show_learn_btn": true,
+        "show_learn_btn": false,
         "show_code": true
       }
     }
