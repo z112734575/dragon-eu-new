@@ -4,7 +4,7 @@
       "type": "black_friday_banner",
       "settings": {
         "action_id": "e9a004e3-2d50-47b2-a224-11e19f45a270",
-        "is_pre": true,
+        "is_pre": false,
         "pc_image": "shopify:\/\/shop_images\/EU__pc_60f206b6-40f2-4884-93c9-1d2c6208a87f.webp",
         "mobile_image": "shopify:\/\/shop_images\/EU__mo_7cc0d12f-f9e1-41ef-bd76-7b4c9702ec1d.webp",
         "title": "<span>AVANT-PREMIÈRE<\/span> <strong>BLACK FRIDAY<\/strong>",
