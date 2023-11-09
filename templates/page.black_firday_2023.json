@@ -21,11 +21,11 @@
         "title": "Programme du Black Friday & Cyber Monday",
         "subtitle": "",
         "step1_text": "BLACK FRIDAY Pré-Vente",
-        "step1_time": "10 nov. - <br class=\"is_pe\"> 16 nov.",
+        "step1_time": "Nov <br>10 - 16",
         "step2_text": "Extravaganza du Black Friday",
-        "step2_time": "17 nov. -  <br class=\"is_pe\"> 24 nov.",
+        "step2_time": "Nov <br>17 - 24",
         "step3_text": "Fête du Cyber Monday",
-        "step3_time": "25 nov. - <br class=\"is_pe\"> 27 nov.",
+        "step3_time": "Nov <br>25 - 27",
         "padding_pc": "120px 0 0 0",
         "padding_mobile": "60px 0 0 0"
       }
@@ -64,7 +64,7 @@
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/ta2_pc.webp?v=1698051782",
         "pc_product_sale_width": "80px",
         "mobile_product_sale_width": "60px",
-        "pc_padding": "160px 0 120px 0",
+        "pc_padding": "140px 0 120px 0",
         "mobile_padding": "60px 0 30px 0",
         "need_load_more": false,
         "load_more_default_count": 3,
