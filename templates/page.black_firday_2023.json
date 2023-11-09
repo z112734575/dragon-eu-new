@@ -58,7 +58,7 @@
         "title_color": "#ffffff",
         "product_item_bg_color": "#242320",
         "pc_product_item_img_size": "80%",
-        "mobile_product_item_img_size": "100%",
+        "mobile_product_item_img_size": "80%",
         "pc_row": "3",
         "mobile_row": "2",
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/ta2_pc.webp?v=1698051782",
