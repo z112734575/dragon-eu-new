@@ -57,7 +57,7 @@
         "mobile_product_type": "row",
         "title_color": "#ffffff",
         "product_item_bg_color": "#242320",
-        "pc_product_item_img_size": "100%",
+        "pc_product_item_img_size": "80%",
         "mobile_product_item_img_size": "100%",
         "pc_row": "3",
         "mobile_row": "2",
