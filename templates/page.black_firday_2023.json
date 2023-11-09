@@ -87,22 +87,7 @@
           "settings": {
             "tabs_title": "Bundle",
             "product_list": [
-              "65w-3-ports-gan-fast-charger",
-              "100w-3c1a-gan-fast-charger",
-              "ugreen-nexode-140w-usb-c-wall-charger",
-              "ugreen-nexode-200w-usb-c-desktop-charger",
-              "ugreen-100w-usb-c-charger",
-              "ugreen-100w-usb-c-diginest-pro-power-strip",
-              "ugreen-65w-nexode-gan-usb-c-3-port-charger-with-us-uk-eu-plug-for-travel",
-              "ugreen-65w-usb-c-charging-station",
-              "ugreen-65w-usb-c-diginest-cube-charging-station",
-              "100w-dual-port-gan-fast-charger",
-              "ugreen-nexode-45w-dual-c-port-wall-charger",
-              "65w-4-port-3c1a-gan-pd-charger",
-              "ugreen-69w-usb-c-car-charger",
-              "ugreen-130w-usb-c-car-charger",
-              "ugreen-145w-power-bank-for-laptop",
-              "ugreen-10000mah-magsafe-wireless-power-bank"
+
             ]
           }
         },
