@@ -117,14 +117,16 @@
         "d34e9e35-2164-4636-9cba-8b376d673c3c": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Cables",
+            "tabs_title": "Hard Drive Enclosures",
             "product_list": [
-              "ugreen-usb-c-to-usb-c-cable-3ft-6ft-10ft",
-              "usb-c-to-lightning-fast-charging-cable",
-              "ugreen-100w-usb-c-to-usb-c-cable-6ft",
-              "right-angel-lightning-to-usb-a-cable",
-              "usb-c-to-a-quick-charging-cable",
-              "right-angle-usb-c-quick-charging-cable"
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-ssd-caddy",
+              "ugreen-2-5-inch-hard-drive-enclosure-sata-hdd-caddy-external-usb-3-0-hard-disk-case-sata-ssd-reader-uasp-supported-compatible-with-2-5-inch-ssd-hdd-evo-870-wd-crucial-drive-with-0-3m-micro-usb-cable",
+              "ugreen-m2-nvme-10-gbps-ssd-enclosure",
+              "ugreen-2-5-inch-usb-c-3-1-6gbps-hard-drive-enclosure",
+              "weekly-sale-product-m2-gehause1",
+              "ugreen-2-5-inch-6gbps-type-c-hard-drive-enclosure",
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-nvme-external-enclosure-aluminum-tool-free-hard-drive-enclosure-support-uasp-trim-nvme-pcie-adapter-for-m-and-m-b-key-in-2230-2242-2260-2280-ssd",
+              "ugreen-2-5-inch-hard-drive-enclosure-external-usb-3-0-hard-disk-case-sata-hdd-caddy-5gbps-uasp-supported-compatible-with-wd-evo-seagate-toshiba-crucial-kingston-0-5m-usb-a-cable"
             ]
           }
         },
