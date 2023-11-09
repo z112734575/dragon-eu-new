@@ -234,7 +234,9 @@
                 <p class="email-tips">{{ email_tips }}</p>
             </div>
         {% else %}
+          {% if time != blank %}
             <div class="time"><span>{{ time }}</span></div>
+          {% endif %}
         {% endif %}
     </div>
     {% if is_pre %}
