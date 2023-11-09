@@ -7,11 +7,11 @@
         "is_pre": false,
         "pc_image": "shopify:\/\/shop_images\/EU__pc_60f206b6-40f2-4884-93c9-1d2c6208a87f.webp",
         "mobile_image": "shopify:\/\/shop_images\/EU__mo_7cc0d12f-f9e1-41ef-bd76-7b4c9702ec1d.webp",
-        "title": "<span>AVANT-PREMIÈRE<\/span><br> <strong>BLACK FRIDAY<\/strong>",
+        "title": "<span>AVANT-PREMIÈRE<\/span> <strong>BLACK FRIDAY<\/strong>",
         "subtitle": "Commencez à économiser dès aujourd'hui",
         "email_btn_text": "Sign Up Now",
         "email_tips": "Use it to stack up your savings during our Black Friday event!",
-        "time": "<b>20 nov. - 3 déc. 2023<\/b>"
+        "time": "20 nov. - 3 déc. 2023"
       }
     },
     "black_friday_step": {
@@ -21,11 +21,11 @@
         "title": "Programme du Black Friday & Cyber Monday",
         "subtitle": "",
         "step1_text": "BLACK FRIDAY Pré-Vente",
-        "step1_time": "Nov <br>10 - 16",
+        "step1_time": "Nov 10 - 16",
         "step2_text": "Extravaganza du Black Friday",
-        "step2_time": "Nov <br>17 - 24",
+        "step2_time": "Nov 17 - 24",
         "step3_text": "Fête du Cyber Monday",
-        "step3_time": "Nov <br>25 - 27",
+        "step3_time": "Nov 25 - 27",
         "padding_pc": "120px 0 0 0",
         "padding_mobile": "60px 0 0 0"
       }
