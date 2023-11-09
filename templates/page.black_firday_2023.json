@@ -87,22 +87,30 @@
           "settings": {
             "tabs_title": "Bundle",
             "product_list": [
-
+              "ugreen-nexode-65w-usb-c-gan-charger-3-ports-wall-charger-1m-60w-usb-c-cable",
+              "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
+              "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "ugreen-nexode-usb-c-charger-100w-gan-desktop-charger-4-ports-laptop-adapter",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports"
             ]
           }
         },
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Hubs",
+            "tabs_title": "Docks & Hubs",
             "product_list": [
+              "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "ugreen-6-in-1-usb-c-hub",
               "ugreen-usb-c-triple-display-docking-station",
-              "ugreen-9-in-1-usb-c-docking-station",
-              "ultra-slim-4-ports-usb-c-hub",
-              "ultra-slim-5-in-1-usb-c-hub",
-              "6-in-1-usb-c-adapter-with-4k-hdmi",
-              "ugreen-7-in-1-usb-3-0-hub",
-              "7-in-1-multiport-adapter-with-4k-60hz"
+              "ugreen-usb-c-hub-4k-60hz-6-in-1-usb-c-hub-multiport-adapter-with-3-usb-3-0-1-hdmi-ports-sd-tf-card-reader-usb-c-dongle-for-laptop-tablet-ipad-macbook-pro-air-dell-samsung-iphone-15-pro-pro-max",
+              "ugreen-usb-c-multiport-adapter-usb-c-hub-hdmi-ultra-slim-with-4-usb-3-0-ports-for-data-transfer",
+              "ugreen-macbook-pro-adapter-6-in-2-hub-adapter",
+              "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio"
             ]
           }
         },
