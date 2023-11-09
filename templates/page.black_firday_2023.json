@@ -7,8 +7,8 @@
         "is_pre": false,
         "pc_image": "shopify:\/\/shop_images\/EU__pc.webp",
         "mobile_image": "shopify:\/\/shop_images\/EU__mo.webp",
-        "title": "<span>Ugreen AVANT-PREMIÈRE<\/span><br> <strong>BLACK FRIDAY<\/strong>",
-        "subtitle": "Profitez des Premières Remises : Économisez dès Aujourd'hui",
+        "title": "<span>AVANT-PREMIÈRE<\/span><br> <strong>BLACK FRIDAY<\/strong>",
+        "subtitle": "Commencez à économiser dès aujourd'hui",
         "email_btn_text": "Sign Up Now",
         "email_tips": "Use it to stack up your savings during our Black Friday event!",
         "time": "20 nov. - 3 déc. 2023"
@@ -17,15 +17,15 @@
     "black_friday_step": {
       "type": "black_friday_step",
       "settings": {
-        "step_type": "2",
-        "title": "Black Friday & Cyber Monday Schedule",
+        "step_type": "1",
+        "title": "Programme du Black Friday & Cyber Monday",
         "subtitle": "",
-        "step1_text": "Get Ready for BFCM with a 10% OFF Gift Card!",
-        "step1_time": "Oct. 23 - Nov.05",
-        "step2_text": "Subscribe & Receive $5 Gift Card",
-        "step2_time": "Nov. 06 - Nov.19",
-        "step3_text": "Save UP TO 30% Web-Site Sale",
-        "step3_time": "Nov. 20 - Dec. 03",
+        "step1_text": "BLACK FRIDAY Pré-Vente",
+        "step1_time": "10 nov. - <br>16 nov.",
+        "step2_text": "Extravaganza du Black Friday",
+        "step2_time": "17 nov. - <br>24 nov.",
+        "step3_text": "Fête du Cyber Monday",
+        "step3_time": "25 nov. - <br>27 nov.",
         "padding_pc": "120px 0 0 0",
         "padding_mobile": "60px 0 0 0"
       }
