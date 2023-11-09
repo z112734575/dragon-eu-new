@@ -1,4 +1,62 @@
 {% for product in product_list %}
+  {% liquid
+    assign discountbar = product.metafields.custom.discountbar.value
+    # 折扣码
+    assign discount_code = discountbar[1]
+    # 折扣百分比
+    if discountbar[0] != blank
+      assign discount_percentage = discountbar[0]
+    else
+      assign discount_percentage = null
+    endif
+    # 货币符号
+    assign currency = cart.currency.symbol
+    # 折扣金额，有此项则默认覆盖百分比
+    if discountbar[3] != blank
+      assign discount_amount = discountbar[3] | remove: currency | times: 100
+    else
+      assign discount_amount = null
+    endif
+    assign price = product.price
+    assign compare_at_price = product.compare_at_price
+    # 用于判断是否存在原价
+    assign has_compare_at_price = compare_at_price | minus: price
+    assign percentage_tag = '<span class="ug-product-sale-text-percent">%</span>'
+    if show_code and discount_code != blank
+      if discount_amount
+        assign price = price | minus: discount_amount
+        if has_compare_at_price > 0
+          assign discount_flag_text = has_compare_at_price | plus: discount_amount | money_without_trailing_zeros
+        else
+          assign compare_at_price = product.price
+          assign discount_flag_text = discount_amount | money_without_trailing_zeros
+        endif
+      elsif discount_percentage
+        assign apply_percentage = 100 | minus: discount_percentage
+        assign price = price | divided_by: 100.0 | times: apply_percentage | ceil
+        if has_compare_at_price > 0
+          assign discount_flag_text = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price | floor | append: percentage_tag
+        else
+          assign compare_at_price = product.price
+          assign discount_flag_text = discount_percentage | append: percentage_tag
+        endif
+      else
+        if has_compare_at_price > 0
+          assign discount_flag_text = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price | append: percentage_tag
+        else
+          assign compare_at_price = null
+          assign discount_flag_text = null
+        endif
+      endif
+    else
+      if has_compare_at_price > 0
+        assign discount_flag_text = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price | append: percentage_tag
+      else
+        assign compare_at_price = null
+        assign discount_flag_text = null
+      endif
+    endif
+  %}
   <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
     <div class="ug-product-box">
       <a href="{{ product.url }}">
@@ -13,18 +71,13 @@
           </div>
         </a>
         <div class="ug-product-price-review">
-          {% assign compare_at_price = product.compare_at_price %}
-          {% assign price = product.price %}
-          {% assign showDiscountBar = compare_at_price | minus: price %}
+          <p class="ug-product-price font-lato">
+            {{ price | money }}
+            {% if compare_at_price > price %}
+              <span class="ug-product-compare_at_price">{{ compare_at_price | money }}</span>
+            {% endif %}
+          </p>
 
-          {% if showDiscountBar > 1 %}
-            <p class="ug-product-price font-lato">
-              {{ product.price | money }}
-              <span class="ug-product-compare_at_price">{{ product.compare_at_price | money }}</span>
-            </p>
-          {% else %}
-            <p class="ug-product-price font-lato">{{ product.price | money }}</p>
-          {% endif %}
           {% if show_rating %}
             <div class="ug-product-review">
               {%- render 'product-rating', product: product, app_review: '4' -%}
@@ -33,22 +86,21 @@
         </div>
         {% assign discountbar = product.metafields.custom.discountbar.value %}
         {% assign discount_code = discountbar[1] %}
-        {% if show_code and discount_code%}
-
+        {% if show_code and discount_code %}
           <div class="ug_product_code">
-            <p>Code: {{ discount_code }} </p>
+            <p>Code: {{ discount_code }}</p>
             <button data-ug-copy-data="{{ discount_code }}" class="copy-btn">Copy</button>
           </div>
         {% endif %}
         <div class="ug-product-buy">
           {% assign amz_url = product.metafields.custom.amazon_url %}
           <a
-                  href="{{ product.url }}"
-                  class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-product-buy-btn"
-                  data-variant-id="{{ product.variants.first.id }}"
-                  data-action-atc
-                  rel="nofollow"
-          >Buy Now</a
+            href="{{ product.url }}"
+            class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-product-buy-btn"
+            data-variant-id="{{ product.variants.first.id }}"
+            data-action-atc
+            rel="nofollow"
+            >Buy Now</a
           >
           {% if page.url contains 'autumn-harvest-access-sale' %}
             <a href="{{ amz_url }}" class="ug-product-learn-btn" target="_blank">Amazon</a>
@@ -59,14 +111,10 @@
         </div>
       </div>
     </div>
-    {% if showDiscountBar > 1 and show_sale_flag %}
+    {% if show_sale_flag and discount_flag_text != blank %}
       <div class="ug-product-sale">
         <span class="ug-product-sale-text">
-          {{ compare_at_price | minus: price | times: 100 | divided_by: compare_at_price | prepend: '-' -}}
-          <span
-                  class="ug-product-sale-text-percent"
-          >%</span
-          >
+          {{ discount_flag_text }}
         </span>
         <div class="ug-product-sale-flag">
           <img src="{{ sale_flag }}" alt="flag">
