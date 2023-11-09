@@ -161,6 +161,22 @@
               "ugreen-usb-to-micro-usb-cable"
             ]
           }
+        },
+        "e262d77a-9f38-448e-9f36-447219ea793f": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "For Phone&Tablet",
+            "product_list": [
+              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
+              "ugreen-nexode-65w-usb-c-gan-charger-3-ports-wall-charger-1m-60w-usb-c-cable",
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "ugreen-aluminum-adjustable-tablet-stand",
+              "ugreen-10000mah-magsafe-wireless-power-bank",
+              "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-nexode-mini-45w-dual-usb-c-charger"
+            ]
+          }
         }
       },
       "block_order": [
@@ -168,7 +184,8 @@
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "d34e9e35-2164-4636-9cba-8b376d673c3c",
         "82e89c4e-58ed-4668-b5e0-707f3f82a435",
-        "577176c8-d4ad-487d-995b-897189b25986"
+        "577176c8-d4ad-487d-995b-897189b25986",
+        "e262d77a-9f38-448e-9f36-447219ea793f"
       ],
       "settings": {
         "item_type": "black_friday",
