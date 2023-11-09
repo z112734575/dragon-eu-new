@@ -112,8 +112,10 @@
         margin-top: 1.56vw;
         font-size: clamp(14px,1vw,20px);
         line-height: 1;
-        position: relative;
     }
+  .black_friday_banner .time span {
+        position: relative;
+  }
     .black_friday_banner .time span:before {
         content: "";
         height: 1px;
@@ -121,8 +123,8 @@
         background: #999;
         position: absolute;
         top: 50%;
-        left: 0;
-        transform: translate(0, -100%);
+        left: -10%;
+        transform: translate(-100%, -100%);
     }
     .black_friday_banner .time span:after {
         content: "";
@@ -131,8 +133,8 @@
         background: #999;
         position: absolute;
         top: 50%;
-        right: 0;
-        transform: translate(0, -100%);
+        right: -10%;
+        transform: translate(100%, -100%);
     }
     @media (max-width: 768px) {
         .is_pc {
