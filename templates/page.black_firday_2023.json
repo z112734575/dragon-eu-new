@@ -4,14 +4,14 @@
       "type": "black_friday_banner",
       "settings": {
         "action_id": "e9a004e3-2d50-47b2-a224-11e19f45a270",
-        "is_pre": true,
+        "is_pre": false,
         "pc_image": "shopify:\/\/shop_images\/EU__pc.webp",
         "mobile_image": "shopify:\/\/shop_images\/EU__mo.webp",
-        "title": "<span>Ugreen<\/span> <strong>BLACK FRIDAY<\/strong> <span>Pre-Sale<\/span>",
-        "subtitle": "Subscribe Now and Receive a $5 Gift Card",
+        "title": "<span>Ugreen AVANT-PREMIÈRE<\/span><br> <strong>BLACK FRIDAY<\/strong>",
+        "subtitle": "Profitez des Premières Remises : Économisez dès Aujourd'hui",
         "email_btn_text": "Sign Up Now",
         "email_tips": "Use it to stack up your savings during our Black Friday event!",
-        "time": "Nov. 20 - Dec. 3, 2023"
+        "time": "20 nov. - 3 déc. 2023"
       }
     },
     "black_friday_step": {
