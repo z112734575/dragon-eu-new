@@ -1,176 +1,180 @@
 {% liquid
-    assign section_id = section.id
-    assign settings = section.settings
-    assign items = section.blocks
-    assign pc_row = settings.pc_row
-    assign mobile_row = settings.mobile_row
-    assign bg_color = settings.product_item_bg_color
-    assign sale_flag = settings.product_sale_flag
-    assign pc_padding = settings.pc_padding
-    assign mobile_padding = settings.mobile_padding
-    assign need_load_more = settings.need_load_more
-    assign load_more_default_count = settings.load_more_default_count
-    assign pc_product_sale_width = settings.pc_product_sale_width
-    assign mobile_product_sale_width = settings.mobile_product_sale_width
-    assign show_sale_flag = settings.show_sale_flag
-    assign show_compare = settings.show_compare
-    assign show_rating = settings.show_rating
-    assign show_learn_btn = settings.show_learn_btn
-    assign show_code = settings.show_code
-    assign pc_product_item_img_size = settings.pc_product_item_img_size
-    assign mobile_product_item_img_size = settings.mobile_product_item_img_size
-    assign mobile_product_type = settings.mobile_product_type
-    assign list_all = settings.list_all
-    assign section_title = settings.section_title
-    assign sub_title = settings.sub_title
-    assign section_icon = settings.section_icon
-    assign item_type = settings.item_type
-    assign title_color = settings.title_color
-    assign classId = section_id | prepend: "#"
+  assign section_id = section.id
+  assign settings = section.settings
+  assign items = section.blocks
+  assign pc_row = settings.pc_row
+  assign mobile_row = settings.mobile_row
+  assign bg_color = settings.product_item_bg_color
+  assign sale_flag = settings.product_sale_flag
+  assign pc_padding = settings.pc_padding
+  assign mobile_padding = settings.mobile_padding
+  assign need_load_more = settings.need_load_more
+  assign load_more_default_count = settings.load_more_default_count
+  assign pc_product_sale_width = settings.pc_product_sale_width
+  assign mobile_product_sale_width = settings.mobile_product_sale_width
+  assign show_sale_flag = settings.show_sale_flag
+  assign show_compare = settings.show_compare
+  assign show_rating = settings.show_rating
+  assign show_learn_btn = settings.show_learn_btn
+  assign show_code = settings.show_code
+  assign pc_product_item_img_size = settings.pc_product_item_img_size
+  assign mobile_product_item_img_size = settings.mobile_product_item_img_size
+  assign mobile_product_type = settings.mobile_product_type
+  assign list_all = settings.list_all
+  assign section_title = settings.section_title
+  assign sub_title = settings.sub_title
+  assign section_icon = settings.section_icon
+  assign item_type = settings.item_type
+  assign title_color = settings.title_color
+  assign classId = section_id | prepend: '#'
 %}
 {{ 'ug-product-list.css' | asset_url | stylesheet_tag }}
 {{ 'ug-product-item.css' | asset_url | stylesheet_tag }}
 {{ 'ug-tabs-product-list.css' | asset_url | stylesheet_tag }}
-{% if item_type == "black_friday" %}
-    {{ 'ug-product-item-black-friday.css' | asset_url | stylesheet_tag }}
-    {{ 'ug-tabs-product-list-black-friday.css' | asset_url | stylesheet_tag }}
+{% if item_type == 'black_friday' %}
+  {{ 'ug-product-item-black-friday.css' | asset_url | stylesheet_tag }}
+  {{ 'ug-tabs-product-list-black-friday.css' | asset_url | stylesheet_tag }}
 {% endif %}
 <style>
-    {{ classId }} .ug-product-list {
-        padding: {{ pc_padding }};
-    }
-    {{ classId }}
-    .ug-product-list-main {
-        grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
-    }
-    {{ classId }}
-    .ug-product-img {
-        width: {{ pc_product_item_img_size | default: '50%'}};
-        padding-bottom: {{ pc_product_item_img_size | default: '50%'}};
-    }
-    {{ classId }}
-    .ug-product-sale-flag {
-        width: {{ pc_product_sale_width | default: '60px' }};
-    }
-    @media (max-width: 768px) {
-    {{ classId }} .ug-product-list {
-        padding: {{ mobile_padding }};
-    }
-    {{ classId }} .ug-product-list-main {
-                      grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
-                      gap: 12px;
-                      padding: 0 12px;
-                  }
-    {{ classId }} .ug-product-img {
-                      width: {{ mobile_product_item_img_size | default: '57%'}};
-                      padding-bottom: {{ mobile_product_item_img_size | default: '57%'}};
-                  }
-    {{ classId }} .ug-product-sale-flag {
-                      width: {{ mobile_product_sale_width | default: '48px' }};
-                  }
-    }
-    {% if pc_product_type == 'row' %}
-    @media (min-width: 768px) {
-    {{ classId }}  .ug-product-box {
-        flex-direction: row !important;
-        align-items: center;
-    }
-    {{ classId }}  .ug-product-box > a {
-                       display: inline-block;
-                       width: 200px;
-                       margin-right: 40px;
-                   }
-    {{ classId }}  .ug-product-price-review {
-                       align-items: flex-start !important;
-                       flex-direction: column;
-                   }
-    {{ classId }}  .ug-product-price-review .ug-product-price {
-                       order: 1;
-                   }
-    {{ classId }}  .ug-product-price-review .ug-product-review {
-                       margin-bottom: 10px;
-                   }
-    {{ classId }}  .ug-product-buy {
-                       flex-direction: column;
-                       align-items: stretch !important;
-                   }
-    {{ classId }}  .ug-product-buy .ug-product-buy-btn {
-                       margin-bottom: 12px;
-                   }
-    }
-    {% endif %}
+  {{ classId }} .ug-product-list {
+      padding: {{ pc_padding }};
+  }
+  {{ classId }}
+  .ug-product-list-main {
+      grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
+  }
+  {{ classId }}
+  .ug-product-img {
+      width: {{ pc_product_item_img_size | default: '50%'}};
+      padding-bottom: {{ pc_product_item_img_size | default: '50%'}};
+  }
+  {{ classId }}
+  .ug-product-sale-flag {
+      width: {{ pc_product_sale_width | default: '60px' }};
+  }
+  @media (max-width: 768px) {
+      {{ classId }} .ug-product-list {
+          padding: {{ mobile_padding }};
+      }
+  {{ classId }} .ug-product-list-main {
+                    grid-template-columns: repeat({{ mobile_row }},minmax(0, 1fr));
+                    gap: 12px;
+                    padding: 0 12px;
+                }
+  {{ classId }} .ug-product-img {
+                    width: {{ mobile_product_item_img_size | default: '57%'}};
+                    padding-bottom: {{ mobile_product_item_img_size | default: '57%'}};
+                }
+  {{ classId }} .ug-product-sale-flag {
+                    width: {{ mobile_product_sale_width | default: '48px' }};
+                }
+  }
+  {% if pc_product_type == 'row' %}
+  @media (min-width: 768px) {
+  {{ classId }}  .ug-product-box {
+      flex-direction: row !important;
+      align-items: center;
+  }
+  {{ classId }}  .ug-product-box > a {
+                     display: inline-block;
+                     width: 200px;
+                     margin-right: 40px;
+                 }
+  {{ classId }}  .ug-product-price-review {
+                     align-items: flex-start !important;
+                     flex-direction: column;
+                 }
+  {{ classId }}  .ug-product-price-review .ug-product-price {
+                     order: 1;
+                 }
+  {{ classId }}  .ug-product-price-review .ug-product-review {
+                     margin-bottom: 10px;
+                 }
+  {{ classId }}  .ug-product-buy {
+                     flex-direction: column;
+                     align-items: stretch !important;
+                 }
+  {{ classId }}  .ug-product-buy .ug-product-buy-btn {
+                     margin-bottom: 12px;
+                 }
+  }
+  {% endif %}
 </style>
-<div class="tabs_products_list">
-    <div class="contant">
-        <div class="svg_title">
-            <svg class="icon" aria-hidden="true">
-                <use xlink:href="#{{ section_icon }}"></use>
-            </svg>
-            <h2 style="color: {{ title_color }}"><span>{{ section_title }}</span></h2>
-            <p>{{ sub_title }}</p>
-        </div>
-        <div class="cursor-btns swiper" thumbsslider="">
-            <div class="swiper-wrapper">
-                {% for item in items %}
-                    {% assign tabs_title = item.settings.tabs_title %}
-                    <span class="cursor-btn swiper-slide">{{ tabs_title }}</span>
-                {% endfor %}
-            </div>
-        </div>
-        <div class="tabs_swiper swiper" id="{{ section_id }}">
-            <div class="swiper-wrapper">
-                {% for item in items %}
-                    {% assign product_list = item.settings.product_list %}
-                    <div class="ug-product-list swiper-slide">
-                        <div class="ug-product-list-main load-more_list">
-                            {% render "ug-product",
-                                    product_list: product_list,
-                                    bg_color: bg_color,
-                                    sale_flag: sale_flag,
-                                    pc_product_sale_width: pc_product_sale_width,
-                                    mobile_product_sale_width: mobile_product_sale_width,
-                                    show_sale_flag: show_sale_flag,
-                                    show_compare: show_compare,
-                                    show_rating: show_rating,
-                                    show_learn_btn: show_learn_btn,
-                                    show_code: show_code,
-                                    pc_product_item_img_size: pc_product_item_img_size,
-                                    mobile_product_item_img_size: mobile_product_item_img_size,
-                                    mobile_product_type: mobile_product_type,
-                                    item_type: item_type
-                            %}
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
+<div class="tabs_products_list" id="{{ section_id }}">
+  <div class="contant">
+    <div class="svg_title">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#{{ section_icon }}"></use>
+      </svg>
+      <h2 style="color: {{ title_color }}">
+        <span>{{ section_title }}</span>
+      </h2>
+      <p>{{ sub_title }}</p>
     </div>
+    <div class="cursor-btns swiper" thumbsslider="">
+      <div class="swiper-wrapper">
+        {% for item in items %}
+          {% assign tabs_title = item.settings.tabs_title %}
+          <span class="cursor-btn swiper-slide">{{ tabs_title }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="tabs_swiper swiper">
+      <div class="swiper-wrapper">
+        {% for item in items %}
+          {% assign product_list = item.settings.product_list %}
+          <div class="ug-product-list swiper-slide">
+            <div class="ug-product-list-main load-more_list">
+              {% render 'ug-product',
+                product_list: product_list,
+                bg_color: bg_color,
+                sale_flag: sale_flag,
+                pc_product_sale_width: pc_product_sale_width,
+                mobile_product_sale_width: mobile_product_sale_width,
+                show_sale_flag: show_sale_flag,
+                show_compare: show_compare,
+                show_rating: show_rating,
+                show_learn_btn: show_learn_btn,
+                show_code: show_code,
+                pc_product_item_img_size: pc_product_item_img_size,
+                mobile_product_item_img_size: mobile_product_item_img_size,
+                mobile_product_type: mobile_product_type,
+                item_type: item_type
+              %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
-    const cursorBtns = new Swiper(".cursor-btns", {
+$(function(){
+    const cursorBtns = new Swiper(`{{ section_id | prepend: '#' }} .cursor-btns`, {
         slidesPerView: {{ list_all }},
         spaceBetween: 20,
         watchSlidesVisibility: true //防止不可点击
     });
-    const TabsSwiper = new Swiper('.tabs_swiper', {
+    const TabsSwiper = new Swiper(`{{ section_id | prepend: '#' }} .tabs_swiper`, {
         slidesPerView: 'auto',
         spaceBetween: 20,
         speed: 1000,
         centeredSlides: true,
+      autoHeight: true,
         loop: true,
-        autoHeight: true,
         thumbs: {
             swiper: cursorBtns,
         },
     })
+})
 </script>
 {% if need_load_more %}
-    <script
-            src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
-            defer
-    ></script>
-    <script>
+  <script
+    src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/simpleLoadMore.min.js?v=1680093074"
+    defer
+  ></script>
+  <script>
 
 
         $(function () {
@@ -183,9 +187,7 @@
                 </svg></a>`
             });
         });
-
-
-    </script>
+  </script>
 {% endif %}
 
 {% schema %}
