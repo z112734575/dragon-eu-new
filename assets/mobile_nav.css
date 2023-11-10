@@ -331,7 +331,7 @@ svg.t4s-iconsvg-close {
     /*     left: calc(100vw - 65px); */
     left: initial;
     right: 0;
-    display: nooe;
+    display: none;
 }
 @media (min-width: 641px){
     .t4s-drawer-menu__close{
