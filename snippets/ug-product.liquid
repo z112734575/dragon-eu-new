@@ -57,6 +57,7 @@
       endif
     endif
   %}
+
   <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
     <div class="ug-product-box">
       <a href="{{ product.url }}">
@@ -114,7 +115,7 @@
     {% if show_sale_flag and discount_flag_text != blank %}
       <div class="ug-product-sale">
         <span class="ug-product-sale-text">
-          {{ discount_flag_text }}
+          {{ discount_flag_text  | prepend: '-'}}
         </span>
         <div class="ug-product-sale-flag">
           <img src="{{ sale_flag }}" alt="flag">
