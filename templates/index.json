@@ -8,6 +8,30 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "10849ca4-37de-4928-971c-7047e115dc60": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__pc_f45d51c8-423a-4e6e-9099-39e3a28e0e68.webp?v=1699600279",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__mo_e51212da-4cc7-43c3-82f5-d8b53c373c8c.webp?v=1699600278",
+            "title": "Ugreen Prévente BLACK FRIDAY",
+            "subtitle": "Les premiers choix sur les remises JUSQU'À 30 % DE RÉDUCTION",
+            "button_text": "ACHETEZ MAINTENANT",
+            "link": "https:\/\/fr.ugreen.com\/pages\/black-friday-cyber-monday",
+            "className": ""
+          }
+        },
+        "ug-index-carousel-11": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_39bcc587-8212-4e74-bf67-d0c2a03b1037.webp?v=1693892164",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner_mobile_e43abc6d-669f-439e-94a6-42a504d3d779.webp?v=1693892249",
+            "title": "UGREEN Nexode 300W USB C PD 3.1 Chargeur",
+            "subtitle": "5-in-1 Multiport Charger",
+            "button_text": "Achetez maintenant",
+            "link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
+            "className": "nexode-300w"
+          }
+        },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -31,37 +55,13 @@
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
             "className": ""
           }
-        },
-        "ug-index-carousel-11": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_39bcc587-8212-4e74-bf67-d0c2a03b1037.webp?v=1693892164",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner_mobile_e43abc6d-669f-439e-94a6-42a504d3d779.webp?v=1693892249",
-            "title": "UGREEN Nexode 300W USB C PD 3.1 Chargeur",
-            "subtitle": "5-in-1 Multiport Charger",
-            "button_text": "Achetez maintenant",
-            "link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
-            "className": "nexode-300w"
-          }
-        },
-        "10849ca4-37de-4928-971c-7047e115dc60": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__pc_f45d51c8-423a-4e6e-9099-39e3a28e0e68.webp?v=1699600279",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__mo_e51212da-4cc7-43c3-82f5-d8b53c373c8c.webp?v=1699600278",
-            "title": "Ugreen Prévente BLACK FRIDAY",
-            "subtitle": "Les premiers choix sur les remises JUSQU'À 30 % DE RÉDUCTION",
-            "button_text": "ACHETEZ MAINTENANT",
-            "link": "https:\/\/fr.ugreen.com\/pages\/black-friday-cyber-monday",
-            "className": ""
-          }
         }
       },
       "block_order": [
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
-        "ug-index-carousel-1",
+        "10849ca4-37de-4928-971c-7047e115dc60",
         "ug-index-carousel-11",
-        "10849ca4-37de-4928-971c-7047e115dc60"
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
+        "ug-index-carousel-1"
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
