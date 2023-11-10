@@ -708,6 +708,19 @@
               "r_s_v_item": "30"
             }
           },
+          "08e89a2e-9b80-49fe-8c9a-6298dea4d416": {
+            "type": "base",
+            "settings": {
+              "title": "2023 Black Friday",
+              "url": "shopify:\/\/pages\/black-friday-cyber-monday",
+              "open_link": "_self",
+              "icon": "las la-fire-alt",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "Hot",
+              "lb_cl": "#ec0101"
+            }
+          },
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
             "type": "drop",
             "settings": {
@@ -837,6 +850,7 @@
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "7b6b268c-25a0-4c97-960d-7e81c56a2676",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
+          "08e89a2e-9b80-49fe-8c9a-6298dea4d416",
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "550bcd55-e2b8-40fb-a643-7e078694e4ea",
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7",
