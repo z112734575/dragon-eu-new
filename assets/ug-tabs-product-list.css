@@ -1,79 +1,83 @@
 .tabs_products_list {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .svg_title {
-    text-align: center;
+  text-align: center;
 }
 .svg_title svg {
-    display: inline-block;
-    width: 40px;
-    height: 30px;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
 }
 .svg_title h2 {
-    font-weight: 700;
-    font-size: 1.875vw;
-    line-height: 1.875vw;
-    color: #000000;
-    padding: 0.677vw 0 1.042vw 0;
+  font-weight: 700;
+  font-size: 1.875vw;
+  line-height: 1.875vw;
+  color: #000000;
+  padding: 0.677vw 0 1.042vw 0;
 }
 .svg_title p {
-    font-size: 1.042vw;
-    line-height: 1.042vw;
-    color: #666666;
-    margin: 0 0 2.083vw 0;
+  font-size: 1.042vw;
+  line-height: 1.042vw;
+  color: #666666;
+  margin: 0 0 2.083vw 0;
 }
 .cursor-btns .cursor-btn {
-    padding: 16px 0;
-    text-align: center;
-    cursor: pointer;
-    font-size: 16px;
-    background: #FFF5D3;
-    border-radius: 6px;
-    transition: all .3s;
-    color: #FF8818;
-    line-height: 1.2;
+  padding: 16px 0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  background: #fff5d3;
+  border-radius: 6px;
+  transition: all 0.3s;
+  color: #ff8818;
+  line-height: 1.2;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cursor-btns .swiper-wrapper {
-    justify-content: start;
+  justify-content: start;
 }
 
 .cursor-btns .cursor-btn:hover,
 .cursor-btns .cursor-btn.swiper-slide-thumb-active {
-    background: #FF8818;
-    color: #fff;
-    font-weight: 600;
+  background: #ff8818;
+  color: #fff;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
-    .svg_title {
-        padding: 0 4vw;
-    }
-    .svg_title h2 {
-        font-size: 6.4vw;
-        line-height: 8vw;
-        padding: 2.667vw 0;
-    }
-    .svg_title p {
-        font-size: 4.267vw;
-        line-height: 6.4vw;
-        margin-bottom: 4vw;
-    }
-    .cursor-btns {
-        position: sticky !important;
-        top: 0;
-        z-index: 10001;
-        padding: 15px;
-    }
-    .cursor-btns .cursor-btn {
-        width: calc(33.3333% - 8px) !important;
-        font-size: 14px;
-        line-height: 14px;
-        padding: 13px 0;
-        margin: 4px !important;
-    }
-    .cursor-btns .swiper-wrapper {
-        flex-wrap: wrap !important;
-    }
+  .svg_title {
+    padding: 0 4vw;
+  }
+  .svg_title h2 {
+    font-size: 6.4vw;
+    line-height: 8vw;
+    padding: 2.667vw 0;
+  }
+  .svg_title p {
+    font-size: 4.267vw;
+    line-height: 6.4vw;
+    margin-bottom: 4vw;
+  }
+  .cursor-btns {
+    position: sticky !important;
+    top: 0;
+    z-index: 10001;
+    padding: 15px;
+  }
+  .cursor-btns .cursor-btn {
+    width: calc(33.3333% - 8px) !important;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 13px 0;
+    margin: 4px !important;
+  }
+  .cursor-btns .swiper-wrapper {
+    flex-wrap: wrap !important;
+  }
 }
