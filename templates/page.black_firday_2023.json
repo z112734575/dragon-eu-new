@@ -104,7 +104,7 @@
         "2632b153-e4f5-4946-9146-3002be2c2b29": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Chargeurs",
+            "tabs_title": "PD Chargeurs",
             "product_list": [
               "ugreen-20w-chargeur-usb-c-pd-3-0",
               "ugreen-chargeur-30w-usb-c-pps-pd-3-0",
