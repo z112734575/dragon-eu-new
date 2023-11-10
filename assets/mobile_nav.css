@@ -324,12 +324,14 @@ svg.t4s-iconsvg-close {
     opacity: 1;
     -webkit-transform: none!important;
     transform: none!important;
+    display: block;
 }
 
 .t4s-drawer-menu__close {
     /*     left: calc(100vw - 65px); */
     left: initial;
     right: 0;
+    display: nooe;
 }
 @media (min-width: 641px){
     .t4s-drawer-menu__close{
