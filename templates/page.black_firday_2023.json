@@ -186,7 +186,6 @@
               "ugreen-support-telephone-voiture-noir",
               "ugreen-support-telephone-voiture-gravite-grille-aeration",
               "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
-              "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable",
               "ugreen-support-telephone-voiture-rotation-360-degres",
               "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
               "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
@@ -199,7 +198,8 @@
               "ugreen-support-telephone-bureau-en-aluminium-stand",
               "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
               "ugreen-support-tablette-voiture-appui-tete-porte-tablette-voiture",
-              "ugreen-support-telephone-bureau"
+              "ugreen-support-telephone-bureau",
+              "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable"
             ]
           }
         }
