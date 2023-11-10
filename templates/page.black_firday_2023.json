@@ -20,12 +20,12 @@
         "step_type": "1",
         "title": "Programme du Black Friday & Cyber Monday",
         "subtitle": "",
-        "step1_text": "Black Friday Pré-Vente",
-        "step1_time": "Nov 10 - 16",
-        "step2_text": "Extravaganza du Black Friday",
-        "step2_time": "Nov 17 - 24",
-        "step3_text": "Fête du Cyber Monday",
-        "step3_time": "Nov 25 - 27",
+        "step1_text": "Black Friday <br class=\"is_pe\">Pré-Vente",
+        "step1_time": "Nov 10 - <br class=\"is_pe\">16",
+        "step2_text": "Extravaganza du <br class=\"is_pe\">Black Friday",
+        "step2_time": "Nov 17 - <br class=\"is_pe\">24",
+        "step3_text": "Fête du <br class=\"is_pe\">Cyber Monday",
+        "step3_time": "Nov 25 - <br class=\"is_pe\">27",
         "padding_pc": "120px 0 0 0",
         "padding_mobile": "60px 0 0 0"
       }
