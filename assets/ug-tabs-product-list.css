@@ -67,7 +67,7 @@
   .cursor-btns {
     position: sticky !important;
     top: 0;
-    z-index: 10001;
+    z-index: 100;
     padding: 15px;
   }
   .cursor-btns .cursor-btn {
