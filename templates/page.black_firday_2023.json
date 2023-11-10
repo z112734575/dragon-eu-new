@@ -16,6 +16,7 @@
     },
     "black_friday_step": {
       "type": "black_friday_step",
+      "disabled": true,
       "settings": {
         "step_type": "1",
         "title": "Programme du Black Friday & Cyber Monday",
