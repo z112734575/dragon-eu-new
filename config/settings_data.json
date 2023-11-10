@@ -1455,8 +1455,8 @@
               "open_link": "_self",
               "menu": "deals-events",
               "icon": "",
-              "lb": "NEW",
-              "lb_cl": "#4ce0ce"
+              "lb": "HOT",
+              "lb_cl": "#ec0101"
             }
           },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
@@ -1467,7 +1467,7 @@
               "open_link": "_self",
               "menu": "portable-power-station",
               "icon": "",
-              "lb": "HOT",
+              "lb": "",
               "lb_cl": "#de4156"
             }
           },
@@ -1486,8 +1486,8 @@
           "8d7adc9a-6e6f-4c96-849e-005240cb0084": {
             "type": "menu",
             "settings": {
-              "title": "BLACK FRIDAY Pre-Sale",
-              "url": "https:\/\/eu.ugreen.com\/pages\/black-friday-cyber-monday",
+              "title": "Nexode 300W",
+              "url": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-300w-gan-desktop-charger",
               "open_link": "_self",
               "menu": "",
               "icon": "",
