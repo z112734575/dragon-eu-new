@@ -711,10 +711,10 @@
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416": {
             "type": "base",
             "settings": {
-              "title": "2023 Black Friday",
+              "title": "🔥2023 Black Friday",
               "url": "shopify:\/\/pages\/black-friday-cyber-monday",
               "open_link": "_self",
-              "icon": "las la-fire-alt",
+              "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "Hot",
