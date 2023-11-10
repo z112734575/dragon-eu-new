@@ -79,31 +79,37 @@
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
+        "c4c2d9bd-d1d9-4856-93c1-da8b846af3db": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "GaN Chargeurs",
+            "product_list": [
+              "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
+              "ugreen-nexode-chargeur-20w-usb-c",
+              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
+              "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
+              "ugreen-nexode-65w-chargeur-usb-c-4-ports",
+              "ugreen-nexode-140w-chargeur-usb-c-pd-3-1-3-ports",
+              "90928",
+              "ugreen-nexode-chargeur-45w-usb-c-2-ports",
+              "ugreen-nexode-chargeur-30w-usb-c",
+              "50327"
+            ]
+          }
+        },
         "2632b153-e4f5-4946-9146-3002be2c2b29": {
           "type": "ug-product-list-tabs",
           "settings": {
             "tabs_title": "Chargeurs",
             "product_list": [
-              "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
               "ugreen-20w-chargeur-usb-c-pd-3-0",
-              "ugreen-nexode-chargeur-20w-usb-c",
               "ugreen-chargeur-30w-usb-c-pps-pd-3-0",
-              "ugreen-nexode-65w-gan-chargeur-usb-c-3-ports",
-              "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
-              "ugreen-nexode-65w-chargeur-usb-c-4-ports",
-              "ugreen-nexode-140w-chargeur-usb-c-pd-3-1-3-ports",
-              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
               "ugreen-65w-chargeur-secteur-2-usb-c-pd-3-0-rapide",
-              "90928",
               "ugreen-18w-quick-charge-3-0-chargeur-secteur-usb-2-ports",
               "ugreen-40w-chargeur-usb-c-2-ports",
-              "ugreen-nexode-300w-usb-c-gan-chargeur",
               "ugreen-chargeur-usb-c-20w-lot-de-2-power-delivery-3-0-blancugreen-chargeur-usb-c-20w-lot-de-2-power-delivery-3-0-blanc",
-              "ugreen-nexode-chargeur-45w-usb-c-2-ports",
               "ugreen-65w-chargeur-usb-c-4-ports",
-              "ugreen-nexode-chargeur-30w-usb-c",
-              "ugreen-65w-chargeur-usb-c-rapide-3-ports",
-              "50327"
+              "ugreen-65w-chargeur-usb-c-rapide-3-ports"
             ]
           }
         },
@@ -192,34 +198,16 @@
               "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0"
             ]
           }
-        },
-        "c4c2d9bd-d1d9-4856-93c1-da8b846af3db": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "GaN Chargeurs",
-            "product_list": [
-              "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
-              "ugreen-nexode-chargeur-20w-usb-c",
-              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
-              "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
-              "ugreen-nexode-65w-chargeur-usb-c-4-ports",
-              "ugreen-nexode-140w-chargeur-usb-c-pd-3-1-3-ports",
-              "90928",
-              "ugreen-nexode-chargeur-45w-usb-c-2-ports",
-              "ugreen-nexode-chargeur-30w-usb-c",
-              "50327"
-            ]
-          }
         }
       },
       "block_order": [
+        "c4c2d9bd-d1d9-4856-93c1-da8b846af3db",
         "2632b153-e4f5-4946-9146-3002be2c2b29",
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "0ff54963-288f-4855-a574-2aaaf24272f0",
         "769bdc30-e1f2-4883-ae4d-e5607d28c623",
         "82e89c4e-58ed-4668-b5e0-707f3f82a435",
-        "649c7ad9-3e77-448d-8e2d-6cd6e59b9879",
-        "c4c2d9bd-d1d9-4856-93c1-da8b846af3db"
+        "649c7ad9-3e77-448d-8e2d-6cd6e59b9879"
       ],
       "settings": {
         "item_type": "black_friday",
