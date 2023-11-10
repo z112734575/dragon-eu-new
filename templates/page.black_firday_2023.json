@@ -181,6 +181,7 @@
         },
         "649c7ad9-3e77-448d-8e2d-6cd6e59b9879": {
           "type": "ug-product-list-tabs",
+          "disabled": true,
           "settings": {
             "tabs_title": "Chargeurs de voiture",
             "product_list": [
