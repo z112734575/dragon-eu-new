@@ -238,4 +238,7 @@
     .ug_product_code p,.ug_product_code button {
         font-size: 12px;
     }
+    .ug_product_code p {
+        padding: 4px;
+    }
 }
