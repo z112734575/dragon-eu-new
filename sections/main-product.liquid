@@ -1442,14 +1442,16 @@
             {%- endif %}
           </div>
         </div>
-        <div
           {% if variants_size > 1 %}
+        <div
+
             data-sticky-v-title
-          {% endif %}
+
           class="t4s-sticky-atc__v-title"
         >
           {% unless isProductDefault %}{{ current_variant.title }}{% endunless %}
         </div>
+          {% endif %}
       </div>
       <div class="t4s-sticky-atc__btns">
         <div data-quantity-wrapper class="t4s-quantity-wrapper t4s-sticky-atc__qty">

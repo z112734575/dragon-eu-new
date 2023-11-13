@@ -1541,13 +1541,15 @@ or product.title == '2023 Deal Ugreen 1200W Portable Power Station'
             {%- endif %}
           </div>
         </div>
+        {% if variants_size > 1 %}
         <div
-                {% if variants_size > 1 %}
+
                   data-sticky-v-title
-                {% endif %}
+
                 class="t4s-sticky-atc__v-title"
         >
           {% unless isProductDefault %}{{ current_variant.title }}{% endunless %}
+          {% endif %}
         </div>
       </div>
       <div class="t4s-sticky-atc__btns">

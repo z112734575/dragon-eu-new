@@ -778,7 +778,7 @@ t4option0_0 | alt text
                     <div class="t4s-sticky-atc__title">{{product.title}}</div>
                     <div data-sticky-price class="t4s-sticky-atc__price">{% if current_variant.compare_at_price > current_variant.price %}<del>{{current_variant.compare_at_price| money}}</del> <ins>{{current_variant.price| money}}</ins>{% else %}{{current_variant.price | money}}{% endif %}</div>
                 </div>
-                <div{% if variants_size > 1 %} data-sticky-v-title{% endif %} class="t4s-sticky-atc__v-title">{% unless isProductDefault %}{{current_variant.title}}{% endunless %}</div>
+                {% if variants_size > 1 %}<div data-sticky-v-title class="t4s-sticky-atc__v-title">{% unless isProductDefault %}{{current_variant.title}}{% endunless %}</div>{% endif %}
             </div>
             <div class="t4s-sticky-atc__btns">
                 <div data-quantity-wrapper class="t4s-quantity-wrapper t4s-sticky-atc__qty">
