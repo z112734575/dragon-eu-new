@@ -202,6 +202,31 @@
               "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0"
             ]
           }
+        },
+        "851c32fd-4017-4065-8ad0-6d879971a650": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Car Charger",
+            "product_list": [
+              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
+              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
+              "ugreen-chargeur-de-voiture-usb-36w-adaptateur",
+              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
+              "ugreen-chargeur-usb-qc-3-0-36w-2-ports-chargeur-voiture",
+              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
+              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
+              "50323",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration",
+              "ugreen-support-telephone-voiture-noir",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
+              "ugreen-support-telephone-voiture-rotation-360-degres",
+              "ugreen-support-telephone-voiture-360-degres",
+              "80712",
+              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
+              "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
+              "20473"
+            ]
+          }
         }
       },
       "block_order": [
@@ -211,7 +236,8 @@
         "0ff54963-288f-4855-a574-2aaaf24272f0",
         "769bdc30-e1f2-4883-ae4d-e5607d28c623",
         "82e89c4e-58ed-4668-b5e0-707f3f82a435",
-        "649c7ad9-3e77-448d-8e2d-6cd6e59b9879"
+        "649c7ad9-3e77-448d-8e2d-6cd6e59b9879",
+        "851c32fd-4017-4065-8ad0-6d879971a650"
       ],
       "settings": {
         "item_type": "black_friday",
