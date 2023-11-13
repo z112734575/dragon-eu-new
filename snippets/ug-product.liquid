@@ -81,7 +81,7 @@
 
           {% if show_rating %}
             <div class="ug-product-review">
-              {%- render 'product-rating', product: product, app_review: '4' -%}
+              {%- render 'product-rating', product: product, app_review: settings.app_review -%}
             </div>
           {% endif %}
         </div>
@@ -96,12 +96,12 @@
         <div class="ug-product-buy">
           {% assign amz_url = product.metafields.custom.amazon_url %}
           <a
-            href="{{ product.url }}"
-            class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-product-buy-btn"
-            data-variant-id="{{ product.variants.first.id }}"
-            data-action-atc
-            rel="nofollow"
-            >Buy Now</a
+                  href="{{ product.url }}"
+                  class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-product-buy-btn"
+                  data-variant-id="{{ product.variants.first.id }}"
+                  data-action-atc
+                  rel="nofollow"
+          >Buy Now</a
           >
           {% if page.url contains 'autumn-harvest-access-sale' %}
             <a href="{{ amz_url }}" class="ug-product-learn-btn" target="_blank">Amazon</a>

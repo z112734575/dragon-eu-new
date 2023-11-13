@@ -50,6 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .ug-product-price {
     font-weight: 600;
@@ -134,16 +135,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url(https://cdn.shopify.com/s/files/1/0257/5246/9566/files/coupon_mo.png?v=1697618803)
-    center center no-repeat;
-    padding: 0.25vw 1.2vw 0.25vw 0.875vw;
-    margin: 0.5vw 0 0.8vw 0;
+    /*background: url(https://cdn.shopify.com/s/files/1/0257/5246/9566/files/coupon_mo.png?v=1697618803)*/
+    /*center center no-repeat;*/
     background-size: 100% 100%;
+    background: black;
+    -webkit-mask-image: radial-gradient(circle at 10px 50%, transparent 4px, red 10.5px);
+    -webkit-mask-position: -10px;
+    border-radius: 4px;
 }
 .ug_product_code p {
+    padding: 8px;
     margin: 0;
     font-size: 14px;
     color: #FFF;
+    flex: 1;
+    text-align: center;
+    border-right: 1px dashed;
 }
 .ug_product_code button {
     padding:0;
@@ -152,6 +159,8 @@
     transition: all 0.3s;
     font-size: 14px;
     text-decoration: underline;
+    width: 30%;
+    text-align: center;
 }
 .ug_product_code button:hover {
     color: #0a9e6f;

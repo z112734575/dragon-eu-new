@@ -66,9 +66,9 @@
     background-size: auto 100%;
 }
 @media (max-width: 768px) {
-  .ug_product_code {
-    background: none;
-}
+    /*  .ug_product_code {*/
+    /*    background: none;*/
+    /*}*/
     .ug-product-list-title span, .tabs_products_list .svg_title h2 span {
         max-width: 80%;
         display: inline-block;
