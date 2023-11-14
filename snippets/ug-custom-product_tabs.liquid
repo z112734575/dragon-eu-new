@@ -53,8 +53,14 @@
                     {% render "custom_desc_hub_carousel", block: block.settings, id: block.id %}
                 {% when  'custom_desc_compatibility' %}
                     {% render "custom_desc_compatibility", block: block.settings, id: block.id %}
-
+                {% when  'custom_desc_carousel' %}
+                    {% render "custom_desc_carousel", block: block.settings, id: block.id %}
+                {% when  'custom_image_and_text' %}
+                    {% render "custom_image_and_text", block: block.settings, id: block.id %}
+                {% when  'custom_IconAndImage' %}
+                    {% render "custom_IconAndImage", block: block.settings, id: block.id %}
             {% endcase %}
+
         {% endfor %}
     {% else %}
         <div class="4s-tab-content">
