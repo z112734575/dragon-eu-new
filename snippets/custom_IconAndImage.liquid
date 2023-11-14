@@ -1,0 +1,102 @@
+{% liquid
+    assign title = block.title
+    assign sub_title = block.sub_title
+    assign background = block.body_color | default: "transparent"
+    assign text_color = block.text_color | default: "#000000"
+    assign max_width = block.max_width | default: "100%"
+    assign pc_padding = block.pc_padding | default: "120px 0 0"
+    assign mobile_padding = block.mobile_padding | default: "60px 10px 0"
+%}
+
+<style>
+    .ug-custom-icon-and-image-{{ id }} {
+        background-color: {{ background }};
+        padding: {{ pc_padding }};
+    }
+    .ug-custom-icon-and-image-{{ id }} .ug-custom-icon-and-image-wrap {
+        max-width: {{max_width}};
+        margin: 0 auto;
+    }
+    @media (max-width: 767px) {
+        .ug-custom-icon-and-image-{{ id }} {
+            padding: {{ mobile_padding }};
+        }
+        .ug-custom-icon-and-image-{{ id }} .ug-custom-icon-and-image-wrap {
+            max-width: 100%;
+        }
+    }
+    .ug-custom-icon-and-image-wrap .icon_list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+    .ug-custom-icon-and-image-wrap .icon_list .icon_box{
+        width: 80px;
+        height: 80px;
+        border: 1px solid rgba(51, 51, 51, 1);
+        border-radius: 50%;
+        padding: 16px;
+    }
+    .ug-custom-icon-and-image-wrap .icon_list h3{
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 8px;
+    }
+    .ug-custom-icon-and-image-wrap .ug-custom-image {
+        border-radius: 8px;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    @media (max-width: 767px) {
+        .ug-custom-icon-and-image-wrap .icon_list{
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .ug-custom-icon-and-image-wrap .icon_list .icon_box{
+            width: 48px;
+            height: 48px;
+            padding: 8px;
+        }
+        .ug-custom-icon-and-image-wrap .icon_list h3{
+            font-size: 16px;
+            line-height: 16px;
+        }
+        .ug-custom-icon-and-image-wrap .ug-custom-image {
+            margin-top: 28px;
+        }
+    }
+</style>
+
+
+<div class="ug-custom-icon-and-image-{{ id }} ug-custom-desc-section">
+    {% render 'ug-custom-desc-title-line', title: title, sub_title: sub_title, text_color: text_color %}
+    
+        <div class="ug-custom-icon-and-image-wrap">
+            <div class="icon_list">
+                {% for i in (1..6) %}
+                    {% assign icon_name = 'icon' | append: i %}
+                    {% assign title_name = 'title' | append: i %}
+                    {% assign icon = block[icon_name] %}
+                    {% assign title = block[title_name] %}
+                    {% assign pc_image = block.pc_pic %}
+                    {% assign mobile_image = block.mobile_pic %}
+                    {% if icon != blank %}
+                        <div class="icon_item">
+                            <div class="icon_box">
+                                {% render "ug-custom-picture", pc_image: icon, mobile_image: icon,alt: title %}
+                            </div>
+                            
+                            <h3>{{ title }}</h3>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="ug-custom-image">
+                {% render "ug-custom-picture", pc_image: pc_image, mobile_image: mobile_image,alt: title %}
+            </div>
+        </div>
+      
+</div>

@@ -1,0 +1,200 @@
+{% liquid
+    assign title = block.title
+    assign sub_title = block.sub_title
+    assign carousel_type = block.carousel_type
+    assign background = block.body_color | default: "transparent"
+    assign text_color = block.text_color | default: "#000000"
+    assign max_width = block.max_width | default: "100%"
+    assign pc_padding = block.pc_padding | default: "120px 0 0"
+    assign mobile_padding = block.mobile_padding | default: "60px 10px 0"
+%}
+
+<style>
+    .ug-custom-desc-carousel-{{ id }} {
+        background-color: {{ background }};
+        padding: {{ pc_padding }};
+    }
+    .ug-custom-desc-carousel-{{ id }} .ug-custom-desc-carousel-wrap {
+        max-width: {{max_width}};
+        margin: 0 auto;
+    }
+
+
+
+    @media (max-width: 767px) {
+        .ug-custom-desc-carousel-{{ id }} {
+            padding: {{ mobile_padding }};
+        }
+        .ug-custom-desc-carousel-{{ id }} .ug-custom-desc-carousel-wrap {
+            max-width: 100%;
+        }
+    }
+    .ug-custom-desc-carousel-wrap {
+        position: relative;
+    }
+  {% if carousel_type == "1" %}
+    .ug-custom-desc-carousel-btns-wrap {
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        top: 40px;
+        left: 0;
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+    }
+    .ug-custom-desc-carousel-btn{
+        background: white;
+        color: black;
+        padding: 12px 24px;
+        border: 2px solid black;
+        border-radius: 32px;
+        line-height: 1;
+        cursor: pointer;
+    }
+    .ug-custom-desc-carousel-btn.show {
+        background: black;
+        color: white;
+        border-color: white;
+    }
+  .custom_desc_carousel p{display: none;}
+    @media (max-width: 768px) {
+        .ug-custom-desc-carousel-btns-wrap {
+            top: 20px;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0 16px;
+        }
+        .ug-custom-desc-carousel-btn {
+            width: 48%;
+        }
+    }
+    {% else %}
+  .ug-custom-desc-carousel-btns-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        gap: 100px;
+    }
+    .ug-custom-desc-carousel-btn{
+        font-size: 20px;
+        color: #757575;
+        padding: 0 15px 15px 15px;
+    }
+    .ug-custom-desc-carousel-btn:hover{
+        cursor: pointer;
+        border-bottom: 2px solid #0C8;
+        font-weight: 600; 
+        color: #000;
+    }
+    .ug-custom-desc-carousel-btn.show{
+        border-bottom: 2px solid #0C8;
+        font-weight: 600; 
+        color: #000;
+    }
+    .custom_desc_carousel p{
+        padding: 0 20%;
+        color: #727273;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    @media (max-width: 768px) {
+        .ug-custom-desc-carousel-btns-wrap{
+            border: none;
+            display: block;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+        .ug-custom-desc-carousel-btn{
+            display: none;
+        }
+        .ug-custom-desc-carousel-btn.show{
+            border: none;
+            padding: 0;
+            text-align:left;
+            display: block;
+        }
+        .custom_desc_carousel p{
+            padding: 0;
+            text-align: left;
+          font-size: 16px;
+        }
+    }
+    {% endif %}
+</style>
+
+
+<div class="ug-custom-desc-carousel-{{ id }} ug-custom-desc-section">
+    {% render 'ug-custom-desc-title-line', title: title, sub_title: sub_title, text_color: text_color %}
+    
+        <div class="ug-custom-desc-carousel-wrap">
+            <ul class="ug-custom-desc-carousel-btns-wrap">
+                {% for i in (1..6) %}
+                    {% assign index = forloop.index %}
+                    {% assign title_name = 'title' | append: i %}
+                    {% assign title = block[title_name] %}
+                    {% if title != blank %}
+                        <li class="ug-custom-desc-carousel-btn {% if index == 1 %}show{% endif %}">{{ title }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <div class="swiper custom_desc_carousel">
+                <div class="swiper-wrapper">
+                    {% for i in (1..6) %}
+                        {% assign pc_image_name = 'pc_pic' | append: i %}
+                        {% assign mobile_image_name = 'mobile_pic' | append: i %}
+                        {% assign title_name = 'title' | append: i %}
+                        {% assign sub_title_name = 'sub_title' | append: i %}
+                        {% assign content_name = 'content' | append: i %}
+                        {% assign pc_image = block[pc_image_name] %}
+                        {% assign mobile_image = block[mobile_image_name] %}
+                        {% assign title = block[title_name] %}
+                        {% assign sub_title = block[sub_title_name] %}
+                        {% assign content = block[content_name] %}
+                        {% if pc_image != blank %}
+                            <div class="swiper-slide">
+                              <p>{{ content }}</p>
+                                {% render "ug-custom-picture", pc_image: pc_image, mobile_image: mobile_image, title: title, sub_title: sub_title, alt: title content: content %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+      
+        const swiper = new Swiper(" .ug-custom-desc-carousel-{{ id }} .custom_desc_carousel", {
+            loop: true,
+          effect : 'fade',
+        });
+        swiper.on('slideChange', function (event) {
+            console.log(event.realIndex)
+            const index = event.realIndex
+            const li = document.querySelectorAll('.ug-custom-desc-carousel-{{ id }} li.ug-custom-desc-carousel-btn')
+            li.forEach((item, i) => {
+                if (i === index) {
+                    item.classList.add('show')
+                } else {
+                    item.classList.remove('show')
+                }
+            })
+        });
+        const btns = document.querySelectorAll('.ug-custom-desc-carousel-{{ id }} .ug-custom-desc-carousel-btn')
+        btns.forEach((btn, index) => {
+            btn.addEventListener('click', () => {
+                btns.forEach((item) => {
+                    item.classList.remove('show')
+                })
+                btn.classList.add('show')
+                swiper.slideTo(index + 1, 500, false);//切换到第一个slide，速度为500ms
+            })
+        });
+
+    })
+</script>
