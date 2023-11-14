@@ -24,6 +24,7 @@
         }
         .custom_desc_hub_carousel-{{ id }} .custom_desc_hub_carousel-wrap {
             max-width: 100%;
+          padding-left:18px
         }
     }
 </style>
@@ -258,6 +259,7 @@
                 prevEl: '.pointer-btns .pre',
             },
         });
+      
         swiper.on('slideChange', function (event) {
             console.log(event.realIndex)
             const index = event.realIndex
@@ -270,5 +272,6 @@
                 }
             })
         });
+     
     })
 </script>

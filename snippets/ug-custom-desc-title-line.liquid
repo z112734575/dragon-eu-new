@@ -1,0 +1,12 @@
+
+
+{% if title != blank or sub_title != blank %}
+    <div class="title_line">
+        {% if title != blank %}
+            <h3 style="color: {{ text_color }}">{{ title }}</h3>
+        {% endif %}
+        {% if sub_title != blank %}
+            <p style="color: {{ text_color }}">{{ sub_title }}</p>
+        {% endif %}
+    </div>
+{% endif %}

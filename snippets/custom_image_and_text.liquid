@@ -1,0 +1,130 @@
+{% liquid
+    assign title = block.title
+    assign sub_title = block.sub_title
+    assign background = block.body_color | default: "transparent"
+    assign text_color = block.text_color | default: "#000000"
+    assign max_width = block.max_width | default: "100%"
+    assign pc_padding = block.pc_padding | default: "120px 0 0"
+    assign mobile_padding = block.mobile_padding | default: "60px 10px 0"
+%}
+
+<style>
+    .ug-custom-ImageAndText-{{ id }} {
+        background-color: {{ background }};
+        padding: {{ pc_padding }};
+    }
+    .ug-custom-ImageAndText-{{ id }} .ug-custom-ImageAndText {
+        max-width: {{max_width}};
+        margin: 0 auto;
+    }
+
+
+
+    @media (max-width: 767px) {
+        .ug-custom-ImageAndText-{{ id }} {
+            padding: {{ mobile_padding }};
+        }
+        .ug-custom-ImageAndText-{{ id }} .ug-custom-ImageAndText {
+            max-width: 100%;
+        }
+    }
+  .ug-custom-ImageAndText .image_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ug-custom-ImageAndText div:last-child picture{
+        order: 2;
+    }
+    
+    .ug-custom-ImageAndText .image_wrap picture{
+        width: 50%;
+    }
+    .ug-custom-ImageAndText .image_wrap picture img{
+        height: 520px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .ug-custom-ImageAndText .image_wrap .image-text-block{
+        width: 50%;
+        text-align: left;
+        padding-left: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .ug-custom-ImageAndText div:last-child .image-text-block{
+        padding-right: 60px;
+        align-items: flex-end;
+    }
+    .ug-custom-ImageAndText .image_wrap .image-text-block h3{
+        color: #000;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 44px;
+        max-width: 540px;
+    }
+    .ug-custom-ImageAndText .image_wrap .image-text-block p{
+        color: #666;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 25px 0 0 0;
+        max-width: 540px;
+    }
+    @media (max-width: 768px) {
+        .ug-custom-ImageAndText .image_wrap{
+            flex-direction: column;
+        }
+        .ug-custom-ImageAndText .image_wrap picture{
+            width: 100%;
+        }
+        .ug-custom-ImageAndText .image_wrap .image-text-block{
+            width: 100%;
+            padding: 20px 25px!important;
+            text-align: center;
+        }
+        .ug-custom-ImageAndText div:last-child picture{
+            order: 0;
+        }
+        .ug-custom-ImageAndText .image_wrap .image-text-block h3{
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .ug-custom-ImageAndText .image_wrap .image-text-block p{
+            font-size: 16px;
+            line-height: 24px;
+            margin: 20px 0;
+        }
+        .ug-custom-ImageAndText .image_wrap picture img{
+            height: 230px;
+        }
+    }
+</style>
+
+
+<div class="ug-custom-ImageAndText-{{ id }} ug-custom-desc-section">
+    {% render 'ug-custom-desc-title-line', title: title, sub_title: sub_title, text_color: text_color %}
+    
+        <div class="ug-custom-ImageAndText">
+            {% for i in (1..2) %}
+                {% assign pc_image_name = 'pc_pic' | append: i %}
+                {% assign mobile_image_name = 'mobile_pic' | append: i %}
+                {% assign title_name = 'title' | append: i %}
+                {% assign sub_title_name =  'sub_title' | append: i %}
+                {% assign pc_image = block[pc_image_name] %}
+                {% assign mobile_image = block[mobile_image_name] %}
+                {% assign title = block[title_name] %}
+                {% assign sub_title = block[sub_title_name] %}
+
+                <div class="image_wrap">
+                        {% render "ug-custom-picture", pc_image: pc_image, mobile_image: mobile_image, title: title, sub_title: sub_title,alt: title %}
+                    
+                    <div class="image-text-block">
+                        <h3>{{ title }}</h3>
+                        <p>{{ sub_title }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    
+</div>
