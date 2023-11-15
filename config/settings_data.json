@@ -1269,7 +1269,7 @@
                 "ugreen-usb-3-0-hub-with-phone-stand"
               ],
               "tag_list": "",
-              "collection_name_list": "Docking Station,\nDual Display Dock,\nUSB-C Hub,\nSwitch Hub,\nUSB Hub",
+              "collection_name_list": "Docking Station,\nMini Dock,\nUSB-C HDMI Hub,\nSwitch Hub,\nUSB Hub",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/docking-station,https:\/\/eu.ugreen.com\/collections\/mini-dock,https:\/\/eu.ugreen.com\/collections\/hubs,https:\/\/eu.ugreen.com\/collections\/switch-hub,https:\/\/eu.ugreen.com\/collections\/usb-hub",
               "all_collection_url": "shopify:\/\/collections\/docks-hubs",
               "all_collection_name": "All"
@@ -1617,16 +1617,15 @@
             "settings": {
               "tab_id": 2,
               "product_list": [
-                "ugreen-usb-c-triple-display-docking-station",
-                "order-over-70-get-free-6-99-gift-card",
-                "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
+                "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+                "ugreen-nexode-100w-usb-c-wall-charger",
                 "ugreen-145w-power-bank-for-laptop",
-                "ugreen-15w-magnetic-wireless-charger",
-                "ugreen-130w-3-port-pd-100w-pd3-0-qc4-0-pps-fast-car-charger"
+                "ugreen-36w-qc3-0-car-charger-with-usb-c-cable-dual-usb-ports",
+                "ugreen-10000mah-magsafe-wireless-power-bank"
               ],
-              "tag_list": "好,很好，非常好",
-              "collection_name_list": "123,456,789",
-              "collection_link_list": "111,222,333",
+              "tag_list": "",
+              "collection_name_list": "USB C Chargers,\nGaN Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/chargers,https:\/\/eu.ugreen.com\/collections\/gan-chargers,https:\/\/eu.ugreen.com\/collections\/power-bank,https:\/\/eu.ugreen.com\/collections\/car-chargers,https:\/\/eu.ugreen.com\/collections\/wireless-chargers",
               "all_collection_url": "shopify:\/\/collections\/back-to-school-stand-deals",
               "all_collection_name": "All Cables"
             }
@@ -1634,13 +1633,17 @@
           "fa0524e8-ec37-4a0e-967e-8748b0c4c8d9": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 1,
+              "tab_id": 3,
               "product_list": [
-
+                "ugreen-usb-c-triple-display-docking-station",
+                "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+                "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+                "ugreen-6-in-1-usb-c-hub",
+                "ugreen-4-in-1-usb-c-hub"
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
+              "collection_name_list": "Docking Station,\nDual Display Dock,\nUSB-C Hub,\nSwitch Hub,\nUSB Hub",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/docking-station,https:\/\/eu.ugreen.com\/collections\/mini-dock,https:\/\/eu.ugreen.com\/collections\/hubs,https:\/\/eu.ugreen.com\/collections\/switch-hub,https:\/\/eu.ugreen.com\/collections\/usb-hub",
               "all_collection_url": "",
               "all_collection_name": ""
             }
