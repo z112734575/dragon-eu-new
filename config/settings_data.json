@@ -1390,7 +1390,6 @@
         "blocks": {
           "978de359-1bb0-4204-91e0-084625271217": {
             "type": "mega_tab_list",
-            "disabled": true,
             "settings": {
               "title": "超级菜单",
               "tab_list": "Power Station,Chargers,Docks & Hubs,Cables,Adapters,For Laptop,For Phone&Tablet,For Car",
