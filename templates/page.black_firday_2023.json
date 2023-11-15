@@ -248,6 +248,7 @@
         },
         "03bc0a7f-3461-439c-837b-d6c82cf28237": {
           "type": "ug-product-list-tabs",
+          "disabled": true,
           "settings": {
             "tabs_title": "Other",
             "product_list": [
@@ -288,7 +289,7 @@
         "section_icon": "",
         "section_title": "Vente Flash",
         "sub_title": "",
-        "list_all": "8",
+        "list_all": "7",
         "title_color": "#ffffff",
         "product_item_bg_color": "#242320",
         "pc_product_item_img_size": "80%",
