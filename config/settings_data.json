@@ -1644,7 +1644,7 @@
               "tag_list": "",
               "collection_name_list": "Docking Station,\nDual Display Dock,\nUSB-C Hub,\nSwitch Hub,\nUSB Hub",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/docking-station,https:\/\/eu.ugreen.com\/collections\/mini-dock,https:\/\/eu.ugreen.com\/collections\/hubs,https:\/\/eu.ugreen.com\/collections\/switch-hub,https:\/\/eu.ugreen.com\/collections\/usb-hub",
-              "all_collection_url": "",
+              "all_collection_url": "shopify:\/\/collections\/docks-hubs",
               "all_collection_name": "All"
             }
           },
@@ -1665,14 +1665,14 @@
           "23011880-d15f-43d4-aa14-2f50bbc45c14": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 1,
+              "tab_id": 5,
               "product_list": [
 
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
+              "collection_name_list": "Bluetooth Adapter,\nEthernet Adapter,\nSD Adapter,\nSound Card,\nSwitcher",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/bluetooth-adapters,https:\/\/eu.ugreen.com\/collections\/ethernet-adapters,https:\/\/eu.ugreen.com\/collections\/sd-card-reader,https:\/\/eu.ugreen.com\/collections\/sound-card,https:\/\/eu.ugreen.com\/collections\/switcher",
+              "all_collection_url": "shopify:\/\/collections\/adapters",
               "all_collection_name": "All"
             }
           },
