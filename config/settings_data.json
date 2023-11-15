@@ -1391,7 +1391,7 @@
           "978de359-1bb0-4204-91e0-084625271217": {
             "type": "mega_tab_list",
             "settings": {
-              "title": "超级菜单",
+              "title": "pRO",
               "tab_list": "Power Station,Chargers,Docks & Hubs,Cables,Adapters,For Laptop,For Phone&Tablet,For Car",
               "open": false
             }
@@ -1436,6 +1436,7 @@
           },
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "PRODUCTS",
               "url": "",
