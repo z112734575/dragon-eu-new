@@ -1795,14 +1795,14 @@
           "7fd1d5b2-8613-4d10-ac02-dfdeda975306": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 4,
+              "tab_id": 6,
               "product_list": [
                 "ugreen-adaptateur-bluetooth-5-0-recepteur-2-en-1-bluetooth-jack-aux",
                 "ugreen-adaptateur-jack-bluetooth-5-3-pour-voiture-recepteur-bluetooth",
                 "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45",
                 "ugreen-switch-usb-3-0-commutateur-kvm-4-ports-usb",
                 "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel",
-                "50706"
+                "ugreen-recepteur-sans-fil-bluetooth-5-0-adaptateur-bluetooth-hifi"
               ],
               "tag_list": ",Hot",
               "collection_name_list": "Adaptateur Bluetooth,\nAdaptateur Ethernet,\nAdaptateur SD,\nCommutateur HDMI,",
