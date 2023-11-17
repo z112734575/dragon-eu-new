@@ -244,13 +244,13 @@
           "type": "ug-product-list-tabs",
           "disabled": true,
           "settings": {
-            "tabs_title": "Chargeurs de voiture",
+            "tabs_title": "Batteries externes",
             "product_list": [
-              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
-              "ugreen-chargeur-usb-qc-3-0-36w-2-ports-chargeur-voiture",
-              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
-              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
-              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0"
+              "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
+              "ugreen-batterie-externe-portable-20000mah-100w-usb-c",
+              "ugreen-batterie-externe-magnetique-sans-fil-10000mah-20w-usb-c",
+              "ugreen-mini-batterie-externe-magnetique-sans-fil-5000mah-15w-usb-c",
+              "ugreen-batterie-externe-portable-usb-c-25000-mah-145w"
             ]
           }
         },
