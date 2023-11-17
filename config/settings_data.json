@@ -1284,10 +1284,28 @@
               "all_collection_name": "All Batteries externes"
             }
           },
-          "8c21f218-c305-4e9f-b351-3bbf72f1cdc0": {
+          "effe8a05-9766-487a-81e9-4a94ab4489b7": {
             "type": "tab_content",
             "settings": {
               "tab_id": 3,
+              "product_list": [
+                "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
+                "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
+                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
+                "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable",
+                "ugreen-nexode-100w-usb-c-chargeur-rapide-4-ports-with-2-charge-cable-usb-c"
+              ],
+              "tag_list": "Hot,",
+              "collection_name_list": "Bundle",
+              "collection_link_list": "cfr.ugreen.com\/collections\/bundle,",
+              "all_collection_url": "shopify:\/\/collections\/bundle",
+              "all_collection_name": "All Bundle"
+            }
+          },
+          "8c21f218-c305-4e9f-b351-3bbf72f1cdc0": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 4,
               "product_list": [
                 "ugreen-revodok-pro-12-en-1-docking-station",
                 "ugreen-revodok-pro-9-en-1-docking-station",
@@ -1354,24 +1372,6 @@
               "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/support-telephone-bureau,https:\/\/fr.ugreen.com\/collections\/support-tablette-et-pc-portable,https:\/\/fr.ugreen.com\/collections\/support-voiture-telephone\nhttps:\/\/fr.ugreen.com\/collections\/sac-de-rangement",
               "all_collection_url": "shopify:\/\/collections\/support",
               "all_collection_name": "All SUPPORT"
-            }
-          },
-          "effe8a05-9766-487a-81e9-4a94ab4489b7": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 3,
-              "product_list": [
-                "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
-                "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
-                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
-                "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable",
-                "ugreen-nexode-100w-usb-c-chargeur-rapide-4-ports-with-2-charge-cable-usb-c"
-              ],
-              "tag_list": "Hot,",
-              "collection_name_list": "Bundle",
-              "collection_link_list": "cfr.ugreen.com\/collections\/bundle,",
-              "all_collection_url": "shopify:\/\/collections\/bundle",
-              "all_collection_name": "All Bundle"
             }
           },
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d": {
@@ -1471,11 +1471,11 @@
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "5cb3da2b-dbf8-4845-ae09-c2b8a05317f4",
+          "effe8a05-9766-487a-81e9-4a94ab4489b7",
           "8c21f218-c305-4e9f-b351-3bbf72f1cdc0",
           "c568446d-9720-482f-b9ab-5195213a66f0",
           "e3e4007f-8702-486d-8ffa-94ba701b471d",
           "5e36256f-89ee-42cd-8ca5-b1510d32f9b6",
-          "effe8a05-9766-487a-81e9-4a94ab4489b7",
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
           "ba9c883f-7863-45ff-a5c4-e1f506e0d954",
           "fe174549-7def-41fd-9d2a-9e8fcb76fab9",
