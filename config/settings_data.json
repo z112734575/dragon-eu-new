@@ -1495,7 +1495,7 @@
             "type": "mega_tab_list",
             "settings": {
               "title": "Produits",
-              "tab_list": "Chargeurs, Docks & Hubs, Câbles, Adaptateurs,Supporter,Centrale électrique,Bundle",
+              "tab_list": "Chargeurs, Batteries externes,Bundle,Docks & Hubs, Câbles, Adaptateurs,Supporter,Centrale électrique,",
               "open": true
             }
           },
