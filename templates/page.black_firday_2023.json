@@ -103,6 +103,30 @@
             ]
           }
         },
+        "03bc0a7f-3461-439c-837b-d6c82cf28237": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Other",
+            "product_list": [
+              "ugreen-adaptateur-jack-bluetooth-5-3-pour-voiture-recepteur-bluetooth",
+              "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
+              "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps",
+              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-type-c-lecteur-de-cartes",
+              "ugreen-support-telephone-voiture-noir",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration",
+              "ugreen-usb-2-0-switch-4-ports-2-entrees-4-sorties-usb-commutateur",
+              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
+              "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable",
+              "ugreen-support-telephone-voiture-rotation-360-degres",
+              "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
+              "ugreen-adaptateur-usb-ethernet-gigabit-usb-3-0-vers-rj45-a-1000-mbps",
+              "ugreen-adaptateur-bluetooth-5-0-recepteur-2-en-1-bluetooth-jack-aux",
+              "ugreen-support-de-tablette-ugreen-pour-bureau-gris",
+              "ugreen-support-tablette-bureau-reglable-a-double-tige-porte"
+            ]
+          }
+        },
         "2632b153-e4f5-4946-9146-3002be2c2b29": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -253,43 +277,18 @@
               "ugreen-batterie-externe-portable-usb-c-25000-mah-145w"
             ]
           }
-        },
-        "03bc0a7f-3461-439c-837b-d6c82cf28237": {
-          "type": "ug-product-list-tabs",
-          "disabled": true,
-          "settings": {
-            "tabs_title": "Other",
-            "product_list": [
-              "ugreen-adaptateur-jack-bluetooth-5-3-pour-voiture-recepteur-bluetooth",
-              "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
-              "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps",
-              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-type-c-lecteur-de-cartes",
-              "ugreen-support-telephone-voiture-noir",
-              "ugreen-support-telephone-voiture-gravite-grille-aeration",
-              "ugreen-usb-2-0-switch-4-ports-2-entrees-4-sorties-usb-commutateur",
-              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
-              "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable",
-              "ugreen-support-telephone-voiture-rotation-360-degres",
-              "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
-              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
-              "ugreen-adaptateur-usb-ethernet-gigabit-usb-3-0-vers-rj45-a-1000-mbps",
-              "ugreen-adaptateur-bluetooth-5-0-recepteur-2-en-1-bluetooth-jack-aux",
-              "ugreen-support-de-tablette-ugreen-pour-bureau-gris",
-              "ugreen-support-tablette-bureau-reglable-a-double-tige-porte"
-            ]
-          }
         }
       },
       "block_order": [
         "c4c2d9bd-d1d9-4856-93c1-da8b846af3db",
+        "03bc0a7f-3461-439c-837b-d6c82cf28237",
         "2632b153-e4f5-4946-9146-3002be2c2b29",
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "0ff54963-288f-4855-a574-2aaaf24272f0",
         "769bdc30-e1f2-4883-ae4d-e5607d28c623",
         "82e89c4e-58ed-4668-b5e0-707f3f82a435",
         "851c32fd-4017-4065-8ad0-6d879971a650",
-        "649c7ad9-3e77-448d-8e2d-6cd6e59b9879",
-        "03bc0a7f-3461-439c-837b-d6c82cf28237"
+        "649c7ad9-3e77-448d-8e2d-6cd6e59b9879"
       ],
       "settings": {
         "item_type": "black_friday",
