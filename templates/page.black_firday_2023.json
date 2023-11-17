@@ -136,6 +136,31 @@
             ]
           }
         },
+        "851c32fd-4017-4065-8ad0-6d879971a650": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Car Charger",
+            "product_list": [
+              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
+              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
+              "ugreen-chargeur-de-voiture-usb-36w-adaptateur",
+              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
+              "ugreen-chargeur-usb-qc-3-0-36w-2-ports-chargeur-voiture",
+              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
+              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
+              "50323",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration",
+              "ugreen-support-telephone-voiture-noir",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
+              "ugreen-support-telephone-voiture-rotation-360-degres",
+              "ugreen-support-telephone-voiture-360-degres",
+              "80712",
+              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
+              "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
+              "ugreen-support-telephone-voiture-ventouse-rotation-a-360-degres"
+            ]
+          }
+        },
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -156,7 +181,11 @@
               "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
               "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
               "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
-              "ugreen-revodok-pro-9-en-1-docking-station"
+              "ugreen-revodok-pro-9-en-1-docking-station",
+              "ugreen-data-hub-usb-3-0-a-7-ports-hub-multi-usb-5gbps",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide-adaptateur",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps"
             ]
           }
         },
@@ -228,31 +257,6 @@
             ]
           }
         },
-        "851c32fd-4017-4065-8ad0-6d879971a650": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Car Charger",
-            "product_list": [
-              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
-              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
-              "ugreen-chargeur-de-voiture-usb-36w-adaptateur",
-              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
-              "ugreen-chargeur-usb-qc-3-0-36w-2-ports-chargeur-voiture",
-              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
-              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
-              "50323",
-              "ugreen-support-telephone-voiture-gravite-grille-aeration",
-              "ugreen-support-telephone-voiture-noir",
-              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
-              "ugreen-support-telephone-voiture-rotation-360-degres",
-              "ugreen-support-telephone-voiture-360-degres",
-              "80712",
-              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
-              "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
-              "ugreen-support-telephone-voiture-ventouse-rotation-a-360-degres"
-            ]
-          }
-        },
         "03bc0a7f-3461-439c-837b-d6c82cf28237": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -291,11 +295,11 @@
         "c4c2d9bd-d1d9-4856-93c1-da8b846af3db",
         "2632b153-e4f5-4946-9146-3002be2c2b29",
         "649c7ad9-3e77-448d-8e2d-6cd6e59b9879",
+        "851c32fd-4017-4065-8ad0-6d879971a650",
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "0ff54963-288f-4855-a574-2aaaf24272f0",
         "769bdc30-e1f2-4883-ae4d-e5607d28c623",
         "82e89c4e-58ed-4668-b5e0-707f3f82a435",
-        "851c32fd-4017-4065-8ad0-6d879971a650",
         "03bc0a7f-3461-439c-837b-d6c82cf28237"
       ],
       "settings": {
