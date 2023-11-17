@@ -255,7 +255,6 @@
         },
         "03bc0a7f-3461-439c-837b-d6c82cf28237": {
           "type": "ug-product-list-tabs",
-          "disabled": true,
           "settings": {
             "tabs_title": "Câble",
             "product_list": [
