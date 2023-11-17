@@ -1565,8 +1565,8 @@
             "type": "menu",
             "disabled": true,
             "settings": {
-              "title": "Halloween Promt",
-              "url": "https:\/\/fr.ugreen.com\/pages\/halloween-sale",
+              "title": "2023 Black Friday",
+              "url": "shopify:\/\/pages\/black-friday-cyber-monday",
               "open_link": "_self",
               "menu": "",
               "icon": "",
