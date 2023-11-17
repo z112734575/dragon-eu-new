@@ -1735,6 +1735,25 @@
               "all_collection_name": "All Batteries externes"
             }
           },
+          "70cd3a0b-9cd0-4f15-8d89-2b9892456d41": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 3,
+              "product_list": [
+                "ugreen-nexode-100w-usb-c-chargeur-rapide-4-ports-with-2-charge-cable-usb-c",
+                "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
+                "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
+                "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
+                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
+                "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Bundle",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/bundle",
+              "all_collection_url": "shopify:\/\/collections\/bundle",
+              "all_collection_name": "All Bundle"
+            }
+          },
           "90862b21-7621-46e5-9f35-938af1220116": {
             "type": "menu-list",
             "settings": {
@@ -1826,36 +1845,17 @@
               "all_collection_url": "shopify:\/\/collections\/centrale-electrique",
               "all_collection_name": "centrale électrique"
             }
-          },
-          "70cd3a0b-9cd0-4f15-8d89-2b9892456d41": {
-            "type": "menu-list",
-            "settings": {
-              "tab_id": 7,
-              "product_list": [
-                "ugreen-nexode-100w-usb-c-chargeur-rapide-4-ports-with-2-charge-cable-usb-c",
-                "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
-                "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
-                "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
-                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
-                "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Bundle",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/bundle",
-              "all_collection_url": "shopify:\/\/collections\/bundle",
-              "all_collection_name": "All Bundle"
-            }
           }
         },
         "block_order": [
           "8d954c8a-601b-484c-a41a-790f2460396f",
           "9347026d-7f1b-470c-9621-7a670784a680",
+          "70cd3a0b-9cd0-4f15-8d89-2b9892456d41",
           "90862b21-7621-46e5-9f35-938af1220116",
           "0cd81335-fb55-499b-ad85-629671fca690",
           "7fd1d5b2-8613-4d10-ac02-dfdeda975306",
           "8d865e21-cd0c-49dc-8913-1e3b6563bbed",
-          "92203dd8-5bd7-4e0d-9936-f47fd20d389f",
-          "70cd3a0b-9cd0-4f15-8d89-2b9892456d41"
+          "92203dd8-5bd7-4e0d-9936-f47fd20d389f"
         ],
         "settings": {
           "show_price": true,
