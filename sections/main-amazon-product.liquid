@@ -410,7 +410,9 @@ t4option0_0 | alt text
                                 {%- when 'price_review' -%}
                                     <div class="t4s-product__price-review" style="--price-size:{{bk_stts.size_price_pr}}px;--price-weight:{{bk_stts.fw_price_pr}};--price-color:{{bk_stts.price_color}};--price-sale-color:{{bk_stts.price_sale_color}};">
 
-                                        {%- render 'product-price-single', variant: current_variant, product:product, PR_no_pick:PR_no_pick, type_sale:bk_stts.type_sale, price_varies_style:bk_stts.price -%}
+                                        {%- render 'product-price-single', variant: current_variant, product:product, PR_no_pick:PR_no_pick, type_sale:bk_stts.type_sale, price_varies_style:bk_stts.price,badge_bg_color: bk_stts.badge_bg_color,
+                                                badge_text_color: bk_stts.badge_text_color,
+                                                badge_text: bk_stts.badge_text -%}
                                         {%- if bk_stts.rating -%}
                                             {%- assign pid = product.id -%}
                                             <a href="#{{idTabReview}}" data-go-id="#{{idTabReview}}" class="t4s-product__review t4s-d-inline-block">
@@ -1897,6 +1899,23 @@ t4option0_0 | alt text
 "step": 100,
 "label": "Font weight",
 "default": 400
+},
+{
+"type": "text",
+"id": "badge_text",
+"label": "补充文案"
+},
+{
+"type": "color",
+"id": "badge_bg_color",
+"label": "badge背景色",
+"default": "#00CC88"
+},
+{
+"type": "color",
+"id": "badge_text_color",
+"label": "badge文字色",
+"default": "#fff"
 },
 {
 "type": "color",

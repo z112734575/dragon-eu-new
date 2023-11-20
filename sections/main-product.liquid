@@ -621,7 +621,10 @@
                       product: product,
                       PR_no_pick: PR_no_pick,
                       type_sale: bk_stts.type_sale,
-                      price_varies_style: bk_stts.price
+                      price_varies_style: bk_stts.price,
+                            badge_bg_color: bk_stts.badge_bg_color,
+                            badge_text_color: bk_stts.badge_text_color,
+                            badge_text: bk_stts.badge_text
                     -%}
                     {%- if bk_stts.rating -%}
                       {%- assign pid = product.id -%}
@@ -2569,6 +2572,23 @@
 "step": 100,
 "label": "Font weight",
 "default": 400
+},
+{
+"type": "text",
+"id": "badge_text",
+"label": "补充文案"
+},
+{
+"type": "color",
+"id": "badge_bg_color",
+"label": "badge背景色",
+"default": "#00CC88"
+},
+{
+"type": "color",
+"id": "badge_text_color",
+"label": "badge文字色",
+"default": "#fff"
 },
 {
 "type": "color",
