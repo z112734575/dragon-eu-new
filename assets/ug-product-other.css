@@ -5,13 +5,8 @@
     justify-content: space-between;
 }
 .t4s-badge-price {
-    border-radius: 3px !important;
-    border: 1px solid #00CC88;
-    background: rgba(0, 0, 0, 0) !important;
     font-size: 12px;
     font-weight: 400;
-    color: #00CC88 !important;
-    line-height: 14px !important;
 }
 .t4s-section-main-product .t4s-product__info-container .t4s-product-price del {
     font-size: 16px;
