@@ -1483,8 +1483,8 @@
           "a351d824-8df6-46de-8ce1-5404fa9e9dd7"
         ],
         "settings": {
-          "show_price": false,
-          "show_compare_price": false,
+          "show_price": true,
+          "show_compare_price": true,
           "tag_color": "#00cc88"
         }
       },
