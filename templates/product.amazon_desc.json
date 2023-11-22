@@ -68,6 +68,9 @@
             "review_liquid": "",
             "size_price_pr": 32,
             "fw_price_pr": 600,
+            "badge_text": "Black Friday",
+            "badge_bg_color": "#ec0101",
+            "badge_text_color": "#fff",
             "price_color": "#757575",
             "price_sale_color": "#001107"
           }
