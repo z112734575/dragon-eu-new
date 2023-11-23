@@ -1792,6 +1792,69 @@
             "button_ls_mb": 0,
             "button_mgb_mb": 0
           }
+        },
+        "6b550676-6a72-44c5-a6e9-750cb8d330a3": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px,",
+            "padding_inner_tb": "20px,30px,30px,30px",
+            "padding_inner_mb": "20px,30px,30px,30px",
+            "bg_cl": "#fff"
+          }
+        },
+        "7c21194a-4c5a-4c0c-93dd-57e77cf97ae5": {
+          "type": "image",
+          "settings": {
+            "image_child": "shopify:\/\/shop_images\/Impact.png",
+            "img_link": "",
+            "open_link": "_self",
+            "img_width": 200,
+            "img_width_mb": 200,
+            "img_align": "center",
+            "img_align_tb": "center",
+            "img_align_mobile": "center",
+            "b_effect": "none",
+            "hidden_mobile": false,
+            "mgb": 20,
+            "mgb_mb": 20
+          }
+        },
+        "3647103f-d423-45bc-bf73-22e71d2ccb33": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "Get Started",
+            "button_link": "http:\/\/app.impact.com\/campaign-campaign-info-v2\/ugreencom.brand",
+            "target_link": "_blank",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#222",
+            "second_cl": "#fff",
+            "pri_cl_hover": "#06c384",
+            "second_cl_hover": "#fff",
+            "fsbutton": 16,
+            "fwbutton": 500,
+            "button_ls": 0,
+            "button_mh": 36,
+            "button_bdr": 40,
+            "button_pd_lr": 34,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 12,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0
+          }
         }
       },
       "block_order": [
@@ -1800,7 +1863,10 @@
         "40f11462-f270-4353-b035-6188246803ea",
         "template--14473888792638__1aaf83d1-eaaf-449b-9913-24d8e7e43fd5-166693669805a6346a-3",
         "b081b000-ba08-41d1-a8fa-449adb848c95",
-        "07531300-07c5-4c4c-9de5-261148b1545b"
+        "07531300-07c5-4c4c-9de5-261148b1545b",
+        "6b550676-6a72-44c5-a6e9-750cb8d330a3",
+        "7c21194a-4c5a-4c0c-93dd-57e77cf97ae5",
+        "3647103f-d423-45bc-bf73-22e71d2ccb33"
       ],
       "settings": {
         "space_h_item": "30",
