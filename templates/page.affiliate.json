@@ -1879,9 +1879,9 @@
         "mg": "",
         "pd": "30px,60px,80px,60px",
         "mg_tb": "",
-        "pd_tb": "20px,20px,50px,20px",
+        "pd_tb": "50px,20px,50px,20px",
         "mg_mb": "",
-        "pd_mb": "20px,0,50px,0",
+        "pd_mb": "50px,0,50px,0",
         "use_cus_css": false,
         "code_cus_css": ""
       }
