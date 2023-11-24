@@ -52,6 +52,9 @@
             "review_liquid": "",
             "size_price_pr": 32,
             "fw_price_pr": 600,
+            "badge_text": "BLACK FRIDAY",
+            "badge_bg_color": "#00CC88",
+            "badge_text_color": "#fff",
             "price_color": "#757575",
             "price_sale_color": "#001107"
           }
@@ -523,7 +526,7 @@
       "type": "apps",
       "blocks": {
         "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
