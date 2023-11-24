@@ -50,6 +50,18 @@
         assign isRangePrices = false
     endif -%}
 
+<style>
+    .t4s-badge-price {
+        background: {{ badge_bg_color }} !important;
+        color: {{ badge_text_color }} !important;
+    }
+</style>
+{% if badge_text != blank %}
+    <script>
+        window.badge_text = '{{ badge_text }} ';
+    </script>
+{% endif %}
+
 {%- capture sale_badge_html -%}
     {%- if type_sale == '1' -%}
         {%- assign save = saveAmountFixed | times: 100.0 | divided_by: compare_at_price | round %} <span class="t4s-badge-price" style="color: {{ badge_text_color }};background: {{ badge_bg_color }}">{{ badge_text }} {{ 'products.badge.save_amount_2_html' | t: saved_amount:save }}</span>
