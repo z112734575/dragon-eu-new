@@ -40,62 +40,26 @@
         "product": "2023-ugreen-halloween-gift-card"
       }
     },
-    "ug-product-list": {
-      "type": "ug-product-list",
-      "settings": {
-        "item_type": "black_friday",
-        "product_list": [
-          "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
-          "ugreen-65w-usb-c-pd-charger-4-ports",
-          "ugreen-nexode-100w-usb-c-wall-charger",
-          "ugreen-145w-power-bank-for-laptop",
-          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
-          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
-          "ugreen-6-in-1-usb-c-hub",
-          "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
-          "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh"
-        ],
-        "title": "Hot Sale",
-        "subtitle": "",
-        "section_id": "ug-product-list",
-        "pc_product_type": "column",
-        "mobile_product_type": "row",
-        "title_color": "#ffffff",
-        "product_item_bg_color": "#242320",
-        "pc_product_item_img_size": "80%",
-        "mobile_product_item_img_size": "80%",
-        "pc_row": "3",
-        "mobile_row": "2",
-        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/ta2_pc.webp?v=1698051782",
-        "pc_product_sale_width": "80px",
-        "mobile_product_sale_width": "60px",
-        "pc_padding": "140px 0 120px 0",
-        "mobile_padding": "60px 0 30px 0",
-        "need_load_more": false,
-        "load_more_default_count": 3,
-        "show_sale_flag": true,
-        "show_compare": true,
-        "show_rating": true,
-        "show_learn_btn": true,
-        "show_code": true
-      }
-    },
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
         "2632b153-e4f5-4946-9146-3002be2c2b29": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Bundle",
+            "tabs_title": "Charger",
             "product_list": [
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-nexode-100w-usb-c-wall-charger",
               "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
-              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
-              "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-65w-usb-c-pd-charger-4-ports",
               "ugreen-145w-power-bank-for-laptop",
-              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
               "ugreen-nexode-140w-usb-c-wall-charger",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
+              "ugreen-30w-usb-c-charger-with-pd3-0",
               "ugreen-nexode-usb-c-charger-100w-gan-desktop-charger-4-ports-laptop-adapter",
-              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports"
+              "ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger"
             ]
           }
         },
@@ -214,13 +178,53 @@
         "show_learn_btn": false,
         "show_code": true
       }
+    },
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "item_type": "black_friday",
+        "product_list": [
+          "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+          "ugreen-65w-usb-c-pd-charger-4-ports",
+          "ugreen-nexode-100w-usb-c-wall-charger",
+          "ugreen-145w-power-bank-for-laptop",
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+          "ugreen-6-in-1-usb-c-hub",
+          "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+          "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh"
+        ],
+        "title": "Hot Sale",
+        "subtitle": "",
+        "section_id": "ug-product-list",
+        "pc_product_type": "column",
+        "mobile_product_type": "row",
+        "title_color": "#ffffff",
+        "product_item_bg_color": "#242320",
+        "pc_product_item_img_size": "80%",
+        "mobile_product_item_img_size": "80%",
+        "pc_row": "3",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/ta2_pc.webp?v=1698051782",
+        "pc_product_sale_width": "80px",
+        "mobile_product_sale_width": "60px",
+        "pc_padding": "140px 0 120px 0",
+        "mobile_padding": "60px 0 30px 0",
+        "need_load_more": false,
+        "load_more_default_count": 3,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true,
+        "show_code": true
+      }
     }
   },
   "order": [
     "black_friday_banner",
     "black_friday_step",
     "gift_card",
-    "ug-product-list",
-    "ug-tabs-product-list"
+    "ug-tabs-product-list",
+    "ug-product-list"
   ]
 }
