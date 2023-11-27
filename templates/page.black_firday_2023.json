@@ -2,6 +2,9 @@
   "sections": {
     "black_friday_banner": {
       "type": "black_friday_banner",
+      "custom_css": [
+        "@media (max-width: 768px) {.black_friday_banner .banner_content {top: 40px; } .banner_content h3:after {display: none; }}"
+      ],
       "settings": {
         "action_id": "49150c8f-f37e-4c36-b637-5603d839610d",
         "is_pre": false,
