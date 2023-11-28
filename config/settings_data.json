@@ -710,6 +710,7 @@
           },
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "🔥2023 Black Friday",
               "url": "shopify:\/\/pages\/black-friday-cyber-monday",
