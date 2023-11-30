@@ -723,7 +723,7 @@
             "type": "drop",
             "settings": {
               "title": "Deal",
-              "url": "https:\/\/eu.ugreen.com\/pages\/black-friday-cyber-monday",
+              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
               "open_link": "_self",
               "menu": "deals-events",
               "icon": "",
@@ -1451,7 +1451,7 @@
             "type": "menu",
             "settings": {
               "title": "Deal",
-              "url": "https:\/\/eu.ugreen.com\/pages\/black-friday-cyber-monday",
+              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
               "open_link": "_self",
               "menu": "deals-events",
               "icon": "",
