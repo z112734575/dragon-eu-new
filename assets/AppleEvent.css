@@ -87,11 +87,11 @@ section {
   padding: 6.25vw 0;
 }
 
-.apple_section_1 .section_1_box {
+/* .apple_section_1 .section_1_box {
   background: url("https://cdn.shopify.com/s/files/1/0257/5246/9566/files/Apple_pc.png?v=1678088809")
     center right no-repeat;
   background-size: 18.75vw;
-}
+} */
 
 .apple_section_1 .section_1_box h2 {
   font-weight: 600;
