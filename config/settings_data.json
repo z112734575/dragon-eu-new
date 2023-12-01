@@ -759,24 +759,17 @@
               "r_s_v_item": "10"
             }
           },
-          "85589d3f-8d75-4b9e-8bee-8032c899167f": {
-            "type": "mega",
+          "c1ea18bc-75ab-43cf-b12e-6d6c1e4439cd": {
+            "type": "base",
             "settings": {
               "title": "Bundles",
-              "url": "https:\/\/fr.ugreen.com\/collections\/bundle",
+              "url": "shopify:\/\/collections\/bundle",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "id": 1,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
+              "lb_cl": ""
             }
           },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
@@ -874,7 +867,7 @@
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416",
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "550bcd55-e2b8-40fb-a643-7e078694e4ea",
-          "85589d3f-8d75-4b9e-8bee-8032c899167f",
+          "c1ea18bc-75ab-43cf-b12e-6d6c1e4439cd",
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7",
           "16e2ef48-b04b-46f0-bf5f-d12823645624",
           "6141bf58-9316-4ce8-bd6d-16b03ed3fc8c",
