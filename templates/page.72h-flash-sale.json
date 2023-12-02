@@ -47,13 +47,14 @@
           "settings": {
             "tabs_title": "For iphone",
             "product_list": [
-              "ugreen-65w-usb-c-pd-charger-4-ports",
               "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
               "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
               "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "ugreen-10000mah-magsafe-wireless-power-bank",
               "ugreen-2-in-1-magnetic-wireless-charging-station",
               "ugreen-30w-usb-c-charger-with-pd3-0",
-              "ugreen-nexode-mini-45w-dual-usb-c-charger"
+              "ugreen-nexode-mini-45w-dual-usb-c-charger",
+              "ugreen-65w-usb-c-charger-us-uk-eu-plug-for-travel"
             ]
           }
         },
@@ -149,7 +150,7 @@
         "section_title": "Buy More, Save More",
         "sub_title": "",
         "list_all": "7",
-        "title_color": "#000",
+        "title_color": "#000000",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "50%",
         "mobile_product_item_img_size": "57%",
@@ -201,7 +202,7 @@
         "section_id": "ug-product-list",
         "pc_product_type": "row",
         "mobile_product_type": "row",
-        "title_color": "#000",
+        "title_color": "#000000",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
