@@ -8,6 +8,18 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "ug-index-carousel-1": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/aicu8-505ns.png?v=1701425286",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ae42c-r48fu.png?v=1701425286",
+            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Ugreen USB-C Série<\/strong>",
+            "subtitle": "Innover pour l'avenir",
+            "button_text": "Achetez maintenant",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
+            "className": ""
+          }
+        },
         "10849ca4-37de-4928-971c-7047e115dc60": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -26,8 +38,8 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_39bcc587-8212-4e74-bf67-d0c2a03b1037.webp?v=1693892164",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner_mobile_e43abc6d-669f-439e-94a6-42a504d3d779.webp?v=1693892249",
-            "title": "UGREEN Nexode 300W USB C PD 3.1 Chargeur",
-            "subtitle": "5-in-1 Multiport Charger",
+            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Nexode 300W Chargeur<\/strong>",
+            "subtitle": "USB C  5-in-1 Multiport Charger",
             "button_text": "Achetez maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
             "className": "nexode-300w"
@@ -38,31 +50,19 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU_2.png?v=1696841752",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU.png?v=1696841739",
-            "title": "UGREEN PowerRoam 2200 Centrale électrique portable",
-            "subtitle": "Power Anything, Anytime, Anywhere",
+            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN PowerRoam 2200 Centrale électrique portable<\/strong>",
+            "subtitle": "Alimentez n’importe quoi, n’importe quand et n’importe où",
             "button_text": "acheter maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-power-station-2200w",
-            "className": ""
-          }
-        },
-        "ug-index-carousel-1": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/aicu8-505ns.png?v=1701425286",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ae42c-r48fu.png?v=1701425286",
-            "title": "USB-C",
-            "subtitle": "USB-C Innover pour l'avenir",
-            "button_text": "Achetez maintenant",
-            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
             "className": ""
           }
         }
       },
       "block_order": [
+        "ug-index-carousel-1",
         "10849ca4-37de-4928-971c-7047e115dc60",
         "ug-index-carousel-11",
-        "136aa1cb-6667-4eb9-acc9-6576fc183f41",
-        "ug-index-carousel-1"
+        "136aa1cb-6667-4eb9-acc9-6576fc183f41"
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
