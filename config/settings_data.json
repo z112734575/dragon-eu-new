@@ -1585,13 +1585,17 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-
+                "ugreen-support-telephone-voiture-gravite-grille-aeration",
+                "50323",
+                "ugreen-support-telephone-bureau-reglable-pose-telephone",
+                "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable",
+                "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte"
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "collection_name_list": "Support de téléphone pour voiture,Supports pour téléphone & tablette,Support pour ordinateur portable,Sacs pour PC",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/support-voiture-telephone,https:\/\/fr.ugreen.com\/collections\/support-telephone-bureau,https:\/\/fr.ugreen.com\/collections\/support-tablette-et-pc-portable,https:\/\/fr.ugreen.com\/collections\/sac-de-rangement",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/support",
+              "all_collection_name": "Tous les supporters"
             }
           },
           "2ea68495-2d48-4e9b-8005-73e857c95c62": {
