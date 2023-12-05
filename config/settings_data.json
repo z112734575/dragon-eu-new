@@ -1299,6 +1299,110 @@
               "all_collection_name": "Tout le chargeur"
             }
           },
+          "bca85912-05d1-481a-b0be-1ed75d97ef89": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "HUB USB-C,Adaptateur ethernet,Station d'accueil",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/hub-1,https:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,https:\/\/fr.ugreen.com\/collections\/station-daccueil",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/hub-adaptateur",
+              "all_collection_name": "Tout le Hub"
+            }
+          },
+          "59e7e0f0-3d4e-4613-b5b0-21097d693a1f": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-centrale-electrique-portable-panneau-solaire-pliable-1",
+                "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh-的副本",
+                "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh",
+                "15114",
+                "15113"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Station Roam,Batterie Externe,Barre d'alimentation",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/centrale-electrique,https:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/power-strip",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/power-all",
+              "all_collection_name": "Power More"
+            }
+          },
+          "42f4cf0c-c057-4205-9d68-b9296e3a50b6": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-cable-lightning-vers-usb-c-mfi-certifie-nylon-tresse",
+                "ugreen-cable-usb-c-vers-usb-c-pd-charge-rapide-60w-nylon-tresse",
+                "ugreen-lot-de-2-cable-usb-c-vers-usb-c-pd-100w-cable-nylon-tresse",
+                "ugreen-cable-usb-c-vers-usb-c-pd-100w-5a-20v-cable-nylon-tresse",
+                "ugreen-lot-de-2-cable-usb-c-vers-usb-c-pd-charge-rapide-60w"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Câble Lightning,Câble USB-C,Câble USB,Câble audio & vidéo",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-lightning,https:\/\/fr.ugreen.com\/collections\/cable-usb-c-c,https:\/\/fr.ugreen.com\/collections\/cable-usb-a-c,https:\/\/fr.ugreen.com\/collections\/cable-audio",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/cable",
+              "all_collection_name": "Tout le câble"
+            }
+          },
+          "be19ff84-0046-40bd-ba67-7a92410bbf3a": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-support-telephone-voiture-gravite-grille-aeration",
+                "50323",
+                "ugreen-support-telephone-bureau-reglable-pose-telephone",
+                "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable",
+                "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Support de téléphone pour voiture,Supports pour téléphone & tablette,Support pour ordinateur portable,Sacs pour PC",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/support-voiture-telephone,https:\/\/fr.ugreen.com\/collections\/support-telephone-bureau,https:\/\/fr.ugreen.com\/collections\/support-tablette-et-pc-portable,https:\/\/fr.ugreen.com\/collections\/sac-de-rangement",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/support",
+              "all_collection_name": "Tous les supporters"
+            }
+          },
+          "2ea68495-2d48-4e9b-8005-73e857c95c62": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-cat-8-cable-ethernet-reseau-rj45-40gbps-2000mhz-double-blindage",
+                "40497",
+                "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
+                "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
+                "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Câble Ethernet,Lecteur de cartes,Câble de données,Cartes de réseau câblé,Câble SATA",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-ethernet,https:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,https:\/\/fr.ugreen.com\/collections\/cable-dvi-vga,https:\/\/fr.ugreen.com\/collections\/cartes-reseau-cablees,https:\/\/fr.ugreen.com\/collections\/hard-drive-enclosures",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/accessoires-pour-pc",
+              "all_collection_name": "Plus d'accessoires"
+            }
+          },
+          "0253c181-7656-453d-951f-236f34cc98a6": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-adaptateur-bluetooth-5-1-pour-tv-2-en-1-emetteur-recepteur",
+                "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps",
+                "ugreen-adaptateur-usb-c-jack-3-5mm-adaptateur-ecouteurs-audio-puce-dac",
+                "ugreen-cable-hdmi-4k-ultra-hd-cordon-hdmi-2-0-haute-vitesse-ethernet",
+                "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Câble HDMI\/HD DP\/MiniDP,Commutateur audio-vidéo,Carte son,Récepteur et émetteur Bluetooth",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-hdmi,https:\/\/fr.ugreen.com\/collections\/cable-audio,https:\/\/fr.ugreen.com\/collections\/carte-son,https:\/\/fr.ugreen.com\/collections\/bluetooth",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/audio-video",
+              "all_collection_name": "Plus d'audio et vidéo"
+            }
+          },
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f": {
             "type": "tab_list",
             "disabled": true,
@@ -1531,110 +1635,6 @@
               "cl_opacity": 5,
               "col": "4"
             }
-          },
-          "bca85912-05d1-481a-b0be-1ed75d97ef89": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-
-              ],
-              "tag_list": "",
-              "collection_name_list": "HUB USB-C,Adaptateur ethernet,Station d'accueil",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/hub-1,https:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,https:\/\/fr.ugreen.com\/collections\/station-daccueil",
-              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/hub-adaptateur",
-              "all_collection_name": "Tout le Hub"
-            }
-          },
-          "59e7e0f0-3d4e-4613-b5b0-21097d693a1f": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-                "ugreen-centrale-electrique-portable-panneau-solaire-pliable-1",
-                "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh-的副本",
-                "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh",
-                "15114",
-                "15113"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Station Roam,Batterie Externe,Barre d'alimentation",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/centrale-electrique,https:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/power-strip",
-              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/power-all",
-              "all_collection_name": "Power More"
-            }
-          },
-          "42f4cf0c-c057-4205-9d68-b9296e3a50b6": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-                "ugreen-cable-lightning-vers-usb-c-mfi-certifie-nylon-tresse",
-                "ugreen-cable-usb-c-vers-usb-c-pd-charge-rapide-60w-nylon-tresse",
-                "ugreen-lot-de-2-cable-usb-c-vers-usb-c-pd-100w-cable-nylon-tresse",
-                "ugreen-cable-usb-c-vers-usb-c-pd-100w-5a-20v-cable-nylon-tresse",
-                "ugreen-lot-de-2-cable-usb-c-vers-usb-c-pd-charge-rapide-60w"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Câble Lightning,Câble USB-C,Câble USB,Câble audio & vidéo",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-lightning,https:\/\/fr.ugreen.com\/collections\/cable-usb-c-c,https:\/\/fr.ugreen.com\/collections\/cable-usb-a-c,https:\/\/fr.ugreen.com\/collections\/cable-audio",
-              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/cable",
-              "all_collection_name": "Tout le câble"
-            }
-          },
-          "be19ff84-0046-40bd-ba67-7a92410bbf3a": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-                "ugreen-support-telephone-voiture-gravite-grille-aeration",
-                "50323",
-                "ugreen-support-telephone-bureau-reglable-pose-telephone",
-                "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable",
-                "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Support de téléphone pour voiture,Supports pour téléphone & tablette,Support pour ordinateur portable,Sacs pour PC",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/support-voiture-telephone,https:\/\/fr.ugreen.com\/collections\/support-telephone-bureau,https:\/\/fr.ugreen.com\/collections\/support-tablette-et-pc-portable,https:\/\/fr.ugreen.com\/collections\/sac-de-rangement",
-              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/support",
-              "all_collection_name": "Tous les supporters"
-            }
-          },
-          "2ea68495-2d48-4e9b-8005-73e857c95c62": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-                "ugreen-cat-8-cable-ethernet-reseau-rj45-40gbps-2000mhz-double-blindage",
-                "40497",
-                "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
-                "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
-                "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Câble Ethernet,Lecteur de cartes,Câble de données,Cartes de réseau câblé,Câble SATA",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-ethernet,https:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,https:\/\/fr.ugreen.com\/collections\/cable-dvi-vga,https:\/\/fr.ugreen.com\/collections\/cartes-reseau-cablees,https:\/\/fr.ugreen.com\/collections\/hard-drive-enclosures",
-              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/accessoires-pour-pc",
-              "all_collection_name": "Plus d'accessoires"
-            }
-          },
-          "0253c181-7656-453d-951f-236f34cc98a6": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-                "ugreen-adaptateur-bluetooth-5-1-pour-tv-2-en-1-emetteur-recepteur",
-                "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps",
-                "ugreen-adaptateur-usb-c-jack-3-5mm-adaptateur-ecouteurs-audio-puce-dac",
-                "ugreen-cable-hdmi-4k-ultra-hd-cordon-hdmi-2-0-haute-vitesse-ethernet",
-                "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Câble HDMI\/HD DP\/MiniDP,Commutateur audio-vidéo,Carte son,Récepteur et émetteur Bluetooth",
-              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-hdmi,https:\/\/fr.ugreen.com\/collections\/cable-audio,https:\/\/fr.ugreen.com\/collections\/carte-son,https:\/\/fr.ugreen.com\/collections\/bluetooth",
-              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/audio-video",
-              "all_collection_name": "Plus d'audio et vidéo"
-            }
           }
         },
         "block_order": [
@@ -1643,6 +1643,12 @@
           "1a3c23f0-de5e-4b6d-b251-450c63c9e976",
           "2e1d1445-31c4-4ddb-ba72-0d209659e65d",
           "18655e59-f21e-4e54-a372-d54a94513fbd",
+          "bca85912-05d1-481a-b0be-1ed75d97ef89",
+          "59e7e0f0-3d4e-4613-b5b0-21097d693a1f",
+          "42f4cf0c-c057-4205-9d68-b9296e3a50b6",
+          "be19ff84-0046-40bd-ba67-7a92410bbf3a",
+          "2ea68495-2d48-4e9b-8005-73e857c95c62",
+          "0253c181-7656-453d-951f-236f34cc98a6",
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "5cb3da2b-dbf8-4845-ae09-c2b8a05317f4",
@@ -1655,13 +1661,7 @@
           "ba9c883f-7863-45ff-a5c4-e1f506e0d954",
           "fe174549-7def-41fd-9d2a-9e8fcb76fab9",
           "727d097b-61d8-4a66-8c07-a76e85acb487",
-          "a351d824-8df6-46de-8ce1-5404fa9e9dd7",
-          "bca85912-05d1-481a-b0be-1ed75d97ef89",
-          "59e7e0f0-3d4e-4613-b5b0-21097d693a1f",
-          "42f4cf0c-c057-4205-9d68-b9296e3a50b6",
-          "be19ff84-0046-40bd-ba67-7a92410bbf3a",
-          "2ea68495-2d48-4e9b-8005-73e857c95c62",
-          "0253c181-7656-453d-951f-236f34cc98a6"
+          "a351d824-8df6-46de-8ce1-5404fa9e9dd7"
         ],
         "settings": {
           "show_price": true,
