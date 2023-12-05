@@ -1547,13 +1547,17 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-
+                "ugreen-centrale-electrique-portable-panneau-solaire-pliable-1",
+                "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh-的副本",
+                "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh",
+                "15114",
+                "15113"
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "collection_name_list": "Station Roam,Batterie Externe,Barre d'alimentation",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/centrale-electrique,https:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/power-strip",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/power-all",
+              "all_collection_name": "Power More"
             }
           },
           "42f4cf0c-c057-4205-9d68-b9296e3a50b6": {
