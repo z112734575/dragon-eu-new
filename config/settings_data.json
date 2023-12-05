@@ -1255,6 +1255,53 @@
               "col": "12"
             }
           },
+          "1a3c23f0-de5e-4b6d-b251-450c63c9e976": {
+            "type": "tab_list",
+            "disabled": true,
+            "settings": {
+              "tab_name_list": "Nexode, Chargeurs, Hubs & Docs, Centrale électrique, Câbles, Supporter, Accessoires pour PC, Audio & Vidéo",
+              "tab_image_list": "",
+              "tab_link_list": ""
+            }
+          },
+          "2e1d1445-31c4-4ddb-ba72-0d209659e65d": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-nexode-300w-usb-c-gan-chargeur",
+                "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
+                "ugreen-nexode-100w-chargeur-usb-c-gan-magsafe-15w",
+                "ugreen-nexode-chargeur-45w-usb-c-2-ports",
+                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports"
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "shopify:\/\/collections\/nexode-series",
+              "all_collection_name": "Explorer Nexode"
+            }
+          },
+          "18655e59-f21e-4e54-a372-d54a94513fbd": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
+                "ugreen-batterie-externe-magnetique-sans-fil-10000mah-20w-usb-c",
+                "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
+                "ugreen-65w-chargeur-secteur-2-usb-c-pd-3-0-rapide",
+                "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable"
+              ],
+              "tag_list": "Hot,",
+              "collection_name_list": "Chargeur de voyage & de bureau,Chargeur de voiture,Batterie Externe,Chargeur sans fil,Chargeur Rapide",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/chargeur-de-bureau,https:\/\/fr.ugreen.com\/collections\/chargeur-de-voiture,https:\/\/fr.ugreen.com\/collections\/power-bank,https:\/\/fr.ugreen.com\/collections\/chargeur-sans-fil,https:\/\/fr.ugreen.com\/collections\/quick-charge-chargeur",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/chargeur",
+              "all_collection_name": "Tout le chargeur"
+            }
+          },
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f": {
             "type": "tab_list",
             "settings": {
@@ -1483,6 +1530,9 @@
         "block_order": [
           "896b0a1b-4c88-41dc-aae8-3dc3fc782bd9",
           "224acbf9-e273-470e-aeb8-ce1cab7498c4",
+          "1a3c23f0-de5e-4b6d-b251-450c63c9e976",
+          "2e1d1445-31c4-4ddb-ba72-0d209659e65d",
+          "18655e59-f21e-4e54-a372-d54a94513fbd",
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "5cb3da2b-dbf8-4845-ae09-c2b8a05317f4",
