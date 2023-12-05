@@ -1248,7 +1248,6 @@
           },
           "224acbf9-e273-470e-aeb8-ce1cab7498c4": {
             "type": "html",
-            "disabled": true,
             "settings": {
               "html": "<script type=\"module\" crossorigin=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/index-cf0859c1.js?v=1687144668\"><\/script>\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/index-77b21024.css?v=1685528041\">\n<div id=\"ug-mega-menu-app\"><\/div>",
               "page": "",
