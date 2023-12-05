@@ -1604,11 +1604,15 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-
+                "ugreen-cat-8-cable-ethernet-reseau-rj45-40gbps-2000mhz-double-blindage",
+                "40497",
+                "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
+                "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
+                "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps"
               ],
               "tag_list": "",
               "collection_name_list": "Câble Ethernet,Lecteur de cartes,Câble de données,Cartes de réseau câblé,Câble SATA",
-              "collection_link_list": "",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-ethernet,https:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,https:\/\/fr.ugreen.com\/collections\/cable-dvi-vga,https:\/\/fr.ugreen.com\/collections\/cartes-reseau-cablees,https:\/\/fr.ugreen.com\/collections\/hard-drive-enclosures",
               "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/accessoires-pour-pc",
               "all_collection_name": "Plus d'accessoires"
             }
