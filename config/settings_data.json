@@ -1566,13 +1566,17 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-
+                "ugreen-cable-lightning-vers-usb-c-mfi-certifie-nylon-tresse",
+                "ugreen-cable-usb-c-vers-usb-c-pd-charge-rapide-60w-nylon-tresse",
+                "ugreen-lot-de-2-cable-usb-c-vers-usb-c-pd-100w-cable-nylon-tresse",
+                "ugreen-cable-usb-c-vers-usb-c-pd-100w-5a-20v-cable-nylon-tresse",
+                "ugreen-lot-de-2-cable-usb-c-vers-usb-c-pd-charge-rapide-60w"
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "collection_name_list": "Câble Lightning,Câble USB-C,Câble USB,Câble audio & vidéo",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-lightning,https:\/\/fr.ugreen.com\/collections\/cable-usb-c-c,https:\/\/fr.ugreen.com\/collections\/cable-usb-a-c,https:\/\/fr.ugreen.com\/collections\/cable-audio",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/cable",
+              "all_collection_name": "Tout le câble"
             }
           },
           "be19ff84-0046-40bd-ba67-7a92410bbf3a": {
