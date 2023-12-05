@@ -1525,6 +1525,96 @@
               "cl_opacity": 5,
               "col": "4"
             }
+          },
+          "bca85912-05d1-481a-b0be-1ed75d97ef89": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "HUB USB-C,Adaptateur ethernet,Station d'accueil",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/hub-1,https:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,https:\/\/fr.ugreen.com\/collections\/station-daccueil",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/hub-adaptateur",
+              "all_collection_name": "Tout le Hub"
+            }
+          },
+          "59e7e0f0-3d4e-4613-b5b0-21097d693a1f": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "42f4cf0c-c057-4205-9d68-b9296e3a50b6": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "be19ff84-0046-40bd-ba67-7a92410bbf3a": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "2ea68495-2d48-4e9b-8005-73e857c95c62": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "0253c181-7656-453d-951f-236f34cc98a6": {
+            "type": "tab_content",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
           }
         },
         "block_order": [
@@ -1545,7 +1635,13 @@
           "ba9c883f-7863-45ff-a5c4-e1f506e0d954",
           "fe174549-7def-41fd-9d2a-9e8fcb76fab9",
           "727d097b-61d8-4a66-8c07-a76e85acb487",
-          "a351d824-8df6-46de-8ce1-5404fa9e9dd7"
+          "a351d824-8df6-46de-8ce1-5404fa9e9dd7",
+          "bca85912-05d1-481a-b0be-1ed75d97ef89",
+          "59e7e0f0-3d4e-4613-b5b0-21097d693a1f",
+          "42f4cf0c-c057-4205-9d68-b9296e3a50b6",
+          "be19ff84-0046-40bd-ba67-7a92410bbf3a",
+          "2ea68495-2d48-4e9b-8005-73e857c95c62",
+          "0253c181-7656-453d-951f-236f34cc98a6"
         ],
         "settings": {
           "show_price": true,
