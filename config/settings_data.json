@@ -1623,13 +1623,17 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-
+                "ugreen-adaptateur-bluetooth-5-1-pour-tv-2-en-1-emetteur-recepteur",
+                "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps",
+                "ugreen-adaptateur-usb-c-jack-3-5mm-adaptateur-ecouteurs-audio-puce-dac",
+                "ugreen-cable-hdmi-4k-ultra-hd-cordon-hdmi-2-0-haute-vitesse-ethernet",
+                "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel"
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "collection_name_list": "Câble HDMI\/HD DP\/MiniDP,Commutateur audio-vidéo,Carte son,Récepteur et émetteur Bluetooth",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-hdmi,https:\/\/fr.ugreen.com\/collections\/cable-audio,https:\/\/fr.ugreen.com\/collections\/carte-son,https:\/\/fr.ugreen.com\/collections\/bluetooth",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/audio-video",
+              "all_collection_name": "Plus d'audio et vidéo"
             }
           }
         },
