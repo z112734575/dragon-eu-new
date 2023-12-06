@@ -565,6 +565,34 @@
       "top-bar": {
         "type": "top-bar",
         "blocks": {
+          "21bca30f-6324-47b0-ac19-fd6547dc3ea5": {
+            "type": "text",
+            "settings": {
+              "text": "<p><strong>Free shipping <\/strong>one orders over €14;;;Ugreen Featured Deals! <strong>SHOP NOW &gt;<\/strong><\/p>",
+              "countdown": "2022\/04\/19",
+              "txt_day": "days",
+              "dayx": 0,
+              "effect": "0",
+              "au_time": 5,
+              "fw_bold": 700,
+              "cl_a": "#222",
+              "cl_bold": "#000000",
+              "cl_a_tr": "#fff",
+              "cl_bold_tr": "#ec0101",
+              "hide": false,
+              "text_align": "center",
+              "col": "12"
+            }
+          },
+          "5ed463cd-bef5-46b7-b9fc-e983e0d5f64f": {
+            "type": "html",
+            "settings": {
+              "html": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790\">\n<style>\n    \/* 产品详情 捆绑销售titile *\/\n    .cbb-frequently-bought-title {\n        opacity: 0;\n    }\n\n    \/* end *\/\n    .t4s-top-bar__wrap {\n      position: relative;\n    }\n    .t4s-top-bar__wrap .t4s-top-bar__html {\n      width: 0;\n      padding: 0;\n    }\n    #ug-top-current-country {\n      position: absolute;\n      top: 50%;\n      right: 15px;\n      transform: translateY(-50%);\n      z-index: 10;\n      cursor: pointer;\n      color: inherit;\n      font-size: inherit;\n      display: flex;\n      align-items: center;\n      justify-content: flex-end;\n      background: #e5e5e5;\n    }\n    #ug-top-current-country .ug-current-country-text {\n      margin-left: 8px;\n    }\n    #ug-top-current-country .ug-current-country-text:hover {\n      color: inherit;\n      opacity: 0.5;\n    }\n    @media (max-width: 768px) {\n        #ug-top-current-country {\n          display: none;\n        }\n    }\n<\/style>\n<div id=\"ug-top-current-country\" class=\"ug-current-country\">\n  <svg t=\"1701848039589\" class=\"icon\" viewbox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" p-id=\"3687\" width=\"200\" height=\"200\"><path d=\"M64 512c0 247.4 200.6 448 448 448s448-200.6 448-448S759.4 64 512 64 64 264.6 64 512z\" fill=\"#003399\" p-id=\"3688\"><\/path><path d=\"M512 212.7l8.2 27.2h29l-23.6 17.2 9.1 27.2-22.7-17.2-23.6 17.2 9.1-27.2-22.7-17.2h28.1l9.1-27.2z m-132.4 35.4l8.2 27.2h29l-23.6 17.2 9.1 27.2-22.7-17.2-23.6 17.2 9.1-27.2-22.7-17.2h28.1l9.1-27.2z m-97 97.9l9.1 27.2h28.1l-22.7 16.3 8.2 27.2-22.7-16.3-22.7 16.3 8.2-27.2-22.7-16.3h28.1l9.1-27.2z m360.9-97l9.1 27.2h28.1L658 292.5l9.1 27.2-22.7-16.3-23.6 16.3 9.1-27.2-23.6-16.3h29l8.2-27.2z m130.6 121.5l-22.7 17.2 8.2 27.2-22.7-17.2-22.7 17.2 8.2-27.2-22.7-17.2h28.1l9.1-27.2 9.1 27.2h28.1z m36.3 134.2L787.7 521l8.2 27.2-22.7-17.2-22.7 17.3 8.2-27.2-22.7-17.2h28.1l9.1-26.3 9.1 27.2h28.1v-0.1z m-48.1 171.4l-23.6-16.3L716 677l9.1-27.2-23.6-17.2h29l8.2-27.2 9.1 27.2h28.1l-22.7 17.2 9.1 26.3zM491.2 810.3l9.1-27.2-23.6-16.3h29l8.2-27.2 9.1 27.2h28.1l-22.7 16.3 9 27.2-23.6-16.3-22.6 16.3zM358.8 775l8.2-27.2-22.7-16.3h28.1l9.1-27.2 9.1 27.2h28.1L396 747.8l8.2 27.2-22.8-16.3-22.6 16.3z m306.5-0.9l-22.7-16.3-23.6 16.3 9.1-27.2-22.7-16.4h28.1l9.1-27.2 8.2 27.2h29l-23.6 17.2 9.1 26.4zM212.8 504.7h29l8.2-27.2 9.1 27.2h28.1l-22.7 17.2 9.1 27.2-23.6-17.2-22.7 17.2 9.1-27.2-23.6-17.2z m48.9 171.4l9.1-27.2-23.6-16.3h29l8.2-27.2 9.1 27.2h28.1l-22.7 16.3 9.1 27.2-23.6-16.3-22.7 16.3z\" fill=\"#FFCC00\" p-id=\"3689\"><\/path><\/svg>\n  <div class=\"ug-current-country-text\">Europe \/ English<\/div>\n<\/div>\n<script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/jquery-1.7.2.min.js?v=1624935298\"><\/script>\n<script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/swiper-bundle.min_23a60c44-0efc-4129-bf9f-c046f688609a.js?v=1655275790\"><\/script>\n<script src=\"https:\/\/at.alicdn.com\/t\/c\/font_3829374_r341clxba8.js\"><\/script>",
+              "hide": false,
+              "text_align": "center",
+              "col": "12"
+            }
+          },
           "top-bar-0": {
             "type": "html",
             "disabled": true,
@@ -574,20 +602,12 @@
               "text_align": "center",
               "col": "12"
             }
-          },
-          "5ed463cd-bef5-46b7-b9fc-e983e0d5f64f": {
-            "type": "html",
-            "settings": {
-              "html": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/swiper-bundle.min_b4c60233-5e07-47dc-800a-583c16079d0b.css?v=1655275790\">\n<style>\n    .ug-top-bar {\n        display: flex;\n        width: 100%;\n        justify-content: center;\n        align-items: center;\n        position: relative;\n        z-index: 5;\n    }\n\n    .ug-top-bar .ug-current-country {\n        position: absolute;\n        right: 0;\n        z-index: 1;\n    }\n\n    .ug-top-bar .ug-current-country .ug-current-country-text:hover {\n        color: #00CC88;\n    }\n\n    .ug-top-bar p {\n        margin: 0;\n    }\n    \/* cookie *\/\n    .cc-banner.cc-bottom{\n        display: none;\n    }\n    @media (max-width: 768px) {\n        .ug-top-bar {\n            justify-content: center;\n        }\n\n        .ug-top-bar #ug-top-current-country,\n        .ug-top-bar .occupy-box {\n            display: none;\n        }\n    }\n<\/style>\n<div class=\"ug-top-bar\">\n    <div class=\"occupy-box\"><\/div>\n    <div class=\"topBar_swiper swiper\">\n        <div class=\"swiper-wrapper\">\n            <div class=\"top-text swiper-slide\">\n                <p style=\"margin:0;\"><b> Free shipping<\/b> one orders over €14<b><\/b>\n                <\/p>\n            <\/div>\n            <div class=\"top-text swiper-slide\">\n                <a href=\"https:\/\/eu.ugreen.com\/pages\/flash-sale\">\n                    <p style=\"margin:0;\">Ugreen Featured Deals! <b>SHOP NOW &gt;<\/b>\n                    <\/p>\n                <\/a>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div id=\"ug-top-current-country\" class=\"ug-current-country\">\n        <svg class=\"earth-icon\" aria-hidden=\"true\">\n            <use xlink:href=\"#icon-EU_icon\"><\/use>\n        <\/svg>\n        <div class=\"ug-current-country-text\">Europe \/ English<\/div>\n    <\/div>\n<\/div>\n<script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/swiper-bundle.min_23a60c44-0efc-4129-bf9f-c046f688609a.js?v=1655275790\"><\/script>\n<script>\n    const topBarswiper = new Swiper('.topBar_swiper', {\n        slidesPerView: 1,\n        speed: 1000,\n        loop: true,\n        autoplay: {\n            delay: 5000,\n        },\n    })\n<\/script>\n<script src=\"https:\/\/at.alicdn.com\/t\/c\/font_3829374_r341clxba8.js\"><\/script>",
-              "hide": false,
-              "text_align": "center",
-              "col": "12"
-            }
           }
         },
         "block_order": [
-          "top-bar-0",
-          "5ed463cd-bef5-46b7-b9fc-e983e0d5f64f"
+          "21bca30f-6324-47b0-ac19-fd6547dc3ea5",
+          "5ed463cd-bef5-46b7-b9fc-e983e0d5f64f",
+          "top-bar-0"
         ],
         "settings": {
           "show_topbar": true,
