@@ -1721,6 +1721,18 @@
               "url10": ""
             }
           },
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
+            "type": "menu",
+            "settings": {
+              "title": "Deals & Events",
+              "url": "shopify:\/\/pages\/flash-deal",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "Hot",
+              "lb_cl": "#ec0101"
+            }
+          },
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58": {
             "type": "menu",
             "disabled": true,
@@ -1732,18 +1744,6 @@
               "icon": "",
               "lb": "",
               "lb_cl": ""
-            }
-          },
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
-            "type": "menu",
-            "settings": {
-              "title": "Deals & Events",
-              "url": "shopify:\/\/pages\/flash-deal",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "NEW",
-              "lb_cl": "#4ce0ce"
             }
           },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
@@ -1862,8 +1862,8 @@
         "block_order": [
           "978de359-1bb0-4204-91e0-084625271217",
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
-          "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
+          "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
           "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf",
           "06092e7b-58cd-4790-9721-e86ddd55d4a0",
