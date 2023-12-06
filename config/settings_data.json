@@ -568,7 +568,7 @@
           "21bca30f-6324-47b0-ac19-fd6547dc3ea5": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>Free shipping <\/strong>one orders over €14;;;Ugreen Featured Deals! <strong>SHOP NOW &gt;<\/strong><\/p>",
+              "text": "<p><strong>Free shipping <\/strong>one orders over €14;;;<a href=\"\/pages\/flash-sale\" title=\"Featured Deals\">Ugreen Featured Deals! <strong>SHOP NOW &gt;<\/strong><\/a><\/p>",
               "countdown": "2022\/04\/19",
               "txt_day": "days",
               "dayx": 0,
