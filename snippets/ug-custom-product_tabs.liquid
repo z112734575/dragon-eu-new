@@ -526,37 +526,89 @@
     {% endif -%}
 {%- endfor -%}
 <script>
-    $(function () {
-        if (window.innerWidth < 768) {
-            setTabsShadow()
-        } else {
-            $('.green-custom-tab').eq(1).addClass('active')
-        }
-        $('.green-custom-tab').on('click', function (e) {
-            e.preventDefault()
-            $('.green-custom-tab').removeClass('active')
-            $(e.target).addClass('active')
-            const id = e.target.getAttribute('href')
-            const targetElement = document.querySelector(id);
-            targetElement.scrollIntoView({behavior: 'smooth'})
+  $(function () {
+    init()
+    function init() {
+      if (window.innerWidth < 768) {
+        setTabsShadow()
+      } else {
+        $('.green-custom-tab').eq(1).addClass('active')
+      }
+      tabsClickScroll()
+      autoTabsActive()
+    }
+    function tabsClickScroll() {
+      $('.green-custom-tab').on('click', function (e) {
+        e.preventDefault()
+        $('.green-custom-tab').removeClass('active')
+        $(e.target).addClass('active')
+        const id = e.target.getAttribute('href')
+        const targetElement = document.querySelector(id);
+        const top = targetElement.offsetTop - 50
+        window.scrollTo({
+          behavior: 'smooth',
+          top: top
         })
+      })
+    }
+    function setTabsShadow() {
+      const topActivityBarHeight = document.getElementById('shopify-section-top-activity-bar')?.offsetHeight || 0
+      const topBarHeight = document.getElementById('shopify-section-top-bar')?.offsetHeight || 0
+      const headerHeight = document.getElementById('shopify-section-header-inline')?.offsetHeight || 0
 
-        function setTabsShadow() {
-            const topActivityBarHeight = document.getElementById('shopify-section-top-activity-bar')?.offsetHeight || 0
-            const topBarHeight = document.getElementById('shopify-section-top-bar')?.offsetHeight || 0
-            const headerHeight = document.getElementById('shopify-section-header-inline')?.offsetHeight || 0
-
-            const tasBar = document.getElementById('ugreen-product-tabs')
-            const topHeight = topActivityBarHeight + topBarHeight + headerHeight
-
-            window.addEventListener('scroll', function () {
-                if (window.scrollY > topHeight && !tasBar.classList.contains('shadow')) {
-                    tasBar.classList.add('shadow')
-                } else if (window.scrollY < topHeight && tasBar.classList.contains('shadow')) {
-                    tasBar.classList.remove('shadow')
-                }
-            })
-
+      const tasBar = document.getElementById('ugreen-product-tabs')
+      const topHeight = topActivityBarHeight + topBarHeight + headerHeight
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > topHeight && !tasBar.classList.contains('shadow')) {
+          tasBar.classList.add('shadow')
+        } else if (window.scrollY < topHeight && tasBar.classList.contains('shadow')) {
+          tasBar.classList.remove('shadow')
         }
-    })
+      })
+
+    }
+    function autoTabsActive() {
+      // 监听滚动事件
+      const tabArray = document.querySelectorAll('.green-custom-tab')
+      const sectionArray = []
+      tabArray.forEach((tab, index) => {
+        if (window.innerWidth > 768 && index === 0) return
+        const id = tab.getAttribute('href')
+        const targetElement = document.querySelector(id);
+        sectionArray.push(targetElement)
+      })
+      const firstSectionTop = sectionArray[0].offsetTop
+      const lastSectionBottom = sectionArray[sectionArray.length - 1].getBoundingClientRect().bottom
+
+      window.addEventListener('scroll', debounce(function () {
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+        if (window.innerWidth < 768 && scrollTop < firstSectionTop) {
+          $('.green-custom-tab').removeClass('active')
+          $('.green-custom-tab').eq(0).addClass('active')
+          return
+        }
+        sectionArray.forEach((section, index) => {
+          if (section.getBoundingClientRect().top <= 51 && section.getBoundingClientRect().bottom >= 51 || sectionArray.length - 1 === index && section.getBoundingClientRect().bottom < 0) {
+            const id = section.getAttribute('id')
+            const tab = document.querySelector(`.green-custom-tab[href="#${id}"]`)
+            if (tab && !tab.classList.contains('active')) {
+              $('.green-custom-tab').removeClass('active')
+              $(tab).addClass('active')
+            }
+          }
+        })
+      }, 100))
+    }
+    function debounce(func, delay) {
+      let timeout;
+      return function () {
+        const context = this;
+        const args = arguments;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          func.apply(context, args);
+        }, delay);
+      };
+    }
+  })
 </script>
