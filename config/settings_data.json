@@ -2062,7 +2062,7 @@
               "tag_list": "Hot,Hot,Vente",
               "collection_name_list": "Chargeur USB,\nChargeur de voiture,\nBatterie Externe,\nChargeur sans fil,\nChargeur Rapide",
               "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/chargeur-de-bureau,\nhttps:\/\/fr.ugreen.com\/collections\/chargeur-de-voiture,\nhttps:\/\/fr.ugreen.com\/collections\/power-bank,\nhttps:\/\/fr.ugreen.com\/collections\/chargeur-sans-fil,\nhttps:\/\/fr.ugreen.com\/collections\/quick-charge-chargeur",
-              "all_collection_url": "shopify:\/\/collections\/chargeur",
+              "all_collection_url": "",
               "all_collection_name": "Tout voir"
             }
           },
@@ -2074,10 +2074,25 @@
               "product_list": [
 
               ],
-              "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
+              "tag_list": "hot",
+              "collection_name_list": "HUB USB-C,\nAdaptateur ethernet,\nStation d'accueil",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/hub-1,\nhttps:\/\/fr.ugreen.com\/collections\/adaptateur-ethernet,\nhttps:\/\/fr.ugreen.com\/collections\/station-daccueil",
               "all_collection_url": "",
+              "all_collection_name": "Tout le Hub"
+            }
+          },
+          "cf9b79f8-6e45-4c01-afb9-87df6f6ae210": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "Câble Lightning,\nCâble USB-C,\nCâble USB,\nCâble audio & vidéo",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-ethernet,\nhttps:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,\nhttps:\/\/fr.ugreen.com\/collections\/cable-dvi-vga,\nhttps:\/\/fr.ugreen.com\/collections\/cartes-reseau-cablees,\nhttps:\/\/fr.ugreen.com\/collections\/hard-drive-enclosures",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/cable",
               "all_collection_name": ""
             }
           },
@@ -2090,25 +2105,10 @@
 
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
-            }
-          },
-          "cf9b79f8-6e45-4c01-afb9-87df6f6ae210": {
-            "type": "menu-list",
-            "disabled": true,
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-
-              ],
-              "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "collection_name_list": "Station Roam,\nBatterie Externe,\nBarre d'alimentation",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/centrale-electrique,\nhttps:\/\/fr.ugreen.com\/collections\/power-bank,\nhttps:\/\/fr.ugreen.com\/collections\/power-strip",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/power-all",
+              "all_collection_name": "Power More"
             }
           },
           "ab16d3d5-1c8e-4cea-9bdf-3d5001f9a9cc": {
@@ -2169,8 +2169,8 @@
           "55271217-a63a-4734-8e2a-999223f57f5f",
           "240e63e4-6265-441a-ada9-9f867a25e653",
           "80335132-ad92-4cd9-aabb-ad325fbd4fe6",
-          "f4d5cb8f-baa9-46d8-9184-8fbf687160dd",
           "cf9b79f8-6e45-4c01-afb9-87df6f6ae210",
+          "f4d5cb8f-baa9-46d8-9184-8fbf687160dd",
           "ab16d3d5-1c8e-4cea-9bdf-3d5001f9a9cc",
           "acc76480-480d-4596-a8e9-b6aa38d39234",
           "7041f73a-9f85-48c7-832b-2b212d695e7d"
