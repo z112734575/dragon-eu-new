@@ -15,15 +15,11 @@
       left: 0;
       right: 0;
       top: 7.292vw;
-      color: #fff;
   }
   .green-home-banner-box .title {
       font-size: 2vw;
       font-weight: bold;
       color: inherit;
-  }
-  .ug-banner-index0 .green-home-banner-box .title {
-      color: black
   }
   .green-home-banner-box .sub {
       font-size: 1.2vw;
@@ -31,40 +27,21 @@
       margin: .5vw 0 1.2vw 0;
       color: inherit;
   }
-  .ug-banner-index0 .green-home-banner-box .sub {
-      color: black
-  }
   .green-home-banner-box .btn {
       display: inline-block;
-      height: 2.5vw;
       line-height: 2.5vw;
       text-align: center;
       padding: 0 1.67vw;
-      border: 2px solid white;
+      border: 2px solid;
       border-radius: 60px;
       font-size: 0.83vw;
       cursor: pointer;
       font-weight: 600;
   }
   .green-home-banner-box .btn:hover {
-      background: #00CC88;
+      background: #00CC88 !important;
       color: white;
-      border-color: #00CC88;
-  }
-  .ug-banner-index0 .green-home-banner-box .btn {
-      color: white;
-      background: black;
-      border-color: black;
-  }
-  .ug-banner-index0 .green-home-banner-box .btn:hover {
-      background: #00CC88;
-      color: white;
-      border-color: #00CC88;
-  }
-  .ug-banner-index0 .green-home-banner-box {
-      left: 5vw;
-      right: initial;
-      top: 10.292vw;
+      border-color: #00CC88 !important;
   }
   .green-home-banner-box .icon {
       /*width: .8em;*/
@@ -99,13 +76,12 @@
   .green-home-banner .swiper-pagination-bullet-active {
       background: rgba(255, 255, 255, 1);
   }
+  .green-home-banner .swiper-button-next:hover, .green-home-banner .swiper-button-prev:hover {
+       background: white;
+     }
   @media (max-width: 767px) {
       .green-home-banner {
           height: 580px
-      }
-      .ug-banner-index0 .green-home-banner-box {
-          top: 15%;
-          padding: 0 20px;
       }
       .green-home-banner-box {
           top: 15%;
@@ -139,6 +115,9 @@
           width: 40px;
           height: 4px;
       }
+     .green-home-banner  .swiper-button-next, .green-home-banner  .swiper-button-prev {
+       display: none;
+     }
   }
   {{ section.settings.custom_style }}
   /*banner*/
@@ -150,11 +129,13 @@
       {% assign settings = block.settings %}
       {% assign pc_image_url = settings.pc_image_url | split: '.' %}
       {% assign mobile_image_url = settings.mobile_image_url | split: '.' %}
-      <script>
-        console.log("{{ settings.className }}", 'forloop.index{{ forloop.index }}');
-      </script>
-      <a class="{{ settings.className }} swiper-slide swiper-index{{ forloop.index }}" href="{{ settings.link }}">
-        <div class="green-home-banner-box">
+      {% assign text_color = settings.text_color %}
+        {% assign className = settings.className %}
+      <a
+        class="swiper-slide swiper-index{{ forloop.index }} {{ className }}"
+        href="{{ settings.link }}"
+      >
+        <div class="green-home-banner-box" style="color: {{ text_color }};">
           {% if settings.title %}
             <div class="title">
               <p>{{ settings.title }}</p>
@@ -166,7 +147,7 @@
           {% endif %}
 
           {% unless settings.button_text == '' %}
-            <div class="btn">
+            <div class="btn" style="border-color: {{ text_color }};">
               <span>{{ settings.button_text }}</span>
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-xiayiye"></use>
@@ -182,38 +163,29 @@
       </a>
     {% endfor %}
   </div>
+  {% if  section.blocks.size != 1%}
   <div class="swiper-pagination"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
+  {% endif %}
 </section>
 
+{% if  section.blocks.size != 1%}
 <script>
-  
     $(function () {
-        if (!isMobile()) {
-            $('.green-home-banner .swiper-button-next,.green-home-banner .swiper-button-prev').hide();
-            $('.green-home-banner').mouseover(function () {
-                $('.green-home-banner .swiper-button-next,.green-home-banner .swiper-button-prev').show();
-            });
-
-            $('.green-home-banner').mouseleave(function () {
-                $('.green-home-banner .swiper-button-next,.green-home-banner .swiper-button-prev').hide();
-            });
-        } else {
-            $('.green-home-banner .swiper-button-next,.green-home-banner .swiper-button-prev').hide();
-        }
         const green615swiper = new Swiper('.green-home-banner', {
             direction: 'horizontal',
             loop: true,
+            threshold : 50, // 超过50px才算做滑动
             pagination: {
-                el: '.swiper-pagination',
+                el: '.green-home-banner  .swiper-pagination',
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.green-home-banner .swiper-button-next',
+                prevEl: '.green-home-banner .swiper-button-prev',
             },
             autoplay: {
-                delay: 5000,
+                delay: 500000,
             }
         })
         const banner_index = `{{ section.settings.banner_index }}`;
@@ -249,7 +221,9 @@
     })
 
 
+
 </script>
+  {% endif %}
 
 {% schema %}
 {
@@ -289,6 +263,12 @@
           "label": "Mobile image url"
         },
         {
+          "type": "color",
+          "id": "text_color",
+          "label": "文字颜色",
+          "default": "#000000"
+        },
+        {
           "type": "textarea",
           "id": "title",
           "label": "Title"
@@ -299,7 +279,7 @@
           "label": "Subtitle"
         },
         {
-          "type": "text",
+          "type": "textarea",
           "id": "button_text",
           "label": "Button text"
         },
