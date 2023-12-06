@@ -1885,6 +1885,7 @@
         "blocks": {
           "8d954c8a-601b-484c-a41a-790f2460396f": {
             "type": "menu-list",
+            "disabled": true,
             "settings": {
               "tab_id": 1,
               "product_list": [
@@ -1904,6 +1905,7 @@
           },
           "9347026d-7f1b-470c-9621-7a670784a680": {
             "type": "menu-list",
+            "disabled": true,
             "settings": {
               "tab_id": 2,
               "product_list": [
@@ -1923,6 +1925,7 @@
           },
           "70cd3a0b-9cd0-4f15-8d89-2b9892456d41": {
             "type": "menu-list",
+            "disabled": true,
             "settings": {
               "tab_id": 3,
               "product_list": [
@@ -1942,6 +1945,7 @@
           },
           "90862b21-7621-46e5-9f35-938af1220116": {
             "type": "menu-list",
+            "disabled": true,
             "settings": {
               "tab_id": 4,
               "product_list": [
@@ -1961,6 +1965,7 @@
           },
           "0cd81335-fb55-499b-ad85-629671fca690": {
             "type": "menu-list",
+            "disabled": true,
             "settings": {
               "tab_id": 5,
               "product_list": [
@@ -1980,6 +1985,7 @@
           },
           "7fd1d5b2-8613-4d10-ac02-dfdeda975306": {
             "type": "menu-list",
+            "disabled": true,
             "settings": {
               "tab_id": 6,
               "product_list": [
@@ -1999,6 +2005,7 @@
           },
           "8d865e21-cd0c-49dc-8913-1e3b6563bbed": {
             "type": "menu-list",
+            "disabled": true,
             "settings": {
               "tab_id": 7,
               "product_list": [
@@ -2018,6 +2025,7 @@
           },
           "92203dd8-5bd7-4e0d-9936-f47fd20d389f": {
             "type": "menu-list",
+            "disabled": true,
             "settings": {
               "tab_id": 8,
               "product_list": [
@@ -2034,7 +2042,6 @@
           },
           "55271217-a63a-4734-8e2a-999223f57f5f": {
             "type": "menu-list",
-            "disabled": true,
             "settings": {
               "tab_id": 1,
               "product_list": [
@@ -2053,9 +2060,8 @@
           },
           "240e63e4-6265-441a-ada9-9f867a25e653": {
             "type": "menu-list",
-            "disabled": true,
             "settings": {
-              "tab_id": 1,
+              "tab_id": 2,
               "product_list": [
 
               ],
@@ -2068,9 +2074,8 @@
           },
           "80335132-ad92-4cd9-aabb-ad325fbd4fe6": {
             "type": "menu-list",
-            "disabled": true,
             "settings": {
-              "tab_id": 1,
+              "tab_id": 3,
               "product_list": [
 
               ],
@@ -2083,9 +2088,8 @@
           },
           "cf9b79f8-6e45-4c01-afb9-87df6f6ae210": {
             "type": "menu-list",
-            "disabled": true,
             "settings": {
-              "tab_id": 1,
+              "tab_id": 4,
               "product_list": [
 
               ],
@@ -2098,9 +2102,8 @@
           },
           "f4d5cb8f-baa9-46d8-9184-8fbf687160dd": {
             "type": "menu-list",
-            "disabled": true,
             "settings": {
-              "tab_id": 1,
+              "tab_id": 5,
               "product_list": [
 
               ],
@@ -2113,47 +2116,44 @@
           },
           "ab16d3d5-1c8e-4cea-9bdf-3d5001f9a9cc": {
             "type": "menu-list",
-            "disabled": true,
             "settings": {
-              "tab_id": 1,
+              "tab_id": 6,
               "product_list": [
 
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "collection_name_list": "Support de voiture,\nSupports pour téléphone & tablette,\nSupport pour ordinateur,\nSacs pour PC",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/support-voiture-telephone,\nhttps:\/\/fr.ugreen.com\/collections\/support-telephone-bureau,\nhttps:\/\/fr.ugreen.com\/collections\/support-tablette-et-pc-portable,\nhttps:\/\/fr.ugreen.com\/collections\/sac-de-rangement",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/support",
+              "all_collection_name": "Tout voir"
             }
           },
           "acc76480-480d-4596-a8e9-b6aa38d39234": {
             "type": "menu-list",
-            "disabled": true,
             "settings": {
-              "tab_id": 1,
+              "tab_id": 7,
               "product_list": [
 
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "collection_name_list": "Câble Ethernet,\nLecteur de cartes,\nCâble de données,\nCartes de réseau câblé,\nCâble SATA",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-ethernet,\nhttps:\/\/fr.ugreen.com\/collections\/lecteur-de-carte,\nhttps:\/\/fr.ugreen.com\/collections\/cable-dvi-vga,\nhttps:\/\/fr.ugreen.com\/collections\/cartes-reseau-cablees,\nhttps:\/\/fr.ugreen.com\/collections\/hard-drive-enclosures",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/accessoires-pour-pc",
+              "all_collection_name": "Plus d'accessoires"
             }
           },
           "7041f73a-9f85-48c7-832b-2b212d695e7d": {
             "type": "menu-list",
-            "disabled": true,
             "settings": {
-              "tab_id": 1,
+              "tab_id": 8,
               "product_list": [
 
               ],
               "tag_list": "",
-              "collection_name_list": "",
-              "collection_link_list": "",
-              "all_collection_url": "",
-              "all_collection_name": ""
+              "collection_name_list": "Câble HDMI,\nCommutateur audio-vidéo,\nCarte son,\nRécepteur et émetteur Bluetooth",
+              "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/cable-hdmi,\nhttps:\/\/fr.ugreen.com\/collections\/cable-audio,\nhttps:\/\/fr.ugreen.com\/collections\/carte-son,\nhttps:\/\/fr.ugreen.com\/collections\/bluetooth",
+              "all_collection_url": "https:\/\/fr.ugreen.com\/collections\/audio-video",
+              "all_collection_name": "Plus d'audio et vidéo"
             }
           }
         },
