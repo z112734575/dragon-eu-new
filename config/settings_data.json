@@ -2031,6 +2031,130 @@
               "all_collection_url": "shopify:\/\/collections\/centrale-electrique",
               "all_collection_name": "centrale électrique"
             }
+          },
+          "55271217-a63a-4734-8e2a-999223f57f5f": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-nexode-300w-usb-c-gan-chargeur",
+                "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
+                "ugreen-nexode-100w-chargeur-usb-c-gan-magsafe-15w",
+                "ugreen-nexode-chargeur-45w-usb-c-2-ports",
+                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports"
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "shopify:\/\/collections\/nexode-series",
+              "all_collection_name": "Explorer Nexode"
+            }
+          },
+          "240e63e4-6265-441a-ada9-9f867a25e653": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "80335132-ad92-4cd9-aabb-ad325fbd4fe6": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "f4d5cb8f-baa9-46d8-9184-8fbf687160dd": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "cf9b79f8-6e45-4c01-afb9-87df6f6ae210": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "ab16d3d5-1c8e-4cea-9bdf-3d5001f9a9cc": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "acc76480-480d-4596-a8e9-b6aa38d39234": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
+          },
+          "7041f73a-9f85-48c7-832b-2b212d695e7d": {
+            "type": "menu-list",
+            "disabled": true,
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "",
+              "all_collection_name": ""
+            }
           }
         },
         "block_order": [
@@ -2041,7 +2165,15 @@
           "0cd81335-fb55-499b-ad85-629671fca690",
           "7fd1d5b2-8613-4d10-ac02-dfdeda975306",
           "8d865e21-cd0c-49dc-8913-1e3b6563bbed",
-          "92203dd8-5bd7-4e0d-9936-f47fd20d389f"
+          "92203dd8-5bd7-4e0d-9936-f47fd20d389f",
+          "55271217-a63a-4734-8e2a-999223f57f5f",
+          "240e63e4-6265-441a-ada9-9f867a25e653",
+          "80335132-ad92-4cd9-aabb-ad325fbd4fe6",
+          "f4d5cb8f-baa9-46d8-9184-8fbf687160dd",
+          "cf9b79f8-6e45-4c01-afb9-87df6f6ae210",
+          "ab16d3d5-1c8e-4cea-9bdf-3d5001f9a9cc",
+          "acc76480-480d-4596-a8e9-b6aa38d39234",
+          "7041f73a-9f85-48c7-832b-2b212d695e7d"
         ],
         "settings": {
           "show_price": true,
