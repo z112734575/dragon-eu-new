@@ -1751,6 +1751,30 @@
               "lb_cl": "#ec0101"
             }
           },
+          "9662196b-5016-4c2f-a928-3ea810b613f3": {
+            "type": "menu",
+            "settings": {
+              "title": "Bundles",
+              "url": "shopify:\/\/collections\/bundle",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "63d17328-6717-4877-a2a5-d31121a1ced3": {
+            "type": "menu",
+            "settings": {
+              "title": "Nexode 300W",
+              "url": "https:\/\/fr.ugreen.com\/products\/ugreen-nexode-300w-usb-c-gan-chargeur",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "Star",
+              "lb_cl": "#ec8e01"
+            }
+          },
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58": {
             "type": "menu",
             "disabled": true,
@@ -1881,6 +1905,8 @@
           "978de359-1bb0-4204-91e0-084625271217",
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
+          "9662196b-5016-4c2f-a928-3ea810b613f3",
+          "63d17328-6717-4877-a2a5-d31121a1ced3",
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
           "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf",
