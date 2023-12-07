@@ -13,6 +13,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/aicu8-505ns.png?v=1701425286",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ae42c-r48fu.png?v=1701425286",
+            "text_color": "#fff",
             "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Ugreen USB-C Série<\/strong>",
             "subtitle": "Innover pour l'avenir",
             "button_text": "Achetez maintenant",
@@ -26,6 +27,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__pc_f45d51c8-423a-4e6e-9099-39e3a28e0e68.webp?v=1699600279",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__mo_e51212da-4cc7-43c3-82f5-d8b53c373c8c.webp?v=1699600278",
+            "text_color": "#000000",
             "title": "Ugreen <strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Cyber Monday SALE!<\/strong>",
             "subtitle": "Offres exclusives du Cyber ​​Monday !<br><font size=\"4\" color=\"White\"><strong>Dernière chance<\/strong><\/font>  <font size=\"5.5\" color=\"Yellow\"><strong>40%<\/strong><\/font> DE RÉDUCTION  <b> 17 nov - 27 nov, 2023<\/b>",
             "button_text": "ACHETEZ MAINTENANT",
@@ -38,6 +40,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_39bcc587-8212-4e74-bf67-d0c2a03b1037.webp?v=1693892164",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner_mobile_e43abc6d-669f-439e-94a6-42a504d3d779.webp?v=1693892249",
+            "text_color": "#000000",
             "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Nexode 300W Chargeur<\/strong>",
             "subtitle": "Chargeur multiport USB C 5-en-1",
             "button_text": "Achetez maintenant",
@@ -50,6 +53,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU_2.png?v=1696841752",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU.png?v=1696841739",
+            "text_color": "#000000",
             "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN PowerRoam 2200 Centrale électrique portable<\/strong>",
             "subtitle": "Alimentez n’importe quoi, n’importe quand et n’importe où",
             "button_text": "acheter maintenant",
