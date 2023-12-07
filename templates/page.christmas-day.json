@@ -1,12 +1,25 @@
 {
   "sections": {
+    "df3ccecb-df3a-431e-8b1c-3cdbdb58a383": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n*{cursor: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0697\/8207\/7746\/files\/amcde-7aiar-001.ico?v=1701932076), default;}\n\n#MainContent{background: #EBF4DF!important;}\n#snow{\nposition: absolute;\n}\n#MainContent .cursor-btns .cursor-btn{\nbackground: transparent;\n    border: 1px solid #104533;\ncolor: #104533;\n}\n#MainContent .cursor-btns .cursor-btn:hover{\nbackground: #104533;\n}\n#MainContent .cursor-btns .cursor-btn:hover, #MainContent .cursor-btns .cursor-btn.swiper-slide-thumb-active {\ncolor: white;\nbackground: #104533;\n}\n#MainContent .banner_content{\n    top: 11.25vw;\n    left: 28vw;\n    color: white;\n    text-align: left;\n}\n#MainContent .banner_content h1{\ncolor: white;\n}\n#MainContent .banner_content .time{\ndisplay: none;\n}\n#MainContent .banner_content h3:after{display: none;}\n@media (max-width: 768px){\n#MainContent \n .banner_content{\nposition: absolute;\n    top: 3.25vw;\n    left: 50%;\n    color: white;\n    text-align: center;\n    transform: translateX(-50%);\n}\n}\n<\/style>\n<canvas id=\"snow\"><\/canvas>\n<script>\n(function(){\n    var canvas = document.getElementById(\"snow\");\n    var ctx = canvas.getContext(\"2d\");\n    var flakeArray = [];\n\n    canvas.style.pointerEvents = \"none\";\n    canvas.style.position = \"fixed\";\n    canvas.style.top = 0;\n    canvas.style.left = 0;\n    canvas.style.width = \"100vw\";\n    canvas.style.height = \"100vh\";\n    canvas.style.zIndex = 1;\n    canvas.style.userSelect = \"none\";\n\n    function canvasResize(){\n        canvas.height = canvas.offsetHeight;\n        canvas.width = canvas.offsetWidth;\n    }\n    canvasResize();\n\n    window.onresize = function() {\n        canvasResize();\n    };\n\n    var MyMath = Math;\n\n    setInterval(function() {\n        ctx.clearRect(0, 0, canvas.width, canvas.height);\n        ctx.beginPath();\n\n        var random = MyMath.random();\n        var distance = .05 + .95 * random;\n\n        flake = {};\n        flake.x = 1.5 * canvas.width * MyMath.random() - .5 * canvas.width;\n        flake.y = -9;\n        flake.velX = 2 * distance * (MyMath.random() \/ 2 + .5);\n        flake.velY = (4 + 2 * MyMath.random()) * distance;\n        flake.radius = MyMath.pow(5 * random, 2) \/ 5;\n        flake.update = function() {\n            var t = this;\n            t.x += t.velX;\n            t.y += t.velY;\n            ctx.beginPath();\n            ctx.arc(t.x, t.y, t.radius, 0, 2 * MyMath.PI, !1);\n            ctx.fillStyle = \"#FFF\";\n            ctx.fill()\n        };\n\n        flakeArray.push(flake);\n\n        for (b = 0; b < flakeArray.length; b++) {\n            flakeArray[b].y > canvas.height ? flakeArray.splice(b, 1) : flakeArray[b].update()\n        }\n    }, 16);\n})();\n<\/script>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "black_friday_banner": {
       "type": "black_friday_banner",
       "settings": {
         "action_id": "e9a004e3-2d50-47b2-a224-11e19f45a270",
         "is_pre": false,
-        "pc_image": "shopify:\/\/shop_images\/EU__pc_60f206b6-40f2-4884-93c9-1d2c6208a87f.webp",
-        "mobile_image": "shopify:\/\/shop_images\/EU__mo_7cc0d12f-f9e1-41ef-bd76-7b4c9702ec1d.webp",
+        "pc_image": "shopify:\/\/shop_images\/banner_pc_f0202c25-1d2a-4ba8-be1f-1354f88f1722.webp",
+        "mobile_image": "shopify:\/\/shop_images\/banner_mo.webp",
         "title": "<span>2023<\/span> <strong>Cyber Monday Sale<\/strong>",
         "subtitle": "Letzter Aufruf für Ersparnisse! Letzte Gelegenheit, Rabatte BIS ZU 40% zu sichern",
         "email_btn_text": "Sign Up Now",
@@ -43,7 +56,7 @@
     "ug-product-list": {
       "type": "ug-product-list",
       "settings": {
-        "item_type": "black_friday",
+        "item_type": "default",
         "product_list": [
           "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
           "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
@@ -60,13 +73,13 @@
         "section_id": "ug-product-list",
         "pc_product_type": "column",
         "mobile_product_type": "row",
-        "title_color": "#ffffff",
-        "product_item_bg_color": "#242320",
+        "title_color": "#000000",
+        "product_item_bg_color": "#ffffff",
         "pc_product_item_img_size": "80%",
         "mobile_product_item_img_size": "80%",
         "pc_row": "3",
         "mobile_row": "2",
-        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/ta2_pc.webp?v=1698051782",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0697\/8207\/7746\/files\/Intersect.png?v=1701930445",
         "pc_product_sale_width": "80px",
         "mobile_product_sale_width": "60px",
         "pc_padding": "140px 0 120px 0",
@@ -305,19 +318,19 @@
         "03bc0a7f-3461-439c-837b-d6c82cf28237"
       ],
       "settings": {
-        "item_type": "black_friday",
+        "item_type": "default",
         "section_id": "tabs_product",
         "section_icon": "",
         "section_title": "Vente Flash",
         "sub_title": "",
         "list_all": "9",
-        "title_color": "#ffffff",
-        "product_item_bg_color": "#242320",
+        "title_color": "#000000",
+        "product_item_bg_color": "#ffffff",
         "pc_product_item_img_size": "80%",
         "mobile_product_item_img_size": "80%",
         "pc_row": "4",
         "mobile_row": "2",
-        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/ta2_pc.webp?v=1698051782",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0697\/8207\/7746\/files\/Intersect.png?v=1701930445",
         "pc_product_sale_width": "80px",
         "mobile_product_sale_width": "60px",
         "pc_padding": "35px 0 120px 0",
@@ -333,6 +346,7 @@
     }
   },
   "order": [
+    "df3ccecb-df3a-431e-8b1c-3cdbdb58a383",
     "black_friday_banner",
     "black_friday_step",
     "gift_card",
