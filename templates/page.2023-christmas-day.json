@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "black_friday_banner": {
+      "type": "black_friday_banner",
+      "custom_css": [
+        "@media (max-width: 768px) {.black_friday_banner .banner_content {top: 40px; } .banner_content h3:after {display: none; }}"
+      ],
+      "settings": {
+        "action_id": "49150c8f-f37e-4c36-b637-5603d839610d",
+        "is_pre": false,
+        "pc_image": "shopify:\/\/shop_images\/EU__pc_c13e387c-6b37-4bc4-8e4c-982e853f8e33.webp",
+        "mobile_image": "shopify:\/\/shop_images\/EU__mo_182bdd40-355a-40aa-ad44-9ff7ed348f12.webp",
+        "title": "<span>Ugreen<\/span> <strong>Cyber Monday<\/strong> <span>Flash Sale!<\/span>",
+        "subtitle": "Only for a limited time - grab unbeatable deals now.",
+        "email_btn_text": "Sign Up Now",
+        "email_tips": "Use it to stack up your savings during our Black Friday event!",
+        "time": "Nov. 27. 2023"
+      }
+    },
+    "black_friday_step": {
+      "type": "black_friday_step",
+      "disabled": true,
+      "settings": {
+        "step_type": "1",
+        "title": "Black Friday & Cyber Monday Schedule",
+        "subtitle": "",
+        "step1_text": "Black Friday Early Access！",
+        "step1_time": "Nov. 10 - Nov.16",
+        "step2_text": "Black Friday Extravaganza！",
+        "step2_time": "Nov. 17 - Nov.24",
+        "step3_text": "Cyber Monday Bonanza！",
+        "step3_time": "Nov. 25 - Nov. 27",
+        "padding_pc": "120px 0 0 0",
+        "padding_mobile": "60px 0 0 0"
+      }
+    },
+    "gift_card": {
+      "type": "gift_card_black",
+      "disabled": true,
+      "settings": {
+        "section_title": "Purchase a 10% OFF BFCM Gift Card",
+        "sub_title": "Get ready for Black Friday by purchasing a 10% off gift card today.",
+        "product": "2023-ugreen-halloween-gift-card"
+      }
+    },
+    "ug-tabs-product-list": {
+      "type": "ug-tabs-product-list",
+      "blocks": {
+        "2632b153-e4f5-4946-9146-3002be2c2b29": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Charger",
+            "product_list": [
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-nexode-100w-usb-c-wall-charger",
+              "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-65w-usb-c-pd-charger-4-ports",
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
+              "ugreen-30w-usb-c-charger-with-pd3-0",
+              "ugreen-nexode-usb-c-charger-100w-gan-desktop-charger-4-ports-laptop-adapter",
+              "ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger"
+            ]
+          }
+        },
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Docks & Hubs",
+            "product_list": [
+              "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "ugreen-6-in-1-usb-c-hub",
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-usb-c-hub-4k-60hz-6-in-1-usb-c-hub-multiport-adapter-with-3-usb-3-0-1-hdmi-ports-sd-tf-card-reader-usb-c-dongle-for-laptop-tablet-ipad-macbook-pro-air-dell-samsung-iphone-15-pro-pro-max",
+              "ugreen-usb-c-multiport-adapter-usb-c-hub-hdmi-ultra-slim-with-4-usb-3-0-ports-for-data-transfer",
+              "ugreen-macbook-pro-adapter-6-in-2-hub-adapter",
+              "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio"
+            ]
+          }
+        },
+        "d34e9e35-2164-4636-9cba-8b376d673c3c": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Hard Drive Enclosures",
+            "product_list": [
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-ssd-caddy",
+              "ugreen-2-5-inch-hard-drive-enclosure-sata-hdd-caddy-external-usb-3-0-hard-disk-case-sata-ssd-reader-uasp-supported-compatible-with-2-5-inch-ssd-hdd-evo-870-wd-crucial-drive-with-0-3m-micro-usb-cable",
+              "ugreen-m2-nvme-10-gbps-ssd-enclosure",
+              "ugreen-2-5-inch-usb-c-3-1-6gbps-hard-drive-enclosure",
+              "weekly-sale-product-m2-gehause1",
+              "ugreen-2-5-inch-6gbps-type-c-hard-drive-enclosure",
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-nvme-external-enclosure-aluminum-tool-free-hard-drive-enclosure-support-uasp-trim-nvme-pcie-adapter-for-m-and-m-b-key-in-2230-2242-2260-2280-ssd",
+              "ugreen-2-5-inch-hard-drive-enclosure-external-usb-3-0-hard-disk-case-sata-hdd-caddy-5gbps-uasp-supported-compatible-with-wd-evo-seagate-toshiba-crucial-kingston-0-5m-usb-a-cable"
+            ]
+          }
+        },
+        "82e89c4e-58ed-4668-b5e0-707f3f82a435": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "For Laptop",
+            "product_list": [
+              "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+              "ugreen-360-rotating-laptop-tablet-stand-holder",
+              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "snap-deal-ugreen-cat-8-ethernet-cable-high-speed-40gbps-2000mhz",
+              "ugreen-cable-4k-60hz-hdmi-cable",
+              "ugreen-2-bay-hard-drive-enclosure-2-x-16tb-raid-array-dual-bay-hard-drive-tray-for-3-5-2-5-inch-hdd-ssd-2-5-hard-drive-docking-station-for-with-quiet-fan-supports-raid-0-1-10-pm-large-clone-mode"
+            ]
+          }
+        },
+        "577176c8-d4ad-487d-995b-897189b25986": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "For Car",
+            "product_list": [
+              "ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger",
+              "ugreen-24w-usb-c-car-charger-with-pd-qc3-0-dual-ports",
+              "ugreen-36w-qc3-0-car-charger-with-usb-c-cable-dual-usb-ports",
+              "ugreen-hands-free-air-vent-car-phone-holder",
+              "ugreen-car-vent-phone-mount",
+              "usb-3-0-card-reader-with-sd-tf",
+              "ugreen-bluetooth-aux-adapter",
+              "ugreen-usb-to-micro-usb-cable"
+            ]
+          }
+        },
+        "e262d77a-9f38-448e-9f36-447219ea793f": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "For Phone&Tablet",
+            "product_list": [
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "ugreen-aluminum-adjustable-tablet-stand",
+              "ugreen-10000mah-magsafe-wireless-power-bank",
+              "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-nexode-mini-45w-dual-usb-c-charger"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "2632b153-e4f5-4946-9146-3002be2c2b29",
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
+        "d34e9e35-2164-4636-9cba-8b376d673c3c",
+        "82e89c4e-58ed-4668-b5e0-707f3f82a435",
+        "577176c8-d4ad-487d-995b-897189b25986",
+        "e262d77a-9f38-448e-9f36-447219ea793f"
+      ],
+      "settings": {
+        "item_type": "black_friday",
+        "section_id": "tabs_product",
+        "section_icon": "",
+        "section_title": "Up To 40% OFF",
+        "sub_title": "",
+        "list_all": "6",
+        "title_color": "#ffffff",
+        "product_item_bg_color": "#242320",
+        "pc_product_item_img_size": "80%",
+        "mobile_product_item_img_size": "80%",
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/ta2_pc.webp?v=1698051782",
+        "pc_product_sale_width": "80px",
+        "mobile_product_sale_width": "60px",
+        "pc_padding": "35px 0 80px 0",
+        "mobile_padding": "5px 0 80px 0",
+        "need_load_more": false,
+        "load_more_default_count": 4,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": false,
+        "show_learn_btn": false,
+        "show_code": true
+      }
+    },
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "item_type": "black_friday",
+        "product_list": [
+          "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+          "ugreen-65w-usb-c-pd-charger-4-ports",
+          "ugreen-nexode-100w-usb-c-wall-charger",
+          "ugreen-145w-power-bank-for-laptop",
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+          "ugreen-6-in-1-usb-c-hub",
+          "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+          "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh"
+        ],
+        "title": "Black Friday Hot Sale",
+        "subtitle": "",
+        "section_id": "ug-product-list",
+        "pc_product_type": "column",
+        "mobile_product_type": "row",
+        "title_color": "#ffffff",
+        "product_item_bg_color": "#242320",
+        "pc_product_item_img_size": "80%",
+        "mobile_product_item_img_size": "80%",
+        "pc_row": "3",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/ta2_pc.webp?v=1698051782",
+        "pc_product_sale_width": "80px",
+        "mobile_product_sale_width": "60px",
+        "pc_padding": "140px 0 120px 0",
+        "mobile_padding": "60px 0 30px 0",
+        "need_load_more": false,
+        "load_more_default_count": 3,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true,
+        "show_code": true
+      }
+    }
+  },
+  "order": [
+    "black_friday_banner",
+    "black_friday_step",
+    "gift_card",
+    "ug-tabs-product-list",
+    "ug-product-list"
+  ]
+}
