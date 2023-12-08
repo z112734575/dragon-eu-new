@@ -160,6 +160,15 @@
               "ugreen-nexode-65w-usb-c-wall-charger-3-ports"
             ]
           }
+        },
+        "4f24d1ed-265b-405c-87c1-b1df8bacfe35": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Clearance Sale",
+            "product_list": [
+
+            ]
+          }
         }
       },
       "block_order": [
@@ -168,7 +177,8 @@
         "d34e9e35-2164-4636-9cba-8b376d673c3c",
         "82e89c4e-58ed-4668-b5e0-707f3f82a435",
         "577176c8-d4ad-487d-995b-897189b25986",
-        "e262d77a-9f38-448e-9f36-447219ea793f"
+        "e262d77a-9f38-448e-9f36-447219ea793f",
+        "4f24d1ed-265b-405c-87c1-b1df8bacfe35"
       ],
       "settings": {
         "item_type": "default",
