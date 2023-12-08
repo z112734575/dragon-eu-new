@@ -13,9 +13,9 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/pc_cb9bba0f-9985-4288-af2d-f34d9c42e693.webp?v=1701998614",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/mo.webp?v=1701998613",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Célébrez le jour de Noël avec Ugreen<\/strong>",
-            "subtitle": "<font size=\"5.5\" color=\"Yellow\"><strong>30%<\/strong><\/font> DE RÉDUCTION  <br>8 déc. - 25 déc. 2023",
+            "subtitle": "Jusqu'à<b style=\"color : #FEFEA5 ;\"> 30%<\/b> de réduction sur les offres spéciales de Noël",
             "button_text": "Acheter maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-christmas-sales",
             "className": ""
