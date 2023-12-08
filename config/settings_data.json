@@ -730,10 +730,9 @@
           },
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416": {
             "type": "base",
-            "disabled": true,
             "settings": {
-              "title": "🔥2023 Black Friday",
-              "url": "shopify:\/\/pages\/black-friday-cyber-monday",
+              "title": "🔥Offre de Noël",
+              "url": "shopify:\/\/pages\/ugreen-christmas-sales",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -794,6 +793,7 @@
           },
           "7eeb88e9-7627-4339-8a38-595660bcafab": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "Nexode 300W",
               "url": "https:\/\/fr.ugreen.com\/products\/ugreen-nexode-300w-usb-c-gan-chargeur",
@@ -1722,6 +1722,18 @@
               "open": true
             }
           },
+          "74abf930-8362-4e67-a9df-d02be16b9c4e": {
+            "type": "menu",
+            "settings": {
+              "title": "🔥Offre de Noël",
+              "url": "shopify:\/\/pages\/ugreen-christmas-sales",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "Hot",
+              "lb_cl": "#ec0101"
+            }
+          },
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a": {
             "type": "collection_list",
             "disabled": true,
@@ -1785,6 +1797,7 @@
           },
           "63d17328-6717-4877-a2a5-d31121a1ced3": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Nexode 300W",
               "url": "https:\/\/fr.ugreen.com\/products\/ugreen-nexode-300w-usb-c-gan-chargeur",
@@ -1806,19 +1819,6 @@
               "icon": "",
               "lb": "",
               "lb_cl": ""
-            }
-          },
-          "74abf930-8362-4e67-a9df-d02be16b9c4e": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "2023 Black Friday",
-              "url": "shopify:\/\/pages\/black-friday-cyber-monday",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "HOT",
-              "lb_cl": "#de4156"
             }
           },
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf": {
@@ -1923,12 +1923,12 @@
         },
         "block_order": [
           "978de359-1bb0-4204-91e0-084625271217",
+          "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
           "9662196b-5016-4c2f-a928-3ea810b613f3",
           "63d17328-6717-4877-a2a5-d31121a1ced3",
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
-          "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf",
           "06092e7b-58cd-4790-9721-e86ddd55d4a0",
           "mb_nav-4",
