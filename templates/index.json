@@ -8,12 +8,25 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/pc_cb9bba0f-9985-4288-af2d-f34d9c42e693.webp?v=1701998614",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/mo.webp?v=1701998613",
+            "text_color": "#000000",
+            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Célébrez le jour de Noël avec Ugreen<\/strong>",
+            "subtitle": "<font size=\"5.5\" color=\"Yellow\"><strong>30%<\/strong><\/font> DE RÉDUCTION  <br>8 déc. - 25 déc. 2023",
+            "button_text": "Acheter maintenant",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-christmas-sales",
+            "className": ""
+          }
+        },
         "ug-index-carousel-1": {
           "type": "ug-index-carousel-item",
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/aicu8-505ns.png?v=1701425286",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ae42c-r48fu.png?v=1701425286",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Ugreen USB-C Série<\/strong>",
             "subtitle": "Innover pour l'avenir",
             "button_text": "Achetez maintenant",
@@ -29,7 +42,7 @@
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__mo_e51212da-4cc7-43c3-82f5-d8b53c373c8c.webp?v=1699600278",
             "text_color": "#000000",
             "title": "Ugreen <strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Cyber Monday SALE!<\/strong>",
-            "subtitle": "Offres exclusives du Cyber ​​Monday !<br><font size=\"4\" color=\"White\"><strong>Dernière chance<\/strong><\/font>  <font size=\"5.5\" color=\"Yellow\"><strong>40%<\/strong><\/font> DE RÉDUCTION  <b> 17 nov - 27 nov, 2023<\/b>",
+            "subtitle": "Offre spéciale jusqu'à<br><font size=\"4\" color=\"White\"><strong>Dernière chance<\/strong><\/font>  <font size=\"5.5\" color=\"Yellow\"><strong>30%<\/strong><\/font> DE RÉDUCTION  <b> 8 déc. - 25 déc. 2023<\/b>",
             "button_text": "ACHETEZ MAINTENANT",
             "link": "https:\/\/fr.ugreen.com\/pages\/black-friday-cyber-monday",
             "className": ""
@@ -63,6 +76,7 @@
         }
       },
       "block_order": [
+        "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "ug-index-carousel-1",
         "10849ca4-37de-4928-971c-7047e115dc60",
         "ug-index-carousel-11",
