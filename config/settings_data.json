@@ -568,7 +568,7 @@
           "101ecac9-440d-4e63-964b-7b61a6ba0013": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>Free shipping<\/strong> on orders over €14;;;<a href=\"\/pages\/ugreen-christmas-sales\" title=\"Offrez-vous du bonheur avec les soldes de Noël Ugreen\"><strong>Vente de Noël Jusqu'à 30 % de réduction<\/strong>&gt;&gt; Acheter maintenant<\/a><\/p>",
+              "text": "<p><strong>Free shipping<\/strong> on orders over €14;;;🎄🎁<a href=\"\/pages\/ugreen-christmas-sales\" title=\"Offrez-vous du bonheur avec les soldes de Noël Ugreen\"><strong>Vente de Noël Jusqu'à 30 % de réduction<\/strong>&gt;&gt; Acheter maintenant<\/a><\/p>",
               "countdown": "2022\/04\/19",
               "txt_day": "days",
               "dayx": 0,
@@ -1725,7 +1725,7 @@
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
             "settings": {
-              "title": "🔥Offre de Noël",
+              "title": "🎁Offre de Noël",
               "url": "shopify:\/\/pages\/ugreen-christmas-sales",
               "open_link": "_self",
               "menu": "",
