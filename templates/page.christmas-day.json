@@ -58,15 +58,15 @@
       "settings": {
         "item_type": "default",
         "product_list": [
-          "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
-          "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
-          "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
+          "ugreen-nexode-300w-chargeur-with-1m-100w-usb-c-cable",
           "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
           "ugreen-nexode-100w-usb-c-chargeur-rapide-4-ports-with-2-charge-cable-usb-c",
           "ugreen-nexode-200w-gan-chargeur-usb-c-6-ports",
-          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w",
+          "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
+          "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
+          "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
           "ugreen-65w-chargeur-usb-c-4-ports-with-cable-usb-c-vers-usb-c-coude-pd-60w-charge-rapide",
-          "ugreen-nexode-300w-chargeur-with-1m-100w-usb-c-cable"
+          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w"
         ],
         "title": "Ensemble Exceptionnel",
         "subtitle": "",
@@ -101,11 +101,11 @@
           "settings": {
             "tabs_title": "GaN Chargeurs",
             "product_list": [
+              "ugreen-nexode-300w-usb-c-gan-chargeur",
               "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
+              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
               "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
               "ugreen-nexode-chargeur-20w-usb-c",
-              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
-              "ugreen-nexode-300w-usb-c-gan-chargeur",
               "ugreen-nexode-chargeur-45w-usb-c-2-ports",
               "ugreen-nexode-chargeur-30w-usb-c",
               "ugreen-65w-chargeur-usb-c-4-ports",
