@@ -1,0 +1,270 @@
+{
+  "sections": {
+    "d705da8d-30f2-4139-855c-0f88b8cbe5fd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    * {\n        cursor: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0697\/8207\/7746\/files\/amcde-7aiar-001.ico?v=1701932076), default;\n    }\n\n    #MainContent {\n        background: #EBF4DF !important;\n    }\n\n    #snow {\n        position: absolute;\n    }\n\n    #MainContent .cursor-btns .cursor-btn {\n        background: transparent;\n        border: 1px solid #104533;\n        color: #104533;\n    }\n\n    #MainContent .cursor-btns .cursor-btn:hover {\n        background: #104533;\n    }\n\n    #MainContent .cursor-btns .cursor-btn:hover,\n    #MainContent .cursor-btns .cursor-btn.swiper-slide-thumb-active {\n        color: white;\n        background: #104533;\n    }\n\n    #MainContent .banner_content {\n        top: 11.25vw;\n        left: 28vw;\n        color: white;\n        text-align: left;\n    }\n\n    #MainContent .banner_content h1 {\n        color: white;\n    }\n\n    #MainContent .banner_content .time {\n        display: none;\n    }\n\n    #MainContent .banner_content h3:after {\n        display: none;\n    }\n\n    @media (max-width: 768px) {\n        #MainContent .banner_content {\n            position: absolute;\n            top: 3.25vw;\n            left: 50%;\n            color: white;\n            text-align: center;\n            transform: translateX(-50%);\n        }\n\n        #MainContent .tabs_products_list .cursor-btns {\n            background: #EBF4DF !important;\n        }\n    }\n<\/style>\n<canvas id=\"snow\"><\/canvas>\n<script>\n    (function () {\n        var canvas = document.getElementById(\"snow\");\n        var ctx = canvas.getContext(\"2d\");\n        var flakeArray = [];\n\n        canvas.style.pointerEvents = \"none\";\n        canvas.style.position = \"fixed\";\n        canvas.style.top = 0;\n        canvas.style.left = 0;\n        canvas.style.width = \"100vw\";\n        canvas.style.height = \"100vh\";\n        canvas.style.zIndex = 1;\n        canvas.style.userSelect = \"none\";\n\n        function canvasResize() {\n            canvas.height = canvas.offsetHeight;\n            canvas.width = canvas.offsetWidth;\n        }\n        canvasResize();\n\n        window.onresize = function () {\n            canvasResize();\n        };\n\n        var MyMath = Math;\n\n        setInterval(function () {\n            ctx.clearRect(0, 0, canvas.width, canvas.height);\n            ctx.beginPath();\n\n            var random = MyMath.random();\n            var distance = .05 + .95 * random;\n\n            flake = {};\n            flake.x = 1.5 * canvas.width * MyMath.random() - .5 * canvas.width;\n            flake.y = -9;\n            flake.velX = 2 * distance * (MyMath.random() \/ 2 + .5);\n            flake.velY = (4 + 2 * MyMath.random()) * distance;\n            flake.radius = MyMath.pow(5 * random, 2) \/ 5;\n            flake.update = function () {\n                var t = this;\n                t.x += t.velX;\n                t.y += t.velY;\n                ctx.beginPath();\n                ctx.arc(t.x, t.y, t.radius, 0, 2 * MyMath.PI, !1);\n                ctx.fillStyle = \"#FFF\";\n                ctx.fill()\n            };\n\n            flakeArray.push(flake);\n\n            for (b = 0; b < flakeArray.length; b++) {\n                flakeArray[b].y > canvas.height ? flakeArray.splice(b, 1) : flakeArray[b].update()\n            }\n        }, 16);\n    })();\n<\/script>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "black_friday_banner": {
+      "type": "black_friday_banner",
+      "custom_css": [
+        "@media (max-width: 768px) {.black_friday_banner .banner_content {top: 40px; } .banner_content h3:after {display: none; }}"
+      ],
+      "settings": {
+        "action_id": "49150c8f-f37e-4c36-b637-5603d839610d",
+        "is_pre": false,
+        "pc_image": "shopify:\/\/shop_images\/DE_banner_pc.webp",
+        "mobile_image": "shopify:\/\/shop_images\/DE_banner_mo.webp",
+        "title": "Celebrate the <br> Season  with Ugreen",
+        "subtitle": "Up to <b style=\"color: #FEFEA5;\">30%<\/b> OFF Special Christmas Deals",
+        "email_btn_text": "Sign Up Now",
+        "email_tips": "Use it to stack up your savings during our Black Friday event!",
+        "time": "Nov. 27. 2023"
+      }
+    },
+    "black_friday_step": {
+      "type": "black_friday_step",
+      "disabled": true,
+      "settings": {
+        "step_type": "1",
+        "title": "Black Friday & Cyber Monday Schedule",
+        "subtitle": "",
+        "step1_text": "Black Friday Early Access！",
+        "step1_time": "Nov. 10 - Nov.16",
+        "step2_text": "Black Friday Extravaganza！",
+        "step2_time": "Nov. 17 - Nov.24",
+        "step3_text": "Cyber Monday Bonanza！",
+        "step3_time": "Nov. 25 - Nov. 27",
+        "padding_pc": "120px 0 0 0",
+        "padding_mobile": "60px 0 0 0"
+      }
+    },
+    "gift_card": {
+      "type": "gift_card_black",
+      "disabled": true,
+      "settings": {
+        "section_title": "Purchase a 10% OFF BFCM Gift Card",
+        "sub_title": "Get ready for Black Friday by purchasing a 10% off gift card today.",
+        "product": "2023-ugreen-halloween-gift-card"
+      }
+    },
+    "ug-tabs-product-list": {
+      "type": "ug-tabs-product-list",
+      "blocks": {
+        "2632b153-e4f5-4946-9146-3002be2c2b29": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Charger",
+            "product_list": [
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+              "ugreen-nexode-100w-usb-c-wall-charger",
+              "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-nexode-140w-usb-c-wall-charger",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
+              "ugreen-30w-usb-c-charger-with-pd3-0",
+              "ugreen-nexode-usb-c-charger-100w-gan-desktop-charger-4-ports-laptop-adapter",
+              "ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger",
+              "ugreen-65w-usb-c-pd-charger-4-ports"
+            ]
+          }
+        },
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Docks & Hubs",
+            "product_list": [
+              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "ugreen-6-in-1-usb-c-hub",
+              "ugreen-usb-c-triple-display-docking-station",
+              "ugreen-usb-c-hub-4k-60hz-6-in-1-usb-c-hub-multiport-adapter-with-3-usb-3-0-1-hdmi-ports-sd-tf-card-reader-usb-c-dongle-for-laptop-tablet-ipad-macbook-pro-air-dell-samsung-iphone-15-pro-pro-max",
+              "ugreen-usb-c-multiport-adapter-usb-c-hub-hdmi-ultra-slim-with-4-usb-3-0-ports-for-data-transfer",
+              "ugreen-macbook-pro-adapter-6-in-2-hub-adapter",
+              "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
+              "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station"
+            ]
+          }
+        },
+        "d34e9e35-2164-4636-9cba-8b376d673c3c": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Hard Drive Enclosures",
+            "product_list": [
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-ssd-caddy",
+              "ugreen-2-5-inch-hard-drive-enclosure-sata-hdd-caddy-external-usb-3-0-hard-disk-case-sata-ssd-reader-uasp-supported-compatible-with-2-5-inch-ssd-hdd-evo-870-wd-crucial-drive-with-0-3m-micro-usb-cable",
+              "ugreen-m2-nvme-10-gbps-ssd-enclosure",
+              "ugreen-2-5-inch-usb-c-3-1-6gbps-hard-drive-enclosure",
+              "weekly-sale-product-m2-gehause1",
+              "ugreen-2-5-inch-6gbps-type-c-hard-drive-enclosure",
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-nvme-external-enclosure-aluminum-tool-free-hard-drive-enclosure-support-uasp-trim-nvme-pcie-adapter-for-m-and-m-b-key-in-2230-2242-2260-2280-ssd",
+              "ugreen-2-5-inch-hard-drive-enclosure-external-usb-3-0-hard-disk-case-sata-hdd-caddy-5gbps-uasp-supported-compatible-with-wd-evo-seagate-toshiba-crucial-kingston-0-5m-usb-a-cable"
+            ]
+          }
+        },
+        "82e89c4e-58ed-4668-b5e0-707f3f82a435": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "For Laptop",
+            "product_list": [
+              "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+              "ugreen-360-rotating-laptop-tablet-stand-holder",
+              "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+              "snap-deal-ugreen-cat-8-ethernet-cable-high-speed-40gbps-2000mhz",
+              "ugreen-cable-4k-60hz-hdmi-cable",
+              "ugreen-2-bay-hard-drive-enclosure-2-x-16tb-raid-array-dual-bay-hard-drive-tray-for-3-5-2-5-inch-hdd-ssd-2-5-hard-drive-docking-station-for-with-quiet-fan-supports-raid-0-1-10-pm-large-clone-mode"
+            ]
+          }
+        },
+        "577176c8-d4ad-487d-995b-897189b25986": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "For Car",
+            "product_list": [
+              "ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger",
+              "ugreen-hands-free-air-vent-car-phone-holder",
+              "ugreen-bluetooth-aux-adapter",
+              "usb-3-0-card-reader-with-sd-tf",
+              "ugreen-24w-usb-c-car-charger-with-pd-qc3-0-dual-ports",
+              "ugreen-car-vent-phone-mount",
+              "ugreen-36w-qc3-0-car-charger-with-usb-c-cable-dual-usb-ports",
+              "ugreen-usb-to-micro-usb-cable"
+            ]
+          }
+        },
+        "e262d77a-9f38-448e-9f36-447219ea793f": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "For Phone&Tablet",
+            "product_list": [
+              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
+              "ugreen-2-in-1-magnetic-wireless-charging-station",
+              "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "pb561",
+              "ugreen-nexode-mini-45w-dual-usb-c-charger",
+              "ugreen-aluminum-adjustable-tablet-stand",
+              "ugreen-10000mah-magsafe-wireless-power-bank",
+              "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
+              "pb560",
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports"
+            ]
+          }
+        },
+        "4f24d1ed-265b-405c-87c1-b1df8bacfe35": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Clearance Sale",
+            "product_list": [
+              "ugreen-6-in-1-usb-c-hub",
+              "ugreen-bluetooth-aux-adapter",
+              "ugreen-m2-nvme-10-gbps-ssd-enclosure",
+              "power-supply-pd-3-0",
+              "ugreen-4-in-1-usb-c-hub",
+              "ugreen-2-5-inch-usb-c-3-1-6gbps-hard-drive-enclosure",
+              "ugreen-aluminum-usb-3-0-lan-ethernet-adapter",
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-ssd-caddy",
+              "ugreen-2-5-inch-6gbps-type-c-hard-drive-enclosure",
+              "ugreen-usb-c-hub-4k-60hz-6-in-1-usb-c-hub-multiport-adapter-with-3-usb-3-0-1-hdmi-ports-sd-tf-card-reader-usb-c-dongle-for-laptop-tablet-ipad-macbook-pro-air-dell-samsung-iphone-15-pro-pro-max",
+              "deal-ugreen-10-in-1-usb-c-hub-with-4k-hdmi-vga-1gbps-ethernet-100w-pd-3-usb-3-0-port-sd-tf-card-slot-and-3-5mm-audio",
+              "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "2632b153-e4f5-4946-9146-3002be2c2b29",
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
+        "d34e9e35-2164-4636-9cba-8b376d673c3c",
+        "82e89c4e-58ed-4668-b5e0-707f3f82a435",
+        "577176c8-d4ad-487d-995b-897189b25986",
+        "e262d77a-9f38-448e-9f36-447219ea793f",
+        "4f24d1ed-265b-405c-87c1-b1df8bacfe35"
+      ],
+      "settings": {
+        "item_type": "default",
+        "section_id": "tabs_product",
+        "section_icon": "",
+        "section_title": "Up To 30% OFF",
+        "sub_title": "",
+        "list_all": "7",
+        "title_color": "#000000",
+        "product_item_bg_color": "#ffffff",
+        "pc_product_item_img_size": "80%",
+        "mobile_product_item_img_size": "80%",
+        "pc_row": "4",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0697\/8207\/7746\/files\/Intersect.png?v=1701930445",
+        "pc_product_sale_width": "80px",
+        "mobile_product_sale_width": "60px",
+        "pc_padding": "35px 0 80px 0",
+        "mobile_padding": "5px 0 80px 0",
+        "need_load_more": true,
+        "load_more_default_count": 8,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": false,
+        "show_learn_btn": false,
+        "show_code": true
+      }
+    },
+    "ug-product-list": {
+      "type": "ug-product-list",
+      "settings": {
+        "item_type": "default",
+        "product_list": [
+          "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
+          "ugreen-nexode-100w-usb-c-wall-charger",
+          "ugreen-145w-power-bank-for-laptop",
+          "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
+          "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
+          "ugreen-6-in-1-usb-c-hub",
+          "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+          "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh",
+          "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable"
+        ],
+        "title": "Christmas Hot Sale",
+        "subtitle": "",
+        "section_id": "ug-product-list",
+        "pc_product_type": "column",
+        "mobile_product_type": "row",
+        "title_color": "#000000",
+        "product_item_bg_color": "#ffffff",
+        "pc_product_item_img_size": "80%",
+        "mobile_product_item_img_size": "80%",
+        "pc_row": "3",
+        "mobile_row": "2",
+        "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0697\/8207\/7746\/files\/Intersect.png?v=1701930445",
+        "pc_product_sale_width": "80px",
+        "mobile_product_sale_width": "60px",
+        "pc_padding": "140px 0 120px 0",
+        "mobile_padding": "60px 0 30px 0",
+        "need_load_more": false,
+        "load_more_default_count": 3,
+        "show_sale_flag": true,
+        "show_compare": true,
+        "show_rating": true,
+        "show_learn_btn": true,
+        "show_code": true
+      }
+    }
+  },
+  "order": [
+    "d705da8d-30f2-4139-855c-0f88b8cbe5fd",
+    "black_friday_banner",
+    "black_friday_step",
+    "gift_card",
+    "ug-tabs-product-list",
+    "ug-product-list"
+  ]
+}
