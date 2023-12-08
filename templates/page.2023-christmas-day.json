@@ -134,11 +134,11 @@
             "product_list": [
               "ugreen-69w-car-charger-with-pd-65w-20w-usb-c-fast-charger",
               "ugreen-hands-free-air-vent-car-phone-holder",
+              "ugreen-bluetooth-aux-adapter",
+              "usb-3-0-card-reader-with-sd-tf",
               "ugreen-24w-usb-c-car-charger-with-pd-qc3-0-dual-ports",
               "ugreen-car-vent-phone-mount",
               "ugreen-36w-qc3-0-car-charger-with-usb-c-cable-dual-usb-ports",
-              "usb-3-0-card-reader-with-sd-tf",
-              "ugreen-bluetooth-aux-adapter",
               "ugreen-usb-to-micro-usb-cable"
             ]
           }
@@ -148,14 +148,16 @@
           "settings": {
             "tabs_title": "For Phone&Tablet",
             "product_list": [
-              "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
               "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable",
               "ugreen-2-in-1-magnetic-wireless-charging-station",
               "ugreen-mobile-phone-stand-for-desk-adjustable-aluminum-phone-holder-compatible-with-iphone-galaxy-phone-xiaomi-redmi-motorola-oneplus-huawei-phones-mini-tabletsgray",
+              "pb561",
+              "ugreen-nexode-mini-45w-dual-usb-c-charger",
               "ugreen-aluminum-adjustable-tablet-stand",
               "ugreen-10000mah-magsafe-wireless-power-bank",
               "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
-              "ugreen-nexode-mini-45w-dual-usb-c-charger"
+              "pb560",
+              "ugreen-nexode-65w-usb-c-wall-charger-3-ports"
             ]
           }
         }
