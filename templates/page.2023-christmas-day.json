@@ -166,7 +166,14 @@
           "settings": {
             "tabs_title": "Clearance Sale",
             "product_list": [
-
+              "ugreen-6-in-1-usb-c-hub",
+              "ugreen-bluetooth-aux-adapter",
+              "ugreen-m2-nvme-10-gbps-ssd-enclosure",
+              "power-supply-pd-3-0",
+              "ugreen-4-in-1-usb-c-hub",
+              "ugreen-2-5-inch-usb-c-3-1-6gbps-hard-drive-enclosure",
+              "ugreen-aluminum-usb-3-0-lan-ethernet-adapter",
+              "ugreen-m-2-nvme-ssd-enclosure-usb-3-2-gen-2-10gbps-ssd-caddy"
             ]
           }
         }
