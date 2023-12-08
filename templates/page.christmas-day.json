@@ -101,14 +101,14 @@
           "settings": {
             "tabs_title": "GaN Chargeurs",
             "product_list": [
-              "ugreen-nexode-300w-usb-c-gan-chargeur",
               "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
+              "ugreen-nexode-300w-usb-c-gan-chargeur",
               "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
               "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
               "ugreen-nexode-chargeur-20w-usb-c",
               "ugreen-nexode-chargeur-45w-usb-c-2-ports",
-              "ugreen-nexode-chargeur-30w-usb-c",
               "ugreen-65w-chargeur-usb-c-4-ports",
+              "ugreen-nexode-chargeur-30w-usb-c",
               "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-bleu",
               "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-vert",
               "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-violet",
@@ -152,7 +152,7 @@
         "851c32fd-4017-4065-8ad0-6d879971a650": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Car Charger",
+            "tabs_title": "Chargeur de voiture",
             "product_list": [
               "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
               "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
