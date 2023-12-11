@@ -1775,7 +1775,7 @@
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
             "type": "menu",
             "settings": {
-              "title": "Deals & Events",
+              "title": "Bundles & Deals",
               "url": "shopify:\/\/pages\/flash-deal",
               "open_link": "_self",
               "menu": "",
@@ -1786,6 +1786,7 @@
           },
           "9662196b-5016-4c2f-a928-3ea810b613f3": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Bundles",
               "url": "shopify:\/\/collections\/bundle",
