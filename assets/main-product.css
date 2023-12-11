@@ -769,3 +769,18 @@ button.t4s-product__description_readm {
 button.t4s-product__description_readm:hover {
     color: var(--accent-color);
 }
+@media (max-width: 768px) {
+  .t4s-product__media-wrapper .t4s-flicky-slider .flickityt4s-prev-next-button.previous {
+    width: 36px;
+    height: 36px;
+    left: -18px;
+  }
+  .t4s-product__media-wrapper .t4s-flicky-slider .flickityt4s-prev-next-button.next {
+    width: 36px;
+    height: 36px;
+    right: -18px;
+  }
+}
+  #MainContent .t4s-flicky-slider .flickityt4s-button:hover {
+    background: black;
+  }
