@@ -306,7 +306,7 @@
         "enable_zoom_click_mb": true,
         "enable_video_looping": false,
         "nav_btn": true,
-        "btn_vi": "hover",
+        "btn_vi": "always",
         "btn_owl": "default",
         "btn_shape": "round",
         "btn_cl": "custom1",
