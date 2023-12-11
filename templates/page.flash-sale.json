@@ -632,6 +632,93 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "aa55a7a9-fa5e-4505-b353-949619e4bfe2": {
+      "type": "instagram_feed",
+      "blocks": {
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-1": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-2": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-3": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-4": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-5": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-6": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-1",
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-2",
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-3",
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-4",
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-5",
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-6"
+      ],
+      "settings": {
+        "layout_des": "2",
+        "image_ratio": "ratio1_1",
+        "image_position": "8",
+        "image_size": "cover",
+        "img_effect": "zoom",
+        "b_effect": "dark-overlay",
+        "col_dk": "6",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "0",
+        "space_item_mb": "0",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -645,6 +732,7 @@
     "3dbf1e03-501a-4d73-ba0a-f7622b5c5ec4",
     "e8f15098-8dc6-40ea-98fc-74037a3d1191",
     "121d9e92-ecf9-4049-b9c6-bf173a4295fe",
-    "cad238b2-e0fd-431c-8f18-c654585ffaa5"
+    "cad238b2-e0fd-431c-8f18-c654585ffaa5",
+    "aa55a7a9-fa5e-4505-b353-949619e4bfe2"
   ]
 }
