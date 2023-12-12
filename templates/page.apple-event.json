@@ -116,6 +116,117 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "763f4be9-e580-43f4-8bb7-c81b8b115bac": {
+      "type": "collections-list",
+      "blocks": {
+        "template--18990956478784__763f4be9-e580-43f4-8bb7-c81b8b115bac-collection_item-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/ugreen-nexode-300w-usb-c-gan-charger-5-ports-desktop-charger-2_21a4f36a-816a-4b5f-87d1-7706803a9d56.jpg",
+            "icon": "las la-gem",
+            "collection_title": "Buy Now",
+            "collection_link": ""
+          }
+        },
+        "template--18990956478784__763f4be9-e580-43f4-8bb7-c81b8b115bac-collection_item-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/triple-display-universal-dockingstation__1_-removebg-preview-376065-209944.png",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--18990956478784__763f4be9-e580-43f4-8bb7-c81b8b115bac-collection_item-3": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--18990956478784__763f4be9-e580-43f4-8bb7-c81b8b115bac-collection_item-4": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18990956478784__763f4be9-e580-43f4-8bb7-c81b8b115bac-collection_item-1",
+        "template--18990956478784__763f4be9-e580-43f4-8bb7-c81b8b115bac-collection_item-2",
+        "template--18990956478784__763f4be9-e580-43f4-8bb7-c81b8b115bac-collection_item-3",
+        "template--18990956478784__763f4be9-e580-43f4-8bb7-c81b8b115bac-collection_item-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Meilleures ventes",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "1",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "source": "image",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout_des": "1",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -125,6 +236,7 @@
     "00127267-2816-452d-adc3-e99756aa4553",
     "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
     "a9c6f060-5fbd-455c-8321-f99aa9934742",
-    "d9e994f6-1a15-45ff-baf3-961a802d3cdf"
+    "d9e994f6-1a15-45ff-baf3-961a802d3cdf",
+    "763f4be9-e580-43f4-8bb7-c81b8b115bac"
   ]
 }
