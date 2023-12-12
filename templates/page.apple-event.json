@@ -30,21 +30,20 @@
         ]
       }
     },
-    "ebdd4269-8c40-458a-890d-39cfe5f8cf15": {
+    "abc75bc4-3f51-473a-b1dd-e439f37a15a0": {
       "type": "ug_AppleEvent_product",
       "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/new_pc.png?v=1694142654",
-        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/new_m.png?v=1694142653",
-        "title": "Nouveau modèle pour les équipements de recharge",
-        "title1": "",
-        "desc": "",
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_pc.png?v=1678159469",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_mobile.png?v=1678096000",
+        "title": "More Ports,",
+        "title1": "Ultimate Connectivity",
+        "desc": "Stay Connected, No Choosing Needed",
         "product_list": [
-          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w",
-          "ugreen-batterie-externe-magnetique-sans-fil-10000mah-20w-usb-c",
-          "ugreen-foldable-kickstand-magnetic-battery-10000mah",
-          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
-          "ugreen-nexode-100w-chargeur-usb-c-gan-magsafe-15w",
-          "ugreen-batterie-externe-portable-20000mah-100w-usb-c"
+          "ugreen-revodok-pro-12-en-1-docking-station",
+          "ugreen-revodok-pro-9-en-1-docking-station",
+          "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
+          "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
+          "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k"
         ]
       }
     },
@@ -60,24 +59,27 @@
           "ugreen-cable-usb-c-vers-usb-c-pd-100w-5a-20v-cable-nylon-tresse",
           "ugreen-cable-usb-c-vers-usb-c-pd-charge-rapide-60w-nylon-tresse",
           "ugreen-cable-usb-c-vers-usb-c-coude-pd-60w",
-          "ugreen-cable-usb-c-vers-usb-c-coude-100w-5a-cable-type-c-nylon-tresse"
+          "ugreen-cable-usb-c-vers-usb-c-coude-100w-5a-cable-type-c-nylon-tresse",
+          "ugreen-cable-lightning-vers-usb-c-mfi-certifie-nylon-tresse",
+          "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel"
         ]
       }
     },
-    "abc75bc4-3f51-473a-b1dd-e439f37a15a0": {
+    "ebdd4269-8c40-458a-890d-39cfe5f8cf15": {
       "type": "ug_AppleEvent_product",
       "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_pc.png?v=1678159469",
-        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_2_banner_mobile.png?v=1678096000",
-        "title": "More Ports,",
-        "title1": "Ultimate Connectivity",
-        "desc": "Stay Connected, No Choosing Needed",
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/new_pc.png?v=1694142654",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/new_m.png?v=1694142653",
+        "title": "Nouveau modèle pour les équipements de recharge",
+        "title1": "",
+        "desc": "",
         "product_list": [
-          "ugreen-revodok-pro-12-en-1-docking-station",
-          "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
-          "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
-          "ugreen-revodok-pro-9-en-1-docking-station",
-          "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k"
+          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w",
+          "ugreen-batterie-externe-magnetique-sans-fil-10000mah-20w-usb-c",
+          "ugreen-foldable-kickstand-magnetic-battery-10000mah",
+          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
+          "ugreen-nexode-100w-chargeur-usb-c-gan-magsafe-15w",
+          "ugreen-batterie-externe-portable-20000mah-100w-usb-c"
         ]
       }
     },
@@ -119,9 +121,9 @@
   "order": [
     "3155cc81-16ac-4d96-80a0-275500abaea3",
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
-    "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
-    "00127267-2816-452d-adc3-e99756aa4553",
     "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
+    "00127267-2816-452d-adc3-e99756aa4553",
+    "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
     "a9c6f060-5fbd-455c-8321-f99aa9934742",
     "d9e994f6-1a15-45ff-baf3-961a802d3cdf"
   ]
