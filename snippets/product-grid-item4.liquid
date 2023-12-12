@@ -117,7 +117,7 @@ endif -%}
          <div class="scm-reviews-rate" data-rate-version2={{ product.metafields.scm_review_importer.reviewsData.reviewCountInfo | json }} data-product-id= {{ product.id }}></div>
 
          {%- render 'product-price',product:product,price_varies_style:price_varies_style,type:'card',isGrouped:isGrouped -%}
-         {%- if enable_rating %}{%- render 'product-rating',product:product,app_review:app_review -%}{% endif -%}
+         {% comment %} {%- if enable_rating %}{%- render 'product-rating',product:product,app_review:app_review -%}{% endif -%} {% endcomment %}
         {%- if show_list_btns -%}
          {%- assign description_excerpt = product.metafields.theme.description_excerpt -%}
          <div class="t4s-rte">{% if description_excerpt != blank %}{{ description_excerpt }}{% else %}{{ product.content | strip_html | truncatewords: 30 }}{% endif %}</div>
