@@ -64,23 +64,6 @@
         ]
       }
     },
-    "a9c6f060-5fbd-455c-8321-f99aa9934742": {
-      "type": "ug_AppleEvent_product",
-      "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_pc.png?v=1678159418",
-        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_mobile.png?v=1678159403",
-        "title": "Smart Device Holders",
-        "title1": "",
-        "desc": "Adjustable & Designed for Optimum Viewing",
-        "product_list": [
-          "ugreen-support-telephone-bureau-en-aluminium-stand",
-          "ugreen-support-telephone-bureau-reglable-pose-telephone",
-          "ugreen-support-telephone-bureau",
-          "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
-          "20471"
-        ]
-      }
-    },
     "abc75bc4-3f51-473a-b1dd-e439f37a15a0": {
       "type": "ug_AppleEvent_product",
       "settings": {
@@ -90,11 +73,29 @@
         "title1": "Ultimate Connectivity",
         "desc": "Stay Connected, No Choosing Needed",
         "product_list": [
-          "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
-          "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
-          "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
           "ugreen-revodok-pro-12-en-1-docking-station",
-          "ugreen-revodok-pro-9-en-1-docking-station"
+          "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
+          "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
+          "ugreen-revodok-pro-9-en-1-docking-station",
+          "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k"
+        ]
+      }
+    },
+    "a9c6f060-5fbd-455c-8321-f99aa9934742": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_pc.png?v=1678159418",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/module_4_banner_mobile.png?v=1678159403",
+        "title": "Smart Device Holders",
+        "title1": "",
+        "desc": "Adjustable & Designed for Optimum Viewing",
+        "product_list": [
+          "ugreen-support-telephone-voiture-rotation-360-degres",
+          "ugreen-support-telephone-bureau-en-aluminium-stand",
+          "ugreen-support-telephone-bureau-reglable-pose-telephone",
+          "ugreen-support-telephone-bureau",
+          "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
+          "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent"
         ]
       }
     },
@@ -120,8 +121,8 @@
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
     "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
     "00127267-2816-452d-adc3-e99756aa4553",
-    "a9c6f060-5fbd-455c-8321-f99aa9934742",
     "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
+    "a9c6f060-5fbd-455c-8321-f99aa9934742",
     "d9e994f6-1a15-45ff-baf3-961a802d3cdf"
   ]
 }
