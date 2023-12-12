@@ -12,6 +12,22 @@
         "text": ""
       }
     },
+    "ebdd4269-8c40-458a-890d-39cfe5f8cf15": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/new_pc.png?v=1694142654",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/new_m.png?v=1694142653",
+        "title": "Nouveau modèle pour les équipements de recharge",
+        "title1": "",
+        "desc": "",
+        "product_list": [
+          "ugreen-nexode-100w-chargeur-usb-c-gan-magsafe-15w",
+          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
+          "ugreen-foldable-kickstand-magnetic-battery-10000mah",
+          "ugreen-support-de-chargeur-magnetique-2-en-1-de-induction-sans-fil"
+        ]
+      }
+    },
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2": {
       "type": "ug_AppleEvent_product",
       "settings": {
@@ -27,22 +43,6 @@
           "ugreen-nexode-65w-gan-chargeur-usb-c-3-ports",
           "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
           "ugreen-65w-chargeur-usb-c-4-ports"
-        ]
-      }
-    },
-    "ebdd4269-8c40-458a-890d-39cfe5f8cf15": {
-      "type": "ug_AppleEvent_product",
-      "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/new_pc.png?v=1694142654",
-        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/new_m.png?v=1694142653",
-        "title": "Nouveau modèle pour les équipements de recharge",
-        "title1": "",
-        "desc": "",
-        "product_list": [
-          "ugreen-nexode-100w-chargeur-usb-c-gan-magsafe-15w",
-          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
-          "ugreen-foldable-kickstand-magnetic-battery-10000mah",
-          "ugreen-support-de-chargeur-magnetique-2-en-1-de-induction-sans-fil"
         ]
       }
     },
@@ -115,8 +115,8 @@
   },
   "order": [
     "3155cc81-16ac-4d96-80a0-275500abaea3",
-    "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
     "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
+    "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
     "00127267-2816-452d-adc3-e99756aa4553",
     "a9c6f060-5fbd-455c-8321-f99aa9934742",
     "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
