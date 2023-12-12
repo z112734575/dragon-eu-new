@@ -12,6 +12,24 @@
         "text": ""
       }
     },
+    "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2": {
+      "type": "ug_AppleEvent_product",
+      "settings": {
+        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/DE-90666-1.png",
+        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/1-nexode-30W-Mobile-2.png?v=1694142363",
+        "title": "Portable, puissant, parfait pour vous",
+        "title1": "",
+        "desc": "Gardez les appareils iOS chargés plus rapidement",
+        "product_list": [
+          "ugreen-nexode-65w-gan-chargeur-usb-c-3-ports",
+          "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
+          "ugreen-nexode-300w-usb-c-gan-chargeur",
+          "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
+          "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
+          "ugreen-65w-chargeur-usb-c-4-ports"
+        ]
+      }
+    },
     "ebdd4269-8c40-458a-890d-39cfe5f8cf15": {
       "type": "ug_AppleEvent_product",
       "settings": {
@@ -25,24 +43,6 @@
           "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
           "ugreen-foldable-kickstand-magnetic-battery-10000mah",
           "ugreen-support-de-chargeur-magnetique-2-en-1-de-induction-sans-fil"
-        ]
-      }
-    },
-    "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2": {
-      "type": "ug_AppleEvent_product",
-      "settings": {
-        "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/DE-90666-1.png",
-        "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/1-nexode-30W-Mobile-2.png?v=1694142363",
-        "title": "Portable, puissant, parfait pour vous",
-        "title1": "",
-        "desc": "Gardez les appareils iOS chargés plus rapidement",
-        "product_list": [
-          "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
-          "ugreen-nexode-300w-usb-c-gan-chargeur",
-          "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
-          "ugreen-nexode-65w-gan-chargeur-usb-c-3-ports",
-          "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
-          "ugreen-65w-chargeur-usb-c-4-ports"
         ]
       }
     },
@@ -115,8 +115,8 @@
   },
   "order": [
     "3155cc81-16ac-4d96-80a0-275500abaea3",
-    "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2",
+    "ebdd4269-8c40-458a-890d-39cfe5f8cf15",
     "00127267-2816-452d-adc3-e99756aa4553",
     "a9c6f060-5fbd-455c-8321-f99aa9934742",
     "abc75bc4-3f51-473a-b1dd-e439f37a15a0",
