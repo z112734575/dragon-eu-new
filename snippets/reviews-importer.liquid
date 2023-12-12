@@ -15,7 +15,7 @@
   };
   sectionConfig= null;
   scmCustomData= null;
-  scmCustomDataWigetAll['{{ random_number }}'].dataProduct['product']= {{ product | json }}
+  scmCustomDataWigetAll['{{ random_number }}'].dataProduct['product']= {{ product | json }};
   {% for metafieldValue in  product.metafields.scm_review_importer %}
       scmCustomDataWigetAll['{{ random_number }}'].dataProduct['{{ metafieldValue[0] }}']= `{{ metafieldValue[1] | json }}`;
   {% endfor %}

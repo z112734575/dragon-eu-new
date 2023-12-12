@@ -18,7 +18,7 @@
 </script>
 <div class="scm-container" style="display: none;">
   <div class="{{ section.settings.class_wrap_title | escape }}">
-    <h2 class="{% if block.settings.class_title %} {{ section.settings.class_title | escape }}{% else %}title-lai{% endif %}">{{ section.settings.title }}</h2>
+    <h2 class="{% if section.settings.class_title %} {{ section.settings.class_title | escape }}{% else %}title-lai{% endif %}">{{ section.settings.title }}</h2>
   </div>
   <div class="scm-reviews-importer">
     <iframe class="scm-reviews-importer-iframe" width="100%" title="Sma reviews section Home Page" data-idIframe="{{ random_number }}"></iframe>
