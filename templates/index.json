@@ -8,6 +8,19 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU__pc_abe88c44-ac50-4423-8e9d-6ca471880321.webp?v=1702435584",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU__mo_03b6d4fc-3db1-4d93-a604-b65a56381323.webp?v=1702435584",
+            "text_color": "#ffffff",
+            "title": "Nexode Pro Series",
+            "subtitle": "Power to the Pro",
+            "button_text": "Learn More",
+            "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-pro-charger-series",
+            "className": "300w"
+          }
+        },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -47,20 +60,6 @@
             "className": "300w"
           }
         },
-        "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU__pc_abe88c44-ac50-4423-8e9d-6ca471880321.webp?v=1702435584",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU__mo_03b6d4fc-3db1-4d93-a604-b65a56381323.webp?v=1702435584",
-            "text_color": "#ffffff",
-            "title": "Nexode Pro Series",
-            "subtitle": "Power to the Pro",
-            "button_text": "Learn More",
-            "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-pro-charger-series",
-            "className": "300w"
-          }
-        },
         "b3006339-60a1-4abc-a86b-30c091fb8f1e": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -77,10 +76,10 @@
         }
       },
       "block_order": [
+        "6c99235d-1a0a-4489-bae1-1a493df0dc48",
         "ug-index-carousel-11",
         "ug-index-carousel-1",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
-        "6c99235d-1a0a-4489-bae1-1a493df0dc48",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
       ],
       "custom_css": [
@@ -94,11 +93,19 @@
     },
     "ug-index-image": {
       "type": "ug-index-image",
-      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU__pc_abe88c44-ac50-4423-8e9d-6ca471880321.webp?v=1702435584",
+        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU__mo_03b6d4fc-3db1-4d93-a604-b65a56381323.webp?v=1702435584",
+        "title": "Nexode Pro Series",
+        "subtitle": "Power to the Pro",
+        "button_text": "Learn More",
+        "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-pro-charger-series",
+        "text_color": "#FFFFFF",
+        "className": "",
+        "custom_style": ""
       }
     },
     "ug-index-category": {
