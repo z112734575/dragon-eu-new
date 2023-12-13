@@ -104,7 +104,7 @@
         "subtitle": "Power to the Pro",
         "button_text": "Learn More",
         "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-pro-charger-series",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "className": "",
         "custom_style": ""
       }
@@ -112,10 +112,10 @@
     "ug-index-whybuy": {
       "type": "ug-index-whybuy",
       "settings": {
-        "reason1": "lokales Lager",
-        "reason2": "30-tägige risikofreie Probe",
-        "reason3": "2-jährige Produktgarantie",
-        "reason4": "Mehrwertsteuer inklusive."
+        "reason1": "Local Warehouse",
+        "reason2": "14-day Risk-Free Trial",
+        "reason3": "2 Year Product Warranty",
+        "reason4": "VAT Included"
       }
     },
     "ug-index-category": {
