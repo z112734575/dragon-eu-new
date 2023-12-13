@@ -728,6 +728,20 @@
               "r_s_v_item": "30"
             }
           },
+          "a8f39e42-3998-40be-8ea3-864f6678baf0": {
+            "type": "base",
+            "disabled": true,
+            "settings": {
+              "title": "Nexode Pro",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "Nouveau",
+              "lb_cl": "#ecbe01"
+            }
+          },
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416": {
             "type": "base",
             "settings": {
@@ -902,6 +916,7 @@
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "7b6b268c-25a0-4c97-960d-7e81c56a2676",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
+          "a8f39e42-3998-40be-8ea3-864f6678baf0",
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416",
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "c1ea18bc-75ab-43cf-b12e-6d6c1e4439cd",
