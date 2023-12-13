@@ -730,7 +730,6 @@
           },
           "a8f39e42-3998-40be-8ea3-864f6678baf0": {
             "type": "base",
-            "disabled": true,
             "settings": {
               "title": "Nexode Pro",
               "url": "\/",
@@ -1696,6 +1695,7 @@
           },
           "a351d824-8df6-46de-8ce1-5404fa9e9dd7": {
             "type": "banner",
+            "disabled": true,
             "settings": {
               "image_ratio": "ratioadapt",
               "image_size": "cover",
@@ -1763,7 +1763,6 @@
           },
           "6e0a949c-1ad6-46e7-955f-e6391fa7eaa8": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "title": "Nexode Pro",
               "url": "https:\/\/fr.ugreen.com\/pages\/ugreen-nexode-pro-chargeur-series",
