@@ -25,6 +25,8 @@
     assign pc_product_type = settings.pc_product_type
     assign item_type = settings.item_type
     assign title_color = settings.title_color
+    assign buy_btn_text = settings.buy_btn_text
+    assign learn_btn_text = settings.learn_btn_text
     assign classId = section_id | prepend: "#"
 %}
 {{ 'ug-product-list.css' | asset_url | stylesheet_tag }}
@@ -120,7 +122,9 @@
                 pc_product_item_img_size: pc_product_item_img_size,
                 mobile_product_item_img_size: mobile_product_item_img_size,
                 mobile_product_type: mobile_product_type,
-                item_type: item_type
+                item_type: item_type,
+                buy_btn_text: buy_btn_text,
+                learn_btn_text: learn_btn_text
         %}
     </div>
 </div>
@@ -202,6 +206,18 @@
       "type": "text",
       "id": "subtitle",
       "label": "Subtitle"
+    },
+    {
+      "type": "text",
+      "id": "buy_btn_text",
+      "label": "购买按钮文案",
+      "default": "Acheter"
+    },
+    {
+      "type": "text",
+      "id": "learn_btn_text",
+      "label": "学习更多按钮文案",
+      "default": "En savoir plus"
     },
     {
       "type": "text",
