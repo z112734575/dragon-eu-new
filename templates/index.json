@@ -135,6 +135,7 @@
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab1",
         "7086591d-fff5-4a55-b995-7653898d9d3f"
       ],
+      "disabled": true,
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
         "banner_index": ""
