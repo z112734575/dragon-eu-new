@@ -158,6 +158,15 @@
         "custom_style": ""
       }
     },
+    "ug-index-whybuy": {
+      "type": "ug-index-whybuy",
+      "settings": {
+        "reason1": "Local Warehouse",
+        "reason2": "30-day Risk-Free Trial*",
+        "reason3": "Two-year Product Warranty",
+        "reason4": "Product VAT Incl"
+      }
+    },
     "ug-index-category": {
       "type": "ug-index-category",
       "blocks": {
@@ -410,6 +419,7 @@
     "ug-index-carousel",
     "ug-index-carousel1",
     "ug-index-image",
+    "ug-index-whybuy",
     "ug-index-category",
     "ug-product-list",
     "ug-index-fit-life",
