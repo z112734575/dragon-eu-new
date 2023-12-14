@@ -116,10 +116,24 @@
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-nexode-pro-chargeur-series",
             "className": ""
           }
+        },
+        "7086591d-fff5-4a55-b995-7653898d9d3f": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ugreen_nexode_pro_chargeur_series_release_pc.webp",
+            "mobile_image_url": "",
+            "text_color": "#000000",
+            "title": "",
+            "subtitle": "",
+            "button_text": "",
+            "link": "",
+            "className": ""
+          }
         }
       },
       "block_order": [
-        "8d9955cf-7735-4d0b-a359-b28dc3cb09ab1"
+        "8d9955cf-7735-4d0b-a359-b28dc3cb09ab1",
+        "7086591d-fff5-4a55-b995-7653898d9d3f"
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
