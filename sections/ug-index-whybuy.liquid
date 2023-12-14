@@ -1,0 +1,194 @@
+<style>
+  /*    why buy*/
+  .green-home-whybar {
+      height: 3.125vw;
+      background-color: #000;
+      max-width: 1200px;
+      width: 100%;
+  }
+
+  .green-home-whybar-ship {
+      font-size: .833vw;
+      font-weight: 400;
+      color: #858585;
+      line-height: 2.292vw;
+      margin-bottom: 0 !important;
+      margin-left: 0;
+      padding: 0;
+  }
+
+  .green-home-whybar-ship li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+        font-size: 14px;
+  }
+
+  .green-home-whybar-ship img {
+      margin-right: .5vw;
+      width: 1.467vw;
+      height: 1.467vw
+  }
+
+  .green-home-whybar-more {
+      font-size: .833vw;
+      font-weight: 400;
+      color: #fff !important;
+      margin-left: 3.646vw;
+      text-decoration: none !important
+  }
+
+  @media (max-width: 767px) {
+      .green-home-whybar {
+          height: 60px;
+      }
+
+      .green-home-whybar-ship {
+          font-size: 14px;
+          line-height: 1.2;
+      }
+
+      .green-home-whybar-ship li {
+          white-space: nowrap;
+          font-size: 16px;
+          margin-bottom: 0;
+          line-height: 1;
+      }
+
+      .green-home-whybar-ship img {
+          margin-right: 5px;
+          width: 32px;
+          height: 32px;
+      }
+
+      .green-home-whybar-more {
+          font-size: 14px;
+          margin-left: 10px;
+      }
+  }
+
+  /*    why buy*/
+</style>
+
+{% assign settings = section.settings %}
+<section style="background:#000;">
+  <div class="green-home-whybar swiper">
+    <ul class="green-home-whybar-ship swiper-wrapper">
+      <li class="swiper-slide">
+        <a href="/pages/ugreen-warehouse">
+          <picture>
+            <source
+              srcset="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/1_a38141e5-3ba1-4aca-a605-5e0acf6ed117.png?v=1687256464"
+              media="(max-width: 768px)"
+            >
+            <img
+              src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/1_a38141e5-3ba1-4aca-a605-5e0acf6ed117.png?v=1687256464"
+              alt="free icon"
+            >
+          </picture>
+          {{ settings.reason1 }}
+        </a>
+      </li>
+      <li class="swiper-slide">
+        <a href="/policies/refund-policy">
+          <picture>
+            <source
+              srcset="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/3_72beac30-5c9a-4088-ab3b-787daa53e026.png?v=1687256465"
+              media="(max-width: 768px)"
+            >
+            <img
+              src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/3_72beac30-5c9a-4088-ab3b-787daa53e026.png?v=1687256465"
+              alt="risk icon"
+            >
+          </picture>
+          {{ settings.reason2 }}
+        </a>
+      </li>
+      <li class="swiper-slide">
+        <picture>
+          <source
+            srcset="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/2_ffbc175e-64b9-42cb-bede-4802cac9db94.png?v=1687256464"
+            media="(max-width: 768px)"
+          >
+          <img
+            src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/2_ffbc175e-64b9-42cb-bede-4802cac9db94.png?v=1687256464"
+            alt="price icon"
+          >
+        </picture>
+        {{ settings.reason3 }}
+      </li>
+      <!-- <li class="swiper-slide">
+        <picture>
+          <source
+            srcset="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/4_3aaf89b5-2af3-4948-a9de-fd7d79bfda25.png?v=1687256465"
+            media="(max-width: 768px)"
+          >
+          <img
+            src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/4_3aaf89b5-2af3-4948-a9de-fd7d79bfda25.png?v=1687256465"
+            alt="price icon"
+          >
+        </picture>
+        {{ settings.reason4 }}
+      </li> -->
+    </ul>
+  </div>
+</section>
+
+<script>
+  if (isMobile()) {
+      const whybarSwiper = new Swiper('.green-home-whybar', {
+          slidesPerView: 1,
+          loop: true,
+          autoplay: {
+              delay: 5000,
+          },
+      })
+  } else {
+      const whybarSwiper = new Swiper('.green-home-whybar', {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+          }
+      })
+  }
+</script>
+
+{% schema %}
+{
+  "name": "UGreen Whybuy bar",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Whybuy Settings"
+    },
+    {
+      "type": "text",
+      "id": "reason1",
+      "label": "text1"
+    },
+    {
+      "type": "text",
+      "id": "reason2",
+      "label": "text2"
+    },
+    {
+      "type": "text",
+      "id": "reason3",
+      "label": "text3"
+    },
+    {
+      "type": "text",
+      "id": "reason4",
+      "label": "text4"
+    }
+  ]
+}
+{% endschema %}
