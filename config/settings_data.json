@@ -758,6 +758,7 @@
           },
           "6c8b5ada-b518-468b-97ae-afe037e2b9bd": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "New Releases",
               "url": "",
@@ -778,7 +779,6 @@
           },
           "bb3f48dc-4006-47c4-b5c3-9897849e11d7": {
             "type": "drop",
-            "disabled": true,
             "settings": {
               "title": "Nexode 300W",
               "url": "\/pages\/ugreen-nexode-300w-gan-desktop-charger",
@@ -1409,12 +1409,14 @@
           },
           "30cb2bde-7a5d-4b31-abab-ec89b945f96c": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "id": 3
             }
           },
           "3ece6b42-91d8-4964-8467-b73b2285e87d": {
             "type": "banner",
+            "disabled": true,
             "settings": {
               "image_ratio": "ratioadapt",
               "image_size": "cover",
@@ -1437,6 +1439,7 @@
           },
           "b81003d2-e686-43b0-99d3-e4fc46082c5e": {
             "type": "banner",
+            "disabled": true,
             "settings": {
               "image_ratio": "ratioadapt",
               "image_size": "cover",
