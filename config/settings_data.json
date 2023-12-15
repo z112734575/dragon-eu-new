@@ -766,7 +766,7 @@
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "#00BADB",
+              "lb_cl": "#00badb",
               "pos_sub": "bottom",
               "wid": "full",
               "cus_wid": 1200,
@@ -1413,28 +1413,6 @@
               "id": 3
             }
           },
-          "d779fd25-c57d-47e0-a3de-3078729613af": {
-            "type": "banner",
-            "settings": {
-              "image_ratio": "ratio_cuspx",
-              "image_size": "contain",
-              "image_position": "8",
-              "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/revdok-pro-banner_pc.png",
-              "img_effect": "none",
-              "b_effect": "none",
-              "b_link": "https:\/\/eu.ugreen.com\/pages\/ugreen-revodok-series-new-release",
-              "open_link": "_self",
-              "html": "<h3 class=\"fs__20 mg__0 lh__1 cw mb__10\" style=\"font-size: 20px;\">Revodok Serie Dockingstation<span style=\"font-size: 18px;\"><br>Expand Your Creativity\n<\/span>\n<\/h3>\n<h4 class=\"fs__14 mg__0 cw\" style=\"font-size: 16px; color: #03F2A6;\">kaufen&gt; <\/h4>",
-              "content_align": "center",
-              "cv_pos": 50,
-              "ch_pos": 50,
-              "cl_txt": "#fff",
-              "cl_overlay": "#000",
-              "cl_opacity": 5,
-              "col": "4"
-            }
-          },
           "3ece6b42-91d8-4964-8467-b73b2285e87d": {
             "type": "banner",
             "settings": {
@@ -1451,8 +1429,8 @@
               "content_align": "center",
               "cv_pos": 50,
               "ch_pos": 50,
-              "cl_txt": "#fff",
-              "cl_overlay": "#000",
+              "cl_txt": "#ffffff",
+              "cl_overlay": "#000000",
               "cl_opacity": 5,
               "col": "4"
             }
@@ -1473,8 +1451,8 @@
               "content_align": "center",
               "cv_pos": 50,
               "ch_pos": 50,
-              "cl_txt": "#fff",
-              "cl_overlay": "#000",
+              "cl_txt": "#ffffff",
+              "cl_overlay": "#000000",
               "cl_opacity": 5,
               "col": "4"
             }
@@ -1493,7 +1471,6 @@
           "30dc977f-eeef-4b61-b49b-d376c5fb80c2",
           "57c94dfa-87a9-4366-b9cc-b78dc8f52805",
           "30cb2bde-7a5d-4b31-abab-ec89b945f96c",
-          "d779fd25-c57d-47e0-a3de-3078729613af",
           "3ece6b42-91d8-4964-8467-b73b2285e87d",
           "b81003d2-e686-43b0-99d3-e4fc46082c5e"
         ],
