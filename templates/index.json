@@ -8,6 +8,20 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "b6e286c1-8dac-498a-94a9-1363ec753cff": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_revodok.png?v=1702608202",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_revodok_mo.png",
+            "text_color": "#fff",
+            "title": "UGREEN Revodok Serie",
+            "subtitle": "Expand Your Creativity",
+            "button_text": "En savoir plus",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
+            "className": ""
+          }
+        },
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -67,7 +81,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_39bcc587-8212-4e74-bf67-d0c2a03b1037.webp?v=1693892164",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Banner_mobile_e43abc6d-669f-439e-94a6-42a504d3d779.webp?v=1693892249",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Nexode 300W Chargeur<\/strong>",
             "subtitle": "Chargeur multiport USB C 5-en-1",
             "button_text": "Achetez maintenant",
@@ -80,7 +94,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU_2.png?v=1696841752",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU.png?v=1696841739",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN PowerRoam 2200 Centrale électrique portable<\/strong>",
             "subtitle": "Alimentez n’importe quoi, n’importe quand et n’importe où",
             "button_text": "acheter maintenant",
@@ -90,6 +104,7 @@
         }
       },
       "block_order": [
+        "b6e286c1-8dac-498a-94a9-1363ec753cff",
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "ug-index-carousel-1",
@@ -146,12 +161,13 @@
         },
         "7086591d-fff5-4a55-b995-7653898d9d3f": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ugreen_nexode_pro_chargeur_series_release_pc.webp",
-            "mobile_image_url": "",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_revodok.png?v=1702608202",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_revodok_mo.png",
             "text_color": "#000000",
-            "title": "",
-            "subtitle": "",
+            "title": "UGREEN Revodok Serie",
+            "subtitle": "Expand Your Creativity",
             "button_text": "",
             "link": "",
             "className": ""
@@ -162,7 +178,6 @@
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab1",
         "7086591d-fff5-4a55-b995-7653898d9d3f"
       ],
-      "disabled": true,
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
         "banner_index": ""
