@@ -1417,7 +1417,7 @@
             "type": "banner",
             "settings": {
               "image_ratio": "ratio_cuspx",
-              "image_size": "cover",
+              "image_size": "contain",
               "image_position": "8",
               "height_dk": 400,
               "image": "shopify:\/\/shop_images\/revdok-pro-banner_pc.png",
