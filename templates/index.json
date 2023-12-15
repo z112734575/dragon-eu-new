@@ -10,16 +10,15 @@
       "blocks": {
         "b6e286c1-8dac-498a-94a9-1363ec753cff": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_revodok.png?v=1702608202",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_revodok_mo.png",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "UGREEN Revodok Serie",
             "subtitle": "Expand Your Creativity",
             "button_text": "En savoir plus",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
-            "className": ""
+            "className": "Revodok_banner"
           }
         },
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab": {
@@ -113,7 +112,7 @@
         "136aa1cb-6667-4eb9-acc9-6576fc183f41"
       ],
       "settings": {
-        "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
+        "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n.Revodok_banner .green-home-banner-box{\nbottom:10%;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n}",
         "banner_index": ""
       }
     },
