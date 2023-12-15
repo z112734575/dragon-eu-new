@@ -1696,6 +1696,7 @@
           },
           "727d097b-61d8-4a66-8c07-a76e85acb487": {
             "type": "banner",
+            "disabled": true,
             "settings": {
               "image_ratio": "ratioadapt",
               "image_size": "cover",
