@@ -376,7 +376,7 @@
           "settings": {
             "title": "Chargeur GaN vs. chargeur PD : Quelle est la différence ?",
             "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/gan-tech.png?v=1695612561",
-            "date": "May  6, 2023",
+            "date": "",
             "description": "",
             "link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/chargeur-gan-vs-chargeur-pd-quelle-est-la-difference",
             "tag": "Tech Trends"
@@ -385,12 +385,12 @@
         "fe469495-d8cb-424c-af61-09b08c7155ab": {
           "type": "ug-index-blog-item",
           "settings": {
-            "title": "Chargeurs USB-C : 5 questions fréquemment posées",
-            "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/chargeurs-usb-c.webp?v=1695612558",
-            "date": "Mar  5, 2023",
+            "title": "Ugreen lance la série Nexode Pro pour une expérience de recharge rapide comme l'éclair",
+            "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/nexode-pro.webp?v=1702893971",
+            "date": "",
             "description": "",
-            "link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/chargeurs-usb-c-faq",
-            "tag": "Buying Guides"
+            "link": "https:\/\/fr.ugreen.com\/blogs\/news\/ugreen-lance-la-serie-nexode-pro",
+            "tag": "News"
           }
         },
         "2f682d42-1614-4781-ba3e-ff7d3fb6f30b": {
@@ -398,7 +398,7 @@
           "settings": {
             "title": "Certifié Apple MFi : Le manuel complet",
             "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/apple-mif-certified.jpg?v=1695612558",
-            "date": "May  6, 2023",
+            "date": "",
             "description": "",
             "link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/certifie-apple-mfi-le-manuel-complet",
             "tag": "Buying Guides"
