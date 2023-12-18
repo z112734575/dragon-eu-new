@@ -1258,33 +1258,15 @@
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f": {
             "type": "tab_list",
             "settings": {
-              "tab_name_list": "Power Station,Chargers,Docks & Hubs,Cables,Adapters,For Laptop,For Phone&Tablet,For Car",
+              "tab_name_list": "Chargers,Power Station,Docks & Hubs,Cables,Adapters,For Laptop,For Phone&Tablet,For Car",
               "tab_image_list": "",
               "tab_link_list": ""
-            }
-          },
-          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-                "15054a",
-                "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
-                "ugreen-portable-power-station-mit-byd-gemeinsam-entwickeltes-1200w-1024wh",
-                "15114",
-                "15113"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Portable Power Station",
-              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-station,",
-              "all_collection_url": "shopify:\/\/collections\/power-station",
-              "all_collection_name": "All"
             }
           },
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d": {
             "type": "tab_content",
             "settings": {
-              "tab_id": 2,
+              "tab_id": 1,
               "product_list": [
                 "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
                 "ugreen-nexode-100w-usb-c-wall-charger",
@@ -1296,6 +1278,24 @@
               "collection_name_list": "USB C Chargers,\nGaN Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/chargers,https:\/\/eu.ugreen.com\/collections\/gan-chargers,https:\/\/eu.ugreen.com\/collections\/power-bank,https:\/\/eu.ugreen.com\/collections\/car-chargers,https:\/\/eu.ugreen.com\/collections\/wireless-chargers",
               "all_collection_url": "shopify:\/\/collections\/charger",
+              "all_collection_name": "All"
+            }
+          },
+          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 2,
+              "product_list": [
+                "15054a",
+                "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
+                "ugreen-portable-power-station-mit-byd-gemeinsam-entwickeltes-1200w-1024wh",
+                "15114",
+                "15113"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Portable Power Station",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-station,",
+              "all_collection_url": "shopify:\/\/collections\/power-station",
               "all_collection_name": "All"
             }
           },
@@ -1465,8 +1465,8 @@
           "896b0a1b-4c88-41dc-aae8-3dc3fc782bd9",
           "224acbf9-e273-470e-aeb8-ce1cab7498c4",
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
-          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
+          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "3aa127d5-0ed9-44dc-b7d5-82682a545122",
           "0570254c-45bf-450c-861c-0c201ef1c2b0",
           "6290bbb7-655f-4740-aeb5-bcea4d6de6cc",
