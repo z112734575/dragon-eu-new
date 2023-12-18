@@ -9,6 +9,8 @@
     assign stt_layout = se_stts.layout
     assign bg_video_url = se_stts.bg_video_url
     assign mo_bg_video_url = se_stts.mo_bg_video_url
+    assign bg_img_url = se_stts.bg_img_url
+    assign mo_bg_img_url = se_stts.mo_bg_img_url
     assign se_height = se_stts.se_height
     assign text_size = se_stts.text_size | split:","
     assign design = se_stts.design
@@ -64,7 +66,11 @@
             <div class="t4s-col-item">
                 <div class="t4s-hero-inner t4s-pr t4s-oh t4s_cover t4s_ratio t4s_position_{{se_stts.image_position}}"  data-video-insert> 
                   <!-- PC-video -->
-                   <video class="t4s_bg_vid_html5 pc_video_bg" style="z-index:9" src="{{ bg_video_url }}" preload="auto" playsinline="" autoplay="" muted=""></video>
+                   <video class="t4s_bg_vid_html5 pc_video_bg" style="z-index:9" poster="{{ bg_img_url }}" preload="auto" playsinline="" autoplay="" muted="">
+                    <source src="{{ bg_video_url }}"
+                        type="video/mp4">
+                    </source>
+                </video>
                   <!-- Mobile-video -->
                    <video class="t4s_bg_vid_html5 mo_video_bg" style="z-index:9" src="{{ mo_bg_video_url }}" preload="auto" playsinline="" autoplay="" muted=""></video>
                   <style>
@@ -262,10 +268,21 @@
         },  
       {
             "type": "text",
+            "id": "bg_img_url",
+            "label": " PC video 静态图片"
+        },
+      {
+            "type": "text",
             "id": "bg_video_url",
             "label": " PC video背景",
             "default":"https://cdn.shopify.com/s/files/1/0610/5209/2628/files/Share_your_brand_story_by_adding_a_video_to_your_store.mp4?v=1641630446",
             "info": "File video link from uploaded files. File size is smaller 4 mb recommended"
+        },
+      
+      {
+            "type": "text",
+            "id": "mo_bg_img_url",
+            "label": "手机端video 静态图片"
         },
       {
             "type": "text",
