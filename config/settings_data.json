@@ -1638,7 +1638,7 @@
               "image": "shopify:\/\/shop_images\/nexode_pro_1.png",
               "img_effect": "none",
               "b_effect": "none",
-              "b_link": "https:\/\/fr.ugreen.com\/pages\/ugreen-nexode-pro-chargeur-series",
+              "b_link": "https:\/\/de.ugreen.com\/pages\/ugreen-nexode-pro-ladegerat-series",
               "open_link": "_self",
               "html": "<h3 class=\"fs__30 mg__0 lh__1 cw mb__10\">UGREEN<br>Série Nexode Pro<\/h3><h4 class=\"fs__16 mg__0 cw\"><\/h4>\n<h4 class=\"fs__14 mg__0 cw\" style=\"font-size: 16px; color: #03F2A6;cursor: pointer;\">Explorer &gt;&gt;<\/h4>",
               "content_align": "start",
@@ -1666,8 +1666,8 @@
               "content_align": "start",
               "cv_pos": 15,
               "ch_pos": 10,
-              "cl_txt": "#fff",
-              "cl_overlay": "#000",
+              "cl_txt": "#ffffff",
+              "cl_overlay": "#000000",
               "cl_opacity": 5,
               "col": "4"
             }
