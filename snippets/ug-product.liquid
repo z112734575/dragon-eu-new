@@ -1,5 +1,6 @@
 {% for product in product_list %}
   {% liquid
+    assign buy_button = product.metafields.custom.buy_button.value
     assign discountbar = product.metafields.custom.discountbar.value
     # 折扣码
     assign discount_code = discountbar[1]
@@ -101,13 +102,13 @@
                   data-variant-id="{{ product.variants.first.id }}"
                   data-action-atc
                   rel="nofollow"
-          >Buy Now</a
+          >{{buy_btn_text | default: 'Jetzt Kaufen'}}</a
           >
           {% if page.url contains 'autumn-harvest-access-sale' %}
             <a href="{{ amz_url }}" class="ug-product-learn-btn" target="_blank">Amazon</a>
           {% endif %}
           {% if show_learn_btn %}
-            <a href="{{ product.url }}" class="ug-product-learn-btn">Learn more</a>
+            <a href="{{ product.url }}" class="ug-product-learn-btn">{{learn_btn_text | default: 'Mehr Erfahren'}}</a>
           {% endif %}
         </div>
       </div>
