@@ -26,6 +26,15 @@
   assign section_icon = settings.section_icon
   assign item_type = settings.item_type
   assign title_color = settings.title_color
+  assign buy_btn_text = settings.buy_btn_text | default: 'Acheter'
+  assign learn_btn_text = settings.learn_btn_text | default: 'En savoir plus'
+  assign tabs_bar_bg_color = settings.tabs_bar_bg_color
+  assign tab_bg_color = settings.tab_bg_color
+  assign tab_text_color = settings.tab_text_color
+  assign tab_border_color = settings.tab_border_color
+  assign tab_active_bg_color = settings.tab_active_bg_color
+  assign tab_active_text_color = settings.tab_active_text_color
+  assign tab_active_border_color = settings.tab_active_border_color
   assign classId = section_id | prepend: '#'
 %}
 {{ 'ug-product-list.css' | asset_url | stylesheet_tag }}
@@ -38,9 +47,9 @@
 <style>
   {{ classId }} .ug-product-list {
       padding: {{ pc_padding }};
+      display: none;
   }
-  {{ classId }}
-  .ug-product-list-main {
+  {{ classId }} .ug-product-list-main {
       grid-template-columns: repeat({{ pc_row }},minmax(0, 1fr));
   }
   {{ classId }}
@@ -51,6 +60,19 @@
   {{ classId }}
   .ug-product-sale-flag {
       width: {{ pc_product_sale_width | default: '60px' }};
+  }
+  {{ classId }} .tabs_list-wrap {
+    background-color: {{tabs_bar_bg_color}};
+  }
+  {{ classId }} .tabs_list-item {
+    background-color: {{tab_bg_color}};
+    border: 1px solid {{tab_border_color}};
+    color: {{tab_text_color}};
+  }
+    {{ classId }} .tabs_list-item:hover,{{ classId }} .tabs_list-item.active {
+    background-color: {{tab_active_bg_color}};
+    border: 1px solid {{tab_active_border_color}};
+    color: {{tab_active_text_color}};
   }
   @media (max-width: 768px) {
       {{ classId }} .ug-product-list {
@@ -100,8 +122,8 @@
   }
   {% endif %}
 </style>
-<div class="tabs_products_list" id="{{ section_id }}">
-  <div class="contant">
+<div class="tabs_products_list-wrap" id="{{ section_id }}">
+  <div class="content">
     <div class="svg_title">
       <svg class="icon" aria-hidden="true">
         <use xlink:href="#{{ section_icon }}"></use>
@@ -111,19 +133,21 @@
       </h2>
       <p>{{ sub_title }}</p>
     </div>
-    <div class="cursor-btns swiper" thumbsslider="">
-      <div class="swiper-wrapper">
+    <div class= "tabs_list-wrap" >
+      <div class="tabs_list-main">
         {% for item in items %}
           {% assign tabs_title = item.settings.tabs_title %}
-          <span class="cursor-btn swiper-slide">{{ tabs_title }}</span>
+          {% assign tabs_title_id = item.settings.tabs_title | split: " " | join: "_" %}
+          <span class="tabs_list-item {% if forloop.index == 1 %} active {% endif%}" data-tabs-id="{{ tabs_title_id }}">{{ tabs_title }}</span>
         {% endfor %}
       </div>
     </div>
-    <div class="tabs_swiper swiper">
+    <div class="tabs_swiper  tabs_products_list-main">
       <div class="swiper-wrapper">
         {% for item in items %}
           {% assign product_list = item.settings.product_list %}
-          <div class="ug-product-list swiper-slide">
+          {% assign tabs_title_id = item.settings.tabs_title | split: " " | join: "_" %}
+          <div class="ug-product-list swiper-slide" id="{{ tabs_title_id }}" style="{% if forloop.index == 1 %} display: block; {% endif%}">
             <div class="ug-product-list-main load-more_list">
               {% render 'ug-product',
                 product_list: product_list,
@@ -139,7 +163,9 @@
                 pc_product_item_img_size: pc_product_item_img_size,
                 mobile_product_item_img_size: mobile_product_item_img_size,
                 mobile_product_type: mobile_product_type,
-                item_type: item_type
+                item_type: item_type,
+                buy_btn_text: buy_btn_text,
+                learn_btn_text: learn_btn_text
               %}
             </div>
           </div>
@@ -151,25 +177,16 @@
 
 <script>
 $(function(){
-    const cursorBtns = new Swiper(`{{ section_id | prepend: '#' }} .cursor-btns`, {
-        slidesPerView: {{ list_all }},
-        spaceBetween: 20,
-        watchSlidesVisibility: true //防止不可点击
-    });
-    const TabsSwiper = new Swiper(`{{ section_id | prepend: '#' }} .tabs_swiper`, {
-        slidesPerView: 'auto',
-        spaceBetween: 20,
-        speed: 1000,
-        centeredSlides: true,
-        autoHeight: true,
-        threshold : 50, // 超过50px才算做滑动
-        observer: true,
-        observeParents: true,
-        loop: true,
-        thumbs: {
-            swiper: cursorBtns,
-        },
-    })
+  $('.tabs_list-item').on('click', function(e) {
+    $('.tabs_list-item').removeClass('active')
+    const targert = $(e.target)
+    targert.addClass('active')
+    const tabsId = targert.attr('data-tabs-id')
+    $(`{{ classId }} .ug-product-list`).hide()
+    const targetContent =  document.getElementById(`${tabsId}`)
+    targetContent.style.display = "block" // 使用原生js， jquery的获取对一些特殊符号例如&会报错
+     $(`{{ classId }} .svg_title`)[0].scrollIntoView({behavior: "smooth"})
+  })
 })
 </script>
 {% if need_load_more %}
@@ -178,8 +195,6 @@ $(function(){
     defer
   ></script>
   <script>
-
-
         $(function () {
             $(`{{ section_id | prepend: '#' }} .load-more_list`).simpleLoadMore({
                 item: `div.ug-product-item`,
@@ -255,6 +270,48 @@ $(function(){
       "default": "#fff"
     },
     {
+      "type": "color",
+      "id": "tabs_bar_bg_color",
+      "label": "tabs 背景色",
+      "default": "transparent"
+    },
+    {
+      "type": "color",
+      "id": "tab_bg_color",
+      "label": "tab按钮背景色",
+      "default": "#fff5d3"
+    },
+    {
+      "type": "color",
+      "id": "tab_text_color",
+      "label": "tab按钮文字颜色",
+      "default": "#ff8818"
+    },
+    {
+      "type": "color",
+      "id": "tab_border_color",
+      "label": "tab按钮border颜色",
+      "default": "#fff5d3"
+    },
+    {
+      "type": "color",
+      "id": "tab_active_bg_color",
+      "label": "tab按钮高亮背景颜色",
+      "default": "#ff8818"
+    },
+    {
+      "type": "color",
+      "id": "tab_active_text_color",
+      "label": "tab按钮高亮文字颜色",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "tab_active_border_color",
+      "label": "tab按钮高亮border颜色",
+      "default": "#ff8818"
+    },
+    {
       "type": "text",
       "id": "pc_product_item_img_size",
       "label": "电脑端Product Item 图片比例",
@@ -307,6 +364,18 @@ $(function(){
       "id": "mobile_padding",
       "label": "移动端padding数值",
       "default": "40px 0"
+    },
+    {
+      "type": "text",
+      "id": "buy_btn_text",
+      "label": "购买按钮文案",
+      "default": "Buy Now"
+    },
+    {
+      "type": "text",
+      "id": "learn_btn_text",
+      "label": "学习更多按钮文案",
+      "default": "Learn more"
     },
     {
       "type": "checkbox",
