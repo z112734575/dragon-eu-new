@@ -85,10 +85,11 @@
     line-height: 14px;
     padding: 13px 0;
     margin: 4px !important;
-    flex: auto;
+    flex: none;
   }
   .tabs_list-wrap .tabs_list-main {
     flex-wrap: wrap !important;
     gap: 0;
+    justify-content: flex-start;
   }
 }
