@@ -331,7 +331,7 @@
         "tabs_bar_bg_color": "#ebf4df",
         "tab_bg_color": "rgba(0,0,0,0)",
         "tab_text_color": "#104533",
-        "tab_boder_color": "#104533",
+        "tab_border_color": "#104533",
         "tab_active_bg_color": "#104533",
         "tab_active_text_color": "#fff",
         "tab_active_border_color": "#104533",

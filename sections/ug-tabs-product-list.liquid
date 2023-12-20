@@ -31,7 +31,7 @@
   assign tabs_bar_bg_color = settings.tabs_bar_bg_color
   assign tab_bg_color = settings.tab_bg_color
   assign tab_text_color = settings.tab_text_color
-  assign tab_boder_color = settings.tab_boder_color
+  assign tab_border_color = settings.tab_border_color
   assign tab_active_bg_color = settings.tab_active_bg_color
   assign tab_active_text_color = settings.tab_active_text_color
   assign tab_active_border_color = settings.tab_active_border_color
@@ -66,7 +66,7 @@
   }
   {{ classId }} .tabs_list-item {
     background-color: {{tab_bg_color}};
-    border: 1px solid {{tab_boder_color}};
+    border: 1px solid {{tab_border_color}};
     color: {{tab_text_color}};
   }
     {{ classId }} .tabs_list-item:hover,{{ classId }} .tabs_list-item.active {
@@ -289,7 +289,7 @@ $(function(){
     },
     {
       "type": "color",
-      "id": "tab_boder_color",
+      "id": "tab_border_color",
       "label": "tab按钮border颜色",
       "default": "#fff5d3"
     },
