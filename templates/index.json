@@ -122,10 +122,10 @@
         ".topImage {margin-top: 10px;}"
       ],
       "settings": {
-        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_revodok.png?v=1702608202",
-        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_Nexode_release_mo.webp?v=1702868404",
-        "title": "UGREEN Nexode Pro",
-        "subtitle": "Le nouveau Nexode sera dévoilé",
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Redock_max_313.webp?v=1703057703",
+        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Redock_max_313_m.webp",
+        "title": "UGREEN Revodok Série",
+        "subtitle": "Développez votre créativité",
         "button_text": "Découverte Plus",
         "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
         "text_color": "#ffffff",
