@@ -3295,6 +3295,18 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#000000",
+          "button_icon": "chat_bubble",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "button_text": "no_text",
+          "greeting_message": "👋 Bonjour, écrivez‑nous si vous avez des questions. Nous serons ravis de vous aider !"
+        }
       }
     }
   }
