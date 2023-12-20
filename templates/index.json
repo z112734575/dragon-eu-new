@@ -98,8 +98,8 @@
 
       ],
       "settings": {
-        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/revdok-pro-dockingstation-banner_pc.webp?v=1702608584",
-        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/revdok-pro-dockingstation-banner_mb.webp?v=1702608610",
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_pc_593d8952-044f-4f78-9d71-e07b7d24d4be.webp?v=1703059751",
+        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_mo_9eea2e97-0663-46fe-bd01-4a7a4d06ddc1.webp?v=1703059751",
         "title": "UGREEN Revodok Serie",
         "subtitle": "Expand Your Creativity",
         "button_text": "Learn More",
@@ -209,6 +209,8 @@
         ],
         "title": "Hot Sale",
         "subtitle": "",
+        "buy_btn_text": "Buy Now",
+        "learn_btn_text": "Learn more",
         "section_id": "ug-product-list",
         "pc_product_type": "column",
         "mobile_product_type": "column",
