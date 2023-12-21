@@ -141,9 +141,51 @@
         "box_title": "Guides d'achat",
         "box_more_title": "More",
         "box_more_url": "https:\/\/blog.ugreen.com\/product-reviews-and-buying-guides\/buying-guides\/",
-        "blog_img": "https:\/\/i.ytimg.com\/vi\/Azs4REVc4k0\/maxresdefault.jpg",
-        "blog_title": "Ugreen PowerRoam 1200W Power Station - Empower Your Life, Roam the World",
-        "blog_url": "https:\/\/youtu.be\/Azs4REVc4k0"
+        "blog_img": "https:\/\/i.ytimg.com\/vi\/kGG4wzU-jTU\/hqdefault.jpg",
+        "blog_title": "Introducing the Ugreen Nexode Pro Series",
+        "blog_url": "https:\/\/youtu.be\/kGG4wzU-jTU?si=j8_xBiNHwBYXFmYV"
+      }
+    },
+    "ffa8a05e-d14a-4cca-abe5-af624edba082": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "1036261a-d919-4b24-aac3-0fac68c2db80": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/gan-tech-1693471106071_8621df6e-ed83-4c8d-b568-9f41b26edb65-884421_1200x.jpg?v=1695609997",
+            "article_title": "Chargeur GaN vs. chargeur PD : Quelle est la différence ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/chargeur-gan-vs-chargeur-pd-quelle-est-la-difference"
+          }
+        },
+        "1e53884c-5284-43fa-8ce0-b0ff6bfea677": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/chargeurs-usb-c-1694051269092-508584_1200x.webp?v=1695609996",
+            "article_title": "Chargeurs USB-C : 5 questions fréquemment posées",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/chargeurs-usb-c-faq"
+          }
+        },
+        "8df31f5c-4378-4194-a1b4-e86c8d1855d7": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "",
+            "article_title": "",
+            "article_time": "",
+            "article_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1036261a-d919-4b24-aac3-0fac68c2db80",
+        "1e53884c-5284-43fa-8ce0-b0ff6bfea677",
+        "8df31f5c-4378-4194-a1b4-e86c8d1855d7"
+      ],
+      "settings": {
+        "box_title": "",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/product-reviews-and-buying-guides\/buying-guides\/"
       }
     },
     "fabc6a84-fefb-4705-a404-2565883c824e": {
@@ -275,6 +317,28 @@
         "box_more_title": "More",
         "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
       }
+    },
+    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "f40b3d24-6b95-447c-a87f-445b25b783b1": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/apple-mfi-certified-banner-1694571235531_19f0f327-768a-4e16-98c4-ab4cd55dc55f-921597_1200x.webp?v=1695609994",
+            "article_title": "Certifié Apple MFi : Le manuel complet",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/certifie-apple-mfi-le-manuel-complet"
+          }
+        }
+      },
+      "block_order": [
+        "f40b3d24-6b95-447c-a87f-445b25b783b1"
+      ],
+      "settings": {
+        "box_title": "",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
+      }
     }
   },
   "order": [
@@ -283,8 +347,10 @@
     "70ab769d-49b9-4078-9378-130a70a775b9",
     "b8e8c9f9-4031-482a-b69a-652c18751758",
     "a87d8fe4-d9c6-4c7b-82cc-c209de5a354e",
+    "ffa8a05e-d14a-4cca-abe5-af624edba082",
     "fabc6a84-fefb-4705-a404-2565883c824e",
     "bf504a34-6bb9-4b51-8576-a6eafaec39e4",
-    "d1a92bb6-e4ab-4d92-9421-602bf1386bad"
+    "d1a92bb6-e4ab-4d92-9421-602bf1386bad",
+    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750"
   ]
 }
