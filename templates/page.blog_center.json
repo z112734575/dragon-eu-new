@@ -161,13 +161,45 @@
         "1e53884c-5284-43fa-8ce0-b0ff6bfea677": {
           "type": "Item",
           "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/gaming-laptop-docking-station-1695181099439-996458_1200x.webp?v=1695609999",
+            "article_title": "Le guide ultime des stations d'accueil pour ordinateurs portables pour les joueurs",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/hubs-and-docks\/the-ultimate-gaming-laptop-docking-station-guide"
+          }
+        }
+      },
+      "block_order": [
+        "1036261a-d919-4b24-aac3-0fac68c2db80",
+        "1e53884c-5284-43fa-8ce0-b0ff6bfea677"
+      ],
+      "settings": {
+        "box_title": "",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/product-reviews-and-buying-guides\/buying-guides\/"
+      }
+    },
+    "b381954c-5189-4408-9fe3-c36946e8d18c": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "88017424-89b5-4d77-8461-137d07192f29": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/gan-tech-1693471106071_8621df6e-ed83-4c8d-b568-9f41b26edb65-884421_1200x.jpg?v=1695609997",
+            "article_title": "Chargeur GaN vs. chargeur PD : Quelle est la différence ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/chargeur-gan-vs-chargeur-pd-quelle-est-la-difference"
+          }
+        },
+        "0ac10068-13eb-4296-a992-0529e0961d65": {
+          "type": "Item",
+          "settings": {
             "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/chargeurs-usb-c-1694051269092-508584_1200x.webp?v=1695609996",
             "article_title": "Chargeurs USB-C : 5 questions fréquemment posées",
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/chargeurs-usb-c-faq"
           }
         },
-        "8df31f5c-4378-4194-a1b4-e86c8d1855d7": {
+        "471e764b-4ab2-4298-a31a-ac94e90aa260": {
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/10-best-charging-station-1698217566318-148262_1200x.webp?v=1698232112",
@@ -178,9 +210,9 @@
         }
       },
       "block_order": [
-        "1036261a-d919-4b24-aac3-0fac68c2db80",
-        "1e53884c-5284-43fa-8ce0-b0ff6bfea677",
-        "8df31f5c-4378-4194-a1b4-e86c8d1855d7"
+        "88017424-89b5-4d77-8461-137d07192f29",
+        "0ac10068-13eb-4296-a992-0529e0961d65",
+        "471e764b-4ab2-4298-a31a-ac94e90aa260"
       ],
       "settings": {
         "box_title": "",
@@ -400,6 +432,7 @@
     "b8e8c9f9-4031-482a-b69a-652c18751758",
     "a87d8fe4-d9c6-4c7b-82cc-c209de5a354e",
     "ffa8a05e-d14a-4cca-abe5-af624edba082",
+    "b381954c-5189-4408-9fe3-c36946e8d18c",
     "fabc6a84-fefb-4705-a404-2565883c824e",
     "38ba10c1-4284-48ba-863f-ec63c318450f",
     "bf504a34-6bb9-4b51-8576-a6eafaec39e4",
