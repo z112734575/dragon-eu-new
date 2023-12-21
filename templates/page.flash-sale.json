@@ -59,23 +59,23 @@
       "settings": {
         "item_type": "default",
         "product_list": [
-          "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
           "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
-          "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
-          "ugreen-65w-chargeur-usb-c-4-ports-with-cable-usb-c-vers-usb-c-coude-pd-60w-charge-rapide",
+          "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
           "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
+          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w",
+          "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
+          "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
           "ugreen-nexode-100w-usb-c-chargeur-rapide-4-ports-with-2-charge-cable-usb-c",
           "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable",
-          "ugreen-batterie-externe-portable-usb-c-25000-mah-145w",
           "ugreen-nexode-200w-gan-chargeur-usb-c-6-ports",
-          "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
           "ugreen-chargeur-usb-c-20w-lot-de-2-power-delivery-3-0-blancugreen-chargeur-usb-c-20w-lot-de-2-power-delivery-3-0-blanc",
           "ugreen-360-rotating-laptop-tablet-stand-holder",
-          "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
-          "ugreen-support-de-chargeur-magnetique-2-en-1-de-induction-sans-fil"
+          "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte"
         ],
         "title": "",
         "subtitle": "",
+        "buy_btn_text": "Acheter",
+        "learn_btn_text": "En savoir plus",
         "section_id": "ug-product-list",
         "pc_product_type": "row",
         "mobile_product_type": "row",
@@ -102,67 +102,6 @@
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
-        "2632b153-e4f5-4946-9146-3002be2c2b29": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "GaN Chargers",
-            "product_list": [
-              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
-              "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
-              "ugreen-65w-chargeur-usb-c-4-ports",
-              "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
-              "ugreen-nexode-chargeur-30w-usb-c",
-              "ugreen-nexode-chargeur-20w-usb-c",
-              "ugreen-nexode-chargeur-45w-usb-c-2-ports",
-              "ugreen-nexode-300w-usb-c-gan-chargeur",
-              "ugreen-65w-chargeur-secteur-2-usb-c-pd-3-0-rapide",
-              "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-bleu",
-              "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-vert",
-              "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-violet"
-            ]
-          }
-        },
-        "c8751f5a-1c7a-4c08-822d-9979d308db71": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "PD Fast Charger",
-            "product_list": [
-              "ugreen-65w-chargeur-usb-c-rapide-3-ports",
-              "ugreen-20w-chargeur-usb-c-pd-3-0",
-              "ugreen-18w-quick-charge-3-0-chargeur-secteur-usb-2-ports",
-              "ugreen-20w-chargeur-usb-c-pd-3-1",
-              "ugreen-40w-chargeur-usb-c-2-ports",
-              "ugreen-chargeur-30w-usb-c-pps-pd-3-0",
-              "ugreen-chargeur-30w-usb-c-with-cable",
-              "ugreen-chargeur-secteur-usb-quick-charge-3-0-noir"
-            ]
-          }
-        },
-        "b1f03e12-3265-4ff0-8e67-78c87a9afabf": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Car Charger",
-            "product_list": [
-              "ugreen-chargeur-de-voiture-usb-36w-adaptateur",
-              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
-              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
-              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
-              "ugreen-chargeur-usb-qc-3-0-36w-2-ports-chargeur-voiture",
-              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
-              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
-              "50323",
-              "ugreen-support-telephone-voiture-gravite-grille-aeration",
-              "ugreen-support-telephone-voiture-noir",
-              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
-              "ugreen-support-telephone-voiture-rotation-360-degres",
-              "ugreen-support-telephone-voiture-360-degres",
-              "ugreen-support-telephone-voiture-magnetique-grille-aeration",
-              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
-              "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
-              "ugreen-support-telephone-voiture-ventouse-rotation-a-360-degres"
-            ]
-          }
-        },
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -184,6 +123,67 @@
               "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps",
               "ugreen-adaptateur-hub-usb-c-hdmi-4k-60hz-pd-100w-recharge",
               "ugreen-adaptateur-hub-usb-c-vers-hdmi-4k"
+            ]
+          }
+        },
+        "2632b153-e4f5-4946-9146-3002be2c2b29": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "GaN Chargers",
+            "product_list": [
+              "ugreen-65w-chargeur-usb-c-4-ports",
+              "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
+              "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
+              "ugreen-nexode-chargeur-45w-usb-c-2-ports",
+              "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
+              "ugreen-nexode-chargeur-20w-usb-c",
+              "ugreen-nexode-300w-usb-c-gan-chargeur",
+              "ugreen-65w-chargeur-secteur-2-usb-c-pd-3-0-rapide",
+              "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-bleu",
+              "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-vert",
+              "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-violet",
+              "ugreen-nexode-chargeur-30w-usb-c"
+            ]
+          }
+        },
+        "c8751f5a-1c7a-4c08-822d-9979d308db71": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "PD Fast Charger",
+            "product_list": [
+              "ugreen-18w-quick-charge-3-0-chargeur-secteur-usb-2-ports",
+              "ugreen-65w-chargeur-usb-c-rapide-3-ports",
+              "ugreen-20w-chargeur-usb-c-pd-3-1",
+              "ugreen-40w-chargeur-usb-c-2-ports",
+              "ugreen-20w-chargeur-usb-c-pd-3-0",
+              "ugreen-chargeur-30w-usb-c-pps-pd-3-0",
+              "ugreen-chargeur-30w-usb-c-with-cable",
+              "ugreen-chargeur-secteur-usb-quick-charge-3-0-noir"
+            ]
+          }
+        },
+        "b1f03e12-3265-4ff0-8e67-78c87a9afabf": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Car Charger",
+            "product_list": [
+              "ugreen-support-telephone-voiture-gravite-grille-aeration",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
+              "ugreen-chargeur-usb-qc-3-0-36w-2-ports-chargeur-voiture",
+              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
+              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
+              "50323",
+              "ugreen-chargeur-de-voiture-usb-36w-adaptateur",
+              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
+              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
+              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
+              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
+              "ugreen-support-telephone-voiture-noir",
+              "ugreen-support-telephone-voiture-rotation-360-degres",
+              "ugreen-support-telephone-voiture-360-degres",
+              "ugreen-support-telephone-voiture-magnetique-grille-aeration",
+              "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
+              "ugreen-support-telephone-voiture-ventouse-rotation-a-360-degres"
             ]
           }
         },
@@ -262,10 +262,10 @@
         }
       },
       "block_order": [
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "2632b153-e4f5-4946-9146-3002be2c2b29",
         "c8751f5a-1c7a-4c08-822d-9979d308db71",
         "b1f03e12-3265-4ff0-8e67-78c87a9afabf",
-        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "6a1282f5-6f7c-435a-aa88-7d876a77f826",
         "563e8dd5-3fa7-4939-b349-ae402e9db803",
         "ca5e5743-557b-4aba-aa51-946342cd18ce"
@@ -279,6 +279,13 @@
         "list_all": "7",
         "title_color": "#000000",
         "product_item_bg_color": "#f5f5f7",
+        "tabs_bar_bg_color": "transparent",
+        "tab_bg_color": "#fff5d3",
+        "tab_text_color": "#ff8818",
+        "tab_border_color": "#fff5d3",
+        "tab_active_bg_color": "#ff8818",
+        "tab_active_text_color": "#fff",
+        "tab_active_border_color": "#ff8818",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "100%",
         "pc_row": "4",
@@ -288,6 +295,8 @@
         "mobile_product_sale_width": "48px",
         "pc_padding": "35px 0 120px 0",
         "mobile_padding": "35px 0 80px 0",
+        "buy_btn_text": "Acheter",
+        "learn_btn_text": "En savoir plus",
         "need_load_more": false,
         "load_more_default_count": 4,
         "show_sale_flag": true,
