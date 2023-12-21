@@ -166,11 +166,21 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/centrales-electriques-portables-101"
           }
+        },
+        "73f0fcea-77a0-4563-aa67-e43dd11e4427": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/camping-power-station-1701764381614-321554_1200x.png?v=1701819182",
+            "article_title": "Comment choisir une centrale électrique portable pour le camping ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/comment-choisir-une-centrale-electrique-portable-pour-le-camping"
+          }
         }
       },
       "block_order": [
         "1e53884c-5284-43fa-8ce0-b0ff6bfea677",
-        "f06eca74-8b55-4e46-b5d2-20ab1efbd032"
+        "f06eca74-8b55-4e46-b5d2-20ab1efbd032",
+        "73f0fcea-77a0-4563-aa67-e43dd11e4427"
       ],
       "settings": {
         "box_title": "",
