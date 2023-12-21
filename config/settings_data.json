@@ -1545,30 +1545,6 @@
               "lb_cl": ""
             }
           },
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
-            "type": "menu",
-            "settings": {
-              "title": "Deal",
-              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
-              "open_link": "_self",
-              "menu": "deals-events",
-              "icon": "",
-              "lb": "HOT",
-              "lb_cl": "#ec0101"
-            }
-          },
-          "74abf930-8362-4e67-a9df-d02be16b9c4e": {
-            "type": "menu",
-            "settings": {
-              "title": "Portable Power Station",
-              "url": "shopify:\/\/pages\/powerroam-power-stations",
-              "open_link": "_self",
-              "menu": "portable-power-station",
-              "icon": "",
-              "lb": "",
-              "lb_cl": "#de4156"
-            }
-          },
           "8d7adc9a-6e6f-4c96-849e-005240cb0084": {
             "type": "menu",
             "settings": {
@@ -1581,6 +1557,30 @@
               "lb_cl": "#29efcd"
             }
           },
+          "246d6a43-8eae-4603-8210-e382e822c0a3": {
+            "type": "menu",
+            "settings": {
+              "title": "Revodok Pro",
+              "url": "https:\/\/eu.ugreen.com\/pages\/ugreen-revodok-series-new-release",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "NEW",
+              "lb_cl": ""
+            }
+          },
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
+            "type": "menu",
+            "settings": {
+              "title": "Deal",
+              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
+              "open_link": "_self",
+              "menu": "deals-events",
+              "icon": "",
+              "lb": "HOT",
+              "lb_cl": "#ec0101"
+            }
+          },
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf": {
             "type": "menu",
             "settings": {
@@ -1591,6 +1591,18 @@
               "icon": "",
               "lb": "",
               "lb_cl": "#29efcd"
+            }
+          },
+          "74abf930-8362-4e67-a9df-d02be16b9c4e": {
+            "type": "menu",
+            "settings": {
+              "title": "Portable Power Station",
+              "url": "shopify:\/\/pages\/powerroam-power-stations",
+              "open_link": "_self",
+              "menu": "portable-power-station",
+              "icon": "",
+              "lb": "",
+              "lb_cl": "#de4156"
             }
           },
           "06092e7b-58cd-4790-9721-e86ddd55d4a0": {
@@ -1672,10 +1684,11 @@
           "978de359-1bb0-4204-91e0-084625271217",
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
-          "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "8d7adc9a-6e6f-4c96-849e-005240cb0084",
+          "246d6a43-8eae-4603-8210-e382e822c0a3",
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
           "d94a87ae-5e56-4f05-8ad5-a8f8718ef8bf",
+          "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "06092e7b-58cd-4790-9721-e86ddd55d4a0",
           "a6508826-0ecb-4412-a5d8-a7547aa8d015",
           "mb_nav-4",
