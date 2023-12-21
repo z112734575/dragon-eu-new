@@ -152,13 +152,35 @@
         "1e53884c-5284-43fa-8ce0-b0ff6bfea677": {
           "type": "Item",
           "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/ugreen-usb-ethernet-adapter-1696818735151_59333738-3cbd-4f79-8290-4427c8fbbb92-868665_1200x.webp?v=1696989234",
+            "article_title": "Un aperçu complet des adaptateurs Ethernet USB (2023)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/adaptateurs\/adaptateur-ethernet-usb"
+          }
+        }
+      },
+      "block_order": [
+        "1e53884c-5284-43fa-8ce0-b0ff6bfea677"
+      ],
+      "settings": {
+        "box_title": "",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/product-reviews-and-buying-guides\/buying-guides\/"
+      }
+    },
+    "19fffa27-c536-41fc-a189-5345a6b95849": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "19447497-d97b-42aa-a4c2-b0365576e084": {
+          "type": "Item",
+          "settings": {
             "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/gaming-laptop-docking-station-1695181099439-996458_1200x.webp?v=1695609999",
             "article_title": "Le guide ultime des stations d'accueil pour ordinateurs portables pour les joueurs",
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/hubs-and-docks\/the-ultimate-gaming-laptop-docking-station-guide"
           }
         },
-        "f06eca74-8b55-4e46-b5d2-20ab1efbd032": {
+        "28589bd0-aea2-4e74-85d9-b97b29388be9": {
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/portable-power-station-1698819146358-848625_1200x.jpg?v=1698886464",
@@ -167,7 +189,7 @@
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/centrales-electriques-portables-101"
           }
         },
-        "73f0fcea-77a0-4563-aa67-e43dd11e4427": {
+        "6101c44c-c0b2-42c2-b3e8-4ea85753020a": {
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/camping-power-station-1701764381614-321554_1200x.png?v=1701819182",
@@ -178,9 +200,9 @@
         }
       },
       "block_order": [
-        "1e53884c-5284-43fa-8ce0-b0ff6bfea677",
-        "f06eca74-8b55-4e46-b5d2-20ab1efbd032",
-        "73f0fcea-77a0-4563-aa67-e43dd11e4427"
+        "19447497-d97b-42aa-a4c2-b0365576e084",
+        "28589bd0-aea2-4e74-85d9-b97b29388be9",
+        "6101c44c-c0b2-42c2-b3e8-4ea85753020a"
       ],
       "settings": {
         "box_title": "",
@@ -452,6 +474,7 @@
     "b8e8c9f9-4031-482a-b69a-652c18751758",
     "a87d8fe4-d9c6-4c7b-82cc-c209de5a354e",
     "ffa8a05e-d14a-4cca-abe5-af624edba082",
+    "19fffa27-c536-41fc-a189-5345a6b95849",
     "b381954c-5189-4408-9fe3-c36946e8d18c",
     "fabc6a84-fefb-4705-a404-2565883c824e",
     "38ba10c1-4284-48ba-863f-ec63c318450f",
