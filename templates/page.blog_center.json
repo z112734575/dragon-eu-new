@@ -245,10 +245,30 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/pourquoi-certains-chargeurs-chauffent-ils"
           }
+        },
+        "aad580be-9fb8-4de8-afb5-b4eea550935a": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/laptop-charger-wattage-1702345005741-731548_1200x.jpg?v=1702422620",
+            "article_title": "Combien de watts pour charger un ordinateur portable ? (3 méthodes !)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/combien-de-watts-pour-charger-un-ordinateur-portable"
+          }
+        },
+        "13d1994b-38ef-45d6-a457-fcf64fff91a2": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/low-battery-laptop-1702965034163-342191_1200x.webp?v=1703040450",
+            "article_title": "Comment charger un ordinateur portable avec un câble HDMI(étapes détaillées)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/cable\/comment-charger-un-ordinateur-portable-avec-un-cable-hdmi"
+          }
         }
       },
       "block_order": [
-        "8b083dce-ed2d-486a-b0d2-a4ebba9dd7d9"
+        "8b083dce-ed2d-486a-b0d2-a4ebba9dd7d9",
+        "aad580be-9fb8-4de8-afb5-b4eea550935a",
+        "13d1994b-38ef-45d6-a457-fcf64fff91a2"
       ],
       "settings": {
         "box_title": "Conseils et tutoriels",
