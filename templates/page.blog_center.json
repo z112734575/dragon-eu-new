@@ -149,15 +149,6 @@
     "ffa8a05e-d14a-4cca-abe5-af624edba082": {
       "type": "blog_tags_list",
       "blocks": {
-        "1036261a-d919-4b24-aac3-0fac68c2db80": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/gan-tech-1693471106071_8621df6e-ed83-4c8d-b568-9f41b26edb65-884421_1200x.jpg?v=1695609997",
-            "article_title": "Chargeur GaN vs. chargeur PD : Quelle est la différence ?",
-            "article_time": "",
-            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/chargeur-gan-vs-chargeur-pd-quelle-est-la-difference"
-          }
-        },
         "1e53884c-5284-43fa-8ce0-b0ff6bfea677": {
           "type": "Item",
           "settings": {
@@ -169,7 +160,6 @@
         }
       },
       "block_order": [
-        "1036261a-d919-4b24-aac3-0fac68c2db80",
         "1e53884c-5284-43fa-8ce0-b0ff6bfea677"
       ],
       "settings": {
@@ -314,13 +304,35 @@
         "47de5809-5131-4ec5-b39d-a1a44f924ecd": {
           "type": "Item",
           "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/gaming-laptop-docking-station-1695181099439-996458_1200x.webp?v=1695609999",
+            "article_title": "Le guide ultime des stations d'accueil pour ordinateurs portables pour les joueurs",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/hubs-and-docks\/the-ultimate-gaming-laptop-docking-station-guide"
+          }
+        }
+      },
+      "block_order": [
+        "47de5809-5131-4ec5-b39d-a1a44f924ecd"
+      ],
+      "settings": {
+        "box_title": "",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
+      }
+    },
+    "7cf72931-5466-4bc6-9cfa-8886492b4302": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "ef12704b-ae5d-4263-882c-d2a564c1ccca": {
+          "type": "Item",
+          "settings": {
             "article_cover": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/t\/59\/assets\/car-camping-1689298410549_1200x.jpg?v=1689298413",
             "article_title": "Comment choisir une centrale électrique portable pour le camping ?",
             "article_time": "",
             "article_link": "https:\/\/www.ugreen.com\/blogs\/power-station\/how-to-select-a-portable-power-station-for-camping"
           }
         },
-        "569e31b4-03b8-484f-afe0-146cea3a00ef": {
+        "08849bea-1f71-4dd6-a9de-ecdef806624d": {
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/www.ugreen.com\/cdn\/shop\/articles\/how-many-kwh-does-a-house-use-daily-month-and-year-in-us-with-data-table-891389_1200x.jpg?v=1694696624",
@@ -329,7 +341,7 @@
             "article_link": "https:\/\/www.ugreen.com\/blogs\/home-battery-backup\/how-many-kwh-does-a-house-use-daily"
           }
         },
-        "569add66-16e1-4167-bfe5-12c16683d826": {
+        "029fc7be-b579-4748-9d53-c84f36ac4c24": {
           "type": "Item",
           "settings": {
             "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2023\/03\/gaming-laptop-docking-station.png?resize=600%2C300&ssl=1",
@@ -340,9 +352,9 @@
         }
       },
       "block_order": [
-        "47de5809-5131-4ec5-b39d-a1a44f924ecd",
-        "569e31b4-03b8-484f-afe0-146cea3a00ef",
-        "569add66-16e1-4167-bfe5-12c16683d826"
+        "ef12704b-ae5d-4263-882c-d2a564c1ccca",
+        "08849bea-1f71-4dd6-a9de-ecdef806624d",
+        "029fc7be-b579-4748-9d53-c84f36ac4c24"
       ],
       "settings": {
         "box_title": "",
@@ -436,6 +448,7 @@
     "fabc6a84-fefb-4705-a404-2565883c824e",
     "38ba10c1-4284-48ba-863f-ec63c318450f",
     "bf504a34-6bb9-4b51-8576-a6eafaec39e4",
+    "7cf72931-5466-4bc6-9cfa-8886492b4302",
     "bd9b4f86-4d1e-4dbd-bc22-ca539539f750",
     "d1a92bb6-e4ab-4d92-9421-602bf1386bad"
   ]
