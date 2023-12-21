@@ -3302,9 +3302,9 @@
         "settings": {
           "button_color": "#000000",
           "button_icon": "chat_bubble",
+          "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "no_text",
           "greeting_message": "👋 Bonjour, écrivez‑nous si vous avez des questions. Nous serons ravis de vous aider !"
         }
       }
