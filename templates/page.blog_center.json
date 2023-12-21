@@ -157,10 +157,20 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/hubs-and-docks\/the-ultimate-gaming-laptop-docking-station-guide"
           }
+        },
+        "f06eca74-8b55-4e46-b5d2-20ab1efbd032": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/portable-power-station-1698819146358-848625_1200x.jpg?v=1698886464",
+            "article_title": "Centrales électriques portables101 : un guide complet (2023)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/centrales-electriques-portables-101"
+          }
         }
       },
       "block_order": [
-        "1e53884c-5284-43fa-8ce0-b0ff6bfea677"
+        "1e53884c-5284-43fa-8ce0-b0ff6bfea677",
+        "f06eca74-8b55-4e46-b5d2-20ab1efbd032"
       ],
       "settings": {
         "box_title": "",
@@ -298,28 +308,6 @@
         "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
       }
     },
-    "bf504a34-6bb9-4b51-8576-a6eafaec39e4": {
-      "type": "blog_tags_list",
-      "blocks": {
-        "47de5809-5131-4ec5-b39d-a1a44f924ecd": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/gaming-laptop-docking-station-1695181099439-996458_1200x.webp?v=1695609999",
-            "article_title": "Le guide ultime des stations d'accueil pour ordinateurs portables pour les joueurs",
-            "article_time": "",
-            "article_link": "https:\/\/fr.ugreen.com\/blogs\/hubs-and-docks\/the-ultimate-gaming-laptop-docking-station-guide"
-          }
-        }
-      },
-      "block_order": [
-        "47de5809-5131-4ec5-b39d-a1a44f924ecd"
-      ],
-      "settings": {
-        "box_title": "",
-        "box_more_title": "More",
-        "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
-      }
-    },
     "7cf72931-5466-4bc6-9cfa-8886492b4302": {
       "type": "blog_tags_list",
       "blocks": {
@@ -382,11 +370,21 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/principes-de-base-de-lusb-types-vitesse-et-raisons-de-sa-popularite"
           }
+        },
+        "298d71d0-41c7-4f10-be4b-d462e4050b46": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/solar-charging-1699255111234-235076_1200x.png?v=1699341441",
+            "article_title": "Qu'est-ce qu'un générateur solaire et comment fonctionne-t-il ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/quest-ce-quun-generateur-solaire"
+          }
         }
       },
       "block_order": [
         "f40b3d24-6b95-447c-a87f-445b25b783b1",
-        "025a22e0-40ab-4aef-952c-604be376bba1"
+        "025a22e0-40ab-4aef-952c-604be376bba1",
+        "298d71d0-41c7-4f10-be4b-d462e4050b46"
       ],
       "settings": {
         "box_title": "Tendances technologiques",
@@ -447,7 +445,6 @@
     "b381954c-5189-4408-9fe3-c36946e8d18c",
     "fabc6a84-fefb-4705-a404-2565883c824e",
     "38ba10c1-4284-48ba-863f-ec63c318450f",
-    "bf504a34-6bb9-4b51-8576-a6eafaec39e4",
     "7cf72931-5466-4bc6-9cfa-8886492b4302",
     "bd9b4f86-4d1e-4dbd-bc22-ca539539f750",
     "d1a92bb6-e4ab-4d92-9421-602bf1386bad"
