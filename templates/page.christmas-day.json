@@ -98,6 +98,34 @@
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Hub & Dock",
+            "product_list": [
+              "ugreen-revodok-pro-9-en-1-docking-station",
+              "ugreen-revodok-pro-12-en-1-docking-station",
+              "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
+              "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
+              "ugreen-revodok-hub-usb-c-hdmi-4k-6-en-1-adaptateur-usb-c",
+              "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
+              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-type-c-lecteur-de-cartes",
+              "ugreen-hub-usb-c-hdmi-4k-adaptateur-usb-c-vers-4-ports-usb-3-0",
+              "ugreen-adaptateur-hub-usb-c-hdmi-4k-60hz-pd-100w-recharge",
+              "ugreen-station-accueil-compatible-avec-steam-deck-6-en-1-hub-hdmi",
+              "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
+              "ugreen-hub-usb-c-ethernet-hdmi-4k-7-en-1-adaptateur-usb-c",
+              "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
+              "ugreen-adaptateur-hub-usb-c-vers-hdmi-4k",
+              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-usb-c-rj45-ethernet-supporte",
+              "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
+              "ugreen-data-hub-usb-3-0-a-7-ports-hub-multi-usb-5gbps",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide-adaptateur",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide",
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps"
+            ]
+          }
+        },
         "c4c2d9bd-d1d9-4856-93c1-da8b846af3db": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -173,34 +201,6 @@
               "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
               "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
               "ugreen-support-telephone-voiture-ventouse-rotation-a-360-degres"
-            ]
-          }
-        },
-        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Hub & Dock",
-            "product_list": [
-              "ugreen-revodok-pro-9-en-1-docking-station",
-              "ugreen-revodok-pro-12-en-1-docking-station",
-              "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
-              "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
-              "ugreen-revodok-hub-usb-c-hdmi-4k-6-en-1-adaptateur-usb-c",
-              "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
-              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-type-c-lecteur-de-cartes",
-              "ugreen-hub-usb-c-hdmi-4k-adaptateur-usb-c-vers-4-ports-usb-3-0",
-              "ugreen-adaptateur-hub-usb-c-hdmi-4k-60hz-pd-100w-recharge",
-              "ugreen-station-accueil-compatible-avec-steam-deck-6-en-1-hub-hdmi",
-              "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
-              "ugreen-hub-usb-c-ethernet-hdmi-4k-7-en-1-adaptateur-usb-c",
-              "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
-              "ugreen-adaptateur-hub-usb-c-vers-hdmi-4k",
-              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-usb-c-rj45-ethernet-supporte",
-              "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
-              "ugreen-data-hub-usb-3-0-a-7-ports-hub-multi-usb-5gbps",
-              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide-adaptateur",
-              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide",
-              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps"
             ]
           }
         },
@@ -309,11 +309,11 @@
         }
       },
       "block_order": [
+        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "c4c2d9bd-d1d9-4856-93c1-da8b846af3db",
         "2632b153-e4f5-4946-9146-3002be2c2b29",
         "649c7ad9-3e77-448d-8e2d-6cd6e59b9879",
         "851c32fd-4017-4065-8ad0-6d879971a650",
-        "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
         "03bc0a7f-3461-439c-837b-d6c82cf28237",
         "769bdc30-e1f2-4883-ae4d-e5607d28c623",
         "0ff54963-288f-4855-a574-2aaaf24272f0",
