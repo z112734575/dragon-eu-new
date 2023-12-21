@@ -170,10 +170,10 @@
         "8df31f5c-4378-4194-a1b4-e86c8d1855d7": {
           "type": "Item",
           "settings": {
-            "article_cover": "",
-            "article_title": "",
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/10-best-charging-station-1698217566318-148262_1200x.webp?v=1698232112",
+            "article_title": "10 meilleures stations de charge USB-C pour tous vos appareils électroniques",
             "article_time": "",
-            "article_link": ""
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/10-meilleures-stations-de-charge-usb-c"
           }
         }
       },
@@ -234,6 +234,28 @@
         "blog_url": "https:\/\/youtu.be\/CN7Sawwqfrg"
       }
     },
+    "38ba10c1-4284-48ba-863f-ec63c318450f": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "8b083dce-ed2d-486a-b0d2-a4ebba9dd7d9": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/phone-chargers-get-hot-1700027629921-971218_1200x.jpg?v=1700079270",
+            "article_title": "Pourquoi certains chargeurs chauffent-ils ? et comment les refroidir ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/pourquoi-certains-chargeurs-chauffent-ils"
+          }
+        }
+      },
+      "block_order": [
+        "8b083dce-ed2d-486a-b0d2-a4ebba9dd7d9"
+      ],
+      "settings": {
+        "box_title": "Conseils et tutoriels",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
+      }
+    },
     "bf504a34-6bb9-4b51-8576-a6eafaec39e4": {
       "type": "blog_tags_list",
       "blocks": {
@@ -271,9 +293,41 @@
         "569add66-16e1-4167-bfe5-12c16683d826"
       ],
       "settings": {
-        "box_title": "Conseils et tutoriels",
+        "box_title": "",
         "box_more_title": "More",
         "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
+      }
+    },
+    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "f40b3d24-6b95-447c-a87f-445b25b783b1": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/apple-mfi-certified-banner-1694571235531_19f0f327-768a-4e16-98c4-ab4cd55dc55f-921597_1200x.webp?v=1695609994",
+            "article_title": "Certifié Apple MFi : Le manuel complet",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/certifie-apple-mfi-le-manuel-complet"
+          }
+        },
+        "025a22e0-40ab-4aef-952c-604be376bba1": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/usb-basics-1700558241481-679886_1200x.jpg?v=1700576338",
+            "article_title": "Principes de base de l'USB : Types, vitesse et raisons de sa popularité",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/principes-de-base-de-lusb-types-vitesse-et-raisons-de-sa-popularite"
+          }
+        }
+      },
+      "block_order": [
+        "f40b3d24-6b95-447c-a87f-445b25b783b1",
+        "025a22e0-40ab-4aef-952c-604be376bba1"
+      ],
+      "settings": {
+        "box_title": "Tendances technologiques",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
       }
     },
     "d1a92bb6-e4ab-4d92-9421-602bf1386bad": {
@@ -313,28 +367,6 @@
         "b70ad44d-81c2-487a-86cf-18b1d13cd91e"
       ],
       "settings": {
-        "box_title": "Tendances technologiques",
-        "box_more_title": "More",
-        "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
-      }
-    },
-    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750": {
-      "type": "blog_tags_list",
-      "blocks": {
-        "f40b3d24-6b95-447c-a87f-445b25b783b1": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/apple-mfi-certified-banner-1694571235531_19f0f327-768a-4e16-98c4-ab4cd55dc55f-921597_1200x.webp?v=1695609994",
-            "article_title": "Certifié Apple MFi : Le manuel complet",
-            "article_time": "",
-            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/certifie-apple-mfi-le-manuel-complet"
-          }
-        }
-      },
-      "block_order": [
-        "f40b3d24-6b95-447c-a87f-445b25b783b1"
-      ],
-      "settings": {
         "box_title": "",
         "box_more_title": "More",
         "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
@@ -349,8 +381,9 @@
     "a87d8fe4-d9c6-4c7b-82cc-c209de5a354e",
     "ffa8a05e-d14a-4cca-abe5-af624edba082",
     "fabc6a84-fefb-4705-a404-2565883c824e",
+    "38ba10c1-4284-48ba-863f-ec63c318450f",
     "bf504a34-6bb9-4b51-8576-a6eafaec39e4",
-    "d1a92bb6-e4ab-4d92-9421-602bf1386bad",
-    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750"
+    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750",
+    "d1a92bb6-e4ab-4d92-9421-602bf1386bad"
   ]
 }
