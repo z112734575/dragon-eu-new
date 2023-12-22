@@ -1,7 +1,12 @@
 {% for product in product_list %}
   {% liquid
-    assign buy_button = product.metafields.custom.buy_button.value
     assign discountbar = product.metafields.custom.discountbar.value
+           # 通过 tag use_coupon 判定是否叠加优惠券的折扣
+    if product.tags contains "USE_COUPON"
+      assign use_coupon = true
+    else
+      assign use_coupon = false
+    endif
     # 折扣码
     assign discount_code = discountbar[1]
     # 折扣百分比
@@ -23,7 +28,7 @@
     # 用于判断是否存在原价
     assign has_compare_at_price = compare_at_price | minus: price
     assign percentage_tag = '<span class="ug-product-sale-text-percent">%</span>'
-    if show_code and discount_code != blank
+    if show_code and discount_code != blank and use_coupon
       if discount_amount
         assign price = price | minus: discount_amount
         if has_compare_at_price > 0
