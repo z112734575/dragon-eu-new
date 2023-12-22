@@ -8,19 +8,6 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
-        "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_EU_pc.webp?v=1702871368",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_EU_mo.webp?v=1702871368",
-            "text_color": "#ffffff",
-            "title": "Nexode Pro Series",
-            "subtitle": "Power to the Pro",
-            "button_text": "Learn More",
-            "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-pro-charger-series",
-            "className": "300w"
-          }
-        },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -32,6 +19,19 @@
             "button_text": "Shop Now",
             "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-christmas-sales",
             "className": ""
+          }
+        },
+        "6c99235d-1a0a-4489-bae1-1a493df0dc48": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_EU_pc.webp?v=1702871368",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_EU_mo.webp?v=1702871368",
+            "text_color": "#ffffff",
+            "title": "Nexode Pro Series",
+            "subtitle": "Power to the Pro",
+            "button_text": "Learn More",
+            "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-pro-charger-series",
+            "className": "300w"
           }
         },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
@@ -77,8 +77,8 @@
         }
       },
       "block_order": [
-        "6c99235d-1a0a-4489-bae1-1a493df0dc48",
         "ug-index-carousel-11",
+        "6c99235d-1a0a-4489-bae1-1a493df0dc48",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
         "ug-index-carousel-1",
         "b3006339-60a1-4abc-a86b-30c091fb8f1e"
