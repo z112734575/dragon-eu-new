@@ -262,14 +262,14 @@
       "settings": {
         "item_type": "default",
         "product_list": [
-          "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
           "ugreen-nexode-300w-usb-c-gan-chargeur",
           "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
           "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
           "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
           "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
-          "ugreen-revodok-pro-12-en-1-docking-station",
-          "ugreen-revodok-pro-9-en-1-docking-station"
+          "ugreen-revodok-hub-usb-c-hdmi-4k-6-en-1-adaptateur-usb-c",
+          "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
+          "ugreen-revodok-pro-210-station-daccueil"
         ],
         "title": "Meilleures ventes",
         "subtitle": "",
@@ -291,11 +291,11 @@
         "mobile_padding": "40px 0",
         "need_load_more": false,
         "load_more_default_count": 6,
-        "show_sale_flag": false,
+        "show_sale_flag": true,
         "show_compare": true,
-        "show_rating": false,
+        "show_rating": true,
         "show_learn_btn": false,
-        "show_code": false
+        "show_code": true
       }
     },
     "ug-index-fit-life": {
