@@ -237,9 +237,8 @@
           },
           "footer-4": {
             "type": "bl_col",
-            "disabled": true,
             "settings": {
-              "col_heading": "Categories",
+              "col_heading": "Produits",
               "menu": "footer",
               "menu_style": "1",
               "col_dk": "3",
@@ -271,7 +270,7 @@
           "footer-8": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "Pour Nos Clients",
+              "col_heading": "Programme",
               "menu": "clients",
               "menu_style": "1",
               "col_dk": "auto",
