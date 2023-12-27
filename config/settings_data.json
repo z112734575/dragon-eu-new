@@ -239,7 +239,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Produits",
-              "menu": "footer",
+              "menu": "produits",
               "menu_style": "1",
               "col_dk": "3",
               "col_tb": "6",
