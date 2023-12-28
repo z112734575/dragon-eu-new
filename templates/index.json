@@ -10,6 +10,7 @@
       "blocks": {
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541": {
           "type": "ug-index-carousel-item",
+          "disabled": true,
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_FR_Christmas_Sale.webp?v=1702014606",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_FR_Christmas_Sale_01.webp?v=1702014641",
@@ -34,20 +35,6 @@
             "className": ""
           }
         },
-        "b6e286c1-8dac-498a-94a9-1363ec753cff": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_Nexode_release.webp?v=1702868378",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_Nexode_release_mo.webp?v=1702868404",
-            "text_color": "#ffffff",
-            "title": "UGREEN Revodok Serie",
-            "subtitle": "Expand Your Creativity",
-            "button_text": "En savoir plus",
-            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
-            "className": "Revodok_banner"
-          }
-        },
         "ug-index-carousel-1": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -58,20 +45,6 @@
             "subtitle": "Innover pour l'avenir",
             "button_text": "Achetez maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
-            "className": ""
-          }
-        },
-        "10849ca4-37de-4928-971c-7047e115dc60": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__pc_f45d51c8-423a-4e6e-9099-39e3a28e0e68.webp?v=1699600279",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__mo_e51212da-4cc7-43c3-82f5-d8b53c373c8c.webp?v=1699600278",
-            "text_color": "#000000",
-            "title": "Ugreen <strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Cyber Monday SALE!<\/strong>",
-            "subtitle": "Offre spéciale jusqu'à<br><font size=\"4\" color=\"White\"><strong>Dernière chance<\/strong><\/font>  <font size=\"5.5\" color=\"Yellow\"><strong>30%<\/strong><\/font> DE RÉDUCTION  <b> 8 déc. - 25 déc. 2023<\/b>",
-            "button_text": "ACHETEZ MAINTENANT",
-            "link": "https:\/\/fr.ugreen.com\/pages\/black-friday-cyber-monday",
             "className": ""
           }
         },
@@ -86,6 +59,34 @@
             "button_text": "Achetez maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
             "className": "nexode-300w"
+          }
+        },
+        "b6e286c1-8dac-498a-94a9-1363ec753cff": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_Nexode_release.webp?v=1702868378",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_Nexode_release_mo.webp?v=1702868404",
+            "text_color": "#ffffff",
+            "title": "UGREEN Revodok Serie",
+            "subtitle": "Expand Your Creativity",
+            "button_text": "En savoir plus",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
+            "className": "Revodok_banner"
+          }
+        },
+        "10849ca4-37de-4928-971c-7047e115dc60": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__pc_f45d51c8-423a-4e6e-9099-39e3a28e0e68.webp?v=1699600279",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__mo_e51212da-4cc7-43c3-82f5-d8b53c373c8c.webp?v=1699600278",
+            "text_color": "#000000",
+            "title": "Ugreen <strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Cyber Monday SALE!<\/strong>",
+            "subtitle": "Offre spéciale jusqu'à<br><font size=\"4\" color=\"White\"><strong>Dernière chance<\/strong><\/font>  <font size=\"5.5\" color=\"Yellow\"><strong>30%<\/strong><\/font> DE RÉDUCTION  <b> 8 déc. - 25 déc. 2023<\/b>",
+            "button_text": "ACHETEZ MAINTENANT",
+            "link": "https:\/\/fr.ugreen.com\/pages\/black-friday-cyber-monday",
+            "className": ""
           }
         },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
@@ -105,10 +106,10 @@
       "block_order": [
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
-        "b6e286c1-8dac-498a-94a9-1363ec753cff",
         "ug-index-carousel-1",
-        "10849ca4-37de-4928-971c-7047e115dc60",
         "ug-index-carousel-11",
+        "b6e286c1-8dac-498a-94a9-1363ec753cff",
+        "10849ca4-37de-4928-971c-7047e115dc60",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41"
       ],
       "settings": {
