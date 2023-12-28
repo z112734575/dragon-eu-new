@@ -567,7 +567,7 @@
           "101ecac9-440d-4e63-964b-7b61a6ba0013": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>Free shipping<\/strong> on orders over €14;;;⚡❄️<a href=\"\/pages\/ugreen-christmas-sales\" title=\"Offrez-vous du bonheur avec les soldes de Noël Ugreen\"><a href=\"https:\/\/fr.ugreen.com\/pages\/ugreen-christmas-sales\" target=\"_blank\" title=\"https:\/\/fr.ugreen.com\/pages\/ugreen-christmas-sales\"><strong>soldes d'hive<\/strong>r<\/a>&gt;&gt; Acheter maintenant<\/a>;;;<a href=\"https:\/\/fr.ugreen.com\/pages\/conseils-dexpedition\" target=\"_blank\" title=\"https:\/\/fr.ugreen.com\/pages\/conseils-dexpedition\">Conseils d'expédition pour les fêtes<\/a><\/p>",
+              "text": "<p><strong>Free shipping<\/strong> on orders over €14;;;⚡❄️<a href=\"https:\/\/fr.ugreen.com\/pages\/flash-deal\" target=\"_blank\" title=\"https:\/\/fr.ugreen.com\/pages\/flash-deal\"><strong>soldes d'hive<\/strong>r<\/a>&gt;&gt; Acheter maintenant;;;<a href=\"https:\/\/fr.ugreen.com\/pages\/conseils-dexpedition\" target=\"_blank\" title=\"https:\/\/fr.ugreen.com\/pages\/conseils-dexpedition\">Conseils d'expédition pour les fêtes<\/a><\/p>",
               "countdown": "2022\/04\/19",
               "txt_day": "days",
               "dayx": 0,
@@ -743,6 +743,7 @@
           },
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "🎁Soldes d'hiver",
               "url": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
@@ -757,7 +758,7 @@
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
             "type": "drop",
             "settings": {
-              "title": "Bundles & Deals",
+              "title": "❄️Bundles & Deals",
               "url": "shopify:\/\/pages\/flash-deal",
               "open_link": "_self",
               "menu": "",
@@ -1800,6 +1801,7 @@
           },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "🎁Offre de Noël",
               "url": "shopify:\/\/pages\/ugreen-christmas-sales",
@@ -1850,7 +1852,7 @@
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
             "type": "menu",
             "settings": {
-              "title": "Bundles & Deals",
+              "title": "❄️Bundles & Deals",
               "url": "shopify:\/\/pages\/flash-deal",
               "open_link": "_self",
               "menu": "",
