@@ -311,6 +311,35 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "40826c31-37ab-43d0-86b7-ab07187ab607": {
+      "type": "ug-faq",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Accordion",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -319,6 +348,7 @@
     "heading_template",
     "main",
     "sidebar",
-    "775331c1-05cb-4a01-8d63-e1149af2b6b6"
+    "775331c1-05cb-4a01-8d63-e1149af2b6b6",
+    "40826c31-37ab-43d0-86b7-ab07187ab607"
   ]
 }
