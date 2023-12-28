@@ -72,9 +72,9 @@
           {%- for block in faqs.faqs -%}
             <div class="t4s-tab-wrapper {% if forloop.first == true %} t4s-active {% endif %} " data-t4s-tab-wrapper {{block.shopify_attributes}}>
               <a id="b_{{section.id}}-{{forloop.index}}" class="t4s-accor-title" href="#t4s-{{section.id}}-{{forloop.index}}" rel="nofollow" data-t4s-tab-item data-no-instant>
-                <span class="t4s-accor-text">
+                <h4 class="t4s-accor-text">
                   {{block.question}}
-                </span>
+                </h4>
                 <span class="t4s-accor-item-nav"></span>
               </a>
               <div id="t4s-{{section.id}}-{{forloop.index}}" class="t4s-tab-content" data-t4s-tab-content>{{block.answer}}</div>
