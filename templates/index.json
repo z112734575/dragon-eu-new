@@ -11,10 +11,10 @@
         "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1": {
           "type": "ug-index-carousel-item",
           "settings": {
-            "pc_image_url": "",
-            "mobile_image_url": "",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3840_1840.png?v=1703954464",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/750_1160.png?v=1703954454",
             "text_color": "#000000",
-            "title": "",
+            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Vente du Nouvel An 2024<\/strong>",
             "subtitle": "",
             "button_text": "",
             "link": "",
@@ -54,7 +54,7 @@
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/aicu8-505ns.png?v=1701425286",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ae42c-r48fu.png?v=1701425286",
             "text_color": "#ffffff",
-            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Ugreen USB-C Série<\/strong>",
+            "title": "",
             "subtitle": "Innover pour l'avenir",
             "button_text": "Achetez maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
