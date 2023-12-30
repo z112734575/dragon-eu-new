@@ -1802,7 +1802,7 @@
             "type": "menu",
             "settings": {
               "title": "Vente du Nouvel An",
-              "url": "shopify:\/\/pages\/ugreen-christmas-sales",
+              "url": "shopify:\/\/pages\/ugreen-vente-du-nouvel-an",
               "open_link": "_self",
               "menu": "",
               "icon": "",
