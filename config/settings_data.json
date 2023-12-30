@@ -1805,8 +1805,8 @@
               "url": "shopify:\/\/pages\/ugreen-vente-du-nouvel-an",
               "open_link": "_self",
               "menu": "",
-              "icon": "",
-              "lb": "Hot",
+              "icon": "lab la-hotjar",
+              "lb": "2024",
               "lb_cl": "#ec0101"
             }
           },
