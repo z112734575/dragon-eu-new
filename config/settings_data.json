@@ -765,7 +765,7 @@
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
-              "lb": "Soldes d'hiver",
+              "lb": "Hot",
               "lb_cl": "#ec0101",
               "lazy_mn": true,
               "pos_sub": "bottom",
@@ -1857,7 +1857,7 @@
               "open_link": "_self",
               "menu": "",
               "icon": "",
-              "lb": "Soldes d'hiver",
+              "lb": "Hot",
               "lb_cl": "#ec0101"
             }
           },

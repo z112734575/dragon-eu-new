@@ -8,6 +8,19 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "",
+            "mobile_image_url": "",
+            "text_color": "#000000",
+            "title": "",
+            "subtitle": "",
+            "button_text": "",
+            "link": "",
+            "className": ""
+          }
+        },
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -104,6 +117,7 @@
         }
       },
       "block_order": [
+        "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1",
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
         "ug-index-carousel-1",
