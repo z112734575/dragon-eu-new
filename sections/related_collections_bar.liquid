@@ -29,7 +29,7 @@
       font-size: 16px;
       color: inherit;
       font-weight: inherit;
-    word-break: break-all;
+    word-break: break-word;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -58,9 +58,8 @@
 {% assign related_collections = collection.metafields.custom.related_collections.value.collections.value %}
 
 {% if related_collections != blank %}
-
   <div class="related_icons_bar_wrap">
-    <div class="related_icons_bar">
+    <div class="related_icons_bar" style="{% if related_collections.count < 4 %} justify-content: center;{% endif %}">
       {% for item in related_collections %}
         {% assign handle = item.handle | prepend: '/collections/' %}
         {%- capture active -%}
