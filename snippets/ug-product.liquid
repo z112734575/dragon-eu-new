@@ -65,6 +65,7 @@
   %}
 
   <div class="ug-product-item" style="background: {{ bg_color | default: '#fff' }}">
+    <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge {% if product.available == true %} t4s-d-none {% endif %}"></div>
     <div class="ug-product-box">
       <a href="{{ product.url }}">
         <div class="ug-product-img">
@@ -100,25 +101,31 @@
           </div>
         {% endif %}
         <div class="ug-product-buy">
-          {% assign amz_url = product.metafields.custom.amazon_url %}
+        {% if product.available == true %}
           <a
                   href="{{ product.url }}"
                   class="t4s-pr-item-btn t4s-pr-addtocart buy_now ug-product-buy-btn"
                   data-variant-id="{{ product.variants.first.id }}"
                   data-action-atc
                   rel="nofollow"
-          >{{buy_btn_text | default: 'Jetzt Kaufen'}}</a
-          >
-          {% if page.url contains 'autumn-harvest-access-sale' %}
-            <a href="{{ amz_url }}" class="ug-product-learn-btn" target="_blank">Amazon</a>
-          {% endif %}
+          >{{buy_btn_text | default: 'Buy Now'}}</a>
           {% if show_learn_btn %}
-            <a href="{{ product.url }}" class="ug-product-learn-btn">{{learn_btn_text | default: 'Mehr Erfahren'}}</a>
+            <a href="{{ product.url }}" class="ug-product-learn-btn">{{learn_btn_text | default: 'Learn More'}}</a>
+          {% endif %}
+          {% else %}
+          <a href="{{ product.url }}" class="ug-product-learn-btn">{{ 'products.product_card.read_more' | t }}</a>
           {% endif %}
         </div>
       </div>
     </div>
-    {% if show_sale_flag and discount_flag_text != blank %}
+  {% if product.available != true %}
+        <div class="ug-product-other-status">
+        <span class="ug-product-other-status-text">
+          {{ 'products.badge.sold_out' | t }}
+        </span>
+      </div>
+    {% endif %}
+    {% if show_sale_flag and discount_flag_text != blank and product.available == true %}
       <div class="ug-product-sale">
         <span class="ug-product-sale-text">
           {{ discount_flag_text  | prepend: '-'}}

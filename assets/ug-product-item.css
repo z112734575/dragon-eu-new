@@ -123,7 +123,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width:100%;
+      width:100%;
     text-align: center;
 }
 .ug-product-sale-text-percent {
@@ -164,6 +164,32 @@
 }
 .ug_product_code button:hover {
     color: #0a9e6f;
+}
+.ug-product-other-status {
+      position: absolute;
+    z-index: 3;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    pointer-events: none;
+}
+.ug-product-other-status > span {
+  display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    min-height: 24px;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+    word-break: break-word;
+    padding: 0 5px;
+    line-height: 1;
+    text-align: center;
+    background: rgba(0,0,0,.5);
 }
 @media (max-width: 768px) {
     .ug-product-item {
