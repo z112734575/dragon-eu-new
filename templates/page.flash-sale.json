@@ -3,8 +3,8 @@
     "2ec64282-7886-45a5-a877-d8342308890f": {
       "type": "christmas_banner",
       "settings": {
-        "mobile_image": "shopify:\/\/shop_images\/750_1160.png",
-        "pc_image": "shopify:\/\/shop_images\/3840_1840.png",
+        "mobile_image": "shopify:\/\/shop_images\/banner_mobile.png",
+        "pc_image": "shopify:\/\/shop_images\/banner_pc.png",
         "banner_title": "Ugreen Plus pour Vous",
         "banner_sub_title": "Jusqu'à 40% de réduction"
       }
