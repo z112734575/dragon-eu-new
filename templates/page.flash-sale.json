@@ -1,5 +1,14 @@
 {
   "sections": {
+    "2ec64282-7886-45a5-a877-d8342308890f": {
+      "type": "christmas_banner",
+      "settings": {
+        "mobile_image": "shopify:\/\/shop_images\/3840_1840.png",
+        "pc_image": "shopify:\/\/shop_images\/750_1160.png",
+        "banner_title": "",
+        "banner_sub_title": ""
+      }
+    },
     "729150b2-4e7f-437c-a9ee-ff7e0aaf7c8c": {
       "type": "banner-parallax",
       "blocks": {
@@ -119,6 +128,7 @@
     },
     "d2230466-b5fe-49cc-ac39-926497ba0c21": {
       "type": "page_banner",
+      "disabled": true,
       "settings": {
         "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ugreen_flash_sale_pc.webp?v=1703472383",
         "mol_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/ugreen_flash_sale_m.webp?v=1703472368",
@@ -833,6 +843,7 @@
     }
   },
   "order": [
+    "2ec64282-7886-45a5-a877-d8342308890f",
     "729150b2-4e7f-437c-a9ee-ff7e0aaf7c8c",
     "e49dddc3-8400-4a86-a3ec-b69a2fd75773",
     "d2230466-b5fe-49cc-ac39-926497ba0c21",
