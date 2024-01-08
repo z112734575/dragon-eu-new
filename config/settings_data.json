@@ -749,7 +749,7 @@
               "open_link": "_self",
               "menu": "",
               "icon": "lab la-hotjar",
-              "cus_cl": true,
+              "cus_cl": false,
               "cl": "#ec0101",
               "lb": "2024",
               "lb_cl": "#ec0101",
