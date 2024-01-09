@@ -664,13 +664,8 @@
         "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-1": {
           "type": "img",
           "settings": {
-            "url": ""
-          }
-        },
-        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-2": {
-          "type": "img",
-          "settings": {
-            "url": ""
+            "image": "shopify:\/\/shop_images\/VUVIQEl4ZD.jpg",
+            "url": "https:\/\/www.instagram.com\/p\/C1jbO1NNPpd\/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           }
         },
         "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-3": {
@@ -696,15 +691,22 @@
           "settings": {
             "url": ""
           }
+        },
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-2": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/416306115_333461142840989_1359141066287004890_n.jpg",
+            "url": "https:\/\/www.instagram.com\/p\/C1tTz-pOZya\/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          }
         }
       },
       "block_order": [
         "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-1",
-        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-2",
         "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-3",
         "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-4",
         "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-5",
-        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-6"
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-6",
+        "template--20801121845568__aa55a7a9-fa5e-4505-b353-949619e4bfe2-img-2"
       ],
       "disabled": true,
       "settings": {
