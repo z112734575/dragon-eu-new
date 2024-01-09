@@ -18,13 +18,13 @@
       "settings": {
         "action_id": "e9a004e3-2d50-47b2-a224-11e19f45a270",
         "is_pre": false,
-        "pc_image": "shopify:\/\/shop_images\/Ugreen_FR_Christmas_Sale.webp",
-        "mobile_image": "shopify:\/\/shop_images\/Ugreen_FR_Christmas_Sale_02.webp",
-        "title": "Les Soldes d'Hiver<br> sont Arrivées",
-        "subtitle": "Adoptez le Frisson Numérique ! Jusqu'à <b style=\"color : #FEFEA5 ;\"> 30%<\/b> de réduction",
-        "email_btn_text": "Sign Up Now",
-        "email_tips": "Use it to stack up your savings during our Black Friday event!",
-        "time": "17 nov. - 27 nov. 2023"
+        "pc_image": "shopify:\/\/shop_images\/winter_sale_pc.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/winter_sale_pe.jpg",
+        "title": "",
+        "subtitle": "",
+        "email_btn_text": "",
+        "email_tips": "",
+        "time": ""
       }
     },
     "black_friday_step": {
