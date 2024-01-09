@@ -212,6 +212,9 @@
         font-size: 18px;
         line-height: 1.5;
     }
+    .ug_product_code {
+        -webkit-mask-image: radial-gradient(circle at 10px 50%,transparent 4px,red 5.5px);
+    }
     .ug-product-compare_at_price {
         font-size: 12px;
         padding-left: 8px;
