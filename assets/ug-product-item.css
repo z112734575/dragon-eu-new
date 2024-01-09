@@ -135,11 +135,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*background: url(https://cdn.shopify.com/s/files/1/0257/5246/9566/files/coupon_mo.png?v=1697618803)*/
-    /*center center no-repeat;*/
     background-size: 100% 100%;
     background: black;
-    -webkit-mask-image: radial-gradient(circle at 10px 50%, transparent 4px, red 10.5px);
+    -webkit-mask-image: radial-gradient(circle at 10px 50%,transparent 7px,red 8.5px);
     -webkit-mask-position: -10px;
     border-radius: 4px;
 }
