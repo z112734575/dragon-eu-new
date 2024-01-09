@@ -3,15 +3,15 @@
     "2ec64282-7886-45a5-a877-d8342308890f": {
       "type": "christmas_banner",
       "custom_css": [
-        ".ug_christmas_banner .ug_christmas_banner_box{text-align: center; width: 100%; left: 0; }",
-        " .ug_christmas_banner .ug_christmas_banner_box h1{color: #000; font-size: 48px; }",
-        " .ug_christmas_banner .ug_christmas_banner_box p{color: #000; font-size: 22px; }",
-        " @media (max-width: 768px){.ug_christmas_banner .ug_christmas_banner_box h1{font-size: 32px; } .ug_christmas_banner .ug_christmas_banner_box p{font-size: 16px; } }"
+        ".ug_christmas_banner .ug_christmas_banner_box {text-align: center; width: 100%; left: 0;}",
+        ".ug_christmas_banner .ug_christmas_banner_box h1 {color: #000; font-size: 48px;}",
+        ".ug_christmas_banner .ug_christmas_banner_box p {color: #000; font-size: 22px;}",
+        "@media (max-width: 768px) {.ug_christmas_banner .ug_christmas_banner_box h1 {font-size: 32px; } .ug_christmas_banner .ug_christmas_banner_box p {font-size: 16px; }}"
       ],
       "settings": {
         "mobile_image": "shopify:\/\/shop_images\/banner_mobile.png",
         "pc_image": "shopify:\/\/shop_images\/banner_pc.png",
-        "banner_title": "Ugreen Plus pour Vous",
+        "banner_title": "Remises en vedette Ugreen",
         "banner_sub_title": "Jusqu'à 40% de réduction"
       }
     },
@@ -77,16 +77,16 @@
         "product_list": [
           "ugreen-nexode-chargeur-20w-usb-c-with-mfi-charging-cable",
           "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
-          "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
           "ugreen-batterie-externe-portable-usb-c-25000-mah-145w",
-          "ugreen-nexode-chargeur-30w-usb-c-support-tablette-bureau-reglable-repose",
           "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
           "ugreen-nexode-100w-usb-c-chargeur-rapide-4-ports-with-2-charge-cable-usb-c",
-          "ugreen-65w-chargeur-usb-c-rapide-3-ports-with-cable",
           "ugreen-nexode-200w-gan-chargeur-usb-c-6-ports",
-          "ugreen-chargeur-usb-c-20w-lot-de-2-power-delivery-3-0-blancugreen-chargeur-usb-c-20w-lot-de-2-power-delivery-3-0-blanc",
-          "ugreen-360-rotating-laptop-tablet-stand-holder",
-          "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte"
+          "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
+          "ugreen-boitier-m-2-ssd-nvme-10-gbps-usb-3-2-gen-2-adaptateur",
+          "ugreen-usb-3-0-boitier-externe-pour-disque-dur-2-5-pouces-sata",
+          "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
+          "ugreen-support-tablette-bureau-reglable-a-double-tige-porte",
+          "ugreen-support-ordinateur-portable-support-pc-portable-laptop-stand"
         ],
         "title": "",
         "subtitle": "",
