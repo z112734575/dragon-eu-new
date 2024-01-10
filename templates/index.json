@@ -19,6 +19,12 @@
             "subtitle": "Offre spéciale jusqu'à<br><font size=\"4\" color=\"White\"><strong>Dernière chance<\/strong><\/font>  <font size=\"5.5\" color=\"Yellow\"><strong>30%<\/strong><\/font> DE RÉDUCTION  <b> 8 déc. - 25 déc. 2023<\/b>",
             "button_text": "ACHETEZ MAINTENANT",
             "link": "https:\/\/fr.ugreen.com\/pages\/black-friday-cyber-monday",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": ""
           }
         },
@@ -32,6 +38,12 @@
             "subtitle": "Adoptez le Frisson Numérique ! Jusqu'à <b style=\"color : #FEFEA5 ;\"> 30%<\/b> de réduction",
             "button_text": "Acheter maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-christmas-sales",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 25,
+            "pc_left": 30,
+            "mobile_top": 10,
+            "mobile_left": 0,
             "className": ""
           }
         },
@@ -45,6 +57,12 @@
             "subtitle": "",
             "button_text": "Acheter maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-vente-du-nouvel-an",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": ""
           }
         },
@@ -58,6 +76,12 @@
             "subtitle": "Le nouveau Nexode sera dévoilé",
             "button_text": "En savoir plus",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-nexode-pro-chargeur-series",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": ""
           }
         },
@@ -71,6 +95,12 @@
             "subtitle": "Innover pour l'avenir",
             "button_text": "Achetez maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-apple-event",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": ""
           }
         },
@@ -84,6 +114,12 @@
             "subtitle": "Chargeur multiport USB C 5-en-1",
             "button_text": "Achetez maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/300w-special-page",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": "nexode-300w"
           }
         },
@@ -98,6 +134,12 @@
             "subtitle": "Expand Your Creativity",
             "button_text": "En savoir plus",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": "Revodok_banner"
           }
         },
@@ -111,6 +153,12 @@
             "subtitle": "Alimentez n’importe quoi, n’importe quand et n’importe où",
             "button_text": "acheter maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-power-station-2200w",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": ""
           }
         }
@@ -169,6 +217,12 @@
             "subtitle": "Expand Your Creativity",
             "button_text": "Découverte Plus",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": ""
           }
         },
@@ -182,6 +236,12 @@
             "subtitle": "Développez votre créativité",
             "button_text": "En savoir plus",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": ""
           }
         }
