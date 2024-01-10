@@ -1,37 +1,38 @@
 <style>
   /*banner*/
-  .green-home-banner {
+  .ug-home-banner {
       width: 100vw;
       height: 47.92vw;
   }
-  .green-home-banner picture img {
+  .ug-home-banner picture img {
       width: 100%;
       height: 100%;
       object-fit: cover;
   }
-  .green-home-banner-box {
+  .ug-home-banner-box {
       text-align: center;
       position: absolute;
       left: 0;
-      right: 0;
-      top: 7.292vw;
+      transform: translateX(-50%);
+      /* right: 0;
+      top: 7.292vw; */
   }
- .green-home-banner-box .title {
+ .ug-home-banner-box .title {
       font-size: 2vw;
       font-weight: bold;
       color: inherit;
     line-height: normal;
   }
-  .green-home-banner-box .title p{
+  .ug-home-banner-box .title p{
     margin:0;
   }
-  .green-home-banner-box .sub {
+  .ug-home-banner-box .sub {
       font-size: 1.2vw;
       font-weight: 400;
       margin: 0 0 1.5vw 0;
       color: inherit;
   }
-  .green-home-banner-box .btn {
+  .ug-home-banner-box .btn {
       display: inline-block;
       line-height: 2.5vw;
       text-align: center;
@@ -42,84 +43,86 @@
       cursor: pointer;
       font-weight: 600;
   }
-  .green-home-banner-box .btn:hover {
+  .ug-home-banner-box .btn:hover {
       background: #00CC88 !important;
       color: white;
       border-color: #00CC88 !important;
   }
-  .green-home-banner-box .icon {
+  .ug-home-banner-box .icon {
       /*width: .8em;*/
       /*height: .8em;*/
   }
-  .green-home-banner .swiper-button-next, .green-home-banner .swiper-button-prev {
+  .ug-home-banner .swiper-button-next, .ug-home-banner .swiper-button-prev {
       color: rgb(0, 0, 0);
       background: rgba(255, 255, 255, 0.4);
       width: 2.083vw;
       height: 2.083vw;
       border-radius: 50%;
   }
-  .green-home-banner .swiper-button-next:after, .green-home-banner .swiper-button-prev:after {
+  .ug-home-banner .swiper-button-next:after, .ug-home-banner .swiper-button-prev:after {
       font-size: 0.729vw;
       width: 100%;
       height: 100%;
       text-align: center;
       line-height: 2.183vw;
   }
-  .green-home-banner .swiper-button-prev, .green-home-banner .swiper-rtl .swiper-button-next {
+  .ug-home-banner .swiper-button-prev, .ug-home-banner .swiper-rtl .swiper-button-next {
       left: 1.042vw;
   }
-  .green-home-banner .swiper-button-next, .green-home-banner .swiper-rtl .swiper-button-prev {
+  .ug-home-banner .swiper-button-next, .ug-home-banner .swiper-rtl .swiper-button-prev {
       right: 2.038vw;
   }
-  .green-home-banner .swiper-pagination-bullet {
+  .ug-home-banner .swiper-pagination-bullet {
       width: 3.125vw;
       height: 0.208vw;
       background: rgba(255, 255, 255, 0.4);
       border-radius: 0;
   }
-  .green-home-banner .swiper-pagination-bullet-active {
+  .ug-home-banner .swiper-pagination-bullet-active {
       background: rgba(255, 255, 255, 1);
   }
-  .green-home-banner .swiper-button-next:hover, .green-home-banner .swiper-button-prev:hover {
+  .ug-home-banner .swiper-button-next:hover, .ug-home-banner .swiper-button-prev:hover {
        background: white;
      }
   @media (max-width: 767px) {
-      .green-home-banner {
+      .ug-home-banner {
           height: 580px
       }
-      .green-home-banner-box {
+      .ug-home-banner-box {
           top: 15%;
           padding: 0 20px;
+          width: 100%;
+          transform: none;
       }
-      .green-home-banner-box .title {
+      .ug-home-banner-box .title {
           font-size: 28px;
           line-height: 1.2;
           flex-wrap: wrap;
       }
-      .green-home-banner-box .title p {
+      .ug-home-banner-box .title p {
           order: 1;
           margin: 0 0 10px 0;
       }
-      .green-home-banner-box .sub {
+      .ug-home-banner-box .sub {
           font-size: 16px;
           margin-top: 8px;
           line-height: 1.2;
       }
-      .green-home-banner-box .btn {
+      .ug-home-banner-box .btn {
           font-size: 16px;
           height: 40px;
-          width: 140px;
-          display: flex;
+          min-width: 140px;
           justify-content: center;
           align-items: center;
           margin: 26px auto 0;
           line-height: 1;
+          display: inline-flex;
       }
-      .green-home-banner .swiper-pagination-bullet {
+      .ug-home-banner .swiper-pagination-bullet {
           width: 40px;
           height: 4px;
       }
-     .green-home-banner  .swiper-button-next, .green-home-banner  .swiper-button-prev {
+     .ug-home-banner  .swiper-button-next, .ug-home-banner  .swiper-button-prev {
        display: none;
      }
   }
@@ -127,19 +130,31 @@
   /*banner*/
 </style>
 
-<section class="swiper green-home-banner">
+<section class="swiper ug-home-banner">
   <div class="swiper-wrapper">
     {% for block in section.blocks %}
       {% assign settings = block.settings %}
-      {% assign pc_image_url = settings.pc_image_url | split: '.' %}
-      {% assign mobile_image_url = settings.mobile_image_url | split: '.' %}
       {% assign text_color = settings.text_color %}
         {% assign className = settings.className %}
       <a
         class="swiper-slide swiper-index{{ forloop.index }} {{ className }}"
         href="{{ settings.link }}"
       >
-        <div class="green-home-banner-box" style="color: {{ text_color }};">
+        <style>
+          #banner_content_{{block.id}} {
+            left: {{settings.pc_left}}%;
+            top: {{settings.pc_top}}%;
+            text-align: {{settings.pc_align}};
+          }
+          @media (max-width: 767px) {
+           #banner_content_{{block.id}} {
+            left: {{settings.mobile_left}}%;
+            top: {{settings.mobile_top}}%;
+             text-align: {{settings.mobile_align}};
+          } 
+          }
+        </style>
+        <div class="ug-home-banner-box" style="color: {{ text_color }}; " id="banner_content_{{ block.id }}">
           {% if settings.title %}
             <div class="title">
               <p>{{ settings.title }}</p>
@@ -177,16 +192,16 @@
 {% if  section.blocks.size != 1%}
 <script>
     $(function () {
-        const green615swiper = new Swiper('.green-home-banner', {
+        const ug615swiper = new Swiper('.ug-home-banner', {
             direction: 'horizontal',
             loop: true,
             threshold : 50, // 超过50px才算做滑动
             pagination: {
-                el: '.green-home-banner  .swiper-pagination',
+                el: '.ug-home-banner  .swiper-pagination',
             },
             navigation: {
-                nextEl: '.green-home-banner .swiper-button-next',
-                prevEl: '.green-home-banner .swiper-button-prev',
+                nextEl: '.ug-home-banner .swiper-button-next',
+                prevEl: '.ug-home-banner .swiper-button-prev',
             },
             autoplay: {
                 delay: 500000,
@@ -219,7 +234,7 @@
             // 如果第一张需要改变颜色，需要初始化
             changeHeaderColor(0)
         }
-        green615swiper.on('slideChange', function (event) {
+        ug615swiper.on('slideChange', function (event) {
             changeHeaderColor(event.realIndex)
         });
     })
@@ -231,7 +246,7 @@
 
 {% schema %}
 {
-  "name": "Green Home Banner",
+  "name": "UG Home Banner",
   "settings": [
     {
       "type": "header",
@@ -292,6 +307,70 @@
           "id": "link",
           "label": "Link",
           "info": "跳转链接"
+        },
+         {
+          "type": "radio",
+          "id": "pc_align",
+          "label": "pc端文字对齐",
+          "options": [
+            {
+              "value": "left",
+              "label": "left"
+            },
+            {
+              "value": "center",
+              "label": "center"
+            },
+            {
+              "value": "right",
+              "label": "right"
+            }
+          ],
+          "default": "center"
+        },
+         {
+          "type": "radio",
+          "id": "mobile_align",
+          "label": "动动端文字对齐",
+          "options": [
+            {
+              "value": "left",
+              "label": "left"
+            },
+            {
+              "value": "center",
+              "label": "center"
+            },
+            {
+              "value": "right",
+              "label": "right"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "number",
+          "id": "pc_top",
+          "label": "pc端垂直位置",
+          "default": 15
+        },
+        {
+          "type": "number",
+          "id": "pc_left",
+          "label": "pc端水平位置",
+          "default": 50
+        },
+        {
+          "type": "number",
+          "id": "mobile_top",
+          "label": "移动端垂直位置",
+          "default": 15
+        },
+        {
+          "type": "number",
+          "id": "mobile_left",
+          "label": "mobile端水平位置",
+          "default": 0
         },
         {
           "type": "text",
