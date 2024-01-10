@@ -8,6 +8,34 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "10849ca4-37de-4928-971c-7047e115dc60": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__pc_f45d51c8-423a-4e6e-9099-39e3a28e0e68.webp?v=1699600279",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__mo_e51212da-4cc7-43c3-82f5-d8b53c373c8c.webp?v=1699600278",
+            "text_color": "#000000",
+            "title": "Ugreen <strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Cyber Monday SALE!<\/strong>",
+            "subtitle": "Offre spéciale jusqu'à<br><font size=\"4\" color=\"White\"><strong>Dernière chance<\/strong><\/font>  <font size=\"5.5\" color=\"Yellow\"><strong>30%<\/strong><\/font> DE RÉDUCTION  <b> 8 déc. - 25 déc. 2023<\/b>",
+            "button_text": "ACHETEZ MAINTENANT",
+            "link": "https:\/\/fr.ugreen.com\/pages\/black-friday-cyber-monday",
+            "className": ""
+          }
+        },
+        "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/pc_fbd3f3af-29ba-4cf9-a4bd-57023e5eceb8.png?v=1704871295",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/mo_57d89141-b49a-490d-b287-b227db60754c.png?v=1704871294",
+            "text_color": "#ffffff",
+            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Les Soldes d'Hiver sont Arrivées<\/strong>",
+            "subtitle": "Adoptez le Frisson Numérique ! Jusqu'à <b style=\"color : #FEFEA5 ;\"> 30%<\/b> de réduction",
+            "button_text": "Acheter maintenant",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-christmas-sales",
+            "className": ""
+          }
+        },
         "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -18,20 +46,6 @@
             "subtitle": "Jusqu'à <strong>30 % <\/strong> de réduction sur des gadgets sympas",
             "button_text": "Acheter maintenant",
             "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-vente-du-nouvel-an",
-            "className": ""
-          }
-        },
-        "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_FR_Christmas_Sale.webp?v=1702014606",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_FR_Christmas_Sale_01.webp?v=1702014641",
-            "text_color": "#ffffff",
-            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Les Soldes d'Hiver sont Arrivées<\/strong>",
-            "subtitle": "Adoptez le Frisson Numérique ! Jusqu'à <b style=\"color : #FEFEA5 ;\"> 30%<\/b> de réduction",
-            "button_text": "Acheter maintenant",
-            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-christmas-sales",
             "className": ""
           }
         },
@@ -88,20 +102,6 @@
             "className": "Revodok_banner"
           }
         },
-        "10849ca4-37de-4928-971c-7047e115dc60": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__pc_f45d51c8-423a-4e6e-9099-39e3a28e0e68.webp?v=1699600279",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU__mo_e51212da-4cc7-43c3-82f5-d8b53c373c8c.webp?v=1699600278",
-            "text_color": "#000000",
-            "title": "Ugreen <strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">Cyber Monday SALE!<\/strong>",
-            "subtitle": "Offre spéciale jusqu'à<br><font size=\"4\" color=\"White\"><strong>Dernière chance<\/strong><\/font>  <font size=\"5.5\" color=\"Yellow\"><strong>30%<\/strong><\/font> DE RÉDUCTION  <b> 8 déc. - 25 déc. 2023<\/b>",
-            "button_text": "ACHETEZ MAINTENANT",
-            "link": "https:\/\/fr.ugreen.com\/pages\/black-friday-cyber-monday",
-            "className": ""
-          }
-        },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -117,13 +117,13 @@
         }
       },
       "block_order": [
-        "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1",
+        "10849ca4-37de-4928-971c-7047e115dc60",
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
+        "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1",
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
         "ug-index-carousel-1",
         "ug-index-carousel-11",
         "b6e286c1-8dac-498a-94a9-1363ec753cff",
-        "10849ca4-37de-4928-971c-7047e115dc60",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41"
       ],
       "settings": {
