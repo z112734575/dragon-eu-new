@@ -21,7 +21,7 @@
         "pc_image": "shopify:\/\/shop_images\/banner_pc_347f7a8f-35e0-42b8-bf96-412e8ecb5220.png",
         "mobile_image": "shopify:\/\/shop_images\/banner_mo.png",
         "title": "<font color=\"#3498DB\">UGREEN Soldes d'hiver <\/font>",
-        "subtitle": "<font color=\"#3498DB\">c'est le moment de faire de bonnes affaires! <\/font><br><font color=\"#FFC300\"><br>Jusqu'à <strong>40%<\/strong> de réduction <\/font>",
+        "subtitle": "<font color=\"#3498DB\">c'est le moment de faire de bonnes affaires! <\/font><br><font color=\"#FFC300\"><\/font>",
         "email_btn_text": "",
         "email_tips": "",
         "time": ""
