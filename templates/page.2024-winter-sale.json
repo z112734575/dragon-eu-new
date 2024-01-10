@@ -18,10 +18,10 @@
       "settings": {
         "action_id": "e9a004e3-2d50-47b2-a224-11e19f45a270",
         "is_pre": false,
-        "pc_image": "shopify:\/\/shop_images\/winter_sale_pc.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/winter_sale_pe.jpg",
-        "title": "",
-        "subtitle": "",
+        "pc_image": "shopify:\/\/shop_images\/pc_fbd3f3af-29ba-4cf9-a4bd-57023e5eceb8.png",
+        "mobile_image": "shopify:\/\/shop_images\/mo_57d89141-b49a-490d-b287-b227db60754c.png",
+        "title": "<font color=\"#3498DB\">UGREEN Soldes d'hiver <\/font>",
+        "subtitle": "<font color=\"#3498DB\">c'est le moment de faire de bonnes affaires! <\/font><br><font color=\"#FFC300\">Jusqu'à <strong>40%<\/strong> de réduction <\/font>",
         "email_btn_text": "",
         "email_tips": "",
         "time": ""
