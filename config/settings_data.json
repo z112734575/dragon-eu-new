@@ -1831,10 +1831,10 @@
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
             "type": "menu",
             "settings": {
-              "title": "❄️Bundles & Deals",
-              "url": "shopify:\/\/pages\/flash-deal",
+              "title": "❄️Deals",
+              "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "deals",
               "icon": "",
               "lb": "Hot",
               "lb_cl": "#ec0101"
