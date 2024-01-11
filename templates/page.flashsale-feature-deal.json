@@ -183,6 +183,19 @@
               "ugreen-30w-usb-c-charger-with-pd3-0-1m-lightning-cable"
             ]
           }
+        },
+        "ug_product_list_tabs_BBRytQ": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Power Bank",
+            "product_list": [
+              "25188",
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-10000mah-magsafe-wireless-power-bank",
+              "pb561",
+              "pb560"
+            ]
+          }
         }
       },
       "block_order": [
@@ -192,7 +205,8 @@
         "82e89c4e-58ed-4668-b5e0-707f3f82a435",
         "577176c8-d4ad-487d-995b-897189b25986",
         "e262d77a-9f38-448e-9f36-447219ea793f",
-        "4f24d1ed-265b-405c-87c1-b1df8bacfe35"
+        "4f24d1ed-265b-405c-87c1-b1df8bacfe35",
+        "ug_product_list_tabs_BBRytQ"
       ],
       "settings": {
         "item_type": "default",
@@ -204,9 +218,9 @@
         "title_color": "#000000",
         "product_item_bg_color": "#ffffff",
         "tabs_bar_bg_color": "#edf7f9",
-        "tab_bg_color": "#fff",
+        "tab_bg_color": "#ffffff",
         "tab_text_color": "#69cae9",
-        "tab_border_color": "#fff",
+        "tab_border_color": "#ffffff",
         "tab_active_bg_color": "#69cae9",
         "tab_active_text_color": "#ffffff",
         "tab_active_border_color": "#69cae9",
