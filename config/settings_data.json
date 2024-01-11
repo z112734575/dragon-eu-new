@@ -3288,6 +3288,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Bonjour, écrivez‑nous si vous avez des questions. Nous serons ravis de vous aider !"
         }
+      },
+      "7555218208816688692": {
+        "type": "shopify:\/\/apps\/rivo-popups-email-pop-ups\/blocks\/app-embed\/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   }
