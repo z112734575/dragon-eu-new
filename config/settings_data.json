@@ -1782,8 +1782,8 @@
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
             "settings": {
-              "title": "Vente du Nouvel An",
-              "url": "shopify:\/\/pages\/ugreen-vente-du-nouvel-an",
+              "title": "Soldes d'hiver",
+              "url": "https:\/\/fr.ugreen.com\/pages\/ugreen-soldes-dhiver",
               "open_link": "_self",
               "menu": "",
               "icon": "lab la-hotjar",
@@ -1832,9 +1832,9 @@
             "type": "menu",
             "settings": {
               "title": "❄️Deals",
-              "url": "",
+              "url": "https:\/\/fr.ugreen.com\/pages\/flash-deal",
               "open_link": "_self",
-              "menu": "deals",
+              "menu": "",
               "icon": "",
               "lb": "Hot",
               "lb_cl": "#ec0101"
