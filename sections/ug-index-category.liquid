@@ -1,382 +1,159 @@
+{% liquid
+    assign settings = section.settings
+    assign title = section.settings.title
+    assign items = section.blocks
+    assign pc_icon_size = section.settings.pc_icon_size
+    assign mobile_icon_size = section.settings.mobile_icon_size
+%}
+
 <style>
-  /*banner*/
-  .ug-home-banner {
-      width: 100vw;
-      height: 47.92vw;
-  }
-  .ug-home-banner picture img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
-  .ug-home-banner-box {
-      text-align: center;
-      position: absolute;
-      left: 0;
-      transform: translateX(-50%);
-      /* right: 0;
-      top: 7.292vw; */
-  }
- .ug-home-banner-box .title {
-      font-size: 2vw;
-      font-weight: bold;
-      color: inherit;
-    line-height: normal;
-  }
-  .ug-home-banner-box .title p{
-    margin:0;
-  }
-  .ug-home-banner-box .sub {
-      font-size: 1.2vw;
-      font-weight: 400;
-      margin: 0 0 1.5vw 0;
-      color: inherit;
-  }
-  .ug-home-banner-box .btn {
-      display: inline-block;
-      line-height: 2.5vw;
-      text-align: center;
-      padding: 0 1.67vw;
-      border: 2px solid;
-      border-radius: 60px;
-      font-size: 0.83vw;
-      cursor: pointer;
-      font-weight: 600;
-  }
-  .ug-home-banner-box .btn:hover {
-      background: #00CC88 !important;
-      color: white;
-      border-color: #00CC88 !important;
-  }
-  .ug-home-banner-box .icon {
-      /*width: .8em;*/
-      /*height: .8em;*/
-  }
-  .ug-home-banner .swiper-button-next, .ug-home-banner .swiper-button-prev {
-      color: rgb(0, 0, 0);
-      background: rgba(255, 255, 255, 0.4);
-      width: 2.083vw;
-      height: 2.083vw;
-      border-radius: 50%;
-  }
-  .ug-home-banner .swiper-button-next:after, .ug-home-banner .swiper-button-prev:after {
-      font-size: 0.729vw;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      line-height: 2.183vw;
-  }
-  .ug-home-banner .swiper-button-prev, .ug-home-banner .swiper-rtl .swiper-button-next {
-      left: 1.042vw;
-  }
-  .ug-home-banner .swiper-button-next, .ug-home-banner .swiper-rtl .swiper-button-prev {
-      right: 2.038vw;
-  }
-  .ug-home-banner .swiper-pagination-bullet {
-      width: 3.125vw;
-      height: 0.208vw;
-      background: rgba(255, 255, 255, 0.4);
-      border-radius: 0;
-  }
-  .ug-home-banner .swiper-pagination-bullet-active {
-      background: rgba(255, 255, 255, 1);
-  }
-  .ug-home-banner .swiper-button-next:hover, .ug-home-banner .swiper-button-prev:hover {
-       background: white;
-     }
-  @media (max-width: 767px) {
-      .ug-home-banner {
-          height: 580px
-      }
-      .ug-home-banner-box {
-          top: 15%;
-          padding: 0 20px;
-          width: 100%;
-          transform: none;
-      }
-      .ug-home-banner-box .title {
-          font-size: 28px;
-          line-height: 1.2;
-          flex-wrap: wrap;
-      }
-      .ug-home-banner-box .title p {
-          order: 1;
-          margin: 0 0 10px 0;
-      }
-      .ug-home-banner-box .sub {
-          font-size: 16px;
-          margin-top: 8px;
-          line-height: 1.2;
-      }
-      .ug-home-banner-box .btn {
-          font-size: 16px;
-          height: 40px;
-          min-width: 140px;
-          justify-content: center;
-          align-items: center;
-          margin: 26px auto 0;
-          line-height: 1;
-          display: inline-flex;
-      }
-      .ug-home-banner .swiper-pagination-bullet {
-          width: 40px;
-          height: 4px;
-      }
-     .ug-home-banner  .swiper-button-next, .ug-home-banner  .swiper-button-prev {
-       display: none;
-     }
-  }
-  {{ section.settings.custom_style }}
-  /*banner*/
+    .ug-index-category {
+        padding-top: 100px;
+        background-color: #fff;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    .ug-index-category-title {
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 60px;
+        color: black;
+    }
+    .ug-index-category-items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ug-index-category-item-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        color: black;
+    }
+    .category-next {
+        display: none;
+    }
+    .ug-index-category-item {
+        text-align: center;
+        font-size: 46px;
+        color: black;
+        line-height: 1;
+        transition: all 0.3s;
+    }
+    .ug-index-category-item:hover {
+        transform: scale(1.1);
+    }
+    .ug-index-category-item-name {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 12px;
+    }
+    .ug-index-category-item-title {
+        font-size: {{ section.settings.pc_icon_size |  default: "inherit" }};
+    }
+    @media screen and (max-width: 768px) {
+        .ug-index-category {
+            padding: 80px 16px 0;
+        }
+        .category-next{
+            display: block;
+        }
+        .ug-index-category-title {
+            font-size: 24px;
+            margin-bottom: 60px;
+        }
+        .ug-index-category-items {
+            padding: 0 16px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .ug-index-category-items > a {
+            width: 100%;
+            padding: 20px 0;
+            border-bottom: 1px solid #F2F2F2;
+        }
+        .ug-index-category-item {
+            font-size: 36px;
+            display: flex;
+            align-items: center;
+        }
+        .ug-index-category-item-title {
+            font-size: {{ mobile_icon_size |  default: "inherit" }};
+            width: 40px;
+        }
+        .ug-index-category-item-name {
+            margin-top: 0;
+        }
+    }
 </style>
 
-<section class="swiper ug-home-banner">
-  <div class="swiper-wrapper">
-    {% for block in section.blocks %}
-      {% assign settings = block.settings %}
-      {% assign text_color = settings.text_color %}
-        {% assign className = settings.className %}
-      <a
-        class="swiper-slide swiper-index{{ forloop.index }} {{ className }}"
-        href="{{ settings.link }}"
-      >
-        <style>
-          #banner_content_{{block.id}} {
-            left: {{settings.pc_left}}%;
-            top: {{settings.pc_top}}%;
-            text-align: {{settings.pc_align}};
-          }
-          @media (max-width: 767px) {
-           #banner_content_{{block.id}} {
-            left: {{settings.mobile_left}}%;
-            top: {{settings.mobile_top}}%;
-             text-align: {{settings.mobile_align}};
-          } 
-          }
-        </style>
-        <div class="ug-home-banner-box" style="color: {{ text_color }}; " id="banner_content_{{ block.id }}">
-          {% if settings.title %}
-            <div class="title">
-              <p>{{ settings.title }}</p>
-            </div>
-          {% endif %}
+<div class="ug-index-category">
+    <div class="ug-index-category-title">{{ title }}</div>
+    <div class="ug-index-category-items">
+        {% for item in items %}
+            {% assign name = item.settings.name %}
+            {% assign icon_name = item.settings.icon_name %}
+            {% assign link = item.settings.link %}
+            <a href="{{ link }}" class="ug-index-category-item-wrap">
+                <div class="ug-index-category-item">
+                    <div class="ug-index-category-item-title">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#{{ icon_name }}"></use>
+                        </svg>
+                    </div>
+                    <div class="ug-index-category-item-name">{{ name }}</div>
+                </div>
+                <svg class="icon category-next" aria-hidden="true">
+                    <use xlink:href="#icon-xiayiye"></use>
+                </svg>
+            </a>
+        {% endfor %}
 
-          {% if settings.subtitle %}
-            <div class="sub">{{ settings.subtitle }}</div>
-          {% endif %}
-
-          {% unless settings.button_text == '' %}
-            <div class="btn" style="border-color: {{ text_color }};">
-              <span>{{ settings.button_text }}</span>
-              <svg class="icon" aria-hidden="true">
-                <use xlink:href="#icon-xiayiye"></use>
-              </svg>
-            </div>
-          {% endunless %}
-        </div>
-        {% render 'ug-picture',
-          pc_image_url: settings.pc_image_url,
-          mobile_image_url: settings.mobile_image_url,
-          alt: settings.title
-        %}
-      </a>
-    {% endfor %}
-  </div>
-  {% if  section.blocks.size != 1%}
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-  {% endif %}
-</section>
-
-{% if  section.blocks.size != 1%}
-<script>
-    $(function () {
-        const ug615swiper = new Swiper('.ug-home-banner', {
-            direction: 'horizontal',
-            loop: true,
-            threshold : 50, // 超过50px才算做滑动
-            pagination: {
-                el: '.ug-home-banner  .swiper-pagination',
-            },
-            navigation: {
-                nextEl: '.ug-home-banner .swiper-button-next',
-                prevEl: '.ug-home-banner .swiper-button-prev',
-            },
-            autoplay: {
-                delay: 500000,
-            }
-        })
-        const banner_index = `{{ section.settings.banner_index }}`;
-        const CHANGE_COLOR_INDEX = banner_index.split(',') // banner 需要改变 header 颜色的序号
-
-        const normalLogo = 'https://cdn.shopify.com/s/files/1/0257/5246/9566/files/95.svg?v=1663919287';
-        const colorLogo = 'https://cdn.shopify.com/s/files/1/0257/5246/9566/files/logo_color__2X_5a5b583f-27a2-43db-8ec5-413265a5d565.png?v=1673246856';
-        const blackLogo = 'https://cdn.shopify.com/s/files/1/0257/5246/9566/files/logo_black__2X_4afba75b-1447-44bc-bb0c-f7b962309404.png?v=1673246859';
-        const header = $('.t4s-section-header')
-        const logo = $('.header__normal-logo')
-        const mobileLogo = $('.header__mobile-logo')
-
-        function changeHeaderColor(index) {
-            if (CHANGE_COLOR_INDEX.indexOf(String(index)) >= 0) {
-                header.addClass('header-thirdly-type')
-                if (header.hasClass('header-second-type') || header.hasClass('header-hover')) return;
-                mobileLogo.attr('src', blackLogo)
-                logo.attr('src', blackLogo)
-            } else {
-                header.removeClass('header-thirdly-type')
-                if (header.hasClass('header-second-type') || header.hasClass('header-hover')) return;
-                mobileLogo.attr('src', normalLogo)
-                logo.attr('src', normalLogo)
-            }
-        }
-        if(CHANGE_COLOR_INDEX.indexOf('0') >= 0) {
-            // 如果第一张需要改变颜色，需要初始化
-            changeHeaderColor(0)
-        }
-        ug615swiper.on('slideChange', function (event) {
-            changeHeaderColor(event.realIndex)
-        });
-    })
-
-
-
-</script>
-  {% endif %}
+    </div>
+</div>
 
 {% schema %}
 {
-  "name": "UG Home Banner",
+  "name": "Index Category",
   "settings": [
     {
-      "type": "header",
-      "content": "Banner Settings"
-    },
-    {
-      "type": "textarea",
-      "id": "custom_style",
-      "label": "Custom style",
-      "info": "添加自定义的样式"
+      "type": "text",
+      "id": "title",
+      "label": "Category Title",
+      "default": "Shop By Category"
     },
     {
       "type": "text",
-      "id": "banner_index",
-      "label": "Banner Index",
-      "info": "需要标题变色的Banner 的序号，从0开始，多个用逗号隔开"
+      "id": "pc_icon_size",
+      "label": "PC Icon Size"
+    },
+    {
+      "type": "text",
+      "id": "mobile_icon_size",
+      "label": "Mobile Icon Size"
     }
   ],
-  "max_blocks": 10,
   "blocks": [
     {
-      "name": "Slide Item",
-      "type": "ug-index-carousel-item",
+      "name": "Index Category Item",
+      "type": "ug-index-category-item",
       "settings": [
         {
           "type": "text",
-          "id": "pc_image_url",
-          "label": "Pc image url"
+          "id": "name",
+          "label": "Item name"
         },
         {
           "type": "text",
-          "id": "mobile_image_url",
-          "label": "Mobile image url"
+          "id": "icon_name",
+          "label": "Item icon name"
         },
         {
-          "type": "color",
-          "id": "text_color",
-          "label": "文字颜色",
-          "default": "#000000"
-        },
-        {
-          "type": "textarea",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "textarea",
-          "id": "subtitle",
-          "label": "Subtitle"
-        },
-        {
-          "type": "textarea",
-          "id": "button_text",
-          "label": "Button text"
-        },
-        {
-          "type": "text",
+          "type": "url",
           "id": "link",
-          "label": "Link",
-          "info": "跳转链接"
-        },
-         {
-          "type": "radio",
-          "id": "pc_align",
-          "label": "pc端文字对齐",
-          "options": [
-            {
-              "value": "left",
-              "label": "left"
-            },
-            {
-              "value": "center",
-              "label": "center"
-            },
-            {
-              "value": "right",
-              "label": "right"
-            }
-          ],
-          "default": "center"
-        },
-         {
-          "type": "radio",
-          "id": "mobile_align",
-          "label": "动动端文字对齐",
-          "options": [
-            {
-              "value": "left",
-              "label": "left"
-            },
-            {
-              "value": "center",
-              "label": "center"
-            },
-            {
-              "value": "right",
-              "label": "right"
-            }
-          ],
-          "default": "center"
-        },
-        {
-          "type": "number",
-          "id": "pc_top",
-          "label": "pc端垂直位置",
-          "default": 15
-        },
-        {
-          "type": "number",
-          "id": "pc_left",
-          "label": "pc端水平位置",
-          "default": 50
-        },
-        {
-          "type": "number",
-          "id": "mobile_top",
-          "label": "移动端垂直位置",
-          "default": 15
-        },
-        {
-          "type": "number",
-          "id": "mobile_left",
-          "label": "mobile端水平位置",
-          "default": 0
-        },
-        {
-          "type": "text",
-          "id": "className",
-          "label": "class name",
-          "info": "自定义你轮播类名"
+          "label": "Item link"
         }
       ]
     }
