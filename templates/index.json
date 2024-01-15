@@ -206,10 +206,77 @@
     },
     "ug-index-category": {
       "type": "ug-index-category",
-      "disabled": true,
+      "blocks": {
+        "ug-index-category-item1": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Centrale électrique portables",
+            "icon_name": "icon-a-Powerstation_icon",
+            "link": "shopify:\/\/collections\/centrale-electrique"
+          }
+        },
+        "ug-index-category-item2": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Chargeurs",
+            "icon_name": "icon-chargers_icon-01",
+            "link": "shopify:\/\/collections\/chargeur"
+          }
+        },
+        "ug-index-category-item3": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Station d'accueil",
+            "icon_name": "icon-a-DockingStation_icon1",
+            "link": "shopify:\/\/collections\/station-daccueil"
+          }
+        },
+        "ug-index-category-item4": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Hub&Adaptateur",
+            "icon_name": "icon-hub_icon1",
+            "link": "shopify:\/\/collections\/hub-adaptateur"
+          }
+        },
+        "ug-index-category-item5": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Câbles",
+            "icon_name": "icon-Cables_icon",
+            "link": "shopify:\/\/collections\/cable"
+          }
+        },
+        "ug-index-category-item6": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Stands & Mounts",
+            "icon_name": "icon-Stands_icon1",
+            "link": "shopify:\/\/collections\/support"
+          }
+        },
+        "ug-index-category-item7": {
+          "type": "ug-index-category-item",
+          "settings": {
+            "name": "Audio & Video",
+            "icon_name": "icon-Video_icon",
+            "link": "shopify:\/\/collections\/audio-video"
+          }
+        }
+      },
+      "block_order": [
+        "ug-index-category-item1",
+        "ug-index-category-item2",
+        "ug-index-category-item3",
+        "ug-index-category-item4",
+        "ug-index-category-item5",
+        "ug-index-category-item6",
+        "ug-index-category-item7"
+      ],
       "settings": {
-        "custom_style": "",
-        "banner_index": ""
+        "title": "Recherche par Catégorie",
+        "pc_icon_size": "",
+        "mobile_icon_size": ""
       }
     },
     "ug-product-list": {
