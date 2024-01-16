@@ -346,6 +346,28 @@
         "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
       }
     },
+    "blog_tags_list_9XtcPq": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "item_QtXVTb": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/solar-panels-increase-home-value-1701162205855_d37e6ab1-b39b-43b7-88a0-621428be4a4d-825029_1200x.jpg?v=1701322061",
+            "article_title": "Combien de KwH une maison consomme-t-elle par jour, par mois et par an? (avec tableau de données)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/combien-de-kwh-une-maison-consomme-t-elle"
+          }
+        }
+      },
+      "block_order": [
+        "item_QtXVTb"
+      ],
+      "settings": {
+        "box_title": "",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
+      }
+    },
     "fabc6a84-fefb-4705-a404-2565883c824e": {
       "type": "blog_buying_guides",
       "blocks": {
@@ -478,6 +500,7 @@
     "b381954c-5189-4408-9fe3-c36946e8d18c",
     "38ba10c1-4284-48ba-863f-ec63c318450f",
     "blog_tags_list_P3Fdjq",
+    "blog_tags_list_9XtcPq",
     "fabc6a84-fefb-4705-a404-2565883c824e",
     "bd9b4f86-4d1e-4dbd-bc22-ca539539f750",
     "blog_tags_list_93Kg9f"
