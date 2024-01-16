@@ -314,11 +314,21 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/comment-charger-un-ordinateur-portable-sans-chargeur"
           }
+        },
+        "item_tVQb3i": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/steam-deck-1695723450445-253810_1200x.jpg?v=1695863660",
+            "article_title": "Comment utiliser Steam Deck pour contrôler les jeux sur PC ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/hubs-and-docks\/comment-utiliser-steam-deck-pour-controler-les-jeux-sur-pc"
+          }
         }
       },
       "block_order": [
         "item_BiqknE",
-        "item_UJKex6"
+        "item_UJKex6",
+        "item_tVQb3i"
       ],
       "settings": {
         "box_title": "",
