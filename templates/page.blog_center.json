@@ -357,10 +357,20 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/combien-de-kwh-une-maison-consomme-t-elle"
           }
+        },
+        "item_qUmajj": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/camping-power-station-1701764381614-321554_1200x.png?v=1701819182",
+            "article_title": "[Guide ultime]Comment choisir une centrale électrique portable pour le camping ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/comment-choisir-une-centrale-electrique-portable-pour-le-camping"
+          }
         }
       },
       "block_order": [
-        "item_QtXVTb"
+        "item_QtXVTb",
+        "item_qUmajj"
       ],
       "settings": {
         "box_title": "",
