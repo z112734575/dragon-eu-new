@@ -486,11 +486,21 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/centrales-electriques-portables-101"
           }
+        },
+        "item_8LFAVN": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/ugreen-usb-ethernet-adapter-1696818735151_59333738-3cbd-4f79-8290-4427c8fbbb92-868665_1200x.webp?v=1696989234",
+            "article_title": "Un aperçu complet des adaptateurs Ethernet USB (2023)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/adaptateurs\/adaptateur-ethernet-usb"
+          }
         }
       },
       "block_order": [
         "item_DARhyx",
-        "item_wxkBDn"
+        "item_wxkBDn",
+        "item_8LFAVN"
       ],
       "settings": {
         "box_title": "",
