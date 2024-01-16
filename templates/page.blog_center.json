@@ -157,10 +157,20 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/adaptateurs\/adaptateur-ethernet-usb"
           }
+        },
+        "item_cefD6i": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/portable-power-station-1698819146358-848625_1200x.jpg?v=1698886464",
+            "article_title": "Centrales électriques portables101 : un guide complet (2023)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/centrales-electriques-portables-101"
+          }
         }
       },
       "block_order": [
-        "1e53884c-5284-43fa-8ce0-b0ff6bfea677"
+        "1e53884c-5284-43fa-8ce0-b0ff6bfea677",
+        "item_cefD6i"
       ],
       "settings": {
         "box_title": "",
