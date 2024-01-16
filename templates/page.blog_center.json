@@ -157,10 +157,20 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/adaptateurs\/adaptateur-ethernet-usb"
           }
+        },
+        "item_XDkwiE": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/solar-charging-1699255111234-235076_1200x.png?v=1699341441",
+            "article_title": "Qu'est-ce qu'un générateur solaire et comment fonctionne-t-il ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/quest-ce-quun-generateur-solaire"
+          }
         }
       },
       "block_order": [
-        "1e53884c-5284-43fa-8ce0-b0ff6bfea677"
+        "1e53884c-5284-43fa-8ce0-b0ff6bfea677",
+        "item_XDkwiE"
       ],
       "settings": {
         "box_title": "",
