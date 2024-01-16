@@ -294,6 +294,28 @@
         "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
       }
     },
+    "blog_tags_list_P3Fdjq": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "item_BiqknE": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/phone-gets-hot-while-charging-1703573625472_1200x.jpg?v=1703584803",
+            "article_title": "Pourquoi mon téléphone chauffe-t-il lorsqu'il est en charge ? 7 Conseils",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/pourquoi-mon-telephone-chauffe-t-il-lorsquil-est-en-charge"
+          }
+        }
+      },
+      "block_order": [
+        "item_BiqknE"
+      ],
+      "settings": {
+        "box_title": "",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
+      }
+    },
     "fabc6a84-fefb-4705-a404-2565883c824e": {
       "type": "blog_buying_guides",
       "blocks": {
@@ -393,6 +415,7 @@
     "19fffa27-c536-41fc-a189-5345a6b95849",
     "b381954c-5189-4408-9fe3-c36946e8d18c",
     "38ba10c1-4284-48ba-863f-ec63c318450f",
+    "blog_tags_list_P3Fdjq",
     "fabc6a84-fefb-4705-a404-2565883c824e",
     "bd9b4f86-4d1e-4dbd-bc22-ca539539f750"
   ]
