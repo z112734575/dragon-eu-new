@@ -403,6 +403,28 @@
         "box_more_title": "More",
         "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
       }
+    },
+    "blog_tags_list_93Kg9f": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "item_DARhyx": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/qi-wireless-charging-495600_1200x.jpg?v=1704863343",
+            "article_title": "Qu'est-ce que la recharge Qi et comment fonctionne-t-elle ? 2024",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/quest-ce-que-la-recharge-qi"
+          }
+        }
+      },
+      "block_order": [
+        "item_DARhyx"
+      ],
+      "settings": {
+        "box_title": "",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
+      }
     }
   },
   "order": [
@@ -417,6 +439,7 @@
     "38ba10c1-4284-48ba-863f-ec63c318450f",
     "blog_tags_list_P3Fdjq",
     "fabc6a84-fefb-4705-a404-2565883c824e",
-    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750"
+    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750",
+    "blog_tags_list_93Kg9f"
   ]
 }
