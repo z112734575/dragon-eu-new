@@ -305,10 +305,20 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/pourquoi-mon-telephone-chauffe-t-il-lorsquil-est-en-charge"
           }
+        },
+        "item_UJKex6": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/dingtalk_20231205105142_1200x.jpg?v=1705386241",
+            "article_title": "Comment charger un ordinateur portable sans chargeur : Conseils pour marques Dell, Lenovo et Asus",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/comment-charger-un-ordinateur-portable-sans-chargeur"
+          }
         }
       },
       "block_order": [
-        "item_BiqknE"
+        "item_BiqknE",
+        "item_UJKex6"
       ],
       "settings": {
         "box_title": "",
