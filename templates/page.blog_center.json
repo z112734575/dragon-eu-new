@@ -252,6 +252,48 @@
         "box_more_url": "https:\/\/blog.ugreen.com\/product-reviews-and-buying-guides\/buying-guides\/"
       }
     },
+    "38ba10c1-4284-48ba-863f-ec63c318450f": {
+      "type": "blog_tags_list",
+      "blocks": {
+        "8b083dce-ed2d-486a-b0d2-a4ebba9dd7d9": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/phone-chargers-get-hot-1700027629921-971218_1200x.jpg?v=1700079270",
+            "article_title": "Pourquoi certains chargeurs chauffent-ils ? et comment les refroidir ?",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/pourquoi-certains-chargeurs-chauffent-ils"
+          }
+        },
+        "aad580be-9fb8-4de8-afb5-b4eea550935a": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/laptop-charger-wattage-1702345005741-731548_1200x.jpg?v=1702422620",
+            "article_title": "Combien de watts pour charger un ordinateur portable ? (3 méthodes !)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/combien-de-watts-pour-charger-un-ordinateur-portable"
+          }
+        },
+        "13d1994b-38ef-45d6-a457-fcf64fff91a2": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/low-battery-laptop-1702965034163-342191_1200x.webp?v=1703040450",
+            "article_title": "Comment charger un ordinateur portable avec un câble HDMI(étapes détaillées)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/cable\/comment-charger-un-ordinateur-portable-avec-un-cable-hdmi"
+          }
+        }
+      },
+      "block_order": [
+        "8b083dce-ed2d-486a-b0d2-a4ebba9dd7d9",
+        "aad580be-9fb8-4de8-afb5-b4eea550935a",
+        "13d1994b-38ef-45d6-a457-fcf64fff91a2"
+      ],
+      "settings": {
+        "box_title": "Conseils et tutoriels",
+        "box_more_title": "More",
+        "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
+      }
+    },
     "fabc6a84-fefb-4705-a404-2565883c824e": {
       "type": "blog_buying_guides",
       "blocks": {
@@ -298,90 +340,6 @@
         "blog_url": "https:\/\/youtu.be\/CN7Sawwqfrg"
       }
     },
-    "38ba10c1-4284-48ba-863f-ec63c318450f": {
-      "type": "blog_tags_list",
-      "blocks": {
-        "8b083dce-ed2d-486a-b0d2-a4ebba9dd7d9": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/phone-chargers-get-hot-1700027629921-971218_1200x.jpg?v=1700079270",
-            "article_title": "Pourquoi certains chargeurs chauffent-ils ? et comment les refroidir ?",
-            "article_time": "",
-            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/pourquoi-certains-chargeurs-chauffent-ils"
-          }
-        },
-        "aad580be-9fb8-4de8-afb5-b4eea550935a": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/laptop-charger-wattage-1702345005741-731548_1200x.jpg?v=1702422620",
-            "article_title": "Combien de watts pour charger un ordinateur portable ? (3 méthodes !)",
-            "article_time": "",
-            "article_link": "https:\/\/fr.ugreen.com\/blogs\/chargeur\/combien-de-watts-pour-charger-un-ordinateur-portable"
-          }
-        },
-        "13d1994b-38ef-45d6-a457-fcf64fff91a2": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/low-battery-laptop-1702965034163-342191_1200x.webp?v=1703040450",
-            "article_title": "Comment charger un ordinateur portable avec un câble HDMI(étapes détaillées)",
-            "article_time": "",
-            "article_link": "https:\/\/fr.ugreen.com\/blogs\/cable\/comment-charger-un-ordinateur-portable-avec-un-cable-hdmi"
-          }
-        }
-      },
-      "block_order": [
-        "8b083dce-ed2d-486a-b0d2-a4ebba9dd7d9",
-        "aad580be-9fb8-4de8-afb5-b4eea550935a",
-        "13d1994b-38ef-45d6-a457-fcf64fff91a2"
-      ],
-      "settings": {
-        "box_title": "Conseils et tutoriels",
-        "box_more_title": "More",
-        "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
-      }
-    },
-    "7cf72931-5466-4bc6-9cfa-8886492b4302": {
-      "type": "blog_tags_list",
-      "blocks": {
-        "ef12704b-ae5d-4263-882c-d2a564c1ccca": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/t\/59\/assets\/car-camping-1689298410549_1200x.jpg?v=1689298413",
-            "article_title": "Comment choisir une centrale électrique portable pour le camping ?",
-            "article_time": "",
-            "article_link": "https:\/\/www.ugreen.com\/blogs\/power-station\/how-to-select-a-portable-power-station-for-camping"
-          }
-        },
-        "08849bea-1f71-4dd6-a9de-ecdef806624d": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/www.ugreen.com\/cdn\/shop\/articles\/how-many-kwh-does-a-house-use-daily-month-and-year-in-us-with-data-table-891389_1200x.jpg?v=1694696624",
-            "article_title": "Combien de KwH une maison consomme-t-elle par jour, par mois et par an aux Etats-Unis ?",
-            "article_time": "",
-            "article_link": "https:\/\/www.ugreen.com\/blogs\/home-battery-backup\/how-many-kwh-does-a-house-use-daily"
-          }
-        },
-        "029fc7be-b579-4748-9d53-c84f36ac4c24": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2023\/03\/gaming-laptop-docking-station.png?resize=600%2C300&ssl=1",
-            "article_title": "Le guide ultime des stations d'accueil pour ordinateurs portables de jeu",
-            "article_time": "",
-            "article_link": "https:\/\/blog.ugreen.com\/the-ultimate-gaming-laptop-docking-station-guide\/"
-          }
-        }
-      },
-      "block_order": [
-        "ef12704b-ae5d-4263-882c-d2a564c1ccca",
-        "08849bea-1f71-4dd6-a9de-ecdef806624d",
-        "029fc7be-b579-4748-9d53-c84f36ac4c24"
-      ],
-      "settings": {
-        "box_title": "",
-        "box_more_title": "More",
-        "box_more_url": "https:\/\/blog.ugreen.com\/tips-tutorials\/"
-      }
-    },
     "bd9b4f86-4d1e-4dbd-bc22-ca539539f750": {
       "type": "blog_tags_list",
       "blocks": {
@@ -423,48 +381,6 @@
         "box_more_title": "More",
         "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
       }
-    },
-    "d1a92bb6-e4ab-4d92-9421-602bf1386bad": {
-      "type": "blog_tags_list",
-      "blocks": {
-        "e13616ec-2d7f-4f87-adc8-c765a8aaf81e": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/www.ugreen.com\/cdn\/shop\/articles\/lifepo4-battery-what-you-need-to-know-comprehensive-guide-2023-152127_1200x.jpg?v=1692791004",
-            "article_title": "Batterie LiFePO4 : Ce qu'il faut savoir (Guide complet 2023)",
-            "article_time": "",
-            "article_link": "https:\/\/www.ugreen.com\/blogs\/power-station\/what-is-lifepo4-battery"
-          }
-        },
-        "26332cb3-0d9a-4320-ad9c-af676ef8a9db": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/www.ugreen.com\/cdn\/shop\/articles\/portable-power-stations101-a-comprehensive-guide-162587_1200x.jpg?v=1692791005",
-            "article_title": "Stations d'alimentation portables101 : un guide complet",
-            "article_time": "",
-            "article_link": "https:\/\/www.ugreen.com\/blogs\/power-station\/portable-power-stations-101"
-          }
-        },
-        "b70ad44d-81c2-487a-86cf-18b1d13cd91e": {
-          "type": "Item",
-          "settings": {
-            "article_cover": "https:\/\/i0.wp.com\/blog.ugreen.com\/wp-content\/uploads\/2023\/04\/solar-energy.png?fit=768%2C384&ssl=1",
-            "article_title": "Stockage de l'énergie solaire : Comment ça marche et pourquoi vous en avez besoin",
-            "article_time": "",
-            "article_link": "https:\/\/blog.ugreen.com\/solar-energy-storage-how-it-works-and-why-you-need-it\/"
-          }
-        }
-      },
-      "block_order": [
-        "e13616ec-2d7f-4f87-adc8-c765a8aaf81e",
-        "26332cb3-0d9a-4320-ad9c-af676ef8a9db",
-        "b70ad44d-81c2-487a-86cf-18b1d13cd91e"
-      ],
-      "settings": {
-        "box_title": "",
-        "box_more_title": "More",
-        "box_more_url": "https:\/\/blog.ugreen.com\/tech-trends\/"
-      }
     }
   },
   "order": [
@@ -476,10 +392,8 @@
     "ffa8a05e-d14a-4cca-abe5-af624edba082",
     "19fffa27-c536-41fc-a189-5345a6b95849",
     "b381954c-5189-4408-9fe3-c36946e8d18c",
-    "fabc6a84-fefb-4705-a404-2565883c824e",
     "38ba10c1-4284-48ba-863f-ec63c318450f",
-    "7cf72931-5466-4bc6-9cfa-8886492b4302",
-    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750",
-    "d1a92bb6-e4ab-4d92-9421-602bf1386bad"
+    "fabc6a84-fefb-4705-a404-2565883c824e",
+    "bd9b4f86-4d1e-4dbd-bc22-ca539539f750"
   ]
 }
