@@ -58,11 +58,11 @@
       "settings": {
         "item_type": "default",
         "product_list": [
+          "ugreen-nexode-300w-usb-c-gan-chargeur",
           "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
           "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
           "ugreen-65w-chargeur-usb-c-rapide-3-ports",
           "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
-          "ugreen-nexode-300w-usb-c-gan-chargeur",
           "ugreen-revodok-pro-209-station-daccueil",
           "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
           "ugreen-adaptateur-hub-usb-c-vers-hdmi-4k",
@@ -106,7 +106,6 @@
           "settings": {
             "tabs_title": "Hub & Dock",
             "product_list": [
-              "ugreen-revodok-pro-9-en-1-docking-station",
               "ugreen-revodok-pro-12-en-1-docking-station",
               "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
               "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
@@ -134,18 +133,21 @@
           "settings": {
             "tabs_title": "GaN Chargeurs",
             "product_list": [
+              "ugreen-nexode-pro-100w-chargeur-gan",
+              "ugreen-nexode-pro-160w-chargeur-gan",
+              "ugreen-nexode-pro-65w-ultra-slim-chargeur-gan",
+              "ugreen-65w-chargeur-usb-c-4-ports",
               "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
               "ugreen-nexode-300w-usb-c-gan-chargeur",
               "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
               "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
               "ugreen-nexode-chargeur-20w-usb-c",
               "ugreen-nexode-chargeur-45w-usb-c-2-ports",
-              "ugreen-65w-chargeur-usb-c-4-ports",
+              "ugreen-nexode-65w-gan-chargeur-usb-c-3-ports",
               "ugreen-nexode-chargeur-30w-usb-c",
               "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-bleu",
               "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-vert",
-              "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-violet",
-              "ugreen-nexode-65w-gan-chargeur-usb-c-3-ports"
+              "ugreen-nexode-chargeur-30w-usb-c-avec-gan-tech-violet"
             ]
           }
         },
@@ -178,7 +180,10 @@
               "ugreen-batterie-externe-portable-20000mah-100w-usb-c",
               "ugreen-batterie-externe-magnetique-sans-fil-10000mah-20w-usb-c",
               "ugreen-mini-batterie-externe-magnetique-sans-fil-5000mah-15w-usb-c",
-              "ugreen-batterie-externe-portable-usb-c-25000-mah-145w"
+              "ugreen-batterie-externe-portable-usb-c-25000-mah-145w",
+              "ugreen-nexode-100w-chargeur-usb-c-gan-magsafe-15w",
+              "ugreen-support-de-chargeur-magnetique-2-en-1-de-induction-sans-fil",
+              "ugreen-foldable-kickstand-magnetic-battery-10000mah"
             ]
           }
         },
@@ -284,7 +289,14 @@
               "ugreen-boitier-ssd-m-2-nvme-sata-usb-3-2-gen-2-10gbps-2to",
               "ugreen-usb-3-0-boitier-externe-pour-disque-dur-2-5-pouces-sata",
               "ugreen-usb-c-3-1-gen-2-boitier-disque-dur-externe-2-5-pouces-sata-hdd",
-              "ugreen-usb-c-boitier-externe-2-5-pouces-disque"
+              "ugreen-usb-c-boitier-externe-2-5-pouces-disque",
+              "ugreen-adaptateur-disque-dur-ide-sata-usb-3-0",
+              "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
+              "ugreen-boitier-m-2-ssd-nvme-sata-en-usb-3-2-gen-2-10-gbps",
+              "60638",
+              "ugreen-cable-sata-usb-3-0-adaptateur-sata-usb",
+              "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45",
+              "ugreen-adaptateur-usb-2-0-vers-ethernet-rj45-reseau-100mbps"
             ]
           }
         },
