@@ -1320,11 +1320,11 @@
             "settings": {
               "tab_id": 2,
               "product_list": [
-                "ugreen-18w-quick-charge-3-0-chargeur-secteur-usb-2-ports",
                 "ugreen-65w-chargeur-usb-c-4-ports",
                 "ugreen-nexode-65w-gan-chargeur-usb-c-3-ports",
                 "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
-                "ugreen-65w-chargeur-usb-c-rapide-3-ports"
+                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports-with-cable",
+                "ugreen-40w-chargeur-usb-c-2-ports"
               ],
               "tag_list": "Hot,Hot,Vente",
               "collection_name_list": "Chargeur USB,\nChargeur de voiture,\nBatterie Externe,\nChargeur sans fil,\nChargeur Rapide",
