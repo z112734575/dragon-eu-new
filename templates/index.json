@@ -87,6 +87,25 @@
             "className": ""
           }
         },
+        "ug_index_carousel_item_GaVT7U": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3_Banner-Hub_Web_3840x_35dccc10-7f33-4286-aec9-230b5ea2e048.webp?v=1705660233",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3.1_Banner-Hub_Mobile_1536x_8a67d8ac-a214-469c-b076-a2f2bae6d396.webp?v=1705660233",
+            "text_color": "#fff",
+            "title": "Obtenez plus de polyvalence à partir d'un seul hub",
+            "subtitle": "Développez votre créativité",
+            "button_text": "",
+            "link": "https:\/\/fr.ugreen.com\/collections\/hub-adaptateur",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
+            "className": ""
+          }
+        },
         "ug-index-carousel-1": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -170,6 +189,7 @@
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1",
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
+        "ug_index_carousel_item_GaVT7U",
         "ug-index-carousel-1",
         "ug-index-carousel-11",
         "b6e286c1-8dac-498a-94a9-1363ec753cff",
