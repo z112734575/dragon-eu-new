@@ -2170,12 +2170,13 @@
               "product_list": [
                 "ugreen-nexode-pro-160w-chargeur-gan",
                 "ugreen-nexode-pro-100w-chargeur-gan",
-                "ugreen-nexode-300w-usb-c-gan-chargeur",
+                "ugreen-nexode-pro-65w-chargeur-gan",
                 "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
-                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports"
+                "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
+                "ugreen-nexode-300w-usb-c-gan-chargeur"
               ],
               "tag_list": "Nexode,Nexode Pro",
-              "collection_name_list": "15%OFF,15%OFF,70€OFF",
+              "collection_name_list": "15%OFF,15%OFF,15%OFF,,,70€OFF",
               "collection_link_list": "https:\/\/fr.ugreen.com\/collections\/nexode-series,\nhttps:\/\/fr.ugreen.com\/collections\/ugreen-nexode-pro",
               "all_collection_url": "shopify:\/\/collections\/nexode-series",
               "all_collection_name": "Explorer Nexode"
