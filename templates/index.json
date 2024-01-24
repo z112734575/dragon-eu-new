@@ -71,8 +71,8 @@
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab": {
           "type": "ug-index-carousel-item",
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_Nexode_release.webp?v=1702868378",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Ugreen_Nexode_release_mo.webp?v=1702868404",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_EU_pc.webp?v=1706087135",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_EU_mo.webp?v=1706087135",
             "text_color": "#ffffff",
             "title": "UGREEN Nexode Pro",
             "subtitle": "Le nouveau Nexode sera dévoilé",
@@ -92,7 +92,7 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3_Banner-Hub_Web_3840x_35dccc10-7f33-4286-aec9-230b5ea2e048.webp?v=1705660233",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3.1_Banner-Hub_Mobile_1536x_8a67d8ac-a214-469c-b076-a2f2bae6d396.webp?v=1705660233",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "Obtenez plus de polyvalence avec un seul hub",
             "subtitle": "Développez votre créativité",
             "button_text": "En savoir plus",
