@@ -1432,7 +1432,7 @@
                 "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps",
                 "adaptateur-usb-c-jack",
                 "ugreen-cable-hdmi-4k-ultra-hd-cordon-hdmi-2-0-haute-vitesse-ethernet",
-                "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel"
+                "commutateur-hdmi"
               ],
               "tag_list": "",
               "collection_name_list": "Câble HDMI,\nCommutateur audio-vidéo,\nCarte son,\nRécepteur et émetteur Bluetooth",
@@ -1555,7 +1555,7 @@
                 "ugreen-adaptateur-jack-bluetooth-5-3-pour-voiture-recepteur-bluetooth",
                 "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45",
                 "ugreen-lecteur-de-carte-usb-c-adaptateur-de-carte-sd-micro",
-                "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel"
+                "commutateur-hdmi"
               ],
               "tag_list": ",Hot",
               "collection_name_list": "Adaptateur Bluetooth,\nAdaptateur Ethernet,\nAdaptateur SD,\nCommutateur HDMI,",
@@ -2116,7 +2116,7 @@
                 "ugreen-adaptateur-jack-bluetooth-5-3-pour-voiture-recepteur-bluetooth",
                 "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45",
                 "ugreen-switch-usb-3-0-commutateur-kvm-4-ports-usb",
-                "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel",
+                "commutateur-hdmi",
                 "ugreen-recepteur-sans-fil-bluetooth-5-0-adaptateur-bluetooth-hifi"
               ],
               "tag_list": ",Hot",
@@ -2300,7 +2300,7 @@
             "settings": {
               "tab_id": 8,
               "product_list": [
-                "ugreen-switch-hdmi-4k-60hz-commutateur-hdmi-bidirectionnel",
+                "commutateur-hdmi",
                 "ugreen-cable-hdmi-4k-ultra-hd-cordon-hdmi-2-0-haute-vitesse-ethernet",
                 "ugreen-adaptateur-bluetooth-5-1-pour-tv-2-en-1-emetteur-recepteur",
                 "ugreen-adaptateur-bluetooth-5-0-recepteur-2-en-1-bluetooth-jack-aux",
