@@ -366,11 +366,21 @@
             "article_time": "",
             "article_link": "https:\/\/fr.ugreen.com\/blogs\/centrale-electrique\/comment-choisir-une-centrale-electrique-portable-pour-le-camping"
           }
+        },
+        "item_CcFRFk": {
+          "type": "Item",
+          "settings": {
+            "article_cover": "https:\/\/fr.ugreen.com\/cdn\/shop\/articles\/stream-from-phone-to-tv-with-hdmi-199295_1200x.jpg?v=1706039380",
+            "article_title": "Comment diffuser du téléphone vers TV HDMI ? (9 méthodes)",
+            "article_time": "",
+            "article_link": "https:\/\/fr.ugreen.com\/blogs\/cable\/comment-diffuser-du-telephone-vers-tv-hdmi"
+          }
         }
       },
       "block_order": [
         "item_QtXVTb",
-        "item_qUmajj"
+        "item_qUmajj",
+        "item_CcFRFk"
       ],
       "settings": {
         "box_title": "",
