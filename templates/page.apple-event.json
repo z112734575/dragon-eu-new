@@ -3,7 +3,8 @@
     "3155cc81-16ac-4d96-80a0-275500abaea3": {
       "type": "ug_AppleEvent_banner",
       "custom_css": [
-
+        ".apple_section_1 button {display: none;}",
+        ".apple_section_1 {padding: 10px 20px;}"
       ],
       "settings": {
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Apple_3840-1400.png?v=1706767111",
