@@ -727,6 +727,23 @@
               "r_s_v_item": "30"
             }
           },
+          "16e2ef48-b04b-46f0-bf5f-d12823645624": {
+            "type": "drop",
+            "settings": {
+              "title": "💕Saint Valentin",
+              "url": "https:\/\/fr.ugreen.com\/pages\/saint-valentin",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "2024",
+              "lb_cl": "#ec0101",
+              "lazy_mn": true,
+              "pos_sub": "bottom",
+              "pos": "left"
+            }
+          },
           "a8f39e42-3998-40be-8ea3-864f6678baf0": {
             "type": "base",
             "disabled": true,
@@ -743,6 +760,7 @@
           },
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "💕Saint Valentin",
               "url": "https:\/\/fr.ugreen.com\/pages\/saint-valentin",
@@ -752,23 +770,6 @@
               "cl": "#ec0101",
               "lb": "Hot",
               "lb_cl": "#ec0101"
-            }
-          },
-          "16e2ef48-b04b-46f0-bf5f-d12823645624": {
-            "type": "drop",
-            "settings": {
-              "title": "Soldes d'hiver",
-              "url": "https:\/\/fr.ugreen.com\/pages\/ugreen-soldes-dhiver",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "lab la-hotjar",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "2024",
-              "lb_cl": "#ec0101",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
             }
           },
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
@@ -896,9 +897,9 @@
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "7b6b268c-25a0-4c97-960d-7e81c56a2676",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
+          "16e2ef48-b04b-46f0-bf5f-d12823645624",
           "a8f39e42-3998-40be-8ea3-864f6678baf0",
           "08e89a2e-9b80-49fe-8c9a-6298dea4d416",
-          "16e2ef48-b04b-46f0-bf5f-d12823645624",
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "c1ea18bc-75ab-43cf-b12e-6d6c1e4439cd",
           "550bcd55-e2b8-40fb-a643-7e078694e4ea",
