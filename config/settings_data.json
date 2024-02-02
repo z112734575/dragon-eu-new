@@ -776,7 +776,7 @@
             "type": "drop",
             "settings": {
               "title": "❄️Deals",
-              "url": "https:\/\/fr.ugreen.com\/pages\/flash-deal",
+              "url": "#",
               "open_link": "_self",
               "menu": "deals",
               "icon": "",
