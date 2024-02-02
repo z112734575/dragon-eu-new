@@ -1782,8 +1782,8 @@
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
             "settings": {
-              "title": "Soldes d'hiver",
-              "url": "https:\/\/fr.ugreen.com\/pages\/ugreen-soldes-dhiver",
+              "title": "💕Saint Valentin",
+              "url": "https:\/\/fr.ugreen.com\/pages\/saint-valentin",
               "open_link": "_self",
               "menu": "",
               "icon": "lab la-hotjar",
@@ -1832,9 +1832,9 @@
             "type": "menu",
             "settings": {
               "title": "❄️Deals",
-              "url": "https:\/\/fr.ugreen.com\/pages\/flash-deal",
+              "url": "#",
               "open_link": "_self",
-              "menu": "",
+              "menu": "deals",
               "icon": "",
               "lb": "Hot",
               "lb_cl": "#ec0101"
