@@ -48,6 +48,25 @@
             "className": ""
           }
         },
+        "ug_index_carousel_item_DYfRit": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU_banner_pc.png?v=1706861172",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/EU_banner_pc.png?v=1706861172",
+            "text_color": "#000000",
+            "title": "",
+            "subtitle": "",
+            "button_text": "",
+            "link": "",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
+            "className": ""
+          }
+        },
         "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -187,6 +206,7 @@
       "block_order": [
         "10849ca4-37de-4928-971c-7047e115dc60",
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
+        "ug_index_carousel_item_DYfRit",
         "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1",
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
         "ug_index_carousel_item_GaVT7U",
