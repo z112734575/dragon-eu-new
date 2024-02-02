@@ -18,10 +18,10 @@
             "subtitle": "Enjoy 30% Off on Irresistible Gifts",
             "button_text": "Shop Now",
             "link": "https:\/\/eu.ugreen.com\/pages\/valentines-day",
-            "pc_align": "center",
+            "pc_align": "left",
             "mobile_align": "center",
-            "pc_top": 15,
-            "pc_left": 50,
+            "pc_top": 30,
+            "pc_left": 28,
             "mobile_top": 15,
             "mobile_left": 0,
             "className": "buy-more-save-more"
