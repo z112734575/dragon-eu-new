@@ -61,7 +61,7 @@
             "pc_align": "left",
             "mobile_align": "center",
             "pc_top": 30,
-            "pc_left": 25,
+            "pc_left": 30,
             "mobile_top": 10,
             "mobile_left": 0,
             "className": ""
