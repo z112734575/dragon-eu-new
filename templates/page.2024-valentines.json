@@ -34,12 +34,12 @@
         "step_type": "1",
         "title": "Programme du Black Friday & Cyber Monday",
         "subtitle": "",
-        "step1_text": "Black Friday <br class=\"is_pe\">Pré-Vente",
-        "step1_time": "Nov 10 - <br class=\"is_pe\">16",
-        "step2_text": "Extravaganza du <br class=\"is_pe\">Black Friday",
-        "step2_time": "Nov 17 - <br class=\"is_pe\">24",
-        "step3_text": "Fête du <br class=\"is_pe\">Cyber Monday",
-        "step3_time": "Nov 25 - <br class=\"is_pe\">27",
+        "step1_text": "Black Friday Pré-Vente",
+        "step1_time": "Nov 10 - 16",
+        "step2_text": "Extravaganza du Black Friday",
+        "step2_time": "Nov 17 - 24",
+        "step3_text": "Fête du Cyber Monday",
+        "step3_time": "Nov 25 - 27",
         "padding_pc": "120px 0 0 0",
         "padding_mobile": "60px 0 0 0"
       }
@@ -103,26 +103,26 @@
           "settings": {
             "tabs_title": "Hub & Dock",
             "product_list": [
-              "ugreen-revodok-pro-9-en-1-docking-station",
-              "ugreen-revodok-pro-12-en-1-docking-station",
-              "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
-              "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
+              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-usb-c-rj45-ethernet-supporte",
               "ugreen-revodok-hub-usb-c-hdmi-4k-6-en-1-adaptateur-usb-c",
-              "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
+              "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
+              "ugreen-revodok-pro-12-en-1-docking-station",
+              "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
               "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-type-c-lecteur-de-cartes",
-              "ugreen-hub-usb-c-hdmi-4k-adaptateur-usb-c-vers-4-ports-usb-3-0",
               "ugreen-adaptateur-hub-usb-c-hdmi-4k-60hz-pd-100w-recharge",
-              "ugreen-station-accueil-compatible-avec-steam-deck-6-en-1-hub-hdmi",
               "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
               "ugreen-hub-usb-c-ethernet-hdmi-4k-7-en-1-adaptateur-usb-c",
               "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
               "ugreen-adaptateur-hub-usb-c-vers-hdmi-4k",
-              "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-usb-c-rj45-ethernet-supporte",
               "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
-              "ugreen-data-hub-usb-3-0-a-7-ports-hub-multi-usb-5gbps",
               "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide-adaptateur",
               "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide",
-              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps"
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps",
+              "ugreen-hub-usb-c-vers-4-ports-usb-3-0-5gbps-adaptateur",
+              "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
+              "ugreen-hub-usb-c-hdmi-4k-adaptateur-usb-c-vers-4-ports-usb-3-0",
+              "ugreen-station-accueil-compatible-avec-steam-deck-6-en-1-hub-hdmi",
+              "ugreen-data-hub-usb-3-0-a-7-ports-hub-multi-usb-5gbps"
             ]
           }
         },
@@ -354,6 +354,94 @@
         "show_learn_btn": true,
         "show_code": true
       }
+    },
+    "accordion_UtmwY4": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_WBPBcG": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 01",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "accor_item_PxkXeb": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Accordion item",
+            "content": ""
+          }
+        },
+        "accor_item_BL74nK": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 02",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "accor_item_63YfQi": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 03",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "accor_item_6AQK4m": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Accordion item",
+            "content": ""
+          }
+        },
+        "accor_item_gKnMJM": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Accordion item",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_WBPBcG",
+        "accor_item_PxkXeb",
+        "accor_item_BL74nK",
+        "accor_item_63YfQi",
+        "accor_item_6AQK4m",
+        "accor_item_gKnMJM"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Accordion",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -362,6 +450,7 @@
     "black_friday_step",
     "gift_card",
     "ug-product-list",
-    "ug-tabs-product-list"
+    "ug-tabs-product-list",
+    "accordion_UtmwY4"
   ]
 }
