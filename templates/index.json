@@ -18,6 +18,12 @@
             "subtitle": "Enjoy 30% Off on Irresistible Gifts",
             "button_text": "Shop Now",
             "link": "https:\/\/eu.ugreen.com\/pages\/valentines-day",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": "buy-more-save-more"
           }
         },
@@ -31,6 +37,12 @@
             "subtitle": "Power to the Pro",
             "button_text": "Learn More",
             "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-pro-charger-series",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": "300w"
           }
         },
@@ -44,6 +56,12 @@
             "subtitle": "Nexode 300W 5-Port PD GaN Fast Charger",
             "button_text": "Learn More",
             "link": "https:\/\/eu.ugreen.com\/products\/ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": "300w"
           }
         },
@@ -57,6 +75,12 @@
             "subtitle": "Expand your creativity",
             "button_text": "Shop Now",
             "link": "\/collections\/hubs",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": ""
           }
         },
@@ -71,6 +95,12 @@
             "subtitle": "Sep 11st-Sep 22nd.",
             "button_text": "Shop Now",
             "link": "\/pages\/apple-event",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
             "className": "buy-more-save-more"
           }
         }
@@ -88,7 +118,7 @@
       ],
       "settings": {
         "custom_style": "",
-        "banner_index": ""
+        "banner_index": "0"
       }
     },
     "ug-index-image": {
