@@ -218,7 +218,7 @@
       ],
       "settings": {
         "custom_style": ".nexode-100w .green-home-banner-box {\n   left: 12vw;\n    right: auto;\n    top: 12.292vw;\n    color: black;\n    text-align: left;\n}\n.nexode-100w .green-home-banner-box .btn {\n  border-color: black;\n}\n.Revodok_banner .green-home-banner-box{\ntop:70%;\n}\n@media (max-width: 767px) {\n.nexode-100w .green-home-banner-box {\n    text-align: center;\n    top: 15%;\n}\n.Revodok_banner .green-home-banner-box{\ntop:65%;\n}\n}",
-        "banner_index": "0,"
+        "banner_index": ""
       }
     },
     "ug-index-image": {
