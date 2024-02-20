@@ -224,7 +224,21 @@
       "date_html": "Placé le {{ date }}",
       "cancelled_html": "Commande annulée le {{ date }}",
       "cancelled_reason": "Raison : {{ reason }}",
-      "billing_address": "adresse de facturation"
+      "billing_address": "adresse de facturation",
+      "payment_status": "Statut de paiement",
+      "shipping_address": "adresse de livraison",
+      "fulfillment_status": "Statut d'exécution",
+      "discount": "Rabais",
+      "shipping": "Expédition",
+      "tax": "Impôt",
+      "product": "Produit",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "fulfilled_at_html": "Réalisé le {{ date }}",
+      "subtotal": "Total",
+      "track_shipment": "Suivi de livraison",
+      "gift_note": "Message de cadeau",
+      "note": "Instructions spéciales pour le vendeur"
     },
     "form": {
       "error_heading": "Veuillez ajuster les éléments suivants :"
@@ -300,6 +314,34 @@
       "payment_status": "Statut de paiement",
       "fulfillment_status": "Statut d'exécution",
       "none": "Vous n'avez pas encore passé de commande."
+    },
+    "recover_password": {
+      "title": "réinitialisez votre mot de passe",
+      "email": "Adresse e-mail",
+      "submit": "réinitialiser le mot de passe",
+      "save": "Sauvegarder",
+      "cancel": "Annuler",
+      "subtext": "Mot de passe perdu? Veuillez saisir votre adresse e-mail. Vous recevrez un lien pour créer un nouveau mot de passe par e-mail.",
+      "success": "Nous vous avons envoyé un e-mail avec un lien pour mettre à jour votre mot de passe.",
+      "content_success": "Un e-mail de réinitialisation de mot de passe a été envoyé à l'adresse e-mail enregistrée pour votre compte, mais peut prendre plusieurs minutes pour apparaître dans votre boîte de réception. Veuillez attendre au moins 10 minutes avant de tenter une autre réinitialisation."
+    },
+    "reset_password": {
+      "title": "Réinitialiser le mot de passe du compte",
+      "subtext": "Saisissez un nouveau mot de passe pour {{ email }}",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "réinitialiser le mot de passe"
+    },
+    "register": {
+      "login_here": "Vous avez déjà un compte? Connectez-vous ici",
+      "title": "Registre",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "submit": "Registre",
+      "privacy_policy": "Vos données personnelles seront utilisées pour soutenir votre expérience sur ce site Web, pour gérer l'accès à votre compte et à d'autres fins décrites dans notre politique de confidentialité.",
+      "privacy_policy_html": "Vos données personnelles seront utilisées pour soutenir votre expérience sur ce site Web, pour gérer l'accès à votre compte et à d'autres fins décrites dans notre <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">politique de confidentialité<\/a> ."
     }
   },
   "cart": {
@@ -551,5 +593,94 @@
     "loading": "Chargement...",
     "total_reviews": "avis totaux",
     "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles"
+  },
+  "password_page": {
+    "opening_soon": "Ouverture prochaine",
+    "drawer_heading": "Entrer le mot de passe",
+    "login_form_password_label": "Mot de passe",
+    "login_form_password_placeholder": "Votre mot de passe",
+    "login_form_submit": "Entrer",
+    "signup_form_success": "Nous vous enverrons un e-mail juste avant l'ouverture !",
+    "admin_link_html": "Êtes-vous le propriétaire du magasin? <a href=\"\/admin\" class=\"text-link\">Connectez-vous ici<\/a>",
+    "password_link": "Entrez en utilisant le mot de passe"
+  },
+  "wishlist_page": {
+    "meta": "Ma page de liste de souhaits",
+    "title": "Liste de souhaits",
+    "empty": "La liste de souhaits est vide.",
+    "empty_html": "Vous n'avez pas encore de produits dans la liste de souhaits.<br> Vous trouverez de nombreux produits intéressants sur notre page \"Boutique\"."
+  },
+  "compare_page": {
+    "meta": "Ma page de comparaison",
+    "title": "Comparer",
+    "empty": "LA LISTE DE COMPARER EST VIDE.",
+    "empty_html": "Aucun produit ajouté dans la liste de comparaison. Vous devez ajouter quelques produits pour les comparer.<br> Vous trouverez de nombreux produits intéressants sur notre page \"Boutique\".",
+    "remove": "Retirer",
+    "in_stock": "En stock",
+    "outofstock": "En rupture de stock"
+  },
+  "compare_popup": {
+    "title": "comparer les produits",
+    "close": "Fermer",
+    "remove": "enlever cet article",
+    "clear": "Tout effacer",
+    "button": "Comparer"
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Afficher les informations du magasin",
+      "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",
+      "pick_up_available": "Ramassage disponible",
+      "pick_up_currently_unavailable": "Ramassage actuellement indisponible",
+      "pick_up_available_at_html": "Prise en charge disponible à <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Retrait actuellement indisponible à <strong>{{ location_name }}<\/strong>",
+      "check_map": "Vérifiez ceci sur Google Map"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Votre carte cadeau",
+      "gift_card_code": "Code de la carte cadeau",
+      "disabled": "Désactivé",
+      "expired": "Expiré le {{ expiry }}",
+      "active": "Expire le {{ expiry }}",
+      "redeem_html": "Utilisez ce code lors du paiement pour utiliser votre carte-cadeau {{ value }}",
+      "shop_link": "Commencez vos achats",
+      "print": "Imprimez cette carte cadeau",
+      "remaining_html": "Il reste {{ balance }}",
+      "add_to_apple_wallet": "Ajouter à Apple Wallet",
+      "qr_image_alt": "Code QR : scannez-le pour utiliser une carte-cadeau",
+      "copy_code": "Copier le code",
+      "copy_code_success": "Code copié avec succès"
+    }
+  },
+  "onboarding": {
+    "product_title": "Le nom de votre produit",
+    "product_description": "Cette zone est utilisée pour décrire les détails de votre produit. Informez les clients de l'apparence, de la sensation et du style de votre produit. Ajoutez des détails sur la couleur, les matériaux utilisés, la taille et l'endroit où il a été fabriqué.",
+    "collection_title": "Le nom de votre collection",
+    "blog_title": "Le titre de votre message",
+    "blog_excerpt": "Votre boutique n'a pas encore publié d'articles de blog. Un blog peut être utilisé pour parler des lancements de nouveaux produits, des conseils ou d'autres actualités que vous souhaitez partager avec vos clients. Vous pouvez consulter le blog de commerce électronique de Shopify pour trouver de l'inspiration et des conseils pour votre propre boutique et votre blog.",
+    "blog_author": "Nom de l'auteur",
+    "no_content": "Cette section n'inclut actuellement aucun contenu. Ajoutez du contenu à cette section à l'aide de la barre latérale."
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Prix ​​habituel",
+        "sold_out": "Épuisé",
+        "unavailable": "Indisponible",
+        "on_sale": "Vente",
+        "quantity": "Quantité",
+        "add_to_cart": "Ajouter au panier",
+        "back_to_collection": "Retour à {{ title }}",
+        "view_details": "Voir les détails"
+      }
+    },
+    "article": {
+      "tags": "Mots clés:",
+      "all_topics": "Tous les sujets",
+      "by_author": "par {{ author }}",
+      "posted_in": "Publié dans"
+    }
   }
 }
