@@ -9,13 +9,31 @@
   },
   "products": {
     "breadcrumb": {
-      "home": "Maison"
+      "home": "Maison",
+      "back_to": "Retour à {{title}}"
     },
     "product_card": {
       "countdown_text": {
         "sec": "seconde",
-        "sec_plural": "secondes"
-      }
+        "sec_plural": "secondes",
+        "day": "Jour",
+        "day_plural": "Jours",
+        "hr": "heure",
+        "hr_plural": "heures",
+        "min_plural": "minutes"
+      },
+      "read_more": "En savoir plus",
+      "view": "Voir les produits",
+      "quick_view": "Aperçu rapide",
+      "quick_shop": "Acheter maintenant",
+      "quick_shop_text": {
+        "replace_item_atc": "Remplacer l'élément",
+        "replace_item_pre": "Remplacer l'élément"
+      },
+      "select_option": "Sélectionnez les options",
+      "swatch_limit": "Afficher plus de couleurs",
+      "swatch_limit_less": "Afficher moins de couleurs",
+      "offer_end_in": "L'offre se termine dans :"
     },
     "product_single": {
       "countdown_text": {
@@ -68,6 +86,53 @@
         "other": "<span class=\"cp\">{{count}}<\/span> produits trouvés"
       },
       "clear_filter": "Effacer le filtre"
+    },
+    "aria_label": {
+      "select_option": "Sélectionnez les options pour « {{product_title}} »",
+      "add_to_cart": "Ajoutez « {{product_title}} » à votre panier",
+      "read_more": "En savoir plus sur « {{product_title}} »"
+    },
+    "badge": {
+      "new": "Nouveau",
+      "sold_out": "Épuisé",
+      "on_sale": "Vente",
+      "pre_order": "Pré-commander",
+      "save_amoun_html": "- {{ saved_amount }} %",
+      "save_amount_fixed_html": "- {{ saved_amount }}",
+      "save_amount_2_html": "ÉCONOMISER {{ saved_amount }} %",
+      "save_amount_fixed_2_html": "ÉCONOMISER {{ saved_amount }}"
+    },
+    "product": {
+      "include_taxes": "Taxe inclu.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Frais de port<\/a> calculés à la caisse.",
+      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\">À partir de<\/span> {{price_min}}",
+      "Please_choose_pr_options": "Veuillez sélectionner certaines options de produit avant d'ajouter ce produit à votre panier.",
+      "choose_an_option": "Choisis une option",
+      "add_to_cart": "Ajouter au panier",
+      "pre_order": "Pré-commander",
+      "unavailable": "Indisponible",
+      "sold_out": "En rupture de stock",
+      "notice_only_stock": "Pas assez d'articles disponibles. Il ne reste que {{max}} .",
+      "login_to_wishlist": "Connectez-vous pour utiliser la liste de souhaits",
+      "add_to_wishlist": "Ajouter à la liste de souhaits",
+      "remove_wishlist": "Supprimer la liste de souhaits",
+      "browse_wishlist": "Parcourir la liste de souhaits",
+      "compare": "Comparer",
+      "added_text_compare": "Comparer les produits",
+      "product_vendor": "Fournisseur:",
+      "product_type": "Taper:",
+      "product_sku": "UGS :",
+      "product_barcode": "Code à barre:",
+      "na": "N \/ A",
+      "available": "Disponibilité :",
+      "in_stock_status": "En stock",
+      "pre_oder_status": "En stock",
+      "sold_out_status": "En rupture de stock",
+      "product_category": "Catégories :",
+      "product_tag": "Mots clés:",
+      "product_size_guide": "Guide des tailles",
+      "delivery_return": "Livraison et retour",
+      "ask_question": "Poser une question"
     }
   },
   "search": {
@@ -276,6 +341,74 @@
         "post_success": "Merci de nous avoir contacté. Nous vous répondrons dans les plus brefs délais.",
         "error_heading": "Veuillez ajuster les éléments suivants :"
       }
+    }
+  },
+  "blogs": {
+    "article": {
+      "read_more": "Continuer la lecture",
+      "back_to": "Retour à {{title}}",
+      "view_all": "Voir plus",
+      "by_author": "Par {{ author }}"
+    },
+    "portfolio": {
+      "filter_all": "Tous",
+      "category": "Catégorie:",
+      "author": "Auteur:",
+      "tags": "Mots clés:"
+    },
+    "comments": {
+      "title": "laissez un commentaire",
+      "comments_note_html": "Votre adresse email ne sera pas publiée. Les champs requis sont indiqués <span class=\"required\">*<\/span>",
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Commentaire",
+      "post": "Poster un commentaire",
+      "moderated": "Attention, les commentaires doivent être approuvés avant d'être publiés",
+      "success_moderated": "Votre commentaire a été publié avec succès. Nous le publierons dans peu de temps, car notre blog est modéré.",
+      "success": "Votre commentaire a été posté avec succès ! Merci!",
+      "unapproved": "L'adresse e-mail fournie n'est pas approuvée pour la publication de commentaires.",
+      "error_heading": "Veuillez ajuster les éléments suivants :",
+      "with_count": {
+        "zero": "0 commentaire",
+        "one": "1 commentaire",
+        "other": "{{ count }} commentaires"
+      },
+      "with_count_2": {
+        "zero": "laissez un commentaire",
+        "one": "1 commentaire",
+        "other": "{{ count }} commentaires"
+      },
+      "with_count_html": {
+        "zero": "0 <span>commentaire<\/span>",
+        "one": "1 <span>commentaire<\/span>",
+        "other": "{{ count }} <span>commentaires<\/span>"
+      },
+      "comments_title_html": {
+        "zero": "0 réflexion sur « <span>{{title}}<\/span> »",
+        "one": "1 réflexion sur « <span>{{title}}<\/span> »",
+        "other": "{{ count }} réflexions sur « <span>{{title}}<\/span> »"
+      }
+    }
+  },
+  "list_collections": {
+    "pagination": {
+      "load_more": "Charger plus",
+      "load_prev": "Charger le précédent",
+      "bar_with_count_html": "Vous avez consulté <span data-current-bar>{{current_count}}<\/span> collections sur {{total_count}}"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Aucun produit correspondant à votre sélection n'a été trouvé.",
+      "sort_by_label": "Trier par:",
+      "sort_button": "Trier",
+      "filter_button": "Filtre"
+    },
+    "pagination": {
+      "view_all": "Voir tout",
+      "load_more": "Charger plus",
+      "load_prev": "Charger le précédent",
+      "bar_with_count_html": "Vous avez consulté <span data-current-bar>{{current_count}}<\/span> produits sur {{total_count}}"
     }
   }
 }
