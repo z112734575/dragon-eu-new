@@ -680,7 +680,31 @@
       "tags": "Mots clés:",
       "all_topics": "Tous les sujets",
       "by_author": "par {{ author }}",
-      "posted_in": "Publié dans"
+      "posted_in": "Publié dans",
+      "read_more": "En savoir plus",
+      "back_to_blog": "Retour à {{ title }}"
+    },
+    "comments": {
+      "title": "laissez un commentaire",
+      "name": "Nom",
+      "email": "E-mail",
+      "post": "Poster un commentaire",
+      "moderated": "Attention, les commentaires doivent être approuvés avant d'être publiés",
+      "success_moderated": "Votre commentaire a été publié avec succès. Nous le publierons dans peu de temps, car notre blog est modéré.",
+      "success": "Votre commentaire a été posté avec succès ! Merci!",
+      "comments_with_count": {
+        "one": "{{ count }} commentaire",
+        "other": "{{ count }} commentaires"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Entrez dans le magasin en utilisant le mot de passe :",
+      "login_form_password_label": "Mot de passe",
+      "login_form_password_placeholder": "Votre mot de passe",
+      "login_form_submit": "Entrer",
+      "signup_form_email_label": "E-mail",
+      "signup_form_success": "Nous vous enverrons un e-mail juste avant l'ouverture !",
+      "password_link": "Entrez en utilisant le mot de passe"
     }
   }
 }
