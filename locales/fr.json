@@ -19,7 +19,136 @@
   },
   "customer": {
     "order": {
-      "sku": "UGS"
+      "sku": "UGS",
+      "title": "Commande {{ name }}",
+      "date_html": "Placé le {{ date }}",
+      "cancelled_html": "Commande annulée le {{ date }}",
+      "cancelled_reason": "Raison : {{ reason }}",
+      "billing_address": "adresse de facturation"
+    },
+    "form": {
+      "error_heading": "Veuillez ajuster les éléments suivants :"
+    },
+    "account": {
+      "title": "MON COMPTE",
+      "make_order": "Faites votre première commande",
+      "none": "Vous n'avez pas encore passé de commande.",
+      "hello_html": "Bonjour <strong>{{name}}<\/strong> (pas <strong>{{name}}<\/strong> ? <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\">Déconnexion<\/a> )",
+      "manage_subs": "Gérer les abonnements",
+      "dashboard": "Tableau de bord",
+      "wishlist": "Liste de souhaits",
+      "details": "Détails du compte :",
+      "log_out": "Se déconnecter",
+      "name": "Nom:",
+      "address": "Adresse:",
+      "address_2": "Adresse 2:",
+      "country": "Pays:",
+      "zip": "Fermeture éclair:",
+      "phone": "Téléphone:",
+      "company": "Entreprise:"
+    },
+    "menu": {
+      "dashboard": "Tableau de bord",
+      "addresses": "Adresses",
+      "logout": "Se déconnecter"
+    },
+    "activate_account": {
+      "title": "Activer le compte",
+      "subtext": "Créez votre mot de passe pour activer votre compte.",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "Activer le compte",
+      "cancel": "Refuser l'invitation"
+    },
+    "addresses": {
+      "title": "Adresses",
+      "default": "Défaut",
+      "add_new": "Ajouter une nouvelle adresse",
+      "edit_address": "Modifier l'adresse",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "company": "Entreprise",
+      "address1": "Adresse",
+      "address2": "Appartement, suite, etc.",
+      "city": "Ville",
+      "country": "Pays\/région",
+      "zip": "Code postal",
+      "phone": "Téléphone",
+      "set_default": "Définir comme adresse par défaut",
+      "add": "Ajoutez l'adresse",
+      "update": "Mettre à jour l'adresse",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+    },
+    "login": {
+      "title": "SE CONNECTER",
+      "create_account": "Nouveau client? Créez votre compte",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe oublié?",
+      "submit": "Se connecter",
+      "sign_in": "Se connecter",
+      "guest_title": "Continuer en tant qu'invité",
+      "guest_continue": "Continuer"
+    },
+    "orders": {
+      "title": "Historique des commandes:",
+      "order_number": "Commande",
+      "order_number_link": "Numéro de commande {{ number }}",
+      "payment_status": "Statut de paiement",
+      "fulfillment_status": "Statut d'exécution",
+      "none": "Vous n'avez pas encore passé de commande."
+    }
+  },
+  "cart": {
+    "shipping_estimator": {
+      "no_rates": "Désolé, nous n'expédions pas vers cette destination.",
+      "errors": "Il y a quelques erreurs :"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Livraison gratuite pour toutes les commandes supérieures à <span class=\"t4s-cr\">{{ money }}<\/span>",
+      "text_2_html": "Vous y êtes presque, ajoutez <span class=\"t4s-cr\">{{ money }}<\/span> supplémentaires pour bénéficier <span class=\"t4s-ch\">de la LIVRAISON GRATUITE !<\/span>",
+      "text_3": "[Félicitations !] Vous bénéficiez de la livraison gratuite !"
+    },
+    "mini_cart": {
+      "title": "Panier",
+      "close_cart": "Fermer le panier",
+      "empty": "Votre panier est vide.",
+      "subtotal": "Total:",
+      "checkout": "Vérifier",
+      "view": "Voir le panier"
+    },
+    "cart_page": {
+      "title": "Panier",
+      "label": {
+        "product": "Produit",
+        "price": "Prix",
+        "quantity": "Quantité"
+      },
+      "empty": "Votre panier est vide.",
+      "empty_html": "Avant de procéder au paiement, vous devez ajouter certains produits à votre panier.<br> Vous trouverez de nombreux produits intéressants sur notre page \"Boutique\".",
+      "update": "Mise à jour panier",
+      "subtotal": "Total:",
+      "checkout": "Vérifier"
+    }
+  },
+  "templates": {
+    "404": {
+      "subtext": "Désolé! La page que vous recherchez est introuvable.",
+      "link_html": "Retournez à la <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" rel=\"home\">page d'accueil<\/a>"
+    },
+    "contact": {
+      "form": {
+        "name": "Votre Nom (requis)",
+        "email": "Votre Email (requis)",
+        "phone": "Votre numéro de téléphone",
+        "message": "Votre message",
+        "submit": "Envoyer",
+        "post_success": "Merci de nous avoir contacté. Nous vous répondrons dans les plus brefs délais.",
+        "error_heading": "Veuillez ajuster les éléments suivants :"
+      }
     }
   }
 }
