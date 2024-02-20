@@ -1,0 +1,25 @@
+{
+  "general": {
+    "breadcrumb": {
+      "home": "Maison"
+    },
+    "mobile_menu": {
+      "search": "Recherche"
+    }
+  },
+  "products": {
+    "breadcrumb": {
+      "home": "Maison"
+    }
+  },
+  "search": {
+    "general": {
+      "placeholder": "Recherche"
+    }
+  },
+  "customer": {
+    "order": {
+      "sku": "UGS"
+    }
+  }
+}
