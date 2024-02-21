@@ -3,7 +3,6 @@
     background: #F8F8F8;
   }
   .related_icons_bar {
-    max-width: 1350px;
     height: 168px;
     display: flex;
       justify-content: center;
@@ -59,7 +58,7 @@
 
 {% if related_collections != blank %}
   <div class="related_icons_bar_wrap">
-    <div class="related_icons_bar" style="{% if related_collections.count < 4 %} justify-content: center;{% endif %}">
+    <div class="related_icons_bar t4s-container" style="{% if related_collections.count < 4 %} justify-content: center;{% endif %}">
       {% for item in related_collections %}
         {% assign handle = item.handle | prepend: '/collections/' %}
         {%- capture active -%}
