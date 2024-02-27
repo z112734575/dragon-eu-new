@@ -372,10 +372,10 @@
     padding-bottom: 13px;
     border-bottom: 1px solid #eee;
   }
-  /* .t4s-section-header .t4s-header__wrapper .t4s-container {
-    width: 1400px;
+  .t4s-section-header .t4s-header__wrapper .t4s-container {
+    /* width: 1400px; */
     max-width: 1400px;
-  } */
+  }
   .t4s-section-header
     .t4s-header__wrapper
     .t4s-container
