@@ -212,7 +212,34 @@
     },
     "article": {
       "tags": "Etiquetas:",
-      "all_topics": "Todos los temas"
+      "all_topics": "Todos los temas",
+      "by_author": "por {{ author }}",
+      "posted_in": "Publicado en",
+      "read_more": "Leer más",
+      "back_to_blog": "Volver a {{ title }}"
+    },
+    "comments": {
+      "title": "Deja un comentario",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "post": "Publicar comentario",
+      "moderated": "Tenga en cuenta que los comentarios deben aprobarse antes de publicarse.",
+      "success_moderated": "Tu comentario fue publicado exitosamente. Lo publicaremos en un rato, ya que nuestro blog está moderado.",
+      "success": "¡Tu comentario fue publicado exitosamente! ¡Gracias!",
+      "comments_with_count": {
+        "one": "{{ count }} comentario",
+        "other": "{{ count }} comentarios"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Ingrese a la tienda usando contraseña:",
+      "login_form_password_label": "Contraseña",
+      "login_form_password_placeholder": "Tu contraseña",
+      "login_form_submit": "Ingresar",
+      "signup_form_email_label": "Correo electrónico",
+      "signup_form_success": "¡Le enviaremos un correo electrónico justo antes de abrir!",
+      "password_link": "Ingresar usando contraseña"
     }
   },
   "products": {
