@@ -219,8 +219,26 @@
     "product_card": {
       "countdown_text": {
         "sec": "segundo",
-        "sec_plural": "segundos"
-      }
+        "sec_plural": "segundos",
+        "day": "Día",
+        "day_plural": "Días",
+        "hr": "hora",
+        "hr_plural": "horas",
+        "min": "mín.",
+        "min_plural": "minutos"
+      },
+      "read_more": "Leer más",
+      "view": "Ver productos",
+      "quick_view": "Vista rápida",
+      "quick_shop": "Comprar ahora",
+      "quick_shop_text": {
+        "replace_item_atc": "Reemplazar artículo",
+        "replace_item_pre": "Reemplazar artículo"
+      },
+      "select_option": "Seleccione opciones",
+      "swatch_limit": "Mostrar más colores",
+      "swatch_limit_less": "Mostrar menos colores",
+      "offer_end_in": "La oferta termina en:"
     },
     "product_single": {
       "countdown_text": {
@@ -274,6 +292,56 @@
         "other": "<span class=\"cp\">{{count}}<\/span> Productos encontrados"
       },
       "clear_filter": "Filtro claro"
+    },
+    "aria_label": {
+      "select_option": "Seleccione opciones para \" {{product_title}} \"",
+      "add_to_cart": "Añade \" {{product_title}} \" a tu carrito",
+      "read_more": "Leer más sobre \" {{product_title}} \""
+    },
+    "breadcrumb": {
+      "home": "Hogar",
+      "back_to": "Volver a {{title}}"
+    },
+    "badge": {
+      "new": "Nuevo",
+      "sold_out": "Agotado",
+      "on_sale": "Venta",
+      "pre_order": "Hacer un pedido",
+      "save_amoun_html": "- {{ saved_amount }} %",
+      "save_amount_fixed_html": "- {{ saved_amount }}",
+      "save_amount_2_html": "AHORRE {{ saved_amount }} %",
+      "save_amount_fixed_2_html": "GUARDAR {{ saved_amount }}"
+    },
+    "product": {
+      "include_taxes": "Impuesto incluido.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Envío<\/a> calculado al finalizar la compra.",
+      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\">Desde<\/span> {{price_min}}",
+      "Please_choose_pr_options": "Seleccione algunas opciones de producto antes de agregar este producto a su carrito.",
+      "choose_an_option": "Elige una opcion",
+      "add_to_cart": "Añadir a la cesta",
+      "pre_order": "Hacer un pedido",
+      "unavailable": "Indisponible",
+      "sold_out": "Agotado",
+      "notice_only_stock": "No hay suficientes artículos disponibles. Solo queda {{max}} .",
+      "login_to_wishlist": "Inicia sesión para usar la lista de deseos",
+      "add_to_wishlist": "Añadir a la lista de deseos",
+      "remove_wishlist": "Eliminar lista de deseos",
+      "browse_wishlist": "Explorar la lista de deseos",
+      "compare": "Comparar",
+      "added_text_compare": "Comparar productos",
+      "product_vendor": "Proveedor:",
+      "product_type": "Tipo:",
+      "product_barcode": "Código de barras:",
+      "na": "N \/ A",
+      "available": "Disponibilidad :",
+      "in_stock_status": "En stock",
+      "pre_oder_status": "En stock",
+      "sold_out_status": "Agotado",
+      "product_category": "Categorías:",
+      "product_tag": "Etiquetas:",
+      "product_size_guide": "Guia de tallas",
+      "delivery_return": "Entrega y devolución",
+      "ask_question": "Hacer una pregunta"
     }
   },
   "search": {
@@ -399,6 +467,73 @@
         "post_success": "Gracias por contactarnos. Nos comunicaremos con usted lo antes posible.",
         "error_heading": "Por favor ajuste lo siguiente:"
       }
+    }
+  },
+  "blogs": {
+    "article": {
+      "back_to": "Volver a {{title}}",
+      "view_all": "Ver más",
+      "by_author": "Por {{ author }}"
+    },
+    "portfolio": {
+      "filter_all": "Todo",
+      "category": "Categoría:",
+      "author": "Autor:",
+      "tags": "Etiquetas:"
+    },
+    "comments": {
+      "title": "Deja un comentario",
+      "comments_note_html": "Su dirección de correo electrónico no será publicada. Los campos obligatorios están marcados <span class=\"required\">*<\/span>",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Comentario",
+      "post": "publicar comentario",
+      "moderated": "Tenga en cuenta que los comentarios deben aprobarse antes de publicarse.",
+      "success_moderated": "Tu comentario fue publicado exitosamente. Lo publicaremos en un rato, ya que nuestro blog está moderado.",
+      "success": "¡Tu comentario fue publicado exitosamente! ¡Gracias!",
+      "unapproved": "La dirección de correo electrónico proporcionada no está aprobada para publicar comentarios.",
+      "error_heading": "Por favor ajuste lo siguiente:",
+      "with_count": {
+        "zero": "0 comentario",
+        "one": "1 comentario",
+        "other": "{{ count }} comentarios"
+      },
+      "with_count_2": {
+        "zero": "Deja un comentario",
+        "one": "1 comentario",
+        "other": "{{ count }} comentarios"
+      },
+      "with_count_html": {
+        "zero": "0 <span>comentario<\/span>",
+        "one": "1 <span>comentario<\/span>",
+        "other": "{{ count }} <span>comentarios<\/span>"
+      },
+      "comments_title_html": {
+        "zero": "0 pensamiento en “ <span>{{title}}<\/span> ”",
+        "one": "1 pensamiento en “ <span>{{title}}<\/span> ”",
+        "other": "{{ count }} pensamientos sobre \" <span>{{title}}<\/span> \""
+      }
+    }
+  },
+  "list_collections": {
+    "pagination": {
+      "load_more": "Carga más",
+      "load_prev": "Cargar anterior",
+      "bar_with_count_html": "Has visto <span data-current-bar>{{current_count}}<\/span> de {{total_count}} colecciones"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "No se encontraron productos que coincidan con su selección.",
+      "sort_by_label": "Ordenar por:",
+      "sort_button": "Clasificar",
+      "filter_button": "Filtrar"
+    },
+    "pagination": {
+      "view_all": "Ver todo",
+      "load_more": "Carga más",
+      "load_prev": "Cargar anterior",
+      "bar_with_count_html": "Has visto <span data-current-bar>{{current_count}}<\/span> de {{total_count}} productos"
     }
   }
 }
