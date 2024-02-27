@@ -15,7 +15,11 @@
       "subtotal": "Total parcial",
       "track_shipment": "Rastrear envio",
       "gift_note": "Mensaje de regalo",
-      "note": "Instrucciones especiales para el vendedor."
+      "note": "Instrucciones especiales para el vendedor.",
+      "title": "Orden {{ name }}",
+      "date_html": "Colocado el {{ date }}",
+      "cancelled_html": "Pedido cancelado el {{ date }}",
+      "cancelled_reason": "Razón: {{ reason }}"
     },
     "recover_password": {
       "title": "Restablecer su contraseña",
@@ -44,6 +48,84 @@
       "submit": "Registro",
       "privacy_policy": "Sus datos personales se utilizarán para respaldar su experiencia en este sitio web, para administrar el acceso a su cuenta y para otros fines descritos en nuestra política de privacidad.",
       "privacy_policy_html": "Sus datos personales se utilizarán para respaldar su experiencia en este sitio web, para administrar el acceso a su cuenta y para otros fines descritos en nuestra <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">política de privacidad<\/a> ."
+    },
+    "form": {
+      "error_heading": "Por favor ajuste lo siguiente:"
+    },
+    "account": {
+      "title": "MI CUENTA",
+      "make_order": "Haz tu primer pedido",
+      "none": "Aún no has realizado ningún pedido.",
+      "hello_html": "Hola, <strong>{{name}}<\/strong> (¿no es <strong>{{name}}<\/strong> ? <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\">Cerrar sesión<\/a> )",
+      "manage_subs": "Administrar Suscripciones",
+      "dashboard": "Panel",
+      "wishlist": "Lista de deseos",
+      "details": "Detalles de la cuenta :",
+      "log_out": "Cerrar sesión",
+      "name": "Nombre:",
+      "email": "Correo electrónico:",
+      "address": "DIRECCIÓN:",
+      "address_2": "Dirección 2:",
+      "country": "País:",
+      "zip": "Cremallera:",
+      "phone": "Teléfono:",
+      "company": "Compañía:"
+    },
+    "menu": {
+      "dashboard": "Panel",
+      "addresses": "Direcciones",
+      "logout": "Cerrar sesión"
+    },
+    "activate_account": {
+      "title": "Activar la cuenta",
+      "subtext": "Crea tu contraseña para activar tu cuenta.",
+      "password": "Contraseña",
+      "password_confirm": "confirmar Contraseña",
+      "submit": "Activar la cuenta",
+      "cancel": "Rechazar invitación"
+    },
+    "addresses": {
+      "title": "Direcciones",
+      "default": "Por defecto",
+      "add_new": "Añadir una nueva dirección",
+      "edit_address": "Editar dirección",
+      "first_name": "Nombre de pila",
+      "last_name": "Apellido",
+      "company": "Compañía",
+      "address1": "DIRECCIÓN",
+      "address2": "Apartamento, suite, etc.",
+      "city": "Ciudad",
+      "country": "País\/región",
+      "province": "Provincia",
+      "zip": "Código postal",
+      "phone": "Teléfono",
+      "set_default": "Establecer como dirección predeterminada",
+      "add": "Añadir dirección",
+      "update": "Actualizar dirección",
+      "cancel": "Cancelar",
+      "edit": "Editar",
+      "delete": "Borrar",
+      "delete_confirm": "¿Está seguro de que desea eliminar esta dirección?"
+    },
+    "login": {
+      "title": "ACCESO",
+      "create_account": "¿Nuevo cliente? Crea tu cuenta",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "forgot_password": "¿Olvidaste tu contraseña?",
+      "submit": "Iniciar sesión",
+      "sign_in": "Iniciar sesión",
+      "guest_title": "Continuar como invitado",
+      "guest_continue": "Continuar"
+    },
+    "orders": {
+      "title": "Historial de pedidos:",
+      "order_number": "Orden",
+      "order_number_link": "Número de pedido {{ number }}",
+      "date": "Fecha",
+      "payment_status": "Estado de pago",
+      "fulfillment_status": "Estado de cumplimiento",
+      "none": "Aún no has realizado ningún pedido."
     }
   },
   "password_page": {
@@ -270,7 +352,53 @@
       "province": "Provincia",
       "zip_code": "Código postal",
       "estimate": "Estimar",
-      "multiple_rates": "Encontramos [number_of_rates] tarifas de envío disponibles para [dirección], a partir de [tarifa]."
+      "multiple_rates": "Encontramos [number_of_rates] tarifas de envío disponibles para [dirección], a partir de [tarifa].",
+      "one_rate": "Encontramos una tarifa de envío disponible para [dirección].",
+      "no_rates": "Lo sentimos, no realizamos envíos a este destino.",
+      "errors": "Hay algunos errores:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Envío gratuito para todos los pedidos superiores a <span class=\"t4s-cr\">{{ money }}<\/span>",
+      "text_2_html": "Ya casi llegamos, ¡agrega <span class=\"t4s-cr\">{{ money }}<\/span> más para obtener <span class=\"t4s-ch\">ENVÍO GRATIS!<\/span>",
+      "text_3": "[¡Enhorabuena!] ¡Tienes envío gratis!"
+    },
+    "mini_cart": {
+      "title": "Carro de la compra",
+      "close_cart": "Cerrar carrito",
+      "empty": "Tu carrito esta vacío.",
+      "subtotal": "Total parcial:",
+      "checkout": "Verificar",
+      "view": "Ver carrito"
+    },
+    "cart_page": {
+      "title": "Carro de la compra",
+      "label": {
+        "product": "Producto",
+        "price": "Precio",
+        "quantity": "Cantidad"
+      },
+      "empty": "Tu carrito esta vacío.",
+      "empty_html": "Antes de proceder al pago debe agregar algunos productos a su carrito de compras.<br> Encontrará muchos productos interesantes en nuestra página \"Tienda\".",
+      "update": "Actualización de la compra",
+      "subtotal": "Total parcial:",
+      "checkout": "Verificar"
+    }
+  },
+  "templates": {
+    "404": {
+      "subtext": "¡Lo siento! No se puede encontrar la página que estás buscando.",
+      "link_html": "Volver a la <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" rel=\"home\">página de inicio<\/a>"
+    },
+    "contact": {
+      "form": {
+        "name": "Tu nombre (requerido)",
+        "email": "Tu Email (requerido)",
+        "phone": "Su número de teléfono",
+        "message": "Tu mensaje",
+        "submit": "Enviar",
+        "post_success": "Gracias por contactarnos. Nos comunicaremos con usted lo antes posible.",
+        "error_heading": "Por favor ajuste lo siguiente:"
+      }
     }
   }
 }
