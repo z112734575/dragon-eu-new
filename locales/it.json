@@ -426,5 +426,142 @@
       "load_prev": "Carica precedente",
       "bar_with_count_html": "Hai visualizzato <span data-current-bar>{{current_count}}<\/span> di {{total_count}} prodotti"
     }
+  },
+  "customer": {
+    "order": {
+      "tax": "Imposta",
+      "product": "Prodotto",
+      "price": "Prezzo",
+      "quantity": "Quantità",
+      "total": "Totale",
+      "fulfilled_at_html": "Eseguito {{ date }}",
+      "subtotal": "totale parziale",
+      "track_shipment": "Tracciare la spedizione",
+      "gift_note": "Messaggio regalo",
+      "note": "Istruzioni speciali per il venditore"
+    },
+    "recover_password": {
+      "title": "reimposta la tua password",
+      "email": "Indirizzo e-mail",
+      "submit": "Resetta la password",
+      "save": "Salva",
+      "cancel": "Annulla",
+      "subtext": "Hai perso la password? Inserisci il tuo indirizzo email. Riceverai via email un link per creare una nuova password.",
+      "success": "Ti abbiamo inviato un'e-mail con un collegamento per aggiornare la tua password.",
+      "content_success": "Un'e-mail di reimpostazione della password è stata inviata all'indirizzo e-mail registrato per il tuo account, ma potrebbero essere necessari diversi minuti per essere visualizzata nella tua casella di posta. Attendere almeno 10 minuti prima di tentare un altro ripristino."
+    },
+    "reset_password": {
+      "title": "Reimposta la password dell'account",
+      "subtext": "Inserisci una nuova password per {{ email }}",
+      "password": "Parola d'ordine",
+      "password_confirm": "Conferma password",
+      "submit": "Resetta la password"
+    },
+    "register": {
+      "login_here": "Hai già un account? Accedi qui",
+      "title": "Registrati",
+      "first_name": "Nome di battesimo",
+      "last_name": "Cognome",
+      "email": "E-mail",
+      "password": "Parola d'ordine",
+      "submit": "Registrati",
+      "privacy_policy": "I tuoi dati personali verranno utilizzati per supportare la tua esperienza in questo sito Web, per gestire l'accesso al tuo account e per altri scopi descritti nella nostra informativa sulla privacy.",
+      "privacy_policy_html": "I tuoi dati personali verranno utilizzati per supportare la tua esperienza in questo sito Web, per gestire l'accesso al tuo account e per altri scopi descritti nella nostra <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">informativa sulla privacy<\/a> ."
+    }
+  },
+  "password_page": {
+    "opening_soon": "Prossima apertura",
+    "drawer_heading": "Inserire la password",
+    "login_form_password_label": "Parola d'ordine",
+    "login_form_password_placeholder": "La tua password",
+    "login_form_submit": "accedere",
+    "signup_form_success": "Ti invieremo un'e-mail subito prima dell'apertura!",
+    "admin_link_html": "Sei il proprietario del negozio? <a href=\"\/admin\" class=\"text-link\">Accedi qui<\/a>",
+    "password_link": "Accedi utilizzando la password"
+  },
+  "wishlist_page": {
+    "meta": "La mia pagina della lista dei desideri",
+    "title": "Lista dei desideri",
+    "empty": "La lista dei desideri è vuota.",
+    "empty_html": "Non hai ancora nessun prodotto nella lista dei desideri.<br> Troverai molti prodotti interessanti nella nostra pagina \"Shop\"."
+  },
+  "compare_page": {
+    "meta": "La mia pagina di confronto",
+    "title": "Confrontare",
+    "empty": "L'ELENCO CONFRONTA È VUOTO.",
+    "empty_html": "Nessun prodotto aggiunto nell'elenco di confronto. Devi aggiungere alcuni prodotti per confrontarli.<br> Troverai molti prodotti interessanti nella nostra pagina \"Shop\".",
+    "remove": "Rimuovere",
+    "in_stock": "In magazzino",
+    "outofstock": "Esaurito"
+  },
+  "compare_popup": {
+    "title": "Confronta Prodotti",
+    "close": "Vicino",
+    "remove": "Rimuovi questo elemento",
+    "clear": "Cancella tutto",
+    "button": "Confrontare"
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Visualizza le informazioni del negozio",
+      "check_other_stores": "Verifica la disponibilità negli altri negozi",
+      "pick_up_available": "Ritiro disponibile",
+      "pick_up_currently_unavailable": "Ritiro al momento non disponibile",
+      "pick_up_available_at_html": "Ritiro disponibile presso <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Ritiro attualmente non disponibile presso <strong>{{ location_name }}<\/strong>",
+      "check_map": "Controlla questo su Google Map"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "La tua carta regalo",
+      "gift_card_code": "Codice della carta regalo",
+      "disabled": "Disabilitato",
+      "expired": "Scaduto il {{ expiry }}",
+      "active": "Scade il {{ expiry }}",
+      "redeem_html": "Utilizza questo codice al momento del pagamento per riscattare la tua carta regalo {{ value }}",
+      "shop_link": "Inizia a fare acquisti",
+      "print": "Stampa questa carta regalo",
+      "remaining_html": "{{ balance }} rimasti",
+      "add_to_apple_wallet": "Aggiungi al portafoglio Apple",
+      "qr_image_alt": "Codice QR: scansiona per riscattare la carta regalo",
+      "copy_code": "Copia il codice",
+      "copy_code_success": "Codice copiato con successo"
+    }
+  },
+  "onboarding": {
+    "product_title": "Il nome del tuo prodotto",
+    "product_description": "Quest'area viene utilizzata per descrivere i dettagli del tuo prodotto. Racconta ai clienti l'aspetto, la sensazione e lo stile del tuo prodotto. Aggiungi dettagli su colore, materiali utilizzati, dimensioni e luogo in cui è stato realizzato.",
+    "collection_title": "Il nome della tua collezione",
+    "blog_title": "Il titolo del tuo post",
+    "blog_excerpt": "Il tuo negozio non ha ancora pubblicato alcun post sul blog. Un blog può essere utilizzato per parlare del lancio di nuovi prodotti, suggerimenti o altre notizie che desideri condividere con i tuoi clienti. Puoi consultare il blog di e-commerce di Shopify per trovare ispirazione e consigli per il tuo negozio e blog.",
+    "blog_author": "Nome dell'autore",
+    "no_content": "Questa sezione attualmente non include alcun contenuto. Aggiungi contenuto a questa sezione utilizzando la barra laterale."
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Prezzo regolare",
+        "sold_out": "Esaurito",
+        "unavailable": "Non disponibile",
+        "on_sale": "Vendita",
+        "quantity": "Quantità",
+        "add_to_cart": "Aggiungi al carrello",
+        "back_to_collection": "Torna a {{ title }}",
+        "view_details": "Visualizza dettagli"
+      }
+    },
+    "article": {
+      "tags": "tag:",
+      "all_topics": "Tutti gli argomenti",
+      "by_author": "di {{ author }}",
+      "posted_in": "pubblicato in",
+      "read_more": "Per saperne di più",
+      "back_to_blog": "Torna a {{ title }}"
+    },
+    "comments": {
+      "title": "lascia un commento",
+      "name": "Nome"
+    }
   }
 }
