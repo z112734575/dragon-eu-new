@@ -1,0 +1,169 @@
+{
+  "shopify": {
+    "checkout": {
+      "general": {
+        "errors": {
+          "merchandise": {
+            "title_empty": "Il titolo della merce è vuoto."
+          }
+        }
+      }
+    }
+  },
+  "general": {
+    "popup": {
+      "pswp_share": "Condividere",
+      "close": "Vicino",
+      "close_esc": "Chiudi (Esc)",
+      "loading": "Caricamento...",
+      "pswp_fs": "Passare a schermo intero",
+      "pswp_zoom": "Zoom avanti\/indietro",
+      "pswp_facebook": "Condividi su Facebook",
+      "pswp_twitter": "Twitta",
+      "pswp_pinterest": "Fissalo",
+      "pswp_prev": "Precedente (freccia sinistra)",
+      "pswp_next": "Successivo (freccia destra)"
+    },
+    "breadcrumb": {
+      "home": "Casa"
+    },
+    "mobile_menu": {
+      "search": "Ricerca",
+      "menu": "Menù",
+      "close": "Chiudi menu, categorie",
+      "categories": "Categorie",
+      "wishlist": "Lista dei desideri",
+      "compare": "confrontare",
+      "login_register": "Accedi \/ Registrati",
+      "my_account": "Il mio conto"
+    },
+    "meta": {
+      "tags": "Contrassegnato con \" {{ tags }} \"",
+      "page": "Pagina {{ page }}"
+    },
+    "aria": {
+      "close": "Vicino",
+      "back_to_top": "Torna all'inizio"
+    },
+    "newsletter_popup": {
+      "email_placeholder": "Il tuo indirizzo di posta elettronica",
+      "submit": "sottoscrivi",
+      "subscribing": "Iscrizione...",
+      "confirmation": "Grazie per esserti iscritto"
+    },
+    "pagination": {
+      "label": "Impaginazione",
+      "page": "{{ number }}",
+      "next": "Prossimo",
+      "previous": "Prec"
+    },
+    "sidebar": {
+      "open": "Apri la barra laterale",
+      "close": "Chiudi la barra laterale",
+      "title": "Barra laterale"
+    }
+  },
+  "products": {
+    "breadcrumb": {
+      "home": "Casa"
+    }
+  },
+  "search": {
+    "general": {
+      "placeholder": "Ricerca"
+    }
+  },
+  "sections": {
+    "announcement": {
+      "label": "Annuncio",
+      "close": "vicino"
+    },
+    "lookbook": {
+      "title": {
+        "product": "Prodotto",
+        "text": "Testo"
+      }
+    },
+    "countdown_text": {
+      "day": "Giorno",
+      "day_plural": "Giorni",
+      "hr": "ora",
+      "hr_plural": "ore",
+      "min_plural": "min",
+      "sec": "sez",
+      "sec_plural": "sec"
+    },
+    "newsletter_form": {
+      "email_placeholder": "E-mail*",
+      "submit": "sottoscrivi",
+      "subscribing": "Iscrizione...",
+      "confirmation": "Grazie per esserti iscritto",
+      "error_exist": "Email già utilizzata per un altro account"
+    },
+    "agree_mail": {
+      "conditions": "È necessario accettare i termini e le condizioni per iscriversi.",
+      "link_conditions_html": "Sono d'accordo con i <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"t4s-text__link\">termini e le condizioni<\/a> .",
+      "link_conditions_emty": "Sono d'accordo con i termini e le condizioni."
+    }
+  },
+  "socials": {
+    "share_fb": "Condividi su Facebook",
+    "share_tw": "Condividi su Twitter",
+    "share_em": "Condividi via e-mail",
+    "share_pr": "Condividi su Pinterest",
+    "share_tu": "Condividi su Tumblr",
+    "share_tl": "Condividi su Telegram",
+    "share_wa": "Condividi su WhatsApp",
+    "follow_fb": "Segui su Facebook",
+    "follow_tw": "Segui su Twitter",
+    "follow_it": "Segui su Instagram",
+    "follow_dr": "Segui Dribbble",
+    "follow_ld": "Segui su Linkedin",
+    "follow_pr": "Segui su Pinterest",
+    "follow_tu": "Segui su Tumblr",
+    "follow_yt": "Segui su YouTube",
+    "follow_vm": "Segui su Vimeo",
+    "follow_bh": "Segui su Behance",
+    "follow_sc": "Segui su Soundcloud",
+    "follow_tt": "Segui su Tiktok",
+    "follow_sp": "Segui su Snapchat"
+  },
+  "accessibility": {
+    "skip_to_text": "Salta al contenuto",
+    "skip_to_product_info": "Passa alle informazioni sul prodotto",
+    "close": "Vicino",
+    "vendor": "Venditore:",
+    "error": "Errore",
+    "refresh_page": "La scelta di una selezione comporta l'aggiornamento dell'intera pagina.",
+    "link_messages": {
+      "new_window": "Si apre in una nuova finestra?",
+      "external": "Apre il sito web esterno."
+    },
+    "of": "Di",
+    "next_slide": "Scorri a destra",
+    "previous_slide": "Scorri a sinistra",
+    "loading": "Caricamento...",
+    "total_reviews": "recensioni totali",
+    "star_reviews_info": "{{ rating_value }} su {{ rating_max }} stelle"
+  },
+  "blogs": {
+    "filter_all": "Tutto",
+    "pagination": {
+      "view_all": "Mostra tutto",
+      "load_more": "Carica più post",
+      "load_prev": "Carica precedente",
+      "bar_with_count_html": "Hai visualizzato <span data-current-bar>{{current_count}}<\/span> post su {{total_count}}"
+    },
+    "article": {
+      "by": "Di",
+      "on": "SU",
+      "read_more": "Continua a leggere",
+      "back_to": "Torna a {{title}}",
+      "view_all": "Visualizza altro",
+      "by_author": "Di {{ author }}"
+    },
+    "portfolio": {
+      "filter_all": "Tutto"
+    }
+  }
+}
