@@ -234,7 +234,6 @@
           "settings": {
             "tabs_title": "Hard Drive",
             "product_list": [
-              "ugreen-boitier-en-aluminium-m-2-nvme-pcie-usb-3-2-gen-2-10gbps",
               "ugreen-boitier-m-2-ssd-nvme-10-gbps-usb-3-2-gen-2-adaptateur",
               "ugreen-boitier-m-2-ssd-nvme-sata-en-usb-3-2-gen-2-10-gbps",
               "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
@@ -242,7 +241,15 @@
               "ugreen-usb-3-0-boitier-externe-disque-dur-2-5-pouces-sata-iii-hdd-ssd",
               "ugreen-usb-3-0-boitier-externe-pour-disque-dur-2-5-pouces-sata",
               "ugreen-usb-c-3-1-gen-2-boitier-disque-dur-externe-2-5-pouces-sata-hdd",
-              "ugreen-usb-c-boitier-externe-2-5-pouces-disque"
+              "ugreen-usb-c-boitier-externe-2-5-pouces-disque",
+              "ugreen-usb-c-boitier-disque-dur-externe-2-5-pouces-sata-hdd-ssd",
+              "ugreen-adaptateur-disque-dur-ide-sata-usb-3-0",
+              "ugreen-adaptateur-usb-2-0-vers-ethernet-rj45-reseau-100mbps",
+              "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45",
+              "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
+              "ugreen-boitier-en-aluminium-m-2-nvme-pcie-usb-3-2-gen-2-10gbps",
+              "ugreen-adaptateur-usb-vers-jack-3-5mm-carte-son-externe-usb",
+              "ugreen-cable-sata-usb-3-0-adaptateur-sata-usb"
             ]
           }
         },
