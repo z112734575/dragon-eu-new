@@ -670,7 +670,26 @@
     },
     "comments": {
       "title": "lascia un commento",
-      "name": "Nome"
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Messaggio",
+      "post": "Posta un commento",
+      "moderated": "Tieni presente che i commenti devono essere approvati prima di essere pubblicati",
+      "success_moderated": "Il tuo commento è stato pubblicato con successo. Lo pubblicheremo tra poco, poiché il nostro blog è moderato.",
+      "success": "Il tuo commento è stato pubblicato con successo! Grazie!",
+      "comments_with_count": {
+        "one": "{{ count }} commento",
+        "other": "{{ count }} commenti"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Accedi al negozio utilizzando la password:",
+      "login_form_password_label": "Parola d'ordine",
+      "login_form_password_placeholder": "La tua password",
+      "login_form_submit": "accedere",
+      "signup_form_email_label": "E-mail",
+      "signup_form_success": "Ti invieremo un'e-mail subito prima dell'apertura!",
+      "password_link": "Accedi utilizzando la password"
     }
   },
   "templates": {
