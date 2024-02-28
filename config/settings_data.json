@@ -272,7 +272,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "To Our Clients",
-              "menu": "clients",
+              "menu": "",
               "menu_style": "1",
               "col_dk": "auto",
               "col_tb": "6",
@@ -781,7 +781,7 @@
             "type": "drop",
             "settings": {
               "title": "Nexode Pro",
-              "url": "https:\/\/eu.ugreen.com\/collections\/ugreen-nexode-pro-gan-fast-charger",
+              "url": "https:\/\/es.ugreen.com\/pages\/ugreen-nexode-pro-gan-charger-series",
               "open_link": "_blank",
               "menu": "",
               "icon": "",
@@ -800,7 +800,7 @@
               "title": "Chargers",
               "url": "#",
               "open_link": "_self",
-              "menu": "product-chargers",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -817,7 +817,7 @@
               "title": "Buying Guide",
               "url": "#",
               "open_link": "_self",
-              "menu": "buying-guide",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -848,7 +848,7 @@
               "title": "Support",
               "url": "#",
               "open_link": "_self",
-              "menu": "support",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -1422,7 +1422,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/nexode_pro_1.png",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "",
@@ -1445,7 +1444,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/10001_1_5ab3a051-a1c0-4330-b2a7-e848c4ca33f2.png",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "",
@@ -1502,7 +1500,6 @@
               "cat1": "audio-cables",
               "title1": "Hub",
               "url1": "",
-              "image1": "shopify:\/\/shop_images\/90322.jpg",
               "cat2": "car-chargers",
               "title2": "Chargers",
               "url2": "",
@@ -1539,7 +1536,7 @@
               "title": "PRODUCTS",
               "url": "",
               "open_link": "_self",
-              "menu": "m-product",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -1587,7 +1584,7 @@
               "title": "Chargers",
               "url": "https:\/\/eu.ugreen.com\/collections\/gan-chargers",
               "open_link": "_self",
-              "menu": "product-chargers",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": "#29efcd"
@@ -1599,7 +1596,7 @@
               "title": "Portable Power Station",
               "url": "shopify:\/\/pages\/powerroam-power-stations",
               "open_link": "_self",
-              "menu": "portable-power-station",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": "#de4156"
@@ -1611,7 +1608,7 @@
               "title": "SUPPORT",
               "url": "",
               "open_link": "_self",
-              "menu": "support",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -2776,12 +2773,6 @@
 
     ],
     "blocks": {
-      "11724500921838622758": {
-        "type": "shopify:\/\/apps\/frequently-bought-together\/blocks\/app-embed-block\/b1a8cbea-c844-4842-9529-7c62dbab1b1f",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
