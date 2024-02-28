@@ -404,6 +404,28 @@
       "text_1_html": "Spedizione gratuita per tutti gli ordini superiori a <span class=\"t4s-cr\">{{ money }}<\/span>",
       "text_2_html": "Ci siamo quasi, aggiungi altri <span class=\"t4s-cr\">{{ money }}<\/span> per ottenere <span class=\"t4s-ch\">la SPEDIZIONE GRATUITA!<\/span>",
       "text_3": "[Congratulazioni!] Hai la spedizione gratuita!"
+    },
+    "mini_cart": {
+      "title": "Carrello della spesa",
+      "close_cart": "Chiudi carrello",
+      "empty": "Il tuo carrello è vuoto.",
+      "subtotal": "Totale parziale:",
+      "checkout": "Guardare",
+      "view": "Visualizza carrello"
+    },
+    "cart_page": {
+      "title": "Carrello della spesa",
+      "label": {
+        "product": "Prodotto",
+        "price": "Prezzo",
+        "quantity": "Quantità",
+        "total": "Totale"
+      },
+      "empty": "Il tuo carrello è vuoto.",
+      "empty_html": "Prima di procedere al pagamento è necessario aggiungere alcuni prodotti al carrello.<br> Troverai molti prodotti interessanti nella nostra pagina \"Shop\".",
+      "update": "Aggiorna carrello",
+      "subtotal": "Totale parziale:",
+      "checkout": "Guardare"
     }
   },
   "list_collections": {
@@ -438,7 +460,17 @@
       "subtotal": "totale parziale",
       "track_shipment": "Tracciare la spedizione",
       "gift_note": "Messaggio regalo",
-      "note": "Istruzioni speciali per il venditore"
+      "note": "Istruzioni speciali per il venditore",
+      "title": "Ordina {{ name }}",
+      "date_html": "Inserito il {{ date }}",
+      "cancelled_html": "Ordine annullato il {{ date }}",
+      "cancelled_reason": "Motivo: {{ reason }}",
+      "billing_address": "Indirizzo di fatturazione",
+      "payment_status": "Stato del pagamento",
+      "shipping_address": "Indirizzo di spedizione",
+      "fulfillment_status": "stato di adempimento",
+      "discount": "Sconto",
+      "shipping": "Spedizione"
     },
     "recover_password": {
       "title": "reimposta la tua password",
@@ -467,6 +499,83 @@
       "submit": "Registrati",
       "privacy_policy": "I tuoi dati personali verranno utilizzati per supportare la tua esperienza in questo sito Web, per gestire l'accesso al tuo account e per altri scopi descritti nella nostra informativa sulla privacy.",
       "privacy_policy_html": "I tuoi dati personali verranno utilizzati per supportare la tua esperienza in questo sito Web, per gestire l'accesso al tuo account e per altri scopi descritti nella nostra <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">informativa sulla privacy<\/a> ."
+    },
+    "form": {
+      "error_heading": "Si prega di modificare quanto segue:"
+    },
+    "account": {
+      "title": "IL MIO CONTO",
+      "make_order": "Effettua il tuo primo ordine",
+      "none": "Non hai ancora effettuato alcun ordine.",
+      "hello_html": "Ciao <strong>{{name}}<\/strong> (non <strong>{{name}}<\/strong> ? <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\">Esci<\/a> )",
+      "manage_subs": "Gestisci le iscrizioni",
+      "dashboard": "Pannello di controllo",
+      "wishlist": "Lista dei desideri",
+      "details": "Dettagli account :",
+      "log_out": "Disconnettersi",
+      "name": "Nome:",
+      "address": "Indirizzo:",
+      "address_2": "Indirizzo 2:",
+      "country": "Paese:",
+      "zip": "Cerniera lampo:",
+      "phone": "Telefono:",
+      "company": "Azienda:"
+    },
+    "menu": {
+      "dashboard": "Pannello di controllo",
+      "addresses": "Indirizzi",
+      "logout": "Disconnettersi"
+    },
+    "activate_account": {
+      "title": "Attiva account",
+      "subtext": "Crea la tua password per attivare il tuo account.",
+      "password": "Parola d'ordine",
+      "password_confirm": "Conferma password",
+      "submit": "Attiva account",
+      "cancel": "Rifiuta l'invito"
+    },
+    "addresses": {
+      "title": "Indirizzi",
+      "default": "Predefinito",
+      "add_new": "Aggiungi un nuovo indirizzo",
+      "edit_address": "Modifica indirizzo",
+      "first_name": "Nome di battesimo",
+      "last_name": "Cognome",
+      "company": "Azienda",
+      "address1": "Indirizzo",
+      "address2": "Appartamento, suite, ecc.",
+      "city": "Città",
+      "country": "Paese\/regione",
+      "province": "Provincia",
+      "zip": "Codice postale",
+      "phone": "Telefono",
+      "set_default": "Imposta come indirizzo predefinito",
+      "add": "Aggiungi indirizzo",
+      "update": "Aggiorna indirizzo",
+      "cancel": "Annulla",
+      "edit": "Modificare",
+      "delete": "Eliminare",
+      "delete_confirm": "Sei sicuro di voler eliminare questo indirizzo?"
+    },
+    "login": {
+      "create_account": "Nuovo cliente? crea il tuo account",
+      "email": "E-mail",
+      "password": "Parola d'ordine",
+      "forgot_password": "Hai dimenticato la password?",
+      "submit": "Registrazione",
+      "sign_in": "Registrazione",
+      "guest_title": "Continua come ospite",
+      "guest_continue": "Continua"
+    },
+    "orders": {
+      "title": "Cronologia ordini:",
+      "order_number": "Ordine",
+      "order_number_link": "Numero dell'ordine {{ number }}",
+      "date": "Data",
+      "payment_status": "Stato del pagamento",
+      "fulfillment_status": "stato di adempimento",
+      "total": "Totale",
+      "none": "Non hai ancora effettuato alcun ordine."
     }
   },
   "password_page": {
@@ -562,6 +671,23 @@
     "comments": {
       "title": "lascia un commento",
       "name": "Nome"
+    }
+  },
+  "templates": {
+    "404": {
+      "subtext": "Scusa! La pagina che stai cercando non può essere trovata.",
+      "link_html": "torna alla <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" rel=\"home\">homepage<\/a>"
+    },
+    "contact": {
+      "form": {
+        "name": "Il tuo nome (richiesto)",
+        "email": "La tua email (richiesto)",
+        "phone": "Il tuo numero di telefono",
+        "message": "Il tuo messaggio",
+        "submit": "Inviare",
+        "post_success": "Grazie per averci contattato. Ti risponderemo il prima possibile.",
+        "error_heading": "Si prega di modificare quanto segue:"
+      }
     }
   }
 }
