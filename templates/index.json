@@ -33,11 +33,11 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_EU_pc_36478583-df0e-4603-b53b-5719221c516b.webp?v=1706087683",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/banner_EU_mo_52fc526a-5f65-4457-bb95-3704aa59710d.webp?v=1706087682",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "Nexode Pro Series",
             "subtitle": "Power to the Pro",
             "button_text": "Learn More",
-            "link": "https:\/\/eu.ugreen.com\/pages\/ugreen-nexode-pro-charger-series",
+            "link": "https:\/\/es.ugreen.com\/pages\/ugreen-nexode-pro-gan-charger-series",
             "pc_align": "center",
             "mobile_align": "center",
             "pc_top": 15,
@@ -276,8 +276,6 @@
         "8299df76-89ec-48e0-b45d-448cd973c4e4": {
           "type": "ug-index-category-item",
           "settings": {
-            "pc_image": "shopify:\/\/shop_images\/10001_89139a25-a95b-49d4-ae22-68d55a0c8920.png",
-            "mobile_image": "shopify:\/\/shop_images\/10001_89139a25-a95b-49d4-ae22-68d55a0c8920.png",
             "title": "Perfect for the Homebody",
             "content": "Check out our collection of products that will make any house into a power-pumping home!",
             "btn_text": "Learn More",
@@ -287,8 +285,6 @@
         "b6850c0e-47d2-45c0-af4c-dd8b965e4016": {
           "type": "ug-index-category-item",
           "settings": {
-            "pc_image": "shopify:\/\/shop_images\/10003.png",
-            "mobile_image": "shopify:\/\/shop_images\/10003.png",
             "title": "For the Business Savy",
             "content": "",
             "btn_text": "Learn More",
@@ -298,8 +294,6 @@
         "25e0fc9f-e00b-4523-b657-55698f404223": {
           "type": "ug-index-category-item",
           "settings": {
-            "pc_image": "shopify:\/\/shop_images\/10002_9eea6243-65c7-448d-b9c7-ecf4649c01e7.png",
-            "mobile_image": "shopify:\/\/shop_images\/10002_9eea6243-65c7-448d-b9c7-ecf4649c01e7.png",
             "title": "Necessities for the Travelgoer",
             "content": "",
             "btn_text": "Learn More",
@@ -309,8 +303,6 @@
         "e38f7b0d-9eab-4b31-a087-ecd1a9fd4395": {
           "type": "ug-index-category-item",
           "settings": {
-            "pc_image": "shopify:\/\/shop_images\/10004.png",
-            "mobile_image": "shopify:\/\/shop_images\/10004.png",
             "title": "Greatness for the Gaming Explorer",
             "content": "",
             "btn_text": "Learn More",
