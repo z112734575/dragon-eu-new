@@ -93,13 +93,13 @@
         "buy_btn_text": "Acheter",
         "learn_btn_text": "En savoir plus",
         "section_id": "ug-product-list",
-        "pc_product_type": "row",
-        "mobile_product_type": "row",
+        "pc_product_type": "column",
+        "mobile_product_type": "column",
         "title_color": "#000000",
         "product_item_bg_color": "#f5f5f7",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
-        "pc_row": "2",
+        "pc_row": "4",
         "mobile_row": "2",
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
         "pc_product_sale_width": "60px",
@@ -112,7 +112,7 @@
         "show_compare": true,
         "show_rating": true,
         "show_learn_btn": true,
-        "show_code": false
+        "show_code": true
       }
     },
     "ug-tabs-product-list": {
@@ -326,7 +326,7 @@
         "show_compare": true,
         "show_rating": true,
         "show_learn_btn": true,
-        "show_code": false
+        "show_code": true
       }
     },
     "0c5ba5e8-bf7e-4488-9f6f-a5d4a2d78199": {
