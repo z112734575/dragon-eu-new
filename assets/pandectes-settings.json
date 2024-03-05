@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1709608285,
+  "tsPublished": 1709608332,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -45,7 +45,7 @@
         "en": "Accept All"
       },
       "denyButtonText": {
-        "en": "Decline All"
+        "en": "Reject All"
       },
       "leaveSiteButtonText": {
         "en": "Leave this site"
