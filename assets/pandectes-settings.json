@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1709608358,
+  "tsPublished": 1709608379,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -321,7 +321,7 @@
       "target": "",
       "logo": ""
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
       "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}{{deny}}<\/div>"
     },
@@ -329,7 +329,7 @@
     "layouts": {
       "basic": "{{messagelink}}{{compliance}}"
     },
-    "position": "top",
+    "position": "bottom",
     "theme": "wired",
     "revokable": false,
     "animateRevokable": false,
