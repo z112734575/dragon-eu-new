@@ -1268,16 +1268,14 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-                "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
-                "ugreen-nexode-100w-usb-c-wall-charger",
-                "ugreen-nexode-pro-160w-gan-fast-charger",
-                "ugreen-145w-power-bank-for-laptop",
-                "ugreen-36w-qc3-0-car-charger-with-usb-c-cable-dual-usb-ports"
+                "90903",
+                "25095",
+                "90597a"
               ],
               "tag_list": "",
               "collection_name_list": "USB C Chargers,\nGaN Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers",
-              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/chargers,https:\/\/eu.ugreen.com\/collections\/gan-chargers,https:\/\/eu.ugreen.com\/collections\/power-bank,https:\/\/eu.ugreen.com\/collections\/car-chargers,https:\/\/eu.ugreen.com\/collections\/wireless-chargers",
-              "all_collection_url": "shopify:\/\/collections\/charger",
+              "collection_link_list": "https:\/\/es.ugreen.com\/collections\/cargador-usb-c,\nhttps:\/\/es.ugreen.com\/collections\/gan-cargador,\nhttps:\/\/es.ugreen.com\/collections\/bancos-de-energia,\nhttps:\/\/es.ugreen.com\/collections\/cargador-de-coche,\nhttps:\/\/es.ugreen.com\/collections\/cargadores-inalambricos,",
+              "all_collection_url": "shopify:\/\/collections\/cargador",
               "all_collection_name": "All"
             }
           },
