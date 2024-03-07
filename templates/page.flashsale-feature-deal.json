@@ -24,8 +24,8 @@
       "settings": {
         "action_id": "49150c8f-f37e-4c36-b637-5603d839610d",
         "is_pre": false,
-        "pc_image": "shopify:\/\/shop_images\/banner_pc_347f7a8f-35e0-42b8-bf96-412e8ecb5220.webp",
-        "mobile_image": "shopify:\/\/shop_images\/banner_mo_afe195e6-4b71-43b0-b69f-44bf3e97919d.webp",
+        "pc_image": "shopify:\/\/shop_images\/10001_0bf8966a-b335-4cdb-b7cc-4b40e760472e.png",
+        "mobile_image": "shopify:\/\/shop_images\/10002_c62b79ee-3681-4261-96b0-0ead8331e737.png",
         "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN FLASH SALE<\/strong>",
         "subtitle": "Up to <b style=\"color: #FEFEA5;\">30%<\/b> OFF Special Deals",
         "email_btn_text": "Sign Up Now",
