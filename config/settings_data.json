@@ -1668,7 +1668,11 @@
             "settings": {
               "tab_id": 1,
               "product_list": [
-
+                "ugreen-nexode-65w-usb-c-gan-tech-cargador-3-puertos",
+                "40747",
+                "25095",
+                "ugreen-power-bank-145w-25000mah-bateria-portatil",
+                "90903"
               ],
               "tag_list": "Hot,Good",
               "collection_name_list": "Portable Power Station",
@@ -2740,12 +2744,6 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": "👋Hello, please tell us your problem here"
-        }
-      },
-      "13790739142488346433": {
-        "type": "shopify:\/\/apps\/lai-product-reviews\/blocks\/appBlockEmbed\/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
-        "disabled": false,
-        "settings": {
         }
       }
     }
