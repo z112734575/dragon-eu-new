@@ -2741,6 +2741,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋Hello, please tell us your problem here"
         }
+      },
+      "13790739142488346433": {
+        "type": "shopify:\/\/apps\/lai-product-reviews\/blocks\/appBlockEmbed\/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   }
