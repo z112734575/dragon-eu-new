@@ -1303,16 +1303,16 @@
             "settings": {
               "tab_id": 3,
               "product_list": [
-                "ugreen-usb-c-triple-display-docking-station",
-                "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
-                "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
-                "ugreen-revodok-max-213-docking-station",
-                "ugreen-6-in-1-usb-c-hub"
+                "70601",
+                "ugreen-adaptador-usb-c-a-ethernet-tarjeta-de-red-a-rj45-gigabit-lan",
+                "80887",
+                "30724",
+                "ugreen-4-puertos-usb-3-0-switch-2-entradas-y-4-salidas-switch-usb-con-2-cable-usb"
               ],
               "tag_list": "",
-              "collection_name_list": "Revodok Docking Station,\nUSB-C HDMI Hub,\nSwitch Hub,\nUSB Hub,\nUSB-C Hub",
-              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/ugreen-revodok-series-docking-station,https:\/\/eu.ugreen.com\/collections\/hubs,https:\/\/eu.ugreen.com\/collections\/switch-hub,https:\/\/eu.ugreen.com\/collections\/usb-hub,https:\/\/eu.ugreen.com\/collections\/hubs",
-              "all_collection_url": "shopify:\/\/collections\/hubs",
+              "collection_name_list": "Adaptador Bluetooth,\nAdaptador Ethernet,\nAdaptador SD,\nTarjeta de sonido,\nCambiador,",
+              "collection_link_list": "https:\/\/es.ugreen.com\/collections\/adaptador-bluetooth,\nhttps:\/\/es.ugreen.com\/collections\/ethernet-gigabit,\nhttps:\/\/es.ugreen.com\/collections\/lector-de-tarjetas,\nhttps:\/\/es.ugreen.com\/collections\/tarjeta-de-sonido,\nhttps:\/\/es.ugreen.com\/collections\/cambiador,",
+              "all_collection_url": "shopify:\/\/collections\/adaptador",
               "all_collection_name": "All"
             }
           },
