@@ -18,9 +18,9 @@
       "settings": {
         "action_id": "e9a004e3-2d50-47b2-a224-11e19f45a270",
         "is_pre": false,
-        "pc_image": "shopify:\/\/shop_images\/banner_pc_347f7a8f-35e0-42b8-bf96-412e8ecb5220.png",
-        "mobile_image": "shopify:\/\/shop_images\/banner_mo.png",
-        "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Soldes d'hiver <\/strong>",
+        "pc_image": "shopify:\/\/shop_images\/PC_691368b2-7986-4577-bd77-dc5947dc09db.webp",
+        "mobile_image": "shopify:\/\/shop_images\/MB.webp",
+        "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Soldes de printemps <\/strong>",
         "subtitle": "<font color=\"#3498DB\">C'est le moment, 40 % de réduction<\/font><br><font color=\"#FFC300\"><\/font>",
         "email_btn_text": "",
         "email_tips": "",
