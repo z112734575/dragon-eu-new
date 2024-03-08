@@ -567,7 +567,7 @@
           "101ecac9-440d-4e63-964b-7b61a6ba0013": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>Free shipping<\/strong> on orders over €14;;;⚡❄️<a href=\"https:\/\/fr.ugreen.com\/pages\/saint-valentin\" target=\"_blank\" title=\"https:\/\/fr.ugreen.com\/pages\/saint-valentin\"><strong>UGREEN Saint Valentin<\/strong><\/a>&gt;&gt; Acheter maintenant;;;<\/p>",
+              "text": "<p><strong>Free shipping<\/strong> on orders over €14;;;⚡🍀<a href=\"https:\/\/fr.ugreen.com\/pages\/ugreen-soldes-dhiver\" title=\"https:\/\/fr.ugreen.com\/pages\/ugreen-soldes-dhiver\"><strong>UGREEN Fête du Printemps<\/strong><\/a>&gt;&gt; Acheter maintenant;;;<\/p>",
               "countdown": "2022\/04\/19",
               "txt_day": "days",
               "dayx": 0,
@@ -762,7 +762,7 @@
           "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
             "type": "drop",
             "settings": {
-              "title": "❄️Deals",
+              "title": "🍀Deals",
               "url": "#",
               "open_link": "_self",
               "menu": "deals",
