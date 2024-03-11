@@ -1323,13 +1323,12 @@
               "product_list": [
                 "60759",
                 "20478",
-                "60761",
                 "ugreen-cable-usb-c-2pack-carga-rapida-pd-3-0-100w"
               ],
               "tag_list": "",
               "collection_name_list": "USB C Cables,\nLightning Cables(For IPHONE),\nEthernet Cables,\nAudio&Video Cables,\nUSB Cables",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/usb-c-cables,https:\/\/eu.ugreen.com\/collections\/iphone-cables,https:\/\/eu.ugreen.com\/collections\/ethernet-cable,https:\/\/eu.ugreen.com\/collections\/audio-video-cables,https:\/\/eu.ugreen.com\/collections\/usb-cables",
-              "all_collection_url": "shopify:\/\/collections\/cables",
+              "all_collection_url": "shopify:\/\/collections\/cable",
               "all_collection_name": "All"
             }
           },
