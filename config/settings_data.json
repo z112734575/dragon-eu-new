@@ -1531,7 +1531,7 @@
             "type": "menu",
             "settings": {
               "title": "Deal",
-              "url": "https:\/\/eu.ugreen.com\/pages\/flash-sale",
+              "url": "shopify:\/\/pages\/flash-sale",
               "open_link": "_self",
               "menu": "",
               "icon": "",
