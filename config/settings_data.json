@@ -1263,6 +1263,22 @@
               "tab_link_list": "https:\/\/es.ugreen.com\/collections\/nexode-pro-series,\nhttps:\/\/es.ugreen.com\/collections\/cargador,\nhttps:\/\/es.ugreen.com\/collections\/hub-docking,\nhttps:\/\/es.ugreen.com\/collections\/adaptador,\nhttps:\/\/es.ugreen.com\/collections\/cable,\nhttps:\/\/es.ugreen.com\/collections\/soporte,"
             }
           },
+          "57c94dfa-87a9-4366-b9cc-b78dc8f52805": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "ugreen-nexode-pro-cargador-usb-c-160w-gan-usb-c-de-carga-rapida",
+                "ugreen-nexode-pro-cargador-100w-usb-c-gan-cargador-multienchufe",
+                "ugreen-nexode-pro-65w-cargador-gan-cargador-de-3-puertos"
+              ],
+              "tag_list": "",
+              "collection_name_list": "",
+              "collection_link_list": "",
+              "all_collection_url": "shopify:\/\/collections\/nexode-pro-series",
+              "all_collection_name": "All"
+            }
+          },
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d": {
             "type": "tab_content",
             "settings": {
@@ -1386,24 +1402,6 @@
               "all_collection_name": "All"
             }
           },
-          "57c94dfa-87a9-4366-b9cc-b78dc8f52805": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 8,
-              "product_list": [
-                "ugreen-130w-3-port-pd-100w-pd3-0-qc4-0-pps-fast-car-charger",
-                "ugreen-hands-free-air-vent-car-phone-holder",
-                "ugreen-bluetooth-aux-adapter",
-                "ugreen-usb-c-90-degree-cable-3a-right-angle-type-c-charger-cable",
-                "ugreen-usb-to-3-5mm-audio-jack-usb-a-sound-card-adapter"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Car Chargers,\nCar Phone Holders,\nUSB A to USB C Cables,\nBluetooth Adapter,\nSound Card",
-              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/car-chargers,https:\/\/eu.ugreen.com\/collections\/car-mounts,https:\/\/eu.ugreen.com\/collections\/usb-a-to-usb-c-cables,https:\/\/eu.ugreen.com\/collections\/bluetooth-adapters,https:\/\/eu.ugreen.com\/collections\/sound-card",
-              "all_collection_url": "shopify:\/\/collections\/for-car",
-              "all_collection_name": "All"
-            }
-          },
           "30cb2bde-7a5d-4b31-abab-ec89b945f96c": {
             "type": "mega",
             "disabled": true,
@@ -1460,6 +1458,7 @@
           "896b0a1b-4c88-41dc-aae8-3dc3fc782bd9",
           "224acbf9-e273-470e-aeb8-ce1cab7498c4",
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
+          "57c94dfa-87a9-4366-b9cc-b78dc8f52805",
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
           "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "3aa127d5-0ed9-44dc-b7d5-82682a545122",
@@ -1467,7 +1466,6 @@
           "6290bbb7-655f-4740-aeb5-bcea4d6de6cc",
           "1c50ce9b-2808-411c-bb98-6376c5fd0403",
           "30dc977f-eeef-4b61-b49b-d376c5fb80c2",
-          "57c94dfa-87a9-4366-b9cc-b78dc8f52805",
           "30cb2bde-7a5d-4b31-abab-ec89b945f96c",
           "3ece6b42-91d8-4964-8467-b73b2285e87d",
           "b81003d2-e686-43b0-99d3-e4fc46082c5e"
