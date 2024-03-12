@@ -1258,9 +1258,9 @@
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f": {
             "type": "tab_list",
             "settings": {
-              "tab_name_list": "Cargadores,Hub&Docking,Adaptador,\nCables,Soporte,",
+              "tab_name_list": "Nexode Pro Series,Cargadores,Hub&Docking,Adaptador,\nCables,Soporte,",
               "tab_image_list": "",
-              "tab_link_list": "https:\/\/es.ugreen.com\/collections\/cargador,\nhttps:\/\/es.ugreen.com\/collections\/hub-docking,\nhttps:\/\/es.ugreen.com\/collections\/adaptador,\nhttps:\/\/es.ugreen.com\/collections\/cable,\nhttps:\/\/es.ugreen.com\/collections\/soporte,"
+              "tab_link_list": "https:\/\/es.ugreen.com\/collections\/nexode-pro-series,\nhttps:\/\/es.ugreen.com\/collections\/cargador,\nhttps:\/\/es.ugreen.com\/collections\/hub-docking,\nhttps:\/\/es.ugreen.com\/collections\/adaptador,\nhttps:\/\/es.ugreen.com\/collections\/cable,\nhttps:\/\/es.ugreen.com\/collections\/soporte,"
             }
           },
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d": {
@@ -1269,7 +1269,7 @@
               "tab_id": 1,
               "product_list": [
                 "ugreen-nexode-cargador-usb-c-gan-de-300w-cargador-pd-3-1",
-                "ugreen-nexode-pro-cargador-usb-c-160w-gan-usb-c-de-carga-rapida",
+                "25095",
                 "ugreen-power-bank-145w-25000mah-bateria-portatil",
                 "70774"
               ],
@@ -1668,7 +1668,7 @@
               "product_list": [
                 "ugreen-nexode-65w-usb-c-gan-tech-cargador-3-puertos",
                 "40747",
-                "ugreen-nexode-pro-cargador-usb-c-160w-gan-usb-c-de-carga-rapida",
+                "25095",
                 "ugreen-power-bank-145w-25000mah-bateria-portatil",
                 "ugreen-soporte-de-carga-magnetico-2-en-1"
               ],
