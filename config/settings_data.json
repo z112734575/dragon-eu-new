@@ -1672,8 +1672,8 @@
                 "ugreen-soporte-de-carga-magnetico-2-en-1"
               ],
               "tag_list": "Hot,Good",
-              "collection_name_list": "USB C Chargers,\nGaN Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers,",
-              "collection_link_list": "",
+              "collection_name_list": "GaN Chargers,\nUSB C Chargers,\nPower Banks,\nCar Chargers,\nWireless Chargers,",
+              "collection_link_list": "https:\/\/es.ugreen.com\/collections\/gan-cargador,\nhttps:\/\/es.ugreen.com\/collections\/cargador-usb-c,\nhttps:\/\/es.ugreen.com\/collections\/bancos-de-energia,\nhttps:\/\/es.ugreen.com\/collections\/cargador-de-coche,\nhttps:\/\/es.ugreen.com\/collections\/cargadores-inalambricos,",
               "all_collection_url": "shopify:\/\/collections\/cargador",
               "all_collection_name": "All"
             }
