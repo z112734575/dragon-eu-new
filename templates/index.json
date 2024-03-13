@@ -8,6 +8,26 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "b6e286c1-8dac-498a-94a9-1363ec753cff": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_c31b7627-a814-4c32-868f-a726750063ff.png?v=1710297653",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_mo_5f4a441d-33d5-4c7b-a244-f85d848f4694.png?v=1710297644",
+            "text_color": "#ffffff",
+            "title": "Allons-y ! Chargez-vous !",
+            "subtitle": "UGREEN Chargeur Nexode RG 65W",
+            "button_text": "En savoir plus",
+            "link": "https:\/\/fr.ugreen.com\/pages\/nexode-rg-serie-chargeur-prechauffage",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
+            "className": "Revodok_banner"
+          }
+        },
         "10849ca4-37de-4928-971c-7047e115dc60": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -164,26 +184,6 @@
             "className": "nexode-300w"
           }
         },
-        "b6e286c1-8dac-498a-94a9-1363ec753cff": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_c31b7627-a814-4c32-868f-a726750063ff.png?v=1710297653",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_mo_5f4a441d-33d5-4c7b-a244-f85d848f4694.png?v=1710297644",
-            "text_color": "#ffffff",
-            "title": "Chargeur UGREEN Nexode RG 65W",
-            "subtitle": "Allons-y ! Chargez-vous !",
-            "button_text": "En savoir plus",
-            "link": "https:\/\/fr.ugreen.com\/pages\/nexode-rg-serie-chargeur-prechauffage",
-            "pc_align": "center",
-            "mobile_align": "center",
-            "pc_top": 15,
-            "pc_left": 50,
-            "mobile_top": 15,
-            "mobile_left": 0,
-            "className": "Revodok_banner"
-          }
-        },
         "136aa1cb-6667-4eb9-acc9-6576fc183f41": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -205,6 +205,7 @@
         }
       },
       "block_order": [
+        "b6e286c1-8dac-498a-94a9-1363ec753cff",
         "10849ca4-37de-4928-971c-7047e115dc60",
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "ug_index_carousel_item_DYfRit",
@@ -213,7 +214,6 @@
         "ug_index_carousel_item_GaVT7U",
         "ug-index-carousel-1",
         "ug-index-carousel-11",
-        "b6e286c1-8dac-498a-94a9-1363ec753cff",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41"
       ],
       "settings": {
