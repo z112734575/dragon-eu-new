@@ -272,7 +272,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "To Our Clients",
-              "menu": "",
+              "menu": "to-our-clients",
               "menu_style": "1",
               "col_dk": "auto",
               "col_tb": "6",
