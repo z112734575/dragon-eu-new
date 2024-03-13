@@ -1703,14 +1703,13 @@
             "settings": {
               "tab_id": 3,
               "product_list": [
-                "ugreen-usb-c-triple-display-docking-station",
-                "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
-                "ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi",
-                "ugreen-6-in-1-usb-c-hub",
-                "ugreen-4-in-1-usb-c-hub"
+                "70601",
+                "ugreen-adaptador-usb-c-a-ethernet-tarjeta-de-red-a-rj45-gigabit-lan",
+                "ugreen-usb-c-lector-de-tarjetas-sd-microsd-card-reader-adaptador",
+                "30724"
               ],
               "tag_list": "",
-              "collection_name_list": "Docking Station,\nDual Display Dock,\nUSB-C Hub,\nSwitch Hub,\nUSB Hub",
+              "collection_name_list": "Disco Duro",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/docking-station,https:\/\/eu.ugreen.com\/collections\/mini-dock,https:\/\/eu.ugreen.com\/collections\/hubs,https:\/\/eu.ugreen.com\/collections\/switch-hub,https:\/\/eu.ugreen.com\/collections\/usb-hub",
               "all_collection_url": "shopify:\/\/collections\/docks-hubs",
               "all_collection_name": "All"
