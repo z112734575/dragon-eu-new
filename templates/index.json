@@ -277,6 +277,8 @@
         "8299df76-89ec-48e0-b45d-448cd973c4e4": {
           "type": "ug-index-category-item",
           "settings": {
+            "pc_image": "shopify:\/\/shop_images\/10001_3840x_b2dea809-5c64-4a04-a95a-152f39be9ace.webp",
+            "mobile_image": "shopify:\/\/shop_images\/10001_750x_3df48cb3-d343-405f-a715-20db8b3f89e7.webp",
             "title": "Perfect for the Homebody",
             "content": "Check out our collection of products that will make any house into a power-pumping home!",
             "btn_text": "Learn More",
@@ -286,6 +288,8 @@
         "b6850c0e-47d2-45c0-af4c-dd8b965e4016": {
           "type": "ug-index-category-item",
           "settings": {
+            "pc_image": "shopify:\/\/shop_images\/10003_3840x_0fc2fe3d-5c7a-4a38-bf6c-a4df60ba2711.webp",
+            "mobile_image": "shopify:\/\/shop_images\/10003_3840x_0fc2fe3d-5c7a-4a38-bf6c-a4df60ba2711.webp",
             "title": "For the Business Savy",
             "content": "",
             "btn_text": "Learn More",
@@ -295,6 +299,8 @@
         "25e0fc9f-e00b-4523-b657-55698f404223": {
           "type": "ug-index-category-item",
           "settings": {
+            "pc_image": "shopify:\/\/shop_images\/10002_3840x_4772e6cb-718a-4111-809f-b410edd7b648.webp",
+            "mobile_image": "shopify:\/\/shop_images\/10002_3840x_4772e6cb-718a-4111-809f-b410edd7b648.webp",
             "title": "Necessities for the Travelgoer",
             "content": "",
             "btn_text": "Learn More",
@@ -304,6 +310,8 @@
         "e38f7b0d-9eab-4b31-a087-ecd1a9fd4395": {
           "type": "ug-index-category-item",
           "settings": {
+            "pc_image": "shopify:\/\/shop_images\/10004_3840x_61080910-5daf-49d2-b4da-70448d44f5a0.webp",
+            "mobile_image": "shopify:\/\/shop_images\/10004_3840x_61080910-5daf-49d2-b4da-70448d44f5a0.webp",
             "title": "Greatness for the Gaming Explorer",
             "content": "",
             "btn_text": "Learn More",
