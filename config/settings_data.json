@@ -1600,7 +1600,6 @@
           },
           "mb_nav-6": {
             "type": "acc",
-            "disabled": true,
             "settings": {
             }
           },
