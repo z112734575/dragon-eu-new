@@ -155,7 +155,8 @@
           "settings": {
             "name": "Chargers",
             "icon_name": "icon-chargers_icon-01",
-            "link": "https:\/\/eu.ugreen.com\/collections\/charger"
+            "link": "https:\/\/eu.ugreen.com\/collections\/charger",
+            "svg": ""
           }
         },
         "77d137aa-8558-4dc3-8217-0865c779f65b": {
@@ -163,15 +164,17 @@
           "settings": {
             "name": "Docking Station",
             "icon_name": "icon-a-DockingStation_icon1",
-            "link": "\/collections\/docking-station"
+            "link": "\/collections\/docking-station",
+            "svg": ""
           }
         },
         "7d79ed76-8557-4331-aa4a-68979f326f13": {
           "type": "ug-index-category-item",
           "settings": {
-            "name": "Hubs & Adapters",
+            "name": "Adapters",
             "icon_name": "icon-hub_icon1",
-            "link": "shopify:\/\/collections\/hubs-adapters"
+            "link": "https:\/\/eu.ugreen.com\/collections\/adapters",
+            "svg": ""
           }
         },
         "1123f8d8-d3e7-42d0-86eb-bb6af9faec50": {
@@ -179,7 +182,8 @@
           "settings": {
             "name": "Cables",
             "icon_name": "icon-Cables_icon",
-            "link": "shopify:\/\/collections\/cables"
+            "link": "shopify:\/\/collections\/cables",
+            "svg": ""
           }
         },
         "5253ea49-300b-4a16-9f67-419106408da3": {
@@ -187,7 +191,8 @@
           "settings": {
             "name": "Stands & Mounts",
             "icon_name": "icon-Stands_icon1",
-            "link": "shopify:\/\/collections\/stands-mounts"
+            "link": "shopify:\/\/collections\/stands-mounts",
+            "svg": ""
           }
         },
         "bae355b2-fbec-48ce-82fe-a15893600ff8": {
@@ -195,7 +200,8 @@
           "settings": {
             "name": "Audio & Video",
             "icon_name": "icon-Video_icon",
-            "link": "shopify:\/\/collections\/audio-video-cables"
+            "link": "shopify:\/\/collections\/audio-video-cables",
+            "svg": ""
           }
         },
         "914a7dc5-0679-4c54-abf9-6721e9d89ebb": {
@@ -203,7 +209,8 @@
           "settings": {
             "name": "Portable Power Station",
             "icon_name": "icon-a-Powerstation_icon",
-            "link": "shopify:\/\/collections\/power-station"
+            "link": "shopify:\/\/collections\/power-station",
+            "svg": ""
           }
         }
       },
