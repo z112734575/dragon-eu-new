@@ -1258,7 +1258,7 @@
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f": {
             "type": "tab_list",
             "settings": {
-              "tab_name_list": "Chargers,Docks & Hubs,Cables,Adapters,Power Banks,For Laptop,For Phone&Tablet,For Car",
+              "tab_name_list": "Chargers,Docks & Hubs,Power Banks,Cables,Adapters,For Laptop,For Phone&Tablet,For Car",
               "tab_image_list": "",
               "tab_link_list": ""
             }
@@ -1299,10 +1299,28 @@
               "all_collection_name": "All"
             }
           },
-          "0570254c-45bf-450c-861c-0c201ef1c2b0": {
+          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
             "type": "tab_content",
             "settings": {
               "tab_id": 3,
+              "product_list": [
+                "25188",
+                "ugreen-145w-power-bank-for-laptop",
+                "ugreen-10000mah-magsafe-wireless-power-bank",
+                "pb561",
+                "pb560"
+              ],
+              "tag_list": "",
+              "collection_name_list": "Power Banks",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-bank",
+              "all_collection_url": "shopify:\/\/collections\/power-bank",
+              "all_collection_name": "All"
+            }
+          },
+          "0570254c-45bf-450c-861c-0c201ef1c2b0": {
+            "type": "tab_content",
+            "settings": {
+              "tab_id": 4,
               "product_list": [
                 "ugreen-2-pack-usb-c-to-usb-c-charger-cable-100w-65w-power-delivery",
                 "ugreen-usb-c-to-lightning-cable-mfi-certified-type-c-iphone-charger-cable",
@@ -1320,7 +1338,7 @@
           "6290bbb7-655f-4740-aeb5-bcea4d6de6cc": {
             "type": "tab_content",
             "settings": {
-              "tab_id": 4,
+              "tab_id": 5,
               "product_list": [
                 "ugreen-bluetooth-aux-adapter",
                 "ugreen-aluminum-usb-3-0-lan-ethernet-adapter",
@@ -1332,24 +1350,6 @@
               "collection_name_list": "Bluetooth Adapter,\nEthernet Adapter,\nSD Adapter,\nSound Card,\nSwitcher",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/bluetooth-adapters,https:\/\/eu.ugreen.com\/collections\/ethernet-adapters,https:\/\/eu.ugreen.com\/collections\/sd-card-reader,https:\/\/eu.ugreen.com\/collections\/sound-card,https:\/\/eu.ugreen.com\/collections\/switcher",
               "all_collection_url": "shopify:\/\/collections\/adapters",
-              "all_collection_name": "All"
-            }
-          },
-          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e": {
-            "type": "tab_content",
-            "settings": {
-              "tab_id": 5,
-              "product_list": [
-                "25188",
-                "ugreen-145w-power-bank-for-laptop",
-                "ugreen-10000mah-magsafe-wireless-power-bank",
-                "pb561",
-                "pb560"
-              ],
-              "tag_list": "",
-              "collection_name_list": "Power Banks",
-              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-bank",
-              "all_collection_url": "shopify:\/\/collections\/power-bank",
               "all_collection_name": "All"
             }
           },
@@ -1467,9 +1467,9 @@
           "a9f84a71-35c3-45b9-a929-2f426d7a7f7f",
           "c3d8ab8c-a0b6-4f49-919b-fae850c5a57d",
           "3aa127d5-0ed9-44dc-b7d5-82682a545122",
+          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "0570254c-45bf-450c-861c-0c201ef1c2b0",
           "6290bbb7-655f-4740-aeb5-bcea4d6de6cc",
-          "15d5dafd-0ed6-47c1-b833-1cc93a56e97e",
           "1c50ce9b-2808-411c-bb98-6376c5fd0403",
           "30dc977f-eeef-4b61-b49b-d376c5fb80c2",
           "57c94dfa-87a9-4366-b9cc-b78dc8f52805",
