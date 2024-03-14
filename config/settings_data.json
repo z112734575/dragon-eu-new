@@ -1490,8 +1490,8 @@
             "type": "mega_tab_list",
             "settings": {
               "title": "Products",
-              "tab_list": "Power Station,Chargers,Docks & Hubs,Cables,Adapters,For Laptop,For Phone&Tablet,For Car",
-              "open": false
+              "tab_list": "Chargers,Power Bank,Docks & Hubs,Cables,Adapters,For Laptop,For Phone&Tablet,For Car,Power Station",
+              "open": true
             }
           },
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a": {
