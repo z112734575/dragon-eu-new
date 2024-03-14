@@ -1340,16 +1340,16 @@
             "settings": {
               "tab_id": 5,
               "product_list": [
-                "15054a",
-                "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
-                "ugreen-portable-power-station-mit-byd-gemeinsam-entwickeltes-1200w-1024wh",
-                "15114",
-                "15113"
+                "25188",
+                "ugreen-145w-power-bank-for-laptop",
+                "ugreen-10000mah-magsafe-wireless-power-bank",
+                "pb561",
+                "pb560"
               ],
               "tag_list": "",
-              "collection_name_list": "Portable Power Station",
-              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-station,",
-              "all_collection_url": "shopify:\/\/collections\/power-station",
+              "collection_name_list": "Power Banks",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-bank",
+              "all_collection_url": "shopify:\/\/collections\/power-bank",
               "all_collection_name": "All"
             }
           },
