@@ -1739,16 +1739,16 @@
             "settings": {
               "tab_id": 5,
               "product_list": [
-                "ugreen-bluetooth-aux-adapter",
-                "ugreen-aluminum-usb-3-0-lan-ethernet-adapter",
-                "usb-3-0-card-reader-with-sd-tf",
-                "ugreen-usb-to-3-5mm-headphone-audio-adapter",
-                "ugreen-usb-c-auf-hdmi-kabel-4k-60hz-2m-thunderbolt-3-usb-c-3-1-hdmi-kabel-uhd-geflochten-aluminium-kompatibel-mit-macbook-pro-2021-14-16zoll-ipad-pro-air-galaxy-s22-s21-p30-huawei-p40-usw"
+                "15163",
+                "20471",
+                "60108",
+                "30422",
+                "50564"
               ],
               "tag_list": "",
-              "collection_name_list": "Bluetooth Adapter,\nEthernet Adapter,\nSD Adapter,\nSound Card,\nSwitcher",
+              "collection_name_list": "",
               "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/bluetooth-adapters,https:\/\/eu.ugreen.com\/collections\/ethernet-adapters,https:\/\/eu.ugreen.com\/collections\/sd-card-reader,https:\/\/eu.ugreen.com\/collections\/sound-card,https:\/\/eu.ugreen.com\/collections\/switcher",
-              "all_collection_url": "shopify:\/\/collections\/adapters",
+              "all_collection_url": "shopify:\/\/collections\/soporte",
               "all_collection_name": "All"
             }
           },
