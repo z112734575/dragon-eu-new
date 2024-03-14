@@ -1721,16 +1721,16 @@
             "settings": {
               "tab_id": 4,
               "product_list": [
-                "ugreen-2-pack-usb-c-to-usb-c-charger-cable-100w-65w-power-delivery",
-                "ugreen-right-angle-usb-c-cable-3-0-type-c-charger-cable-fast-charging-5gbps",
-                "ugreen-usb-c-to-usb-c-cable-60w",
-                "ugreen-usb-c-90-degree-cable-3a-right-angle-type-c-charger-cable",
-                "ugreen-usb-c-to-lightning-cable"
+                "50150p",
+                "ugreen-cable-usb-c-a-usb-c-60w-pd-3-0-cable-tipo-c-carga-rapida",
+                "ugreen-cable-usb-c-a-lightning-mfi-certificado-cable",
+                "40178",
+                "ugreen-cable-ethernet-cat-8-plano-40gbps-2000mhz-cable-red-rj45"
               ],
               "tag_list": "",
               "collection_name_list": "USB C Cables,\nLightning Cables(For IPHONE),\nEthernet Cables,\nAudio&Video Cables,\nUSB Cables",
-              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/usb-c-cables,https:\/\/eu.ugreen.com\/collections\/iphone-cables,https:\/\/eu.ugreen.com\/collections\/ethernet-cable,https:\/\/eu.ugreen.com\/collections\/audio-video-cables,https:\/\/eu.ugreen.com\/collections\/usb-cables",
-              "all_collection_url": "shopify:\/\/collections\/cables",
+              "collection_link_list": "https:\/\/es.ugreen.com\/collections\/usb-c-to-c-cable,\nhttps:\/\/es.ugreen.com\/collections\/lighting-cable,\nhttps:\/\/es.ugreen.com\/collections\/ethernet-cables,\nhttps:\/\/es.ugreen.com\/collections\/audio-video,\nhttps:\/\/es.ugreen.com\/collections\/usb-a-cable,",
+              "all_collection_url": "shopify:\/\/collections\/cable",
               "all_collection_name": "All"
             }
           },
