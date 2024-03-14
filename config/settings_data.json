@@ -1723,6 +1723,24 @@
               "all_collection_name": "All"
             }
           },
+          "menu_list_b3wPHB": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 1,
+              "product_list": [
+                "25188",
+                "ugreen-145w-power-bank-for-laptop",
+                "ugreen-10000mah-magsafe-wireless-power-bank",
+                "pb561",
+                "pb560"
+              ],
+              "tag_list": "Power Bank",
+              "collection_name_list": "Power Bank",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-bank",
+              "all_collection_url": "shopify:\/\/collections\/power-bank",
+              "all_collection_name": "ALL"
+            }
+          },
           "fa0524e8-ec37-4a0e-967e-8748b0c4c8d9": {
             "type": "menu-list",
             "settings": {
@@ -1853,6 +1871,7 @@
         },
         "block_order": [
           "90862b21-7621-46e5-9f35-938af1220116",
+          "menu_list_b3wPHB",
           "fa0524e8-ec37-4a0e-967e-8748b0c4c8d9",
           "551e26c1-5b52-4f11-993c-f2cb9d6e7a75",
           "23011880-d15f-43d4-aa14-2f50bbc45c14",
