@@ -13,16 +13,16 @@
           "settings": {
             "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Ugreen-nexode-rg-65w-charger-pc.png?v=1710380847",
             "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/Ugreen-nexode-rg-65w-charger-m.png?v=1710380845",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "title": "Let's Go! Charge Up!",
             "subtitle": "UGREEN Nexode RG 65W Charger",
             "button_text": "Learn More",
             "link": "https:\/\/eu.ugreen.com\/pages\/nexode-rg-series-charger-preheat",
             "pc_align": "center",
             "mobile_align": "center",
-            "pc_top": 17,
+            "pc_top": 15,
             "pc_left": 50,
-            "mobile_top": 13,
+            "mobile_top": 15,
             "mobile_left": 0,
             "className": "buy-more-save-more"
           }
