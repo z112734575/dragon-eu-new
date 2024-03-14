@@ -1705,28 +1705,10 @@
       "ug-mb-mega-menu": {
         "type": "ug-mb-mega-menu",
         "blocks": {
-          "8d954c8a-601b-484c-a41a-790f2460396f": {
-            "type": "menu-list",
-            "settings": {
-              "tab_id": 1,
-              "product_list": [
-                "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh",
-                "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
-                "15054a",
-                "15114",
-                "15113"
-              ],
-              "tag_list": "Hot,Good",
-              "collection_name_list": "Portable Power Station",
-              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-station",
-              "all_collection_url": "shopify:\/\/collections\/power-station",
-              "all_collection_name": "All"
-            }
-          },
           "90862b21-7621-46e5-9f35-938af1220116": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 2,
+              "tab_id": 1,
               "product_list": [
                 "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
                 "ugreen-nexode-100w-usb-c-wall-charger",
@@ -1744,7 +1726,7 @@
           "fa0524e8-ec37-4a0e-967e-8748b0c4c8d9": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 3,
+              "tab_id": 2,
               "product_list": [
                 "ugreen-usb-c-triple-display-docking-station",
                 "copy-of-weekly-sale-product-9-in-1-usb-c-docking-station",
@@ -1762,7 +1744,7 @@
           "551e26c1-5b52-4f11-993c-f2cb9d6e7a75": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 4,
+              "tab_id": 3,
               "product_list": [
                 "ugreen-2-pack-usb-c-to-usb-c-charger-cable-100w-65w-power-delivery",
                 "ugreen-right-angle-usb-c-cable-3-0-type-c-charger-cable-fast-charging-5gbps",
@@ -1780,7 +1762,7 @@
           "23011880-d15f-43d4-aa14-2f50bbc45c14": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 5,
+              "tab_id": 4,
               "product_list": [
                 "ugreen-bluetooth-aux-adapter",
                 "ugreen-aluminum-usb-3-0-lan-ethernet-adapter",
@@ -1798,7 +1780,7 @@
           "e0efbf27-ea0b-4be1-b159-774a163011e3": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 6,
+              "tab_id": 5,
               "product_list": [
                 "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
                 "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports",
@@ -1817,7 +1799,7 @@
           "1b127a37-67ca-42f2-8cdb-c87f9a99cc5f": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 7,
+              "tab_id": 6,
               "product_list": [
                 "ugreen-nexode-65w-usb-c-wall-charger-3-ports",
                 "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
@@ -1835,7 +1817,7 @@
           "0966bffc-722d-47a3-aa15-0f92be144813": {
             "type": "menu-list",
             "settings": {
-              "tab_id": 8,
+              "tab_id": 7,
               "product_list": [
                 "ugreen-hands-free-air-vent-car-phone-holder",
                 "ugreen-36w-qc3-0-car-charger-with-usb-c-cable-dual-usb-ports",
@@ -1849,17 +1831,35 @@
               "all_collection_url": "shopify:\/\/collections\/for-car",
               "all_collection_name": "All"
             }
+          },
+          "8d954c8a-601b-484c-a41a-790f2460396f": {
+            "type": "menu-list",
+            "settings": {
+              "tab_id": 8,
+              "product_list": [
+                "ugreen-portable-power-station-lifepo4-battery-solar-generator-2300w-2048wh",
+                "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
+                "15054a",
+                "15114",
+                "15113"
+              ],
+              "tag_list": "Hot,Good",
+              "collection_name_list": "Portable Power Station",
+              "collection_link_list": "https:\/\/eu.ugreen.com\/collections\/power-station",
+              "all_collection_url": "shopify:\/\/collections\/power-station",
+              "all_collection_name": "All"
+            }
           }
         },
         "block_order": [
-          "8d954c8a-601b-484c-a41a-790f2460396f",
           "90862b21-7621-46e5-9f35-938af1220116",
           "fa0524e8-ec37-4a0e-967e-8748b0c4c8d9",
           "551e26c1-5b52-4f11-993c-f2cb9d6e7a75",
           "23011880-d15f-43d4-aa14-2f50bbc45c14",
           "e0efbf27-ea0b-4be1-b159-774a163011e3",
           "1b127a37-67ca-42f2-8cdb-c87f9a99cc5f",
-          "0966bffc-722d-47a3-aa15-0f92be144813"
+          "0966bffc-722d-47a3-aa15-0f92be144813",
+          "8d954c8a-601b-484c-a41a-790f2460396f"
         ],
         "settings": {
           "show_price": true,
