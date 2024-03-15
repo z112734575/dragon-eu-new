@@ -103,25 +103,25 @@
           "settings": {
             "tabs_title": "Hub & Dock",
             "product_list": [
-              "ugreen-revodok-pro-12-en-1-docking-station",
+              "ugreen-revodok-max-213-station-daccueil",
+              "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
               "ugreen-revodok-7-en-1-hub-usb-c-ethernet-hdmi-100w-pd-charge-lecteur-de-carte-sd",
-              "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
               "ugreen-revodok-hub-usb-c-hdmi-4k-6-en-1-adaptateur-usb-c",
+              "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
               "ugreen-revodok-hub-usb-c-double-hdmi-8k30hz-4k60hz-6-en-1-dock-station",
               "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-type-c-lecteur-de-cartes",
-              "ugreen-hub-usb-c-hdmi-4k-adaptateur-usb-c-vers-4-ports-usb-3-0",
               "ugreen-adaptateur-hub-usb-c-hdmi-4k-60hz-pd-100w-recharge",
-              "ugreen-station-accueil-compatible-avec-steam-deck-6-en-1-hub-hdmi",
               "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3",
               "ugreen-hub-usb-c-ethernet-hdmi-4k-7-en-1-adaptateur-usb-c",
-              "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur",
               "ugreen-adaptateur-hub-usb-c-vers-hdmi-4k",
               "ugreen-hub-usb-c-hdmi-4k-60hz-adaptateur-usb-c-rj45-ethernet-supporte",
-              "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
-              "ugreen-data-hub-usb-3-0-a-7-ports-hub-multi-usb-5gbps",
               "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide-adaptateur",
               "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps-transfert-rapide",
-              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps"
+              "ugreen-hub-usb-3-0-vers-4-ports-usb-5gbps",
+              "ugreen-station-accueil-compatible-avec-steam-deck-6-en-1-hub-hdmi",
+              "ugreen-data-hub-usb-3-0-a-7-ports-hub-multi-usb-5gbps",
+              "ugreen-5-en-2-adaptateur-hub-usb-c-hdmi-4k",
+              "ugreen-hub-usb-c-hdmi-4k-adaptateur-usb-c-vers-4-ports-usb-3-0"
             ]
           }
         },
