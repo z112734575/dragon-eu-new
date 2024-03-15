@@ -183,24 +183,22 @@
             ]
           }
         },
-        "851c32fd-4017-4065-8ad0-6d879971a650": {
+        "0ff54963-288f-4855-a574-2aaaf24272f0": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Chargeur de voiture",
+            "tabs_title": "Hard Drive",
             "product_list": [
-              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
-              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
-              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
-              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
-              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
-              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
-              "ugreen-support-telephone-voiture-gravite-grille-aeration",
-              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
-              "support-telephone-voiture-magnetique",
-              "ugreen-support-telephone-voiture-noir",
-              "ugreen-support-telephone-voiture-ventouse-rotation-a-360-degres",
-              "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
-              "ugreen-support-telephone-voiture-360-degres"
+              "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
+              "ugreen-boitier-ssd-m-2-nvme-sata-usb-3-2-gen-2-10gbps-2to",
+              "ugreen-usb-3-0-boitier-externe-pour-disque-dur-2-5-pouces-sata",
+              "ugreen-usb-c-3-1-gen-2-boitier-disque-dur-externe-2-5-pouces-sata-hdd",
+              "ugreen-usb-c-boitier-externe-2-5-pouces-disque",
+              "ugreen-adaptateur-disque-dur-ide-sata-usb-3-0",
+              "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
+              "ugreen-boitier-m-2-ssd-nvme-sata-en-usb-3-2-gen-2-10-gbps",
+              "ugreen-cable-sata-usb-3-0-adaptateur-sata-usb",
+              "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45",
+              "ugreen-adaptateur-usb-2-0-vers-ethernet-rj45-reseau-100mbps"
             ]
           }
         },
@@ -239,6 +237,49 @@
             ]
           }
         },
+        "851c32fd-4017-4065-8ad0-6d879971a650": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Chargeur de voiture",
+            "product_list": [
+              "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0",
+              "ugreen-69w-chargeur-voiture-usb-c-rapide-pd-qc-3-0",
+              "ugreen-usb-c-pd-qc-3-0-rapide-chargeur-voiture-usb-c",
+              "ugreen-chargeur-voiture-usb-c-30w-pd-qc-3-0-pps",
+              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
+              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
+              "support-telephone-voiture-magnetique",
+              "ugreen-support-telephone-voiture-noir",
+              "ugreen-support-telephone-voiture-ventouse-rotation-a-360-degres",
+              "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
+              "ugreen-support-telephone-voiture-360-degres"
+            ]
+          }
+        },
+        "82e89c4e-58ed-4668-b5e0-707f3f82a435": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Supporter",
+            "product_list": [
+              "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
+              "ugreen-support-tablette-bureau-reglable-a-double-tige-porte",
+              "ugreen-support-de-tablette-ugreen-pour-bureau-gris",
+              "ugreen-360-rotating-laptop-tablet-stand-holder",
+              "ugreen-support-tablette-reglable",
+              "ugreen-foldable-kickstand-magnetic-battery-10000mah",
+              "ugreen-sac-cable-accessoires-electroniques-pochette-protection",
+              "ugreen-shockproof-13-inch-laptop-case",
+              "ugreen-support-ordinateur-portable-support-pc-portable-laptop-stand",
+              "ugreen-support-telephone-bureau-en-aluminium-stand",
+              "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable",
+              "ugreen-support-telephone-bureau",
+              "ugreen-support-telephone-bureau-reglable-pose-telephone",
+              "ugreen-travel-electronics-organizer-for-cables-and-accessories"
+            ]
+          }
+        },
         "769bdc30-e1f2-4883-ae4d-e5607d28c623": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -269,50 +310,6 @@
               "ugreen-dongle-bluetooth-5-0-cle-usb-bluetooth"
             ]
           }
-        },
-        "0ff54963-288f-4855-a574-2aaaf24272f0": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Hard Drive",
-            "product_list": [
-              "ugreen-boitier-en-aluminium-m-2-nvme-pcie-usb-3-2-gen-2-10gbps",
-              "ugreen-boitier-m-2-ssd-nvme-10-gbps-usb-3-2-gen-2-adaptateur",
-              "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
-              "ugreen-boitier-ssd-m-2-nvme-sata-usb-3-2-gen-2-10gbps-2to",
-              "ugreen-usb-3-0-boitier-externe-pour-disque-dur-2-5-pouces-sata",
-              "ugreen-usb-c-3-1-gen-2-boitier-disque-dur-externe-2-5-pouces-sata-hdd",
-              "ugreen-usb-c-boitier-externe-2-5-pouces-disque",
-              "ugreen-adaptateur-disque-dur-ide-sata-usb-3-0",
-              "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
-              "ugreen-boitier-m-2-ssd-nvme-sata-en-usb-3-2-gen-2-10-gbps",
-              "60638",
-              "ugreen-cable-sata-usb-3-0-adaptateur-sata-usb",
-              "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45",
-              "ugreen-adaptateur-usb-2-0-vers-ethernet-rj45-reseau-100mbps"
-            ]
-          }
-        },
-        "82e89c4e-58ed-4668-b5e0-707f3f82a435": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "Supporter",
-            "product_list": [
-              "ugreen-support-tablette-bureau-reglable-repose-tablette-pliable-porte",
-              "ugreen-support-tablette-bureau-reglable-a-double-tige-porte",
-              "ugreen-support-de-tablette-ugreen-pour-bureau-gris",
-              "ugreen-360-rotating-laptop-tablet-stand-holder",
-              "ugreen-support-tablette-reglable",
-              "ugreen-foldable-kickstand-magnetic-battery-10000mah",
-              "ugreen-sac-cable-accessoires-electroniques-pochette-protection",
-              "ugreen-shockproof-13-inch-laptop-case",
-              "ugreen-support-ordinateur-portable-support-pc-portable-laptop-stand",
-              "ugreen-support-telephone-bureau-en-aluminium-stand",
-              "ugreen-support-telephone-bureau-reglable-pose-telephone-pliable",
-              "ugreen-support-telephone-bureau",
-              "ugreen-support-telephone-bureau-reglable-pose-telephone",
-              "ugreen-travel-electronics-organizer-for-cables-and-accessories"
-            ]
-          }
         }
       },
       "block_order": [
@@ -320,11 +317,11 @@
         "c4c2d9bd-d1d9-4856-93c1-da8b846af3db",
         "2632b153-e4f5-4946-9146-3002be2c2b29",
         "649c7ad9-3e77-448d-8e2d-6cd6e59b9879",
-        "851c32fd-4017-4065-8ad0-6d879971a650",
-        "03bc0a7f-3461-439c-837b-d6c82cf28237",
-        "769bdc30-e1f2-4883-ae4d-e5607d28c623",
         "0ff54963-288f-4855-a574-2aaaf24272f0",
-        "82e89c4e-58ed-4668-b5e0-707f3f82a435"
+        "03bc0a7f-3461-439c-837b-d6c82cf28237",
+        "851c32fd-4017-4065-8ad0-6d879971a650",
+        "82e89c4e-58ed-4668-b5e0-707f3f82a435",
+        "769bdc30-e1f2-4883-ae4d-e5607d28c623"
       ],
       "settings": {
         "item_type": "default",
