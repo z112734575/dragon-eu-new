@@ -235,7 +235,7 @@
         "link": "https:\/\/fr.ugreen.com\/pages\/usb-c-hub-vs-docking-station-how-to-choose",
         "text_color": "#ffffff",
         "className": "",
-        "custom_style": ""
+        "custom_style": ".topImageText {\n    top: 15%;\n    max-width: 1280px;\n    margin: 0 auto;\n}\n@media (max-width: 767px) {\n.topImageText {\n    top: 15%;\n}\n}"
       }
     },
     "ug-index-whybuy": {
