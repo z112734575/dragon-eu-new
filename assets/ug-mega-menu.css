@@ -5,6 +5,7 @@
     flex: none;
     margin-right: 30px;
     padding-left: 15px;
+    margin-left:0px;
 }
 .ug-menu-tab-wrap .mega-menu-tab {
     cursor: pointer;
