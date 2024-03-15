@@ -2265,12 +2265,12 @@
             "settings": {
               "tab_id": 7,
               "product_list": [
+                "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
+                "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
                 "ugreen-adaptateur-reseau-micro-usb-vers-rj45-ethernet",
                 "ugreen-cat-8-cable-ethernet-reseau-rj45-40gbps-2000mhz-double-blindage",
                 "ugreen-cable-hdmi-4k-ultra-hd-cordon-hdmi-2-0-haute-vitesse-ethernet",
-                "ugreen-hub-usb-c-hdmi-4k-adaptateur-usb-c-vers-4-ports-usb-3-0",
-                "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45",
-                "ugreen-6-en-2-adaptateur-hub-usb-c-thunderbolt-3"
+                "ugreen-adaptateur-usb-c-vers-ethernet-thunderbolt-3-4-rj45"
               ],
               "tag_list": "",
               "collection_name_list": "Câble Ethernet,\nLecteur de cartes,\nCâble de données,\nCartes de réseau câblé,\nCâble SATA",
