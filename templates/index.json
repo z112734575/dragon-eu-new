@@ -327,14 +327,16 @@
       "settings": {
         "item_type": "default",
         "product_list": [
-          "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
           "ugreen-nexode-300w-usb-c-gan-chargeur",
+          "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
           "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
           "ugreen-nexode-200w-gan-chargeur-usb-c-alimentation-100w-et-6-ports",
           "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
+          "ugreen-revodok-max-213-station-daccueil",
+          "90325eu",
           "ugreen-revodok-hub-usb-c-hdmi-4k-6-en-1-adaptateur-usb-c",
           "ugreen-revodok-hub-usb-c-ethernet-gigabit-hdmi-100w-pd-charge",
-          "ugreen-revodok-pro-210-station-daccueil"
+          "ugreen-10-en-1-hub-usb-c-hdmi-vga-adaptateur"
         ],
         "title": "Meilleures ventes",
         "subtitle": "",
@@ -347,8 +349,8 @@
         "product_item_bg_color": "#f8f8f9",
         "pc_product_item_img_size": "100%",
         "mobile_product_item_img_size": "57%",
-        "pc_row": "4",
-        "mobile_row": "1",
+        "pc_row": "5",
+        "mobile_row": "2",
         "product_sale_flag": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/weekly_slae_tag.png?v=1671085492",
         "pc_product_sale_width": "60px",
         "mobile_product_sale_width": "48px",
