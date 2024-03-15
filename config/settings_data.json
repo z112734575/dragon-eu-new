@@ -1758,15 +1758,15 @@
               "url": "https:\/\/fr.ugreen.com\/collections\/bundle",
               "open_link": "_self",
               "menu": "",
-              "icon": "lab la-hotjar",
-              "lb": "2024",
+              "icon": "",
+              "lb": "",
               "lb_cl": "#ec0101"
             }
           },
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
             "type": "menu",
             "settings": {
-              "title": "❄️Deals",
+              "title": "🍀Deals",
               "url": "#",
               "open_link": "_self",
               "menu": "deals",
