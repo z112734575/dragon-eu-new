@@ -1755,9 +1755,9 @@
             "type": "menu",
             "settings": {
               "title": "Bundle",
-              "url": "https:\/\/fr.ugreen.com\/collections\/bundle",
+              "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "bundle",
               "icon": "",
               "lb": "",
               "lb_cl": "#ec0101"
