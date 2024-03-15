@@ -1396,10 +1396,10 @@
               "tab_id": 7,
               "product_list": [
                 "ugreen-cat-8-cable-ethernet-reseau-rj45-40gbps-2000mhz-double-blindage",
-                "rallonge-cable-ethernet",
                 "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
                 "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
-                "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps"
+                "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps",
+                "ugreen-usb-3-0-lecteur-de-carte-sd-micro-sd-cf-ms-4-en-1-adaptateur"
               ],
               "tag_list": "",
               "collection_name_list": "Câble Ethernet,\nLecteur de cartes,\nCâble de données,\nCartes de réseau câblé,\nCâble SATA",
@@ -1413,11 +1413,11 @@
             "settings": {
               "tab_id": 8,
               "product_list": [
+                "ugreen-adaptateur-jack-bluetooth-5-3-pour-voiture-recepteur-bluetooth",
+                "commutateur-hdmi",
                 "ugreen-adaptateur-bluetooth-5-1-pour-tv-2-en-1-emetteur-recepteur",
                 "ugreen-adaptateur-usb-vers-ethernet-rj45-gigabit-1000-mbps",
-                "adaptateur-usb-c-jack",
-                "ugreen-cable-hdmi-4k-ultra-hd-cordon-hdmi-2-0-haute-vitesse-ethernet",
-                "commutateur-hdmi"
+                "adaptateur-usb-c-jack"
               ],
               "tag_list": "",
               "collection_name_list": "Câble HDMI,\nCommutateur audio-vidéo,\nCarte son,\nRécepteur et émetteur Bluetooth",
