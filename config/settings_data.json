@@ -1751,22 +1751,8 @@
               "open": true
             }
           },
-          "6e0a949c-1ad6-46e7-955f-e6391fa7eaa8": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "Nexode Pro",
-              "url": "https:\/\/fr.ugreen.com\/pages\/ugreen-nexode-pro-chargeur-series",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "Offre Anticipée",
-              "lb_cl": "#ecbe01"
-            }
-          },
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "title": "Bundle",
               "url": "https:\/\/fr.ugreen.com\/collections\/bundle",
@@ -1775,6 +1761,30 @@
               "icon": "lab la-hotjar",
               "lb": "2024",
               "lb_cl": "#ec0101"
+            }
+          },
+          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
+            "type": "menu",
+            "settings": {
+              "title": "❄️Deals",
+              "url": "#",
+              "open_link": "_self",
+              "menu": "deals",
+              "icon": "",
+              "lb": "Hot",
+              "lb_cl": "#ec0101"
+            }
+          },
+          "6e0a949c-1ad6-46e7-955f-e6391fa7eaa8": {
+            "type": "menu",
+            "settings": {
+              "title": "Nexode",
+              "url": "https:\/\/fr.ugreen.com\/collections\/nexode-series",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "Offre Anticipée",
+              "lb_cl": "#ecbe01"
             }
           },
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a": {
@@ -1812,18 +1822,6 @@
               "cat10": "",
               "title10": "",
               "url10": ""
-            }
-          },
-          "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
-            "type": "menu",
-            "settings": {
-              "title": "❄️Deals",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "deals",
-              "icon": "",
-              "lb": "Hot",
-              "lb_cl": "#ec0101"
             }
           },
           "9662196b-5016-4c2f-a928-3ea810b613f3": {
@@ -1967,10 +1965,10 @@
         },
         "block_order": [
           "978de359-1bb0-4204-91e0-084625271217",
-          "6e0a949c-1ad6-46e7-955f-e6391fa7eaa8",
           "74abf930-8362-4e67-a9df-d02be16b9c4e",
-          "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
+          "6e0a949c-1ad6-46e7-955f-e6391fa7eaa8",
+          "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
           "9662196b-5016-4c2f-a928-3ea810b613f3",
           "63d17328-6717-4877-a2a5-d31121a1ced3",
           "cecb3bc8-d54f-4ec7-a819-424e63c5ae58",
