@@ -27,6 +27,45 @@
             "className": "Revodok_banner"
           }
         },
+        "8d9955cf-7735-4d0b-a359-b28dc3cb09ab": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_EU_pc.webp?v=1706087135",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_EU_mo.webp?v=1706087135",
+            "text_color": "#ffffff",
+            "title": "UGREEN Nexode Pro",
+            "subtitle": "Le nouveau Nexode sera dévoilé",
+            "button_text": "En savoir plus",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-nexode-pro-chargeur-series",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
+            "className": ""
+          }
+        },
+        "ug_index_carousel_item_GaVT7U": {
+          "type": "ug-index-carousel-item",
+          "disabled": true,
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3_Banner-Hub_Web_3840x_35dccc10-7f33-4286-aec9-230b5ea2e048.webp?v=1705660233",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3.1_Banner-Hub_Mobile_1536x_8a67d8ac-a214-469c-b076-a2f2bae6d396.webp?v=1705660233",
+            "text_color": "#ffffff",
+            "title": "Obtenez plus de polyvalence avec un seul hub",
+            "subtitle": "Développez votre créativité",
+            "button_text": "En savoir plus",
+            "link": "https:\/\/fr.ugreen.com\/pages\/usb-c-hub-vs-docking-station-how-to-choose",
+            "pc_align": "center",
+            "mobile_align": "center",
+            "pc_top": 15,
+            "pc_left": 50,
+            "mobile_top": 15,
+            "mobile_left": 0,
+            "className": ""
+          }
+        },
         "10849ca4-37de-4928-971c-7047e115dc60": {
           "type": "ug-index-carousel-item",
           "disabled": true,
@@ -107,44 +146,6 @@
             "className": ""
           }
         },
-        "8d9955cf-7735-4d0b-a359-b28dc3cb09ab": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_EU_pc.webp?v=1706087135",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_EU_mo.webp?v=1706087135",
-            "text_color": "#ffffff",
-            "title": "UGREEN Nexode Pro",
-            "subtitle": "Le nouveau Nexode sera dévoilé",
-            "button_text": "En savoir plus",
-            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-nexode-pro-chargeur-series",
-            "pc_align": "center",
-            "mobile_align": "center",
-            "pc_top": 15,
-            "pc_left": 50,
-            "mobile_top": 15,
-            "mobile_left": 0,
-            "className": ""
-          }
-        },
-        "ug_index_carousel_item_GaVT7U": {
-          "type": "ug-index-carousel-item",
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3_Banner-Hub_Web_3840x_35dccc10-7f33-4286-aec9-230b5ea2e048.webp?v=1705660233",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3.1_Banner-Hub_Mobile_1536x_8a67d8ac-a214-469c-b076-a2f2bae6d396.webp?v=1705660233",
-            "text_color": "#ffffff",
-            "title": "Obtenez plus de polyvalence avec un seul hub",
-            "subtitle": "Développez votre créativité",
-            "button_text": "En savoir plus",
-            "link": "https:\/\/fr.ugreen.com\/pages\/usb-c-hub-vs-docking-station-how-to-choose",
-            "pc_align": "center",
-            "mobile_align": "center",
-            "pc_top": 15,
-            "pc_left": 50,
-            "mobile_top": 15,
-            "mobile_left": 0,
-            "className": ""
-          }
-        },
         "ug-index-carousel-1": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -205,12 +206,12 @@
       },
       "block_order": [
         "b6e286c1-8dac-498a-94a9-1363ec753cff",
+        "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
+        "ug_index_carousel_item_GaVT7U",
         "10849ca4-37de-4928-971c-7047e115dc60",
         "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "ug_index_carousel_item_DYfRit",
         "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1",
-        "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
-        "ug_index_carousel_item_GaVT7U",
         "ug-index-carousel-1",
         "ug-index-carousel-11",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41"
@@ -226,11 +227,11 @@
         ".topImage {margin-top: 10px;}"
       ],
       "settings": {
-        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/25054.webp?v=1703663106",
-        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/Redock_max_313_m.webp",
-        "title": "UGREEN Revodok Série",
+        "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3_Banner-Hub_Web_3840x_35dccc10-7f33-4286-aec9-230b5ea2e048.webp?v=1705660233",
+        "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/3.1_Banner-Hub_Mobile_1536x_8a67d8ac-a214-469c-b076-a2f2bae6d396.webp?v=1705660233",
+        "title": "Obtenez plus de polyvalence avec un seul hub",
         "subtitle": "Développez votre créativité",
-        "button_text": "Découverte Plus",
+        "button_text": "Développez votre créativité",
         "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-revodok-series-new-release",
         "text_color": "#ffffff",
         "className": "",
