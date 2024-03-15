@@ -1768,8 +1768,8 @@
             "type": "menu",
             "disabled": true,
             "settings": {
-              "title": "💕Saint Valentin",
-              "url": "https:\/\/fr.ugreen.com\/pages\/saint-valentin",
+              "title": "Bundle",
+              "url": "https:\/\/fr.ugreen.com\/collections\/bundle",
               "open_link": "_self",
               "menu": "",
               "icon": "lab la-hotjar",
