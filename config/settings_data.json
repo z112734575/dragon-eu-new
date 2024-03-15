@@ -731,9 +731,9 @@
             "type": "drop",
             "settings": {
               "title": "Bundle",
-              "url": "https:\/\/fr.ugreen.com\/collections\/bundle",
+              "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "bundle",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
