@@ -18,10 +18,10 @@
       "settings": {
         "action_id": "e9a004e3-2d50-47b2-a224-11e19f45a270",
         "is_pre": false,
-        "pc_image": "shopify:\/\/shop_images\/PC_691368b2-7986-4577-bd77-dc5947dc09db.webp",
-        "mobile_image": "shopify:\/\/shop_images\/MB.webp",
+        "pc_image": "shopify:\/\/shop_images\/banner_pc_spring_festival.png",
+        "mobile_image": "shopify:\/\/shop_images\/banner_mo_spring_festival.png",
         "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Soldes de printemps <\/strong>",
-        "subtitle": "<font color=\"#3498DB\">C'est le moment, 40 % de réduction<\/font><br><font color=\"#FFC300\"><\/font>",
+        "subtitle": "<font color=\"#3498DB\">C'est le moment, 30 % de réduction<\/font><br><font color=\"#FFC300\"><\/font>",
         "email_btn_text": "",
         "email_tips": "",
         "time": ""
@@ -61,12 +61,12 @@
           "ugreen-nexode-300w-usb-c-gan-chargeur",
           "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
           "ugreen-65w-chargeur-usb-c-4-ports",
-          "ugreen-nexode-chargeur-20w-usb-c-avec-cable-usb-c",
           "ugreen-nexode-chargeur-65w-usb-c-rapide-3-ports",
           "ugreen-nexode-100w-usb-c-chargeu-rapide-4-ports",
           "ugreen-20w-chargeur-usb-c-pd-3-0-with-mfi-cable-1",
           "ugreen-quick-charge-3-0-chargeur-secteur-usb-et-1m-cable-usb-c",
-          "ugreen-support-de-chargeur-magnetique-2-en-1-de-induction-sans-fil"
+          "ugreen-support-de-chargeur-magnetique-2-en-1-de-induction-sans-fil",
+          "ugreen-30w-chargeur-voiture-usb-c-pd-qc-3-0"
         ],
         "title": "Série de remises sélectionnées",
         "subtitle": "",
