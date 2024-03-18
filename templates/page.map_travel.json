@@ -14,6 +14,7 @@
     },
     "7b9a7ace-f9ed-4c03-8a70-8f9d91542ec2": {
       "type": "ug_AppleEvent_product",
+      "disabled": true,
       "settings": {
         "pc_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic1_pc_60cf5a95-2905-4f86-b18a-7146046512af.webp?v=1689045980",
         "mobile_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0257\/5246\/9566\/files\/pic1_mo_3c0612f0-64b4-4495-b1ec-6fbeba954579.webp?v=1689046073",
@@ -21,9 +22,7 @@
         "title1": "",
         "desc": "Jampacked, Portable Power for Any Outdoor Adventure",
         "product_list": [
-          "15054a",
-          "snap-deal-ugreen-power-station-mit-byd-gemeinsam-entwickeltes-powerroam-601",
-          "15114"
+
         ]
       }
     },
@@ -36,9 +35,10 @@
         "title1": "",
         "desc": "The Perfect Charging Companion for Long Commutes!",
         "product_list": [
-          "snap-deal-ugreen-130w-3-port-pd-100w-pd3-0-qc4-0-pps-fast-car-charger",
-          "ugreen-24w-usb-c-car-charger-with-pd-qc3-0-dual-ports",
-          "ugreen-magnetic-wireless-car-charger"
+          "ugreen-130w-cargador-de-coche-usb-c-3-puertas",
+          "ugreen-69w-cargador-coche-cargador-coche-carga-rapida",
+          "ugreen-36w-cargador-coche-carga-rapido-doble-usb-qc-3-0",
+          "ugreen-transmisor-fm-bluetooth-5-0-adaptador-bluetooth-fm-cargador"
         ]
       }
     },
