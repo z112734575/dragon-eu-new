@@ -624,12 +624,7 @@ margin-bottom: 0;
                                 </style>
                                     <div id="t4s-trust_seal{{bk_id}}" data-rr="{{svg_width}}" {% if isStyleSvg %} style="--height-img:{{svg_height}}px;"{% endif %} class="t4s-pr_trust_seal ug-trust_delivery t4s-text-md-{{bk_stts.al}} t4s-text-center" {{ block.shopify_attributes }}>
                                         {%- if bk_stts.mess -%}<p class="t4s-pr-mess_trust t4s-ch" style="--fs-mess-trust:{{bk_stts.size}}px;">{{bk_stts.mess}}</p>{%- endif -%}
-                                        <img class="t4s-img-tr__svg lazyloadt4s"
-                               src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg"
-                               data-src="{{ bk_stts.image }}"
-                               alt="Trust delivery"
-                               style="max-width: 50%;"
-                          />
+                                        {{- html_trust -}}
                                     </div>
 
 
