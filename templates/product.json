@@ -156,8 +156,8 @@
             "size": 14,
             "source": "1",
             "wimg": 70,
-            "svg": "visa,amazon_payments,american_express,apple_pay,diners_club,discover,jcb,master,shopify_pay,paypal,klarna",
-            "height": 28
+            "svg": "visa,american_express,diners_club,discover,jcb,master,paypal,klarna",
+            "height": 35
           }
         },
         "trust_delivery": {
@@ -532,7 +532,8 @@
             "aggregated": false,
             "limit": 20,
             "hide_thumbnails": false,
-            "maxwidth": 1080
+            "maxwidth": 1080,
+            "is_sample": true
           }
         }
       },
