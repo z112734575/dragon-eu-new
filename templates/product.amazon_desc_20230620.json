@@ -172,7 +172,6 @@
         },
         "trust_delivery": {
           "type": "trust_delivery",
-          "disabled": true,
           "settings": {
             "mess": "Trusted Delivery",
             "size": 14,
