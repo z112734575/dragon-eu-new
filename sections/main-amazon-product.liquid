@@ -618,6 +618,9 @@ t4option0_0 | alt text
                               justify-content: flex-start;
                             gap: 40px;
                                     }
+                                            .ug-trust_delivery p{
+margin-bottom: 0;
+                                            }
                                 </style>
                                     <div id="t4s-trust_seal{{bk_id}}" data-rr="{{svg_width}}" {% if isStyleSvg %} style="--height-img:{{svg_height}}px;"{% endif %} class="t4s-pr_trust_seal ug-trust_delivery t4s-text-md-{{bk_stts.al}} t4s-text-center" {{ block.shopify_attributes }}>
                                         {%- if bk_stts.mess -%}<p class="t4s-pr-mess_trust t4s-ch" style="--fs-mess-trust:{{bk_stts.size}}px;">{{bk_stts.mess}}</p>{%- endif -%}
