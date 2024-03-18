@@ -689,7 +689,6 @@ button.t4s-product-form__submit[disabled="disabled"]{
 .t4s-pr-mess_trust{
   font-size: var(--fs-mess-trust);
   font-weight: 500;
-  text-transform: uppercase;
   margin-bottom: 10px;
 }
 .t4s-pr_trust_seal img.t4s-img-tr__svg {
