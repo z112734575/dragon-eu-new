@@ -4,8 +4,8 @@
       "type": "christmas_banner",
       "custom_css": [
         ".ug_christmas_banner .ug_christmas_banner_box {text-align: center; width: 100%; left: 0;}",
-        ".ug_christmas_banner .ug_christmas_banner_box h1 {color: #000; font-size: 48px;}",
-        ".ug_christmas_banner .ug_christmas_banner_box p {color: #000; font-size: 22px;}",
+        ".ug_christmas_banner .ug_christmas_banner_box h1 {color: #fff; font-size: 48px;}",
+        ".ug_christmas_banner .ug_christmas_banner_box p {color: #fff; font-size: 22px;}",
         "@media (max-width: 768px) {.ug_christmas_banner .ug_christmas_banner_box h1 {font-size: 32px; } .ug_christmas_banner .ug_christmas_banner_box p {font-size: 16px; }}"
       ],
       "settings": {
