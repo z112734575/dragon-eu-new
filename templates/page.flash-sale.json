@@ -3,10 +3,10 @@
     "2ec64282-7886-45a5-a877-d8342308890f": {
       "type": "christmas_banner",
       "custom_css": [
-        ".ug_christmas_banner .ug_christmas_banner_box {top: 11.25vw; left: 10vw; color: white; text-align: left;}",
-        ".ug_christmas_banner .ug_christmas_banner_box h1 {font-size: 2.5vw; font-weight: 700; margin-bottom: 1vw;}",
-        ".ug_christmas_banner .ug_christmas_banner_box p {color: #fff; font-size: max(1.25vw, 12px); position: relative; display: inline-block; line-height: 1;}",
-        "@media (max-width: 768px) {.ug_christmas_banner .ug_christmas_banner_box h1 {font-size: 32px; } .ug_christmas_banner .ug_christmas_banner_box p {font-size: 16px; }}"
+        ".ug_christmas_banner_box {top: 11.25vw; left: 10vw; color: white; text-align: left;}",
+        ".ug_christmas_banner_box h1 {font-size: 2.5vw; font-weight: 700; margin-bottom: 1vw;}",
+        ".ug_christmas_banner_box p {color: #fff; font-size: max(1.25vw, 12px); position: relative; display: inline-block; line-height: 1;}",
+        "@media (max-width: 768px) {.ug_christmas_banner_box {text-align: center; left: 0; } .ug_christmas_banner_box h1 {font-size: 32px; } .ug_christmas_banner_box p {font-size: 16px; }}"
       ],
       "settings": {
         "mobile_image": "shopify:\/\/shop_images\/10002_1536x_0eaf9503-fe06-4e5c-bc22-6bbb2bc360ca.webp",
