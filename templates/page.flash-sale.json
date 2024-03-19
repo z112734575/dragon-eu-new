@@ -9,8 +9,8 @@
         "@media (max-width: 768px) {.ug_christmas_banner .ug_christmas_banner_box h1 {font-size: 32px; } .ug_christmas_banner .ug_christmas_banner_box p {font-size: 16px; }}"
       ],
       "settings": {
-        "mobile_image": "shopify:\/\/shop_images\/banner_mobile.png",
-        "pc_image": "shopify:\/\/shop_images\/banner_pc.png",
+        "mobile_image": "shopify:\/\/shop_images\/10002_1536x_0eaf9503-fe06-4e5c-bc22-6bbb2bc360ca.webp",
+        "pc_image": "shopify:\/\/shop_images\/10001_3840x_2f9cde35-1149-48e7-9796-9d07eabd41bb.webp",
         "banner_title": "Remises en vedette Ugreen",
         "banner_sub_title": "Jusqu'à 40% de réduction"
       }
