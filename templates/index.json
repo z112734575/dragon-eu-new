@@ -10,13 +10,12 @@
       "blocks": {
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
-          "disabled": true,
           "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU_banner_pc.png?v=1706861214",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/0979\/0291\/files\/EU_banner_mo.png?v=1706861211",
-            "text_color": "#222222",
-            "title": "Valentine's Day Special!",
-            "subtitle": "Enjoy 30% Off on Irresistible Gifts",
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0629\/6308\/9575\/files\/EU-PC.webp?v=1710905459",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0629\/6308\/9575\/files\/EU-Mb.webp?v=1710905459",
+            "text_color": "#fff",
+            "title": "UGREEN Nexode RG",
+            "subtitle": "Enjoy 30% Off",
             "button_text": "Shop Now",
             "link": "https:\/\/eu.ugreen.com\/pages\/valentines-day",
             "pc_align": "left",
