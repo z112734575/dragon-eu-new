@@ -27,6 +27,25 @@
             "className": "Revodok_banner"
           }
         },
+        "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_pc_2feafefe-377a-4cce-a947-83a596ed684a.png?v=1710916609",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/banner_mo_394ed646-5215-4d51-bf0f-9d367e66c3f4.png?v=1710916601",
+            "text_color": "#131414",
+            "title": "UGREEN Soldes de printemps",
+            "subtitle": "<font color=\"#121414\">c'est le moment de faire de bonnes affaires!<\/font><br><font color=\"#FFC300\"><\/font>",
+            "button_text": "Acheter maintenant",
+            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-soldes-dhiver",
+            "pc_align": "left",
+            "mobile_align": "center",
+            "pc_top": 30,
+            "pc_left": 25,
+            "mobile_top": 10,
+            "mobile_left": 0,
+            "className": ""
+          }
+        },
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -82,26 +101,6 @@
             "pc_top": 15,
             "pc_left": 50,
             "mobile_top": 15,
-            "mobile_left": 0,
-            "className": ""
-          }
-        },
-        "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541": {
-          "type": "ug-index-carousel-item",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/pc_fbd3f3af-29ba-4cf9-a4bd-57023e5eceb8.png?v=1704871295",
-            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/mo_57d89141-b49a-490d-b287-b227db60754c.png?v=1704871294",
-            "text_color": "#131414",
-            "title": "<strong style=\"    background: linear-gradient(180deg, #E5B854 -11.11%, #F7D381 12.62%, #FDE386 22.7%, #FDE386 54.73%, #D9A748 91.79%, #E7B456 102.78%);\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-weight: 700;\n    overflow: hidden;\n    -webkit-font-smoothing: antialiased;\">UGREEN Soldes d'hiver <\/strong>",
-            "subtitle": "<font color=\"#121414\">c'est le moment de faire de bonnes affaires!<\/font><br><font color=\"#FFC300\"><\/font>",
-            "button_text": "Acheter maintenant",
-            "link": "https:\/\/fr.ugreen.com\/pages\/ugreen-soldes-dhiver",
-            "pc_align": "left",
-            "mobile_align": "center",
-            "pc_top": 30,
-            "pc_left": 25,
-            "mobile_top": 10,
             "mobile_left": 0,
             "className": ""
           }
@@ -206,10 +205,10 @@
       },
       "block_order": [
         "b6e286c1-8dac-498a-94a9-1363ec753cff",
+        "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "8d9955cf-7735-4d0b-a359-b28dc3cb09ab",
         "ug_index_carousel_item_GaVT7U",
         "10849ca4-37de-4928-971c-7047e115dc60",
-        "e0a3f846-2cd8-4506-bd3d-cf3e83ff1541",
         "ug_index_carousel_item_DYfRit",
         "ee6684e0-bf3f-4737-b3ba-4e157fc0cdf1",
         "ug-index-carousel-1",
