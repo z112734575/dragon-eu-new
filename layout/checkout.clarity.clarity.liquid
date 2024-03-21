@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MPWLL45');</script>
+<!-- End Google Tag Manager -->
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <meta name="referrer" content="origin">
+
+    <title>{{ page_title }}</title>
+
+    {{ content_for_header }}
+
+    {{ checkout_stylesheets }}
+    {{ checkout_scripts }}
+    <style>
+      .limit-tips {
+        display: none;
+        color: red;
+        font-size: 12px;
+      }
+    </style>
+    <!--zbanx checkout config start-->
+ <script type="text/javascript">
+ {% if checkout.order_id %}
+ window._zbanx_order_id = {{ checkout.order_id }}
+ {% endif %}
+!function(e){"function"==typeof define&&define.amd?define(e):e()}(function(){"use strict";function r(e,t){for(var n=0;n<t.length;n++){var o=t[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(e,o.key,o)}}var t=new(function(){function t(e){!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,t),this.props=e||{},this.source=this.props.source||window.localStorage,this.initRun()}var e,n,o;return e=t,(n=[{key:"initRun",value:function(){var o=this,r=new RegExp("__expires__"),i=this.source,e=Object.keys(i);0<e.length&&e.map(function(e,t){var n;return r.test(e)||(n=Date.now(),(i["".concat(e,"__expires__")]||Date.now()+1)<=n&&o.remove(e)),e})}},{key:"set",value:function(e,t,n){var o=this.source;return o[e]=JSON.stringify(t),n&&(o["".concat(e,"__expires__")]=Date.now()+6e4*n),t}},{key:"get",value:function(e){var t=this.source,n=Date.now();if((t["".concat(e,"__expires__")]||Date.now()+1)<=n)return this.remove(e),null;n=null;try{n=t[e]&&JSON.parse(t[e])}catch(e){}return n}},{key:"remove",value:function(e){var t=this.source,n=t[e];return delete t[e],delete t["".concat(e,"__expires__")],n}}])&&r(e.prototype,n),o&&r(e,o),t}());function c(e){for(var t=1;t<arguments.length;t++){var n,o=arguments[t];for(n in o)e[n]=o[n]}return e}var n=function t(a,i){function n(e,t,n){if("undefined"!=typeof document){"number"==typeof(n=c({},i,n)).expires&&(n.expires=new Date(Date.now()+864e5*n.expires)),n.expires&&(n.expires=n.expires.toUTCString()),e=encodeURIComponent(e).replace(/%(2[346B]|5E|60|7C)/g,decodeURIComponent).replace(/[()]/g,escape);var o,r="";for(o in n)n[o]&&(r+="; "+o,!0!==n[o]&&(r+="="+n[o].split(";")[0]));return document.cookie=e+"="+a.write(t,e)+r}}return Object.create({set:n,get:function(e){if("undefined"!=typeof document&&(!arguments.length||e)){for(var t=document.cookie?document.cookie.split("; "):[],n={},o=0;o<t.length;o++){var r=t[o].split("="),i=r.slice(1).join("=");try{var c=decodeURIComponent(r[0]);if(n[c]=a.read(i,c),e===c)break}catch(e){}}return e?n[e]:n}},remove:function(e,t){n(e,"",c({},t,{expires:-1}))},withAttributes:function(e){return t(this.converter,c({},this.attributes,e))},withConverter:function(e){return t(c({},this.converter,e),this.attributes)}},{attributes:{value:Object.freeze(i)},converter:{value:Object.freeze(a)}})}({read:function(e){return(e='"'===e[0]?e.slice(1,-1):e).replace(/(%[\dA-F]{2})+/gi,decodeURIComponent)},write:function(e){return encodeURIComponent(e).replace(/%(2[346BF]|3[AC-F]|40|5[BDE]|60|7[BCD])/g,decodeURIComponent)}},{path:"/"}),o="",i="zbanx_",a="",u="track_code",p="pid",s="landing_uri";function d(e){e=new RegExp("(^|&)".concat(e,"=([^&]*)(&|$)")),e=location.search.substr(1).match(e);return null!==e?e[2]:null}function f(e){return n.get(e=i+e)||t.get(e)}function l(){var e=new FormData;return e.append("z_code",d("z_code")||f(u)),e.append("landing_uri",f(s)),e.append("z_pid",d("z_pid")||f(p)),e.append("location",location.href),e.append("path",location.pathname),e.append("shop_domain",o),e}function e(){var e,t,n=window.Shopify;void 0!==n&&(n.checkout||n.Checkout)&&(t=l(),e=n.checkout||n.Checkout,n=window._zbanx_order_id||e.order_id||e.id,t.append("order_id",n),e=a,n=t,(t=new XMLHttpRequest).open("POST",e),t.send(n))}!function(){var e="zbx_test_".concat(Math.random()),t=new RegExp("(^|;)\\s*".concat(e,"=zbx_test_value")),n=new Date(0),o=document.domain,r=o.split("."),i=[];for(i.unshift(r.pop());r.length;){i.unshift(r.pop());var c=i.join("."),a="".concat(e,"=zbx_test_value;domain=.").concat(c);if(document.cookie=a,t.test(document.cookie)){document.cookie="".concat(a,";expires=").concat(n),o=c;break}}}();var h,_,v;_=(h={shop:"{{ shop.permanent_domain }}",trackUrl:"https://api.zbanx.com/",version:"2.1.1"}).shop,v=h.trackUrl,v=(h=v).lastIndexOf("/")===h.length-1?h:h+"/",o=_,a="".concat(v,"track/order"),e()});
+</script>
+<!--zbanx checkout config end-->
+  
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "jgvvbwe0q9");
+</script>
+  
+  </head>
+  <body>
+    {{ skip_to_content_link }}
+
+    <header class="banner" data-header role="banner">
+      <div class="wrap">
+        {{ content_for_logo }}
+      </div>
+    </header>
+
+    {{ order_summary_toggle }}
+    <div class="content" data-content>
+      <div class="wrap">
+        <div class="main">
+          <header class="main__header" role="banner">
+            {{ content_for_logo }}
+            {{ breadcrumb }}
+            {{ alternative_payment_methods }}
+          </header>
+          <main class="main__content" role="main">
+            {{ content_for_layout }}
+          </main>
+          <footer class="main__footer" role="contentinfo">
+            {{ content_for_footer }}
+          </footer>
+        </div>
+        <aside class="sidebar" role="complementary">
+          <div class="sidebar__header">
+            {{ content_for_logo }}
+          </div>
+          <div class="sidebar__content">
+            {{ content_for_order_summary }}
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    {{ tracking_code }}
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPWLL45"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+  </body>
+  <script>
+    window.onload = function () {
+    const first_name = document.getElementById('checkout_shipping_address_first_name')
+    const last_name = document.getElementById('checkout_shipping_address_last_name')
+    const address = document.getElementById('checkout_shipping_address_address1')
+    const address2 = document.getElementById('checkout_shipping_address_address2')
+    first_name.setAttribute('maxLength', '30')
+    last_name.setAttribute('maxLength', '30')
+    address.setAttribute('maxLength', '60')
+    address2.setAttribute('maxLength', '60')
+    function makeLimitTips(length) {
+        const limitTips = document.createElement('div')
+        limitTips.classList.add('limit-tips')
+        limitTips.cssText = 'display: none;'
+        limitTips.innerHTML = `Please enter no more than ${length} characters`
+        return limitTips
+    }
+    const limitTipsAddress = makeLimitTips(60)
+    const limitTipsAddress2 = makeLimitTips(60)
+    document.querySelector('[data-address-field="address1"]').appendChild(limitTipsAddress)
+    document.querySelector('[data-address-field="address2"]').appendChild(limitTipsAddress2)
+
+    address.addEventListener('input', function () {
+        const value = this.value;
+        if (value.length >= 60) {
+            limitTipsAddress.style.display = 'block'
+        } else {
+            limitTipsAddress.style.display = 'none'
+        }
+    })
+
+    address.addEventListener('blur', function () {
+        if (document.querySelector('[data-address-field="address1"] .limit-tips' )) {
+            // document.querySelector('[data-address-field="address1"] .limit-tips').css('display', 'none')
+            limitTipsAddress.style.display = 'none'
+        }
+    })
+    address2.addEventListener('input', function () {
+        const value = this.value;
+        if (value.length >= 60) {
+            limitTipsAddress2.style.display = 'block'
+        } else {
+            limitTipsAddress2.style.display = 'none'
+        }
+    })
+    address2.addEventListener('blur', function () {
+        if (document.querySelector('[data-address-field="address2"] .limit-tips' )) {
+            // document.querySelector('[data-address-field="address1"] .limit-tips').css('display', 'none')
+            limitTipsAddress2.style.display = 'none'
+        }
+    })
+}
+  </script>
+</html>
