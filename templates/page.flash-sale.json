@@ -116,6 +116,24 @@
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
+        "ug_product_list_tabs_xMUk7N": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Audio & Video",
+            "product_list": [
+              "80805",
+              "ugreen-2m-cable-usb-c-vers-hdmi-4k-60hz-cable-type-c-thunderbolt-3",
+              "ugreen-cable-hdmi-4k-ultra-hd-cordon-hdmi-2-0-haute-vitesse-ethernet",
+              "ugreen-cable-hdmi-2-1-8k-60hz-4k-120hz-uhd-haute-vitesse-48-gbps",
+              "80807",
+              "80808",
+              "ugreen-usb-c-extension-cable",
+              "10140",
+              "80796",
+              "80797"
+            ]
+          }
+        },
         "ug_product_list_tabs_kTFWkJ": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -341,9 +359,24 @@
               "ugreen-support-telephone-voiture-magnetique-grille-aeration"
             ]
           }
+        },
+        "ug_product_list_tabs_kQLVHg": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Batterie Externe",
+            "product_list": [
+              "ugreen-batterie-externe-portable-usb-c-25000-mah-145w",
+              "ugreen-batterie-externe-portable-20000mah-100w-usb-c",
+              "ugreen-batterie-externe-portable-usb-c-25000-mah-145w-3-sorties-cable",
+              "ugreen-batterie-externe-magnetique-sans-fil-10000mah-20w-usb-c",
+              "ugreen-mini-batterie-externe-magnetique-sans-fil-5000mah-15w-usb-c",
+              "ugreen-support-de-chargeur-magnetique-2-en-1-de-induction-sans-fil"
+            ]
+          }
         }
       },
       "block_order": [
+        "ug_product_list_tabs_xMUk7N",
         "ug_product_list_tabs_kTFWkJ",
         "2632b153-e4f5-4946-9146-3002be2c2b29",
         "ug_product_list_tabs_wWFdUW",
@@ -353,7 +386,8 @@
         "6a1282f5-6f7c-435a-aa88-7d876a77f826",
         "563e8dd5-3fa7-4939-b349-ae402e9db803",
         "ca5e5743-557b-4aba-aa51-946342cd18ce",
-        "ug_product_list_tabs_WwQwi8"
+        "ug_product_list_tabs_WwQwi8",
+        "ug_product_list_tabs_kQLVHg"
       ],
       "settings": {
         "item_type": "default",
