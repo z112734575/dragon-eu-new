@@ -298,6 +298,26 @@
               "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque"
             ]
           }
+        },
+        "ug_product_list_tabs_WwQwi8": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "Support pour voiture",
+            "product_list": [
+              "ugreen-support-telephone-voiture-360-degres",
+              "ugreen-support-de-telephone-magnetique-pour-voiture-air-vent",
+              "support-telephone-voiture-magnetique",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration",
+              "ugreen-support-telephone-voiture-noir",
+              "ugreen-support-telephone-voiture-gravite-grille-aeration-gris",
+              "ugreen-support-telephone-voiture-rotation-360-degres",
+              "ugreen-support-telephone-voiture-magnetique-grille-aeration",
+              "ugreen-support-de-telephone-de-voiture-ventouse-rotation-a-360-degres",
+              "ugreen-support-telephone-voiture-rotation-mode-portrait-et-paysage",
+              "ugreen-support-telephone-voiture-ventouse-rotation-a-360-degres",
+              "50396"
+            ]
+          }
         }
       },
       "block_order": [
@@ -308,7 +328,8 @@
         "b1f03e12-3265-4ff0-8e67-78c87a9afabf",
         "6a1282f5-6f7c-435a-aa88-7d876a77f826",
         "563e8dd5-3fa7-4939-b349-ae402e9db803",
-        "ca5e5743-557b-4aba-aa51-946342cd18ce"
+        "ca5e5743-557b-4aba-aa51-946342cd18ce",
+        "ug_product_list_tabs_WwQwi8"
       ],
       "settings": {
         "item_type": "default",
