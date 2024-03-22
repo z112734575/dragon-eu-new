@@ -727,10 +727,27 @@
               "r_s_v_item": "30"
             }
           },
+          "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
+            "type": "drop",
+            "settings": {
+              "title": "⚡Offre flash",
+              "url": "https:\/\/fr.ugreen.com\/pages\/flash-deal",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "Hot",
+              "lb_cl": "#ec0101",
+              "lazy_mn": true,
+              "pos_sub": "bottom",
+              "pos": "left"
+            }
+          },
           "16e2ef48-b04b-46f0-bf5f-d12823645624": {
             "type": "drop",
             "settings": {
-              "title": "⚡Bundle",
+              "title": "Bundle",
               "url": "",
               "open_link": "_self",
               "menu": "bundle",
@@ -756,23 +773,6 @@
               "cl": "#ec0101",
               "lb": "Offre Anticipée",
               "lb_cl": "#ecbe01"
-            }
-          },
-          "16e48cac-0fd2-4f57-b570-7d74c3092cdc": {
-            "type": "drop",
-            "settings": {
-              "title": "🍀Deals",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "deals",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "Hot",
-              "lb_cl": "#ec0101",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
             }
           },
           "c1ea18bc-75ab-43cf-b12e-6d6c1e4439cd": {
@@ -883,9 +883,9 @@
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "7b6b268c-25a0-4c97-960d-7e81c56a2676",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
+          "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "16e2ef48-b04b-46f0-bf5f-d12823645624",
           "a8f39e42-3998-40be-8ea3-864f6678baf0",
-          "16e48cac-0fd2-4f57-b570-7d74c3092cdc",
           "c1ea18bc-75ab-43cf-b12e-6d6c1e4439cd",
           "550bcd55-e2b8-40fb-a643-7e078694e4ea",
           "7eeb88e9-7627-4339-8a38-595660bcafab",
@@ -1754,7 +1754,7 @@
           "74abf930-8362-4e67-a9df-d02be16b9c4e": {
             "type": "menu",
             "settings": {
-              "title": "⚡Bundle",
+              "title": "Bundle",
               "url": "",
               "open_link": "_self",
               "menu": "bundle",
@@ -1766,10 +1766,10 @@
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
             "type": "menu",
             "settings": {
-              "title": "🍀Deals",
-              "url": "#",
+              "title": "⚡Offre flash",
+              "url": "https:\/\/fr.ugreen.com\/pages\/flash-deal",
               "open_link": "_self",
-              "menu": "deals",
+              "menu": "",
               "icon": "",
               "lb": "Hot",
               "lb_cl": "#ec0101"
