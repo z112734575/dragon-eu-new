@@ -1751,18 +1751,6 @@
               "open": true
             }
           },
-          "74abf930-8362-4e67-a9df-d02be16b9c4e": {
-            "type": "menu",
-            "settings": {
-              "title": "Bundle",
-              "url": "",
-              "open_link": "_self",
-              "menu": "bundle",
-              "icon": "",
-              "lb": "",
-              "lb_cl": "#ec0101"
-            }
-          },
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd": {
             "type": "menu",
             "settings": {
@@ -1772,6 +1760,18 @@
               "menu": "",
               "icon": "",
               "lb": "Hot",
+              "lb_cl": "#ec0101"
+            }
+          },
+          "74abf930-8362-4e67-a9df-d02be16b9c4e": {
+            "type": "menu",
+            "settings": {
+              "title": "Bundle",
+              "url": "",
+              "open_link": "_self",
+              "menu": "bundle",
+              "icon": "",
+              "lb": "",
               "lb_cl": "#ec0101"
             }
           },
@@ -1965,8 +1965,8 @@
         },
         "block_order": [
           "978de359-1bb0-4204-91e0-084625271217",
-          "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "b03e5afc-f3b2-4cb5-90fa-7f964e20c6cd",
+          "74abf930-8362-4e67-a9df-d02be16b9c4e",
           "6e0a949c-1ad6-46e7-955f-e6391fa7eaa8",
           "cf593f6f-7586-4e95-b4c8-32b1d99d575a",
           "9662196b-5016-4c2f-a928-3ea810b613f3",
