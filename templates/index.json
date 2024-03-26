@@ -448,6 +448,17 @@
             "tag": "News"
           }
         },
+        "ug_index_blog_item_rrJ7nq": {
+          "type": "ug-index-blog-item",
+          "settings": {
+            "title": "Le UGREEN Nexode RG 65W est arrivé : Un Chargeur Portable Robo-Puissant",
+            "blog_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/4111\/8528\/files\/DE.png?v=1711419103",
+            "date": "",
+            "description": "",
+            "link": "https:\/\/fr.ugreen.com\/blogs\/news\/le-ugreen-nexode-rg-65w-est-la-un-chargeur-portable-robotise-puissant-et-compact",
+            "tag": "News"
+          }
+        },
         "825b9746-c7d0-4d97-a9ef-ba573b1ebc66": {
           "type": "ug-index-blog-item",
           "settings": {
@@ -462,6 +473,7 @@
       },
       "block_order": [
         "fe469495-d8cb-424c-af61-09b08c7155ab",
+        "ug_index_blog_item_rrJ7nq",
         "825b9746-c7d0-4d97-a9ef-ba573b1ebc66"
       ],
       "custom_css": [
