@@ -2488,10 +2488,6 @@ audio:not([controls]) {
   display: none;
 }
 
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-}
 
 pre {
   margin: 0;
