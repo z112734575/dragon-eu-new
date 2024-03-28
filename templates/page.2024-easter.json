@@ -67,7 +67,7 @@
         "d34e9e35-2164-4636-9cba-8b376d673c3c": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Cables",
+            "tabs_title": "Cable",
             "product_list": [
               "ugreen-cable-usb-c-2pack-carga-rapida-pd-3-0-100w",
               "ugreen-cable-usb-c-a-usb-c-60w-pd-3-0-cable-tipo-c-carga-rapida",
@@ -95,7 +95,7 @@
         "b5981575-b7d3-4bcf-b303-7a81dd1f58ee": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Power Station",
+            "tabs_title": "Batería Portátil",
             "product_list": [
 
             ]
