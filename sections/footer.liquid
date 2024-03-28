@@ -24,7 +24,7 @@
   assign collapse = se_stts.collapse
 -%}
 <div class="t4s-section-inner t4s_nt_se_{{sid}} t4s_se_{{sid}} {{stt_layout}} {%- if  se_stts.border_top == true -%} t4s-footer-has-border t4s-footer-border-{{se_stts.border_pos}} {%- endif -%}  {%- if stt_image_bg != blank and stt_layout != 't4s-se-container' -%}  t4s-has-imgbg lazyloadt4s {%- endif -%} "  {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1.5" {% endif %}   {% render 'section_style',se_stts:se_stts %}>
-    {%- render 'ug-footer-subscribe' -%}
+  {%- render 'ug-footer-subscribe', se_stts: se_stts  -%}
 
     {{-html_layout[0]-}}
     {%- if stt_layout == 't4s-se-container' -%}<div class="t4s-container-inner {% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s {% endif %} "  {% if stt_image_bg != blank %}  data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1.5" {% endif %} > {%- endif -%}
@@ -155,6 +155,39 @@
   "tag": "section",
   "class": "t4s-section t4s-section-footer t4s_tp_cdt t4s-footer",
   "settings": [
+    {
+      "type": "header",
+      "content": "Footer 邮箱设置"
+    },
+    {
+      "type": "text",
+      "id": "email_title",
+      "label": "大标题",
+      "default": "Unlock Ugreen VIP Access: ¡Suscríbete para ofertas especiales!"
+    },
+    {
+      "type": "text",
+      "id": "email_subtitle",
+      "label": "小标题"
+    },
+    {
+      "type": "text",
+      "id": "email_btn_text",
+      "label": "订阅按钮文案",
+      "default": "Subscribe"
+    },
+    {
+      "type": "textarea",
+      "id": "email_terms_text",
+      "label": "隐私条款文案",
+      "default": "Acepto los Términos de Uso y la Política de Privacidad."
+    },
+    {
+      "type": "text",
+      "id": "email_success_text",
+      "label": "订阅成功后文案",
+      "default": "Thank you for subscribing!"
+    },
     {
       "type": "header",
       "content": "1. Advance options"
