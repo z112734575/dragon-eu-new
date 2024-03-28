@@ -103,16 +103,11 @@
         },
         "82e89c4e-58ed-4668-b5e0-707f3f82a435": {
           "type": "ug-product-list-tabs",
+          "disabled": true,
           "settings": {
             "tabs_title": "Adapter & Stands",
             "product_list": [
-              "ugreen-bluetooth-5-0-transmitter-and-receiver",
-              "ugreen-tablet-stand-holder-for-desk",
-              "ugreen-360-rotating-tablet-stand-holder",
-              "lazy-arm-tablet-holder",
-              "cell-phone-stand-holder",
-              "magnetic-air-vent-car-holder",
-              "windshield-car-phone-mount"
+
             ]
           }
         }
