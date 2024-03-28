@@ -2812,6 +2812,13 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋Hello, please tell us your problem here"
         }
+      },
+      "16387799423947206774": {
+        "type": "shopify:\/\/apps\/ecf-contact-form-builder\/blocks\/cs-app-block\/f801eb98-c038-452f-9400-11754de52b77",
+        "disabled": false,
+        "settings": {
+          "ecfversion": "v2"
+        }
       }
     }
   }
