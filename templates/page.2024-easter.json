@@ -35,15 +35,10 @@
           "settings": {
             "tabs_title": "Bundle",
             "product_list": [
-              "ugreen-100w-25000mah-for-laptop-3-ports-power-bank-bundle",
-              "ugreen-nexode-100w-usb-c-wall-charger-4-ports-1",
-              "ugreen-nexode-200w-usb-c-desktop-charger-bundle-1",
-              "ugreen-nexode-300w-usb-c-gan-charger-5-ports-desktop-charger-bundle-1",
-              "ugreen-nexode-65w-usb-c-gan-charger-3-ports-wall-charger-bundle",
-              "ugreen-nexode-140w-usb-c-gan-charger-3-ports-wall-charger-bundle-1",
-              "bundle-revodok-pro-9-in-1-hub-100w-4-ports-gan-charger-100w-usb-c-cable",
-              "bundle-nexode-65w-us-uk-eu-plug-travel-charger-usb-c-100w-fast-cable-2-pack",
-              "ugreen-1200w-portable-power-station-ugreen-foldable-solar-panel-1"
+              "ugreen-nexode-65w-usb-c-gan-charger-3-ports-wall-charger-1m-60w-usb-c-cable",
+              "ugreen-nexode-4-port-100w-usb-c-gan-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-nexode-200w-usb-c-gan-charger-6-ports-desktop-charger-2-pack-usb-c-100w-charger-cable",
+              "ugreen-nexode-300w-gan-wall-usb-c-charger-5-ports"
             ]
           }
         },
