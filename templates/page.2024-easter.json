@@ -70,12 +70,13 @@
         "b5981575-b7d3-4bcf-b303-7a81dd1f58ee": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Power Station",
+            "tabs_title": "Power Bank",
             "product_list": [
-              "ugreen-powerroam1200-power-station",
-              "ugreen-powerroam-1200-solar-generation",
-              "ugreen-portable-power-station-lifepo4-battery-solar-generator-2200w-2048wh",
-              "ugreen-foldable-solar-panel-for-portable-power-station-200-w"
+              "25188",
+              "ugreen-145w-power-bank-for-laptop",
+              "ugreen-10000mah-magsafe-wireless-power-bank",
+              "pb561",
+              "pb560"
             ]
           }
         },
