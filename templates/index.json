@@ -8,6 +8,25 @@
     "ug-index-carousel": {
       "type": "ug-index-carousel",
       "blocks": {
+        "ug_index_carousel_item_7mjiex": {
+          "type": "ug-index-carousel-item",
+          "settings": {
+            "pc_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0629\/6308\/9575\/files\/EU_pc.png?v=1711532751",
+            "mobile_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0629\/6308\/9575\/files\/EU_mo.png?v=1711532736",
+            "text_color": "#000000",
+            "title": "Celebre la Pascua con UGREEN",
+            "subtitle": "Ahorre Hasta Un 30%",
+            "button_text": "Ahorre Ahora",
+            "link": "https:\/\/es.ugreen.com\/pages\/ofertas-de-pascua",
+            "pc_align": "left",
+            "mobile_align": "center",
+            "pc_top": 30,
+            "pc_left": 28,
+            "mobile_top": 15,
+            "mobile_left": 0,
+            "className": ""
+          }
+        },
         "ug-index-carousel-11": {
           "type": "ug-index-carousel-item",
           "settings": {
@@ -106,6 +125,7 @@
         }
       },
       "block_order": [
+        "ug_index_carousel_item_7mjiex",
         "ug-index-carousel-11",
         "6c99235d-1a0a-4489-bae1-1a493df0dc48",
         "136aa1cb-6667-4eb9-acc9-6576fc183f41",
