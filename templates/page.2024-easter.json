@@ -30,21 +30,6 @@
     "ug-tabs-product-list": {
       "type": "ug-tabs-product-list",
       "blocks": {
-        "ug_product_list_tabs_JidnL4": {
-          "type": "ug-product-list-tabs",
-          "settings": {
-            "tabs_title": "récepteur émetteur Bluetooth",
-            "product_list": [
-              "ugreen-adaptateur-jack-bluetooth-5-3-pour-voiture-recepteur-bluetooth",
-              "ugreen-adaptateur-bluetooth-5-0-recepteur-2-en-1-bluetooth-jack-aux",
-              "ugreen-adaptateur-bluetooth-5-1-pour-tv-2-en-1-emetteur-recepteur",
-              "50281p",
-              "ugreen-dongle-bluetooth-5-0-cle-usb-bluetooth",
-              "ugreen-recepteur-sans-fil-bluetooth-5-0-adaptateur-bluetooth-hifi",
-              "10396"
-            ]
-          }
-        },
         "1c9fbfe1-6d72-4586-a37c-b9645f7163c7": {
           "type": "ug-product-list-tabs",
           "settings": {
@@ -176,18 +161,42 @@
             ]
           }
         },
+        "ug_product_list_tabs_JidnL4": {
+          "type": "ug-product-list-tabs",
+          "settings": {
+            "tabs_title": "récepteur émetteur Bluetooth",
+            "product_list": [
+              "ugreen-adaptateur-jack-bluetooth-5-3-pour-voiture-recepteur-bluetooth",
+              "ugreen-adaptateur-bluetooth-5-0-recepteur-2-en-1-bluetooth-jack-aux",
+              "ugreen-adaptateur-bluetooth-5-1-pour-tv-2-en-1-emetteur-recepteur",
+              "50281p",
+              "ugreen-dongle-bluetooth-5-0-cle-usb-bluetooth",
+              "ugreen-recepteur-sans-fil-bluetooth-5-0-adaptateur-bluetooth-hifi",
+              "10396"
+            ]
+          }
+        },
         "ug_product_list_tabs_d7qxWa": {
           "type": "ug-product-list-tabs",
           "settings": {
-            "tabs_title": "Accessoire PC",
+            "tabs_title": "Boîtiers de disque dur",
             "product_list": [
-
+              "ugreen-boitier-m-2-ssd-nvme-sata-en-usb-3-2-gen-2-10-gbps",
+              "ugreen-boitier-ssd-m-2-nvme-sata-usb-3-2-gen-2-10gbps-2to",
+              "ugreen-boitier-m-2-ssd-nvme-usb-3-2-gen-2-10-gbps-aptateur",
+              "ugreen-adaptateur-usb-sata-iii-cable-sata-usb-disque",
+              "ugreen-cable-sata-usb-3-0-adaptateur-sata-usb",
+              "ugreen-usb-3-0-boitier-externe-disque-dur-2-5-pouces-sata-iii-hdd-ssd",
+              "ugreen-usb-c-3-1-gen-2-boitier-disque-dur-externe-2-5-pouces-sata-hdd",
+              "ugreen-usb-c-boitier-disque-dur-externe-2-5-pouces-sata-hdd-ssd",
+              "ugreen-usb-c-boitier-externe-2-5-pouces-disque",
+              "60353",
+              "ugreen-usb-3-0-boitier-externe-pour-disque-dur-2-5-pouces-sata"
             ]
           }
         }
       },
       "block_order": [
-        "ug_product_list_tabs_JidnL4",
         "1c9fbfe1-6d72-4586-a37c-b9645f7163c7",
         "2632b153-e4f5-4946-9146-3002be2c2b29",
         "37cf4654-a486-4d1c-bdd8-2a50c4ce5bc4",
@@ -195,6 +204,7 @@
         "ug_product_list_tabs_hTtCtL",
         "82e89c4e-58ed-4668-b5e0-707f3f82a435",
         "ug_product_list_tabs_RfVqWH",
+        "ug_product_list_tabs_JidnL4",
         "ug_product_list_tabs_d7qxWa"
       ],
       "settings": {
