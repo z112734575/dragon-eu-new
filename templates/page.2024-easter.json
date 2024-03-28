@@ -32,6 +32,7 @@
       "blocks": {
         "1c9fbfe1-6d72-4586-a37c-b9645f7163c7": {
           "type": "ug-product-list-tabs",
+          "disabled": true,
           "settings": {
             "tabs_title": "Bundle",
             "product_list": [
@@ -68,16 +69,14 @@
           "settings": {
             "tabs_title": "Hubs",
             "product_list": [
-              "ugreen-revodok-pro-9-in-1-usb-c-hub",
-              "ugreen-revodok-max-211-docking-station",
-              "ugreen-revodok-pro-312-docking-station",
-              "ugreen-revodok-pro-209-docking-station",
-              "ugreen-revodok-pro-7-in-1-usb-c-hub",
-              "7-in-1-multiport-adapter-with-4k-60hz",
-              "6-in-1-usb-c-adapter-with-4k-hdmi",
-              "ultra-slim-5-in-1-usb-c-hub",
-              "ultra-slim-4-ports-usb-c-hub",
-              "ugreen-7-in-1-usb-3-0-hub"
+              "ugreen-hub-usb-c-4k-60hz-6-en-1-usb-c-hub-a-hdmi-4k-60hz",
+              "ugreen-revodok-hub-usb-c-6-en-1-adaptador-usb-c-a-hdmi-4k-3-puertos",
+              "ugreen-hub-usb-c-5-en-1-adaptador-usb-c-a-hdmi-4k-gigabit-ethernet",
+              "ugreen-revodok-hub-usb-c-adaptador-usb-c-hub",
+              "ugreen-docking-station-usb-c-hdmi-4k-hub-adaptador-usb-c",
+              "ugreen-hub-usb-c-adaptador-usb-c-a-4k-hdmi-2-puerto-usb-3-0",
+              "ugreen-hub-usb-c-hdmi-4k-5-en-1-adaptador-usb-c",
+              "ugreen-revodok-hub-usb-c-doble-hdmi-8k-4k-adaptador"
             ]
           }
         },
